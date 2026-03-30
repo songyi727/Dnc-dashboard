@@ -1,48 +1,30 @@
 name: DNC 매출 리포트 자동 발송
- 
+
 on:
   schedule:
-    # 매월 20일 오전 9시 (KST = UTC+9, 즉 UTC 00:00)
-    - cron: '0 0 20 * *'
-    # 매월 말일 오전 9시 — 28, 29, 30, 31일 체크 후 다음달 1일이면 실행
-    - cron: '0 0 28-31 * *'
+    - cron: '0 0 * * *'  # 매일 오전 9시 (KST)
   workflow_dispatch:  # 수동 실행 버튼
- 
+
 jobs:
   send-email:
     runs-on: ubuntu-latest
- 
+
     steps:
       - name: Checkout
         uses: actions/checkout@v4
- 
+
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
           python-version: '3.11'
- 
+
       - name: Install dependencies
         run: pip install pandas openpyxl
- 
-      - name: Check if last day of month (말일 체크)
-        id: lastday
-        run: |
-          DAY=$(date +%-d)
-          MONTH=$(date +%-m)
-          YEAR=$(date +%Y)
-          # 다음날이 1일이면 오늘이 말일
-          NEXT=$(date -d "+1 day" +%-d)
-          if [ "$NEXT" = "1" ] || [ "$DAY" = "20" ]; then
-            echo "should_send=true" >> $GITHUB_OUTPUT
-          else
-            echo "should_send=false" >> $GITHUB_OUTPUT
-          fi
- 
+
       - name: Generate and send report
-        if: steps.lastday.outputs.should_send == 'true'
         env:
-          GMAIL_USER: ${{ secrets.GMAIL_USER }}
-          GMAIL_APP_PW: ${{ secrets.GMAIL_APP_PW }}
-          RECIPIENT: ${{ secrets.RECIPIENT }}
-          DASHBOARD_URL: https://songyi727.github.io/Dnc-dashboard/
+          GMAIL_USER:     ${{ secrets.GMAIL_USER }}
+          GMAIL_PASSWORD: ${{ secrets.GMAIL_PASSWORD }}
+          RECV_EMAIL:     ${{ secrets.RECV_EMAIL }}
+          DASHBOARD_URL:  https://songyi727.github.io/Dnc-dashboard/
         run: python send_report.py
