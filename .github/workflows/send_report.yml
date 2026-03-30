@@ -1,26 +1,26 @@
 name: DNC 매출 리포트 자동 발송
-
+ 
 on:
   schedule:
-    - cron: '0 0 * * *'  # 매일 오전 9시 (KST)
-  workflow_dispatch:  # 수동 실행 버튼
-
+    - cron: '0 0 * * *'  # 매일 오전 9시 KST
+  workflow_dispatch:  # 수동 실행 버튼 (테스트용)
+ 
 jobs:
   send-email:
     runs-on: ubuntu-latest
-
+ 
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-
+ 
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
           python-version: '3.11'
-
+ 
       - name: Install dependencies
         run: pip install pandas openpyxl
-
+ 
       - name: Generate and send report
         env:
           GMAIL_USER:     ${{ secrets.GMAIL_USER }}
