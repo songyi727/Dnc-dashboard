@@ -1054,7 +1054,7 @@ function buildSummary(){
     return`<tr><td><b>${item}</b></td><td>${fmtWS(val)}</td><td>${share}%</td><td>${badge}</td><td>${badgeA}</td></tr>`;
   }).join('');
 
-  const filterLabel=`${cy}년 ${cm}월${sT!=='all'?' · '+sT:''}${sP!=='all'?' · '+sP:''}${sD!=='all'?' · '+sD:''}`;
+  const filterLabel=`${cy}년 ${cm}월${sT!=='all'?' · '+sT:''}${sP!=='all'?' · '+sP:''}${selDists.size===1?' · '+[...selDists][0]:selDists.size>1?' · '+[...selDists].join('·'):''}`;
 
   return`
   <div class="ai-section">
