@@ -2,171 +2,64 @@
 DNC 매출 현황 대시보드 — 자동 메일 발송 스크립트
 =====================================================
 GitHub Actions에서 자동 실행됩니다.
-환경변수(Secrets)에서 설정값을 읽어옵니다.
+report_data.json 파일을 읽어서 메일을 발송합니다.
+(엑셀 파일 불필요 — update_dashboard.py 실행 시 자동 생성)
 """
-
+ 
 import os
 import json
 import smtplib
 from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
-from datetime import datetime, date
-import calendar
-
+from datetime import datetime
+ 
 # ============================================================
 # 설정 — GitHub Secrets에서 자동으로 읽어옴
 # ============================================================
-GMAIL_USER     = os.environ.get('GMAIL_USER', '')       # 발송용 Gmail
-GMAIL_PASSWORD = os.environ.get('GMAIL_PASSWORD', '')   # 앱 비밀번호
-RECV_EMAIL     = os.environ.get('RECV_EMAIL', '')       # 수신 메일
+GMAIL_USER     = os.environ.get('GMAIL_USER', '')
+GMAIL_PASSWORD = os.environ.get('GMAIL_PASSWORD', '')
+RECV_EMAIL     = os.environ.get('RECV_EMAIL', '')
 DASHBOARD_URL  = os.environ.get('DASHBOARD_URL', 'https://songyi727.github.io/Dnc-dashboard/')
-DATA_FILE      = 'Sales_Dashboard-rawdata.xlsx'
+DATA_FILE      = 'report_data.json'
 # ============================================================
-
-ITEMS = ['톡신','CaHA','HA','브이올렛','케어트로핀','캐뉼라','리프팅실','리알로인젝트파인','병원화장품','처방']
-DEPT  = 'DA_RPM사업부'
-FIXED_ITEMS = ['톡신','HA','CaHA','브이올렛','리프팅실','병원화장품']
-
-def ni(v):
-    import pandas as pd
-    t = str(v).strip() if pd.notna(v) else '기타'
-    return t if t in ITEMS else '기타'
-
+ 
 def fs(v):
     if v >= 1e8: return f"{v/1e8:.1f}억원"
     if v >= 1e4: return f"{v/1e4:,.0f}만원"
     return f"{v:,.0f}원"
-
-def pct(v):
+ 
+def chg_color(v):
+    if v is None: return '#888888'
+    return '#1D9E75' if v >= 0 else '#E24B4A'
+ 
+def chg_arrow(v):
+    if v is None: return '-'
     return f"{'▲' if v >= 0 else '▼'}{abs(v):.1f}%"
-
-def build_report():
-    import pandas as pd
-
-    xl = pd.ExcelFile(DATA_FILE)
-    raw = pd.read_excel(xl, sheet_name='sales_raw', dtype=str)
-    raw['실매출액'] = pd.to_numeric(raw['실매출액'], errors='coerce').fillna(0)
-    raw['연'] = pd.to_numeric(raw['연'], errors='coerce').fillna(0).astype(int)
-    raw['월'] = pd.to_numeric(raw['월'], errors='coerce').fillna(0).astype(int)
-    raw = raw[raw['사업부명'].str.strip() == DEPT].copy()
-    raw['_item'] = raw['품목구분'].apply(ni)
-    raw['_biz']  = raw['사업자번호'].fillna('').str.strip()
-    raw['_dist'] = raw['유통구분'].fillna('').str.strip()
-    raw['_date'] = pd.to_datetime(raw['일자'], errors='coerce')
-
-    max_date = raw['_date'].max()
-    cy = max_date.year
-    cm = max_date.month
-
-    def get_sales(y, m, item=None):
-        mask = (raw['연']==y) & (raw['월']==m) & (raw['실매출액']>0)
-        if item: mask &= (raw['_item']==item)
-        return raw[mask]['실매출액'].sum()
-
-    def get_clients(y, m):
-        mask = (raw['연']==y) & (raw['월']==m) & (raw['실매출액']>0)
-        return raw[mask]['_biz'].nunique()
-
-    # 핵심 지표
-    cur_sales  = get_sales(cy, cm)
-    prev_m     = cm-1 if cm > 1 else 12
-    prev_y     = cy if cm > 1 else cy-1
-    prev_sales = get_sales(prev_y, prev_m)
-    yoy_sales  = get_sales(cy-1, cm)
-    p3_sales   = sum(get_sales(cy if cm-i>0 else cy-1, (cm-i-1)%12+1) for i in range(1,4)) / 3
-
-    cur_clients  = get_clients(cy, cm)
-    prev_clients = get_clients(prev_y, prev_m)
-
-    mom_r   = (cur_sales - prev_sales) / prev_sales * 100 if prev_sales > 0 else 0
-    yoy_r   = (cur_sales - yoy_sales)  / yoy_sales  * 100 if yoy_sales  > 0 else 0
-    avg3_r  = (cur_sales - p3_sales)   / p3_sales   * 100 if p3_sales   > 0 else 0
-    cl_diff = cur_clients - prev_clients
-
-    # KPI
-    kpi_df = pd.read_excel(xl, sheet_name='KPI', dtype=str)
-    kpi_df['KPI'] = pd.to_numeric(kpi_df['KPI'], errors='coerce').fillna(0)
-    kpi_df['연']  = pd.to_numeric(kpi_df['연'],  errors='coerce').fillna(0).astype(int)
-    kpi_df['월']  = pd.to_numeric(kpi_df['월'],  errors='coerce').fillna(0).astype(int)
-    kpi_df['_item'] = kpi_df['품목구분'].apply(ni)
-
-    active_teams = set(raw['현재팀'].dropna().str.strip().unique()) - {'', '-'}
-    mKPI = kpi_df[(kpi_df['연']==cy) & (kpi_df['월']==cm) & (kpi_df['팀'].str.strip().isin(active_teams))]['KPI'].sum()
-    aKPI = kpi_df[(kpi_df['연']==cy) & (kpi_df['팀'].str.strip().isin(active_teams))]['KPI'].sum()
-    aS   = raw[(raw['연']==cy) & (raw['월']<=cm) & (raw['실매출액']>0)]['실매출액'].sum()
-
-    m_rate = cur_sales / mKPI * 100 if mKPI > 0 else None
-    a_rate = aS / aKPI * 100 if aKPI > 0 else None
-
-    # 예측 마감
-    p3_list = [get_sales(cy if cm-i>0 else cy-1, (cm-i-1)%12+1) for i in range(1,4)]
-    weighted = (p3_list[0]*1 + p3_list[1]*2 + p3_list[2]*3) / 6
-    mean_y = sum(p3_list)/3
-    xs = [-2,-1,0]
-    slope_num = sum((x-(-1))*(v-mean_y) for x,v in zip(xs,p3_list))
-    slope_den = sum((x-(-1))**2 for x in xs)
-    slope = slope_num/slope_den if slope_den != 0 else 0
-    trend = mean_y + slope * 3
-    fcst  = max(0, (weighted + trend) / 2)
-    fcst_rate = fcst / mKPI * 100 if mKPI > 0 else None
-    fcst_vs_avg = (fcst - mean_y) / mean_y * 100 if mean_y > 0 else 0
-
-    # 품목별 매출
-    item_data = []
-    for item in FIXED_ITEMS:
-        val  = get_sales(cy, cm, item)
-        prev = get_sales(prev_y, prev_m, item)
-        p3_i = sum(get_sales(cy if cm-i>0 else cy-1, (cm-i-1)%12+1, item) for i in range(1,4)) / 3
-        chg_mom  = (val-prev)/prev*100 if prev > 0 else None
-        chg_avg  = (val-p3_i)/p3_i*100 if p3_i > 0 else None
-        item_data.append({'item':item,'val':val,'chg_mom':chg_mom,'chg_avg':chg_avg})
-
-    return dict(
-        cy=cy, cm=cm, max_date=max_date.strftime('%Y-%m-%d'),
-        cur_sales=cur_sales, prev_sales=prev_sales,
-        mom_r=mom_r, yoy_r=yoy_r, avg3_r=avg3_r,
-        mKPI=mKPI, aKPI=aKPI, aS=aS,
-        m_rate=m_rate, a_rate=a_rate,
-        cur_clients=cur_clients, cl_diff=cl_diff,
-        fcst=fcst, fcst_rate=fcst_rate, fcst_vs_avg=fcst_vs_avg,
-        item_data=item_data
-    )
-
+ 
 def rate_color(r):
     if r is None: return '#888888'
     if r >= 100: return '#1D9E75'
     if r >= 90:  return '#e8a838'
     return '#E24B4A'
-
-def chg_color(v):
-    if v is None: return '#888888'
-    return '#1D9E75' if v >= 0 else '#E24B4A'
-
-def chg_arrow(v):
-    if v is None: return '-'
-    arrow = '▲' if v >= 0 else '▼'
-    return f"{arrow}{abs(v):.1f}%"
-
+ 
 def build_html(d):
     today = datetime.now().strftime('%Y년 %m월 %d일')
     mr = d['m_rate']
     ar = d['a_rate']
     fr_rate = d['fcst_rate']
-
-    # 품목 행 생성
+ 
+    # 품목 행
     item_rows = ''
     for it in d['item_data']:
-        cm_color = chg_color(it['chg_mom'])
-        ca_color = chg_color(it['chg_avg'])
         item_rows += f"""
         <tr>
           <td style="padding:8px 12px;border-bottom:1px solid #f0f0f0;font-weight:500;color:#1a1a1a">{it['item']}</td>
           <td style="padding:8px 12px;border-bottom:1px solid #f0f0f0;text-align:right;font-weight:600;color:#1a3a6b">{fs(it['val'])}</td>
-          <td style="padding:8px 12px;border-bottom:1px solid #f0f0f0;text-align:center;color:{cm_color};font-weight:500">{chg_arrow(it['chg_mom'])}</td>
-          <td style="padding:8px 12px;border-bottom:1px solid #f0f0f0;text-align:center;color:{ca_color};font-weight:500">{chg_arrow(it['chg_avg'])}</td>
+          <td style="padding:8px 12px;border-bottom:1px solid #f0f0f0;text-align:center;color:{chg_color(it['chg_mom'])};font-weight:500">{chg_arrow(it['chg_mom'])}</td>
+          <td style="padding:8px 12px;border-bottom:1px solid #f0f0f0;text-align:center;color:{chg_color(it['chg_avg'])};font-weight:500">{chg_arrow(it['chg_avg'])}</td>
         </tr>"""
-
-    # 달성률 상태 메시지
+ 
+    # 달성 상태 메시지
     if mr is None:
         diag_bg, diag_color, diag_msg = '#f5f5f3', '#666', 'KPI 데이터 없음'
     elif mr >= 100:
@@ -175,30 +68,25 @@ def build_html(d):
         diag_bg, diag_color, diag_msg = '#FFF8E5', '#7a4f00', f'⚡ KPI 근접 달성 ({mr:.1f}%) — 목표까지 {fs(d["mKPI"]-d["cur_sales"])} 남음'
     else:
         diag_bg, diag_color, diag_msg = '#FEF0F0', '#c0392b', f'⚠️ KPI 미달 ({mr:.1f}%) — 목표 대비 {fs(d["mKPI"]-d["cur_sales"])} 부족'
-
+ 
     # 예측 상태
     if fr_rate is None:
-        fcst_diag = 'KPI 데이터 없음'
-        fcst_bg, fcst_tc = '#f5f5f3', '#666'
+        fcst_diag, fcst_bg, fcst_tc = 'KPI 데이터 없음', '#f5f5f3', '#666'
     elif fr_rate >= 100:
-        fcst_diag = f'예측 기준 KPI 초과 달성 가능 ({fr_rate:.1f}%)'
-        fcst_bg, fcst_tc = '#EDFAF4', '#0a5c3e'
+        fcst_diag, fcst_bg, fcst_tc = f'예측 기준 KPI 초과 달성 가능 ({fr_rate:.1f}%)', '#EDFAF4', '#0a5c3e'
     elif fr_rate >= 90:
-        fcst_diag = f'예측 기준 KPI 근접 달성 예상 ({fr_rate:.1f}%)'
-        fcst_bg, fcst_tc = '#FFF8E5', '#7a4f00'
+        fcst_diag, fcst_bg, fcst_tc = f'예측 기준 KPI 근접 달성 예상 ({fr_rate:.1f}%)', '#FFF8E5', '#7a4f00'
     else:
-        fcst_diag = f'예측 기준 KPI 미달 예상 ({fr_rate:.1f}%) — {fs(max(0, d["mKPI"]-d["fcst"]))} 추가 필요'
-        fcst_bg, fcst_tc = '#FEF0F0', '#c0392b'
-
-    html = f"""
-<!DOCTYPE html>
+        fcst_diag, fcst_bg, fcst_tc = f'예측 기준 KPI 미달 예상 ({fr_rate:.1f}%) — {fs(max(0, d["mKPI"]-d["fcst"]))} 추가 필요', '#FEF0F0', '#c0392b'
+ 
+    html = f"""<!DOCTYPE html>
 <html lang="ko">
 <head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1.0">
 <title>DNC 매출 현황 리포트</title>
 </head>
 <body style="margin:0;padding:0;background:#f0f0ee;font-family:-apple-system,BlinkMacSystemFont,'Noto Sans KR',sans-serif">
 <div style="max-width:620px;margin:24px auto;background:#fff;border-radius:16px;overflow:hidden;box-shadow:0 4px 20px rgba(0,0,0,0.08)">
-
+ 
   <!-- 헤더 -->
   <div style="background:#1a3a6b;padding:28px 32px;text-align:center">
     <div style="font-size:22px;font-weight:700;color:#fff;letter-spacing:0.03em">DNC 매출 현황 리포트</div>
@@ -207,14 +95,14 @@ def build_html(d):
       <a href="{DASHBOARD_URL}" style="display:inline-block;background:#fff;color:#1a3a6b;padding:8px 22px;border-radius:20px;font-size:12px;font-weight:600;text-decoration:none">📊 대시보드 바로가기</a>
     </div>
   </div>
-
+ 
   <div style="padding:28px 32px">
-
+ 
     <!-- 업데이트 기준 -->
     <div style="background:#f5f5f3;border-radius:8px;padding:8px 14px;font-size:11px;color:#888;margin-bottom:24px;text-align:center">
       📅 데이터 기준: {d['cy']}년 {d['cm']}월 (업데이트: {d['max_date']})
     </div>
-
+ 
     <!-- 핵심 지표 -->
     <div style="font-size:11px;font-weight:600;color:#888;letter-spacing:.07em;text-transform:uppercase;margin-bottom:12px">핵심 지표</div>
     <table width="100%" cellpadding="0" cellspacing="0" style="margin-bottom:8px">
@@ -244,10 +132,8 @@ def build_html(d):
         </td>
       </tr>
     </table>
-
-    <!-- 달성 상태 -->
     <div style="background:{diag_bg};border-radius:8px;padding:10px 14px;font-size:12px;color:{diag_color};font-weight:500;margin-bottom:24px">{diag_msg}</div>
-
+ 
     <!-- 당월 예측 마감 -->
     <div style="font-size:11px;font-weight:600;color:#888;letter-spacing:.07em;text-transform:uppercase;margin-bottom:12px">⚡ 당월 예측 마감</div>
     <table width="100%" cellpadding="0" cellspacing="0" style="margin-bottom:8px">
@@ -263,13 +149,13 @@ def build_html(d):
           <div style="background:#f5f5f3;border-radius:10px;padding:14px">
             <div style="font-size:10px;color:#888;margin-bottom:4px">예측 KPI 달성률</div>
             <div style="font-size:18px;font-weight:700;color:{rate_color(fr_rate)}">{f"{fr_rate:.1f}%" if fr_rate else "-"}</div>
-            <div style="font-size:10px;margin-top:4px;color:#888">추가 필요: {fs(max(0,d['mKPI']-d['fcst'])) if d['mKPI'] else '-'}</div>
+            <div style="font-size:10px;margin-top:4px;color:#888">추가 필요: {fs(max(0, d['mKPI']-d['fcst'])) if d['mKPI'] else '-'}</div>
           </div>
         </td>
       </tr>
     </table>
     <div style="background:{fcst_bg};border-radius:8px;padding:10px 14px;font-size:12px;color:{fcst_tc};font-weight:500;margin-bottom:24px">{fcst_diag}</div>
-
+ 
     <!-- 주요 품목별 실적 -->
     <div style="font-size:11px;font-weight:600;color:#888;letter-spacing:.07em;text-transform:uppercase;margin-bottom:12px">🏆 주요 품목 실적</div>
     <table width="100%" cellpadding="0" cellspacing="0" style="border:1px solid #eee;border-radius:10px;overflow:hidden;margin-bottom:24px">
@@ -283,40 +169,42 @@ def build_html(d):
       </thead>
       <tbody>{item_rows}</tbody>
     </table>
-
-    <!-- 대시보드 링크 버튼 -->
+ 
+    <!-- 대시보드 링크 -->
     <div style="text-align:center;margin-bottom:8px">
       <a href="{DASHBOARD_URL}" style="display:inline-block;background:#1a3a6b;color:#fff;padding:12px 32px;border-radius:10px;font-size:13px;font-weight:600;text-decoration:none">📊 전체 대시보드 보기</a>
     </div>
-
+ 
   </div>
-
+ 
   <!-- 푸터 -->
   <div style="background:#f5f5f3;padding:16px 32px;text-align:center;font-size:10px;color:#aaa">
-    DNC AESTHETICS · DA_RPM사업부 매출 현황 자동 리포트<br>
-    본 메일은 자동 발송됩니다.
+    DNC AESTHETICS · DA_RPM사업부 매출 현황 자동 리포트<br>본 메일은 자동 발송됩니다.
   </div>
-
+ 
 </div>
 </body>
 </html>"""
     return html
-
+ 
 def send_email(subject, html_body):
     msg = MIMEMultipart('alternative')
     msg['Subject'] = subject
     msg['From']    = GMAIL_USER
     msg['To']      = RECV_EMAIL
     msg.attach(MIMEText(html_body, 'html', 'utf-8'))
-
     with smtplib.SMTP_SSL('smtp.gmail.com', 465) as server:
         server.login(GMAIL_USER, GMAIL_PASSWORD)
         server.sendmail(GMAIL_USER, RECV_EMAIL, msg.as_string())
     print(f"✅ 메일 발송 완료 → {RECV_EMAIL}")
-
+ 
 if __name__ == '__main__':
-    print("📊 데이터 분석 중...")
-    d = build_report()
+    print("📊 report_data.json 읽는 중...")
+    if not os.path.exists(DATA_FILE):
+        print(f"❌ {DATA_FILE} 없음! update_dashboard.py 먼저 실행하세요.")
+        exit(1)
+    with open(DATA_FILE, 'r', encoding='utf-8') as f:
+        d = json.load(f)
     subject = f"[DNC] {d['cy']}년 {d['cm']}월 매출 현황 리포트 ({d['max_date']} 기준)"
     print(f"📧 메일 발송 중: {subject}")
     html = build_html(d)
