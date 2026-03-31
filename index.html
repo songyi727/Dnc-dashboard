@@ -367,7 +367,7 @@ select{font-size:12px;padding:6px 10px;border-radius:8px;border:0.5px solid #ccc
     <div class="card-title">월별 매출 추이 <span id="trendRangeLabel" style="font-size:10px;font-weight:400;color:#888"></span></div>
     <div class="legend">
       <span><span class="ld" style="background:#3266ad"></span>실적</span>
-      <span><span class="ld" style="background:#e8a838"></span>목표(KPI)</span>
+      <span><span class="ld" style="background:#e8a838"></span>목표(Target)</span>
       <span><span class="ld" style="background:#9FE1CB"></span>전년도 동월</span>
       <span><span class="ld-line" style="background:#E24B4A"></span>달성률 (우축)</span>
     </div>
@@ -637,29 +637,29 @@ function updateAll(){
   if(yS>0){const r=(cS-yS)/yS*100;se('mMYoy',gs(r),'metric-sub-val '+(r>=0?'up':'down'));}
   if(av3>0){const r=(cS-av3)/av3*100;se('mMAvg3',gs(r),'metric-sub-val '+(r>=0?'up':'down'));}
 
-  // 거래처 수 — 전월/동기간/직전3개월평균
+  // 거래처 수 — 전월/동기간/직전3개월평균 (개처 단위)
   const cl=cntC(cmr);
   const clPrev=cntC(pmr);
   const clYoy=cntC(fr(RAW.filter(r=>r._y===py&&r._m===cm),'all','all'));
-  const clAvg3=p3r.reduce((s,rows)=>s+cntC(rows),0)/3;
+  const clAvg3=Math.round(p3r.reduce((s,rows)=>s+cntC(rows),0)/3);
   se('mClients',cl.toLocaleString());
-  if(clPrev>0){const d=(cl-clPrev)/clPrev*100;se('mCMom',gs(d),'metric-sub-val '+(d>=0?'up':'down'));}else se('mCMom','-','metric-sub-val gn');
-  if(clYoy>0){const d=(cl-clYoy)/clYoy*100;se('mCYoy',gs(d),'metric-sub-val '+(d>=0?'up':'down'));}else se('mCYoy','-','metric-sub-val gn');
-  if(clAvg3>0){const d=(cl-clAvg3)/clAvg3*100;se('mCAvg3',gs(d),'metric-sub-val '+(d>=0?'up':'down'));}else se('mCAvg3','-','metric-sub-val gn');
+  const clDm=cl-clPrev;se('mCMom',(clDm>=0?'+':'')+clDm+'처','metric-sub-val '+(clDm>=0?'up':'down'));
+  const clDy=cl-clYoy;se('mCYoy',(clDy>=0?'+':'')+clDy+'처','metric-sub-val '+(clDy>=0?'up':'down'));
+  const clDa=cl-clAvg3;se('mCAvg3',(clDa>=0?'+':'')+clDa+'처','metric-sub-val '+(clDa>=0?'up':'down'));
 
-  // 신규 거래처 — 전월/동기간/직전3개월평균
+  // 신규 거래처 — 전월/동기간/직전3개월평균 (개처 단위)
   const nc=cntNew(cy,cm,cmr);
   const ncPrev=cntNew(py2,pm2,pmr);
   const ncYoy=cntNew(py,cm,fr(RAW.filter(r=>r._y===py&&r._m===cm),'all','all'));
-  const ncAvg3=p3r.reduce((s,rows,i)=>{
+  const ncAvg3=Math.round(p3r.reduce((s,rows,i)=>{
     const prevM=cm-(i+1)<=0?cm-(i+1)+12:cm-(i+1);
     const prevY=cm-(i+1)<=0?cy-1:cy;
     return s+cntNew(prevY,prevM,rows);
-  },0)/3;
+  },0)/3);
   se('mNew',nc.toLocaleString());
-  if(ncPrev>0){const d=(nc-ncPrev)/ncPrev*100;se('mNMom',gs(d),'metric-sub-val '+(d>=0?'up':'down'));}else se('mNMom','-','metric-sub-val gn');
-  if(ncYoy>0){const d=(nc-ncYoy)/ncYoy*100;se('mNYoy',gs(d),'metric-sub-val '+(d>=0?'up':'down'));}else se('mNYoy','-','metric-sub-val gn');
-  if(ncAvg3>0){const d=(nc-ncAvg3)/ncAvg3*100;se('mNAvg3',gs(d),'metric-sub-val '+(d>=0?'up':'down'));}else se('mNAvg3','-','metric-sub-val gn');
+  const ncDm=nc-ncPrev;se('mNMom',(ncDm>=0?'+':'')+ncDm+'처','metric-sub-val '+(ncDm>=0?'up':'down'));
+  const ncDy=nc-ncYoy;se('mNYoy',(ncDy>=0?'+':'')+ncDy+'처','metric-sub-val '+(ncDy>=0?'up':'down'));
+  const ncDa=nc-ncAvg3;se('mNAvg3',(ncDa>=0?'+':'')+ncDa+'처','metric-sub-val '+(ncDa>=0?'up':'down'));
 
   rTrend(cy,cm);rDetail(cy,cm);rCharts(cmr);rItemTrend(cy,cm);rTop10(cmr,p3r);rNewItem(calcNI(cy,cm,cmr,pmr));
 }
@@ -677,7 +677,7 @@ function rTrend(cy,cm){
   document.getElementById('trendRangeLabel').textContent=`(${first.y}년 ${first.m}월 ~ ${last.y}년 ${last.m}월)`;
   mk('cTrend',{data:{labels,datasets:[
     {type:'bar',label:'실적',data:ac,backgroundColor:'#3266ad',borderRadius:3,yAxisID:'y',order:4},
-    {type:'bar',label:'목표(KPI)',data:kp,backgroundColor:'#e8a838',borderRadius:3,yAxisID:'y',order:3},
+    {type:'bar',label:'목표(Target)',data:kp,backgroundColor:'#e8a838',borderRadius:3,yAxisID:'y',order:3},
     {type:'bar',label:'전년도 동월',data:pv,backgroundColor:'#9FE1CB',borderRadius:3,yAxisID:'y',order:2},
     {type:'line',label:'달성률',data:rt,borderColor:'#E24B4A',backgroundColor:'rgba(226,75,74,0.06)',borderWidth:2,pointRadius:3,pointBackgroundColor:'#E24B4A',tension:0.3,yAxisID:'y2',order:1,spanGaps:true}
   ]},options:{responsive:true,maintainAspectRatio:false,
@@ -698,7 +698,7 @@ function rDetail(cy,cm){
   const hdrs=w12.map(({y,m})=>`<th style="font-size:9px">${y}년<br>${m}월</th>`).join('');
   document.getElementById('tDetail').innerHTML=`<thead><tr><th style="text-align:left">구분</th>${hdrs}<th>합계</th></tr></thead><tbody>`+
     `<tr><td>실적</td>${ac.map(v=>`<td>${fs(v)}</td>`).join('')}<td>${fs(tA)}</td></tr>`+
-    `<tr><td>목표 KPI</td>${kp.map(v=>`<td style="color:#888">${v>0?fs(v):'-'}</td>`).join('')}<td style="color:#888">${tK>0?fs(tK):'-'}</td></tr>`+
+    `<tr><td>목표(Target)</td>${kp.map(v=>`<td style="color:#888">${v>0?fs(v):'-'}</td>`).join('')}<td style="color:#888">${tK>0?fs(tK):'-'}</td></tr>`+
     `<tr><td>전년 동월</td>${pv.map(v=>`<td style="color:#888">${v>0?fs(v):'-'}</td>`).join('')}<td style="color:#888">${tP>0?fs(tP):'-'}</td></tr>`+
     `<tr style="border-top:0.5px solid #ddd"><td>KPI 달성률</td>${rt.map(v=>`<td class="${v!=null?(v>=100?'gu':v>=90?'gn':'gd'):'gn'}">${v!=null?v.toFixed(1)+'%':'-'}</td>`).join('')}<td class="${tK>0?(tA/tK*100>=100?'gu':'gd'):'gn'}">${tK>0?(tA/tK*100).toFixed(1)+'%':'-'}</td></tr>`+
     `<tr><td>전년대비 성장률</td>${gr.map(v=>`<td class="${v!=null?gc(v):'gn'}">${v!=null?gs(v):'-'}</td>`).join('')}<td class="${tP>0?gc(tA-tP):'gn'}">${tP>0?gs((tA-tP)/tP*100):'-'}</td></tr></tbody>`;
@@ -1321,8 +1321,6 @@ function calcClientStatus(cy, cm, useItemFilter){
 }
 // 직전 3개월 + 직3평균 계산
 function calcTrend3(cy, cm, item, useItemFilter){
-  // useItemFilter=true: ncItems 필터 적용 (그래프/추이표용)
-  // item 지정 시: 해당 품목만
   const months=[];
   for(let i=3;i>=0;i--){let m=cm-i,y=cy;if(m<=0){m+=12;y--;}months.push({y,m});}
   return months.map(({y,m})=>{
@@ -1330,8 +1328,19 @@ function calcTrend3(cy, cm, item, useItemFilter){
     const rows = posRows(ncFr(RAW.filter(r=>itemFilter(r)), y, m));
     const p12 = prev12Set(y,m);
     const p12Keys = new Set(posRows(ncFrTeam(RAW.filter(r=>p12.has(r._ym)&&itemFilter(r)&&r._s>0))).map(r=>ncKey(r)).filter(Boolean));
-    const newCnt = new Set(rows.filter(r=>ncKey(r)&&!p12Keys.has(ncKey(r))).map(r=>ncKey(r))).size;
-    return {y,m,newCnt};
+    const curKeys = new Set(rows.map(r=>ncKey(r)).filter(Boolean));
+    // 신규: 당월 있고 직전12개월 없음
+    const newCnt = new Set([...curKeys].filter(k=>!p12Keys.has(k))).size;
+    // 기존: 당월 있고 직전12개월에도 있음
+    const existCnt = new Set([...curKeys].filter(k=>p12Keys.has(k))).size;
+    // 이탈: VBA 방식
+    const t12m=m-12<=0?m-12+12:m-12, t12y=m-12<=0?y-1:y;
+    const t12Keys=new Set(posRows(ncFrTeam(RAW.filter(r=>r._y===t12y&&r._m===t12m&&itemFilter(r)&&r._s>0))).map(r=>ncKey(r)).filter(Boolean));
+    const betSet=new Set();
+    for(let i=1;i<=11;i++){let m2=t12m+i,y2=t12y;if(m2>12){m2-=12;y2++;}betSet.add(y2*100+m2);}
+    const betKeys=new Set(posRows(ncFrTeam(RAW.filter(r=>betSet.has(r._ym)&&itemFilter(r)&&r._s>0))).map(r=>ncKey(r)).filter(Boolean));
+    const lostCnt=new Set([...t12Keys].filter(k=>!betKeys.has(k)&&!curKeys.has(k))).size;
+    return {y,m,newCnt,existCnt,lostCnt};
   });
 }
 
@@ -1436,7 +1445,7 @@ function renderNewClientPage(){
 
   <!-- ③ 직전 3개월 추이 -->
   <div class="card" style="margin-bottom:10px">
-    <div class="card-title">신규 거래처 직전 3개월 추이</div>
+    <div class="card-title">신규/기존/이탈 거래처 직전 3개월 추이</div>
     <table style="width:100%;border-collapse:collapse;font-size:12px">
       <thead>
         <tr style="background:#f5f5f3">
@@ -1449,14 +1458,34 @@ function renderNewClientPage(){
         </tr>
       </thead>
       <tbody>
-        <tr>
-          <td style="padding:8px;font-weight:500">신규 거래처</td>
-          ${trend3.slice(0,3).map(({newCnt})=>`<td style="padding:8px;text-align:center;color:#888">${newCnt}개처</td>`).join('')}
-          <td style="padding:8px;text-align:center;color:#888">${avg3.toFixed(1)}개처</td>
-          <td style="padding:8px;text-align:center;font-weight:700;font-size:15px;color:#1a3a6b">${curTrend.newCnt}개처</td>
-          <td style="padding:8px;text-align:center;color:${momColor};font-weight:500">${momDiff>0?'+':''}${momDiff}개처</td>
-          <td style="padding:8px;text-align:center;color:${avgColor};font-weight:500">${avgDiff>=0?'+':''}${avgDiff.toFixed(1)}개처</td>
-        </tr>
+        ${(()=>{
+          const rows3 = [
+            {label:'신규처', color:'#1D9E75', key:'newCnt'},
+            {label:'기존처', color:'#3266ad', key:'existCnt'},
+            {label:'이탈처', color:'#E24B4A', key:'lostCnt'}
+          ];
+          const avg3exist = trend3.slice(0,3).reduce((s,r)=>s+r.existCnt,0)/3;
+          const avg3lost  = trend3.slice(0,3).reduce((s,r)=>s+r.lostCnt,0)/3;
+          const avgs = {newCnt:avg3, existCnt:avg3exist, lostCnt:avg3lost};
+          const prevTrend2 = trend3[2];
+          return rows3.map(({label,color,key})=>{
+            const cur = curTrend[key];
+            const prev = prevTrend2[key];
+            const avg = avgs[key];
+            const mDiff = cur-prev;
+            const aDiff = cur-avg;
+            const mC = mDiff>=0?'#1D9E75':'#E24B4A';
+            const aC = aDiff>=0?'#1D9E75':'#E24B4A';
+            return `<tr>
+              <td style="padding:8px;font-weight:600;color:${color}">${label}</td>
+              ${trend3.slice(0,3).map(r=>`<td style="padding:8px;text-align:center;color:#888">${r[key]}개처</td>`).join('')}
+              <td style="padding:8px;text-align:center;color:#888">${avg.toFixed(1)}개처</td>
+              <td style="padding:8px;text-align:center;font-weight:700;font-size:14px;color:${color}">${cur}개처</td>
+              <td style="padding:8px;text-align:center;color:${mC};font-weight:500">${mDiff>0?'+':''}${mDiff}개처</td>
+              <td style="padding:8px;text-align:center;color:${aC};font-weight:500">${aDiff>=0?'+':''}${aDiff.toFixed(1)}개처</td>
+            </tr>`;
+          }).join('');
+        })()}
       </tbody>
     </table>
   </div>
