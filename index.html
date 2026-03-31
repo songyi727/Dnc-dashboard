@@ -435,12 +435,26 @@ const RAW_TEMP = [];
 
 async function loadData(){
   try{
-    const res = await fetch('dashboard_data.json');
-    if(!res.ok) throw new Error('fetch failed');
-    D = await res.json();
+    // gzip 압축 데이터 로드 및 해제
+    const res = await fetch('dashboard_data.gz');
+    if(!res.ok) throw new Error('데이터 파일을 찾을 수 없습니다 ('+res.status+')');
+    const blob = await res.blob();
+    const ds = new DecompressionStream('gzip');
+    const decompressed = blob.stream().pipeThrough(ds);
+    const reader = decompressed.getReader();
+    const chunks = [];
+    while(true){
+      const {done, value} = await reader.read();
+      if(done) break;
+      chunks.push(value);
+    }
+    const text = new TextDecoder().decode(
+      chunks.reduce((a,b)=>{const c=new Uint8Array(a.length+b.length);c.set(a);c.set(b,a.length);return c;}, new Uint8Array(0))
+    );
+    D = JSON.parse(text);
     initDashboard();
   } catch(e){
-    document.body.innerHTML = '<div style="text-align:center;padding:60px;font-family:sans-serif"><h2>데이터 로드 실패</h2><p>'+e.message+'</p></div>';
+    document.body.innerHTML = '<div style="text-align:center;padding:60px;font-family:sans-serif;color:#1a1a1a"><h2 style="margin-bottom:10px">데이터 로드 실패</h2><p style="color:#888">'+e.message+'</p></div>';
   }
 }
 
