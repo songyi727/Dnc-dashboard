@@ -2,8 +2,10 @@ name: DNC 매출 리포트 자동 발송
  
 on:
   schedule:
-    - cron: '0 1 * * *'  # 매일 오전 10시 KST
+    - cron: '0 1 * * *'  # 매일 오전 10시 KST (UTC 01:00)
   workflow_dispatch:  # 수동 실행 버튼 (테스트용)
+  push:
+    branches: [main]     # ← 이 줄 추가 (push할 때마다 실행)
  
 jobs:
   send-email:
