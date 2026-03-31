@@ -135,9 +135,77 @@ select{font-size:12px;padding:6px 10px;border-radius:8px;border:0.5px solid #ccc
 .ai-footer{font-size:10px;color:#aaa;text-align:right;margin-top:16px}
 .ai-prog-wrap{margin-bottom:14px}
 .ai-prog-bar-bg{background:#e8e8e8;border-radius:99px;overflow:hidden}
+
+/* ===== 사이드바 ===== */
+#sidebarToggle{position:fixed;left:16px;top:16px;z-index:9999;background:#1a3a6b;color:#fff;border:none;border-radius:8px;padding:8px 12px;cursor:pointer;font-size:16px;line-height:1;box-shadow:0 2px 8px rgba(0,0,0,0.2)}
+#sidebarToggle:hover{background:#2557a0}
+#sidebarOverlay{display:none;position:fixed;inset:0;background:rgba(0,0,0,0.3);z-index:9997}
+#sidebarOverlay.show{display:block}
+#sidebar{position:fixed;left:-260px;top:0;height:100%;width:240px;background:#1a3a6b;z-index:9998;transition:left 0.25s ease;padding:60px 0 24px;box-shadow:4px 0 20px rgba(0,0,0,0.2)}
+#sidebar.open{left:0}
+.nav-header{padding:0 20px 16px;color:rgba(255,255,255,0.5);font-size:10px;font-weight:600;letter-spacing:.1em;text-transform:uppercase;border-bottom:1px solid rgba(255,255,255,0.1);margin-bottom:8px}
+.nav-item{display:flex;align-items:center;gap:10px;padding:11px 20px;color:rgba(255,255,255,0.7);cursor:pointer;font-size:13px;transition:all 0.15s;border-left:3px solid transparent}
+.nav-item:hover{background:rgba(255,255,255,0.08);color:#fff}
+.nav-item.active{background:rgba(255,255,255,0.12);color:#fff;border-left-color:#fff;font-weight:600}
+.nav-item svg{flex-shrink:0;opacity:0.7}
+.nav-item.active svg{opacity:1}
+
+/* ===== 신규거래처 페이지 ===== */
+#newClientPage{display:none;padding:1.5rem}
+.nc-filter-bar{display:flex;gap:8px;flex-wrap:wrap;align-items:center;padding:10px 14px;background:#f0f0ee;border-radius:12px;margin-bottom:1.25rem}
+#ncContent .st th{text-align:center}
+#ncContent .st td{text-align:center}
+#ncContent .st th:first-child,#ncContent .st td:first-child{text-align:left}
 </style>
 </head>
 <body>
+
+<!-- 사이드바 토글 버튼 -->
+<button id="sidebarToggle" onclick="toggleSidebar()">☰</button>
+
+<!-- 오버레이 -->
+<div id="sidebarOverlay" onclick="closeSidebar()"></div>
+
+<!-- 사이드바 -->
+<div id="sidebar">
+  <div class="nav-header">MENU</div>
+  <div class="nav-item active" data-page="dashboard" onclick="navTo('dashboard')">
+    <svg width="15" height="15" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="7" height="7"/><rect x="14" y="3" width="7" height="7"/><rect x="3" y="14" width="7" height="7"/><rect x="14" y="14" width="7" height="7"/></svg>
+    DNC 매출 대시보드
+  </div>
+  <div class="nav-item" data-page="newclient" onclick="navTo('newclient')">
+    <svg width="15" height="15" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M18 9v3m0 0v3m0-3h3m-3 0h-3m-2-5a4 4 0 11-8 0 4 4 0 018 0zM3 20a6 6 0 0112 0v1H3v-1z"/></svg>
+    품목별 신규 거래처
+  </div>
+</div>
+
+<!-- 신규거래처 페이지 -->
+<div id="newClientPage">
+  <div style="margin-bottom:1rem;padding-bottom:12px;border-bottom:1.5px solid #e0e0e0;display:flex;align-items:center;gap:12px">
+    <svg width="18" height="18" fill="none" viewBox="0 0 24 24" stroke="#1a3a6b" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M18 9v3m0 0v3m0-3h3m-3 0h-3m-2-5a4 4 0 11-8 0 4 4 0 018 0zM3 20a6 6 0 0112 0v1H3v-1z"/></svg>
+    <h2 style="font-size:17px;font-weight:500">품목별 신규 거래처 현황</h2>
+    <span style="font-size:11px;padding:3px 10px;border-radius:20px;background:#E6F1FB;color:#185FA5;font-weight:500">DA_RPM사업부</span>
+  </div>
+  <!-- 필터 -->
+  <div class="nc-filter-bar">
+    <span style="font-size:11px;color:#666;font-weight:500">필터</span>
+    <select id="ncYear" onchange="ncApply()"><option value="all">전체 연도</option></select>
+    <select id="ncMonth" onchange="ncApply()"><option value="all">전체 월</option></select>
+    <select id="ncTeam" onchange="ncTeamChange()"><option value="all">전체 팀</option></select>
+    <select id="ncPerson" onchange="ncApply()"><option value="all">전체 담당자</option></select>
+    <div class="multi-select-wrap" id="ncItemWrap">
+      <div class="multi-select-btn" id="ncItemBtn" onclick="toggleNcItemDrop(event)">전체 품목구분</div>
+      <div class="multi-dropdown" id="ncItemDrop">
+        <div class="multi-dropdown-item" onclick="toggleAllNcItems(event)">
+          <input type="checkbox" id="ncChkAll" checked><label for="ncChkAll" style="cursor:pointer;font-weight:500">전체 선택</label>
+        </div>
+        <div class="multi-dropdown-divider"></div>
+        <div id="ncItemCheckList"></div>
+      </div>
+    </div>
+  </div>
+  <div id="ncContent"></div>
+</div>
 
 <div id="lockScreen">
   <div class="lk-box">
@@ -1103,6 +1171,361 @@ function buildPredict(){
   <div class="ai-footer">3개월 트렌드(50%) + 전년비 계절성(50%) · 통계적 예측값</div>`;
 }
 
+/* =========================================
+   사이드바 + 품목별 신규/기존/이탈 거래처 페이지
+   ========================================= */
+
+// ===== 사이드바 토글 =====
+let sidebarOpen = false;
+function toggleSidebar(){
+  sidebarOpen = !sidebarOpen;
+  document.getElementById('sidebar').classList.toggle('open', sidebarOpen);
+  document.getElementById('sidebarOverlay').classList.toggle('show', sidebarOpen);
+}
+function closeSidebar(){
+  sidebarOpen = false;
+  document.getElementById('sidebar').classList.remove('open');
+  document.getElementById('sidebarOverlay').classList.remove('show');
+}
+
+// ===== 페이지 전환 =====
+let currentPage = 'dashboard';
+function navTo(page){
+  currentPage = page;
+  document.getElementById('dashWrap').style.display = page==='dashboard' ? '' : 'none';
+  document.getElementById('newClientPage').style.display = page==='newclient' ? '' : 'none';
+  document.querySelectorAll('.nav-item').forEach(el => el.classList.toggle('active', el.dataset.page === page));
+  closeSidebar();
+  if(page === 'newclient') renderNewClientPage();
+}
+
+// ===== 신규/기존/이탈 핵심 로직 =====
+// 키 생성: 병원화장품=실납처코드+품목, 나머지=사업자번호+품목
+function ncKey(r){ return r._i==='병원화장품' ? (r._sn||'')+':'+r._i : (r._biz||'')+':'+r._i; }
+
+// 실매출 > 0 필터 (0원, 반품 제외)
+function posRows(rows){ return rows.filter(r=>r._s>0); }
+
+// 직전 12개월 Set
+function prev12Set(cy,cm){
+  const s=new Set();
+  for(let i=1;i<=12;i++){let m=cm-i,y=cy;if(m<=0){m+=12;y--;}s.add(y*100+m);}
+  return s;
+}
+
+// nc 필터 (사이드바 페이지용 — 별도 필터 적용)
+let ncY='all', ncM='all', ncT='all', ncP='all';
+let ncItems = new Set();
+
+function ncFr(rows, oy, om){
+  return rows.filter(r=>{
+    const y=oy!==undefined?oy:ncY, m=om!==undefined?om:ncM;
+    if(y!=='all'&&r._y!==parseInt(y)) return false;
+    if(m!=='all'&&r._m!==parseInt(m)) return false;
+    if(ncT!=='all'&&r._t!==ncT) return false;
+    if(ncP!=='all'&&r._p!==ncP) return false;
+    return true;
+  });
+}
+function ncFrItem(rows, oy, om){
+  return ncFr(rows,oy,om).filter(r=>ncItems.size===0||ncItems.has(r._i));
+}
+
+// 품목별 신규/기존/이탈 계산
+function calcClientStatus(cy, cm){
+  const p12 = prev12Set(cy, cm);
+  // 이탈 기준: target-12 월에 매출 있고, target-12+1 ~ target-1 사이 매출 없고, 당월도 없음
+  const targetM12y = cm-12<=0 ? cy-1 : cy;
+  const targetM12m = cm-12<=0 ? cm-12+12 : cm-12;
+
+  const allItems = ncItems.size>0 ? [...ncItems] : [...ITEMS,'기타'];
+  const results = [];
+
+  allItems.forEach(item => {
+    // 당월 실매출 > 0 행
+    const curRows = posRows(ncFr(RAW.filter(r=>r._y===cy&&r._m===cm&&r._i===item)));
+    // 직전 12개월 실매출 > 0 행
+    const p12Rows = posRows(ncFr(RAW.filter(r=>p12.has(r._ym)&&r._i===item)));
+    // target-12 월 실매출 > 0 행
+    const t12Rows = posRows(ncFr(RAW.filter(r=>r._y===targetM12y&&r._m===targetM12m&&r._i===item)));
+    // target-12+1 ~ target-1 사이 실매출 > 0 행
+    const betweenSet = new Set();
+    for(let i=1;i<=11;i++){let m2=targetM12m+i,y2=targetM12y;if(m2>12){m2-=12;y2++;}betweenSet.add(y2*100+m2);}
+    const betweenRows = posRows(ncFr(RAW.filter(r=>betweenSet.has(r._ym)&&r._i===item)));
+
+    const p12Keys = new Set(p12Rows.map(r=>ncKey(r)).filter(Boolean));
+    const curKeys = new Set(curRows.map(r=>ncKey(r)).filter(Boolean));
+    const t12Keys = new Set(t12Rows.map(r=>ncKey(r)).filter(Boolean));
+    const betweenKeys = new Set(betweenRows.map(r=>ncKey(r)).filter(Boolean));
+
+    // 신규: 당월 있고 직전12개월 없음
+    let newCnt=0, newList=[];
+    curRows.forEach(r=>{
+      const k=ncKey(r);
+      if(k&&!p12Keys.has(k)){
+        newCnt++;
+        newList.push({team:r._t,person:r._p,item:r._i,cn:r._cn,biz:r._biz});
+      }
+    });
+    newCnt = new Set(curRows.filter(r=>r._biz&&!p12Keys.has(ncKey(r))).map(r=>ncKey(r))).size;
+
+    // 기존: 당월 있고 직전12개월에도 있음
+    const existCnt = new Set(curRows.filter(r=>r._biz&&p12Keys.has(ncKey(r))).map(r=>ncKey(r))).size;
+
+    // 이탈: target-12에 있고, target-12+1~target-1 없고, 당월도 없음
+    let lostCnt=0;
+    t12Keys.forEach(k=>{
+      if(!betweenKeys.has(k)&&!curKeys.has(k)) lostCnt++;
+    });
+
+    if(newCnt>0||existCnt>0||lostCnt>0){
+      results.push({item, newCnt, existCnt, lostCnt, newList:[...new Map(
+        posRows(ncFr(RAW.filter(r=>r._y===cy&&r._m===cm&&r._i===item)))
+        .filter(r=>ncKey(r)&&!p12Keys.has(ncKey(r)))
+        .map(r=>[ncKey(r),r])
+      ).values()]});
+    }
+  });
+  return results;
+}
+
+// 직전 3개월 + 직3평균 계산
+function calcTrend3(cy, cm, item){
+  const months=[];
+  for(let i=3;i>=0;i--){let m=cm-i,y=cy;if(m<=0){m+=12;y--;}months.push({y,m});}
+  return months.map(({y,m})=>{
+    const rows = posRows(ncFr(RAW.filter(r=>r._y===y&&r._m===m&&(item?r._i===item:true))));
+    const p12 = prev12Set(y,m);
+    const p12Keys = new Set(posRows(ncFr(RAW.filter(r=>p12.has(r._ym)&&(item?r._i===item:true)))).map(r=>ncKey(r)).filter(Boolean));
+    const newCnt = new Set(rows.filter(r=>ncKey(r)&&!p12Keys.has(ncKey(r))).map(r=>ncKey(r))).size;
+    return {y,m,newCnt};
+  });
+}
+
+function renderNewClientPage(){
+  const cy = ncY==='all'?Math.max(...Object.keys(mxMo).map(Number)):parseInt(ncY);
+  const cm = ncM==='all'?(mxMo[cy]||12):parseInt(ncM);
+
+  const statusData = calcClientStatus(cy, cm);
+  if(!statusData.length){
+    document.getElementById('ncContent').innerHTML='<div style="text-align:center;padding:60px;color:#888">데이터가 없습니다</div>';
+    return;
+  }
+
+  // ① 품목별 신규/기존/이탈 표
+  const totalNew = statusData.reduce((s,r)=>s+r.newCnt,0);
+  const totalExist = statusData.reduce((s,r)=>s+r.existCnt,0);
+  const totalLost = statusData.reduce((s,r)=>s+r.lostCnt,0);
+
+  // 전월 데이터 (비교용)
+  const pm = cm===1?12:cm-1, py = cm===1?cy-1:cy;
+  const prevStatus = calcClientStatus(py, pm);
+  const prevMap = Object.fromEntries(prevStatus.map(r=>[r.item,r]));
+
+  const statusRows = statusData.map(r=>{
+    const prev = prevMap[r.item]||{newCnt:0,existCnt:0,lostCnt:0};
+    const diff = r.newCnt - prev.newCnt;
+    const diffColor = diff>0?'#1D9E75':diff<0?'#E24B4A':'#888';
+    return`<tr>
+      <td style="font-weight:500">${r.item}</td>
+      <td style="color:#1D9E75;font-weight:600">${r.newCnt}개처</td>
+      <td>${r.existCnt}개처</td>
+      <td style="color:#E24B4A">${r.lostCnt}개처</td>
+      <td style="color:${diffColor}">${diff>0?'+':''}${diff}개처</td>
+    </tr>`;
+  }).join('');
+
+  // ② 직전 3개월 추이 표 (전체 합산)
+  const trend3 = calcTrend3(cy,cm,null);
+  const avg3 = trend3.slice(0,3).reduce((s,r)=>s+r.newCnt,0)/3;
+  const curTrend = trend3[3];
+  const prevTrend = trend3[2];
+  const momDiff = curTrend.newCnt - prevTrend.newCnt;
+  const avgDiff = curTrend.newCnt - avg3;
+  const momColor = momDiff>=0?'#1D9E75':'#E24B4A';
+  const avgColor = avgDiff>=0?'#1D9E75':'#E24B4A';
+
+  const trendRows = trend3.slice(0,3).map(({y,m,newCnt})=>`
+    <td style="text-align:center">${y}년 ${m}월<br><b>${newCnt}개처</b></td>`).join('');
+
+  // ③ 품목별 선그래프 데이터 (12개월)
+  const chartMonths=[];
+  for(let i=11;i>=0;i--){let m=cm-i,y=cy;if(m<=0){m+=12;y--;}chartMonths.push({y,m});}
+  const chartLabels = chartMonths.map(({y,m})=>`${y}년 ${m}월`);
+  const chartItems = ncItems.size>0?[...ncItems]:[...ITEMS,'기타'].filter(item=>statusData.find(r=>r.item===item));
+  const chartDatasets = chartItems.slice(0,6).map((item,idx)=>{
+    const colors=['#3266ad','#1D9E75','#BA7517','#534AB7','#D85A30','#E24B4A'];
+    const vals = chartMonths.map(({y,m})=>{
+      const rows=posRows(ncFr(RAW.filter(r=>r._y===y&&r._m===m&&r._i===item)));
+      const p12=prev12Set(y,m);
+      const p12k=new Set(posRows(ncFr(RAW.filter(r=>p12.has(r._ym)&&r._i===item))).map(r=>ncKey(r)).filter(Boolean));
+      return new Set(rows.filter(r=>ncKey(r)&&!p12k.has(ncKey(r))).map(r=>ncKey(r))).size;
+    });
+    return{label:item,data:vals,borderColor:colors[idx%6],backgroundColor:colors[idx%6]+'22',fill:false,tension:0.3,pointRadius:3};
+  }).filter(ds=>ds.data.some(v=>v>0));
+
+  // ④ 신규 거래처 상세 목록
+  const allNewList = statusData.flatMap(r=>r.newList.map(row=>({...row,item:r.item})));
+  const newDetailRows = allNewList.slice(0,50).map(r=>`<tr>
+    <td>${r.team||'-'}</td>
+    <td>${r.person||'-'}</td>
+    <td><span style="background:#EEF4FF;color:#1a3a6b;padding:2px 7px;border-radius:10px;font-size:10px">${r.item}</span></td>
+    <td style="font-weight:500">${r.cn||'-'}</td>
+    <td style="color:#888;font-size:10px">${r.biz||'-'}</td>
+  </tr>`).join('');
+
+  // ⑤ AI 요약 (규칙 기반)
+  const trend12 = calcTrend3(cy,cm,null);
+  const recentVals = trend12.slice(1).map(r=>r.newCnt);
+  const trendDir = recentVals[2]>recentVals[0]?'증가':'감소';
+  const trendPct = recentVals[0]>0?Math.abs((recentVals[2]-recentVals[0])/recentVals[0]*100).toFixed(1):0;
+  const nextPred = Math.max(0,Math.round(recentVals[2]*2 + recentVals[1] - recentVals[0]));
+  const hotItem = statusData.sort((a,b)=>b.newCnt-a.newCnt)[0];
+  const lostItem = statusData.sort((a,b)=>b.lostCnt-a.lostCnt)[0];
+  const aiClass = trendDir==='증가'?'ai-good':'ai-alert';
+
+  document.getElementById('ncContent').innerHTML = `
+  <!-- ① 신규/기존/이탈 표 -->
+  <div class="card" style="margin-bottom:10px">
+    <div class="card-title">품목별 신규/기존/이탈 거래처 현황 <span style="font-size:10px;color:#888;font-weight:400">— ${cy}년 ${cm}월 기준</span></div>
+    <table class="st" style="width:100%">
+      <thead><tr>
+        <th style="text-align:left">품목</th>
+        <th style="color:#1D9E75">신규</th>
+        <th>기존</th>
+        <th style="color:#E24B4A">이탈</th>
+        <th>전월대비</th>
+      </tr></thead>
+      <tbody>${statusRows}</tbody>
+      <tfoot><tr style="background:#f5f5f3;font-weight:600">
+        <td style="text-align:left">합계</td>
+        <td style="color:#1D9E75">${totalNew}개처</td>
+        <td>${totalExist}개처</td>
+        <td style="color:#E24B4A">${totalLost}개처</td>
+        <td style="color:${momColor}">${momDiff>0?'+':''}${momDiff}개처</td>
+      </tr></tfoot>
+    </table>
+  </div>
+
+  <!-- ② 직전 3개월 추이 -->
+  <div class="card" style="margin-bottom:10px">
+    <div class="card-title">신규 거래처 직전 3개월 추이</div>
+    <table style="width:100%;border-collapse:collapse;font-size:12px;text-align:center">
+      <thead><tr style="background:#f5f5f3">
+        ${trendRows}
+        <td style="padding:8px;font-weight:600">직3평균</td>
+        <td style="padding:8px">당월 (${cm}월)</td>
+        <td style="padding:8px">전월대비</td>
+        <td style="padding:8px">직3평균대비</td>
+      </tr></thead>
+      <tbody><tr>
+        ${trend3.slice(0,3).map(()=>'<td></td>').join('')}
+        <td style="padding:8px;color:#888">${avg3.toFixed(1)}개처</td>
+        <td style="padding:8px;font-weight:700;font-size:15px">${curTrend.newCnt}개처</td>
+        <td style="padding:8px;color:${momColor};font-weight:500">${momDiff>0?'+':''}${momDiff}개처</td>
+        <td style="padding:8px;color:${avgColor};font-weight:500">${avgDiff>0?'+':''}${avgDiff.toFixed(1)}개처</td>
+      </tr></tbody>
+    </table>
+  </div>
+
+  <!-- ③ 선그래프 -->
+  <div class="card" style="margin-bottom:10px">
+    <div class="card-title">품목별 신규 거래처 월별 추이</div>
+    <div style="position:relative;height:220px"><canvas id="ncChart"></canvas></div>
+  </div>
+
+  <!-- ⑤ AI 요약 -->
+  <div class="card" style="margin-bottom:10px">
+    <div class="card-title">🤖 AI 추세 분석</div>
+    <div class="${aiClass}" style="margin-bottom:8px">
+      <b>최근 3개월 신규 거래처 ${trendDir}세 (${trendPct}%)</b><br>
+      다음달 예상 신규 거래처: <b>약 ${nextPred}개처</b><br>
+      ${hotItem?`가장 활발한 품목: <b>${hotItem.item}</b> (${hotItem.newCnt}개처 신규)`:''}
+    </div>
+    ${lostItem&&lostItem.lostCnt>0?`<div class="ai-alert">이탈 주의 품목: <b>${lostItem.item}</b> — ${lostItem.lostCnt}개처 이탈. 재영업 필요합니다.</div>`:''}
+  </div>
+
+  <!-- ④ 신규 거래처 상세 목록 -->
+  <div class="card">
+    <div class="card-title">신규 거래처 상세 목록 <span style="font-size:10px;color:#888;font-weight:400">— 총 ${allNewList.length}개처${allNewList.length>50?' (상위 50개 표시)':''}</span></div>
+    <table class="st" style="width:100%">
+      <thead><tr>
+        <th style="text-align:left">팀</th>
+        <th style="text-align:left">담당자</th>
+        <th style="text-align:left">품목</th>
+        <th style="text-align:left">거래처명</th>
+        <th style="text-align:left">사업자번호</th>
+      </tr></thead>
+      <tbody>${newDetailRows||'<tr><td colspan="5" style="text-align:center;color:#888;padding:20px">신규 거래처 없음</td></tr>'}</tbody>
+    </table>
+  </div>`;
+
+  // 선그래프 렌더링
+  if(CH['ncChart']) CH['ncChart'].destroy();
+  CH['ncChart'] = new Chart(document.getElementById('ncChart'),{
+    type:'line',
+    data:{labels:chartLabels,datasets:chartDatasets},
+    options:{responsive:true,maintainAspectRatio:false,
+      plugins:{legend:{position:'bottom',labels:{font:{size:10},boxWidth:12}}},
+      scales:{
+        x:{grid:{display:false},ticks:{font:{size:9},maxRotation:35,autoSkip:false}},
+        y:{grid:{color:'rgba(128,128,128,0.08)'},ticks:{font:{size:10},callback:v=>v+'개처'},min:0}
+      }}
+  });
+}
+
+
+/* ===== 신규거래처 페이지 필터 =====*/
+function ncApply(){
+  ncY=document.getElementById('ncYear').value;
+  ncM=document.getElementById('ncMonth').value;
+  ncT=document.getElementById('ncTeam').value;
+  ncP=document.getElementById('ncPerson').value;
+  if(currentPage==='newclient') renderNewClientPage();
+}
+function ncTeamChange(){
+  ncT=document.getElementById('ncTeam').value;
+  const sel=document.getElementById('ncPerson');
+  sel.innerHTML='<option value="all">전체 담당자</option>';
+  const ps=ncT!=='all'&&TPM[ncT]?TPM[ncT]:AP;
+  ps.forEach(p=>{const o=document.createElement('option');o.value=p;o.textContent=p;sel.appendChild(o);});
+  ncP='all';ncApply();
+}
+function toggleNcItemDrop(e){e.stopPropagation();document.getElementById('ncItemDrop').classList.toggle('open');}
+document.addEventListener('click',function(e){const w=document.getElementById('ncItemWrap');if(w&&!w.contains(e.target))document.getElementById('ncItemDrop').classList.remove('open');});
+function toggleAllNcItems(e){e.stopPropagation();const ca=document.getElementById('ncChkAll');if(e.target!==ca)ca.checked=!ca.checked;document.querySelectorAll('.nc-item-chk').forEach(c=>c.checked=ca.checked);syncNcItems();}
+function onNcItemChk(e){e.stopPropagation();document.getElementById('ncChkAll').checked=[...document.querySelectorAll('.nc-item-chk')].every(c=>c.checked);syncNcItems();}
+function syncNcItems(){
+  const checks=[...document.querySelectorAll('.nc-item-chk')];
+  ncItems=checks.every(c=>c.checked)?new Set():new Set(checks.filter(c=>c.checked).map(c=>c.value));
+  updateNcItemBtn();if(currentPage==='newclient')renderNewClientPage();
+}
+function updateNcItemBtn(){
+  const btn=document.getElementById('ncItemBtn');
+  if(ncItems.size===0){btn.textContent='전체 품목구분';btn.classList.remove('has-sel');}
+  else if(ncItems.size===1){btn.textContent=[...ncItems][0];btn.classList.add('has-sel');}
+  else{btn.textContent=`${[...ncItems][0]} 외 ${ncItems.size-1}개`;btn.classList.add('has-sel');}
+}
+function initNcFilters(){
+  const ys=[...new Set(RAW.map(r=>r._y))].filter(Boolean).sort();
+  const ms=[...new Set(RAW.map(r=>r._m))].filter(Boolean).sort((a,b)=>a-b);
+  const maxY=Math.max(...ys);
+  const maxM=mxMo[maxY]||12;
+  fill('ncYear',ys,'전체 연도');
+  fill('ncMonth',ms.map(m=>({val:m,label:m+'월'})),'전체 월');
+  fill('ncTeam',Object.keys(TPM).sort(),'전체 팀');
+  document.getElementById('ncYear').value=maxY; ncY=String(maxY);
+  document.getElementById('ncMonth').value=maxM; ncM=String(maxM);
+  // 품목 체크박스
+  document.getElementById('ncItemCheckList').innerHTML=[...ITEMS,'기타'].map(item=>
+    `<div class="multi-dropdown-item" onclick="event.stopPropagation()">
+      <input type="checkbox" class="nc-item-chk" value="${item}" id="ncchk_${item}" checked onchange="onNcItemChk(event)">
+      <label for="ncchk_${item}" style="cursor:pointer">${item}</label>
+    </div>`).join('');
+  ncItems=new Set();
+}
+
+initNcFilters();
 initFilters();
 
 </script>
