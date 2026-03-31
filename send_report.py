@@ -97,7 +97,11 @@ def build_html(d):
   </div>
  
   <div style="padding:28px 32px">
- 
+  <p style="font-size:13px;color:#555;margin-bottom:20px">
+  안녕하세요.<br>
+  DNC 매출 현황 자동 리포트 전달드립니다.
+  </p>
+
     <!-- 업데이트 기준 -->
     <div style="background:#f5f5f3;border-radius:8px;padding:8px 14px;font-size:11px;color:#888;margin-bottom:24px;text-align:center">
       📅 데이터 기준: {d['cy']}년 {d['cm']}월 (업데이트: {d['max_date']})
