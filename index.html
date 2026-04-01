@@ -1408,21 +1408,21 @@ function renderNewClientPage(){
     const diffColor = diff>0?'#1D9E75':diff<0?'#E24B4A':'#888';
     return`<tr>
       <td style="text-align:left;font-weight:500">${r.item}</td>
-      <td style="color:#1D9E75;font-weight:600">${r.newCnt}개처</td>
-      <td>${r.existCnt}개처</td>
-      <td style="color:#E24B4A">${r.lostCnt}개처</td>
-      <td style="color:${diffColor}">${diff>0?'+':''}${diff}개처</td>
+      <td style="text-align:center;color:#1D9E75;font-weight:600">${r.newCnt}개처</td>
+      <td style="text-align:center">${r.existCnt}개처</td>
+      <td style="text-align:center;color:#E24B4A">${r.lostCnt}개처</td>
+      <td style="text-align:center;color:${diffColor}">${diff>0?'+':''}${diff}개처</td>
     </tr>`;
   }).join('');
 
   // 신규 거래처 상세 목록
   const newDetailRows = allNewList.slice(0,100).map(r=>`<tr>
-    <td style="text-align:left">${r.team||'-'}</td>
-    <td style="text-align:left">${r.person||'-'}</td>
-    <td style="text-align:left"><span style="background:#EEF4FF;color:#1a3a6b;padding:2px 7px;border-radius:10px;font-size:10px">${r.item}</span></td>
-    <td style="text-align:left;color:#888;font-size:10px">${r.biz||'-'}</td>
-    <td style="text-align:left;font-weight:500">${r.cn||'-'}</td>
-    <td style="text-align:right;font-weight:500;color:#1a3a6b">${r.sales>=1e8?(r.sales/1e8).toFixed(1)+'억':r.sales>=1e4?Math.round(r.sales/1e4).toLocaleString()+'만':r.sales.toLocaleString()}원</td>
+    <td style="text-align:center">${r.team||'-'}</td>
+    <td style="text-align:center">${r.person||'-'}</td>
+    <td style="text-align:center"><span style="background:#EEF4FF;color:#1a3a6b;padding:2px 7px;border-radius:10px;font-size:10px">${r.item}</span></td>
+    <td style="text-align:center;color:#888;font-size:10px">${r.biz||'-'}</td>
+    <td style="text-align:center;font-weight:500">${r.cn||'-'}</td>
+    <td style="text-align:center;font-weight:500;color:#1a3a6b">${r.sales>=1e8?(r.sales/1e8).toFixed(1)+'억':r.sales>=1e4?Math.round(r.sales/1e4).toLocaleString()+'만':r.sales.toLocaleString()}원</td>
   </tr>`).join('');
 
   document.getElementById('ncContent').innerHTML = `
@@ -1504,10 +1504,10 @@ function renderNewClientPage(){
       <tbody>${statusRows}</tbody>
       <tfoot><tr>
         <td style="text-align:left;background:#f5f5f3;font-weight:600">합계</td>
-        <td style="text-align:right;background:#f5f5f3;color:#1D9E75;font-weight:600">${totalNew}개처</td>
-        <td style="text-align:right;background:#f5f5f3">${totalExist}개처</td>
-        <td style="text-align:right;background:#f5f5f3;color:#E24B4A">${totalLost}개처</td>
-        <td style="text-align:right;background:#f5f5f3;color:${momColor};font-weight:600">${momNewDiff>0?'+':''}${momNewDiff}개처</td>
+        <td style="text-align:center;background:#f5f5f3;color:#1D9E75;font-weight:600">${totalNew}개처</td>
+        <td style="text-align:center;background:#f5f5f3">${totalExist}개처</td>
+        <td style="text-align:center;background:#f5f5f3;color:#E24B4A">${totalLost}개처</td>
+        <td style="text-align:center;background:#f5f5f3;color:${momColor};font-weight:600">${momNewDiff>0?'+':''}${momNewDiff}개처</td>
       </tr></tfoot>
     </table>
   </div>
@@ -1517,12 +1517,12 @@ function renderNewClientPage(){
     <div class="card-title">신규 거래처 상세 목록 <span style="font-size:10px;color:#888;font-weight:400">— 총 ${allNewList.length}개처${allNewList.length>100?' (상위 100개)':''}</span></div>
     <table class="st" style="width:100%">
       <thead><tr>
-        <th style="text-align:left">팀</th>
-        <th style="text-align:left">담당자</th>
-        <th style="text-align:left">품목</th>
-        <th style="text-align:left">사업자번호</th>
-        <th style="text-align:left">거래처명</th>
-        <th style="text-align:right">매출금액</th>
+        <th style="text-align:center">팀</th>
+        <th style="text-align:center">담당자</th>
+        <th style="text-align:center">품목</th>
+        <th style="text-align:center">사업자번호</th>
+        <th style="text-align:center">거래처명</th>
+        <th style="text-align:center">매출금액</th>
       </tr></thead>
       <tbody>${newDetailRows||'<tr><td colspan="6" style="text-align:center;color:#888;padding:20px">신규 거래처 없음</td></tr>'}</tbody>
     </table>
@@ -1601,10 +1601,13 @@ function initNcFilters(){
   // 품목 체크박스
   document.getElementById('ncItemCheckList').innerHTML=[...ITEMS,'기타'].map(item=>
     `<div class="multi-dropdown-item" onclick="event.stopPropagation()">
-      <input type="checkbox" class="nc-item-chk" value="${item}" id="ncchk_${item}" checked onchange="onNcItemChk(event)">
+      <input type="checkbox" class="nc-item-chk" value="${item}" id="ncchk_${item}" ${item!=='기타'?'checked':''} onchange="onNcItemChk(event)">
       <label for="ncchk_${item}" style="cursor:pointer">${item}</label>
     </div>`).join('');
-  ncItems=new Set();
+  // 기타 기본 해제
+  ncItems = new Set(ITEMS); // ITEMS만 선택 (기타 제외)
+  document.getElementById('ncChkAll').checked = false;
+  updateNcItemBtn();
 }
 
 
