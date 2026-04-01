@@ -153,11 +153,9 @@ select{font-size:12px;padding:6px 10px;border-radius:8px;border:0.5px solid #ccc
 /* ===== 신규거래처 페이지 ===== */
 #newClientPage{display:none;padding:1.5rem}
 .nc-filter-bar{display:flex;gap:8px;flex-wrap:wrap;align-items:center;padding:10px 14px;background:#f0f0ee;border-radius:12px;margin-bottom:1.25rem}
-#ncContent .st th{text-align:right}
-#ncContent .st td{text-align:right}
-#ncContent .st th:first-child,#ncContent .st td:first-child{text-align:left}
-#ncContent .st tfoot td{text-align:right;background:#f5f5f3;border-top:1px solid #eee}
-#ncContent .st tfoot td:first-child{text-align:left}
+#ncContent .st th{text-align:center!important}
+#ncContent .st td{text-align:center!important}
+#ncContent .st tfoot td{text-align:center!important;background:#f5f5f3;border-top:1px solid #eee}
 </style>
 </head>
 <body>
@@ -1129,27 +1127,30 @@ function buildPredict(){
     return{item,pred:iFcst,chgMom:iChgMom,chgAvg:iChgAvg};
   });
 
-  const filterLabel=`${cy}년 ${cm}월 기준 → ${ny}년 ${nm}월 예측${sT!=='all'?' · '+sT:''}`;
+  const filterLabel=`${ny}년 ${nm}월 예측${sT!=='all'?' · '+sT:''}${sP!=='all'?' · '+sP:''}`;
+  const baseLabel2=`${cy}년 ${cm}월 기준`;
 
   return`
   <div class="ai-section">
     <div class="ai-section-title">📊 직전 3개월 트렌드</div>
     <div class="ai-kpi-row">
-      ${[1,2,3].map(i=>{
+      ${[3,2,1].map(i=>{
         const m=cm-i<=0?cm-i+12:cm-i,y=cm-i<=0?cy-1:cy;
-        const chg=i<3&&p3[3-i-1]>0?(p3[3-i]-p3[3-i-1])/p3[3-i-1]*100:null;
+        const val=p3[i-1];
+        const prevVal=i<3?p3[i]:null;
+        const chg=prevVal>0?(val-prevVal)/prevVal*100:null;
         return`<div class="ai-kpi-card">
           <div class="ai-kpi-label">${y}년 ${m}월</div>
-          <div class="ai-kpi-val" style="font-size:14px">${fmtWS(p3[3-i])}</div>
+          <div class="ai-kpi-val" style="font-size:14px">${fmtWS(val)}</div>
           ${chg!==null?`<div class="ai-kpi-sub" style="color:${chgColor(chg)};margin-top:3px">${chgArrow(chg)} vs 전월</div>`:''}
-          <div class="ai-kpi-sub" style="color:${chgColor(avg3>0?(p3[3-i]-avg3)/avg3*100:null)};margin-top:2px">${avg3>0?chgArrow((p3[3-i]-avg3)/avg3*100):'-'} vs 직3평균</div>
+          <div class="ai-kpi-sub" style="color:${chgColor(avg3>0?(val-avg3)/avg3*100:null)};margin-top:2px">${avg3>0?chgArrow((val-avg3)/avg3*100):'-'} vs 직3평균</div>
         </div>`;
       }).join('')}
     </div>
     <div class="ai-comment">월평균 <b>${fmtW(avg3)}</b> · ${slope>0?'상승':'하락'}세 ${Math.abs(slope/avg3*100).toFixed(1)}%/월</div>
   </div>
   <div class="ai-section">
-    <div class="ai-section-title">🔮 ${ny}년 ${nm}월 매출 예측 — ${filterLabel}</div>
+    <div class="ai-section-title">🔮 ${ny}년 ${nm}월 매출 예측 <span style="font-size:10px;color:#aaa;font-weight:400">(${baseLabel2} 기반)</span></div>
     <div style="display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-bottom:12px">
       <div class="ai-kpi-card">
         <div class="ai-kpi-label">예측 매출</div>
@@ -1407,7 +1408,7 @@ function renderNewClientPage(){
     const diff = r.newCnt - prev.newCnt;
     const diffColor = diff>0?'#1D9E75':diff<0?'#E24B4A':'#888';
     return`<tr>
-      <td style="text-align:left;font-weight:500">${r.item}</td>
+      <td style="text-align:center;font-weight:500">${r.item}</td>
       <td style="text-align:center;color:#1D9E75;font-weight:600">${r.newCnt}개처</td>
       <td style="text-align:center">${r.existCnt}개처</td>
       <td style="text-align:center;color:#E24B4A">${r.lostCnt}개처</td>
@@ -1492,18 +1493,18 @@ function renderNewClientPage(){
 
   <!-- ④ 품목별 신규/기존/이탈 표 -->
   <div class="card" style="margin-bottom:10px">
-    <div class="card-title">품목별 신규/기존/이탈 거래처 현황 <span style="font-size:10px;color:#888;font-weight:400">— ${cy}년 ${cm}월 기준</span></div>
+    <div class="card-title" style="text-align:center">품목별 신규/기존/이탈 거래처 현황 <span style="font-size:10px;color:#888;font-weight:400">— ${cy}년 ${cm}월 기준</span></div>
     <table class="st" style="width:100%">
       <thead><tr>
-        <th style="text-align:left">품목</th>
-        <th style="text-align:right;color:#1D9E75">신규</th>
-        <th style="text-align:right">기존</th>
-        <th style="text-align:right;color:#E24B4A">이탈</th>
-        <th style="text-align:right">전월대비(신규)</th>
+        <th style="text-align:center">품목</th>
+        <th style="text-align:center;color:#1D9E75">신규</th>
+        <th style="text-align:center">기존</th>
+        <th style="text-align:center;color:#E24B4A">이탈</th>
+        <th style="text-align:center">전월대비(신규)</th>
       </tr></thead>
       <tbody>${statusRows}</tbody>
       <tfoot><tr>
-        <td style="text-align:left;background:#f5f5f3;font-weight:600">합계</td>
+        <td style="text-align:center;background:#f5f5f3;font-weight:600">합계</td>
         <td style="text-align:center;background:#f5f5f3;color:#1D9E75;font-weight:600">${totalNew}개처</td>
         <td style="text-align:center;background:#f5f5f3">${totalExist}개처</td>
         <td style="text-align:center;background:#f5f5f3;color:#E24B4A">${totalLost}개처</td>
