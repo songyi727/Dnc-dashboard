@@ -5440,71 +5440,108 @@ function focusRenderPersonTable(cy,cm){
 }
 
 function focusRenderDetail(cy,cm){
-  const mboRows=focusGetMbo(cy,cm);
-  const curRows=focusGetRows(cy,cm);
+  const vy=document.getElementById('focusYear').value;
+  const vm=document.getElementById('focusMonth').value;
+  const vt=document.getElementById('focusTeam').value;
+  const vp=document.getElementById('focusPerson').value;
+  const vi=focusGetSelItems();
+  const vd=focusGetSelDists();
+  const search=document.getElementById('focusBizSearch')?.value.trim().toLowerCase()||'';
 
-  // 사업자+품목 기준으로 MBO/실적 합산
-  const bizItemMap={};
-  mboRows.forEach(k=>{
-    if(!k._biz||!k._i) return;
-    const key=k._biz+'::'+k._i;
-    if(!bizItemMap[key]) bizItemMap[key]={biz:k._biz,cn:k._cn,t:k._t,p:k._p,i:k._i,mbo:0,s:0};
-    bizItemMap[key].mbo+=k._mbo;
-  });
-  curRows.forEach(r=>{
-    if(!r._biz||!r._i) return;
-    const key=r._biz+'::'+r._i;
-    if(!bizItemMap[key]) bizItemMap[key]={biz:r._biz,cn:r._cn,t:r._t,p:r._p,i:r._i,mbo:0,s:0};
-    bizItemMap[key].s+=r._s;
+  // 월 범위 결정: 전체월이면 1~최신월, 특정월이면 그 월만
+  const maxM = mxMo[cy]||12;
+  const months = vm==='all' ? Array.from({length:maxM},(_,i)=>i+1) : [parseInt(vm)];
+
+  // 전체 행 생성 (월별 × 거래처×품목)
+  const allRows = [];
+  months.forEach(m=>{
+    const mboRows = MBO.filter(k=>
+      k._y===cy && k._m===m &&
+      (vt==='all'||k._t===vt) && (vp==='all'||k._p===vp) &&
+      (vi===null||vi.has(k._i)) &&
+      (!search||k._cn.toLowerCase().includes(search)||k._biz.toLowerCase().includes(search))
+    );
+    const salesRows = RAW.filter(r=>
+      r._y===cy && r._m===m && r._s>0 &&
+      (vt==='all'||r._t===vt) && (vp==='all'||r._p===vp) &&
+      (vi===null||vi.has(r._i)) && (vd===null||vd.has(r._d)) &&
+      (!search||r._cn.toLowerCase().includes(search)||r._biz.toLowerCase().includes(search))
+    );
+
+    // 사업자+품목 기준으로 합산
+    const bizItemMap={};
+    mboRows.forEach(k=>{
+      if(!k._biz||!k._i) return;
+      const key=k._biz+'::'+k._i;
+      if(!bizItemMap[key]) bizItemMap[key]={m,biz:k._biz,cn:k._cn,t:k._t,p:k._p,i:k._i,mbo:0,s:0};
+      bizItemMap[key].mbo+=k._mbo;
+    });
+    salesRows.forEach(r=>{
+      if(!r._biz||!r._i) return;
+      const key=r._biz+'::'+r._i;
+      if(!bizItemMap[key]) bizItemMap[key]={m,biz:r._biz,cn:r._cn,t:r._t,p:r._p,i:r._i,mbo:0,s:0};
+      bizItemMap[key].s+=r._s;
+    });
+
+    Object.values(bizItemMap).forEach(r=>allRows.push(r));
   });
 
-  // 전월 실적
-  const pm=cm===1?12:cm-1, py=cm===1?cy-1:cy;
-  const prevMap={};
-  focusGetRows(py,pm).forEach(r=>{
-    if(!r._biz||!r._i) return;
-    const key=r._biz+'::'+r._i;
-    prevMap[key]=(prevMap[key]||0)+r._s;
+  // 전월 실적 맵
+  const prevSalesMap={};
+  allRows.forEach(r=>{
+    const pm=r.m===1?12:r.m-1, py=r.m===1?cy-1:cy;
+    const key=r.biz+'::'+r.i+'::'+r.m;
+    const prevKey=r.biz+'::'+r.i;
+    if(!prevSalesMap[key]){
+      prevSalesMap[key] = RAW.filter(x=>x._y===py&&x._m===pm&&x._biz===r.biz&&x._i===r.i&&x._s>0).reduce((s,x)=>s+x._s,0);
+    }
   });
 
-  const rows=Object.values(bizItemMap).sort((a,b)=>b.mbo-a.mbo);
+  // 월-거래처-품목 순 정렬
+  allRows.sort((a,b)=>a.m-b.m||a.cn.localeCompare(b.cn)||a.i.localeCompare(b.i));
+
   const cntEl=document.getElementById('focusBizCount');
-  if(cntEl) cntEl.textContent=`총 ${rows.length}건`;
+  if(cntEl) cntEl.textContent=`총 ${allRows.length}건`;
 
   const bizFmt=biz=>biz?String(biz).replace(/^(\d{3})(\d{2})(\d{5})$/,'$1-$2-$3'):'-';
+  const td='padding:5px 8px;border-bottom:0.5px solid #f0f0f0;text-align:center;font-size:11px';
 
-  const tblRows=rows.map((r,i)=>{
+  const tblRows=allRows.map(r=>{
     const rate=r.mbo>0?(r.s/r.mbo*100):0;
     const rc=focusRateColor(rate>0?rate:null);
-    const prevS=prevMap[r.biz+'::'+r.i]||0;
+    const prevKey=r.biz+'::'+r.i+'::'+r.m;
+    const prevS=prevSalesMap[prevKey]||0;
     const mom=prevS>0?((r.s-prevS)/prevS*100):null;
     const mc=mom===null?'color:#888':mom>=0?'color:#1D9E75':'color:#E24B4A';
-    const isNew=focusIsNew(r.biz,r.i,cy,cm);
+    const isNew=focusIsNew(r.biz,r.i,cy,r.m);
     return `<tr>
-      <td style="text-align:center;color:#888">${i+1}</td>
-      <td style="text-align:left">${r.cn||r.biz}${isNew?'<span style="color:#1D9E75;font-size:9px;margin-left:3px">신규</span>':''}</td>
-      <td style="text-align:left;color:#888;font-size:10px">${bizFmt(r.biz)}</td>
-      <td style="text-align:left;color:#888">${r.p||'-'}</td>
-      <td style="text-align:left;color:#888">${r.t||'-'}</td>
-      <td style="text-align:left">${r.i||'-'}</td>
-      <td>${r.mbo>0?fa(r.mbo):'-'}</td>
-      <td style="font-weight:600">${r.s>0?fa(r.s):'-'}</td>
-      <td style="color:${rc};font-weight:600">${r.mbo>0?rate.toFixed(1)+'%':'0%'}</td>
-      <td style="${mc}">${mom!==null?(mom>=0?'▲':'▼')+Math.abs(mom).toFixed(1)+'%':'-'}</td>
+      <td style="${td};color:#888">${r.m}월</td>
+      <td style="${td}">${r.cn||r.biz}${isNew?'<span style="color:#1D9E75;font-size:9px;margin-left:3px">신규</span>':''}</td>
+      <td style="${td};color:#888;font-size:10px">${bizFmt(r.biz)}</td>
+      <td style="${td};color:#888">${r.t||'-'}</td>
+      <td style="${td};color:#888">${r.p||'-'}</td>
+      <td style="${td}">${r.i||'-'}</td>
+      <td style="${td}">${r.mbo>0?fa(r.mbo):'-'}</td>
+      <td style="${td};font-weight:600">${r.s>0?fa(r.s):'-'}</td>
+      <td style="${td};color:${rc};font-weight:600">${r.mbo>0?rate.toFixed(1)+'%':'0%'}</td>
+      <td style="${td};${mc}">${mom!==null?(mom>=0?'▲':'▼')+Math.abs(mom).toFixed(1)+'%':'-'}</td>
     </tr>`;
   });
 
+  const th='padding:6px 8px;font-size:10px;color:#888;font-weight:500;border-bottom:1px solid #eee;background:#f5f5f3;text-align:center';
   const tbl=document.getElementById('tFocusDetail');
   if(!tbl) return;
-  tbl.innerHTML=`<thead><tr style="background:#f5f5f3">
-    <th style="text-align:center">순위</th>
-    <th style="text-align:left">거래처명</th>
-    <th style="text-align:left">사업자번호</th>
-    <th style="text-align:left">담당자</th>
-    <th style="text-align:left">팀</th>
-    <th style="text-align:left">품목</th>
-    <th>MBO</th><th>실적</th>
-    <th>달성률(MBO)</th><th>전월대비</th>
+  tbl.innerHTML=`<thead><tr>
+    <th style="${th}">월</th>
+    <th style="${th}">거래처명</th>
+    <th style="${th}">사업자번호</th>
+    <th style="${th}">팀</th>
+    <th style="${th}">담당자</th>
+    <th style="${th}">품목</th>
+    <th style="${th}">MBO</th>
+    <th style="${th}">실적</th>
+    <th style="${th}">달성률(MBO)</th>
+    <th style="${th}">전월대비</th>
   </tr></thead><tbody>${tblRows.join('')}</tbody>`;
 }
 
