@@ -3292,7 +3292,7 @@ const RPM_TEAMS = ['RPM사업부직속','RPM1팀','RPM2팀','RPM3팀'];
 
 let rpChartDaily = null;
 // Python이 주입한 구글시트 데이터 (update_dashboard.py 실행 시 자동 반영)
-const REPORT_SHEET_DATA = {"strategy":[{"타임스탬프":"2026. 4. 16 오후 1:54:57","팀":"RPM2팀","마감 예측 (100자이내)":"전체 마감 예측4.3억  카하 0.35억","달성 전략 (100자이내)":"1. 핸즈온세미나 유도와 복합시술 데모. 2. ASLS 방문 피드백과 매출 유도. 3. 비거래처 신규처 & 대형네트워크 딥심포지엄 모객"}],"issue":[]};
+const REPORT_SHEET_DATA = {"strategy":[{"타임스탬프":"2026. 4. 16 오후 1:54:57","팀":"RPM2팀","마감 예측 (100자이내)":"전체 마감 예측4.3억  카하 0.35억","달성 전략 (100자이내)":"1. 핸즈온세미나 유도와 복합시술 데모. \n2. ASLS 방문 피드백과 매출 유도. \n3. 비거래처 신규처 & 대형네트워크 딥심포지엄 모객"},{"타임스탬프":"2026. 4. 16 오후 2:55:10","팀":"RPM1팀","마감 예측 (100자이내)":"4월의 마감은 5억(현재 3.4억 수준/67%)수준으로 사업기 목표 달성 예측됩니다. \n1) 톡신의 경우 현 수준 2.3억으로 마감 3억 예측되며, \n2) 카하의 경우 현 수준  0.12억으로 지난달 수준인 0.35억 예측되나 초과할 수 있도록 팀관리해 나갈 계획입니다. \n3) 브이올렛의 경우 현 수준 0.7억으로  1.2억 마감예측됩니다. \n4) 리프팅실의 경우 현 수준 0.07억으로 0.1억 마감예측되고 있습니다.","달성 전략 (100자이내)":"금월 카하 총 5처 매출(신규 4처, 기존 1처)로 신규 발굴이 잘 되고 있습니다. \n특히 강남권의 서울아이성형외과와 리베리강남점은 핸즈온 통해 실장님이 직접 시술 받아보며 레디어스 전량 스위칭 한 거래처로 특히 입가 잔주름 + 목주름(손등) 특화 제품으로 다른 경쟁품이 대체할 수 없는 부위를 제안하고 있습니다.\n BLS 명동점 또한 신규방문하여 금주 핸즈온이 잡혀있어 레디어스와의 제품 비교가 가능할 것으로 보입니다\n★레디어스 사용처 집중 공략 및 핸즈온 통한 제품 비교 \n\n추가적으로 5/19 cast-code CaHA 심포지움의 모객 통한 저변확대를 기대하기 위해 네트워크 단위의 모객을 제안하고 있으며 \n대형병원 / 네트워크 단위로 참석하여 친목을 다지면서 아사 제품의 도입을 함께 검토할 수 있는 자리를 만들고자 합니다\n(네트워크 내 홍보 완료 및 긍정적 피드백 예측: 리뉴미피부과 / 데이뷰의원 / 샤인빔의원 / 헤이데이의원 / 온리프성형)"}],"issue":[]};
 let gsStrategyData = REPORT_SHEET_DATA.strategy || [];
 let gsIssueData    = REPORT_SHEET_DATA.issue    || [];
 let rpInitDone = false;
@@ -3769,8 +3769,8 @@ function rpRenderSheetTables(cy, cm){
       <td style="padding:7px 8px;border-bottom:1px solid #f0f0f0;text-align:center">${k>0?fa(k):'-'}</td>
       <td style="padding:7px 8px;border-bottom:1px solid #f0f0f0;text-align:center;font-weight:600">${fa(s)}</td>
       <td style="padding:7px 8px;border-bottom:1px solid #f0f0f0;text-align:center;font-weight:600;color:${rateColor}">${rate!==null?rate.toFixed(1)+'%':'-'}</td>
-      <td style="padding:7px 8px;border-bottom:1px solid #f0f0f0;font-size:11px;color:#444;word-break:keep-all;line-height:1.5">${forecast}</td>
-      <td style="padding:7px 8px;border-bottom:1px solid #f0f0f0;font-size:11px;color:#444;word-break:keep-all;line-height:1.5">${strategy}</td>
+      <td style="padding:7px 8px;border-bottom:1px solid #f0f0f0;font-size:11px;color:#444;word-break:keep-all;line-height:1.5;white-space:pre-wrap">${forecast}</td>
+      <td style="padding:7px 8px;border-bottom:1px solid #f0f0f0;font-size:11px;color:#444;word-break:keep-all;line-height:1.5;white-space:pre-wrap">${strategy}</td>
       <td style="padding:7px 8px;border-bottom:1px solid #f0f0f0;font-size:11px;color:#185FA5;background:#f0f5ff;word-break:keep-all;line-height:1.5">${analysis}</td>
     </tr>`);
   });
@@ -3791,8 +3791,8 @@ function rpRenderSheetTables(cy, cm){
       <td style="padding:7px 8px;border-bottom:1px solid #f0f0f0;text-align:center">${ik>0?fa(ik):'-'}</td>
       <td style="padding:7px 8px;border-bottom:1px solid #f0f0f0;text-align:center;font-weight:600">${fa(is_)}</td>
       <td style="padding:7px 8px;border-bottom:1px solid #f0f0f0;text-align:center;font-weight:600;color:${irColor}">${ir!==null?ir.toFixed(1)+'%':'-'}</td>
-      <td style="padding:7px 8px;border-bottom:1px solid #f0f0f0;font-size:11px;color:#444;word-break:keep-all;line-height:1.5">${forecast}</td>
-      <td style="padding:7px 8px;border-bottom:1px solid #f0f0f0;font-size:11px;color:#444;word-break:keep-all;line-height:1.5">${strategy}</td>
+      <td style="padding:7px 8px;border-bottom:1px solid #f0f0f0;font-size:11px;color:#444;word-break:keep-all;line-height:1.5;white-space:pre-wrap">${forecast}</td>
+      <td style="padding:7px 8px;border-bottom:1px solid #f0f0f0;font-size:11px;color:#444;word-break:keep-all;line-height:1.5;white-space:pre-wrap">${strategy}</td>
       <td style="padding:7px 8px;border-bottom:1px solid #f0f0f0;font-size:11px;color:#185FA5;background:#f0f5ff;word-break:keep-all;line-height:1.5">${analysis}</td>
     </tr>`);
   });
@@ -5461,13 +5461,6 @@ function focusRenderDetail(cy,cm){
       (vi===null||vi.has(k._i)) &&
       (!search||k._cn.toLowerCase().includes(search)||k._biz.toLowerCase().includes(search))
     );
-    const salesRows = RAW.filter(r=>
-      r._y===cy && r._m===m && r._s>0 &&
-      (vt==='all'||r._t===vt) && (vp==='all'||r._p===vp) &&
-      (vi===null||vi.has(r._i)) && (vd===null||vd.has(r._d)) &&
-      (!search||r._cn.toLowerCase().includes(search)||r._biz.toLowerCase().includes(search))
-    );
-
     // 사업자+품목 기준으로 합산
     const bizItemMap={};
     mboRows.forEach(k=>{
@@ -5476,6 +5469,12 @@ function focusRenderDetail(cy,cm){
       if(!bizItemMap[key]) bizItemMap[key]={m,biz:k._biz,cn:k._cn,t:k._t,p:k._p,i:k._i,mbo:0,s:0};
       bizItemMap[key].mbo+=k._mbo;
     });
+    const salesRows = RAW.filter(r=>
+      r._y===cy && r._m===m && r._s>0 &&
+      (vt==='all'||r._t===vt) && (vp==='all'||r._p===vp) &&
+      (vi===null||vi.has(r._i)) && (vd===null||vd.has(r._d)) &&
+      (!search||r._cn.toLowerCase().includes(search)||r._biz.toLowerCase().includes(search))
+    );
     salesRows.forEach(r=>{
       if(!r._biz||!r._i) return;
       const key=r._biz+'::'+r._i;
