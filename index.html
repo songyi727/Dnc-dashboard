@@ -1245,6 +1245,10 @@ function runSampleAI(){
           <svg width="13" height="13" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15"/></svg>
           구글시트 업데이트
         </button>
+        <button class="pdf-btn" onclick="exportReportExcel()" style="background:#1D9E75;margin-right:6px">
+          <svg width="13" height="13" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M9 17v-2m3 2v-4m3 4v-6m2 10H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"/></svg>
+          Excel 저장
+        </button>
         <button class="pdf-btn" onclick="exportReportPDF()" style="background:#D85A30">
           <svg width="13" height="13" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"/></svg>
           PDF 저장
@@ -3284,11 +3288,11 @@ const MKT_ITEM_MAP = {
   'MKT_톡신':'톡신','MKT_CaHA':'CaHA','MKT_HA':'HA',
   'MKT_DCA':'브이올렛','MKT_리프팅실':'리프팅실'
 };
-const RPM_TEAMS = ['RPM1팀','RPM2팀','RPM3팀'];
+const RPM_TEAMS = ['RPM사업부직속','RPM1팀','RPM2팀','RPM3팀'];
 
 let rpChartDaily = null;
 // Python이 주입한 구글시트 데이터 (update_dashboard.py 실행 시 자동 반영)
-const REPORT_SHEET_DATA = {"strategy":[{"타임스탬프":"","팀":"","마감 예측 (100자이내)":"","달성 전략 (100자이내)":""},{"타임스탬프":"2026. 4. 15 오후 3:13:45","팀":"RPM1팀","마감 예측 (100자이내)":"테스트","달성 전략 (100자이내)":"테스트"}],"issue":[]};
+const REPORT_SHEET_DATA = {"strategy":[{"타임스탬프":"2026. 4. 16 오후 1:54:57","팀":"RPM2팀","마감 예측 (100자이내)":"전체 마감 예측4.3억  카하 0.35억","달성 전략 (100자이내)":"1. 핸즈온세미나 유도와 복합시술 데모. 2. ASLS 방문 피드백과 매출 유도. 3. 비거래처 신규처 & 대형네트워크 딥심포지엄 모객"}],"issue":[]};
 let gsStrategyData = REPORT_SHEET_DATA.strategy || [];
 let gsIssueData    = REPORT_SHEET_DATA.issue    || [];
 let rpInitDone = false;
@@ -3841,6 +3845,56 @@ function rpRenderSheetTables(cy, cm){
 }
 
 // PDF 저장 - 브라우저 인쇄 방식 (선명, A4 자동 맞춤)
+function exportReportExcel(){
+  const ry = document.getElementById('rpYear').value;
+  const rm = document.getElementById('rpMonth').value;
+  const title = 'DNC_마감보고_' + ry + '년' + rm + '월';
+  const bom = '\uFEFF';
+  let csvAll = '';
+
+  // ① 매출 마감 예측 및 달성 전략
+  const tbl3 = document.getElementById('tRpStrategy');
+  if(tbl3){
+    csvAll += '매출 마감 예측 및 달성 전략\n';
+    const rows3 = tbl3.querySelectorAll('tr');
+    rows3.forEach(row=>{
+      const cells = [...row.querySelectorAll('th,td')].map(c=>'"'+c.innerText.replace(/"/g,'""')+'"');
+      csvAll += cells.join(',') + '\n';
+    });
+    csvAll += '\n';
+  }
+
+  // ② 품목별 매출 현황
+  const tbl4 = document.getElementById('tRpItem');
+  if(tbl4){
+    csvAll += '품목별 매출 현황\n';
+    const rows4 = tbl4.querySelectorAll('tr');
+    rows4.forEach(row=>{
+      const cells = [...row.querySelectorAll('th,td')].map(c=>'"'+c.innerText.replace(/"/g,'""')+'"');
+      csvAll += cells.join(',') + '\n';
+    });
+    csvAll += '\n';
+  }
+
+  // ③ RPM 팀별 실적 현황
+  const tbl5 = document.getElementById('tRpTeam');
+  if(tbl5){
+    csvAll += 'RPM 팀별 실적 현황\n';
+    const rows5 = tbl5.querySelectorAll('tr');
+    rows5.forEach(row=>{
+      const cells = [...row.querySelectorAll('th,td')].map(c=>'"'+c.innerText.replace(/"/g,'""')+'"');
+      csvAll += cells.join(',') + '\n';
+    });
+  }
+
+  const blob = new Blob([bom + csvAll], {type:'text/csv;charset=utf-8'});
+  const url = URL.createObjectURL(blob);
+  const a = document.createElement('a');
+  a.href = url; a.download = title + '.csv'; a.click();
+  URL.revokeObjectURL(url);
+}
+
+
 function exportReportPDF(){
   const ry = document.getElementById('rpYear').value;
   const rm = document.getElementById('rpMonth').value;
@@ -4958,7 +5012,7 @@ const MBO = MBO_RAW.map ? MBO_RAW.map(k=>({
 })) : [];
 
 // 중점 품목 기본값
-const FOCUS_DEFAULT_ITEMS = new Set(['CaHA','HA','브이올렛','리프팅실']);
+const FOCUS_DEFAULT_ITEMS = new Set(['CaHA','HA','리프팅실']);
 
 let focusInitDone = false;
 let focusChartTrend = null;
