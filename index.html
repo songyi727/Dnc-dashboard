@@ -188,6 +188,10 @@ select{font-size:12px;padding:6px 10px;border-radius:8px;border:0.5px solid #ccc
     <svg width="15" height="15" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="7" height="7"/><rect x="14" y="3" width="7" height="7"/><rect x="3" y="14" width="7" height="7"/><rect x="14" y="14" width="7" height="7"/></svg>
     DNC 매출 대시보드
   </div>
+  <div class="nav-item" data-page="v2" onclick="navTo('v2')">
+    <svg width="15" height="15" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M13 10V3L4 14h7v7l9-11h-7z"/></svg>
+    DNC 매출 대시보드 V2
+  </div>
   <div class="nav-item" data-page="report" onclick="navTo('report')">
     <svg width="15" height="15" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M9 17v-2m3 2v-4m3 4v-6m2 10H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"/></svg>
     월 매출 예측 및 마감 보고
@@ -196,6 +200,11 @@ select{font-size:12px;padding:6px 10px;border-radius:8px;border:0.5px solid #ccc
     <svg width="15" height="15" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M18 9v3m0 0v3m0-3h3m-3 0h-3m-2-5a4 4 0 11-8 0 4 4 0 018 0zM3 20a6 6 0 0112 0v1H3v-1z"/></svg>
     품목별 신규 거래처
   </div>
+  <div class="nav-item" data-page="focus" onclick="navTo('focus')">
+    <svg width="15" height="15" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z"/></svg>
+    중점 품목 현황
+  </div>
+  <div style="border-top:0.5px solid rgba(255,255,255,0.1);margin:8px 0"></div>
   <div class="nav-item" data-page="d2d" onclick="navTo('d2d')">
     <svg width="15" height="15" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z"/></svg>
     D2D 유효성
@@ -203,15 +212,6 @@ select{font-size:12px;padding:6px 10px;border-radius:8px;border:0.5px solid #ccc
   <div class="nav-item" data-page="sample" onclick="navTo('sample')">
     <svg width="15" height="15" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M19.428 15.428a2 2 0 00-1.022-.547l-2.387-.477a6 6 0 00-3.86.517l-.318.158a6 6 0 01-3.86.517L6.05 15.21a2 2 0 00-1.806.547M8 4h8l-1 1v5.172a2 2 0 00.586 1.414l5 5c1.26 1.26.367 3.414-1.415 3.414H4.828c-1.782 0-2.674-2.154-1.414-3.414l5-5A2 2 0 009 10.172V5L8 4z"/></svg>
     Sample 유효성
-  </div>
-  <div style="border-top:0.5px solid rgba(255,255,255,0.1);margin:8px 0"></div>
-  <div class="nav-item" data-page="focus" onclick="navTo('focus')">
-    <svg width="15" height="15" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z"/></svg>
-    중점 품목 현황
-  </div>
-  <div class="nav-item" data-page="v2" onclick="navTo('v2')" style="opacity:0.85">
-    <svg width="15" height="15" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M13 10V3L4 14h7v7l9-11h-7z"/></svg>
-    DNC 매출 현황 V2 <span style="font-size:9px;background:rgba(255,255,255,0.2);padding:1px 5px;border-radius:99px;margin-left:4px">Beta</span>
   </div>
 </div>
 
@@ -1364,7 +1364,7 @@ function runSampleAI(){
             <th style="padding:8px;text-align:center;border-bottom:1px solid #eee">달성금액</th>
             <th style="padding:8px;text-align:center;border-bottom:1px solid #eee">달성률</th>
             <th style="padding:8px;text-align:left;border-bottom:1px solid #eee">마감 예측</th>
-            <th style="padding:8px;text-align:left;border-bottom:1px solid #eee">달성 전략</th>
+            <th style="padding:8px;text-align:left;border-bottom:1px solid #eee">매출 분석 (시장요인 및 달성전략)</th>
             <th style="padding:8px;text-align:left;border-bottom:1px solid #eee;background:#EEF4FF;color:#3266ad">예측 분석</th>
           </tr></thead>
           <tbody id="tRpStrategy"></tbody>
@@ -1372,10 +1372,10 @@ function runSampleAI(){
       </div>
     </div>
 
-    <!-- ④ 품목별 매출 현황 (MKT) (구글시트) -->
+    <!-- ④ 품목별 매출 현황 (ME팀) (구글시트) -->
     <div class="card" style="padding:16px;margin-bottom:1rem">
       <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:10px">
-        <div class="card-title" style="margin:0">품목별 매출 현황 (MKT)</div>
+        <div class="card-title" style="margin:0">품목별 매출 현황 (ME팀)</div>
         <span id="rp_mkt_status" style="font-size:11px;color:#888"></span>
       </div>
       <div style="overflow-x:auto">
@@ -3285,14 +3285,14 @@ const APPS_SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbxm9p00ZMeJrLf2
 
 // MKT_ 팀명 → 품목 매핑
 const MKT_ITEM_MAP = {
-  'MKT_톡신':'톡신','MKT_CaHA':'CaHA','MKT_HA':'HA',
-  'MKT_DCA':'브이올렛','MKT_리프팅실':'리프팅실'
+  'ME팀_톡신':'톡신','ME팀_CaHA':'CaHA','ME팀_HA':'HA',
+  'ME팀_DCA':'브이올렛','ME팀_리프팅실':'리프팅실'
 };
 const RPM_TEAMS = ['RPM사업부직속','RPM1팀','RPM2팀','RPM3팀'];
 
 let rpChartDaily = null;
 // Python이 주입한 구글시트 데이터 (update_dashboard.py 실행 시 자동 반영)
-const REPORT_SHEET_DATA = {"strategy":[{"타임스탬프":"2026. 4. 16 오후 1:54:57","팀":"RPM2팀","마감 예측 (100자이내)":"전체 마감 예측4.3억  카하 0.35억","달성 전략 (100자이내)":"1. 핸즈온세미나 유도와 복합시술 데모. \n2. ASLS 방문 피드백과 매출 유도. \n3. 비거래처 신규처 & 대형네트워크 딥심포지엄 모객"},{"타임스탬프":"2026. 4. 16 오후 2:55:10","팀":"RPM1팀","마감 예측 (100자이내)":"4월의 마감은 5억(현재 3.4억 수준/67%)수준으로 사업기 목표 달성 예측됩니다. \n1) 톡신의 경우 현 수준 2.3억으로 마감 3억 예측되며, \n2) 카하의 경우 현 수준  0.12억으로 지난달 수준인 0.35억 예측되나 초과할 수 있도록 팀관리해 나갈 계획입니다. \n3) 브이올렛의 경우 현 수준 0.7억으로  1.2억 마감예측됩니다. \n4) 리프팅실의 경우 현 수준 0.07억으로 0.1억 마감예측되고 있습니다.","달성 전략 (100자이내)":"금월 카하 총 5처 매출(신규 4처, 기존 1처)로 신규 발굴이 잘 되고 있습니다. \n특히 강남권의 서울아이성형외과와 리베리강남점은 핸즈온 통해 실장님이 직접 시술 받아보며 레디어스 전량 스위칭 한 거래처로 특히 입가 잔주름 + 목주름(손등) 특화 제품으로 다른 경쟁품이 대체할 수 없는 부위를 제안하고 있습니다.\n BLS 명동점 또한 신규방문하여 금주 핸즈온이 잡혀있어 레디어스와의 제품 비교가 가능할 것으로 보입니다\n★레디어스 사용처 집중 공략 및 핸즈온 통한 제품 비교 \n\n추가적으로 5/19 cast-code CaHA 심포지움의 모객 통한 저변확대를 기대하기 위해 네트워크 단위의 모객을 제안하고 있으며 \n대형병원 / 네트워크 단위로 참석하여 친목을 다지면서 아사 제품의 도입을 함께 검토할 수 있는 자리를 만들고자 합니다\n(네트워크 내 홍보 완료 및 긍정적 피드백 예측: 리뉴미피부과 / 데이뷰의원 / 샤인빔의원 / 헤이데이의원 / 온리프성형)"}],"issue":[]};
+const REPORT_SHEET_DATA = {"strategy":[{"타임스탬프":"2026. 4. 16 오후 1:54:57","팀":"RPM2팀","마감 예측 (100자이내)":"전체 마감 예측4.3억  카하 0.35억","매출 분석 (시장요인 및 달성전략) (100자이내)":"1. 핸즈온세미나 유도와 복합시술 데모. \n2. ASLS 방문 피드백과 매출 유도. \n3. 비거래처 신규처 & 대형네트워크 딥심포지엄 모객"},{"타임스탬프":"2026. 4. 16 오후 2:55:10","팀":"RPM1팀","마감 예측 (100자이내)":"4월의 마감은 5억(현재 3.4억 수준/67%)수준으로 사업기 목표 달성 예측됩니다. \n1) 톡신의 경우 현 수준 2.3억으로 마감 3억 예측되며, \n2) 카하의 경우 현 수준  0.12억으로 지난달 수준인 0.35억 예측되나 초과할 수 있도록 팀관리해 나갈 계획입니다. \n3) 브이올렛의 경우 현 수준 0.7억으로  1.2억 마감예측됩니다. \n4) 리프팅실의 경우 현 수준 0.07억으로 0.1억 마감예측되고 있습니다.","매출 분석 (시장요인 및 달성전략) (100자이내)":"금월 카하 총 5처 매출(신규 4처, 기존 1처)로 신규 발굴이 잘 되고 있습니다. \n특히 강남권의 서울아이성형외과와 리베리강남점은 핸즈온 통해 실장님이 직접 시술 받아보며 레디어스 전량 스위칭 한 거래처로 특히 입가 잔주름 + 목주름(손등) 특화 제품으로 다른 경쟁품이 대체할 수 없는 부위를 제안하고 있습니다.\n BLS 명동점 또한 신규방문하여 금주 핸즈온이 잡혀있어 레디어스와의 제품 비교가 가능할 것으로 보입니다\n★레디어스 사용처 집중 공략 및 핸즈온 통한 제품 비교 \n\n추가적으로 5/19 cast-code CaHA 심포지움의 모객 통한 저변확대를 기대하기 위해 네트워크 단위의 모객을 제안하고 있으며 \n대형병원 / 네트워크 단위로 참석하여 친목을 다지면서 아사 제품의 도입을 함께 검토할 수 있는 자리를 만들고자 합니다\n(네트워크 내 홍보 완료 및 긍정적 피드백 예측: 리뉴미피부과 / 데이뷰의원 / 샤인빔의원 / 헤이데이의원 / 온리프성형)"},{"타임스탬프":"2026. 4. 16 오후 3:09:21","팀":"RPM사업부직속","마감 예측 (100자이내)":"33.8억","매출 분석 (시장요인 및 달성전략) (100자이내)":"추가 금액  나보타 1.7억  봄필러 0.5억,  볼라썸 0.2억"}],"issue":[]};
 let gsStrategyData = REPORT_SHEET_DATA.strategy || [];
 let gsIssueData    = REPORT_SHEET_DATA.issue    || [];
 let rpInitDone = false;
@@ -3761,7 +3761,7 @@ function rpRenderSheetTables(cy, cm){
     const rate = k>0?(s/k*100):null;
     const rateColor = rate===null?'#888':rate>=100?'#1D9E75':rate>=90?'#5DBF6E':rate>=80?'#e8a838':rate>=60?'#D85A30':'#E24B4A';
     const forecast = gs['마감 예측 (100자이내)']||gs['마감예측']||gs['마감 예측']||'-';
-    const strategy = gs['달성 전략 (100자이내)']||gs['달성전략']||gs['달성 전략']||'-';
+    const strategy = gs['매출 분석 (시장요인 및 달성전략) (100자이내)']||gs['매출 분석 (시장요인 및 달성전략)']||gs['달성 전략 (100자이내)']||gs['달성전략']||gs['달성 전략']||'-';
     const gi = latestIssue[team]||{};
     const analysis = gi['(공통) 예측 분석 (50자 이내)']||gi['(공통) 예측 분석']||gi['공통 예측 분석']||gi['예측 분석']||'-';
     allStrategyRows.push(`<tr>
@@ -3783,7 +3783,7 @@ function rpRenderSheetTables(cy, cm){
     const ir = ik>0?(is_/ik*100):null;
     const irColor = ir===null?'#888':ir>=100?'#1D9E75':ir>=80?'#e8a838':'#E24B4A';
     const forecast = gi['마감 예측 (100자이내)']||gi['마감예측']||gi['마감 예측']||'-';
-    const strategy = gi['달성 전략 (100자이내)']||gi['달성전략']||gi['달성 전략']||'-';
+    const strategy = gi['매출 분석 (시장요인 및 달성전략) (100자이내)']||gi['매출 분석 (시장요인 및 달성전략)']||gi['달성 전략 (100자이내)']||gi['달성전략']||gi['달성 전략']||'-';
     const ii = latestIssue[mktKey]||{};
     const analysis = ii['(공통) 예측 분석 (50자 이내)']||ii['(공통) 예측 분석']||ii['공통 예측 분석']||ii['예측 분석']||'-';
     allStrategyRows.push(`<tr>
@@ -3809,8 +3809,8 @@ function rpRenderSheetTables(cy, cm){
     const s = cy&&cm?rpSS(RAW.filter(r=>r._y===cy&&r._m===cm&&r._i===itemName&&r._s>0)):0;
     const rate = k>0?(s/k*100):null;
     const rateColor = rate===null?'#888':rate>=100?'#1D9E75':rate>=90?'#5DBF6E':rate>=80?'#e8a838':rate>=60?'#D85A30':'#E24B4A';
-    const mktAnalysis = gs['(MKT) 분석 및 이슈사항 (100자이내)']||gs['(MKT) 분석 및 이슈사항 (100자 이내)']||gs['(MKT) 분석 및 이슈사항']||gs['MKT분석']||'-';
-    const mktPlan = gs['(MKT) 차월계획 (100자이내)']||gs['(MKT) 차월계획']||gs['MKT차월']||'-';
+    const mktAnalysis = gs['(ME팀) 분석 및 이슈사항 (100자이내)']||gs['(ME팀) 분석 및 이슈사항 (100자 이내)']||gs['(ME팀) 분석 및 이슈사항']||gs['MKT분석']||'-';
+    const mktPlan = gs['(ME팀) 차월계획 (100자이내)']||gs['(ME팀) 차월계획']||gs['MKT차월']||'-';
     return `<tr>
       <td style="padding:7px 8px;border-bottom:1px solid #f0f0f0;text-align:center;font-weight:600">${itemName}</td>
       <td style="padding:7px 8px;border-bottom:1px solid #f0f0f0;text-align:center">${k>0?fa(k):'-'}</td>
