@@ -1327,9 +1327,9 @@ function runSampleAI(){
         <table style="width:100%;border-collapse:collapse;font-size:12px" id="tRpItem">
           <thead><tr style="background:#f8f8f8">
             <th style="padding:8px;text-align:center;border-bottom:1px solid #eee">품목</th>
-            <th style="padding:8px;text-align:center;border-bottom:1px solid #eee">매출금액</th>
-            <th style="padding:8px;text-align:center;border-bottom:1px solid #eee">비중</th>
             <th style="padding:8px;text-align:center;border-bottom:1px solid #eee">목표(Target)</th>
+            <th style="padding:8px;text-align:center;border-bottom:1px solid #eee">매출금액</th>
+            <th style="padding:8px;text-align:center;border-bottom:1px solid #eee">매출비중</th>
             <th style="padding:8px;text-align:center;border-bottom:1px solid #eee">달성률</th>
           </tr></thead>
           <tbody id="tRpItemBody"></tbody>
@@ -3623,9 +3623,9 @@ function rpRenderItemTable(cy,cm,totalKpi){
     const rateColor = rate===null?'#888':rate>=100?'#1D9E75':rate>=90?'#5DBF6E':rate>=80?'#e8a838':rate>=60?'#D85A30':'#E24B4A';
     return `<tr>
       <td style="padding:7px 8px;border-bottom:1px solid #f0f0f0;text-align:center">${r.item}</td>
+      <td style="padding:7px 8px;border-bottom:1px solid #f0f0f0;text-align:center;color:#888">${r.kpi>0?fa(r.kpi):'-'}</td>
       <td style="padding:7px 8px;border-bottom:1px solid #f0f0f0;text-align:center;font-weight:600">${fa(r.sales)}</td>
       <td style="padding:7px 8px;border-bottom:1px solid #f0f0f0;text-align:center">${r.share.toFixed(1)}%</td>
-      <td style="padding:7px 8px;border-bottom:1px solid #f0f0f0;text-align:center;color:#888">${r.kpi>0?fa(r.kpi):'-'}</td>
       <td style="padding:7px 8px;border-bottom:1px solid #f0f0f0;text-align:center;font-weight:600;color:${rateColor}">${rate!==null?rate.toFixed(1)+'%':'-'}</td>
     </tr>`;
   }).join('');
