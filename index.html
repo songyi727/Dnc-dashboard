@@ -57,7 +57,7 @@ select{font-size:12px;padding:6px 10px;border-radius:8px;border:0.5px solid #ccc
 .dt th:first-child{text-align:left;position:sticky;left:0;background:#f5f5f3;z-index:1}
 .dt td{padding:7px 8px;border-bottom:0.5px solid #eee;text-align:right;white-space:nowrap;color:#1a1a1a}
 .dt td:first-child{text-align:left;font-weight:500;position:sticky;left:0;background:#fff;z-index:1}
-.dt tbody tr:last-child td{background:#f5f5f3;border-bottom:none}
+.dt tbody tr:last-child td{background:#f5f5f3;border-bottom:none}.dt.no-last tbody tr:last-child td{background:transparent;border-bottom:0.5px solid #f0f0f0}
 .dt tbody tr:last-child td:first-child{background:#f5f5f3}
 .st{width:100%;border-collapse:collapse;font-size:11px}
 .st th{font-size:10px;color:#888;padding:6px 8px;border-bottom:0.5px solid #eee;font-weight:500;text-align:right;white-space:nowrap;background:#f5f5f3}
@@ -1178,36 +1178,50 @@ function runSampleAI(){
   <!-- 메인 2단: 좌(차트+품목테이블) / 우(신규거래처+TOP10) -->
   <div style="display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:10px;margin-bottom:1rem;align-items:start">
 
-    <!-- 좌: 월별 추이 차트 + 품목별 현황 -->
-    <div class="card" style="padding:16px">
-      <div class="card-title">월별 추이 (12개월)
-        <span style="font-size:10px;font-weight:400;color:#888" id="focusTrendLabel"></span>
+    <!-- 좌: MBO 달성률 분포 + 월별 추이 차트 + 품목별 현황 -->
+    <div style="display:flex;flex-direction:column;gap:10px">
+      <!-- MBO 달성률 분포 -->
+      <div class="card" style="padding:14px">
+        <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:8px">
+          <div class="card-title" style="margin:0">MBO 달성률 분포</div>
+          <span id="focusMboDistLabel" style="font-size:10px;color:#aaa"></span>
+        </div>
+        <div style="position:relative;height:150px"><canvas id="cFocusMboDist"></canvas></div>
       </div>
-      <div class="legend">
-        <span><span class="ld" style="background:#3266adcc"></span>실적</span>
-        <span><span class="ld" style="background:#B5D4F4"></span>KPI</span>
-        <span><span class="ld" style="background:#CECBF6"></span>MBO</span>
-        <span><span class="ld-line" style="background:#e8a838"></span>달성률(KPI) 우축</span>
-        <span><span class="ld-line" style="background:#1D9E75;border-top:2px dashed #1D9E75"></span>달성률(MBO) 우축</span>
+      <!-- 월별 추이 차트 -->
+      <div class="card" style="padding:16px">
+        <div class="card-title">월별 추이 (12개월)
+          <span style="font-size:10px;font-weight:400;color:#888" id="focusTrendLabel"></span>
+        </div>
+        <div class="legend">
+          <span><span class="ld" style="background:#3266adcc"></span>실적</span>
+          <span><span class="ld" style="background:#B5D4F4"></span>KPI</span>
+          <span><span class="ld" style="background:#CECBF6"></span>MBO</span>
+          <span><span class="ld-line" style="background:#e8a838"></span>달성률(KPI) 우축</span>
+          <span><span class="ld-line" style="background:#1D9E75;border-top:2px dashed #1D9E75"></span>달성률(MBO) 우축</span>
+        </div>
+        <div style="position:relative;width:100%;height:200px"><canvas id="cFocusTrend"></canvas></div>
       </div>
-      <div style="position:relative;width:100%;height:200px"><canvas id="cFocusTrend"></canvas></div>
-
       <!-- 품목별 현황 테이블 -->
-      <div style="margin-top:14px">
+      <div class="card" style="padding:14px">
         <div class="card-title" style="margin-bottom:6px">품목별 현황</div>
         <div class="tbl-wrap"><table class="dt" id="tFocusItem" style="min-width:600px;font-size:11px"></table></div>
       </div>
     </div>
 
-    <!-- 우: 팀별 현황 + 담당자별 현황 -->
+    <!-- 우: MBO 유효성 요약 + 팀별 현황 + 담당자별 현황 -->
     <div style="display:flex;flex-direction:column;gap:10px">
       <div class="card" style="padding:14px">
+        <div class="card-title">MBO 유효성 요약</div>
+        <div class="tbl-wrap"><table class="dt" id="tFocusMboValid" style="width:100%;font-size:11px"></table></div>
+      </div>
+      <div class="card" style="padding:14px">
         <div class="card-title">팀별 현황</div>
-        <div class="tbl-wrap"><table class="dt" id="tFocusTeam" style="width:100%;font-size:11px"></table></div>
+        <div class="tbl-wrap"><table class="dt no-last" id="tFocusTeam" style="width:100%;font-size:11px"></table></div>
       </div>
       <div class="card" style="padding:14px">
         <div class="card-title">담당자별 현황</div>
-        <div class="tbl-wrap"><table class="dt" id="tFocusPerson" style="width:100%;font-size:11px"></table></div>
+        <div class="tbl-wrap"><table class="dt no-last" id="tFocusPerson" style="width:100%;font-size:11px"></table></div>
       </div>
     </div>
   </div>
@@ -5143,12 +5157,13 @@ function initFocusPage(){
   const allDists = [...new Set(D.dists)].filter(Boolean).sort();
   const distList = document.getElementById('focusDistCheckList');
   if(distList && allDists.length > 0){
+    const FOCUS_DEFAULT_DISTS = new Set(['블록처','직납처']);
     distList.innerHTML = allDists.map(d=>`
       <div class="multi-dropdown-item">
-        <input type="checkbox" class="focus-dist-chk" value="${d}" checked onchange="focusUpdateDistBtn();focusApply()">
+        <input type="checkbox" class="focus-dist-chk" value="${d}" ${FOCUS_DEFAULT_DISTS.has(d)?'checked':''} onchange="focusUpdateDistBtn();focusApply()">
         <label style="cursor:pointer">${d}</label>
       </div>`).join('');
-    document.getElementById('focusDistChkAll').checked = true;
+    document.getElementById('focusDistChkAll').checked = false;
   }
 
   focusUpdateItemBtn();
@@ -5354,8 +5369,10 @@ function focusApply(){
   if(nwAvgEl) nwAvgEl.textContent=avg3Nw+'처';
 
   focusRenderTrend(cy,cm);
+  focusRenderMboDist(cy,cm);
   focusRenderItemTable(cy,cm);
   focusRenderTeamTable(cy,cm);
+  focusRenderMboValid(cy,cm);
   focusRenderPersonTable(cy,cm);
   focusRenderDetail(cy,cm);
 }
@@ -5729,6 +5746,144 @@ function exportFocusExcel(){
   const a=document.createElement('a'); a.href=url; a.download=title+'.csv'; a.click();
   URL.revokeObjectURL(url);
 }
+
+let focusChartMboDist = null;
+
+function focusRenderMboDist(cy, cm){
+  const mboRows = focusGetMbo(cy, cm);
+  const vi = focusGetSelItems();
+
+  // 사업자+품목 기준 달성률 계산
+  const segments = {'매출없음':0,'1~50%':0,'50~80%':0,'80~100%':0,'100%이상':0};
+  const mboMap = {};
+  mboRows.forEach(k=>{
+    if(!k._biz||!k._i) return;
+    const key = k._biz+'::'+k._i;
+    if(!mboMap[key]) mboMap[key] = {mbo:0, s:0};
+    mboMap[key].mbo += k._mbo;
+  });
+  // 실적 매칭
+  focusGetRows(cy, cm).forEach(r=>{
+    if(!r._biz||!r._i) return;
+    const key = r._biz+'::'+r._i;
+    if(mboMap[key]) mboMap[key].s += r._s;
+  });
+
+  Object.values(mboMap).forEach(({mbo, s})=>{
+    if(mbo <= 0) return;
+    const rate = s/mbo*100;
+    if(s === 0) segments['매출없음']++;
+    else if(rate < 50) segments['1~50%']++;
+    else if(rate < 80) segments['50~80%']++;
+    else if(rate < 100) segments['80~100%']++;
+    else segments['100%이상']++;
+  });
+
+  const total = Object.values(segments).reduce((s,v)=>s+v, 0);
+  const lbl = document.getElementById('focusMboDistLabel');
+  if(lbl) lbl.textContent = `총 ${total}처`;
+
+  const labels = Object.keys(segments);
+  const data = Object.values(segments);
+  const colors = ['#E24B4A','#e8a838','#B5D4F4','#5DBF6E','#1D9E75'];
+
+  const ctx = document.getElementById('cFocusMboDist');
+  if(!ctx) return;
+  if(focusChartMboDist) focusChartMboDist.destroy();
+  focusChartMboDist = new Chart(ctx, {
+    type: 'bar',
+    data: {
+      labels,
+      datasets:[{
+        data,
+        backgroundColor: colors,
+        borderRadius: 4,
+        barPercentage: 0.6
+      }]
+    },
+    options:{
+      indexAxis: 'y',
+      responsive: true,
+      maintainAspectRatio: false,
+      plugins:{
+        legend:{display:false},
+        tooltip:{callbacks:{label: c=>`${c.parsed.x}처 (${total>0?(c.parsed.x/total*100).toFixed(1):'0'}%)`}}
+      },
+      scales:{
+        x:{ticks:{font:{size:9},stepSize:1},grid:{color:'rgba(128,128,128,0.08)'}},
+        y:{ticks:{font:{size:10}},grid:{display:false}}
+      }
+    }
+  });
+}
+
+function focusRenderMboValid(cy, cm){
+  const vt = document.getElementById('focusTeam').value;
+  const vp = document.getElementById('focusPerson').value;
+  const vi = focusGetSelItems();
+
+  // MBO 기준 담당자 목록
+  const mboAll = focusGetMbo(cy, cm);
+  const persSet = vp!=='all' ? [vp] : [...new Set(mboAll.map(k=>k._p).filter(Boolean))].sort();
+
+  const thS = 'padding:5px 8px;font-size:10px;color:#888;font-weight:500;border-bottom:1px solid #eee;background:#f5f5f3;text-align:center';
+  const tdS = 'padding:5px 8px;border-bottom:0.5px solid #f0f0f0;text-align:center;font-size:11px';
+
+  let totMboWrite=0, totMboSales=0, totNoMbo=0;
+
+  const rows = persSet.map(p=>{
+    // MBO 작성처 (사업자+품목 기준)
+    const mboKeys = new Set(mboAll.filter(k=>k._p===p&&k._mbo>0).map(k=>k._biz+'::'+k._i).filter(k=>k!=='::'));
+    // MBO 매출처 (MBO 작성처 중 실적 있는 것)
+    const salesRows = focusGetRows(cy, cm);
+    const mboSalesKeys = new Set([...mboKeys].filter(key=>{
+      const [biz, item] = key.split('::');
+      return salesRows.some(r=>r._biz===biz&&r._i===item&&r._s>0);
+    }));
+    // 미작성 매출처 (MBO 없는데 실적 있는 것)
+    const allMboKeys = new Set(mboAll.filter(k=>k._mbo>0).map(k=>k._biz+'::'+k._i));
+    const noMboSales = new Set(
+      salesRows.filter(r=>r._p===p&&r._s>0&&!allMboKeys.has(r._biz+'::'+r._i)).map(r=>r._biz+'::'+r._i)
+    );
+
+    const mboWrite = mboKeys.size;
+    const mboSales = mboSalesKeys.size;
+    const noMbo = noMboSales.size;
+    const rate = mboWrite>0?(mboSales/mboWrite*100):null;
+    const rc = rate===null?'#888':rate>=80?'#1D9E75':rate>=60?'#5DBF6E':rate>=40?'#e8a838':'#E24B4A';
+
+    totMboWrite+=mboWrite; totMboSales+=mboSales; totNoMbo+=noMbo;
+
+    return `<tr>
+      <td style="${tdS};text-align:left;font-weight:600">${p}</td>
+      <td style="${tdS}">${mboWrite}처</td>
+      <td style="${tdS};color:#1D9E75;font-weight:600">${mboSales}처</td>
+      <td style="${tdS};color:${rc};font-weight:600">${rate!==null?rate.toFixed(1)+'%':'-'}</td>
+      <td style="${tdS};color:#3266ad">${noMbo}처</td>
+    </tr>`;
+  }).filter(Boolean);
+
+  const totRate = totMboWrite>0?(totMboSales/totMboWrite*100):null;
+  const totRc = totRate===null?'#888':totRate>=80?'#1D9E75':totRate>=60?'#5DBF6E':totRate>=40?'#e8a838':'#E24B4A';
+
+  const tbl = document.getElementById('tFocusMboValid');
+  if(!tbl) return;
+  tbl.innerHTML = `<thead><tr>
+    <th style="${thS};text-align:left">담당자</th>
+    <th style="${thS}">MBO 작성처</th>
+    <th style="${thS}">MBO 매출처</th>
+    <th style="${thS}">유효율</th>
+    <th style="${thS}">미작성 매출처</th>
+  </tr></thead><tbody>${rows.join('')}
+  <tr style="background:#f5f5f3;font-weight:700">
+    <td style="${tdS};text-align:left">합계</td>
+    <td style="${tdS}">${totMboWrite}처</td>
+    <td style="${tdS};color:#1D9E75">${totMboSales}처</td>
+    <td style="${tdS};color:${totRc}">${totRate!==null?totRate.toFixed(1)+'%':'-'}</td>
+    <td style="${tdS};color:#3266ad">${totNoMbo}처</td>
+  </tr></tbody>`;
+}
+
 /* ===== /중점 품목 현황 JS ===== */
 
 </script>
