@@ -5,14 +5,14 @@ GitHub Actions에서 자동 실행됩니다.
 report_data.json 파일을 읽어서 메일을 발송합니다.
 (엑셀 파일 불필요 — update_dashboard.py 실행 시 자동 생성)
 """
- 
+
 import os
 import json
 import smtplib
 from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
 from datetime import datetime
- 
+
 # ============================================================
 # 설정 — GitHub Secrets에서 자동으로 읽어옴
 # ============================================================
@@ -22,32 +22,32 @@ RECV_EMAIL     = os.environ.get('RECV_EMAIL', '')
 DASHBOARD_URL  = os.environ.get('DASHBOARD_URL', 'https://songyi727.github.io/Dnc-dashboard/')
 DATA_FILE      = 'report_data.json'
 # ============================================================
- 
+
 def fs(v):
     if v >= 1e8: return f"{v/1e8:.1f}억원"
     if v >= 1e4: return f"{v/1e4:,.0f}만원"
     return f"{v:,.0f}원"
- 
+
 def chg_color(v):
     if v is None: return '#888888'
     return '#1D9E75' if v >= 0 else '#E24B4A'
- 
+
 def chg_arrow(v):
     if v is None: return '-'
     return f"{'▲' if v >= 0 else '▼'}{abs(v):.1f}%"
- 
+
 def rate_color(r):
     if r is None: return '#888888'
     if r >= 100: return '#1D9E75'
     if r >= 90:  return '#e8a838'
     return '#E24B4A'
- 
+
 def build_html(d):
     today = datetime.now().strftime('%Y년 %m월 %d일')
     mr = d['m_rate']
     ar = d['a_rate']
     fr_rate = d['fcst_rate']
- 
+
     # 품목 행
     item_rows = ''
     for it in d['item_data']:
@@ -58,7 +58,7 @@ def build_html(d):
           <td style="padding:8px 12px;border-bottom:1px solid #f0f0f0;text-align:center;color:{chg_color(it['chg_mom'])};font-weight:500">{chg_arrow(it['chg_mom'])}</td>
           <td style="padding:8px 12px;border-bottom:1px solid #f0f0f0;text-align:center;color:{chg_color(it['chg_avg'])};font-weight:500">{chg_arrow(it['chg_avg'])}</td>
         </tr>"""
- 
+
     # 달성 상태 메시지
     if mr is None:
         diag_bg, diag_color, diag_msg = '#f5f5f3', '#666', 'KPI 데이터 없음'
@@ -68,7 +68,7 @@ def build_html(d):
         diag_bg, diag_color, diag_msg = '#FFF8E5', '#7a4f00', f'⚡ KPI 근접 달성 ({mr:.1f}%) — 목표까지 {fs(d["mKPI"]-d["cur_sales"])} 남음'
     else:
         diag_bg, diag_color, diag_msg = '#FEF0F0', '#c0392b', f'⚠️ KPI 미달 ({mr:.1f}%) — 목표 대비 {fs(d["mKPI"]-d["cur_sales"])} 부족'
- 
+
     # 예측 상태
     if fr_rate is None:
         fcst_diag, fcst_bg, fcst_tc = 'KPI 데이터 없음', '#f5f5f3', '#666'
@@ -78,7 +78,7 @@ def build_html(d):
         fcst_diag, fcst_bg, fcst_tc = f'예측 기준 KPI 근접 달성 예상 ({fr_rate:.1f}%)', '#FFF8E5', '#7a4f00'
     else:
         fcst_diag, fcst_bg, fcst_tc = f'예측 기준 KPI 미달 예상 ({fr_rate:.1f}%) — {fs(max(0, d["mKPI"]-d["fcst"]))} 추가 필요', '#FEF0F0', '#c0392b'
- 
+
     html = f"""<!DOCTYPE html>
 <html lang="ko">
 <head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1.0">
@@ -86,7 +86,7 @@ def build_html(d):
 </head>
 <body style="margin:0;padding:0;background:#f0f0ee;font-family:-apple-system,BlinkMacSystemFont,'Noto Sans KR',sans-serif">
 <div style="max-width:620px;margin:24px auto;background:#fff;border-radius:16px;overflow:hidden;box-shadow:0 4px 20px rgba(0,0,0,0.08)">
- 
+
   <!-- 헤더 -->
   <div style="background:#1a3a6b;padding:28px 32px;text-align:center">
     <div style="font-size:22px;font-weight:700;color:#fff;letter-spacing:0.03em">DNC 매출 현황 리포트</div>
@@ -95,7 +95,7 @@ def build_html(d):
       <a href="{DASHBOARD_URL}" style="display:inline-block;background:#fff;color:#1a3a6b;padding:8px 22px;border-radius:20px;font-size:12px;font-weight:600;text-decoration:none">📊 대시보드 바로가기</a>
     </div>
   </div>
- 
+
   <div style="padding:28px 32px">
   <p style="font-size:13px;color:#555;margin-bottom:20px">
   안녕하세요.<br>
@@ -106,7 +106,7 @@ def build_html(d):
     <div style="background:#f5f5f3;border-radius:8px;padding:8px 14px;font-size:11px;color:#888;margin-bottom:24px;text-align:center">
       📅 데이터 기준: {d['cy']}년 {d['cm']}월 (업데이트: {d['max_date']})
     </div>
- 
+
     <!-- 핵심 지표 -->
     <div style="font-size:11px;font-weight:600;color:#888;letter-spacing:.07em;text-transform:uppercase;margin-bottom:12px">핵심 지표</div>
     <table width="100%" cellpadding="0" cellspacing="0" style="margin-bottom:8px">
@@ -137,7 +137,7 @@ def build_html(d):
       </tr>
     </table>
     <div style="background:{diag_bg};border-radius:8px;padding:10px 14px;font-size:12px;color:{diag_color};font-weight:500;margin-bottom:24px">{diag_msg}</div>
- 
+
     <!-- 당월 예측 마감 -->
     <div style="font-size:11px;font-weight:600;color:#888;letter-spacing:.07em;text-transform:uppercase;margin-bottom:12px">⚡ 당월 예측 마감</div>
     <table width="100%" cellpadding="0" cellspacing="0" style="margin-bottom:8px">
@@ -159,7 +159,7 @@ def build_html(d):
       </tr>
     </table>
     <div style="background:{fcst_bg};border-radius:8px;padding:10px 14px;font-size:12px;color:{fcst_tc};font-weight:500;margin-bottom:24px">{fcst_diag}</div>
- 
+
     <!-- 주요 품목별 실적 -->
     <div style="font-size:11px;font-weight:600;color:#888;letter-spacing:.07em;text-transform:uppercase;margin-bottom:12px">🏆 주요 품목 실적</div>
     <table width="100%" cellpadding="0" cellspacing="0" style="border:1px solid #eee;border-radius:10px;overflow:hidden;margin-bottom:24px">
@@ -173,35 +173,38 @@ def build_html(d):
       </thead>
       <tbody>{item_rows}</tbody>
     </table>
- 
+
     <!-- 대시보드 링크 -->
     <div style="text-align:center;margin-bottom:8px">
       <a href="{DASHBOARD_URL}" style="display:inline-block;background:#1a3a6b;color:#fff;padding:12px 32px;border-radius:10px;font-size:13px;font-weight:600;text-decoration:none">📊 전체 대시보드 보기</a>
     </div>
- 
+
   </div>
- 
+
   <!-- 푸터 -->
   <div style="background:#f5f5f3;padding:16px 32px;text-align:center;font-size:10px;color:#aaa">
     DNC AESTHETICS · DA_RPM사업부 매출 현황 자동 리포트<br>본 메일은 자동 발송됩니다.
   </div>
- 
+
 </div>
 </body>
 </html>"""
     return html
- 
+
 def send_email(subject, html_body):
+    # 수신자 여러 명 지원 (콤마로 구분)
+    recipients = [r.strip() for r in RECV_EMAIL.split(',')]
+
     msg = MIMEMultipart('alternative')
     msg['Subject'] = subject
     msg['From']    = GMAIL_USER
-    msg['To']      = RECV_EMAIL
+    msg['To']      = ', '.join(recipients)
     msg.attach(MIMEText(html_body, 'html', 'utf-8'))
     with smtplib.SMTP_SSL('smtp.gmail.com', 465) as server:
         server.login(GMAIL_USER, GMAIL_PASSWORD)
-        server.sendmail(GMAIL_USER, RECV_EMAIL, msg.as_string())
-    print(f"✅ 메일 발송 완료 → {RECV_EMAIL}")
- 
+        server.sendmail(GMAIL_USER, recipients, msg.as_string())
+    print(f"✅ 메일 발송 완료 → {', '.join(recipients)}")
+
 if __name__ == '__main__':
     print("📊 report_data.json 읽는 중...")
     if not os.path.exists(DATA_FILE):
