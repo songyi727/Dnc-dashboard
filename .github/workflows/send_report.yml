@@ -1,10 +1,7 @@
 name: DNC 매출 리포트 자동 발송
 
 on:
-  push:
-    paths:
-      - 'report_data.json'
-  workflow_dispatch:  # 수동 실행 버튼 (테스트용)
+  workflow_dispatch:  # update_dashboard.py에서 자동 트리거
 
 jobs:
   send-email:
@@ -24,7 +21,7 @@ jobs:
 
       - name: 30분 대기 (데이터 안정화)
         run: |
-          echo "⏳ report_data.json 업데이트 감지! 30분 후 메일 발송합니다..."
+          echo "⏳ 데이터 업데이트 감지! 30분 후 메일 발송합니다..."
           sleep 1800
 
       - name: 최신 데이터로 재체크아웃
