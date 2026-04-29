@@ -3435,7 +3435,7 @@ function initReportPage(){
   // 품목 멀티셀렉트 초기화 (처방 기본 제외)
   const rpItemList = document.getElementById('rpItemCheckList');
   const allItems = EMBEDDED_DATA.items.filter(i=>i!=='기타');
-  rpSelItems = new Set(allItems.filter(i=>i!=='처방'));
+  rpSelItems = new Set([...ITEMS.filter(i=>i!=='처방'), '기타']);
   allItems.forEach(it=>{
     const checked = it !== '처방';
     const label = document.createElement('label');
@@ -3665,14 +3665,16 @@ function rpRenderChart(cy,cm){
 }
 
 function rpRenderItemTable(cy,cm,totalKpi){
-  const items = EMBEDDED_DATA.items.filter(i=>i!=='기타');
+  const items = [...EMBEDDED_DATA.items.filter(i=>i!=='기타'), '기타'];
   const totalSales = rpSS(rpGetRows(cy,cm));
 
   const rows = items.map(it=>{
-    if(!rpSelItems.has(it)) return null;
-    const r = RAW.filter(x=>x._y===cy&&x._m===cm&&x._s>0&&x._i===it);
+    if(it!=='기타'&&!rpSelItems.has(it)) return null;
+    const r = it==='기타'
+      ? RAW.filter(x=>x._y===cy&&x._m===cm&&x._s>0&&!ITEMS.includes(x._i))
+      : RAW.filter(x=>x._y===cy&&x._m===cm&&x._s>0&&x._i===it);
     const s = r.reduce((a,b)=>a+b._s,0);
-    const k = KPI.filter(x=>x._y===cy&&x._m===cm&&x._i===it).reduce((a,b)=>a+b._k,0);
+    const k = it==='기타' ? 0 : KPI.filter(x=>x._y===cy&&x._m===cm&&x._i===it).reduce((a,b)=>a+b._k,0);
     return {item:it,sales:s,kpi:k,share:totalSales>0?s/totalSales*100:0};
   }).filter(r=>r!==null&&(r.sales>0||r.kpi>0));
 
