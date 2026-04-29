@@ -1813,7 +1813,7 @@ function cntNew(cy,cm,rows){
   // 직전 12개월 기존 거래처: 전체 품목(처방 포함) RAW 기준
   const ex=new Set();
   p12r(cy,cm).forEach(ym=>{
-    RAW.filter(r=>r._ym===ym&&r._s>0).forEach(r=>{ if(r._biz) ex.add(r._biz); });
+    RAW.filter(r=>r._ym===ym).forEach(r=>{ if(r._biz) ex.add(r._biz); });
   });
   let c=0;new Set(rows.filter(r=>r._s>0).map(r=>r._biz).filter(Boolean)).forEach(b=>{if(!ex.has(b))c++;});return c;
 }
@@ -1822,9 +1822,9 @@ function calcNI(cy,cm,cr,pr){
   const pp=p12r(cy,cm),pm=p12r(cm===1?cy-1:cy,cm===1?12:cm-1);
   const il=selItems.size>0?[...selItems]:[...ITEMS,'기타'];
   return il.map(it=>{
-    const cb=new Set(cr.filter(r=>r._i===it&&r._s>0).map(r=>ncKey(r)).filter(Boolean));
+    const cb=new Set(cr.filter(r=>r._i===it).map(r=>ncKey(r)).filter(Boolean));
     const pb=new Set(frBasePos(RAW.filter(r=>pp.has(r._ym)&&r._i===it),'all','all').map(r=>ncKey(r)).filter(Boolean));
-    const pvb=new Set(pr.filter(r=>r._i===it&&r._s>0).map(r=>ncKey(r)).filter(Boolean));
+    const pvb=new Set(pr.filter(r=>r._i===it).map(r=>ncKey(r)).filter(Boolean));
     const pmb=new Set(frBasePos(RAW.filter(r=>pm.has(r._ym)&&r._i===it),'all','all').map(r=>ncKey(r)).filter(Boolean));
     let cn=0;cb.forEach(k=>{if(!pb.has(k))cn++;});
     let pn=0;pvb.forEach(k=>{if(!pmb.has(k))pn++;});
@@ -2281,7 +2281,7 @@ function buildForecast(){
   // 전년 계절성
   const yoyRows=fr(RAW.filter(r=>r._y===cy-1&&r._m===cm),'all','all').filter(r=>r._s>0);
   const yoyTotal=ss(yoyRows);
-  const yoyToDay=ss(yoyRows.filter(r=>(r._day||0)<=maxDay&&r._s>0));
+  const yoyToDay=ss(yoyRows.filter(r=>(r._day||0)<=maxDay));
   const yoyRatio=yoyToDay>0?yoyTotal/yoyToDay:1;
   const fcstSeasonal=maxDay>0?curS*yoyRatio:fcstDaily;
 
@@ -2309,7 +2309,7 @@ function buildForecast(){
     const iFcstD=iDaily*daysInMonth;
     const iYoy=fr(RAW.filter(r=>r._y===cy-1&&r._m===cm&&r._i===item),'all','all').filter(r=>r._s>0);
     const iYoyTotal=ss(iYoy);
-    const iYoyToDay=ss(iYoy.filter(r=>(r._day||0)<=iMaxDay&&r._s>0));
+    const iYoyToDay=ss(iYoy.filter(r=>(r._day||0)<=iMaxDay));
     const iYoyRatio=iYoyToDay>0?iYoyTotal/iYoyToDay:1;
     const iFcstS=iMaxDay>0?iCur*iYoyRatio:iFcstD;
     const iFcst=iMaxDay>0?Math.max(0,iFcstD*0.5+iFcstS*0.5):iFcstD;
@@ -2676,7 +2676,7 @@ function calcClientStatus(cy, cm, useItemFilter){
     // 당월 실매출 > 0 rows
     const curRows = posRows(ncFr(RAW.filter(r=>r._i===item), cy, cm));
     // 직전 12개월 실매출 > 0 rows (연/월 필터 없이 팀/담당자만)
-    const p12Rows = posRows(ncFrTeam(RAW.filter(r=>p12.has(r._ym)&&r._i===item&&r._s>0)));
+    const p12Rows = posRows(ncFrTeam(RAW.filter(r=>p12.has(r._ym)&&r._i===item)));
 
     const curKeys  = new Set(curRows.map(r=>ncKey(r)).filter(Boolean));
     const p12Keys  = new Set(p12Rows.map(r=>ncKey(r)).filter(Boolean));
@@ -2691,11 +2691,11 @@ function calcClientStatus(cy, cm, useItemFilter){
     // 당월도 없음 → 이탈
     const t12m = cm-12<=0?cm-12+12:cm-12;
     const t12y = cm-12<=0?cy-1:cy;
-    const t12Keys = new Set(posRows(ncFrTeam(RAW.filter(r=>r._y===t12y&&r._m===t12m&&r._i===item&&r._s>0))).map(r=>ncKey(r)).filter(Boolean));
+    const t12Keys = new Set(posRows(ncFrTeam(RAW.filter(r=>r._y===t12y&&r._m===t12m&&r._i===item))).map(r=>ncKey(r)).filter(Boolean));
     // 사이 11개월 (target-11 ~ target-1)
     const betweenSet = new Set();
     for(let i=1;i<=11;i++){let m2=t12m+i,y2=t12y;if(m2>12){m2-=12;y2++;}betweenSet.add(y2*100+m2);}
-    const betweenKeys = new Set(posRows(ncFrTeam(RAW.filter(r=>betweenSet.has(r._ym)&&r._i===item&&r._s>0))).map(r=>ncKey(r)).filter(Boolean));
+    const betweenKeys = new Set(posRows(ncFrTeam(RAW.filter(r=>betweenSet.has(r._ym)&&r._i===item))).map(r=>ncKey(r)).filter(Boolean));
     // 이탈: target-12에 있고, 사이 없고, 당월 없음
     const lostKeys = new Set([...t12Keys].filter(k=>!betweenKeys.has(k)&&!curKeys.has(k)));
 
@@ -2747,7 +2747,7 @@ function calcTrend3(cy, cm, item, useItemFilter){
     const itemFilter = r => item ? r._i===item : (useItemFilter&&ncItems.size>0 ? ncItems.has(r._i) : true);
     const rows = posRows(ncFr(RAW.filter(r=>itemFilter(r)), y, m));
     const p12 = prev12Set(y,m);
-    const p12Keys = new Set(posRows(ncFrTeam(RAW.filter(r=>p12.has(r._ym)&&itemFilter(r)&&r._s>0))).map(r=>ncKey(r)).filter(Boolean));
+    const p12Keys = new Set(posRows(ncFrTeam(RAW.filter(r=>p12.has(r._ym)&&itemFilter(r)))).map(r=>ncKey(r)).filter(Boolean));
     const curKeys = new Set(rows.map(r=>ncKey(r)).filter(Boolean));
     // 신규: 당월 있고 직전12개월 없음
     const newCnt = new Set([...curKeys].filter(k=>!p12Keys.has(k))).size;
@@ -2755,10 +2755,10 @@ function calcTrend3(cy, cm, item, useItemFilter){
     const existCnt = new Set([...curKeys].filter(k=>p12Keys.has(k))).size;
     // 이탈: VBA 방식
     const t12m=m-12<=0?m-12+12:m-12, t12y=m-12<=0?y-1:y;
-    const t12Keys=new Set(posRows(ncFrTeam(RAW.filter(r=>r._y===t12y&&r._m===t12m&&itemFilter(r)&&r._s>0))).map(r=>ncKey(r)).filter(Boolean));
+    const t12Keys=new Set(posRows(ncFrTeam(RAW.filter(r=>r._y===t12y&&r._m===t12m&&itemFilter(r)))).map(r=>ncKey(r)).filter(Boolean));
     const betSet=new Set();
     for(let i=1;i<=11;i++){let m2=t12m+i,y2=t12y;if(m2>12){m2-=12;y2++;}betSet.add(y2*100+m2);}
-    const betKeys=new Set(posRows(ncFrTeam(RAW.filter(r=>betSet.has(r._ym)&&itemFilter(r)&&r._s>0))).map(r=>ncKey(r)).filter(Boolean));
+    const betKeys=new Set(posRows(ncFrTeam(RAW.filter(r=>betSet.has(r._ym)&&itemFilter(r)))).map(r=>ncKey(r)).filter(Boolean));
     const lostCnt=new Set([...t12Keys].filter(k=>!betKeys.has(k)&&!curKeys.has(k))).size;
     return {y,m,newCnt,existCnt,lostCnt};
   });
@@ -3486,7 +3486,7 @@ function rpGetRows(oy, om){
   const yr = oy!==undefined ? oy : (ry==='all' ? null : parseInt(ry));
   const mr = om!==undefined ? om : (rm==='all' ? null : parseInt(rm));
   return RAW.filter(r=>
-    r._s > 0 &&
+    r._s !== 0 &&
     (yr===null || r._y===yr) &&
     (mr===null || r._m===mr) &&
     (rpSelItems.size===0 || rpSelItems.has(r._i))
@@ -3511,7 +3511,7 @@ function rpCntNew(cy,cm,rows){
   for(let i=1;i<=12;i++){
     let mm=cm-i, yy=cy;
     if(mm<=0){mm+=12;yy--;}
-    RAW.filter(r=>r._y===yy&&r._m===mm&&r._s>0).forEach(r=>{ if(r._biz) ex12.add(r._biz); });
+    RAW.filter(r=>r._y===yy&&r._m===mm).forEach(r=>{ if(r._biz) ex12.add(r._biz); });
   }
   const bizSet = new Set(rows.filter(r=>r._s>0).map(r=>r._biz).filter(Boolean));
   let c=0;
@@ -3624,7 +3624,7 @@ function rpApply(){
 }
 
 function rpRenderChart(cy,cm){
-  const allRows = RAW.filter(r=>r._y===cy&&r._m===cm&&r._s>0);
+  const allRows = RAW.filter(r=>r._y===cy&&r._m===cm);
   const rows = allRows.filter(r=>
     (rpSelItems.size===0||rpSelItems.has(r._i))
   );
@@ -3822,7 +3822,7 @@ function rpRenderSheetTables(cy, cm){
   RPM_TEAMS.forEach(team=>{
     const gs = latestStrategy[team]||{};
     const k = cy&&cm?KPI.filter(x=>x._y===cy&&x._m===cm&&x._t===team).reduce((s,x)=>s+x._k,0):0;
-    const s = cy&&cm?rpSS(RAW.filter(r=>r._y===cy&&r._m===cm&&r._t===team&&r._s>0)):0;
+    const s = cy&&cm?rpSS(RAW.filter(r=>r._y===cy&&r._m===cm&&r._t===team)):0;
     const rate = k>0?(s/k*100):null;
     const rateColor = rate===null?'#888':rate>=100?'#1D9E75':rate>=90?'#5DBF6E':rate>=80?'#e8a838':rate>=60?'#D85A30':'#E24B4A';
     const fcst = parseForecast(gs);
@@ -3844,7 +3844,7 @@ function rpRenderSheetTables(cy, cm){
   });
   // RPM 합계 행
   const rpmTotK = RPM_TEAMS.reduce((sum,team)=>sum+(cy&&cm?KPI.filter(x=>x._y===cy&&x._m===cm&&x._t===team).reduce((s,x)=>s+x._k,0):0),0);
-  const rpmTotS = RPM_TEAMS.reduce((sum,team)=>sum+(cy&&cm?rpSS(RAW.filter(r=>r._y===cy&&r._m===cm&&r._t===team&&r._s>0)):0),0);
+  const rpmTotS = RPM_TEAMS.reduce((sum,team)=>sum+(cy&&cm?rpSS(RAW.filter(r=>r._y===cy&&r._m===cm&&r._t===team)):0),0);
   const rpmTotRate = rpmTotK>0?(rpmTotS/rpmTotK*100):null;
   const rpmTotRateColor = rpmTotRate===null?'#888':rpmTotRate>=100?'#1D9E75':rpmTotRate>=90?'#5DBF6E':rpmTotRate>=80?'#e8a838':rpmTotRate>=60?'#D85A30':'#E24B4A';
   const rpmFcstNums = RPM_TEAMS.map(team=>{ const gs=latestStrategy[team]||{}; return parseForecast(gs).num||0; });
@@ -3868,7 +3868,7 @@ function rpRenderSheetTables(cy, cm){
   Object.entries(MKT_ITEM_MAP).forEach(([mktKey, itemName])=>{
     const gi = latestStrategy[mktKey]||{};
     const ik = cy&&cm?KPI.filter(x=>x._y===cy&&x._m===cm&&x._i===itemName).reduce((s,x)=>s+x._k,0):0;
-    const is_ = cy&&cm?rpSS(RAW.filter(r=>r._y===cy&&r._m===cm&&r._i===itemName&&r._s>0)):0;
+    const is_ = cy&&cm?rpSS(RAW.filter(r=>r._y===cy&&r._m===cm&&r._i===itemName)):0;
     const ir = ik>0?(is_/ik*100):null;
     const irColor = ir===null?'#888':ir>=100?'#1D9E75':ir>=90?'#5DBF6E':ir>=80?'#e8a838':ir>=60?'#D85A30':'#E24B4A';
     const fcst = parseForecast(gi);
@@ -3890,7 +3890,7 @@ function rpRenderSheetTables(cy, cm){
   });
   // ME팀 합계 행
   const meTotK = Object.entries(MKT_ITEM_MAP).reduce((sum,[mktKey,itemName])=>sum+(cy&&cm?KPI.filter(x=>x._y===cy&&x._m===cm&&x._i===itemName).reduce((s,x)=>s+x._k,0):0),0);
-  const meTotS = Object.entries(MKT_ITEM_MAP).reduce((sum,[mktKey,itemName])=>sum+(cy&&cm?rpSS(RAW.filter(r=>r._y===cy&&r._m===cm&&r._i===itemName&&r._s>0)):0),0);
+  const meTotS = Object.entries(MKT_ITEM_MAP).reduce((sum,[mktKey,itemName])=>sum+(cy&&cm?rpSS(RAW.filter(r=>r._y===cy&&r._m===cm&&r._i===itemName)):0),0);
   const meTotRate = meTotK>0?(meTotS/meTotK*100):null;
   const meTotRateColor = meTotRate===null?'#888':meTotRate>=100?'#1D9E75':meTotRate>=90?'#5DBF6E':meTotRate>=80?'#e8a838':meTotRate>=60?'#D85A30':'#E24B4A';
   const meFcstNums = Object.entries(MKT_ITEM_MAP).map(([mktKey])=>{ const gi=latestStrategy[mktKey]||{}; return parseForecast(gi).num||0; });
@@ -3916,7 +3916,7 @@ function rpRenderSheetTables(cy, cm){
   const mktRows = Object.entries(MKT_ITEM_MAP).map(([mktKey,itemName])=>{
     const gs = latestIssue[mktKey]||{};
     const k = cy&&cm?KPI.filter(x=>x._y===cy&&x._m===cm&&x._i===itemName).reduce((s,x)=>s+x._k,0):0;
-    const s = cy&&cm?rpSS(RAW.filter(r=>r._y===cy&&r._m===cm&&r._i===itemName&&r._s>0)):0;
+    const s = cy&&cm?rpSS(RAW.filter(r=>r._y===cy&&r._m===cm&&r._i===itemName)):0;
     const rate = k>0?(s/k*100):null;
     const rateColor = rate===null?'#888':rate>=100?'#1D9E75':rate>=90?'#5DBF6E':rate>=80?'#e8a838':rate>=60?'#D85A30':'#E24B4A';
     const mktAnalysis = gs['(ME팀) 분석 및 이슈사항 (100자이내)']||gs['(ME팀) 분석 및 이슈사항 (100자 이내)']||gs['(ME팀) 분석 및 이슈사항']||gs['MKT분석']||'-';
@@ -3937,7 +3937,7 @@ function rpRenderSheetTables(cy, cm){
   const teamRows5 = RPM_TEAMS.map(team=>{
     const gs = latestIssue[team]||{};
     const k = cy&&cm?KPI.filter(x=>x._y===cy&&x._m===cm&&x._t===team).reduce((s,x)=>s+x._k,0):0;
-    const s = cy&&cm?rpSS(RAW.filter(r=>r._y===cy&&r._m===cm&&r._t===team&&r._s>0)):0;
+    const s = cy&&cm?rpSS(RAW.filter(r=>r._y===cy&&r._m===cm&&r._t===team)):0;
     const rate = k>0?(s/k*100):null;
     const rateColor = rate===null?'#888':rate>=100?'#1D9E75':rate>=90?'#5DBF6E':rate>=80?'#e8a838':rate>=60?'#D85A30':'#E24B4A';
     const issue = gs['(RPM) 이슈사항 (100자이내)']||gs['(RPM) 이슈사항']||gs['RPM이슈']||'-';
@@ -4337,7 +4337,7 @@ const anK = KPI.filter(k => k._y === cy
 
   // 필터 적용 행 가져오기 (activeMs 기반)
   function getRowsForMs(y, ms){
-    return RAW.filter(r=>r._y===y&&r._s>0&&
+    return RAW.filter(r=>r._y===y&&r._s!==0&&
       (ms===null?true:ms.includes(r._m))&&
       (vt2==='all'||r._t===vt2)&&(vp2==='all'||r._p===vp2)&&
       (vi2===null||vi2.has(r._i))&&(vd2===null||vd2.has(r._d)));
@@ -4462,7 +4462,7 @@ function v2RenderTrendChart(cy){
 
   const vi_t = v2GetSelItems();
   const getSales=(y,m)=>RAW.filter(r=>r._y===y&&r._m===m&&r._s>0&&(vt==='all'||r._t===vt)&&(vp==='all'||r._p===vp)&&(vi_t===null||vi_t.has(r._i))).reduce((s,r)=>s+r._s,0);
-  const getKpi=(y,m)=>KPI.filter(k=>k._y===y&&k._m===m&&(vt==='all'||k._t===vt)&&(vi_t===null||vi_t.has(k._i))).reduce((s,k)=>s+k._k,0);
+  const getKpi=(y,m)=>KPI.filter(k=>k._y===y&&k._m===m&&(vt==='all'||k._t===vt)&&(vp==='all'||k._p===vp)&&(vi_t===null||vi_t.has(k._i))).reduce((s,k)=>s+k._k,0);
 
   const actuals  = rolling.map(r=>getSales(r.y,r.m));
   const targets  = rolling.map(r=>getKpi(r.y,r.m));
@@ -4667,7 +4667,7 @@ function v2RenderItemGrowth(cy, cm, activeMs){
   const TARGET_ITEMS = ['톡신','HA','브이올렛','CaHA','리프팅실','병원화장품'];
 
   function getSalesMs(y, ms){
-    return RAW.filter(r=>r._y===y&&r._s>0&&
+    return RAW.filter(r=>r._y===y&&r._s!==0&&
       (ms===null?true:ms.includes(r._m))&&
       (vt==='all'||r._t===vt)&&(vp==='all'||r._p===vp)&&
       (vi===null||vi.has(r._i))&&(vd===null||vd.has(r._d)));
@@ -4731,6 +4731,7 @@ function v2RenderDetailTable(cy){
     &&(vi===null||vi.has(r._i))&&(vd===null||vd.has(r._d))).reduce((a,b)=>a+b._s,0);
   const getKpi=(y,m)=>KPI.filter(k=>k._y===y&&k._m===m
     &&(vt==='all'||k._t===vt)
+    &&(vp==='all'||k._p===vp)
     &&(vi===null||vi.has(k._i))).reduce((a,b)=>a+b._k,0);
   const fc=(v,p)=>p>0?((v-p)/p*100):null;
   const fct=v=>v===null?'-':(v>=0?'▲':'▼')+Math.abs(v).toFixed(1)+'%';
@@ -5343,9 +5344,9 @@ function focusApply(){
     const bizItemSet=new Set();
     // 당월 거래처는 필터된 rows에서 추출 (팀/담당자 필터 반영)
     // 단, filteredRows가 없으면 전체 RAW 사용
-    const srcRows=filteredRows||RAW.filter(r=>r._y===y&&r._m===m&&r._s>0);
+    const srcRows=filteredRows||RAW.filter(r=>r._y===y&&r._m===m);
     checkItems.forEach(it=>{
-      srcRows.filter(r=>r._i===it&&r._s>0).forEach(r=>{
+      srcRows.filter(r=>r._i===it).forEach(r=>{
         if(r._biz) bizItemSet.add(r._biz+'::'+it);
       });
     });
@@ -5355,7 +5356,7 @@ function focusApply(){
       let isNew=true;
       for(let i=1;i<=12;i++){
         let mm=m-i,yy=y; if(mm<=0){mm+=12;yy--;}
-        if(RAW.some(r=>r._y===yy&&r._m===mm&&r._biz===biz&&r._i===it&&r._s>0)){isNew=false;break;}
+        if(RAW.some(r=>r._y===yy&&r._m===mm&&r._biz===biz&&r._i===it)){isNew=false;break;}
       }
       if(isNew) cnt++;
     });
@@ -5433,13 +5434,13 @@ function focusRenderItemTable(cy,cm){
     const kpi=KPI.filter(k=>k._y===cy&&k._m===cm&&k._i===it&&(vt==='all'?ATEAMS.has(k._t):k._t===vt)&&(vp2==='all'||k._p===vp2)).reduce((a,b)=>a+b._k,0);
     // 사업자+품목 기준 신규 - 당월은 팀/담당자 필터된 cachedRows, 직전12개월은 전체 RAW
     const nw=(()=>{
-      const bizSet=new Set(cachedRows.filter(r=>r._i===it&&r._s>0).map(r=>r._biz).filter(Boolean));
+      const bizSet=new Set(cachedRows.filter(r=>r._i===it).map(r=>r._biz).filter(Boolean));
       let cnt=0;
       bizSet.forEach(biz=>{
         let isNew=true;
         for(let i=1;i<=12;i++){
           let mm=cm-i,yy=cy; if(mm<=0){mm+=12;yy--;}
-          if(RAW.some(r=>r._y===yy&&r._m===mm&&r._biz===biz&&r._i===it&&r._s>0)){isNew=false;break;}
+          if(RAW.some(r=>r._y===yy&&r._m===mm&&r._biz===biz&&r._i===it)){isNew=false;break;}
         }
         if(isNew) cnt++;
       });
@@ -5481,9 +5482,9 @@ function focusIsNew(biz, item, cy, cm){
   for(let i=1;i<=12;i++){
     let mm=cm-i, yy=cy;
     if(mm<=0){mm+=12;yy--;}
-    if(RAW.some(r=>r._y===yy&&r._m===mm&&r._biz===biz&&r._i===item&&r._s>0)) return false;
+    if(RAW.some(r=>r._y===yy&&r._m===mm&&r._biz===biz&&r._i===item)) return false;
   }
-  return RAW.some(r=>r._y===cy&&r._m===cm&&r._biz===biz&&r._i===item&&r._s>0);
+  return RAW.some(r=>r._y===cy&&r._m===cm&&r._biz===biz&&r._i===item);
 }
 
 function focusRenderTeamTable(cy,cm){
@@ -5845,7 +5846,7 @@ function focusRenderMboValid(cy, cm){
     const salesRows = focusGetRows(cy, cm);
     const mboSalesKeys = new Set([...mboKeys].filter(key=>{
       const [biz, item] = key.split('::');
-      return salesRows.some(r=>r._biz===biz&&r._i===item&&r._s>0);
+      return salesRows.some(r=>r._biz===biz&&r._i===item);
     }));
     // 미작성 매출처 (MBO 없는데 실적 있는 것)
     const allMboKeys = new Set(mboAll.filter(k=>k._mbo>0).map(k=>k._biz+'::'+k._i));
