@@ -64,14 +64,19 @@ def build_html(d):
 
     # 일자별 품목 행
     max_date = d.get('max_date', '')
-    # yyyy-mm-dd → yyyy. mm. dd
     date_fmt = max_date.replace('-', '. ') if max_date else '-'
+    daily_total = sum(it['val'] for it in d.get('daily_item_data', []))
     daily_rows = ''
     for it in d.get('daily_item_data', []):
         daily_rows += f"""
         <tr>
           <td style="padding:8px 12px;border-bottom:1px solid #f0f0f0;font-weight:500;color:#1a1a1a">{it['item']}</td>
           <td style="padding:8px 12px;border-bottom:1px solid #f0f0f0;text-align:right;font-weight:600;color:#1a3a6b">{fs(it['val'])}</td>
+        </tr>"""
+    daily_rows += f"""
+        <tr style="background:#f5f5f3">
+          <td style="padding:8px 12px;font-weight:700;color:#1a1a1a">합계</td>
+          <td style="padding:8px 12px;text-align:right;font-weight:700;color:#1a3a6b">{fs(daily_total)}</td>
         </tr>"""
 
     # 달성 상태 메시지
