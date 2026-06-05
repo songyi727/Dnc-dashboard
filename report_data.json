@@ -71,12 +71,6 @@
   ],
   "team_data": [
     {
-      "team": "0",
-      "val": 0.0,
-      "chg_mom": null,
-      "chg_avg": null
-    },
-    {
       "team": "RPM1팀",
       "val": 182178804.0,
       "chg_mom": -62.49675755805328,
