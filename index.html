@@ -1798,8 +1798,8 @@ let selItems=new Set();
 const mxMo={};
 RAW.forEach(r=>{if(r._y&&r._m)mxMo[r._y]=Math.max(mxMo[r._y]||0,r._m);});
 
-const TPM={"RPM1팀": ["김태훈", "박기주", "이도현", "이상준", "하성환"], "RPM2팀": ["박천", "장은준", "전우찬", "정대철", "홍원의"], "RPM3팀": ["김재진", "송진영", "이다별", "이동규", "이상직", "한정우"], "RPM사업부직속": ["유재준"]};
-const AP=["김재진", "김태훈", "박기주", "박천", "송진영", "유재준", "이다별", "이도현", "이동규", "이상준", "이상직", "장은준", "전우찬", "정대철", "하성환", "한정우", "홍원의"];
+const TPM={"RPM1팀": ["김태훈", "박기주", "이도현", "이상준", "하성환"], "RPM2팀": ["박천", "장은준", "전우찬", "정대철", "홍원의"], "RPM3팀": ["김재진", "송진영", "이다별", "이상직", "한정우"], "RPM사업부직속": ["유재준"]};
+const AP=["김재진", "김태훈", "박기주", "박천", "송진영", "유재준", "이다별", "이도현", "이상준", "이상직", "장은준", "전우찬", "정대철", "하성환", "한정우", "홍원의"];
 
 function toggleItemDrop(e){e.stopPropagation();document.getElementById('itemDrop').classList.toggle('open');}
 document.addEventListener('click',e=>{if(!document.getElementById('itemWrap').contains(e.target))document.getElementById('itemDrop').classList.remove('open');});
