@@ -54,6 +54,7 @@ def build_html(d):
     # 팀별 실적 행
     team_rows = ''
     for t in d.get('team_data', []):
+        if t.get('val', 0) == 0: continue  # 매출 0인 팀 제외
         team_rows += f"""
         <tr>
           <td style="padding:8px 12px;border-bottom:1px solid #f0f0f0;font-weight:500;color:#1a1a1a">{t['team']}</td>
