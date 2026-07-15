@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>하반기 판매 활성화 인센티브</title>
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:'Apple SD Gothic Neo','Noto Sans KR',sans-serif;background:#f5f5f3;color:#1a1a1a;font-size:13px}
+.header{background:#1a2a4a;color:#fff;padding:16px 24px;display:flex;align-items:center;justify-content:space-between}
+.header-title{font-size:16px;font-weight:700}
+.header-sub{font-size:11px;color:#aac4ff;margin-top:2px}
+.container{padding:16px 24px}
+.filter-bar{background:#fff;border-radius:10px;padding:12px 16px;margin-bottom:12px;display:flex;gap:8px;flex-wrap:wrap;align-items:center;box-shadow:0 1px 4px rgba(0,0,0,0.06)}
+.filter-bar label{font-size:11px;color:#888;font-weight:500}
+select{font-size:12px;padding:5px 8px;border:1px solid #ddd;border-radius:6px;background:#fff;cursor:pointer}
+.cards{display:grid;grid-template-columns:repeat(4,1fr);gap:10px;margin-bottom:12px}
+.card{background:#fff;border-radius:10px;padding:14px 16px;box-shadow:0 1px 4px rgba(0,0,0,0.06)}
+.card-label{font-size:10px;color:#888;margin-bottom:6px}
+.card-val{font-size:22px;font-weight:700}
+.card-title{font-size:12px;font-weight:700;color:#1a1a1a;margin-bottom:10px}
+.summary-card{background:#fff;border-radius:10px;padding:16px;box-shadow:0 1px 4px rgba(0,0,0,0.06);margin-bottom:12px}
+table{width:100%;border-collapse:collapse;font-size:11px}
+th{padding:6px 8px;background:#f5f5f3;font-weight:600;color:#666;border-bottom:1.5px solid #e0e0e0;text-align:center;white-space:nowrap}
+td{padding:6px 8px;border-bottom:1px solid #f0f0f0;text-align:center}
+.tl{text-align:left}
+.detail-card{background:#fff;border-radius:10px;padding:16px;box-shadow:0 1px 4px rgba(0,0,0,0.06)}
+.detail-header{display:flex;align-items:center;justify-content:space-between;margin-bottom:10px}
+.scroll-wrap{overflow-x:auto}
+.export-btn{font-size:11px;padding:5px 12px;border:1px solid #ddd;border-radius:6px;background:#fff;cursor:pointer}
+.export-btn:hover{background:#f5f5f3}
+.step-badge{font-size:9px;padding:2px 6px;border-radius:6px;background:#fff8e1;color:#e8a838;font-weight:600}
+.team-row{background:#f0f4ff;font-weight:700}
+</style>
+</head>
+<body>
+<div class="header">
+  <div>
+    <div class="header-title">🏆 하반기 판매 활성화 인센티브</div>
+    <div class="header-sub">디클래시 CaHA · 리알로인젝트파인 | 2026.07 ~ 12</div>
+  </div>
+  <div style="font-size:11px;color:#aac4ff" id="updateInfo"></div>
+</div>
+
+<div class="container">
+  <!-- 시행 목적/기간 -->
+  <div style="background:#fff;border-radius:10px;padding:14px 18px;margin-bottom:12px;box-shadow:0 1px 4px rgba(0,0,0,0.06);font-size:11px;line-height:1.8;color:#444">
+    <div style="margin-bottom:6px"><span style="font-weight:700;color:#1a2a4a">■ 시행 목적</span>&nbsp; 디클래시 CaHA 및 리알로인젝트파인의 신규 거래처 발굴(저변처 확산)을 최우선 과제로 설정하고, 이를 달성하는 RPM에게 실질적인 동기를 부여하기 위함</div>
+    <div><span style="font-weight:700;color:#1a2a4a">■ 적용 기간</span>&nbsp; 2026년 7월 1일 ~ 2026년 12월 31일 (총 6개월)</div>
+  </div>
+  <!-- 인센티브 기준 안내 -->
+  <div style="background:#fff;border-radius:10px;padding:14px 18px;margin-bottom:12px;box-shadow:0 1px 4px rgba(0,0,0,0.06)">
+    <div style="font-size:12px;font-weight:700;color:#1a1a1a;margin-bottom:10px">💡 인센티브 기준</div>
+    <div style="display:grid;grid-template-columns:1fr 1fr;gap:16px;font-size:11px">
+      <div>
+        <div style="font-weight:700;color:#185FA5;margin-bottom:6px;font-size:12px">디클래시 CaHA</div>
+        <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:6px;text-align:center">
+          <div style="background:#e8f0fe;border-radius:8px;padding:8px 4px">
+            <div style="color:#185FA5;font-weight:600;margin-bottom:2px">신규랜딩</div>
+            <div style="font-size:10px;color:#666">1.5cc: 10박스 이상</div>
+            <div style="font-size:10px;color:#666">0.8cc: 20박스 이상</div>
+            <div style="font-weight:700;color:#185FA5;margin-top:4px">150,000원</div>
+          </div>
+          <div style="background:#e8f0fe;border-radius:8px;padding:8px 4px">
+            <div style="color:#185FA5;font-weight:600;margin-bottom:2px">재발주</div>
+            <div style="font-size:10px;color:#666">1.5cc: 20박스 이상</div>
+            <div style="font-size:10px;color:#666">0.8cc: 40박스 이상</div>
+            <div style="font-weight:700;color:#185FA5;margin-top:4px">150,000원</div>
+          </div>
+          <div style="background:#fff3cd;border-radius:8px;padding:8px 4px">
+            <div style="color:#e8a838;font-weight:600;margin-bottom:2px">대량발주</div>
+            <div style="font-size:10px;color:#666">1.5cc: 50박스 이상</div>
+            <div style="font-size:10px;color:#666">0.8cc: 100박스 이상</div>
+            <div style="font-weight:700;color:#e8a838;margin-top:4px">600,000원</div>
+          </div>
+        </div>
+      </div>
+      <div>
+        <div style="font-weight:700;color:#1D9E75;margin-bottom:6px;font-size:12px">리알로인젝트파인</div>
+        <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:6px;text-align:center">
+          <div style="background:#e6f4ea;border-radius:8px;padding:8px 4px">
+            <div style="color:#1D9E75;font-weight:600;margin-bottom:2px">신규랜딩</div>
+            <div style="font-size:10px;color:#666">10박스 이상</div>
+            <div style="font-size:10px;color:#666">&nbsp;</div>
+            <div style="font-weight:700;color:#1D9E75;margin-top:4px">100,000원</div>
+          </div>
+          <div style="background:#e6f4ea;border-radius:8px;padding:8px 4px">
+            <div style="color:#1D9E75;font-weight:600;margin-bottom:2px">재발주</div>
+            <div style="font-size:10px;color:#666">30박스 이상</div>
+            <div style="font-size:10px;color:#666">&nbsp;</div>
+            <div style="font-weight:700;color:#1D9E75;margin-top:4px">100,000원</div>
+          </div>
+          <div style="background:#fff3cd;border-radius:8px;padding:8px 4px">
+            <div style="color:#e8a838;font-weight:600;margin-bottom:2px">대량발주</div>
+            <div style="font-size:10px;color:#666">100박스 이상</div>
+            <div style="font-size:10px;color:#666">&nbsp;</div>
+            <div style="font-weight:700;color:#e8a838;margin-top:4px">500,000원</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 필터 -->
+  <div class="filter-bar">
+    <label>필터</label>
+    <select id="incMonth" onchange="incApply()">
+      <option value="all">전체 월</option>
+      <option value="7">7월</option><option value="8">8월</option><option value="9">9월</option>
+      <option value="10">10월</option><option value="11">11월</option><option value="12">12월</option>
+    </select>
+    <select id="incTeam" onchange="incTeamChange()">
+      <option value="all">전체 팀</option>
+    </select>
+    <select id="incPerson" onchange="incApply()">
+      <option value="all">전체 담당자</option>
+    </select>
+    <select id="incItem" onchange="incApply()">
+      <option value="all">전체 품목</option>
+      <option value="디클래시 CaHA">디클래시 CaHA</option>
+      <option value="리알로인젝트파인">리알로인젝트파인</option>
+    </select>
+    <select id="incType" onchange="incApply()">
+      <option value="all">전체 구분</option>
+      <option value="신규처">신규처</option>
+      <option value="재발주처">재발주처</option>
+      <option value="기존처">기존처</option>
+    </select>
+  </div>
+
+  <!-- 요약 카드 -->
+  <div class="cards">
+    <div class="card"><div class="card-label">신규처 건수</div><div class="card-val" id="incNewCnt" style="color:#185FA5">-</div></div>
+    <div class="card"><div class="card-label">재발주처 건수</div><div class="card-val" id="incReorderCnt" style="color:#1D9E75">-</div></div>
+    <div class="card"><div class="card-label">예상 인센티브 합계</div><div class="card-val" id="incTotalAmt" style="color:#e8a838">-</div></div>
+    <div class="card"><div class="card-label">월 누적 매출액</div><div class="card-val" id="incTotalSales" style="color:#534AB7">-</div></div>
+  </div>
+
+  <!-- 팀/담당자 통합 테이블 -->
+  <div class="summary-card">
+    <div class="card-title">팀 · 담당자별 현황</div>
+    <div class="scroll-wrap">
+      <table style="min-width:1000px">
+        <thead>
+          <tr>
+            <th class="tl" rowspan="2">팀</th>
+            <th class="tl" rowspan="2">담당자</th>
+            <th colspan="3" style="background:#dbe8fe;color:#185FA5;border-left:2px solid #aac4ff">디클래시 CaHA 1.5cc</th>
+            <th colspan="3" style="background:#d8edf5;color:#1a6a8a;border-left:2px solid #9ecfe0">디클래시 CaHA 0.8cc</th>
+            <th colspan="3" style="background:#d6eddc;color:#1D9E75;border-left:2px solid #8fd4a0">리알로인젝트파인</th>
+            <th rowspan="2">예상인센티브</th>
+            <th rowspan="2">매출액</th>
+          </tr>
+          <tr>
+            <th style="background:#dbe8fe;color:#185FA5;border-left:2px solid #aac4ff">신규</th><th style="background:#dbe8fe;color:#185FA5">재발주</th><th style="background:#dbe8fe;color:#185FA5">대량</th>
+            <th style="background:#d8edf5;color:#1a6a8a;border-left:2px solid #9ecfe0">신규</th><th style="background:#d8edf5;color:#1a6a8a">재발주</th><th style="background:#d8edf5;color:#1a6a8a">대량</th>
+            <th style="background:#d6eddc;color:#1D9E75;border-left:2px solid #8fd4a0">신규</th><th style="background:#d6eddc;color:#1D9E75">재발주</th><th style="background:#d6eddc;color:#1D9E75">대량</th>
+          </tr>
+        </thead>
+        <tbody id="tIncSummaryBody"></tbody>
+      </table>
+    </div>
+  </div>
+
+  <!-- 상세 내역 -->
+  <div class="detail-card">
+    <div class="detail-header">
+      <div style="font-size:12px;font-weight:700">상세 내역 <span id="incDetailCnt" style="font-size:11px;color:#888;font-weight:400"></span></div>
+      <button class="export-btn" onclick="incExport()">📥 Excel 저장</button>
+    </div>
+    <div class="scroll-wrap">
+      <table style="min-width:1000px">
+        <thead><tr>
+          <th>월</th><th class="tl">팀</th><th class="tl">담당자</th>
+          <th class="tl">거래처명</th><th>사업자번호</th>
+          <th class="tl">품목</th><th>규격</th><th>구분</th>
+          <th>수량</th><th>반품</th><th>매출액</th>
+          <th>인센티브단계</th><th>예상인센티브</th>
+        </tr></thead>
+        <tbody id="tIncDetailBody"></tbody>
+      </table>
+    </div>
+  </div>
+</div>
+
+<script>
+let INC_DATA = [{"year": 2026, "month": 7, "team": "RPM4팀", "person": "송진영", "biz": "1793600737", "client": "엔킴의원", "item": "디클래시 CaHA", "cc": "0.8cc", "prod": "DCLASSY CaHA (0.8cc*1ea)", "qty": 150.0, "refund_qty": 0.0, "sales": 7636364.0, "client_type": "신규처", "new_box": 20, "reorder_box": 40, "bonus_box": 50, "new_amt": 150000, "reorder_amt": 150000, "bonus_amt": 600000}, {"year": 2026, "month": 7, "team": "RPM3팀", "person": "장은준", "biz": "6602600480", "client": "비브톤의원 천호", "item": "디클래시 CaHA", "cc": "0.8cc", "prod": "DCLASSY CaHA (0.8cc*1ea)", "qty": 50.0, "refund_qty": 0.0, "sales": 3181819.0, "client_type": "재발주처", "new_box": 20, "reorder_box": 40, "bonus_box": 50, "new_amt": 150000, "reorder_amt": 150000, "bonus_amt": 600000}, {"year": 2026, "month": 7, "team": "RPM1팀", "person": "이상준", "biz": "5981902093", "client": "더유스의원", "item": "디클래시 CaHA", "cc": "1.5cc", "prod": "DCLASSY CaHA (1.5cc*1ea)", "qty": 10.0, "refund_qty": 0.0, "sales": 1300000.0, "client_type": "재발주처", "new_box": 10, "reorder_box": 20, "bonus_box": 50, "new_amt": 150000, "reorder_amt": 150000, "bonus_amt": 600000}, {"year": 2026, "month": 7, "team": "RPM2팀", "person": "전우찬", "biz": "8460102833", "client": "리프톤피부과의원", "item": "디클래시 CaHA", "cc": "1.5cc", "prod": "DCLASSY CaHA (1.5cc*1ea)", "qty": 50.0, "refund_qty": 0.0, "sales": 5500000.0, "client_type": "재발주처", "new_box": 10, "reorder_box": 20, "bonus_box": 50, "new_amt": 150000, "reorder_amt": 150000, "bonus_amt": 600000}, {"year": 2026, "month": 7, "team": "RPM3팀", "person": "홍원의", "biz": "2970501869", "client": "제이티성형외과", "item": "디클래시 CaHA", "cc": "1.5cc", "prod": "DCLASSY CaHA (1.5cc*1ea)", "qty": 1.0, "refund_qty": 0.0, "sales": 130000.0, "client_type": "신규처", "new_box": 10, "reorder_box": 20, "bonus_box": 50, "new_amt": 150000, "reorder_amt": 150000, "bonus_amt": 600000}, {"year": 2026, "month": 7, "team": "RPM2팀", "person": "전우찬", "biz": "8474400193", "client": "세가지소원의원(강남)", "item": "디클래시 CaHA", "cc": "1.5cc", "prod": "DCLASSY CaHA (1.5cc*1ea)", "qty": 40.0, "refund_qty": 0.0, "sales": 4400000.0, "client_type": "재발주처", "new_box": 10, "reorder_box": 20, "bonus_box": 50, "new_amt": 150000, "reorder_amt": 150000, "bonus_amt": 600000}, {"year": 2026, "month": 7, "team": "RPM1팀", "person": "박기주", "biz": "3710203602", "client": "온리프의원", "item": "디클래시 CaHA", "cc": "1.5cc", "prod": "DCLASSY CaHA (1.5cc*1ea)", "qty": 50.0, "refund_qty": 0.0, "sales": 4500000.0, "client_type": "재발주처", "new_box": 10, "reorder_box": 20, "bonus_box": 50, "new_amt": 150000, "reorder_amt": 150000, "bonus_amt": 600000}, {"year": 2026, "month": 7, "team": "RPM3팀", "person": "홍원의", "biz": "2110950194", "client": "리본성형외과", "item": "디클래시 CaHA", "cc": "1.5cc", "prod": "DCLASSY CaHA (1.5cc*1ea)", "qty": 0.0, "refund_qty": 0.0, "sales": 0.0, "client_type": "신규처", "new_box": 10, "reorder_box": 20, "bonus_box": 50, "new_amt": 150000, "reorder_amt": 150000, "bonus_amt": 600000}, {"year": 2026, "month": 7, "team": "RPM3팀", "person": "정대철", "biz": "6072995288", "client": "미아사거리톡스앤필의원", "item": "디클래시 CaHA", "cc": "1.5cc", "prod": "DCLASSY CaHA (1.5cc*1ea)", "qty": 1.0, "refund_qty": 0.0, "sales": 130000.0, "client_type": "재발주처", "new_box": 10, "reorder_box": 20, "bonus_box": 50, "new_amt": 150000, "reorder_amt": 150000, "bonus_amt": 600000}, {"year": 2026, "month": 7, "team": "RPM3팀", "person": "정대철", "biz": "6072995288", "client": "미아사거리톡스앤필의원", "item": "디클래시 CaHA", "cc": "0.8cc", "prod": "DCLASSY CaHA (0.8cc*1ea)", "qty": 2.0, "refund_qty": 0.0, "sales": 145455.0, "client_type": "재발주처", "new_box": 20, "reorder_box": 40, "bonus_box": 50, "new_amt": 150000, "reorder_amt": 150000, "bonus_amt": 600000}, {"year": 2026, "month": 7, "team": "RPM2팀", "person": "전우찬", "biz": "3711103206", "client": "압구정비앤미의원", "item": "디클래시 CaHA", "cc": "1.5cc", "prod": "DCLASSY CaHA (1.5cc*1ea)", "qty": 20.0, "refund_qty": 0.0, "sales": 2400000.0, "client_type": "재발주처", "new_box": 10, "reorder_box": 20, "bonus_box": 50, "new_amt": 150000, "reorder_amt": 150000, "bonus_amt": 600000}, {"year": 2026, "month": 7, "team": "RPM2팀", "person": "전우찬", "biz": "2110955068", "client": "엠지(MZ)의원", "item": "디클래시 CaHA", "cc": "1.5cc", "prod": "DCLASSY CaHA (1.5cc*1ea)", "qty": 20.0, "refund_qty": 0.0, "sales": 2400000.0, "client_type": "재발주처", "new_box": 10, "reorder_box": 20, "bonus_box": 50, "new_amt": 150000, "reorder_amt": 150000, "bonus_amt": 600000}, {"year": 2026, "month": 7, "team": "RPM2팀", "person": "이도현", "biz": "6251202377", "client": "셀린의원광명", "item": "디클래시 CaHA", "cc": "1.5cc", "prod": "DCLASSY CaHA (1.5cc*1ea)", "qty": 150.0, "refund_qty": 0.0, "sales": 13500000.0, "client_type": "기존처", "new_box": 10, "reorder_box": 20, "bonus_box": 50, "new_amt": 150000, "reorder_amt": 150000, "bonus_amt": 600000}, {"year": 2026, "month": 7, "team": "RPM1팀", "person": "이상준", "biz": "1124365623", "client": "아비쥬의원(강서점)", "item": "디클래시 CaHA", "cc": "1.5cc", "prod": "DCLASSY CaHA (1.5cc*1ea)", "qty": 50.0, "refund_qty": 0.0, "sales": 5500000.0, "client_type": "재발주처", "new_box": 10, "reorder_box": 20, "bonus_box": 50, "new_amt": 150000, "reorder_amt": 150000, "bonus_amt": 600000}, {"year": 2026, "month": 7, "team": "RPM1팀", "person": "박기주", "biz": "6420101872", "client": "라벨라의원", "item": "디클래시 CaHA", "cc": "1.5cc", "prod": "DCLASSY CaHA (1.5cc*1ea)", "qty": 20.0, "refund_qty": 0.0, "sales": 2200000.0, "client_type": "재발주처", "new_box": 10, "reorder_box": 20, "bonus_box": 50, "new_amt": 150000, "reorder_amt": 150000, "bonus_amt": 600000}, {"year": 2026, "month": 7, "team": "RPM2팀", "person": "김태훈", "biz": "1441302759", "client": "올리준의원", "item": "디클래시 CaHA", "cc": "1.5cc", "prod": "DCLASSY CaHA (1.5cc*1ea)", "qty": 50.0, "refund_qty": 0.0, "sales": 5500000.0, "client_type": "재발주처", "new_box": 10, "reorder_box": 20, "bonus_box": 50, "new_amt": 150000, "reorder_amt": 150000, "bonus_amt": 600000}, {"year": 2026, "month": 7, "team": "RPM4팀", "person": "송진영", "biz": "7932200477", "client": "센텀쁘띠의원(거제)", "item": "디클래시 CaHA", "cc": "1.5cc", "prod": "DCLASSY CaHA (1.5cc*1ea)", "qty": 20.0, "refund_qty": 0.0, "sales": 2400000.0, "client_type": "신규처", "new_box": 10, "reorder_box": 20, "bonus_box": 50, "new_amt": 150000, "reorder_amt": 150000, "bonus_amt": 600000}, {"year": 2026, "month": 7, "team": "RPM1팀", "person": "유재준", "biz": "4810402831", "client": "맑고고운의원", "item": "디클래시 CaHA", "cc": "1.5cc", "prod": "DCLASSY CaHA (1.5cc*1ea)", "qty": 20.0, "refund_qty": 0.0, "sales": 2400000.0, "client_type": "신규처", "new_box": 10, "reorder_box": 20, "bonus_box": 50, "new_amt": 150000, "reorder_amt": 150000, "bonus_amt": 600000}, {"year": 2026, "month": 7, "team": "RPM3팀", "person": "박천", "biz": "1352904977", "client": "수원에버성형외과의원", "item": "디클래시 CaHA", "cc": "1.5cc", "prod": "DCLASSY CaHA (1.5cc*1ea)", "qty": 1.0, "refund_qty": 0.0, "sales": 130000.0, "client_type": "재발주처", "new_box": 10, "reorder_box": 20, "bonus_box": 50, "new_amt": 150000, "reorder_amt": 150000, "bonus_amt": 600000}, {"year": 2026, "month": 7, "team": "RPM1팀", "person": "박기주", "biz": "2200985440", "client": "루미에의원(강남)", "item": "디클래시 CaHA", "cc": "1.5cc", "prod": "DCLASSY CaHA (1.5cc*1ea)", "qty": 30.0, "refund_qty": 0.0, "sales": 3300000.0, "client_type": "재발주처", "new_box": 10, "reorder_box": 20, "bonus_box": 50, "new_amt": 150000, "reorder_amt": 150000, "bonus_amt": 600000}, {"year": 2026, "month": 7, "team": "RPM3팀", "person": "장은준", "biz": "6602600480", "client": "비브톤의원 천호", "item": "디클래시 CaHA", "cc": "1.5cc", "prod": "DCLASSY CaHA (1.5cc*1ea)", "qty": 10.0, "refund_qty": 0.0, "sales": 1100000.0, "client_type": "재발주처", "new_box": 10, "reorder_box": 20, "bonus_box": 50, "new_amt": 150000, "reorder_amt": 150000, "bonus_amt": 600000}, {"year": 2026, "month": 7, "team": "RPM3팀", "person": "장은준", "biz": "2300135897", "client": "연세새봄의원", "item": "디클래시 CaHA", "cc": "0.8cc", "prod": "DCLASSY CaHA (0.8cc*1ea)", "qty": 20.0, "refund_qty": 0.0, "sales": 1363636.3636363635, "client_type": "재발주처", "new_box": 20, "reorder_box": 40, "bonus_box": 50, "new_amt": 150000, "reorder_amt": 150000, "bonus_amt": 600000}, {"year": 2026, "month": 7, "team": "RPM3팀", "person": "홍원의", "biz": "1500303564", "client": "셀리닉의원", "item": "디클래시 CaHA", "cc": "1.5cc", "prod": "DCLASSY CaHA (1.5cc*1ea)", "qty": 20.0, "refund_qty": 0.0, "sales": 2400000.0, "client_type": "재발주처", "new_box": 10, "reorder_box": 20, "bonus_box": 50, "new_amt": 150000, "reorder_amt": 150000, "bonus_amt": 600000}, {"year": 2026, "month": 7, "team": "RPM3팀", "person": "홍원의", "biz": "2110949606", "client": "체인지의원", "item": "리알로인젝트파인", "cc": "-", "prod": "리알로인젝트파인", "qty": 30.0, "refund_qty": 0.0, "sales": 2700000.0, "client_type": "재발주처", "new_box": 10, "reorder_box": 30, "bonus_box": 100, "new_amt": 100000, "reorder_amt": 100000, "bonus_amt": 500000}, {"year": 2026, "month": 7, "team": "RPM3팀", "person": "홍원의", "biz": "5080892709", "client": "엠레드클리닉", "item": "리알로인젝트파인", "cc": "-", "prod": "리알로인젝트파인", "qty": 10.0, "refund_qty": 0.0, "sales": 900000.0, "client_type": "신규처", "new_box": 10, "reorder_box": 30, "bonus_box": 100, "new_amt": 100000, "reorder_amt": 100000, "bonus_amt": 500000}, {"year": 2026, "month": 7, "team": "RPM3팀", "person": "박천", "biz": "3080892448", "client": "데이뷰의원", "item": "리알로인젝트파인", "cc": "-", "prod": "리알로인젝트파인", "qty": 30.0, "refund_qty": 0.0, "sales": 2700000.0, "client_type": "재발주처", "new_box": 10, "reorder_box": 30, "bonus_box": 100, "new_amt": 100000, "reorder_amt": 100000, "bonus_amt": 500000}, {"year": 2026, "month": 7, "team": "RPM4팀", "person": "김재진", "biz": "6201387024", "client": "미라인의원(북구점)", "item": "리알로인젝트파인", "cc": "-", "prod": "리알로인젝트파인", "qty": 0.0, "refund_qty": 0.0, "sales": 0.0, "client_type": "신규처", "new_box": 10, "reorder_box": 30, "bonus_box": 100, "new_amt": 100000, "reorder_amt": 100000, "bonus_amt": 500000}, {"year": 2026, "month": 7, "team": "RPM4팀", "person": "김재진", "biz": "6201180347", "client": "강남의원", "item": "리알로인젝트파인", "cc": "-", "prod": "리알로인젝트파인", "qty": 0.0, "refund_qty": 0.0, "sales": 0.0, "client_type": "재발주처", "new_box": 10, "reorder_box": 30, "bonus_box": 100, "new_amt": 100000, "reorder_amt": 100000, "bonus_amt": 500000}, {"year": 2026, "month": 7, "team": "RPM4팀", "person": "김재진", "biz": "2203500775", "client": "핀다의원", "item": "리알로인젝트파인", "cc": "-", "prod": "리알로인젝트파인", "qty": 0.0, "refund_qty": 0.0, "sales": 0.0, "client_type": "재발주처", "new_box": 10, "reorder_box": 30, "bonus_box": 100, "new_amt": 100000, "reorder_amt": 100000, "bonus_amt": 500000}, {"year": 2026, "month": 7, "team": "RPM1팀", "person": "이상준", "biz": "7362800952", "client": "잇츠미성형외과의원", "item": "리알로인젝트파인", "cc": "-", "prod": "리알로인젝트파인", "qty": 0.0, "refund_qty": 0.0, "sales": 0.0, "client_type": "재발주처", "new_box": 10, "reorder_box": 30, "bonus_box": 100, "new_amt": 100000, "reorder_amt": 100000, "bonus_amt": 500000}, {"year": 2026, "month": 7, "team": "RPM1팀", "person": "이상준", "biz": "1064036909", "client": "샤인빔의원강서", "item": "리알로인젝트파인", "cc": "-", "prod": "리알로인젝트파인", "qty": 0.0, "refund_qty": 0.0, "sales": 0.0, "client_type": "재발주처", "new_box": 10, "reorder_box": 30, "bonus_box": 100, "new_amt": 100000, "reorder_amt": 100000, "bonus_amt": 500000}, {"year": 2026, "month": 7, "team": "RPM3팀", "person": "박천", "biz": "5622201789", "client": "올림피움채움의원수원점", "item": "리알로인젝트파인", "cc": "-", "prod": "리알로인젝트파인", "qty": 0.0, "refund_qty": 0.0, "sales": 0.0, "client_type": "신규처", "new_box": 10, "reorder_box": 30, "bonus_box": 100, "new_amt": 100000, "reorder_amt": 100000, "bonus_amt": 500000}, {"year": 2026, "month": 7, "team": "RPM4팀", "person": "김재진", "biz": "2141568923", "client": "베러미의원", "item": "리알로인젝트파인", "cc": "-", "prod": "리알로인젝트파인", "qty": 0.0, "refund_qty": 0.0, "sales": 0.0, "client_type": "신규처", "new_box": 10, "reorder_box": 30, "bonus_box": 100, "new_amt": 100000, "reorder_amt": 100000, "bonus_amt": 500000}, {"year": 2026, "month": 7, "team": "RPM1팀", "person": "박기주", "biz": "7562701676", "client": "강남헤라성형외과의원", "item": "리알로인젝트파인", "cc": "-", "prod": "리알로인젝트파인", "qty": 0.0, "refund_qty": 0.0, "sales": 0.0, "client_type": "재발주처", "new_box": 10, "reorder_box": 30, "bonus_box": 100, "new_amt": 100000, "reorder_amt": 100000, "bonus_amt": 500000}, {"year": 2026, "month": 7, "team": "RPM4팀", "person": "김재진", "biz": "7322701613", "client": "연세제이원의원", "item": "리알로인젝트파인", "cc": "-", "prod": "리알로인젝트파인", "qty": 0.0, "refund_qty": 0.0, "sales": 0.0, "client_type": "재발주처", "new_box": 10, "reorder_box": 30, "bonus_box": 100, "new_amt": 100000, "reorder_amt": 100000, "bonus_amt": 500000}, {"year": 2026, "month": 7, "team": "RPM1팀", "person": "이상준", "biz": "7420903031", "client": "바로그의원부천점", "item": "리알로인젝트파인", "cc": "-", "prod": "리알로인젝트파인", "qty": 0.0, "refund_qty": 0.0, "sales": 0.0, "client_type": "재발주처", "new_box": 10, "reorder_box": 30, "bonus_box": 100, "new_amt": 100000, "reorder_amt": 100000, "bonus_amt": 500000}, {"year": 2026, "month": 7, "team": "RPM3팀", "person": "홍원의", "biz": "6175100964", "client": "비올라셀성형외과", "item": "리알로인젝트파인", "cc": "-", "prod": "리알로인젝트파인", "qty": 0.0, "refund_qty": 0.0, "sales": 0.0, "client_type": "신규처", "new_box": 10, "reorder_box": 30, "bonus_box": 100, "new_amt": 100000, "reorder_amt": 100000, "bonus_amt": 500000}, {"year": 2026, "month": 7, "team": "RPM1팀", "person": "이상준", "biz": "4310103697", "client": "뷰티온의원(인천계양점)", "item": "리알로인젝트파인", "cc": "-", "prod": "리알로인젝트파인", "qty": 0.0, "refund_qty": 0.0, "sales": 0.0, "client_type": "재발주처", "new_box": 10, "reorder_box": 30, "bonus_box": 100, "new_amt": 100000, "reorder_amt": 100000, "bonus_amt": 500000}, {"year": 2026, "month": 7, "team": "RPM1팀", "person": "이상준", "biz": "8143501545", "client": "유앤아이의원(목동점)", "item": "리알로인젝트파인", "cc": "-", "prod": "리알로인젝트파인", "qty": 0.0, "refund_qty": 0.0, "sales": 0.0, "client_type": "재발주처", "new_box": 10, "reorder_box": 30, "bonus_box": 100, "new_amt": 100000, "reorder_amt": 100000, "bonus_amt": 500000}, {"year": 2026, "month": 7, "team": "RPM2팀", "person": "이도현", "biz": "8086400857", "client": "톤즈의원영등포점", "item": "리알로인젝트파인", "cc": "-", "prod": "리알로인젝트파인", "qty": 0.0, "refund_qty": 0.0, "sales": 0.0, "client_type": "신규처", "new_box": 10, "reorder_box": 30, "bonus_box": 100, "new_amt": 100000, "reorder_amt": 100000, "bonus_amt": 500000}, {"year": 2026, "month": 7, "team": "RPM3팀", "person": "박천", "biz": "1352904701", "client": "봉피부과의원", "item": "리알로인젝트파인", "cc": "-", "prod": "리알로인젝트파인", "qty": 10.0, "refund_qty": 0.0, "sales": 900000.0, "client_type": "신규처", "new_box": 10, "reorder_box": 30, "bonus_box": 100, "new_amt": 100000, "reorder_amt": 100000, "bonus_amt": 500000}, {"year": 2026, "month": 7, "team": "RPM2팀", "person": "이도현", "biz": "8841801305", "client": "잇츠미의원안산", "item": "리알로인젝트파인", "cc": "-", "prod": "리알로인젝트파인", "qty": 50.0, "refund_qty": 0.0, "sales": 4500000.0, "client_type": "재발주처", "new_box": 10, "reorder_box": 30, "bonus_box": 100, "new_amt": 100000, "reorder_amt": 100000, "bonus_amt": 500000}, {"year": 2026, "month": 7, "team": "RPM1팀", "person": "박기주", "biz": "3667400105", "client": "메이드영성형외과의원", "item": "리알로인젝트파인", "cc": "-", "prod": "리알로인젝트파인", "qty": 0.0, "refund_qty": 0.0, "sales": 0.0, "client_type": "신규처", "new_box": 10, "reorder_box": 30, "bonus_box": 100, "new_amt": 100000, "reorder_amt": 100000, "bonus_amt": 500000}, {"year": 2026, "month": 7, "team": "RPM4팀", "person": "한정우", "biz": "3821300542", "client": "쁘띠2.7의원", "item": "리알로인젝트파인", "cc": "-", "prod": "리알로인젝트파인", "qty": 0.0, "refund_qty": 0.0, "sales": 0.0, "client_type": "재발주처", "new_box": 10, "reorder_box": 30, "bonus_box": 100, "new_amt": 100000, "reorder_amt": 100000, "bonus_amt": 500000}, {"year": 2026, "month": 7, "team": "RPM3팀", "person": "정대철", "biz": "5291501810", "client": "청량리뷰티크의원", "item": "리알로인젝트파인", "cc": "-", "prod": "리알로인젝트파인", "qty": 0.0, "refund_qty": 0.0, "sales": 0.0, "client_type": "재발주처", "new_box": 10, "reorder_box": 30, "bonus_box": 100, "new_amt": 100000, "reorder_amt": 100000, "bonus_amt": 500000}, {"year": 2026, "month": 7, "team": "RPM1팀", "person": "박기주", "biz": "3221701663", "client": "헤이데이의원", "item": "리알로인젝트파인", "cc": "-", "prod": "리알로인젝트파인", "qty": 0.0, "refund_qty": 0.0, "sales": 0.0, "client_type": "재발주처", "new_box": 10, "reorder_box": 30, "bonus_box": 100, "new_amt": 100000, "reorder_amt": 100000, "bonus_amt": 500000}, {"year": 2026, "month": 7, "team": "RPM1팀", "person": "박기주", "biz": "8402200939", "client": "블랑쥬의원", "item": "리알로인젝트파인", "cc": "-", "prod": "리알로인젝트파인", "qty": 0.0, "refund_qty": 0.0, "sales": 0.0, "client_type": "신규처", "new_box": 10, "reorder_box": 30, "bonus_box": 100, "new_amt": 100000, "reorder_amt": 100000, "bonus_amt": 500000}, {"year": 2026, "month": 7, "team": "RPM2팀", "person": "이도현", "biz": "7226800570", "client": "유어힐의원", "item": "리알로인젝트파인", "cc": "-", "prod": "리알로인젝트파인", "qty": 0.0, "refund_qty": 0.0, "sales": 0.0, "client_type": "신규처", "new_box": 10, "reorder_box": 30, "bonus_box": 100, "new_amt": 100000, "reorder_amt": 100000, "bonus_amt": 500000}, {"year": 2026, "month": 7, "team": "RPM1팀", "person": "박기주", "biz": "2200985440", "client": "루미에의원(강남)", "item": "리알로인젝트파인", "cc": "-", "prod": "리알로인젝트파인", "qty": 0.0, "refund_qty": 0.0, "sales": 0.0, "client_type": "재발주처", "new_box": 10, "reorder_box": 30, "bonus_box": 100, "new_amt": 100000, "reorder_amt": 100000, "bonus_amt": 500000}, {"year": 2026, "month": 7, "team": "RPM3팀", "person": "장은준", "biz": "2300135897", "client": "연세새봄의원", "item": "리알로인젝트파인", "cc": "-", "prod": "리알로인젝트파인", "qty": 0.0, "refund_qty": 0.0, "sales": 0.0, "client_type": "재발주처", "new_box": 10, "reorder_box": 30, "bonus_box": 100, "new_amt": 100000, "reorder_amt": 100000, "bonus_amt": 500000}, {"year": 2026, "month": 7, "team": "RPM4팀", "person": "이상직", "biz": "3874500397", "client": "청담FnB의원", "item": "리알로인젝트파인", "cc": "-", "prod": "리알로인젝트파인", "qty": 0.0, "refund_qty": 0.0, "sales": 0.0, "client_type": "재발주처", "new_box": 10, "reorder_box": 30, "bonus_box": 100, "new_amt": 100000, "reorder_amt": 100000, "bonus_amt": 500000}, {"year": 2026, "month": 7, "team": "RPM4팀", "person": "송진영", "biz": "4583900494", "client": "뷰에르의원", "item": "리알로인젝트파인", "cc": "-", "prod": "리알로인젝트파인", "qty": 0.0, "refund_qty": 0.0, "sales": 0.0, "client_type": "신규처", "new_box": 10, "reorder_box": 30, "bonus_box": 100, "new_amt": 100000, "reorder_amt": 100000, "bonus_amt": 500000}, {"year": 2026, "month": 7, "team": "RPM3팀", "person": "장은준", "biz": "5711400232", "client": "연의원(잠실)", "item": "리알로인젝트파인", "cc": "-", "prod": "리알로인젝트파인", "qty": 0.0, "refund_qty": 0.0, "sales": 0.0, "client_type": "신규처", "new_box": 10, "reorder_box": 30, "bonus_box": 100, "new_amt": 100000, "reorder_amt": 100000, "bonus_amt": 500000}, {"year": 2026, "month": 7, "team": "RPM4팀", "person": "송진영", "biz": "6220620467", "client": "뷰티203", "item": "리알로인젝트파인", "cc": "-", "prod": "리알로인젝트파인", "qty": 0.0, "refund_qty": 0.0, "sales": 0.0, "client_type": "재발주처", "new_box": 10, "reorder_box": 30, "bonus_box": 100, "new_amt": 100000, "reorder_amt": 100000, "bonus_amt": 500000}, {"year": 2026, "month": 7, "team": "RPM3팀", "person": "장은준", "biz": "8852501077", "client": "민성가정의학과", "item": "리알로인젝트파인", "cc": "-", "prod": "리알로인젝트파인", "qty": 0.0, "refund_qty": 0.0, "sales": 0.0, "client_type": "신규처", "new_box": 10, "reorder_box": 30, "bonus_box": 100, "new_amt": 100000, "reorder_amt": 100000, "bonus_amt": 500000}, {"year": 2026, "month": 7, "team": "RPM4팀", "person": "이다별", "biz": "3420803042", "client": "바른빛피부과의원", "item": "리알로인젝트파인", "cc": "-", "prod": "리알로인젝트파인", "qty": 0.0, "refund_qty": 0.0, "sales": 0.0, "client_type": "신규처", "new_box": 10, "reorder_box": 30, "bonus_box": 100, "new_amt": 100000, "reorder_amt": 100000, "bonus_amt": 500000}, {"year": 2026, "month": 7, "team": "RPM3팀", "person": "장은준", "biz": "3661802204", "client": "타토아의원", "item": "리알로인젝트파인", "cc": "-", "prod": "리알로인젝트파인", "qty": 0.0, "refund_qty": 0.0, "sales": 0.0, "client_type": "재발주처", "new_box": 10, "reorder_box": 30, "bonus_box": 100, "new_amt": 100000, "reorder_amt": 100000, "bonus_amt": 500000}, {"year": 2026, "month": 7, "team": "RPM3팀", "person": "정대철", "biz": "4137833365", "client": "닥터스피부과의원동대문점", "item": "리알로인젝트파인", "cc": "-", "prod": "리알로인젝트파인", "qty": 0.0, "refund_qty": 0.0, "sales": 0.0, "client_type": "재발주처", "new_box": 10, "reorder_box": 30, "bonus_box": 100, "new_amt": 100000, "reorder_amt": 100000, "bonus_amt": 500000}, {"year": 2026, "month": 7, "team": "RPM1팀", "person": "박기주", "biz": "1072455520", "client": "스키니크의원", "item": "리알로인젝트파인", "cc": "-", "prod": "리알로인젝트파인", "qty": 0.0, "refund_qty": 0.0, "sales": 0.0, "client_type": "재발주처", "new_box": 10, "reorder_box": 30, "bonus_box": 100, "new_amt": 100000, "reorder_amt": 100000, "bonus_amt": 500000}, {"year": 2026, "month": 7, "team": "RPM3팀", "person": "홍원의", "biz": "2074269406", "client": "청담더오피부과의원", "item": "리알로인젝트파인", "cc": "-", "prod": "리알로인젝트파인", "qty": 0.0, "refund_qty": 0.0, "sales": 0.0, "client_type": "신규처", "new_box": 10, "reorder_box": 30, "bonus_box": 100, "new_amt": 100000, "reorder_amt": 100000, "bonus_amt": 500000}, {"year": 2026, "month": 7, "team": "RPM2팀", "person": "전우찬", "biz": "2343801532", "client": "예피다의원", "item": "리알로인젝트파인", "cc": "-", "prod": "리알로인젝트파인", "qty": 0.0, "refund_qty": 0.0, "sales": 0.0, "client_type": "재발주처", "new_box": 10, "reorder_box": 30, "bonus_box": 100, "new_amt": 100000, "reorder_amt": 100000, "bonus_amt": 500000}, {"year": 2026, "month": 7, "team": "RPM3팀", "person": "장은준", "biz": "3333701531", "client": "도다나피부과의원", "item": "리알로인젝트파인", "cc": "-", "prod": "리알로인젝트파인", "qty": 0.0, "refund_qty": 0.0, "sales": 0.0, "client_type": "재발주처", "new_box": 10, "reorder_box": 30, "bonus_box": 100, "new_amt": 100000, "reorder_amt": 100000, "bonus_amt": 500000}, {"year": 2026, "month": 7, "team": "RPM2팀", "person": "김태훈", "biz": "1441302759", "client": "올리준의원", "item": "리알로인젝트파인", "cc": "-", "prod": "리알로인젝트파인", "qty": 0.0, "refund_qty": 0.0, "sales": 0.0, "client_type": "재발주처", "new_box": 10, "reorder_box": 30, "bonus_box": 100, "new_amt": 100000, "reorder_amt": 100000, "bonus_amt": 500000}, {"year": 2026, "month": 7, "team": "RPM3팀", "person": "홍원의", "biz": "2110946287", "client": "청담쥬넥스의원", "item": "리알로인젝트파인", "cc": "-", "prod": "리알로인젝트파인", "qty": 0.0, "refund_qty": 0.0, "sales": 0.0, "client_type": "재발주처", "new_box": 10, "reorder_box": 30, "bonus_box": 100, "new_amt": 100000, "reorder_amt": 100000, "bonus_amt": 500000}, {"year": 2026, "month": 7, "team": "RPM3팀", "person": "홍원의", "biz": "2200886777", "client": "뷰성형외과", "item": "리알로인젝트파인", "cc": "-", "prod": "리알로인젝트파인", "qty": 0.0, "refund_qty": 0.0, "sales": 0.0, "client_type": "재발주처", "new_box": 10, "reorder_box": 30, "bonus_box": 100, "new_amt": 100000, "reorder_amt": 100000, "bonus_amt": 500000}, {"year": 2026, "month": 7, "team": "RPM4팀", "person": "이다별", "biz": "3123120164", "client": "씨앤피차앤박피부과의원", "item": "리알로인젝트파인", "cc": "-", "prod": "리알로인젝트파인", "qty": 0.0, "refund_qty": 0.0, "sales": 0.0, "client_type": "신규처", "new_box": 10, "reorder_box": 30, "bonus_box": 100, "new_amt": 100000, "reorder_amt": 100000, "bonus_amt": 500000}, {"year": 2026, "month": 7, "team": "RPM3팀", "person": "홍원의", "biz": "3687400154", "client": "강남더의원", "item": "리알로인젝트파인", "cc": "-", "prod": "리알로인젝트파인", "qty": 0.0, "refund_qty": 0.0, "sales": 0.0, "client_type": "재발주처", "new_box": 10, "reorder_box": 30, "bonus_box": 100, "new_amt": 100000, "reorder_amt": 100000, "bonus_amt": 500000}, {"year": 2026, "month": 7, "team": "RPM3팀", "person": "홍원의", "biz": "5872500704", "client": "청담봄온의원", "item": "리알로인젝트파인", "cc": "-", "prod": "리알로인젝트파인", "qty": 0.0, "refund_qty": 0.0, "sales": 0.0, "client_type": "신규처", "new_box": 10, "reorder_box": 30, "bonus_box": 100, "new_amt": 100000, "reorder_amt": 100000, "bonus_amt": 500000}, {"year": 2026, "month": 7, "team": "RPM3팀", "person": "박천", "biz": "6585600451", "client": "레벨업의원", "item": "리알로인젝트파인", "cc": "-", "prod": "리알로인젝트파인", "qty": 0.0, "refund_qty": 0.0, "sales": 0.0, "client_type": "재발주처", "new_box": 10, "reorder_box": 30, "bonus_box": 100, "new_amt": 100000, "reorder_amt": 100000, "bonus_amt": 500000}, {"year": 2026, "month": 7, "team": "RPM3팀", "person": "홍원의", "biz": "4194900595", "client": "로렐의원", "item": "리알로인젝트파인", "cc": "-", "prod": "리알로인젝트파인", "qty": 0.0, "refund_qty": 0.0, "sales": 0.0, "client_type": "신규처", "new_box": 10, "reorder_box": 30, "bonus_box": 100, "new_amt": 100000, "reorder_amt": 100000, "bonus_amt": 500000}, {"year": 2026, "month": 7, "team": "RPM2팀", "person": "전우찬", "biz": "2275900170", "client": "리원피부과의원", "item": "리알로인젝트파인", "cc": "-", "prod": "리알로인젝트파인", "qty": 0.0, "refund_qty": 0.0, "sales": 0.0, "client_type": "재발주처", "new_box": 10, "reorder_box": 30, "bonus_box": 100, "new_amt": 100000, "reorder_amt": 100000, "bonus_amt": 500000}, {"year": 2026, "month": 7, "team": "RPM4팀", "person": "김재진", "biz": "6102638230", "client": "라마르의원(울산)", "item": "리알로인젝트파인", "cc": "-", "prod": "리알로인젝트파인", "qty": 0.0, "refund_qty": 0.0, "sales": 0.0, "client_type": "재발주처", "new_box": 10, "reorder_box": 30, "bonus_box": 100, "new_amt": 100000, "reorder_amt": 100000, "bonus_amt": 500000}, {"year": 2026, "month": 7, "team": "RPM1팀", "person": "박기주", "biz": "2200985440", "client": "루미에의원(강남)", "item": "리알로인젝트파인", "cc": "-", "prod": "리알로인젝트파인", "qty": 10.0, "refund_qty": 0.0, "sales": 900000.0, "client_type": "재발주처", "new_box": 10, "reorder_box": 30, "bonus_box": 100, "new_amt": 100000, "reorder_amt": 100000, "bonus_amt": 500000}, {"year": 2026, "month": 7, "team": "RPM3팀", "person": "홍원의", "biz": "2024600846", "client": "골든디아망성형외과의원", "item": "리알로인젝트파인", "cc": "-", "prod": "리알로인젝트파인", "qty": 50.0, "refund_qty": 0.0, "sales": 4500000.0, "client_type": "재발주처", "new_box": 10, "reorder_box": 30, "bonus_box": 100, "new_amt": 100000, "reorder_amt": 100000, "bonus_amt": 500000}, {"year": 2026, "month": 7, "team": "RPM3팀", "person": "홍원의", "biz": "6621002367", "client": "르쏘메의원", "item": "리알로인젝트파인", "cc": "-", "prod": "리알로인젝트파인", "qty": 0.0, "refund_qty": 0.0, "sales": 0.0, "client_type": "재발주처", "new_box": 10, "reorder_box": 30, "bonus_box": 100, "new_amt": 100000, "reorder_amt": 100000, "bonus_amt": 500000}, {"year": 2026, "month": 7, "team": "RPM3팀", "person": "홍원의", "biz": "4222301891", "client": "샤인유의원(강남점)", "item": "리알로인젝트파인", "cc": "-", "prod": "리알로인젝트파인", "qty": 0.0, "refund_qty": 0.0, "sales": 0.0, "client_type": "재발주처", "new_box": 10, "reorder_box": 30, "bonus_box": 100, "new_amt": 100000, "reorder_amt": 100000, "bonus_amt": 500000}, {"year": 2026, "month": 7, "team": "RPM3팀", "person": "홍원의", "biz": "3152025046", "client": "더피크의원", "item": "리알로인젝트파인", "cc": "-", "prod": "리알로인젝트파인", "qty": 0.0, "refund_qty": 0.0, "sales": 0.0, "client_type": "신규처", "new_box": 10, "reorder_box": 30, "bonus_box": 100, "new_amt": 100000, "reorder_amt": 100000, "bonus_amt": 500000}, {"year": 2026, "month": 7, "team": "RPM3팀", "person": "홍원의", "biz": "4321402764", "client": "피데스의원", "item": "리알로인젝트파인", "cc": "-", "prod": "리알로인젝트파인", "qty": 0.0, "refund_qty": 0.0, "sales": 0.0, "client_type": "재발주처", "new_box": 10, "reorder_box": 30, "bonus_box": 100, "new_amt": 100000, "reorder_amt": 100000, "bonus_amt": 500000}, {"year": 2026, "month": 7, "team": "RPM3팀", "person": "홍원의", "biz": "5802102116", "client": "청담미닛의원", "item": "리알로인젝트파인", "cc": "-", "prod": "리알로인젝트파인", "qty": 0.0, "refund_qty": 0.0, "sales": 0.0, "client_type": "신규처", "new_box": 10, "reorder_box": 30, "bonus_box": 100, "new_amt": 100000, "reorder_amt": 100000, "bonus_amt": 500000}, {"year": 2026, "month": 7, "team": "RPM3팀", "person": "홍원의", "biz": "6795900935", "client": "루피엘의원", "item": "리알로인젝트파인", "cc": "-", "prod": "리알로인젝트파인", "qty": 0.0, "refund_qty": 0.0, "sales": 0.0, "client_type": "재발주처", "new_box": 10, "reorder_box": 30, "bonus_box": 100, "new_amt": 100000, "reorder_amt": 100000, "bonus_amt": 500000}, {"year": 2026, "month": 7, "team": "RPM3팀", "person": "홍원의", "biz": "7021003121", "client": "청담아르티의원", "item": "리알로인젝트파인", "cc": "-", "prod": "리알로인젝트파인", "qty": 0.0, "refund_qty": 0.0, "sales": 0.0, "client_type": "신규처", "new_box": 10, "reorder_box": 30, "bonus_box": 100, "new_amt": 100000, "reorder_amt": 100000, "bonus_amt": 500000}, {"year": 2026, "month": 7, "team": "RPM3팀", "person": "홍원의", "biz": "6121452818", "client": "그로브원피부과의원", "item": "리알로인젝트파인", "cc": "-", "prod": "리알로인젝트파인", "qty": 0.0, "refund_qty": 0.0, "sales": 0.0, "client_type": "재발주처", "new_box": 10, "reorder_box": 30, "bonus_box": 100, "new_amt": 100000, "reorder_amt": 100000, "bonus_amt": 500000}, {"year": 2026, "month": 7, "team": "RPM3팀", "person": "홍원의", "biz": "2024600846", "client": "골든디아망성형외과의원", "item": "리알로인젝트파인", "cc": "-", "prod": "리알로인젝트파인", "qty": 30.0, "refund_qty": 0.0, "sales": 2700000.0, "client_type": "재발주처", "new_box": 10, "reorder_box": 30, "bonus_box": 100, "new_amt": 100000, "reorder_amt": 100000, "bonus_amt": 500000}];
+
+// 초기화
+const teams = [...new Set(INC_DATA.map(r=>r.team).filter(Boolean))].sort();
+const tsel = document.getElementById('incTeam');
+teams.forEach(t=>{ const o=document.createElement('option'); o.value=t; o.textContent=t; tsel.appendChild(o); });
+
+// 데이터 기준 최신 월 자동 선택
+const months = [...new Set(INC_DATA.map(r=>r.month).filter(Boolean))].sort((a,b)=>a-b);
+if(months.length > 0){
+  const latestMonth = months[months.length - 1];
+  document.getElementById('incMonth').value = latestMonth;
+}
+document.getElementById('updateInfo').textContent = `데이터 기준: ${new Date().toLocaleDateString('ko-KR')}`;
+
+function fa(v){ if(!v||v===0) return '-'; return v>=1e8?(v/1e8).toFixed(1)+'억':v>=1e4?Math.round(v/1e4)+'만':'₩'+v.toLocaleString(); }
+
+function calcIncentive(r){
+  const net = (r.qty||0) - (r.refund_qty||0);
+  const bonus_box = (r.cc==='0.8cc') ? 100 : r.bonus_box;
+  if(r.client_type==='신규처'){
+    if(net >= r.new_box) return {step:'신규랜딩', amt:r.new_amt};
+  } else if(r.client_type==='재발주처'){
+    if(net >= bonus_box) return {step:'대량발주', amt:r.reorder_amt+r.bonus_amt};
+    if(net >= r.reorder_box) return {step:'재발주', amt:r.reorder_amt};
+  }
+  return {step:'-', amt:0};
+}
+
+function incGetRows(){
+  const m=document.getElementById('incMonth').value;
+  const t=document.getElementById('incTeam').value;
+  const p=document.getElementById('incPerson').value;
+  const item=document.getElementById('incItem').value;
+  const type=document.getElementById('incType').value;
+  return INC_DATA.filter(r=>{
+    if(m!=='all'&&String(r.month)!==m) return false;
+    if(t!=='all'&&r.team!==t) return false;
+    if(p!=='all'&&r.person!==p) return false;
+    if(item!=='all'&&r.item!==item) return false;
+    if(type!=='all'&&r.client_type!==type) return false;
+    return true;
+  });
+}
+
+function incTeamChange(){
+  const t=document.getElementById('incTeam').value;
+  const psel=document.getElementById('incPerson');
+  const cur=psel.value;
+  psel.innerHTML='<option value="all">전체 담당자</option>';
+  const ps=[...new Set(INC_DATA.filter(r=>t==='all'||r.team===t).map(r=>r.person).filter(Boolean))].sort();
+  ps.forEach(p=>{ const o=document.createElement('option'); o.value=p; o.textContent=p; psel.appendChild(o); });
+  if([...psel.options].some(o=>o.value===cur)) psel.value=cur;
+  incApply();
+}
+
+// 제품별 건수 키
+const PROD_KEYS = [
+  {key:'1.5cc', item:'디클래시 CaHA', cc:'1.5cc'},
+  {key:'0.8cc', item:'디클래시 CaHA', cc:'0.8cc'},
+  {key:'rialro', item:'리알로인젝트파인', cc:'-'},
+];
+
+function getStepKey(r){
+  const inc = calcIncentive(r);
+  return inc.step; // 신규랜딩 / 재발주 / 대량발주 / -
+}
+
+function incApply(){
+  const rows = incGetRows();
+
+  // 요약 카드
+  let newCnt=0, reCnt=0, totalAmt=0, totalSales=0;
+  rows.forEach(r=>{ const i=calcIncentive(r); if(r.client_type==='신규처')newCnt++; if(r.client_type==='재발주처')reCnt++; totalAmt+=i.amt; totalSales+=r.sales||0; });
+
+  document.getElementById('incNewCnt').textContent=newCnt+'건';
+  document.getElementById('incReorderCnt').textContent=reCnt+'건';
+  document.getElementById('incTotalAmt').textContent=fa(totalAmt);
+  document.getElementById('incTotalSales').textContent=fa(totalSales);
+
+  // 팀/담당자 통합 테이블
+  // 구조: {team: {person: {prod_key: {new:0, reorder:0, bonus:0}, amt:0, sales:0}}}
+  const data = {};
+  rows.forEach(r=>{
+    const t=r.team||'-'; const p=r.person||'-';
+    if(!data[t]) data[t]={persons:{}, amt:0, sales:0, cnts:{'1.5cc':{n:0,re:0,b:0},'0.8cc':{n:0,re:0,b:0},'rialro':{n:0,re:0,b:0}}};
+    if(!data[t].persons[p]) data[t].persons[p]={amt:0, sales:0, cnts:{'1.5cc':{n:0,re:0,b:0},'0.8cc':{n:0,re:0,b:0},'rialro':{n:0,re:0,b:0}}};
+    const inc=calcIncentive(r);
+    data[t].amt+=inc.amt; data[t].sales+=r.sales||0;
+    data[t].persons[p].amt+=inc.amt; data[t].persons[p].sales+=r.sales||0;
+    // 제품 키 결정
+    let pk = r.item==='리알로인젝트파인'?'rialro':(r.cc==='0.8cc'?'0.8cc':'1.5cc');
+    const step=inc.step;
+    if(step==='신규랜딩'){ data[t].cnts[pk].n++; data[t].persons[p].cnts[pk].n++; }
+    else if(step==='재발주'){ data[t].cnts[pk].re++; data[t].persons[p].cnts[pk].re++; }
+    else if(step==='대량발주'){ data[t].cnts[pk].b++; data[t].persons[p].cnts[pk].b++; }
+  });
+
+  const td = 'padding:6px 8px;font-size:11px;border-bottom:1px solid #f0f0f0;text-align:center';
+  const bl = 'border-left:2px solid #e0e0e0';
+  let html = '';
+  Object.entries(data).sort().forEach(([team, tv])=>{
+    const tc = tv.cnts;
+    // 팀 소계 행
+    html += `<tr style="background:#f0f4ff">
+      <td style="${td};text-align:left;font-weight:700" colspan="2">${team} 소계</td>
+      <td style="${td};${bl}">${tc['1.5cc'].n||'-'}</td><td style="${td}">${tc['1.5cc'].re||'-'}</td><td style="${td}">${tc['1.5cc'].b||'-'}</td>
+      <td style="${td};${bl}">${tc['0.8cc'].n||'-'}</td><td style="${td}">${tc['0.8cc'].re||'-'}</td><td style="${td}">${tc['0.8cc'].b||'-'}</td>
+      <td style="${td};${bl}">${tc['rialro'].n||'-'}</td><td style="${td}">${tc['rialro'].re||'-'}</td><td style="${td}">${tc['rialro'].b||'-'}</td>
+      <td style="${td};font-weight:700;color:#e8a838">${fa(tv.amt)}</td>
+      <td style="${td}">${fa(tv.sales)}</td>
+    </tr>`;
+    // 담당자 행
+    Object.entries(tv.persons).sort().forEach(([person, pv])=>{
+      const pc = pv.cnts;
+      html += `<tr>
+        <td style="${td}"></td>
+        <td style="${td};text-align:left">${person}</td>
+        <td style="${td};${bl}">${pc['1.5cc'].n||'-'}</td><td style="${td}">${pc['1.5cc'].re||'-'}</td><td style="${td}">${pc['1.5cc'].b||'-'}</td>
+        <td style="${td};${bl}">${pc['0.8cc'].n||'-'}</td><td style="${td}">${pc['0.8cc'].re||'-'}</td><td style="${td}">${pc['0.8cc'].b||'-'}</td>
+        <td style="${td};${bl}">${pc['rialro'].n||'-'}</td><td style="${td}">${pc['rialro'].re||'-'}</td><td style="${td}">${pc['rialro'].b||'-'}</td>
+        <td style="${td};color:#e8a838">${fa(pv.amt)}</td>
+        <td style="${td}">${fa(pv.sales)}</td>
+      </tr>`;
+    });
+  });
+  document.getElementById('tIncSummaryBody').innerHTML = html;
+
+  // 상세 내역
+  document.getElementById('incDetailCnt').textContent=`— 총 ${rows.length}건`;
+  const tc_color={'신규처':'#185FA5','재발주처':'#1D9E75','기존처':'#aaa'};
+  document.getElementById('tIncDetailBody').innerHTML=rows.map(r=>{
+    const inc=calcIncentive(r);
+    const tc=tc_color[r.client_type]||'#aaa';
+    const refBadge=r.refund_qty>0?` <span style="background:#fde8e8;color:#E24B4A;font-size:9px;padding:1px 5px;border-radius:6px">반품 ${r.refund_qty}</span>`:'';
+    return `<tr>
+      <td>${r.month}월</td><td class="tl">${r.team}</td><td class="tl">${r.person}</td>
+      <td class="tl" style="font-weight:500">${r.client}</td>
+      <td style="color:#aaa;font-size:10px">${r.biz}</td>
+      <td class="tl">${r.item}</td><td>${r.cc}</td>
+      <td><span style="background:${tc}22;color:${tc};font-size:10px;padding:2px 7px;border-radius:8px;font-weight:600">${r.client_type}</span></td>
+      <td>${r.qty}${refBadge}</td>
+      <td style="color:#E24B4A">${r.refund_qty>0?r.refund_qty:'-'}</td>
+      <td>${fa(r.sales)}</td>
+      <td>${inc.step!=='-'?`<span style="background:#fff8e1;color:#e8a838;font-size:9px;padding:2px 6px;border-radius:6px;font-weight:600">${inc.step}</span>`:'-'}</td>
+      <td style="font-weight:700;color:${inc.amt>0?'#e8a838':'#ccc'}">${inc.amt>0?fa(inc.amt):'-'}</td>
+    </tr>`;
+  }).join('');
+}
+
+function incExport(){
+  const rows=incGetRows();
+  if(!rows.length){alert('데이터 없음');return;}
+  let csv='\uFEFF월,팀,담당자,거래처명,사업자번호,품목,규격,구분,수량,반품수량,매출액,인센티브단계,예상인센티브\n';
+  rows.forEach(r=>{ const i=calcIncentive(r); csv+=[r.month,r.team,r.person,`"${r.client}"`,r.biz,r.item,r.cc,r.client_type,r.qty,r.refund_qty,r.sales,i.step,i.amt].join(',')+'\n'; });
+  const blob=new Blob([csv],{type:'text/csv'});
+  const a=document.createElement('a'); a.href=URL.createObjectURL(blob); a.download='인센티브내역.csv'; a.click();
+}
+
+incApply();
+</script>
+</body>
+</html>
