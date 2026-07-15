@@ -257,7 +257,7 @@ function incApply(){
 
   // 요약 카드
   let newCnt=0, reCnt=0, totalAmt=0, totalSales=0;
-  rows.forEach(r=>{ const i=calcIncentive(r); if(r.client_type==='신규처')newCnt++; if(r.client_type==='재발주처')reCnt++; totalAmt+=i.amt; totalSales+=r.sales||0; });
+  rows.forEach(r=>{ const i=calcIncentive(r); if(i.step==='신규랜딩')newCnt++; if(i.step==='재발주'||i.step==='대량발주')reCnt++; totalAmt+=i.amt; totalSales+=r.sales||0; });
 
   document.getElementById('incNewCnt').textContent=newCnt+'건';
   document.getElementById('incReorderCnt').textContent=reCnt+'건';
