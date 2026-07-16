@@ -266,7 +266,15 @@ function incApply(){
 
   // 요약 카드
   let newCnt=0, reCnt=0, totalAmt=0, totalSales=0;
-  rows.forEach(r=>{ const i=calcIncentive(r); if(i.step==='신규랜딩')newCnt++; if(i.step==='재발주'||i.step==='대량발주')reCnt++; totalAmt+=i.amt; totalSales+=r.sales||0; });
+  rows.forEach(r=>{ const i=calcIncentive(r); if(i.step==='신규랜딩')newCnt++; if(i.step==='재발주'||i.step==='대량발주')reCnt++; totalAmt+=i.amt; });
+  // 월 누적 매출액: 품목 필터만 적용, 나머지 필터 무관
+  const selM2=document.getElementById('incMonth').value;
+  const selItem2=document.getElementById('incItem').value;
+  INC_DATA.forEach(r=>{
+    if(selM2!=='all'&&String(r.month)!==selM2) return;
+    if(selItem2!=='all'&&r.item!==selItem2) return;
+    totalSales+=r.sales||0;
+  });
 
   document.getElementById('incNewCnt').textContent=newCnt+'건';
   document.getElementById('incReorderCnt').textContent=reCnt+'건';
