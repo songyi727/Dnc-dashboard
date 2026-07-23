@@ -6546,7 +6546,7 @@ function dailyGetRows(){
     (vy==='all'||r._date.slice(0,4)===vy) &&
     (vm==='all'||r._date.slice(5,7)===vm) &&
     (vday==='all'||r._date.slice(8,10)===vday) &&
-    (vt==='all'||r._t===vt) &&
+    (vt==='all'?['RPM1팀','RPM2팀','RPM3팀','RPM4팀'].includes(r._t):r._t===vt) &&
     (vp==='all'||r._p===vp) &&
     (vi==='all'||r._i===vi) &&
     (vprod==='all'||r._prod===vprod) &&
