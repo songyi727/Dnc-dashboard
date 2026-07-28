@@ -3163,22 +3163,24 @@ function calcClientStatus(cy, cm, useItemFilter){
 function calcTrend3(cy, cm, item, useItemFilter){
   const months=[];
   for(let i=3;i>=0;i--){let m=cm-i,y=cy;if(m<=0){m+=12;y--;}months.push({y,m});}
+  // 전체 선택 시 품목 구분 없이 실납처/사업자번호만으로 유니크 키 계산
+  const keyFn = useItemFilter ? (r=>ncKey(r)) : (r=>r._i==='병원화장품'?(r._sn||''):(r._biz||''));
   return months.map(({y,m})=>{
     const itemFilter = r => item ? r._i===item : (useItemFilter&&ncItems.size>0 ? ncItems.has(r._i) : true);
     const rows = posRows(ncFr(RAW.filter(r=>itemFilter(r)), y, m));
     const p12 = prev12Set(y,m);
-    const p12Keys = new Set(posRows(ncFrTeam(RAW.filter(r=>p12.has(r._ym)&&itemFilter(r)))).map(r=>ncKey(r)).filter(Boolean));
-    const curKeys = new Set(rows.map(r=>ncKey(r)).filter(Boolean));
+    const p12Keys = new Set(posRows(ncFrTeam(RAW.filter(r=>p12.has(r._ym)&&itemFilter(r)))).map(r=>keyFn(r)).filter(Boolean));
+    const curKeys = new Set(rows.map(r=>keyFn(r)).filter(Boolean));
     // 신규: 당월 있고 직전12개월 없음
     const newCnt = new Set([...curKeys].filter(k=>!p12Keys.has(k))).size;
     // 기존: 당월 있고 직전12개월에도 있음
     const existCnt = new Set([...curKeys].filter(k=>p12Keys.has(k))).size;
     // 이탈: VBA 방식
     const t12m=m-12<=0?m-12+12:m-12, t12y=m-12<=0?y-1:y;
-    const t12Keys=new Set(posRows(ncFrTeam(RAW.filter(r=>r._y===t12y&&r._m===t12m&&itemFilter(r)))).map(r=>ncKey(r)).filter(Boolean));
+    const t12Keys=new Set(posRows(ncFrTeam(RAW.filter(r=>r._y===t12y&&r._m===t12m&&itemFilter(r)))).map(r=>keyFn(r)).filter(Boolean));
     const betSet=new Set();
     for(let i=1;i<=11;i++){let m2=t12m+i,y2=t12y;if(m2>12){m2-=12;y2++;}betSet.add(y2*100+m2);}
-    const betKeys=new Set(posRows(ncFrTeam(RAW.filter(r=>betSet.has(r._ym)&&itemFilter(r)))).map(r=>ncKey(r)).filter(Boolean));
+    const betKeys=new Set(posRows(ncFrTeam(RAW.filter(r=>betSet.has(r._ym)&&itemFilter(r)))).map(r=>keyFn(r)).filter(Boolean));
     const lostCnt=new Set([...t12Keys].filter(k=>!betKeys.has(k)&&!curKeys.has(k))).size;
     return {y,m,newCnt,existCnt,lostCnt};
   });
