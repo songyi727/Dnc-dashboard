@@ -3035,7 +3035,7 @@ function navTo(page){
 
 // ===== 신규/기존/이탈 핵심 로직 =====
 // 키 생성: 병원화장품=실납처코드+품목, 나머지=사업자번호+품목
-function ncKey(r){ return r._i==='병원화장품' ? (r._sn||'')+':'+r._i : (r._biz||'')+':'+r._i; }
+function ncKey(r){ return (r._biz||'')+':'+r._i; }
 
 // 실매출 > 0 필터 (0원, 반품 제외)
 function posRows(rows){ return rows.filter(r=>r._s>0); }
@@ -3163,8 +3163,8 @@ function calcClientStatus(cy, cm, useItemFilter){
 function calcTrend3(cy, cm, item, useItemFilter){
   const months=[];
   for(let i=3;i>=0;i--){let m=cm-i,y=cy;if(m<=0){m+=12;y--;}months.push({y,m});}
-  // 전체 선택 시 품목 구분 없이 실납처/사업자번호만으로 유니크 키 계산
-  const keyFn = useItemFilter ? (r=>ncKey(r)) : (r=>r._i==='병원화장품'?(r._sn||''):(r._biz||''));
+  // 전체 선택 시 사업자번호 기준 유니크, 품목 선택 시 사업자번호+품목 기준
+  const keyFn = useItemFilter ? (r=>ncKey(r)) : (r=>r._biz||'');
   return months.map(({y,m})=>{
     const itemFilter = r => item ? r._i===item : (useItemFilter&&ncItems.size>0 ? ncItems.has(r._i) : true);
     const rows = posRows(ncFr(RAW.filter(r=>itemFilter(r)), y, m));
