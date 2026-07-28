@@ -3208,7 +3208,7 @@ function renderNewClientPage(){
   const prevTotalNew = prevStatusFiltered.reduce((s,r)=>s+r.newCnt,0);
 
   // 직전 3개월 추이 (전체 합산)
-  const trend3 = calcTrend3(cy,cm,null,true); // 품목 필터 적용
+  const trend3 = calcTrend3(cy,cm,null,ncItems.size>0); // 품목 선택 시만 필터 적용, 전체 선택 시 유니크
   const avg3   = trend3.slice(0,3).reduce((s,r)=>s+r.newCnt,0)/3;
   const curTrend  = trend3[3];
   const prevTrend = trend3[2];
