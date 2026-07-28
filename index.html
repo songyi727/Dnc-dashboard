@@ -3166,7 +3166,7 @@ function calcTrend3(cy, cm, item, useItemFilter){
   // 전체 선택 시 사업자번호 기준 유니크, 품목 선택 시 사업자번호+품목 기준
   const keyFn = useItemFilter ? (r=>ncKey(r)) : (r=>r._biz||'');
   return months.map(({y,m})=>{
-    const itemFilter = r => item ? r._i===item : (useItemFilter&&ncItems.size>0 ? ncItems.has(r._i) : true);
+    const itemFilter = r => item ? r._i===item : (ncItems.size>0 ? ncItems.has(r._i) : true);
     const rows = posRows(ncFr(RAW.filter(r=>itemFilter(r)), y, m));
     const p12 = prev12Set(y,m);
     const p12Keys = new Set(posRows(ncFrTeam(RAW.filter(r=>p12.has(r._ym)&&itemFilter(r)))).map(r=>keyFn(r)).filter(Boolean));
