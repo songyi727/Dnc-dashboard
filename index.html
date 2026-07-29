@@ -2089,14 +2089,16 @@ function cntNew(cy,cm,rows,itemSet){
   return c;
 }
 function calcNI(cy,cm,cr,pr){
-  // ncKey 로직: 병원화장품=실납처코드+품목, 나머지=사업자번호+품목, 실매출>0만
+  // V2와 동일한 로직: 직전12개월 기존처 풀은 팀 필터 없이 사업자번호 기준
   const pp=p12r(cy,cm),pm=p12r(cm===1?cy-1:cy,cm===1?12:cm-1);
   const il=selItems.size>0?[...selItems]:[...ITEMS,'기타'];
   return il.map(it=>{
-    const cb=new Set(cr.filter(r=>r._i===it).map(r=>ncKey(r)).filter(Boolean));
-    const pb=new Set(frBasePos(RAW.filter(r=>pp.has(r._ym)&&r._i===it),'all','all').map(r=>ncKey(r)).filter(Boolean));
-    const pvb=new Set(pr.filter(r=>r._i===it).map(r=>ncKey(r)).filter(Boolean));
-    const pmb=new Set(frBasePos(RAW.filter(r=>pm.has(r._ym)&&r._i===it),'all','all').map(r=>ncKey(r)).filter(Boolean));
+    // 직전12개월 기존처: 팀 필터 없이 사업자번호 기준
+    const pb=new Set(RAW.filter(r=>pp.has(r._ym)&&r._i===it&&r._s>0).map(r=>r._biz).filter(Boolean));
+    const pmb=new Set(RAW.filter(r=>pm.has(r._ym)&&r._i===it&&r._s>0).map(r=>r._biz).filter(Boolean));
+    // 당월/전월: 현재 팀/담당자 필터 적용
+    const cb=new Set(cr.filter(r=>r._i===it&&r._s>0).map(r=>r._biz).filter(Boolean));
+    const pvb=new Set(pr.filter(r=>r._i===it&&r._s>0).map(r=>r._biz).filter(Boolean));
     let cn=0;cb.forEach(k=>{if(!pb.has(k))cn++;});
     let pn=0;pvb.forEach(k=>{if(!pmb.has(k))pn++;});
     return{item:it,cur:cn,prev:pn};
