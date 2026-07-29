@@ -1232,6 +1232,26 @@ function runSampleAI(){
   </div>
 </div>
 
+  <!-- 신규거래처 리스트 -->
+  <div class="card" style="margin:0 1.5rem 1.5rem;padding:16px">
+    <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:10px">
+      <div class="card-title" style="margin:0">신규 거래처 리스트 <span id="v2NewListCnt" style="font-size:11px;color:#888;font-weight:400"></span></div>
+    </div>
+    <div style="overflow-x:auto">
+      <table class="st" id="v2NewListTable" style="width:100%">
+        <thead><tr>
+          <th>#</th>
+          <th style="text-align:left">거래처명</th>
+          <th>사업자번호</th>
+          <th>팀</th>
+          <th>담당자</th>
+          <th>당월 매출</th>
+        </tr></thead>
+        <tbody id="v2NewListBody"></tbody>
+      </table>
+    </div>
+  </div>
+
 </div><!-- /v2Page -->
 
 <!-- ★ 중점 품목 현황 페이지 ★ -->
@@ -2085,7 +2105,6 @@ function cntNew(cy,cm,rows,itemSet){
   });
   const curBiz=new Set(rows.filter(r=>r._s>0).map(r=>r._biz).filter(Boolean));
   let c=0;curBiz.forEach(b=>{if(!ex.has(b))c++;});
-  if(cy===2026&&cm===5) console.log(`cntNew 5월: ex=${ex.size}, curBiz=${curBiz.size}, new=${c}, itemSet=${itemSet?[...itemSet].join(','):'null'}`);
   return c;
 }
 function calcNI(cy,cm,cr,pr){
@@ -4917,10 +4936,38 @@ const anK = KPI.filter(k => k._y === cy
 
   // 신규 거래처 — 분기일 때 각 월별 합산
   const nwMs = activeMs!==null ? activeMs : [cm];
+  const newListMap = new Map(); // 신규거래처 리스트 {biz: {cn, team, person, sales}}
   const curNw = nwMs.reduce((sum,m)=>{
     const mRows = getRowsForMs(cy,[m]);
+    // 신규거래처 리스트 추출 - cntNew와 동일한 itemSet 사용
+    const itemSet = vi2||(new Set(ITEMS));  // 기타 제외, ITEMS 9개만
+    const ex = new Set();
+    p12r(cy,m).forEach(ym=>{
+      RAW.filter(r=>r._ym===ym&&(itemSet?itemSet.has(r._i):true)).forEach(r=>{if(r._biz)ex.add(r._biz);});
+    });
+    // getRowsForMs와 동일하게 r._s>0만 필터링
+    const filteredRows = mRows.filter(r=>r._s>0&&r._biz&&!ex.has(r._biz));
+    filteredRows.forEach(r=>{
+      if(!newListMap.has(r._biz)) newListMap.set(r._biz,{cn:r._cn||r._biz,team:r._t,person:r._p,sales:0,biz:r._biz});
+      newListMap.get(r._biz).sales += r._s;
+    });
     return sum + cntNew(cy,m,mRows,vi2||new Set(ITEMS));
   },0);
+  // 신규거래처 리스트 렌더링
+  const newListArr = [...newListMap.values()].sort((a,b)=>a.team.localeCompare(b.team)||a.person.localeCompare(b.person));
+  const nlBody = document.getElementById('v2NewListBody');
+  const nlCnt = document.getElementById('v2NewListCnt');
+  if(nlBody){
+    nlBody.innerHTML = newListArr.map((r,i)=>`<tr>
+      <td style="text-align:center;color:#888">${i+1}</td>
+      <td style="text-align:left;font-weight:500">${r.cn||'-'}</td>
+      <td style="color:#888;font-size:11px">${r.biz||'-'}</td>
+      <td>${r.team||'-'}</td>
+      <td>${r.person||'-'}</td>
+      <td>${fa(r.sales)}</td>
+    </tr>`).join('') || '<tr><td colspan="6" style="text-align:center;color:#888;padding:16px">신규 거래처 없음</td></tr>';
+  }
+  if(nlCnt) nlCnt.textContent = `— 총 ${newListArr.length}처`;
   const prevNw = prevMs.reduce((sum,p)=>{
     const mRows = RAW.filter(r=>r._y===p.y&&r._m===p.m&&r._s>0
       &&(v2SelTeams?v2SelTeams.has(r._t):(vt2==='all'||r._t===vt2))
