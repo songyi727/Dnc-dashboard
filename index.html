@@ -2015,8 +2015,8 @@ let selItems=new Set();
 const mxMo={};
 RAW.forEach(r=>{if(r._y&&r._m)mxMo[r._y]=Math.max(mxMo[r._y]||0,r._m);});
 
-const TPM={"RPM1팀": ["박기주", "유재준", "이상준"], "RPM2팀": ["김태훈", "이도현", "전우찬", "하성환"], "RPM3팀": ["박천", "장은준", "정대철", "홍원의"], "RPM4팀": ["김재진", "송진영", "이다별", "이상직", "한정우"]};
-const AP=["김재진", "김태훈", "박기주", "박천", "송진영", "유재준", "이다별", "이도현", "이상준", "이상직", "장은준", "전우찬", "정대철", "하성환", "한정우", "홍원의"];
+const TPM={"RPM1팀": ["박기주", "유재준", "이상준"], "RPM2팀": ["김태훈", "이도현", "장은준", "전우찬", "하성환"], "RPM3팀": ["박천", "이창환", "정대철", "홍원의"], "RPM4팀": ["김재진", "송진영", "이다별", "이상직"], "블루오션TF": ["김진희", "전지원"]};
+const AP=["김재진", "김진희", "김태훈", "박기주", "박천", "송진영", "유재준", "이다별", "이도현", "이상준", "이상직", "이창환", "장은준", "전우찬", "전지원", "정대철", "하성환", "홍원의"];
 
 function toggleItemDrop(e){e.stopPropagation();document.getElementById('itemDrop').classList.toggle('open');}
 document.addEventListener('click',e=>{if(!document.getElementById('itemWrap').contains(e.target))document.getElementById('itemDrop').classList.remove('open');});
