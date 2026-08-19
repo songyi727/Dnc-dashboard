@@ -259,16 +259,6 @@ def build_html(d):
     </table>
   </div>
 
-  <div style="padding:1.25rem 1.5rem;border-bottom:0.5px solid #eee">
-    <div style="font-size:12px;font-weight:500;color:#1a1a1a;margin-bottom:12px">🏆 주요 품목 누적 매출 <span style="font-size:10px;color:#888;font-weight:400">1~{cm}월 누적</span></div>
-    <table width="100%" cellpadding="0" cellspacing="0" style="border:0.5px solid #eee;border-radius:8px;overflow:hidden">
-      <thead><tr style="background:#f5f5f3">
-        <th style="{THL}">품목</th><th style="{TH}">매출</th><th style="{TH}">달성률</th>
-      </tr></thead>
-      <tbody>{acc_rows}</tbody>
-    </table>
-  </div>
-
   <div style="padding:1.25rem 1.5rem;text-align:center">
     <a href="{DASHBOARD_URL}" style="display:inline-flex;align-items:center;gap:6px;padding:10px 24px;background:#185FA5;color:#fff;border-radius:8px;font-size:13px;font-weight:500;text-decoration:none;margin-bottom:16px">🔲 전체 대시보드 보기</a>
     <div style="font-size:11px;color:#888;line-height:1.7">DNC AESTHETICS · DA_RPM사업부 매출 현황 자동 리포트<br>본 메일은 자동 발송됩니다.</div>
