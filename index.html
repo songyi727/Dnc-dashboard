@@ -2098,10 +2098,10 @@ function gc(v){return v>0?'gu':v<0?'gd':'gn';}
 function se(id,val,cls){const el=document.getElementById(id);if(el){el.textContent=val;if(cls)el.className=cls;}}
 function cntC(rows){return new Set(rows.filter(r=>r._s>0).map(r=>r._biz).filter(Boolean)).size;}
 function cntNew(cy,cm,rows,itemSet){
-  // 직전 12개월 기존 거래처: itemSet 기준 (처방 등 제외)
+  // 직전 12개월 기존 거래처: 전체 품목 기준 (캐뉼라/처방 포함)
   const ex=new Set();
   p12r(cy,cm).forEach(ym=>{
-    RAW.filter(r=>r._ym===ym&&(itemSet?itemSet.has(r._i):true)).forEach(r=>{ if(r._biz) ex.add(r._biz); });
+    RAW.filter(r=>r._ym===ym).forEach(r=>{ if(r._biz) ex.add(r._biz); });
   });
   const curBiz=new Set(rows.filter(r=>r._s>0).map(r=>r._biz).filter(Boolean));
   let c=0;curBiz.forEach(b=>{if(!ex.has(b))c++;});
@@ -3314,7 +3314,6 @@ function renderNewClientPage(){
   const prevStatus = calcClientStatus(py,pm);
   const prevMap = Object.fromEntries(prevStatus.map(r=>[r.item,r]));
   const prevStatusFiltered = calcClientStatusFiltered(py,pm);
-  const prevTotalNew = prevStatusFiltered.reduce((s,r)=>s+r.newCnt,0);
 
   // 직전 3개월 추이 (전체 합산)
   const trend3 = calcTrend3(cy,cm,null,false); // 항상 사업자번호 유니크 기준
@@ -3354,6 +3353,7 @@ function renderNewClientPage(){
   const lostItem = [...statusDataFiltered].sort((a,b)=>b.lostCnt-a.lostCnt)[0];
   const aiClass  = trendDir==='증가'?'ai-good':'ai-alert';
   const totalNewFiltered = statusDataFiltered.reduce((s,r)=>s+r.newCnt,0);
+  const prevTotalNew = prevStatusFiltered.reduce((s,r)=>s+r.newCnt,0);
   const momNewDiff = totalNewFiltered - prevTotalNew;
 
   // 품목별 신규/기존/이탈 표
@@ -5049,7 +5049,7 @@ const anK = KPI.filter(k => k._y === cy
     const itemSet = vi2||(new Set(ITEMS));  // 기타 제외, ITEMS 9개만
     const ex = new Set();
     p12r(cy,m).forEach(ym=>{
-      RAW.filter(r=>r._ym===ym&&(itemSet?itemSet.has(r._i):true)).forEach(r=>{if(r._biz)ex.add(r._biz);});
+      RAW.filter(r=>r._ym===ym).forEach(r=>{if(r._biz)ex.add(r._biz);});
     });
     // getRowsForMs와 동일하게 r._s>0만 필터링
     const filteredRows = mRows.filter(r=>r._s>0&&r._biz&&!ex.has(r._biz));
