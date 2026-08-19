@@ -142,7 +142,7 @@ def build_html(d):
         <tr>
           <td style="{TOTL}">합계</td>
           <td style="{TOT}">{fs(acc_total)}</td>
-          <td style="{TOT};color:{rate_color(mr)}">{rate_str(mr)}</td>
+          <td style="{TOT};color:{rate_color(ar)}">{rate_str(ar)}</td>
         </tr>"""
 
     html = f"""<!DOCTYPE html>
