@@ -1232,23 +1232,41 @@ function runSampleAI(){
   </div>
 </div>
 
-  <!-- 신규거래처 리스트 -->
-  <div class="card" style="margin:0 1.5rem 1.5rem;padding:16px">
-    <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:10px">
-      <div class="card-title" style="margin:0">신규 거래처 리스트 <span id="v2NewListCnt" style="font-size:11px;color:#888;font-weight:400"></span></div>
+  <!-- 매출처 현황 + 신규거래처 리스트 2분할 -->
+  <div style="margin:0 1.5rem 1.5rem;display:grid;grid-template-columns:1fr 1fr;gap:12px">
+    <!-- 왼쪽: 매출처 수 현황 -->
+    <div class="card" style="padding:16px">
+      <div class="card-title" style="margin-bottom:10px">매출처 수 현황</div>
+      <div style="overflow-x:auto">
+        <table class="st" id="v2ClientStatusTable" style="width:100%">
+          <thead><tr>
+            <th style="text-align:left">팀</th>
+            <th style="text-align:left">담당자</th>
+            <th style="color:#1D9E75">신규처</th>
+            <th style="color:#3266ad">기존처</th>
+          </tr></thead>
+          <tbody id="v2ClientStatusBody"></tbody>
+        </table>
+      </div>
     </div>
-    <div style="overflow-x:auto">
-      <table class="st" id="v2NewListTable" style="width:100%">
-        <thead><tr>
-          <th>#</th>
-          <th style="text-align:left">거래처명</th>
-          <th>사업자번호</th>
-          <th>팀</th>
-          <th>담당자</th>
-          <th>당월 매출</th>
-        </tr></thead>
-        <tbody id="v2NewListBody"></tbody>
-      </table>
+    <!-- 오른쪽: 신규거래처 리스트 -->
+    <div class="card" style="padding:16px">
+      <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:10px">
+        <div class="card-title" style="margin:0">신규 거래처 리스트 <span id="v2NewListCnt" style="font-size:11px;color:#888;font-weight:400"></span></div>
+      </div>
+      <div style="overflow-x:auto">
+        <table class="st" id="v2NewListTable" style="width:100%">
+          <thead><tr>
+            <th>#</th>
+            <th style="text-align:left">거래처명</th>
+            <th>사업자번호</th>
+            <th>팀</th>
+            <th>담당자</th>
+            <th>당월 매출</th>
+          </tr></thead>
+          <tbody id="v2NewListBody"></tbody>
+        </table>
+      </div>
     </div>
   </div>
 
@@ -3352,8 +3370,11 @@ function renderNewClientPage(){
   const hotItem  = [...statusDataFiltered].sort((a,b)=>b.newCnt-a.newCnt)[0];
   const lostItem = [...statusDataFiltered].sort((a,b)=>b.lostCnt-a.lostCnt)[0];
   const aiClass  = trendDir==='증가'?'ai-good':'ai-alert';
-  const totalNewFiltered = statusDataFiltered.reduce((s,r)=>s+r.newCnt,0);
-  const prevTotalNew = prevStatusFiltered.reduce((s,r)=>s+r.newCnt,0);
+  // 사업자번호 유니크 기준 신규처 전월대비
+  const cmr = fr(RAW.filter(r=>r._y===cy&&r._m===cm),'all','all');
+  const totalNewFiltered = cntNew(cy,cm,cmr);
+  const prevCmr = fr(RAW.filter(r=>r._y===py&&r._m===pm),'all','all');
+  const prevTotalNew = cntNew(py,pm,prevCmr);
   const momNewDiff = totalNewFiltered - prevTotalNew;
 
   // 품목별 신규/기존/이탈 표
@@ -5074,6 +5095,60 @@ const anK = KPI.filter(k => k._y === cy
     </tr>`).join('') || '<tr><td colspan="6" style="text-align:center;color:#888;padding:16px">신규 거래처 없음</td></tr>';
   }
   if(nlCnt) nlCnt.textContent = `— 총 ${newListArr.length}처`;
+
+  // 매출처 수 현황 테이블 렌더
+  const csBody = document.getElementById('v2ClientStatusBody');
+  if(csBody){
+    const TD = 'padding:5px 8px;font-size:11px;border-bottom:0.5px solid #f0f0f0;text-align:center';
+    const TDL = 'padding:5px 8px;font-size:11px;border-bottom:0.5px solid #f0f0f0;text-align:left';
+    // 팀/담당자별 신규처/기존처 집계 (사업자번호 유니크)
+    const personMap = {};
+    nwMs.forEach(m=>{
+      const mRows = getRowsForMs(cy,[m]);
+      const ex2 = new Set();
+      p12r(cy,m).forEach(ym=>{ RAW.filter(r=>r._ym===ym).forEach(r=>{if(r._biz)ex2.add(r._biz);}); });
+      mRows.filter(r=>r._s>0).forEach(r=>{
+        if(!r._t||r._t==='-') return;
+        const key = r._t+':'+r._p;
+        if(!personMap[key]) personMap[key]={team:r._t,person:r._p,newBiz:new Set(),existBiz:new Set()};
+        if(!ex2.has(r._biz)) personMap[key].newBiz.add(r._biz);
+        else personMap[key].existBiz.add(r._biz);
+      });
+    });
+    // 팀 소계
+    const teamMap = {};
+    Object.values(personMap).forEach(({team,person,newBiz,existBiz})=>{
+      if(!teamMap[team]) teamMap[team]={persons:[],newTotal:0,existTotal:0};
+      teamMap[team].persons.push({person,newCnt:newBiz.size,existCnt:existBiz.size});
+      teamMap[team].newTotal += newBiz.size;
+      teamMap[team].existTotal += existBiz.size;
+    });
+    let csHtml = '';
+    let grandNew=0, grandExist=0;
+    Object.entries(teamMap).sort((a,b)=>a[0].localeCompare(b[0])).forEach(([team,{persons,newTotal,existTotal}])=>{
+      grandNew += newTotal; grandExist += existTotal;
+      csHtml += `<tr style="background:#f0f4ff">
+        <td style="${TDL};font-weight:700">${team}</td>
+        <td style="${TDL};font-weight:700;color:#888;font-size:10px">소계</td>
+        <td style="${TD};color:#1D9E75;font-weight:700">${newTotal}</td>
+        <td style="${TD};color:#3266ad;font-weight:700">${existTotal}</td>
+      </tr>`;
+      persons.sort((a,b)=>a.person.localeCompare(b.person)).forEach(({person,newCnt,existCnt})=>{
+        csHtml += `<tr>
+          <td style="${TDL}"></td>
+          <td style="${TDL}">${person}</td>
+          <td style="${TD};color:#1D9E75">${newCnt||'-'}</td>
+          <td style="${TD};color:#3266ad">${existCnt||'-'}</td>
+        </tr>`;
+      });
+    });
+    csHtml += `<tr style="background:#f5f5f3;border-top:0.5px solid #e0e0e0">
+      <td style="${TDL};font-weight:700" colspan="2">합계</td>
+      <td style="${TD};color:#1D9E75;font-weight:700">${grandNew}</td>
+      <td style="${TD};color:#3266ad;font-weight:700">${grandExist}</td>
+    </tr>`;
+    csBody.innerHTML = csHtml;
+  }
   const prevNw = prevMs.reduce((sum,p)=>{
     const mRows = RAW.filter(r=>r._y===p.y&&r._m===p.m&&r._s>0
       &&(v2SelTeams?v2SelTeams.has(r._t):(vt2==='all'||r._t===vt2))
@@ -5246,8 +5321,8 @@ function v2RenderItemRate(cy,cm){
   const vi = v2GetSelItems();
   const qms = v2GetQuarterMonths();
   v2SelM = (qms!==null) ? null : v2SelMonthsG;  // 분기 선택 시 null
-  const TARGET_ITEMS = ['톡신','HA','브이올렛','CaHA','리프팅실','병원화장품','리알로인젝트파인'];
-  const colors = ['#185FA5','#1D9E75','#534AB7','#e8a838','#D85A30','#3ab5b0','#f0a500'];
+  const TARGET_ITEMS = ['톡신','HA','브이올렛','CaHA','리프팅실','병원화장품','리알로인젝트파인','케어트로핀','캐뉼라'];
+  const colors = ['#185FA5','#1D9E75','#534AB7','#e8a838','#D85A30','#3ab5b0','#f0a500','#9b59b6','#888780'];
   const rows = TARGET_ITEMS.map((it,i)=>{
     const s = RAW.filter(r=>r._y===cy&&r._s>0&&r._i===it&&
       (qms?qms.includes(r._m):r._m===cm)&&
