@@ -1233,7 +1233,7 @@ function runSampleAI(){
 </div>
 
   <!-- 매출처 현황 + 신규거래처 리스트 2분할 -->
-  <div style="margin:0 1.5rem 1.5rem;display:grid;grid-template-columns:1fr 1fr;gap:12px">
+<div style="display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-bottom:10px">
     <!-- 왼쪽: 매출처 수 현황 -->
     <div class="card" style="padding:16px">
       <div class="card-title" style="margin-bottom:10px">매출처 수 현황</div>
@@ -1242,8 +1242,8 @@ function runSampleAI(){
           <thead><tr>
             <th style="text-align:left">팀</th>
             <th style="text-align:left">담당자</th>
-            <th style="color:#1D9E75">신규처</th>
-            <th style="color:#3266ad">기존처</th>
+            <th style="color:#1D9E75;text-align:center">신규처</th>
+            <th style="color:#3266ad;text-align:center">기존처</th>
           </tr></thead>
           <tbody id="v2ClientStatusBody"></tbody>
         </table>
@@ -5101,19 +5101,25 @@ const anK = KPI.filter(k => k._y === cy
   if(csBody){
     const TD = 'padding:5px 8px;font-size:11px;border-bottom:0.5px solid #f0f0f0;text-align:center';
     const TDL = 'padding:5px 8px;font-size:11px;border-bottom:0.5px solid #f0f0f0;text-align:left';
-    // 팀/담당자별 신규처/기존처 집계 (사업자번호 유니크)
-    const personMap = {};
+    // 전체 신규/기존처 먼저 확정 (사업자번호 유니크)
+    const globalEx = new Set();
+    nwMs.forEach(m=>{ p12r(cy,m).forEach(ym=>{ RAW.filter(r=>r._ym===ym).forEach(r=>{if(r._biz)globalEx.add(r._biz);}); }); });
+    // 거래처별 주담당자 매핑 (당월 최다 매출 기준)
+    const bizPersonMap = {};
     nwMs.forEach(m=>{
       const mRows = getRowsForMs(cy,[m]);
-      const ex2 = new Set();
-      p12r(cy,m).forEach(ym=>{ RAW.filter(r=>r._ym===ym).forEach(r=>{if(r._biz)ex2.add(r._biz);}); });
-      mRows.filter(r=>r._s>0).forEach(r=>{
-        if(!r._t||r._t==='-') return;
-        const key = r._t+':'+r._p;
-        if(!personMap[key]) personMap[key]={team:r._t,person:r._p,newBiz:new Set(),existBiz:new Set()};
-        if(!ex2.has(r._biz)) personMap[key].newBiz.add(r._biz);
-        else personMap[key].existBiz.add(r._biz);
+      mRows.filter(r=>r._s>0&&r._biz&&r._t&&r._t!=='-').forEach(r=>{
+        if(!bizPersonMap[r._biz]||r._s>bizPersonMap[r._biz].s)
+          bizPersonMap[r._biz]={team:r._t,person:r._p,s:r._s};
       });
+    });
+    // 팀/담당자별 집계
+    const personMap = {};
+    Object.entries(bizPersonMap).forEach(([biz,{team,person}])=>{
+      const key = team+':'+person;
+      if(!personMap[key]) personMap[key]={team,person,newBiz:new Set(),existBiz:new Set()};
+      if(!globalEx.has(biz)) personMap[key].newBiz.add(biz);
+      else personMap[key].existBiz.add(biz);
     });
     // 팀 소계
     const teamMap = {};
