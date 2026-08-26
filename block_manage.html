@@ -1,0 +1,762 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>블록 관리장</title>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js"></script>
+<style>
+  :root{
+    --bg:#F7F7F5;
+    --surface:#FFFFFF;
+    --border:#E4E2DC;
+    --border-strong:#CFCCC3;
+    --text:#1F1E1B;
+    --text-sub:#6B6A63;
+    --text-mute:#9B9A92;
+    --accent:#185FA5;
+    --accent-bg:#E6F1FB;
+    --green:#0F6E56;
+    --green-bg:#E1F5EE;
+    --amber:#854F0B;
+    --amber-bg:#FAEEDA;
+    --red:#A32D2D;
+    --red-bg:#FCEBEB;
+  }
+  *{box-sizing:border-box;}
+  body{
+    margin:0;
+    background:var(--bg);
+    color:var(--text);
+    font-family:"Pretendard","Noto Sans KR",-apple-system,BlinkMacSystemFont,"Malgun Gothic",sans-serif;
+    -webkit-font-smoothing:antialiased;
+  }
+  .wrap{max-width:1280px;margin:0 auto;padding:28px 32px 60px;}
+
+  header.page{
+    display:flex;
+    align-items:flex-end;
+    justify-content:space-between;
+    margin-bottom:20px;
+    flex-wrap:wrap;
+    gap:12px;
+  }
+  header.page h1{font-size:20px;font-weight:600;margin:0 0 6px;}
+  header.page p{font-size:13px;color:var(--text-sub);margin:0;}
+  .nav-pills{display:flex;gap:6px;}
+  .nav-pills a{
+    font-size:13px;
+    padding:7px 14px;
+    border-radius:8px;
+    border:1px solid var(--border);
+    background:var(--surface);
+    color:var(--text-sub);
+    text-decoration:none;
+  }
+  .nav-pills a.active{background:var(--text);color:#fff;border-color:var(--text);}
+
+  .notice{
+    font-size:12.5px;
+    color:var(--text-sub);
+    background:var(--surface);
+    border:1px solid var(--border);
+    border-radius:10px;
+    padding:12px 16px;
+    margin-bottom:20px;
+    line-height:1.9;
+  }
+  .notice b{color:var(--text);font-weight:600;}
+  .notice .item{display:flex;gap:6px;}
+  .notice .item .dot{flex-shrink:0;}
+
+  .toolbar{
+    display:flex;
+    align-items:center;
+    gap:10px;
+    margin-bottom:20px;
+    flex-wrap:wrap;
+  }
+  .filter-group{display:flex;flex-direction:column;gap:4px;}
+  .msel{position:relative;}
+  .msel-btn{
+    font-size:13px;padding:8px 12px;border-radius:8px;
+    border:1px solid var(--border-strong);background:var(--surface);color:var(--text);
+    min-width:110px;text-align:left;cursor:pointer;white-space:nowrap;
+  }
+  .msel-btn:after{content:"▾";float:right;color:var(--text-mute);margin-left:8px;}
+  .msel-panel{
+    position:absolute;top:calc(100% + 4px);left:0;z-index:20;
+    background:var(--surface);border:1px solid var(--border-strong);border-radius:8px;
+    padding:6px;display:none;box-shadow:0 8px 24px rgba(0,0,0,0.08);min-width:110px;
+  }
+  .msel-panel.open{display:block;}
+  .msel-panel label{display:flex;align-items:center;gap:6px;padding:5px 6px;font-size:12.5px;cursor:pointer;border-radius:5px;white-space:nowrap;}
+  .msel-panel label:hover{background:#FBFBFA;}
+  .filter-group label{font-size:11.5px;color:var(--text-mute);}
+  select{
+    font-size:13px;
+    padding:8px 12px;
+    border-radius:8px;
+    border:1px solid var(--border-strong);
+    background:var(--surface);
+    color:var(--text);
+    min-width:170px;
+  }
+  .toolbar .period{font-size:12.5px;color:var(--text-sub);margin-left:auto;align-self:flex-end;padding-bottom:8px;}
+
+  .scorecards{
+    display:grid;
+    grid-template-columns:repeat(auto-fit, minmax(160px,1fr));
+    gap:12px;
+    margin-bottom:24px;
+  }
+  .card{
+    background:var(--surface);
+    border:1px solid var(--border);
+    border-radius:10px;
+    padding:16px 18px;
+  }
+  .card .label{font-size:12.5px;color:var(--text-sub);margin:0 0 8px;}
+  .card .value{font-size:24px;font-weight:600;margin:0;}
+  .card .bar-track{height:6px;background:var(--border);border-radius:3px;margin-top:10px;overflow:hidden;}
+  .card .bar-fill{height:100%;background:var(--accent);}
+  .card .bar-fill.green{background:var(--green);}
+
+  .section-title{font-size:14px;font-weight:600;margin:0 0 10px;display:flex;justify-content:space-between;align-items:baseline;}
+  .section-title .count{font-size:12px;color:var(--text-mute);font-weight:400;}
+
+  .list-card{
+    background:var(--surface);
+    border:1px solid var(--border);
+    border-radius:10px;
+    overflow:hidden;
+  }
+  .row-head, .row-main{
+    display:grid;
+    grid-template-columns:1.1fr 1.3fr 0.9fr 1fr 0.9fr 0.8fr 0.8fr 0.9fr;
+    gap:8px;
+  }
+  .row-head{
+    padding:8px 16px;
+    font-size:11.5px;
+    color:var(--text-sub);
+    font-weight:600;
+    background:#FAFAF8;
+    border-bottom:1px solid var(--border);
+  }
+  .row-head span:not(:first-child):not(:nth-child(2)){text-align:right;}
+  .row-head span:nth-child(7){text-align:center;}
+  .row-head span:last-child{text-align:center;}
+
+  .block-row{border-bottom:1px solid var(--border);}
+  .block-row:last-child{border-bottom:none;}
+  .row-main{
+    align-items:center;
+    padding:12px 16px;
+    font-size:13px;
+    cursor:pointer;
+  }
+  .row-main:hover{background:#FBFBFA;}
+  .row-main .sub{color:var(--text-sub);font-size:12px;}
+  .row-main .num{text-align:right;}
+  .row-main .rate{text-align:right;font-weight:600;}
+  .rate.high{color:var(--green);}
+  .rate.mid{color:var(--amber);}
+  .rate.low{color:var(--red);}
+  .status-wrap{display:flex;flex-direction:column;align-items:center;text-align:center;gap:2px;}
+  .eval-label{font-size:10px;color:var(--text-mute);}
+  .badge{display:inline-block;font-size:11px;font-weight:500;padding:2px 8px;border-radius:10px;}
+  .badge.hold{background:#F1EFE8;color:#5F5E5A;}
+  .badge.warn{background:var(--amber-bg);color:var(--amber);}
+  .badge.recall{background:var(--red-bg);color:var(--red);}
+  .badge.keep{background:var(--green-bg);color:var(--green);}
+  .badge.recalled{background:#3A3A38;color:#fff;}
+  .chev{text-align:center;color:var(--text-mute);transition:transform 0.15s;}
+  .chev.open{transform:rotate(180deg);}
+
+  .detail{
+    display:none;
+    padding:4px 16px 20px 16px;
+    background:#FAFAF8;
+    border-top:1px solid var(--border);
+  }
+  .detail.open{display:block;}
+  .detail-grid{display:grid;grid-template-columns:1.3fr 1fr;gap:24px;padding-top:14px;}
+  @media (max-width:760px){.detail-grid{grid-template-columns:1fr;} .row-head{display:none;} .row-main{grid-template-columns:1fr;gap:2px;}}
+  .detail h4{font-size:12px;color:var(--text-sub);font-weight:600;margin:0 0 8px;}
+  table.qtable{width:100%;border-collapse:collapse;font-size:11px;}
+  table.qtable th{text-align:right;color:var(--text-sub);font-weight:500;padding:4px 5px;border-bottom:1px solid var(--border-strong);}
+  table.qtable th:first-child{text-align:left;}
+  table.qtable td{padding:4px 5px;text-align:right;border-bottom:1px solid var(--border);}
+  table.qtable td:first-child{text-align:left;}
+  table.qtable .qcell{line-height:1.4;}
+  table.qtable .qcell .a{display:block;color:var(--text);}
+  table.qtable .qcell .m{display:block;color:var(--text-mute);font-size:10px;}
+  table.qtable .qcell .r{display:block;font-size:10px;font-weight:500;}
+  table.qtable .qcell .r.high{color:var(--green);}
+  table.qtable .qcell .r.mid{color:var(--amber);}
+  table.qtable .qcell .r.low{color:var(--red);}
+  table.qtable .qcell .r.na{color:var(--text-mute);}
+  table.qtable td.sum{font-weight:600;border-left:1px solid var(--border-strong);}
+  .detail-grid > div{display:flex;flex-direction:column;}
+  .chart-scale{display:flex;flex:1;gap:6px;min-height:180px;}
+  .y-axis{display:flex;flex-direction:column;justify-content:space-between;text-align:right;font-size:10px;color:var(--text-mute);padding:14px 6px 22px 0;white-space:nowrap;}
+  .plot{flex:1;position:relative;border-left:1px solid var(--border-strong);}
+  .grid-area{position:absolute;left:0;right:0;top:14px;bottom:22px;}
+  .grid-area .gline{position:absolute;left:0;right:0;border-top:1px dashed var(--border);}
+  .bars-area{position:absolute;left:0;right:0;top:14px;bottom:22px;display:flex;align-items:flex-end;gap:18px;padding:0 10px;}
+  .bars-area .tbar{flex:1;display:flex;flex-direction:column;align-items:center;justify-content:flex-end;height:100%;position:relative;}
+  .bars-area .tbar .amt{position:absolute;top:-16px;left:50%;transform:translateX(-50%);font-size:11px;color:var(--text-sub);white-space:nowrap;}
+  .bars-area .tbar .bar{width:28px;background:var(--accent);border-radius:3px 3px 0 0;}
+  .bars-area .tbar .m{position:absolute;bottom:-20px;left:50%;transform:translateX(-50%);font-size:11px;color:var(--text-sub);}
+  .meta-line{font-size:11.5px;color:var(--text-mute);margin-top:10px;}
+</style>
+</head>
+<body>
+<script src="block_data.js"></script>
+<script src="block_common.js"></script>
+<div class="wrap">
+
+  <header class="page">
+    <div>
+      <h1>블록 관리장</h1>
+      <p>블록담당자 / 팀 / 영업담당자 기준으로 블록처를 조회하세요</p>
+    </div>
+    <div class="nav-pills">
+      <a href="block_index.html">현황 요약</a>
+      <a href="block_reps.html">담당자별 현황</a>
+      <a href="#" class="active">관리장</a>
+      <a href="block_clients.html">거래처 현황</a>
+      <a href="#" id="btn-export" style="cursor:pointer">엑셀 다운로드</a>
+    </div>
+  </header>
+
+  <div class="notice">
+    <div class="item"><span class="dot">·</span><span><b>평가 기준</b> — 보류(계약 3개월 미만) / 1차경고(3개월 이상 복합시술 0이며 달성률 50% 미만) / 회수대상(6개월 이상 복합시술 0이며 달성률 50% 미만)</span></div>
+    <div class="item"><span class="dot">·</span><span><b>복합시술</b>: 매출월 필터와 무관하게 계약연도 1월부터 현재까지 누적 기준 (선택한 매출월과 별개)</span></div>
+    <div class="item"><span class="dot">·</span><span><b>수수료</b> — 톡신 10% · 톡신(200U) 15% · DCA 15% · 필러군 20%(디클래시 CaHA 30%) · 리프팅실 20% · 리알로파인 30%</span></div>
+  </div>
+
+  <div class="toolbar">
+    <div class="filter-group">
+      <label>계약연도</label>
+      <select id="f-year"></select>
+    </div>
+    <div class="filter-group">
+      <label>계약월</label>
+      <select id="f-cmonth"></select>
+    </div>
+    <div class="filter-group">
+      <label>매출월</label>
+      <select id="f-month"></select>
+    </div>
+    <div class="filter-group">
+      <label>분기</label>
+      <div class="msel" id="quarter-msel">
+        <button type="button" class="msel-btn" id="quarter-msel-btn">전체</button>
+        <div class="msel-panel" id="quarter-msel-panel">
+          <label><input type="checkbox" class="f-quarter-cb" value="1Q">1Q</label>
+          <label><input type="checkbox" class="f-quarter-cb" value="2Q">2Q</label>
+          <label><input type="checkbox" class="f-quarter-cb" value="3Q">3Q</label>
+          <label><input type="checkbox" class="f-quarter-cb" value="4Q">4Q</label>
+        </div>
+      </div>
+    </div>
+    <div class="filter-group">
+      <label>계약품목</label>
+      <select id="f-item">
+        <option value="all">전체</option>
+        <option value="나보타">나보타</option>
+        <option value="브이올렛">브이올렛</option>
+        <option value="필러군">필러군</option>
+        <option value="리프팅실">리프팅실</option>
+        <option value="리알로">리알로파인</option>
+      </select>
+    </div>
+    <div class="filter-group">
+      <label>단독매출</label>
+      <select id="f-solo">
+        <option value="all">전체</option>
+        <option value="나보타">나보타</option>
+        <option value="브이올렛">브이올렛</option>
+        <option value="필러군">필러군</option>
+        <option value="리프팅실">리프팅실</option>
+        <option value="리알로">리알로파인</option>
+      </select>
+    </div>
+  </div>
+  <div class="toolbar">
+    <div class="filter-group">
+      <label>블록담당자</label>
+      <select id="f-manager"></select>
+    </div>
+    <div class="filter-group">
+      <label>팀</label>
+      <select id="f-team"></select>
+    </div>
+    <div class="filter-group">
+      <label>영업담당자</label>
+      <select id="f-rep"></select>
+    </div>
+    <div class="filter-group">
+      <label>평가</label>
+      <select id="f-eval">
+        <option value="all">전체</option>
+        <option value="hold">보류</option>
+        <option value="keep">유지</option>
+        <option value="warn">1차경고</option>
+        <option value="recall">회수대상</option>
+        <option value="recalled">회수</option>
+      </select>
+    </div>
+    <span class="period" id="periodLabel"></span>
+  </div>
+
+  <div class="scorecards">
+    <div class="card">
+      <p class="label">당월 유효율</p>
+      <p class="value" id="monthRate">-</p>
+      <div class="bar-track"><div class="bar-fill" id="monthBar"></div></div>
+    </div>
+    <div class="card">
+      <p class="label">계약기간 누적 유효율</p>
+      <p class="value" id="cumRate">-</p>
+      <div class="bar-track"><div class="bar-fill green" id="cumBar"></div></div>
+    </div>
+    <div class="card">
+      <p class="label">조회된 블록처 수</p>
+      <p class="value" id="blockCount">-</p>
+    </div>
+    <div class="card">
+      <p class="label">평균 달성률</p>
+      <p class="value" id="avgRate">-</p>
+    </div>
+  </div>
+
+  <div class="section-title">
+    블록처 리스트
+    <span class="count" id="listMeta"></span>
+  </div>
+  <div class="list-card">
+    <div class="row-head">
+      <span>블록담당자</span><span>블록처</span><span id="mbo-label">MBO</span><span id="ytd-label">연간누적매출</span><span>당월매출</span><span>달성률</span><span style="text-align:center">복합시술</span><span style="text-align:center">평가</span>
+    </div>
+    <div id="listBody"></div>
+  </div>
+
+</div>
+
+<script>
+const groups = BlockCommon.GROUPS; // ['나보타','브이올렛','필러군','리프팅실','리알로']
+const quarters = ['1Q','2Q','3Q','4Q'];
+const fmt = BlockCommon.fmt;
+const pct = BlockCommon.pct;
+const niceCeil = BlockCommon.niceCeil;
+const evalStatus = BlockCommon.evalStatus;
+
+const hasData = typeof window.BLOCK_DETAIL !== 'undefined' && typeof window.BLOCK_META !== 'undefined';
+
+function buildBlocks(yearSel, monthSel, cMonthSel){
+  const refMonth = (monthSel && monthSel !== 'all') ? monthSel : undefined;
+  const scoped = hasData ? BlockCommon.scopeDetailByContractMonth(window.BLOCK_DETAIL, yearSel, cMonthSel) : [];
+  const blocks = hasData ? BlockCommon.transformAll(scoped, window.BLOCK_META, yearSel, refMonth) : [];
+  blocks.forEach(b => {
+    if(!monthSel || monthSel === 'all') b.month = b.ytd; // 매출월 전체 선택 시 당월매출 = 연간누적매출
+    const p = pct(b.ytd, b.mbo);
+    const status = evalStatus(b.months, b.totals, p, b.recalled);
+    b.evalKey = status.key;
+    b.evalLabel = status.label;
+  });
+  return blocks;
+}
+
+// 필터 옵션(담당자/팀/영업담당자/비고 목록)은 연도/매출월/계약월과 무관하게 항상 전체 기준으로 채운다
+const allBlocks = buildBlocks('all', 'all', 'all');
+
+if(!hasData){
+  document.querySelector('.wrap').innerHTML = `
+    <div style="padding:60px 20px;text-align:center;color:var(--text-mute);font-size:14px;">
+      block_data.js를 찾을 수 없습니다.<br>
+      <span style="font-size:12.5px;">generate_block_dashboard.py를 실행해서 block_data.js를 같은 폴더에 생성한 뒤 다시 열어주세요.</span>
+    </div>`;
+}
+
+function fillSelect(id, values){
+  const sel = document.getElementById(id);
+  sel.innerHTML = '<option value="all">전체</option>' + values.map(v=>`<option value="${v}">${v}</option>`).join('');
+}
+if(hasData){
+  fillSelect('f-manager', [...new Set(allBlocks.map(b=>b.manager))].sort((a,b)=>a.localeCompare(b,'ko')));
+  fillSelect('f-year', [...new Set(allBlocks.flatMap(b=>b.contractYears))].sort());
+  {
+    const teamVals = [...new Set(allBlocks.map(b=>b.team))].filter(t=>t);
+    const named = teamVals.filter(t=>t !== '-').sort((a,b)=>a.localeCompare(b,'ko'));
+    const dash = teamVals.includes('-') ? ['-'] : [];
+    fillSelect('f-team', [...named, ...dash]);
+  }
+}
+
+const fManager = document.getElementById('f-manager');
+const fYear = document.getElementById('f-year');
+const fCMonth = document.getElementById('f-cmonth');
+const fTeam = document.getElementById('f-team');
+const fRep = document.getElementById('f-rep');
+const fEval = document.getElementById('f-eval');
+const fMonth = document.getElementById('f-month');
+const fItem = document.getElementById('f-item');
+function getSelectedQuarters(){
+  return [...document.querySelectorAll('.f-quarter-cb:checked')].map(cb=>cb.value);
+}
+function setupQuarterMsel(){
+  const btn = document.getElementById('quarter-msel-btn');
+  const panel = document.getElementById('quarter-msel-panel');
+  const wrap = document.getElementById('quarter-msel');
+  if(!btn) return;
+  btn.addEventListener('click', (e) => {
+    e.stopPropagation();
+    panel.classList.toggle('open');
+  });
+  document.addEventListener('click', (e) => {
+    if(!wrap.contains(e.target)) panel.classList.remove('open');
+  });
+  function updateLabel(){
+    const sel = getSelectedQuarters();
+    btn.textContent = sel.length ? sel.join('+') : '전체';
+  }
+  document.querySelectorAll('.f-quarter-cb').forEach(cb => cb.addEventListener('change', () => { updateLabel(); render(); }));
+  updateLabel();
+}
+const fSolo = document.getElementById('f-solo');
+const listBody = document.getElementById('listBody');
+
+function contractMonthsForYear(yearSel, itemFilter){
+  if(yearSel === 'all') return [];
+  const months = new Set();
+  window.BLOCK_DETAIL.forEach(rec => {
+    if(itemFilter && itemFilter !== 'all'){
+      const snap = ((rec.groups[itemFilter]||{}).by_year || {})[String(yearSel)];
+      if(snap && snap.contract_date) months.add(parseInt(snap.contract_date.slice(5,7), 10));
+    } else {
+      const cd = BlockCommon.yearEarliestContractDate(rec, yearSel);
+      if(cd) months.add(parseInt(cd.slice(5,7), 10));
+    }
+  });
+  return [...months].sort((a,b)=>b-a);
+}
+function refreshCMonthOptions(){
+  const months = contractMonthsForYear(fYear.value, fItem.value);
+  fillSelect('f-cmonth', months.map(m=>String(m).padStart(2,'0')+'월'));
+  fCMonth.value = 'all'; // 기본은 전체(그 해 전체 누적)
+}
+
+function monthsForYear(yearSel){
+  const all = [...new Set(
+    window.BLOCK_DETAIL.flatMap(r => BlockCommon.GROUPS.flatMap(g => Object.keys((r.groups[g]||{}).actual_by_month || {})))
+  )];
+  const filtered = yearSel === 'all' ? all : all.filter(ym => ym.startsWith(String(yearSel)));
+  return filtered.sort().reverse();
+}
+function refreshMonthOptions(){
+  const cur = fMonth.value;
+  const months = monthsForYear(fYear.value);
+  fillSelect('f-month', months);
+  fMonth.value = months.includes(cur) ? cur : (months[0] || 'all');
+}
+
+function repsForTeam(teamSel){
+  if(teamSel !== 'all' && window.TEAM_MEMBERS && window.TEAM_MEMBERS[teamSel]){
+    return window.TEAM_MEMBERS[teamSel];
+  }
+  return [...new Set(allBlocks.map(b=>b.rep))].sort((a,b)=>a.localeCompare(b,'ko'));
+}
+function refreshRepOptions(){
+  const cur = fRep.value;
+  const reps = repsForTeam(fTeam.value);
+  fillSelect('f-rep', reps);
+  fRep.value = reps.includes(cur) ? cur : 'all';
+}
+
+if(hasData){
+  refreshMonthOptions();
+  refreshCMonthOptions();
+  refreshRepOptions();
+}
+
+// 계약연도 기본값: 매출로우데이터 기준 최신 일자의 연도
+if(hasData && window.BLOCK_META && window.BLOCK_META.latest_sales_date){
+  const latestYear = window.BLOCK_META.latest_sales_date.slice(0,4);
+  if([...fYear.options].some(o=>o.value===latestYear)) fYear.value = latestYear;
+  refreshMonthOptions();
+  refreshCMonthOptions();
+}
+
+// index.html에서 "이 담당자 관리장에서 보기" 링크로 넘어온 경우 URL 파라미터로 필터 초기값 세팅
+if(hasData){
+  const params = new URLSearchParams(window.location.search);
+  const qManager = params.get('manager');
+  const qYear = params.get('year');
+  if(qManager && [...fManager.options].some(o=>o.value===qManager)) fManager.value = qManager;
+  if(qYear && qYear !== 'all' && [...fYear.options].some(o=>o.value===qYear)){
+    fYear.value = qYear;
+    refreshMonthOptions();
+    refreshCMonthOptions();
+  }
+}
+
+function currentFilters(){
+  return {
+    manager: fManager.value,
+    year: fYear.value,
+    cMonth: fCMonth.value,
+    team: fTeam.value,
+    rep: fRep.value,
+    evalKey: fEval.value,
+    month: fMonth.value,
+    item: fItem.value,
+    quarter: getSelectedQuarters(),
+    solo: fSolo.value,
+  };
+}
+
+function render(){
+  const f = currentFilters();
+
+  function contractedCount(b){ return BlockCommon.GROUPS.filter(g=>b.contractedFlags && b.contractedFlags[g]).length; }
+  function activeGroupsList(b){ return BlockCommon.GROUPS.filter(g=>b.totals[g] && b.totals[g].actual>0); }
+  function soloGroupOf(b){
+    const cc = contractedCount(b);
+    const ag = activeGroupsList(b);
+    return (cc>1 && ag.length===1) ? ag[0] : null;
+  }
+
+  const blocksForYear = buildBlocks(f.year, f.month, f.cMonth);
+  const blocks = blocksForYear.filter(b =>
+    (f.manager === 'all' || b.manager === f.manager) &&
+    (f.year === 'all' || b.contractYears.some(y => String(y) === String(f.year))) &&
+    (f.team === 'all' || b.team === f.team) &&
+    (f.rep === 'all' || b.rep === f.rep) &&
+    (f.evalKey === 'all' || b.evalKey === f.evalKey) &&
+    (f.item === 'all' || (b.contractedFlags && b.contractedFlags[f.item])) &&
+    (f.solo === 'all' || soloGroupOf(b) === f.solo)
+  );
+
+  const labelParts = [];
+  if(f.manager !== 'all') labelParts.push(f.manager);
+  if(f.year !== 'all') labelParts.push(f.year + '년 계약');
+  if(f.team !== 'all') labelParts.push(f.team);
+  if(f.rep !== 'all') labelParts.push(f.rep);
+  document.getElementById('periodLabel').textContent = (labelParts.length ? labelParts.join(' · ') : '전체') + (f.year === 'all' ? ` · 실적 기준연도 ${window.BLOCK_META ? window.BLOCK_META.current_year : ''}년` : '');
+  document.getElementById('listMeta').textContent = blocks.length + '개 처 조회됨';
+
+  if(blocks.length === 0){
+    document.getElementById('monthRate').textContent = '-';
+    document.getElementById('monthBar').style.width = '0%';
+    document.getElementById('cumRate').textContent = '-';
+    document.getElementById('cumBar').style.width = '0%';
+    document.getElementById('blockCount').textContent = '0';
+    document.getElementById('avgRate').textContent = '-';
+    listBody.innerHTML = '<div style="padding:24px 16px;text-align:center;color:var(--text-mute);font-size:13px;">조건에 맞는 블록처가 없습니다.</div>';
+    return;
+  }
+
+  function effMonth(b){ return f.item === 'all' ? b.month : (b.groupMonth ? b.groupMonth[f.item] : 0); }
+  function effYtd(b){
+    if(f.quarter.length){
+      return BlockCommon.GROUPS.reduce((a,g)=>{
+        if(f.item !== 'all' && g !== f.item) return a;
+        return a + f.quarter.reduce((qa,ql)=>{
+          const qd = b.q[g] && b.q[g][ql];
+          return qa + (qd ? qd.actual : 0);
+        }, 0);
+      }, 0);
+    }
+    return f.item === 'all' ? b.ytd : (b.totals[f.item] ? b.totals[f.item].actual : 0);
+  }
+  function effMbo(b){
+    if(f.quarter.length){
+      return BlockCommon.GROUPS.reduce((a,g)=>{
+        if(f.item !== 'all' && g !== f.item) return a;
+        return a + f.quarter.reduce((qa,ql)=>{
+          const qd = b.q[g] && b.q[g][ql];
+          return qa + (qd ? qd.mbo : 0);
+        }, 0);
+      }, 0);
+    }
+    return f.item === 'all' ? b.mbo : (b.totals[f.item] ? b.totals[f.item].mbo : 0);
+  }
+
+  const validCount = blocks.filter(b=>effMonth(b)>0).length;
+  const rate = pct(validCount, blocks.length);
+  document.getElementById('monthRate').textContent = rate + '% (' + validCount + '/' + blocks.length + ')';
+  document.getElementById('monthBar').style.width = rate + '%';
+
+  const cumValid = blocks.filter(b=>effYtd(b)>0).length;
+  const cumRate = pct(cumValid, blocks.length);
+  document.getElementById('cumRate').textContent = cumRate + '%';
+  document.getElementById('cumBar').style.width = cumRate + '%';
+
+  document.getElementById('blockCount').textContent = blocks.length;
+  const avgRate = Math.round(blocks.reduce((a,b)=>a+pct(effYtd(b),effMbo(b)),0)/blocks.length);
+  document.getElementById('avgRate').textContent = avgRate + '%';
+
+  const qLabel = f.quarter.length ? f.quarter.join('+') : null;
+  document.getElementById('mbo-label').textContent = qLabel ? (qLabel + ' MBO') : 'MBO';
+  document.getElementById('ytd-label').textContent = qLabel ? (qLabel + ' 매출') : '연간누적매출';
+
+  listBody.innerHTML = '';
+  blocks.forEach(b=>{
+    const rowMbo = effMbo(b);
+    const rowYtd = effYtd(b);
+    const rowMonth = effMonth(b);
+    const p = pct(rowYtd, rowMbo);
+    const rc = p>=100 ? 'high' : (p>=50 ? 'mid' : 'low');
+    const totals = b.totals;
+    const ev = { key: b.evalKey, label: b.evalLabel };
+    const activeGroupCount = Object.values(totals).filter(g=>g.actual>0).length;
+    const solo = soloGroupOf(b);
+
+    const wrap = document.createElement('div');
+    wrap.className = 'block-row';
+
+    const main = document.createElement('div');
+    main.className = 'row-main';
+    main.innerHTML = `
+      <span>${b.manager}</span>
+      <span>${b.name}<br><span class="sub">${b.team} · ${b.rep}</span>${solo ? `<br><span style="font-size:10.5px;padding:1px 6px;border-radius:6px;background:var(--amber-bg);color:var(--amber)">⚠ ${solo}만 매출</span>` : ''}</span>
+      <span class="num">${fmt(rowMbo)}</span>
+      <span class="num">${fmt(rowYtd)}</span>
+      <span class="num">${fmt(rowMonth)}</span>
+      <span class="rate ${rc}">${p}%</span>
+      <span style="text-align:center;color:var(--text-sub)">${activeGroupCount}개</span>
+      <span class="status-wrap" style="display:flex;flex-direction:column;align-items:center;text-align:center;width:100%"><span class="badge ${ev.key}">${ev.label}</span></span>
+    `;
+
+    const detail = document.createElement('div');
+    detail.className = 'detail';
+    const maxTrend = Math.max(...b.trend.map(t=>t.v), 1);
+    const niceMax = niceCeil(maxTrend);
+    const yTicks = [0,0.25,0.5,0.75,1].map(f=>Math.round(niceMax*f));
+    detail.innerHTML = `
+      <div class="detail-grid">
+        <div>
+          <h4>품목군 x 분기 MBO / 실적</h4>
+          <table class="qtable">
+            <tr><th>품목군</th><th>1Q</th><th>2Q</th><th>3Q</th><th>4Q</th><th class="sum">합계</th></tr>
+            ${groups.map(g=>{
+              const isContracted = b.contractedFlags ? b.contractedFlags[g] : totals[g].mbo > 0;
+              const t = totals[g];
+              const gp = pct(t.actual, t.mbo);
+              const color = gp>=100 ? 'var(--green)' : (gp>=50 ? 'var(--amber)' : 'var(--red)');
+              const qcells = quarters.map(q=>{
+                const c = b.q[g][q];
+                const qrate = c.mbo>0 ? Math.round((c.actual/c.mbo)*100) : null;
+                const rclass = qrate===null ? 'na' : (qrate>=100 ? 'high' : (qrate>=50 ? 'mid' : 'low'));
+                const rlabel = qrate===null ? '-' : qrate+'%';
+                return `<td class="qcell"><span class="a">${fmt(c.actual)}</span><span class="m">/${fmt(c.mbo)}</span><span class="r ${rclass}">${rlabel}</span></td>`;
+              }).join('');
+              const nameCell = isContracted
+                ? `<td>${g} <span style="color:var(--green);font-weight:700">✓</span></td>`
+                : `<td style="color:var(--text-mute)">${g}</td>`;
+              return `<tr>${nameCell}${qcells}<td class="sum" style="color:${color}">${fmt(t.actual)} (${gp}%)</td></tr>`;
+            }).join('')}
+          </table>
+          <p class="meta-line">✓ = 계약 품목군 · 실적/MBO 표기 · 계약 경과 ${b.months}개월 · 복합시술 레벨 ${Math.max(0, Object.values(totals).filter(g=>g.actual>0).length - 1)}</p>
+        </div>
+        <div>
+          <h4>최근 4개월 매출 추이 (당월 포함)</h4>
+          <div class="chart-scale">
+            <div class="y-axis">${yTicks.slice().reverse().map(v=>`<span>${fmt(v)}</span>`).join('')}</div>
+            <div class="plot">
+              <div class="grid-area">${[0,25,50,75,100].map(p=>`<div class="gline" style="bottom:${p}%"></div>`).join('')}</div>
+              <div class="bars-area">
+                ${b.trend.map(t=>{
+                  const hp = Math.round((t.v/niceMax)*1000)/10;
+                  return `<div class="tbar"><span class="amt">${fmt(t.v)}</span><div class="bar" style="height:${hp}%"></div><span class="m">${t.m}</span></div>`;
+                }).join('')}
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    `;
+
+    main.addEventListener('click', ()=>{
+      const isOpen = detail.classList.contains('open');
+      detail.classList.toggle('open', !isOpen);
+    });
+
+    wrap.appendChild(main);
+    wrap.appendChild(detail);
+    listBody.appendChild(wrap);
+  });
+}
+
+fYear.addEventListener('change', () => { refreshMonthOptions(); refreshCMonthOptions(); render(); });
+fTeam.addEventListener('change', () => { refreshRepOptions(); render(); });
+fItem.addEventListener('change', () => { refreshCMonthOptions(); render(); });
+[fManager, fCMonth, fRep, fEval, fMonth, fSolo].forEach(s => s.addEventListener('change', render));
+setupQuarterMsel();
+render();
+
+document.getElementById('btn-export').addEventListener('click', function(e){
+  e.preventDefault();
+  if(!hasData){ alert('데이터가 없습니다.'); return; }
+  const pw = prompt('다운로드 비밀번호를 입력하세요');
+  if(pw === null) return;
+  if(pw !== 'dncsales'){ alert('비밀번호가 올바르지 않습니다.'); return; }
+
+  const f = currentFilters();
+  function dlContractedCount(b){ return groups.filter(g=>b.contractedFlags && b.contractedFlags[g]).length; }
+  function dlActiveGroupsList(b){ return groups.filter(g=>b.totals[g] && b.totals[g].actual>0); }
+  function dlSoloGroupOf(b){
+    const cc = dlContractedCount(b);
+    const ag = dlActiveGroupsList(b);
+    return (cc>1 && ag.length===1) ? ag[0] : null;
+  }
+  const blocks = buildBlocks(f.year, f.month, f.cMonth).filter(b =>
+    (f.manager === 'all' || b.manager === f.manager) &&
+    (f.year === 'all' || b.contractYears.some(y => String(y) === String(f.year))) &&
+    (f.team === 'all' || b.team === f.team) &&
+    (f.rep === 'all' || b.rep === f.rep) &&
+    (f.evalKey === 'all' || b.evalKey === f.evalKey) &&
+    (f.item === 'all' || (b.contractedFlags && b.contractedFlags[f.item])) &&
+    (f.solo === 'all' || dlSoloGroupOf(b) === f.solo)
+  );
+
+  const data = [];
+  blocks.forEach(b=>{
+    groups.forEach(g=>{
+      const t = b.totals[g];
+      const isContracted = b.contractedFlags ? b.contractedFlags[g] : t.mbo > 0;
+      if(!isContracted) return; // 계약 안 된 품목군만 스킵 (계약됐으면 MBO 0이어도 포함)
+      const row = {
+        '블록담당자': b.manager,
+        '팀': b.team,
+        '영업담당자': b.rep,
+        '블록처': b.name,
+        '사업자번호': b.biz,
+        '계약연도': f.year === 'all' ? b.contractYears.join('/') : f.year,
+        '품목군': g,
+      };
+      quarters.forEach(q=>{
+        const c = b.q[g][q];
+        row[q+'_MBO'] = c.mbo;
+        row[q+'_매출액'] = c.actual;
+      });
+      row['합계_MBO'] = t.mbo;
+      row['합계_매출액'] = t.actual;
+      row['달성률(%)'] = t.mbo ? Math.round((t.actual/t.mbo)*1000)/10 : 0;
+      row['평가'] = b.evalLabel;
+      row['비고'] = b.remark;
+      data.push(row);
+    });
+  });
+
+  const ws = XLSX.utils.json_to_sheet(data);
+  const wb = XLSX.utils.book_new();
+  XLSX.utils.book_append_sheet(wb, ws, '관리장');
+  XLSX.writeFile(wb, `블록관리장_상세.xlsx`);
+});
+</script>
+</body>
+</html>
