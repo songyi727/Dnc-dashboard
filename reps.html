@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>담당자별 현황</title>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js"></script>
+<style>
+  :root{
+    --bg:#F7F7F5;
+    --surface:#FFFFFF;
+    --border:#E4E2DC;
+    --border-strong:#CFCCC3;
+    --text:#1F1E1B;
+    --text-sub:#6B6A63;
+    --text-mute:#9B9A92;
+    --accent:#185FA5;
+    --green:#0F6E56;
+    --green-bg:#E1F5EE;
+    --amber:#854F0B;
+    --amber-bg:#FAEEDA;
+    --red:#A32D2D;
+    --red-bg:#FCEBEB;
+  }
+  *{box-sizing:border-box;}
+  body{
+    margin:0;
+    background:var(--bg);
+    color:var(--text);
+    font-family:"Pretendard","Noto Sans KR",-apple-system,BlinkMacSystemFont,"Malgun Gothic",sans-serif;
+    -webkit-font-smoothing:antialiased;
+  }
+  .wrap{max-width:1280px;margin:0 auto;padding:28px 32px 60px;}
+
+  header.page{display:flex;align-items:flex-end;justify-content:space-between;margin-bottom:20px;flex-wrap:wrap;gap:12px;}
+  header.page h1{font-size:20px;font-weight:600;margin:0 0 6px;}
+  header.page p{font-size:13px;color:var(--text-sub);margin:0;}
+  .nav-pills{display:flex;gap:6px;}
+  .nav-pills a{font-size:13px;padding:7px 14px;border-radius:8px;border:1px solid var(--border);background:var(--surface);color:var(--text-sub);text-decoration:none;}
+  .nav-pills a.active{background:var(--text);color:#fff;border-color:var(--text);}
+
+  .toolbar{display:flex;align-items:center;gap:10px;margin-bottom:20px;flex-wrap:wrap;}
+  .filter-group{display:flex;flex-direction:column;gap:4px;}
+  .filter-group label{font-size:11.5px;color:var(--text-mute);}
+  select{
+    font-size:13px;padding:8px 12px;border-radius:8px;
+    border:1px solid var(--border-strong);background:var(--surface);color:var(--text);min-width:150px;
+  }
+  .toolbar .period{font-size:12.5px;color:var(--text-sub);margin-left:auto;align-self:flex-end;padding-bottom:8px;}
+
+  .scorecards{display:grid;grid-template-columns:repeat(auto-fit, minmax(160px,1fr));gap:12px;margin-bottom:24px;}
+  .card{background:var(--surface);border:1px solid var(--border);border-radius:10px;padding:16px 18px;}
+  .card .label{font-size:12.5px;color:var(--text-sub);margin:0 0 8px;}
+  .card .value{font-size:24px;font-weight:600;margin:0;}
+
+  .section-title{font-size:14px;font-weight:600;margin:0 0 10px;display:flex;justify-content:space-between;align-items:baseline;}
+  .section-title .count{font-size:12px;color:var(--text-mute);font-weight:400;}
+
+  .table-card{background:var(--surface);border:1px solid var(--border);border-radius:10px;overflow:hidden;}
+  .table-scroll{overflow-x:auto;}
+  table{border-collapse:collapse;width:100%;font-size:12.5px;table-layout:fixed;}
+  colgroup col:nth-child(1){width:9%;}
+  colgroup col:nth-child(2){width:9%;}
+  colgroup col:nth-child(3){width:9%;}
+  colgroup col:nth-child(4){width:9%;}
+  colgroup col:nth-child(5){width:9%;}
+  colgroup col:nth-child(6){width:9%;}
+  colgroup col:nth-child(7){width:9%;}
+  colgroup col:nth-child(8){width:13%;}
+  colgroup col:nth-child(9){width:13%;}
+  colgroup col:nth-child(10){width:12%;}
+  colgroup col:nth-child(11){width:9%;}
+  th{text-align:right;padding:8px 8px;color:var(--text-sub);font-weight:600;background:#FAFAF8;border-bottom:1px solid var(--border);white-space:normal;word-break:keep-all;line-height:1.3;}
+  th:nth-child(1),th:nth-child(2){text-align:left;}
+  td{padding:7px 10px;text-align:right;border-bottom:1px solid var(--border);white-space:nowrap;}
+  td:nth-child(1),td:nth-child(2){text-align:left;}
+  td.label-col{text-align:left;}
+  td.num-col{text-align:right;}
+  tr.team-row td{background:#F5F4F0;font-weight:600;}
+  tr.grand-row td{background:#EFEDE6;font-weight:700;border-top:1px solid var(--border-strong);}
+  .rate{font-weight:600;}
+  .rate.high{color:var(--green);}
+  .rate.mid{color:var(--amber);}
+  .rate.low{color:var(--red);}
+  .empty{color:var(--text-mute);}
+</style>
+</head>
+<body>
+<script src="block_data.js"></script>
+<script src="block_common.js"></script>
+<div class="wrap">
+
+  <header class="page">
+    <div>
+      <h1>담당자별 현황</h1>
+      <p>팀 / 영업담당자 기준으로 계약처 수와 유효율을 확인하세요</p>
+    </div>
+    <div class="nav-pills">
+      <a href="index.html">현황 요약</a>
+      <a href="manage.html">관리장</a>
+      <a href="clients.html">거래처 현황</a>
+      <a href="#" class="active">담당자별 현황</a>
+    </div>
+  </header>
+
+  <div class="toolbar">
+    <div class="filter-group">
+      <label>팀</label>
+      <select id="f-team"></select>
+    </div>
+    <div class="filter-group">
+      <label>담당자</label>
+      <select id="f-rep"></select>
+    </div>
+    <div class="filter-group">
+      <label>계약연도</label>
+      <select id="f-year"></select>
+    </div>
+    <div class="filter-group">
+      <label>계약월</label>
+      <select id="f-cmonth"></select>
+    </div>
+    <div class="filter-group">
+      <label>매출월</label>
+      <select id="f-month"></select>
+    </div>
+    <div class="filter-group">
+      <label>품목</label>
+      <select id="f-item">
+        <option value="all">전체</option>
+        <option value="나보타">나보타</option>
+        <option value="브이올렛">브이올렛</option>
+        <option value="필러군">필러군</option>
+        <option value="리프팅실">리프팅실</option>
+        <option value="리알로">리알로파인</option>
+      </select>
+    </div>
+    <span class="period" id="periodLabel"></span>
+  </div>
+
+  <div class="scorecards">
+    <div class="card"><p class="label">담당자 수</p><p class="value" id="sc-reps">-</p></div>
+    <div class="card"><p class="label">전체 계약처 수</p><p class="value" id="sc-blocks">-</p></div>
+    <div class="card"><p class="label">전체 유효율</p><p class="value" id="sc-rate">-</p></div>
+    <div class="card"><p class="label">전체 달성률</p><p class="value" id="sc-achieve">-</p></div>
+  </div>
+
+  <div class="section-title">
+    팀 / 담당자별 현황
+    <span class="count" id="listMeta"></span>
+  </div>
+  <div class="table-card">
+    <div class="table-scroll">
+      <table>
+        <colgroup>
+          <col><col><col><col><col><col><col><col><col><col><col>
+        </colgroup>
+        <thead>
+          <tr>
+            <th>팀</th><th>담당자</th><th>계약처 수</th>
+            <th>매출 처(연간누적)</th><th>유효율(연간누적)</th>
+            <th>매출 처(당월)</th><th>유효율(당월)</th>
+            <th>MBO</th><th>연간누적매출</th><th>당월매출</th><th>달성률</th>
+          </tr>
+        </thead>
+        <tbody id="tbody"></tbody>
+      </table>
+    </div>
+  </div>
+
+</div>
+
+<script>
+const hasData = typeof window.BLOCK_DETAIL !== 'undefined' && typeof window.BLOCK_META !== 'undefined';
+
+if(!hasData){
+  document.querySelector('.wrap').innerHTML = `
+    <div style="padding:60px 20px;text-align:center;color:var(--text-mute);font-size:14px;">
+      block_data.js를 찾을 수 없습니다.<br>
+      <span style="font-size:12.5px;">generate_block_dashboard.py를 실행해서 block_data.js를 같은 폴더에 생성한 뒤 다시 열어주세요.</span>
+    </div>`;
+}
+
+const fmt0 = n => Math.round(n||0).toLocaleString('ko-KR');
+const pct = (a,b) => b ? Math.round((a/b)*100) : 0;
+
+function fillSelect(id, values){
+  const sel = document.getElementById(id);
+  sel.innerHTML = '<option value="all">전체</option>' + values.map(v=>`<option value="${v}">${v}</option>`).join('');
+}
+
+function monthsForYear(yearSel){
+  if(!hasData) return [];
+  const all = [...new Set(
+    window.BLOCK_DETAIL.flatMap(r => BlockCommon.GROUPS.flatMap(g => Object.keys((r.groups[g]||{}).actual_by_month || {})))
+  )];
+  const filtered = yearSel === 'all' ? all : all.filter(ym => ym.startsWith(String(yearSel)));
+  return filtered.sort().reverse();
+}
+function contractMonthsForYear(yearSel, itemFilter){
+  if(!hasData || yearSel === 'all') return [];
+  const months = new Set();
+  window.BLOCK_DETAIL.forEach(rec => {
+    if(itemFilter && itemFilter !== 'all'){
+      const snap = ((rec.groups[itemFilter]||{}).by_year || {})[String(yearSel)];
+      if(snap && snap.contract_date) months.add(parseInt(snap.contract_date.slice(5,7), 10));
+    } else {
+      const cd = BlockCommon.yearEarliestContractDate(rec, yearSel);
+      if(cd) months.add(parseInt(cd.slice(5,7), 10));
+    }
+  });
+  return [...months].sort((a,b)=>b-a);
+}
+
+if(hasData){
+  fillSelect('f-team', [...new Set(window.BLOCK_DETAIL.map(r=>r.team).filter(t=>t && t!=='-'))].sort((a,b)=>a.localeCompare(b,'ko')));
+  fillSelect('f-rep', [...new Set(window.BLOCK_DETAIL.map(r=>r.rep).filter(t=>t && t!=='-'))].sort((a,b)=>a.localeCompare(b,'ko')));
+  fillSelect('f-year', [...new Set(window.BLOCK_DETAIL.flatMap(r=>r.client_contract_years||[]))].sort());
+}
+
+const fTeam = document.getElementById('f-team');
+const fRep = document.getElementById('f-rep');
+const fYear = document.getElementById('f-year');
+const fCMonth = document.getElementById('f-cmonth');
+const fMonth = document.getElementById('f-month');
+const fItem = document.getElementById('f-item');
+const tbody = document.getElementById('tbody');
+
+function refreshMonthOptions(){
+  const months = monthsForYear(fYear.value);
+  fillSelect('f-month', months);
+  fMonth.value = months[0] || 'all';
+}
+function refreshCMonthOptions(){
+  const months = contractMonthsForYear(fYear.value, fItem.value);
+  fillSelect('f-cmonth', months.map(m=>String(m).padStart(2,'0')+'월'));
+  fCMonth.value = 'all';
+}
+// 팀 선택 시 담당자 옵션도 그 팀 소속으로만 좁힘
+function refreshRepOptionsForTeam(){
+  const cur = fRep.value;
+  const teamSel = fTeam.value;
+  const reps = teamSel === 'all'
+    ? [...new Set(window.BLOCK_DETAIL.map(r=>r.rep).filter(t=>t && t!=='-'))]
+    : [...new Set(window.BLOCK_DETAIL.filter(r=>r.team===teamSel).map(r=>r.rep).filter(t=>t && t!=='-'))];
+  fillSelect('f-rep', reps.sort((a,b)=>a.localeCompare(b,'ko')));
+  fRep.value = reps.includes(cur) ? cur : 'all';
+}
+
+if(hasData){
+  fYear.value = [...new Set(window.BLOCK_DETAIL.flatMap(r=>r.client_contract_years||[]))].sort().pop() || 'all';
+  refreshMonthOptions();
+  refreshCMonthOptions();
+}
+
+function render(){
+  const yearSel = fYear.value;
+  const monthSel = fMonth.value;
+  const cMonthSel = fCMonth.value;
+  const itemSel = fItem.value;
+  const teamSel = fTeam.value;
+  const repSel = fRep.value;
+
+  const scoped = hasData ? BlockCommon.scopeDetailByContractMonth(window.BLOCK_DETAIL, yearSel, cMonthSel) : [];
+  const refMonth = (monthSel && monthSel !== 'all') ? monthSel : undefined;
+  const blocksAll = hasData ? BlockCommon.transformAll(scoped, window.BLOCK_META, yearSel, refMonth) : [];
+  blocksAll.forEach(b => {
+    if(!monthSel || monthSel === 'all'){
+      b.month = b.ytd;
+      if(b.groupMonth) BlockCommon.GROUPS.forEach(g => { b.groupMonth[g] = b.totals[g] ? b.totals[g].actual : 0; });
+    }
+  });
+
+  const blocks = blocksAll.filter(b =>
+    (teamSel === 'all' || b.team === teamSel) &&
+    (repSel === 'all' || b.rep === repSel) &&
+    (yearSel === 'all' || b.contractYears.some(y => String(y) === String(yearSel))) &&
+    (itemSel === 'all' || (b.contractedFlags && b.contractedFlags[itemSel]))
+  );
+
+  function effMonth(b){ return itemSel === 'all' ? b.month : (b.groupMonth ? b.groupMonth[itemSel] : 0); }
+  function effYtd(b){ return itemSel === 'all' ? b.ytd : (b.totals[itemSel] ? b.totals[itemSel].actual : 0); }
+  function effMbo(b){ return itemSel === 'all' ? b.mbo : (b.totals[itemSel] ? b.totals[itemSel].mbo : 0); }
+
+  const labelParts = [];
+  if(teamSel !== 'all') labelParts.push(teamSel);
+  if(repSel !== 'all') labelParts.push(repSel);
+  if(yearSel !== 'all') labelParts.push(yearSel + '년 계약');
+  document.getElementById('periodLabel').textContent = labelParts.length ? labelParts.join(' · ') : '전체';
+  document.getElementById('listMeta').textContent = blocks.length + '개 처 조회됨';
+
+  // 팀 -> 담당자 -> blocks[] 그룹핑 (필터리스트 순서 보존을 위해 팀은 등장 순, 담당자는 가나다순)
+  const byTeam = new Map();
+  blocks.forEach(b => {
+    const team = b.team || '-';
+    const rep = b.rep || '-';
+    if(!byTeam.has(team)) byTeam.set(team, new Map());
+    const repMap = byTeam.get(team);
+    if(!repMap.has(rep)) repMap.set(rep, []);
+    repMap.get(rep).push(b);
+  });
+
+  const teamNames = [...byTeam.keys()].sort((a,b)=>a.localeCompare(b,'ko'));
+
+  let grandBlocks=0, grandValidYtd=0, grandValidMonth=0, grandMbo=0, grandActual=0, grandMonth=0;
+  const rows = [];
+
+  teamNames.forEach(team => {
+    const repMap = byTeam.get(team);
+    const repNames = [...repMap.keys()].sort((a,b)=>a.localeCompare(b,'ko'));
+    let teamBlocks=0, teamValidYtd=0, teamValidMonth=0, teamMbo=0, teamActual=0, teamMonth=0;
+
+    repNames.forEach(rep => {
+      const repBlocks = repMap.get(rep);
+      const cnt = repBlocks.length;
+      const validYtd = repBlocks.filter(b=>effYtd(b)>0).length;
+      const validMonth = repBlocks.filter(b=>effMonth(b)>0).length;
+      const mboSum = repBlocks.reduce((a,b)=>a+effMbo(b),0);
+      const actualSum = repBlocks.reduce((a,b)=>a+effYtd(b),0);
+      const monthSum = repBlocks.reduce((a,b)=>a+effMonth(b),0);
+      const rateYtd = pct(validYtd, cnt);
+      const rateMonth = pct(validMonth, cnt);
+      const achieve = pct(actualSum, mboSum);
+      teamBlocks+=cnt; teamValidYtd+=validYtd; teamValidMonth+=validMonth; teamMbo+=mboSum; teamActual+=actualSum; teamMonth+=monthSum;
+
+      rows.push(`<tr>
+        <td>${team}</td><td>${rep}</td><td>${cnt}</td>
+        <td>${validYtd}</td><td class="rate ${rateYtd>=50?'high':rateYtd>=20?'mid':'low'}">${rateYtd}%</td>
+        <td>${validMonth}</td><td class="rate ${rateMonth>=50?'high':rateMonth>=20?'mid':'low'}">${rateMonth}%</td>
+        <td>${fmt0(mboSum)}</td><td>${fmt0(actualSum)}</td><td>${fmt0(monthSum)}</td>
+        <td class="rate ${achieve>=100?'high':achieve>=50?'mid':'low'}">${achieve}%</td>
+      </tr>`);
+    });
+
+    const teamRateYtd = pct(teamValidYtd, teamBlocks);
+    const teamRateMonth = pct(teamValidMonth, teamBlocks);
+    const teamAchieve = pct(teamActual, teamMbo);
+    rows.push(`<tr class="team-row">
+      <td colspan="2" class="label-col">${team} 합계</td><td class="num-col">${teamBlocks}</td>
+      <td class="num-col">${teamValidYtd}</td><td class="rate ${teamRateYtd>=50?'high':teamRateYtd>=20?'mid':'low'}">${teamRateYtd}%</td>
+      <td class="num-col">${teamValidMonth}</td><td class="rate ${teamRateMonth>=50?'high':teamRateMonth>=20?'mid':'low'}">${teamRateMonth}%</td>
+      <td class="num-col">${fmt0(teamMbo)}</td><td class="num-col">${fmt0(teamActual)}</td><td class="num-col">${fmt0(teamMonth)}</td>
+      <td class="rate ${teamAchieve>=100?'high':teamAchieve>=50?'mid':'low'}">${teamAchieve}%</td>
+    </tr>`);
+
+    grandBlocks+=teamBlocks; grandValidYtd+=teamValidYtd; grandValidMonth+=teamValidMonth; grandMbo+=teamMbo; grandActual+=teamActual; grandMonth+=teamMonth;
+  });
+
+  if(blocks.length){
+    const grandRateYtd = pct(grandValidYtd, grandBlocks);
+    const grandRateMonth = pct(grandValidMonth, grandBlocks);
+    const grandAchieve = pct(grandActual, grandMbo);
+    rows.push(`<tr class="grand-row">
+      <td colspan="2" class="label-col">총합계</td><td class="num-col">${grandBlocks}</td>
+      <td class="num-col">${grandValidYtd}</td><td class="rate ${grandRateYtd>=50?'high':grandRateYtd>=20?'mid':'low'}">${grandRateYtd}%</td>
+      <td class="num-col">${grandValidMonth}</td><td class="rate ${grandRateMonth>=50?'high':grandRateMonth>=20?'mid':'low'}">${grandRateMonth}%</td>
+      <td class="num-col">${fmt0(grandMbo)}</td><td class="num-col">${fmt0(grandActual)}</td><td class="num-col">${fmt0(grandMonth)}</td>
+      <td class="rate ${grandAchieve>=100?'high':grandAchieve>=50?'mid':'low'}">${grandAchieve}%</td>
+    </tr>`);
+  }
+
+  tbody.innerHTML = rows.length ? rows.join('') : `<tr><td colspan="11" style="text-align:center;color:var(--text-mute);padding:20px;">조건에 맞는 담당자가 없습니다.</td></tr>`;
+
+  document.getElementById('sc-reps').textContent = [...new Set(blocks.map(b=>b.rep))].length;
+  document.getElementById('sc-blocks').textContent = fmt0(grandBlocks);
+  document.getElementById('sc-rate').textContent = grandBlocks ? pct(grandValid, grandBlocks) + '%' : '-';
+  document.getElementById('sc-achieve').textContent = grandMbo ? pct(grandActual, grandMbo) + '%' : '-';
+}
+
+if(hasData){
+  fTeam.addEventListener('change', () => { refreshRepOptionsForTeam(); render(); });
+  fYear.addEventListener('change', () => { refreshMonthOptions(); refreshCMonthOptions(); render(); });
+  fItem.addEventListener('change', () => { refreshCMonthOptions(); render(); });
+  [fRep, fCMonth, fMonth].forEach(s => s.addEventListener('change', render));
+  render();
+}
+</script>
+</body>
+</html>
