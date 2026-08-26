@@ -82215,7 +82215,7 @@ window.BLOCK_META = {
     "2026-07",
     "2026-08"
   ],
-  "generated_at": "2026-08-26 15:28",
+  "generated_at": "2026-08-26 16:11",
   "latest_sales_date": "2026-08-25"
 };
 window.TEAM_MEMBERS = {
