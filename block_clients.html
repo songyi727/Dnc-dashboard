@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>거래처 현황</title>
+<style>
+  :root{
+    --bg:#F7F7F5;
+    --surface:#FFFFFF;
+    --border:#E4E2DC;
+    --border-strong:#CFCCC3;
+    --text:#1F1E1B;
+    --text-sub:#6B6A63;
+    --text-mute:#9B9A92;
+    --accent:#185FA5;
+    --green:#0F6E56;
+    --green-bg:#E1F5EE;
+    --amber:#854F0B;
+    --amber-bg:#FAEEDA;
+    --red:#A32D2D;
+    --red-bg:#FCEBEB;
+  }
+  *{box-sizing:border-box;}
+  body{
+    margin:0;
+    background:var(--bg);
+    color:var(--text);
+    font-family:"Pretendard","Noto Sans KR",-apple-system,BlinkMacSystemFont,"Malgun Gothic",sans-serif;
+    -webkit-font-smoothing:antialiased;
+  }
+  .wrap{max-width:1000px;margin:0 auto;padding:28px 32px 60px;}
+
+  header.page{display:flex;align-items:flex-end;justify-content:space-between;margin-bottom:20px;flex-wrap:wrap;gap:12px;}
+  header.page h1{font-size:20px;font-weight:600;margin:0 0 6px;}
+  header.page p{font-size:13px;color:var(--text-sub);margin:0;}
+  .nav-pills{display:flex;gap:6px;}
+  .nav-pills a{font-size:13px;padding:7px 14px;border-radius:8px;border:1px solid var(--border);background:var(--surface);color:var(--text-sub);text-decoration:none;}
+  .nav-pills a.active{background:var(--text);color:#fff;border-color:var(--text);}
+
+  .search-box{position:relative;margin-bottom:24px;}
+  .search-box input{
+    width:100%;
+    font-size:15px;
+    padding:14px 16px;
+    border-radius:10px;
+    border:1px solid var(--border-strong);
+    background:var(--surface);
+    color:var(--text);
+  }
+  .search-box input:focus{outline:none;border-color:var(--accent);}
+  .suggest-list{
+    position:absolute;
+    left:0;right:0;top:calc(100% + 4px);
+    background:var(--surface);
+    border:1px solid var(--border-strong);
+    border-radius:10px;
+    max-height:320px;
+    overflow-y:auto;
+    z-index:10;
+    display:none;
+    box-shadow:0 8px 24px rgba(0,0,0,0.08);
+  }
+  .suggest-list.open{display:block;}
+  .suggest-item{padding:10px 16px;cursor:pointer;font-size:13.5px;border-bottom:1px solid var(--border);display:flex;justify-content:space-between;gap:10px;}
+  .suggest-item:last-child{border-bottom:none;}
+  .suggest-item:hover{background:#FBFBFA;}
+  .suggest-item .biz{color:var(--text-mute);font-size:12px;}
+  .suggest-item .tag{font-size:10.5px;padding:1px 7px;border-radius:8px;background:var(--green-bg);color:var(--green);white-space:nowrap;}
+  .suggest-item .tag.none{background:#F1EFE8;color:#5F5E5A;}
+  .suggest-item .tag.recalled{background:#3A3A38;color:#fff;}
+
+  .empty-hint{color:var(--text-mute);font-size:13px;text-align:center;padding:60px 0;}
+
+  .result{display:none;}
+  .result.open{display:block;}
+
+  .summary-card{background:var(--surface);border:1px solid var(--border);border-radius:10px;padding:20px 22px;margin-bottom:20px;}
+  .summary-card h2{font-size:17px;margin:0 0 4px;}
+  .summary-card .biz-sub{font-size:12.5px;color:var(--text-mute);margin:0 0 16px;}
+
+  .block-status{display:flex;flex-wrap:wrap;gap:10px;}
+  .block-chip{
+    border:1px solid var(--border);
+    border-radius:10px;
+    padding:10px 14px;
+    font-size:12.5px;
+    min-width:180px;
+  }
+  .block-chip .mgr{font-weight:600;margin-bottom:4px;}
+  .block-chip .sub{color:var(--text-sub);font-size:11.5px;margin-bottom:8px;}
+  .block-chip .groups{display:flex;flex-wrap:wrap;gap:4px;}
+  .block-chip .gtag{font-size:10.5px;padding:2px 7px;border-radius:8px;background:var(--green-bg);color:var(--green);}
+  .no-block{color:var(--text-mute);font-size:13px;padding:8px 0;}
+
+  .section-title{font-size:14px;font-weight:600;margin:24px 0 10px;}
+
+  table{width:100%;border-collapse:collapse;font-size:12.5px;background:var(--surface);border:1px solid var(--border);border-radius:10px;overflow:hidden;}
+  th{text-align:right;padding:8px 10px;color:var(--text-sub);font-weight:600;background:#FAFAF8;border-bottom:1px solid var(--border);font-size:11.5px;}
+  th:first-child{text-align:left;}
+  td{padding:7px 10px;text-align:right;border-bottom:1px solid var(--border);}
+  td:first-child{text-align:left;color:var(--text-sub);}
+  tr:last-child td{border-bottom:none;}
+  tr.total-row{background:#F5F4F0;font-weight:600;}
+</style>
+</head>
+<body>
+<script src="client_data.js"></script>
+<div class="wrap">
+
+  <header class="page">
+    <div>
+      <h1>거래처 현황</h1>
+      <p>거래처명 또는 사업자번호로 검색하세요</p>
+    </div>
+    <div class="nav-pills">
+      <a href="block_index.html">현황 요약</a>
+      <a href="block_reps.html">담당자별 현황</a>
+      <a href="block_manage.html">관리장</a>
+      <a href="#" class="active">거래처 현황</a>
+    </div>
+  </header>
+
+  <div class="search-box">
+    <input type="text" id="search-input" placeholder="거래처명 또는 사업자번호 입력..." autocomplete="off">
+    <div class="suggest-list" id="suggest-list"></div>
+  </div>
+
+  <div class="empty-hint" id="empty-hint">검색어를 입력하면 거래처 정보가 여기 나와요.</div>
+
+  <div class="result" id="result"></div>
+
+</div>
+
+<script>
+const hasData = typeof window.CLIENT_DATA !== 'undefined';
+const GROUPS = ['나보타','브이올렛','필러군','리프팅실','리알로'];
+const fmt = n => Math.round(n||0).toLocaleString('ko-KR');
+
+if(!hasData){
+  document.getElementById('empty-hint').textContent = 'client_data.js를 찾을 수 없습니다. generate_block_dashboard.py를 실행해서 생성한 뒤 다시 열어주세요.';
+} else {
+
+const clientList = Object.values(window.CLIENT_DATA);
+const input = document.getElementById('search-input');
+const suggestList = document.getElementById('suggest-list');
+const emptyHint = document.getElementById('empty-hint');
+const resultBox = document.getElementById('result');
+
+function normalize(s){ return String(s||'').toLowerCase().replace(/\s/g,''); }
+
+input.addEventListener('input', () => {
+  const q = normalize(input.value);
+  if(!q){ suggestList.classList.remove('open'); return; }
+  const matches = clientList.filter(c =>
+    normalize(c.name).includes(q) || String(c.biz).includes(q)
+  ).slice(0, 20);
+
+  if(!matches.length){
+    suggestList.innerHTML = '<div class="suggest-item" style="color:var(--text-mute)">일치하는 거래처가 없습니다</div>';
+    suggestList.classList.add('open');
+    return;
+  }
+
+  suggestList.innerHTML = matches.map(c=>{
+    const hasActive = c.block && c.block.some(b => !(b.remark||'').includes('회수'));
+    const hasAny = c.block && c.block.length > 0;
+    const tagClass = hasActive ? '' : (hasAny ? 'recalled' : 'none');
+    const tagText = hasActive ? '블록계약' : (hasAny ? '회수' : '미계약');
+    return `<div class="suggest-item" data-biz="${c.biz}">
+      <span>${c.name || '(이름없음)'} <span class="biz">${c.biz}</span></span>
+      <span class="tag ${tagClass}">${tagText}</span>
+    </div>`;
+  }).join('');
+  suggestList.classList.add('open');
+});
+
+suggestList.addEventListener('click', (e) => {
+  const item = e.target.closest('.suggest-item[data-biz]');
+  if(!item) return;
+  const biz = item.getAttribute('data-biz');
+  input.value = window.CLIENT_DATA[biz].name;
+  suggestList.classList.remove('open');
+  showClient(window.CLIENT_DATA[biz]);
+});
+
+document.addEventListener('click', (e) => {
+  if(!e.target.closest('.search-box')) suggestList.classList.remove('open');
+});
+
+function showClient(c){
+  emptyHint.style.display = 'none';
+  resultBox.classList.add('open');
+
+  const blockHtml = (c.block && c.block.length) ? c.block.map(b=>{
+    const contractedGroups = GROUPS.filter(g => (b.groups[g].contracted_years||[]).length > 0);
+    const isRecalled = (b.remark||'').includes('회수');
+    const chipStyle = isRecalled ? 'opacity:0.6;border-style:dashed;' : '';
+    return `<div class="block-chip" style="${chipStyle}">
+      <div class="mgr">${b.manager}${isRecalled ? ' <span style="font-size:10px;padding:1px 6px;border-radius:6px;background:#3A3A38;color:#fff;font-weight:500">회수</span>' : ''}</div>
+      <div class="sub">${b.team||'-'} · ${b.rep||'-'} ${b.remark ? '· '+b.remark : ''}</div>
+      <div class="groups">${contractedGroups.length ? contractedGroups.map(g=>`<span class="gtag" ${isRecalled?'style="background:#F1EFE8;color:#5F5E5A"':''}>${g} (${b.groups[g].contracted_years.join('/')})</span>`).join('') : '<span style="color:var(--text-mute);font-size:11px">계약 품목 없음</span>'}</div>
+    </div>`;
+  }).join('') : '<div class="no-block">블록 계약 이력 없음 (직납/대형처 등 일반 거래처)</div>';
+
+  const qlabels = window.CLIENT_QUARTERS || [];
+  const qdata = c.quarters || {};
+
+  const rows = GROUPS.map(g=>{
+    const cells = qlabels.map(ql => fmt((qdata[ql]||{})[g] || 0));
+    const total = qlabels.reduce((a,ql)=>a+((qdata[ql]||{})[g]||0), 0);
+    return `<tr><td>${g}</td>${cells.map(v=>`<td>${v}</td>`).join('')}<td style="font-weight:600">${fmt(total)}</td></tr>`;
+  }).join('');
+
+  const totalRow = (()=>{
+    const cells = qlabels.map(ql => {
+      const qsum = GROUPS.reduce((a,g)=>a+((qdata[ql]||{})[g]||0),0);
+      return fmt(qsum);
+    });
+    const grand = qlabels.reduce((a,ql)=>a + GROUPS.reduce((b,g)=>b+((qdata[ql]||{})[g]||0),0), 0);
+    return `<tr class="total-row"><td>합계</td>${cells.map(v=>`<td>${v}</td>`).join('')}<td>${fmt(grand)}</td></tr>`;
+  })();
+
+  resultBox.innerHTML = `
+    <div class="summary-card">
+      <h2>${c.name || '(이름없음)'}</h2>
+      <p class="biz-sub">사업자번호 ${c.biz}</p>
+      <div class="block-status">${blockHtml}</div>
+    </div>
+
+    <div class="section-title">분기별 · 품목군별 매출 (단위: 원, 전체 유통채널 합산, 최근 ${qlabels.length}분기)</div>
+    <div style="overflow-x:auto">
+      <table>
+        <thead><tr><th>품목군</th>${qlabels.map(q=>`<th>${q}</th>`).join('')}<th>합계</th></tr></thead>
+        <tbody>${rows}${totalRow}</tbody>
+      </table>
+    </div>
+  `;
+}
+}
+</script>
+</body>
+</html>
