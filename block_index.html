@@ -1,0 +1,653 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>블록 판매대행 현황 요약</title>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js"></script>
+<style>
+  :root{
+    --bg:#F7F7F5;
+    --surface:#FFFFFF;
+    --border:#E4E2DC;
+    --border-strong:#CFCCC3;
+    --text:#1F1E1B;
+    --text-sub:#6B6A63;
+    --text-mute:#9B9A92;
+    --accent:#185FA5;
+    --accent-bg:#E6F1FB;
+    --green:#0F6E56;
+    --green-bg:#E1F5EE;
+    --amber:#854F0B;
+    --amber-bg:#FAEEDA;
+    --red:#A32D2D;
+    --red-bg:#FCEBEB;
+  }
+  *{box-sizing:border-box;}
+  body{
+    margin:0;
+    background:var(--bg);
+    color:var(--text);
+    font-family:"Pretendard","Noto Sans KR",-apple-system,BlinkMacSystemFont,"Malgun Gothic",sans-serif;
+    -webkit-font-smoothing:antialiased;
+  }
+  .wrap{max-width:1440px;margin:0 auto;padding:28px 32px 60px;}
+
+  header.page{
+    display:flex;
+    align-items:flex-end;
+    justify-content:space-between;
+    margin-bottom:20px;
+    flex-wrap:wrap;
+    gap:12px;
+  }
+  header.page h1{font-size:20px;font-weight:600;margin:0 0 6px;}
+  header.page p{font-size:13px;color:var(--text-sub);margin:0;}
+  .nav-pills{display:flex;gap:6px;}
+  .nav-pills a{
+    font-size:13px;
+    padding:7px 14px;
+    border-radius:8px;
+    border:1px solid var(--border);
+    background:var(--surface);
+    color:var(--text-sub);
+    text-decoration:none;
+  }
+  .nav-pills a.active{background:var(--text);color:#fff;border-color:var(--text);}
+
+  .toolbar{display:flex;align-items:center;gap:10px;margin-bottom:20px;flex-wrap:wrap;}
+  .filter-group{display:flex;flex-direction:column;gap:4px;}
+  .filter-group label{font-size:11.5px;color:var(--text-mute);}
+  .filter-group select{
+    font-size:13px;
+    padding:8px 12px;
+    border-radius:8px;
+    border:1px solid var(--border-strong);
+    background:var(--surface);
+    color:var(--text);
+    min-width:170px;
+  }
+
+  .notice{
+    font-size:12.5px;
+    color:var(--text-sub);
+    background:var(--surface);
+    border:1px solid var(--border);
+    border-radius:10px;
+    padding:12px 16px;
+    margin-bottom:20px;
+    line-height:1.9;
+  }
+  .notice b{color:var(--text);font-weight:600;}
+  .notice .item{display:flex;gap:6px;}
+  .notice .item .dot{flex-shrink:0;}
+
+  .scorecards{
+    display:grid;
+    grid-template-columns:repeat(auto-fit, minmax(180px,1fr));
+    gap:12px;
+    margin-bottom:24px;
+  }
+  .card{
+    background:var(--surface);
+    border:1px solid var(--border);
+    border-radius:10px;
+    padding:16px 18px;
+  }
+  .card .label{font-size:12.5px;color:var(--text-sub);margin:0 0 8px;}
+  .card .value{font-size:26px;font-weight:600;margin:0;}
+  .card .value.red{color:var(--red);}
+  .card .sub{font-size:12px;color:var(--text-mute);margin-top:4px;}
+
+  .section-title{
+    font-size:14px;
+    font-weight:600;
+    margin:0 0 10px;
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+  }
+  .section-title .meta{font-size:12px;color:var(--text-mute);font-weight:400;}
+
+  .table-card{
+    background:var(--surface);
+    border:1px solid var(--border);
+    border-radius:10px;
+    overflow:hidden;
+    margin-bottom:28px;
+  }
+  .table-scroll{overflow-x:auto;}
+  table{border-collapse:collapse;width:100%;white-space:nowrap;font-size:12.5px;}
+  thead tr:first-child th{
+    background:#FAFAF8;
+    color:var(--text-sub);
+    font-weight:600;
+    font-size:11.5px;
+    padding:8px 12px;
+    text-align:center;
+    border-bottom:1px solid var(--border);
+    position:sticky;
+    top:0;
+  }
+  thead tr:last-child th{
+    background:#FAFAF8;
+    color:var(--text-sub);
+    font-weight:500;
+    font-size:12px;
+    padding:8px 10px;
+    border-bottom:1px solid var(--border-strong);
+    position:sticky;
+    top:29px;
+  }
+  th.group-l, td.group-l{border-left:1px solid var(--border);}
+  th.name-col, td.name-col{
+    text-align:left;
+    position:sticky;
+    left:0;
+    background:var(--surface);
+    z-index:1;
+    font-weight:500;
+  }
+  thead th.name-col{background:#FAFAF8;z-index:2;}
+  tbody tr{border-bottom:1px solid var(--border);}
+  tbody tr:hover{background:#FBFBFA;}
+  tbody tr:hover td.name-col{background:#FBFBFA;}
+  tbody tr.total-row{background:#F5F4F0;font-weight:600;}
+  tbody tr.total-row td.name-col{background:#F5F4F0;}
+  td{padding:8px 10px;text-align:right;}
+  td.center{text-align:center;}
+  td.strong{font-weight:600;}
+  .rate{font-weight:600;}
+  .rate.high{color:var(--green);}
+  .rate.mid{color:var(--amber);}
+  .rate.low{color:var(--red);}
+  .badge{
+    display:inline-block;
+    font-size:11px;
+    font-weight:500;
+    padding:2px 8px;
+    border-radius:10px;
+  }
+  .badge.hold{background:#F1EFE8;color:#5F5E5A;}
+  .badge.warn{background:var(--amber-bg);color:var(--amber);}
+  .badge.recall{background:var(--red-bg);color:var(--red);}
+  .badge.keep{background:var(--green-bg);color:var(--green);}
+  .badge.recalled{background:#3A3A38;color:#fff;}
+  .empty{color:var(--text-mute);}
+  footer.foot{font-size:11.5px;color:var(--text-mute);text-align:right;margin-top:-14px;}
+
+  .list-card{background:var(--surface);border:1px solid var(--border);border-radius:10px;overflow:hidden;}
+  .row-head, .row-main{
+    display:grid;
+    grid-template-columns:1.2fr 0.7fr 1.3fr 1.3fr 0.7fr 0.9fr 1.2fr;
+    gap:8px;
+  }
+  .row-head{padding:8px 14px;font-size:11px;color:var(--text-sub);font-weight:600;background:#FAFAF8;border-bottom:1px solid var(--border);}
+  .row-head span:not(:first-child){text-align:right;}
+  .row-head span:last-child{text-align:left;}
+  .block-row{border-bottom:1px solid var(--border);}
+  .block-row:last-child{border-bottom:none;}
+  .row-main{align-items:center;padding:11px 14px;font-size:13px;cursor:pointer;}
+  .row-main:hover{background:#FBFBFA;}
+  .row-main .num{text-align:right;}
+  .valid-bar{display:flex;align-items:center;gap:6px;justify-content:flex-end;}
+  .valid-bar .track{flex:1;max-width:44px;height:6px;background:var(--border);border-radius:3px;overflow:hidden;}
+  .valid-bar .fill{display:block;height:100%;}
+  .valid-bar .frac{font-size:11.5px;color:var(--text-sub);white-space:nowrap;}
+  .valid-bar .pct{font-size:12.5px;font-weight:600;white-space:nowrap;min-width:34px;text-align:right;}
+  .rate2{font-weight:600;text-align:right;}
+  .comp-cell{display:flex;gap:6px;justify-content:flex-end;font-size:11px;color:var(--text-sub);white-space:nowrap;}
+  .flags{display:flex;gap:6px;flex-wrap:wrap;}
+  .flag{font-size:10.5px;padding:1px 7px;border-radius:8px;white-space:nowrap;}
+  .flag.warn{background:var(--amber-bg);color:var(--amber);}
+  .flag.recall{background:var(--red-bg);color:var(--red);}
+  .flag.recalled{background:#3A3A38;color:#fff;}
+  .flag.ok{background:var(--green-bg);color:var(--green);}
+  .detail{display:none;padding:4px 14px 18px;background:#FAFAF8;border-top:1px solid var(--border);}
+  .detail.open{display:block;}
+  .detail table{width:100%;border-collapse:collapse;font-size:12.5px;margin-top:10px;}
+  .detail th{text-align:right;color:var(--text-sub);font-weight:500;padding:5px 8px;border-bottom:1px solid var(--border-strong);}
+  .detail th:first-child{text-align:left;}
+  .detail td{padding:5px 8px;text-align:right;border-bottom:1px solid var(--border);}
+  .detail td:first-child{text-align:left;color:var(--text-sub);}
+  .detail-meta{font-size:11.5px;color:var(--text-mute);margin-top:8px;}
+</style>
+</head>
+<body>
+<script src="block_data.js"></script>
+<script src="block_common.js"></script>
+<div class="wrap">
+
+  <header class="page">
+    <div>
+      <h1>블록 판매대행 현황 요약</h1>
+      <p id="page-subtitle">블록담당처 계약 및 매출 현황</p>
+    </div>
+    <div class="nav-pills">
+      <a href="block_index.html" class="active">현황 요약</a>
+      <a href="block_reps.html">담당자별 현황</a>
+      <a href="block_manage.html">관리장</a>
+      <a href="block_clients.html">거래처 현황</a>
+      <a href="#" id="btn-export" style="cursor:pointer">엑셀 다운로드</a>
+    </div>
+  </header>
+
+  <div class="notice">
+    <div class="item"><span class="dot">·</span><span><b>매출현황 MBO</b>: 연간MBO(total) / 누적 계약개월수 기준</span></div>
+    <div class="item"><span class="dot">·</span><span><b>실매출</b>: 계약일 기점 이후 발생분 누적</span></div>
+    <div class="item"><span class="dot">·</span><span><b>전체 달성률</b> = 매출 ÷ 전체 MBO × 100</span></div>
+    <div class="item"><span class="dot">·</span><span><b>유효율</b> = 매출 처 ÷ 계약 처 × 100</span></div>
+    <div class="item"><span class="dot">·</span><span><b>평가 기준</b> — 보류(계약 3개월 미만) / 1차경고(3개월 이상 복합시술 0이며 달성률 50% 미만) / 회수대상(6개월 이상 복합시술 0이며 달성률 50% 미만)</span></div>
+    <div class="item"><span class="dot">·</span><span><b>수수료</b> — 톡신 10% · 톡신(200U) 15% · DCA 15% · 필러군 20%(디클래시 CaHA 30%) · 리프팅실 20% · 리알로파인 30%</span></div>
+  </div>
+
+  <div class="toolbar">
+    <div class="filter-group">
+      <label>연도</label>
+      <select id="f-year"></select>
+    </div>
+    <div class="filter-group">
+      <label>계약월</label>
+      <select id="f-cmonth"></select>
+    </div>
+    <div class="filter-group">
+      <label>매출월</label>
+      <select id="f-month"></select>
+    </div>
+    <div class="filter-group">
+      <label>블록담당자</label>
+      <select id="f-manager"></select>
+    </div>
+    <div class="filter-group">
+      <label>계약품목</label>
+      <select id="f-item">
+        <option value="all">전체</option>
+        <option value="나보타">나보타</option>
+        <option value="브이올렛">브이올렛</option>
+        <option value="필러군">필러군</option>
+        <option value="리프팅실">리프팅실</option>
+        <option value="리알로파인">리알로파인</option>
+      </select>
+    </div>
+  </div>
+
+  <div class="scorecards">
+    <div class="card">
+      <p class="label">전체 블록담당처</p>
+      <p class="value" id="sc-managers">-</p>
+    </div>
+    <div class="card">
+      <p class="label">전체 블록처</p>
+      <p class="value" id="sc-blocks">-</p>
+    </div>
+    <div class="card">
+      <p class="label">전체 달성률</p>
+      <p class="value" id="sc-rate">-</p>
+    </div>
+    <div class="card">
+      <p class="label">회수대상 처수</p>
+      <p class="value red" id="sc-recall">-</p>
+      <p class="sub" id="sc-recall-pct">-</p>
+    </div>
+    <div class="card">
+      <p class="label" id="sc-month-label">선택월 유효율</p>
+      <p class="value" id="sc-monthrate">-</p>
+      <p class="sub" id="sc-monthrate-sub">-</p>
+    </div>
+  </div>
+
+  <div class="section-title">
+    블록담당자별 현황
+    <span class="meta">담당자명 클릭 시 품목별 매출 상세가 펼쳐집니다</span>
+  </div>
+
+  <div class="list-card">
+    <div class="row-head">
+      <span>블록담당자</span><span>계약 처수</span><span>유효(연간누적)</span><span>유효(당월)</span><span>달성률</span><span>복합시술(3/2/1/0)</span><span>평가</span>
+    </div>
+    <div id="listBody"></div>
+  </div>
+
+</div>
+
+<script>
+const hasData = typeof window.BLOCK_DETAIL !== 'undefined' && typeof window.BLOCK_META !== 'undefined';
+
+const yearEarliestContractDate = BlockCommon.yearEarliestContractDate;
+const scopeDetailByContractMonth = BlockCommon.scopeDetailByContractMonth;
+
+function buildRows(yearSel, cMonthSel){
+  if(!hasData) return [];
+  const scoped = scopeDetailByContractMonth(window.BLOCK_DETAIL, yearSel, cMonthSel);
+  return BlockCommon.aggregateSummary(scoped, window.BLOCK_META, window.COMPANY_INFO, yearSel);
+}
+const rowsBase = buildRows('all'); // 필터 옵션(담당자/연도 목록) 채우기용, 연도 무관 고정
+
+if(!hasData){
+  document.querySelector('.wrap').innerHTML = `
+    <div style="padding:60px 20px;text-align:center;color:var(--text-mute);font-size:14px;">
+      block_data.js를 찾을 수 없습니다.<br>
+      <span style="font-size:12.5px;">generate_block_dashboard.py를 실행해서 block_data.js를 같은 폴더에 생성한 뒤 다시 열어주세요.</span>
+    </div>`;
+}
+
+const GROUP_KEYS = ['나보타','브이올렛','필러군','리프팅실','리알로파인'];
+function emptyItems(){ return Object.fromEntries(GROUP_KEYS.map(k=>[k,0])); }
+function getItems(r, year){
+  if(year === 'all'){
+    const out = emptyItems();
+    Object.values(r.itemsByYear).forEach(yearItems=>{
+      GROUP_KEYS.forEach(k => out[k] += (yearItems[k]||0));
+    });
+    return out;
+  }
+  return r.itemsByYear[year] || emptyItems();
+}
+
+const fmt1 = n => n.toLocaleString('ko-KR',{minimumFractionDigits:1,maximumFractionDigits:1});
+const fmt0 = n => n.toLocaleString('ko-KR');
+
+function fillSelect(id, values){
+  const sel = document.getElementById(id);
+  sel.innerHTML = '<option value="all">전체</option>' + values.map(v=>`<option value="${v}">${v}</option>`).join('');
+}
+
+// rec가 monthSel(YYYY-MM)에 "계약된 품목군"에서 매출이 있었는지 확인 (미계약 품목의 우발적 매출은 제외)
+function hasContractedRevenueInMonth(rec, monthSel){
+  const y = monthSel.slice(0,4);
+  return BlockCommon.GROUPS.some(g => {
+    const snap = ((rec.groups[g]||{}).by_year || {})[y];
+    return snap && (snap.actual_by_month||{})[monthSel] > 0;
+  });
+}
+
+if(hasData){
+const allYears = [...new Set(rowsBase.flatMap(r=>r.contractYears))].sort();
+fillSelect('f-year', allYears);
+fillSelect('f-manager', [...new Set(rowsBase.map(r=>r.name))].sort((a,b)=>a.localeCompare(b,'ko')));
+
+const fYear = document.getElementById('f-year');
+const fCMonth = document.getElementById('f-cmonth');
+const fManager = document.getElementById('f-manager');
+const fMonth = document.getElementById('f-month');
+const fItem = document.getElementById('f-item');
+const listBody = document.getElementById('listBody');
+
+function contractMonthsForYear(yearSel, itemFilter){
+  if(yearSel === 'all') return [];
+  const months = new Set();
+  window.BLOCK_DETAIL.forEach(rec => {
+    if(itemFilter && itemFilter !== 'all'){
+      const gKey = itemFilter === '리알로파인' ? '리알로' : itemFilter;
+      const snap = ((rec.groups[gKey]||{}).by_year || {})[String(yearSel)];
+      if(snap && snap.contract_date) months.add(parseInt(snap.contract_date.slice(5,7), 10));
+    } else {
+      const cd = yearEarliestContractDate(rec, yearSel);
+      if(cd) months.add(Number(cd.slice(5,7)));
+    }
+  });
+  return [...months].sort((a,b)=>b-a);
+}
+
+function refreshCMonthOptions(){
+  const months = contractMonthsForYear(fYear.value, fItem.value);
+  fillSelect('f-cmonth', months.map(m=>String(m).padStart(2,'0')+'월'));
+  fCMonth.value = 'all'; // 기본은 전체(그 해 전체 누적)
+}
+
+function monthsForYear(yearSel){
+  const all = [...new Set(
+    window.BLOCK_DETAIL.flatMap(r => BlockCommon.GROUPS.flatMap(g => Object.keys((r.groups[g]||{}).actual_by_month || {})))
+  )];
+  const filtered = yearSel === 'all' ? all : all.filter(ym => ym.startsWith(String(yearSel)));
+  return filtered.sort().reverse();
+}
+
+function refreshMonthOptions(){
+  const months = monthsForYear(fYear.value);
+  fillSelect('f-month', months);
+  fMonth.value = months[0] || 'all';
+}
+
+fYear.value = allYears[allYears.length - 1];
+
+if(window.BLOCK_META && window.BLOCK_META.latest_sales_date){
+  const d = window.BLOCK_META.latest_sales_date.split('-');
+  document.getElementById('page-subtitle').textContent =
+    `블록담당처 계약 및 매출 현황 · 업데이트 일자 : ${d[0]}. ${d[1]}. ${d[2]}.`;
+}
+refreshMonthOptions();
+refreshCMonthOptions();
+
+function render(){
+  const yearSel = fYear.value;
+  const cMonthSel = fCMonth.value;
+  const scopedDetail = scopeDetailByContractMonth(window.BLOCK_DETAIL, yearSel, cMonthSel);
+
+  const rows = buildRows(yearSel, cMonthSel);
+  const filtered = rows.filter(r =>
+    (fManager.value === 'all' || r.name === fManager.value) &&
+    (yearSel === 'all' || r.contractYears.some(y => String(y) === String(yearSel))) &&
+    (fItem.value === 'all' || (r.mboByGroup && r.mboByGroup[fItem.value] > 0))
+  ).sort((a,b) => {
+    const rateA = a.blocks ? a.validBlocks / a.blocks : 0;
+    const rateB = b.blocks ? b.validBlocks / b.blocks : 0;
+    return rateB - rateA;
+  });
+
+  let totalBlocksSum=0, totalMbo=0, totalSum=0, totalRecall=0, totalValid=0;
+  const uniqueBizSet = new Set();
+  const validBizSet = new Set();
+
+  listBody.innerHTML = '';
+  filtered.forEach(r=>{
+    const items = getItems(r, yearSel);
+    const sum = Object.values(items).reduce((a,b)=>a+b,0);
+    const rate = r.mbo ? Math.round((sum/r.mbo)*1000)/10 : 0;
+    totalBlocksSum += r.blocks;
+    totalMbo += r.mbo;
+    totalSum += sum;
+    totalRecall += r.ev.회수대상;
+    totalValid += r.validBlocks;
+
+    scopedDetail.forEach(rec => {
+      if(rec.manager === r.name && (yearSel === 'all' || rec.client_contract_years.some(y => String(y) === String(yearSel)))){
+        uniqueBizSet.add(rec.biz);
+        const hasRevenue = BlockCommon.GROUPS.some(g => {
+          const byYear = (rec.groups[g]||{}).by_year || {};
+          const key = yearSel === 'all' ? Object.keys(byYear).sort().pop() : String(yearSel);
+          const snap = key ? byYear[key] : null;
+          return snap && Object.values(snap.actual_by_month||{}).some(v => v > 0);
+        });
+        if(hasRevenue) validBizSet.add(rec.biz);
+      }
+    });
+
+    const validPct = r.blocks ? Math.round((r.validBlocks/r.blocks)*100) : 0;
+    const barColor = validPct>=70 ? 'var(--green)' : (validPct>=40 ? 'var(--amber)' : 'var(--red)');
+
+    const monthSel = fMonth.value;
+    let monthValid, monthTotal, monthPct, monthColor;
+    if(monthSel === 'all'){
+      monthValid = r.validBlocks;
+      monthTotal = r.blocks;
+      monthPct = validPct;
+      monthColor = barColor;
+    } else {
+      const managerRecs = scopedDetail.filter(rec =>
+        rec.manager === r.name &&
+        (yearSel === 'all' || rec.client_contract_years.some(y => String(y) === String(yearSel)))
+      );
+      monthTotal = managerRecs.length;
+      monthValid = managerRecs.filter(rec => hasContractedRevenueInMonth(rec, monthSel)).length;
+      monthPct = monthTotal ? Math.round((monthValid/monthTotal)*100) : 0;
+      monthColor = monthPct>=70 ? 'var(--green)' : (monthPct>=40 ? 'var(--amber)' : 'var(--red)');
+    }
+
+    const flags = [];
+    if(r.ev.경고) flags.push(`<span class="flag warn">1차경고 ${r.ev.경고}</span>`);
+    if(r.ev.회수대상) flags.push(`<span class="flag recall">회수대상 ${r.ev.회수대상}</span>`);
+    if(r.ev.회수) flags.push(`<span class="flag recalled">회수 ${r.ev.회수}</span>`);
+    const flagsHtml = flags.length ? flags.join('') : `<span class="flag ok">이상없음</span>`;
+
+    const wrap = document.createElement('div');
+    wrap.className = 'block-row';
+
+    const main = document.createElement('div');
+    main.className = 'row-main';
+    main.innerHTML = `
+      <span>${r.name}<br><span style="font-size:11.5px;color:var(--text-mute)">${r.date} 계약</span></span>
+      <span class="num">${r.blocks}처</span>
+      <span class="valid-bar">
+        <span class="track"><span class="fill" style="width:${validPct}%;background:${barColor}"></span></span>
+        <span class="frac">${r.validBlocks}/${r.blocks}</span>
+        <span class="pct" style="color:${barColor}">${validPct}%</span>
+      </span>
+      <span class="valid-bar">
+        <span class="track"><span class="fill" style="width:${monthPct}%;background:${monthColor}"></span></span>
+        <span class="frac">${monthValid}/${monthTotal}</span>
+        <span class="pct" style="color:${monthColor}">${monthPct}%</span>
+      </span>
+      <span class="num">${rate}%</span>
+      <span class="comp-cell">3:${r.comp[3]||0} 2:${r.comp[2]||0} 1:${r.comp[1]||0} 0:${r.comp[0]||0}</span>
+      <span class="flags">${flagsHtml}</span>
+    `;
+
+    const detail = document.createElement('div');
+    detail.className = 'detail';
+    const groupRows = GROUP_KEYS.map(k=>{
+      const groupMbo = r.mboByGroup ? r.mboByGroup[k] : 0;
+      const groupSum = items[k];
+      const groupRate = groupMbo ? Math.round((groupSum/groupMbo)*1000)/10 : (groupSum ? null : 0);
+      const rateText = groupRate === null ? '-' : groupRate + '%';
+      const rateColor = groupRate === null ? 'var(--text-mute)' : (groupRate>=70 ? 'var(--green)' : (groupRate>=40 ? 'var(--amber)' : 'var(--red)'));
+      return `<tr><td>${k}</td><td>${fmt1(groupMbo)}</td><td>${fmt1(groupSum)}</td><td style="color:${rateColor}">${rateText}</td></tr>`;
+    }).join('');
+    const totalRate = r.mbo ? Math.round((sum/r.mbo)*1000)/10 : 0;
+    const manageUrl = `block_manage.html?manager=${encodeURIComponent(r.name)}&year=${encodeURIComponent(yearSel)}`;
+    detail.innerHTML = `
+      <table>
+        <tr><th>품목군</th><th>MBO(백만원)</th><th>매출(백만원)</th><th>달성률</th></tr>
+        ${groupRows}
+        <tr><td style="font-weight:600">합계</td><td style="font-weight:600">${fmt1(r.mbo)}</td><td style="font-weight:600">${fmt1(sum)}</td><td style="font-weight:600">${totalRate}%</td></tr>
+      </table>
+      <div style="display:flex;align-items:center;justify-content:space-between;margin-top:8px">
+        <p class="detail-meta" style="margin:0">보류 ${r.ev.보류||0} · 유지 ${r.ev.유지||0}</p>
+        <a href="${manageUrl}" style="font-size:12px;padding:5px 12px;border-radius:8px;border:1px solid var(--border-strong);background:var(--surface);color:var(--text);text-decoration:none">이 담당자 관리장에서 보기 →</a>
+      </div>
+    `;
+
+    main.addEventListener('click', ()=>{
+      detail.classList.toggle('open');
+    });
+
+    wrap.appendChild(main);
+    wrap.appendChild(detail);
+    listBody.appendChild(wrap);
+  });
+
+  if(filtered.length === 0){
+    listBody.innerHTML = `<div style="padding:24px 16px;text-align:center;color:var(--text-mute);font-size:13px;">조건에 맞는 담당자가 없습니다.</div>`;
+  }
+
+  document.getElementById('sc-managers').textContent = filtered.length;
+  document.getElementById('sc-blocks').textContent = fmt0(uniqueBizSet.size);
+  document.getElementById('sc-rate').textContent = totalMbo ? (Math.round((totalSum/totalMbo)*1000)/10) + '%' : '-';
+  document.getElementById('sc-recall').textContent = fmt0(totalRecall);
+  document.getElementById('sc-recall-pct').textContent = totalBlocksSum ? ('전체 블록처 대비 ' + Math.round((totalRecall/totalBlocksSum)*100) + '%') : '-';
+
+  const monthSel = fMonth.value;
+  document.getElementById('sc-month-label').textContent = monthSel === 'all' ? '유효율 (연간누적)' : (monthSel + ' 유효율');
+  if(monthSel === 'all'){
+    const overallPct = uniqueBizSet.size ? Math.round((validBizSet.size/uniqueBizSet.size)*100) : 0;
+    document.getElementById('sc-monthrate').textContent = uniqueBizSet.size ? overallPct + '%' : '-';
+    document.getElementById('sc-monthrate-sub').textContent = uniqueBizSet.size ? (validBizSet.size + '/' + uniqueBizSet.size + '처') : '-';
+  } else {
+    const detailFiltered = scopedDetail.filter(r =>
+      (fManager.value === 'all' || r.manager === fManager.value) &&
+      (yearSel === 'all' || r.client_contract_years.some(y => String(y) === String(yearSel)))
+    );
+    const bizValidMap = new Map(); // 사업자번호 -> 그 달 매출 있었는지(관계 중 하나라도 있으면 true)
+    detailFiltered.forEach(r => {
+      const has = hasContractedRevenueInMonth(r, monthSel);
+      bizValidMap.set(r.biz, (bizValidMap.get(r.biz) || false) || has);
+    });
+    const monthTotal = bizValidMap.size;
+    const monthValid = [...bizValidMap.values()].filter(Boolean).length;
+    document.getElementById('sc-monthrate').textContent = monthTotal ? Math.round((monthValid/monthTotal)*100) + '%' : '-';
+    document.getElementById('sc-monthrate-sub').textContent = monthTotal ? (monthValid + '/' + monthTotal + '처') : '-';
+  }
+}
+
+fYear.addEventListener('change', () => { refreshMonthOptions(); refreshCMonthOptions(); render(); });
+fItem.addEventListener('change', () => { refreshCMonthOptions(); render(); });
+[fCMonth, fManager, fMonth].forEach(s => s.addEventListener('change', render));
+render();
+
+document.getElementById('btn-export').addEventListener('click', function(e){
+  e.preventDefault();
+  const pw = prompt('다운로드 비밀번호를 입력하세요');
+  if(pw === null) return;
+  if(pw !== 'dncsales'){ alert('비밀번호가 올바르지 않습니다.'); return; }
+
+  const yearSel = fYear.value;
+  const cMonthSel = fCMonth.value;
+  const scopedDetail = scopeDetailByContractMonth(window.BLOCK_DETAIL, yearSel, cMonthSel);
+  const filtered = buildRows(yearSel, cMonthSel).filter(r =>
+    (fManager.value === 'all' || r.name === fManager.value) &&
+    (yearSel === 'all' || r.contractYears.some(y => String(y) === String(yearSel))) &&
+    (fItem.value === 'all' || (r.mboByGroup && r.mboByGroup[fItem.value] > 0))
+  );
+
+  const data = filtered.map(r=>{
+    const items = getItems(r, yearSel);
+    const sum = Object.values(items).reduce((a,b)=>a+b,0);
+    const rate = r.mbo ? Math.round((sum/r.mbo)*1000)/10 : 0;
+    const monthSel = fMonth.value;
+    let monthValid = '', monthTotal = '', monthPctVal = '';
+    if(monthSel !== 'all'){
+      const managerRecs = scopedDetail.filter(rec =>
+        rec.manager === r.name &&
+        (yearSel === 'all' || rec.client_contract_years.some(y => String(y) === String(yearSel)))
+      );
+      monthTotal = managerRecs.length;
+      monthValid = managerRecs.filter(rec => hasContractedRevenueInMonth(rec, monthSel)).length;
+      monthPctVal = monthTotal ? Math.round((monthValid/monthTotal)*100) : 0;
+    }
+    return {
+      '블록담당자': r.name,
+      '계약일': r.date,
+      'Total 블록': r.blocks,
+      '유효 처수(연간누적)': r.validBlocks,
+      '유효율(연간누적)(%)': r.blocks ? Math.round((r.validBlocks/r.blocks)*100) : 0,
+      '유효 처수(당월)': monthValid,
+      '유효율(당월)(%)': monthPctVal,
+      'Total MBO(백만원)': r.mbo,
+      '나보타': items.나보타,
+      '브이올렛': items.브이올렛,
+      '필러군': items.필러군,
+      '리프팅실': items.리프팅실,
+      '리알로파인': items.리알로파인,
+      '매출합계(백만원)': sum,
+      '달성률(%)': rate,
+      '복합시술3': r.comp[3]||0,
+      '복합시술2': r.comp[2]||0,
+      '복합시술1': r.comp[1]||0,
+      '복합시술0': r.comp[0]||0,
+      '보류': r.ev.보류||0,
+      '1차경고': r.ev.경고||0,
+      '회수대상': r.ev.회수대상||0,
+      '유지': r.ev.유지||0,
+    };
+  });
+
+  const ws = XLSX.utils.json_to_sheet(data);
+  const wb = XLSX.utils.book_new();
+  XLSX.utils.book_append_sheet(wb, ws, '현황요약');
+  const label = yearSel === 'all' ? '전체' : (yearSel + '년');
+  XLSX.writeFile(wb, `블록판매대행_현황요약_${label}.xlsx`);
+});
+}
+</script>
+</body>
+</html>
