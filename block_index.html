@@ -235,7 +235,7 @@
   <div class="notice">
     <div class="item"><span class="dot">·</span><span><b>매출현황 MBO</b>: 연간MBO(total) / 누적 계약개월수 기준</span></div>
     <div class="item"><span class="dot">·</span><span><b>실매출</b>: 계약일 기점 이후 발생분 누적</span></div>
-    <div class="item"><span class="dot">·</span><span><b>전체 달성률</b> = 매출 ÷ 전체 MBO × 100</span></div>
+    <div class="item"><span class="dot">·</span><span><b>전체 달성률</b> = 매출 ÷ 경과 분기까지의 MBO × 100 (진행 중인 연도는 당월 포함의 분기MBO까지 반영, 지난 연도는 4분기 전체 MBO 기준)</span></div>
     <div class="item"><span class="dot">·</span><span><b>유효율</b> = 매출 처 ÷ 계약 처 × 100</span></div>
     <div class="item"><span class="dot">·</span><span><b>평가 기준</b> — 보류(계약 3개월 미만) / 1차경고(3개월 이상 복합시술 0이며 달성률 50% 미만) / 회수대상(6개월 이상 복합시술 0이며 달성률 50% 미만)</span></div>
     <div class="item"><span class="dot">·</span><span><b>수수료</b> — 톡신 10% · 톡신(200U) 15% · DCA 15% · 필러군 20%(디클래시 CaHA 30%) · 리프팅실 20% · 리알로파인 30%</span></div>
@@ -316,10 +316,20 @@ const hasData = typeof window.BLOCK_DETAIL !== 'undefined' && typeof window.BLOC
 const yearEarliestContractDate = BlockCommon.yearEarliestContractDate;
 const scopeDetailByContractMonth = BlockCommon.scopeDetailByContractMonth;
 
+// 진행 중인 연도(오늘 기준)를 선택했을 때는 아직 지나지 않은 분기의 MBO를 목표에서 제외
+// (예: 8월이면 1~3분기 MBO까지만 반영, 10월이 되면 1~4분기 전체 반영). 지난 연도는 항상 4분기 전체.
+function elapsedQuartersFor(yearSel){
+  if(!hasData || !window.BLOCK_META || yearSel === 'all') return null;
+  const curYear = window.BLOCK_META.current_year;
+  if(Number(yearSel) !== curYear) return null; // 과거/미래 연도는 연간 MBO 그대로
+  const curMonth = Number(window.BLOCK_META.current_month.split('-')[1]);
+  const curQ = Math.ceil(curMonth / 3);
+  return Array.from({length: curQ}, (_, i) => (i + 1) + 'Q');
+}
 function buildRows(yearSel, cMonthSel){
   if(!hasData) return [];
   const scoped = scopeDetailByContractMonth(window.BLOCK_DETAIL, yearSel, cMonthSel);
-  return BlockCommon.aggregateSummary(scoped, window.BLOCK_META, window.COMPANY_INFO, yearSel);
+  return BlockCommon.aggregateSummary(scoped, window.BLOCK_META, window.COMPANY_INFO, yearSel, elapsedQuartersFor(yearSel));
 }
 const rowsBase = buildRows('all'); // 필터 옵션(담당자/연도 목록) 채우기용, 연도 무관 고정
 
@@ -452,6 +462,13 @@ function render(){
 
     scopedDetail.forEach(rec => {
       if(rec.manager === r.name && (yearSel === 'all' || rec.client_contract_years.some(y => String(y) === String(yearSel)))){
+        const itemMatch = fItem.value === 'all' || (() => {
+          const gKey = fItem.value === '리알로파인' ? '리알로' : fItem.value;
+          const byYear = (rec.groups[gKey]||{}).by_year || {};
+          if(yearSel === 'all') return Object.keys(byYear).length > 0;
+          return !!byYear[String(yearSel)];
+        })();
+        if(!itemMatch) return;
         uniqueBizSet.add(rec.biz);
         const hasRevenue = BlockCommon.GROUPS.some(g => {
           const byYear = (rec.groups[g]||{}).by_year || {};
@@ -563,10 +580,17 @@ function render(){
     document.getElementById('sc-monthrate').textContent = uniqueBizSet.size ? overallPct + '%' : '-';
     document.getElementById('sc-monthrate-sub').textContent = uniqueBizSet.size ? (validBizSet.size + '/' + uniqueBizSet.size + '처') : '-';
   } else {
-    const detailFiltered = scopedDetail.filter(r =>
-      (fManager.value === 'all' || r.manager === fManager.value) &&
-      (yearSel === 'all' || r.client_contract_years.some(y => String(y) === String(yearSel)))
-    );
+    const detailFiltered = scopedDetail.filter(r => {
+      const itemMatch = fItem.value === 'all' || (() => {
+        const gKey = fItem.value === '리알로파인' ? '리알로' : fItem.value;
+        const byYear = (r.groups[gKey]||{}).by_year || {};
+        if(yearSel === 'all') return Object.keys(byYear).length > 0;
+        return !!byYear[String(yearSel)];
+      })();
+      return (fManager.value === 'all' || r.manager === fManager.value) &&
+        (yearSel === 'all' || r.client_contract_years.some(y => String(y) === String(yearSel))) &&
+        itemMatch;
+    });
     const bizValidMap = new Map(); // 사업자번호 -> 그 달 매출 있었는지(관계 중 하나라도 있으면 true)
     detailFiltered.forEach(r => {
       const has = hasContractedRevenueInMonth(r, monthSel);
