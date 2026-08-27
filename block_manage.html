@@ -361,7 +361,10 @@ function buildBlocks(yearSel, monthSel, cMonthSel){
   const scoped = hasData ? BlockCommon.scopeDetailByContractMonth(window.BLOCK_DETAIL, yearSel, cMonthSel) : [];
   const blocks = hasData ? BlockCommon.transformAll(scoped, window.BLOCK_META, yearSel, refMonth) : [];
   blocks.forEach(b => {
-    if(!monthSel || monthSel === 'all') b.month = b.ytd; // 매출월 전체 선택 시 당월매출 = 연간누적매출
+    if(!monthSel || monthSel === 'all'){
+      b.month = b.ytd; // 매출월 전체 선택 시 당월매출 = 연간누적매출
+      if(b.groupMonth) BlockCommon.GROUPS.forEach(g => { b.groupMonth[g] = b.totals[g] ? b.totals[g].actual : 0; });
+    }
     const p = pct(b.ytd, b.mbo);
     const status = evalStatus(b.months, b.totals, p, b.recalled);
     b.evalKey = status.key;
@@ -745,6 +748,7 @@ document.getElementById('btn-export').addEventListener('click', function(e){
       });
       row['합계_MBO'] = t.mbo;
       row['합계_매출액'] = t.actual;
+      row['당월매출'] = b.groupMonth ? (b.groupMonth[g] || 0) : 0;
       row['달성률(%)'] = t.mbo ? Math.round((t.actual/t.mbo)*1000)/10 : 0;
       row['평가'] = b.evalLabel;
       row['비고'] = b.remark;
