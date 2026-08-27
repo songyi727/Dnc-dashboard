@@ -18572,7 +18572,9 @@ window.BLOCK_DETAIL = [
       },
       "리알로": {
         "by_year": {},
-        "actual_by_month": {}
+        "actual_by_month": {
+          "2026-08": 0.0
+        }
       }
     }
   },
@@ -25619,7 +25621,8 @@ window.BLOCK_DETAIL = [
             "actual_by_month": {
               "2026-04": 409091.0,
               "2026-06": 409091.0,
-              "2026-07": 818182.0
+              "2026-07": 818182.0,
+              "2026-08": 409091.0
             },
             "remark": ""
           }
@@ -25633,7 +25636,8 @@ window.BLOCK_DETAIL = [
           "2025-12": 500000.0,
           "2026-04": 409091.0,
           "2026-06": 409091.0,
-          "2026-07": 818182.0
+          "2026-07": 818182.0,
+          "2026-08": 409091.0
         }
       },
       "필러군": {
@@ -79569,11 +79573,15 @@ window.BLOCK_DETAIL = [
               2000000,
               2000000
             ],
-            "actual_by_month": {},
+            "actual_by_month": {
+              "2026-08": 0.0
+            },
             "remark": ""
           }
         },
-        "actual_by_month": {}
+        "actual_by_month": {
+          "2026-08": 0.0
+        }
       },
       "필러군": {
         "by_year": {
@@ -79712,11 +79720,15 @@ window.BLOCK_DETAIL = [
               8000000,
               9000000
             ],
-            "actual_by_month": {},
+            "actual_by_month": {
+              "2026-08": 9000000.0
+            },
             "remark": ""
           }
         },
-        "actual_by_month": {}
+        "actual_by_month": {
+          "2026-08": 9000000.0
+        }
       }
     }
   },
@@ -80849,11 +80861,15 @@ window.BLOCK_DETAIL = [
               4000000,
               4000000
             ],
-            "actual_by_month": {},
+            "actual_by_month": {
+              "2026-08": 0.0
+            },
             "remark": ""
           }
         },
-        "actual_by_month": {}
+        "actual_by_month": {
+          "2026-08": 0.0
+        }
       }
     }
   },
@@ -82225,8 +82241,8 @@ window.BLOCK_META = {
     "2026-07",
     "2026-08"
   ],
-  "generated_at": "2026-08-27 08:52",
-  "latest_sales_date": "2026-08-26"
+  "generated_at": "2026-08-28 08:39",
+  "latest_sales_date": "2026-08-27"
 };
 window.TEAM_MEMBERS = {
   "RPM1팀": [
