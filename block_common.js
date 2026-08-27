@@ -12,6 +12,27 @@ const BlockCommon = (function () {
     return "Q" + Math.ceil(m / 3);
   }
 
+  const QUARTER_INDEX = { "1Q": 0, "2Q": 1, "3Q": 2, "4Q": 3 };
+
+  // quarters(예: ["1Q","3Q"])에 해당하는 월들만 골라서 actual_by_month 합산. quarters가 비어있으면(전체) 전부 합산.
+  function sumActualForQuarters(actualByMonth, quarters) {
+    let sum = 0;
+    Object.keys(actualByMonth || {}).forEach(ym => {
+      if (!quarters || !quarters.length) { sum += actualByMonth[ym]; return; }
+      const m = Number(ym.split("-")[1]);
+      const qLabel = Math.ceil(m / 3) + "Q";
+      if (quarters.includes(qLabel)) sum += actualByMonth[ym];
+    });
+    return sum;
+  }
+
+  // mbo_q([1Q,2Q,3Q,4Q] 배열)에서 quarters에 해당하는 것만 합산. quarters가 비어있으면 전체 합산.
+  function sumMboForQuarters(mboQ, quarters) {
+    if (!mboQ) return 0;
+    if (!quarters || !quarters.length) return mboQ.reduce((a, b) => a + b, 0);
+    return quarters.reduce((a, ql) => a + (mboQ[QUARTER_INDEX[ql]] || 0), 0);
+  }
+
   function niceCeil(v) {
     if (v <= 0) return 100;
     const exp = Math.floor(Math.log10(v));
@@ -131,8 +152,9 @@ const BlockCommon = (function () {
   // 담당자(블록담당자) 단위 요약 - index.html 현황 요약용
   // companyInfo가 있으면 "업체정보"에 등록된 전 담당자를 기준으로 순회한다(가결 건이 0개여도 표시).
   // year: 'all'(최신 연도 스냅샷) 또는 특정 연도 - 그 연도에 실제 계약된 품목군 기준으로 MBO/평가 계산.
-  function aggregateSummary(detail, meta, companyInfo, year) {
+  function aggregateSummary(detail, meta, companyInfo, year, quarters) {
     const yearSel = year == null ? "all" : year;
+    const qtrs = quarters && quarters.length ? quarters : null;
     const byManagerBiz = {};
     detail.forEach(r => {
       const key = r.manager_biz != null ? r.manager_biz : r.manager;
@@ -179,10 +201,10 @@ const BlockCommon = (function () {
         GROUPS.forEach(g => {
           const grp = rec.groups[g] || { by_year: {}, actual_by_month: {} };
           const snap = pickYearSnapshot(grp, yearSel);
-          const mboSum = snap ? (snap.mbo_q || []).reduce((a, b) => a + b, 0) : 0;
+          const mboSum = snap ? sumMboForQuarters(snap.mbo_q, qtrs) : 0;
           recMboTotal += mboSum;
           const actualForYear = snap
-            ? Object.values(snap.actual_by_month || {}).reduce((a, b) => a + b, 0)
+            ? sumActualForQuarters(snap.actual_by_month, qtrs)
             : 0;
           groupTotalsThisYear[g] = { mbo: mboSum, actual: actualForYear };
           const gKey = g === "리알로" ? "리알로파인" : g;
@@ -191,7 +213,7 @@ const BlockCommon = (function () {
 
           Object.entries(grp.by_year || {}).forEach(([y, ySnap]) => {
             if (!itemsByYear[y]) itemsByYear[y] = { 나보타: 0, 브이올렛: 0, 필러군: 0, 리프팅실: 0, 리알로파인: 0 };
-            const yearSum = Object.values(ySnap.actual_by_month || {}).reduce((a, b) => a + b, 0);
+            const yearSum = sumActualForQuarters(ySnap.actual_by_month, qtrs);
             itemsByYear[y][gKey] += yearSum;
           });
         });
@@ -259,5 +281,6 @@ const BlockCommon = (function () {
     GROUPS, fmt, fmt1, pct, quarterOfMonth, niceCeil, evalStatus,
     transformBlock, transformAll, aggregateSummary,
     yearEarliestContractDate, scopeDetailByContractMonth,
+    sumActualForQuarters, sumMboForQuarters,
   };
 })();
