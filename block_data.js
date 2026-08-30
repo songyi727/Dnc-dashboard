@@ -82243,7 +82243,7 @@ window.BLOCK_META = {
     "2026-07",
     "2026-08"
   ],
-  "generated_at": "2026-08-28 17:18",
+  "generated_at": "2026-08-31 08:40",
   "latest_sales_date": "2026-08-28"
 };
 window.TEAM_MEMBERS = {
