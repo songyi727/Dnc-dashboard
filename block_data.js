@@ -82289,7 +82289,7 @@ window.BLOCK_META = {
     "2026-07",
     "2026-08"
   ],
-  "generated_at": "2026-08-31 16:11",
+  "generated_at": "2026-08-31 17:07",
   "latest_sales_date": "2026-08-31"
 };
 window.TEAM_MEMBERS = {
