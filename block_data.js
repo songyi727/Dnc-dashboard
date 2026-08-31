@@ -18553,7 +18553,9 @@ window.BLOCK_DETAIL = [
             "remark": "회수"
           }
         },
-        "actual_by_month": {}
+        "actual_by_month": {
+          "2026-08": 0.0
+        }
       },
       "리프팅실": {
         "by_year": {
@@ -23668,7 +23670,9 @@ window.BLOCK_DETAIL = [
       },
       "리알로": {
         "by_year": {},
-        "actual_by_month": {}
+        "actual_by_month": {
+          "2026-08": 3000000.0
+        }
       }
     }
   },
@@ -35483,7 +35487,9 @@ window.BLOCK_DETAIL = [
             "remark": "회수"
           }
         },
-        "actual_by_month": {}
+        "actual_by_month": {
+          "2026-08": 3000000.0
+        }
       },
       "필러군": {
         "by_year": {
@@ -65809,11 +65815,15 @@ window.BLOCK_DETAIL = [
               6000000,
               6000000
             ],
-            "actual_by_month": {},
+            "actual_by_month": {
+              "2026-08": 3000000.0
+            },
             "remark": ""
           }
         },
-        "actual_by_month": {}
+        "actual_by_month": {
+          "2026-08": 3000000.0
+        }
       }
     }
   },
@@ -70573,11 +70583,15 @@ window.BLOCK_DETAIL = [
               5000000,
               5000000
             ],
-            "actual_by_month": {},
+            "actual_by_month": {
+              "2026-08": 2400000.0
+            },
             "remark": ""
           }
         },
-        "actual_by_month": {}
+        "actual_by_month": {
+          "2026-08": 2400000.0
+        }
       },
       "리프팅실": {
         "by_year": {
@@ -79482,11 +79496,15 @@ window.BLOCK_DETAIL = [
               15000000,
               15000000
             ],
-            "actual_by_month": {},
+            "actual_by_month": {
+              "2026-08": 3000000.0
+            },
             "remark": ""
           }
         },
-        "actual_by_month": {}
+        "actual_by_month": {
+          "2026-08": 3000000.0
+        }
       },
       "필러군": {
         "by_year": {
@@ -80561,11 +80579,15 @@ window.BLOCK_DETAIL = [
               1000000,
               1000000
             ],
-            "actual_by_month": {},
+            "actual_by_month": {
+              "2026-08": 818182.0
+            },
             "remark": ""
           }
         },
-        "actual_by_month": {}
+        "actual_by_month": {
+          "2026-08": 818182.0
+        }
       },
       "필러군": {
         "by_year": {
@@ -80578,11 +80600,15 @@ window.BLOCK_DETAIL = [
               1000000,
               1000000
             ],
-            "actual_by_month": {},
+            "actual_by_month": {
+              "2026-08": 5500000.0
+            },
             "remark": ""
           }
         },
-        "actual_by_month": {}
+        "actual_by_month": {
+          "2026-08": 5500000.0
+        }
       },
       "리프팅실": {
         "by_year": {
@@ -80829,11 +80855,15 @@ window.BLOCK_DETAIL = [
               3000000,
               3000000
             ],
-            "actual_by_month": {},
+            "actual_by_month": {
+              "2026-08": 0.0
+            },
             "remark": ""
           }
         },
-        "actual_by_month": {}
+        "actual_by_month": {
+          "2026-08": 0.0
+        }
       },
       "리프팅실": {
         "by_year": {
@@ -80938,11 +80968,15 @@ window.BLOCK_DETAIL = [
               3000000,
               3000000
             ],
-            "actual_by_month": {},
+            "actual_by_month": {
+              "2026-08": 0.0
+            },
             "remark": ""
           }
         },
-        "actual_by_month": {}
+        "actual_by_month": {
+          "2026-08": 0.0
+        }
       },
       "리프팅실": {
         "by_year": {
@@ -81026,11 +81060,15 @@ window.BLOCK_DETAIL = [
               3000000,
               0
             ],
-            "actual_by_month": {},
+            "actual_by_month": {
+              "2026-08": 3000000.0
+            },
             "remark": ""
           }
         },
-        "actual_by_month": {}
+        "actual_by_month": {
+          "2026-08": 3000000.0
+        }
       },
       "필러군": {
         "by_year": {
@@ -81698,11 +81736,15 @@ window.BLOCK_DETAIL = [
               0,
               2250000.0
             ],
-            "actual_by_month": {},
+            "actual_by_month": {
+              "2026-08": 245454.0
+            },
             "remark": ""
           }
         },
-        "actual_by_month": {}
+        "actual_by_month": {
+          "2026-08": 245454.0
+        }
       },
       "브이올렛": {
         "by_year": {
@@ -81823,11 +81865,15 @@ window.BLOCK_DETAIL = [
               2273000.0,
               0
             ],
-            "actual_by_month": {},
+            "actual_by_month": {
+              "2026-08": 3000000.0
+            },
             "remark": ""
           }
         },
-        "actual_by_month": {}
+        "actual_by_month": {
+          "2026-08": 3000000.0
+        }
       },
       "필러군": {
         "by_year": {
@@ -82243,8 +82289,8 @@ window.BLOCK_META = {
     "2026-07",
     "2026-08"
   ],
-  "generated_at": "2026-08-31 08:40",
-  "latest_sales_date": "2026-08-28"
+  "generated_at": "2026-08-31 16:11",
+  "latest_sales_date": "2026-08-31"
 };
 window.TEAM_MEMBERS = {
   "RPM1팀": [
