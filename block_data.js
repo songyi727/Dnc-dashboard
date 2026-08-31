@@ -16,7 +16,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "months_since_contract": 19,
+    "months_since_contract": 20,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -213,7 +213,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 19,
+    "months_since_contract": 20,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -328,7 +328,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "months_since_contract": 19,
+    "months_since_contract": 20,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -494,7 +494,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "months_since_contract": 19,
+    "months_since_contract": 20,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -672,7 +672,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "months_since_contract": 19,
+    "months_since_contract": 20,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -858,7 +858,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "months_since_contract": 19,
+    "months_since_contract": 20,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -1014,7 +1014,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "months_since_contract": 19,
+    "months_since_contract": 20,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -1195,7 +1195,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 19,
+    "months_since_contract": 20,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -1303,7 +1303,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 19,
+    "months_since_contract": 20,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -1407,7 +1407,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 19,
+    "months_since_contract": 20,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -1508,7 +1508,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "months_since_contract": 19,
+    "months_since_contract": 20,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -1695,7 +1695,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "months_since_contract": 19,
+    "months_since_contract": 20,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -1852,7 +1852,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "months_since_contract": 19,
+    "months_since_contract": 20,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -2012,7 +2012,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "months_since_contract": 19,
+    "months_since_contract": 20,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -2130,7 +2130,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "months_since_contract": 19,
+    "months_since_contract": 20,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -2341,7 +2341,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "months_since_contract": 19,
+    "months_since_contract": 20,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -2455,7 +2455,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "months_since_contract": 19,
+    "months_since_contract": 20,
     "remark": "사업자변경",
     "recalled": false,
     "groups": {
@@ -2630,7 +2630,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 19,
+    "months_since_contract": 20,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -2751,7 +2751,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "months_since_contract": 19,
+    "months_since_contract": 20,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -2911,7 +2911,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "months_since_contract": 19,
+    "months_since_contract": 20,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -3102,7 +3102,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 19,
+    "months_since_contract": 20,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -3198,7 +3198,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "months_since_contract": 19,
+    "months_since_contract": 20,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -3359,7 +3359,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "months_since_contract": 19,
+    "months_since_contract": 20,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -3526,7 +3526,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 19,
+    "months_since_contract": 20,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -3635,7 +3635,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 19,
+    "months_since_contract": 20,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -3744,7 +3744,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 19,
+    "months_since_contract": 20,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -3850,7 +3850,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 19,
+    "months_since_contract": 20,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -3957,7 +3957,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 19,
+    "months_since_contract": 20,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -4058,7 +4058,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "months_since_contract": 19,
+    "months_since_contract": 20,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -4214,7 +4214,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 19,
+    "months_since_contract": 20,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -4311,7 +4311,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "months_since_contract": 19,
+    "months_since_contract": 20,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -4431,7 +4431,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 19,
+    "months_since_contract": 20,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -4525,7 +4525,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "months_since_contract": 19,
+    "months_since_contract": 20,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -4715,7 +4715,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "months_since_contract": 19,
+    "months_since_contract": 20,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -4882,7 +4882,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "months_since_contract": 19,
+    "months_since_contract": 20,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -5039,7 +5039,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 19,
+    "months_since_contract": 20,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -5142,7 +5142,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "months_since_contract": 19,
+    "months_since_contract": 20,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -5292,7 +5292,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 19,
+    "months_since_contract": 20,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -5386,7 +5386,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "months_since_contract": 19,
+    "months_since_contract": 20,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -5568,7 +5568,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "months_since_contract": 19,
+    "months_since_contract": 20,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -5740,7 +5740,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "months_since_contract": 19,
+    "months_since_contract": 20,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -5924,7 +5924,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "months_since_contract": 19,
+    "months_since_contract": 20,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -6129,7 +6129,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 19,
+    "months_since_contract": 20,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -6223,7 +6223,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "months_since_contract": 19,
+    "months_since_contract": 20,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -6386,7 +6386,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "months_since_contract": 19,
+    "months_since_contract": 20,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -6582,7 +6582,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 19,
+    "months_since_contract": 20,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -6675,7 +6675,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 19,
+    "months_since_contract": 20,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -6774,7 +6774,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 19,
+    "months_since_contract": 20,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -6868,7 +6868,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "months_since_contract": 19,
+    "months_since_contract": 20,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -7027,7 +7027,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "months_since_contract": 19,
+    "months_since_contract": 20,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -7201,7 +7201,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 19,
+    "months_since_contract": 20,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -7306,7 +7306,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 19,
+    "months_since_contract": 20,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -7402,7 +7402,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 19,
+    "months_since_contract": 20,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -7495,7 +7495,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 19,
+    "months_since_contract": 20,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -7591,7 +7591,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "months_since_contract": 19,
+    "months_since_contract": 20,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -7786,7 +7786,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "months_since_contract": 19,
+    "months_since_contract": 20,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -7965,7 +7965,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 19,
+    "months_since_contract": 20,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -8059,7 +8059,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "months_since_contract": 19,
+    "months_since_contract": 20,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -8240,7 +8240,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "months_since_contract": 19,
+    "months_since_contract": 20,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -8397,7 +8397,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "months_since_contract": 19,
+    "months_since_contract": 20,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -8561,7 +8561,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 19,
+    "months_since_contract": 20,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -8657,7 +8657,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 19,
+    "months_since_contract": 20,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -8750,7 +8750,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 19,
+    "months_since_contract": 20,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -8845,7 +8845,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 19,
+    "months_since_contract": 20,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -8938,7 +8938,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 19,
+    "months_since_contract": 20,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -9031,7 +9031,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 19,
+    "months_since_contract": 20,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -9124,7 +9124,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 19,
+    "months_since_contract": 20,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -9217,7 +9217,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 19,
+    "months_since_contract": 20,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -9311,7 +9311,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "months_since_contract": 19,
+    "months_since_contract": 20,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -9471,7 +9471,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "months_since_contract": 19,
+    "months_since_contract": 20,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -9624,7 +9624,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "months_since_contract": 19,
+    "months_since_contract": 20,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -9827,7 +9827,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "months_since_contract": 19,
+    "months_since_contract": 20,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -10027,7 +10027,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "months_since_contract": 19,
+    "months_since_contract": 20,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -10192,7 +10192,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "months_since_contract": 19,
+    "months_since_contract": 20,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -10381,7 +10381,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "months_since_contract": 19,
+    "months_since_contract": 20,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -10565,7 +10565,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "months_since_contract": 19,
+    "months_since_contract": 20,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -10717,7 +10717,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "months_since_contract": 19,
+    "months_since_contract": 20,
     "remark": "사업자변경",
     "recalled": false,
     "groups": {
@@ -10876,7 +10876,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "months_since_contract": 19,
+    "months_since_contract": 20,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -11039,7 +11039,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 19,
+    "months_since_contract": 20,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -11146,7 +11146,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 19,
+    "months_since_contract": 20,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -11239,7 +11239,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 19,
+    "months_since_contract": 20,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -11341,7 +11341,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 19,
+    "months_since_contract": 20,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -11433,7 +11433,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 19,
+    "months_since_contract": 20,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -11525,7 +11525,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 19,
+    "months_since_contract": 20,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -11617,7 +11617,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 19,
+    "months_since_contract": 20,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -11709,7 +11709,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 19,
+    "months_since_contract": 20,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -11807,7 +11807,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 19,
+    "months_since_contract": 20,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -11899,7 +11899,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 19,
+    "months_since_contract": 20,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -11991,7 +11991,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 19,
+    "months_since_contract": 20,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -12091,7 +12091,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 19,
+    "months_since_contract": 20,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -12183,7 +12183,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 19,
+    "months_since_contract": 20,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -12275,7 +12275,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 19,
+    "months_since_contract": 20,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -12367,7 +12367,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 19,
+    "months_since_contract": 20,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -12459,7 +12459,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 19,
+    "months_since_contract": 20,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -12551,7 +12551,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 19,
+    "months_since_contract": 20,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -12647,7 +12647,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 19,
+    "months_since_contract": 20,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -12739,7 +12739,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 19,
+    "months_since_contract": 20,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -12839,7 +12839,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 19,
+    "months_since_contract": 20,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -12931,7 +12931,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 19,
+    "months_since_contract": 20,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -13049,7 +13049,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 19,
+    "months_since_contract": 20,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -13149,7 +13149,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 19,
+    "months_since_contract": 20,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -13241,7 +13241,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 19,
+    "months_since_contract": 20,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -13341,7 +13341,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 19,
+    "months_since_contract": 20,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -13463,7 +13463,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 19,
+    "months_since_contract": 20,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -13563,7 +13563,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 19,
+    "months_since_contract": 20,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -13656,7 +13656,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 19,
+    "months_since_contract": 20,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -13761,7 +13761,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "months_since_contract": 19,
+    "months_since_contract": 20,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -13936,7 +13936,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 19,
+    "months_since_contract": 20,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -14039,7 +14039,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "months_since_contract": 19,
+    "months_since_contract": 20,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -14224,7 +14224,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 19,
+    "months_since_contract": 20,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -14317,7 +14317,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 19,
+    "months_since_contract": 20,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -14411,7 +14411,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "months_since_contract": 19,
+    "months_since_contract": 20,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -14575,7 +14575,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 19,
+    "months_since_contract": 20,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -14668,7 +14668,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 19,
+    "months_since_contract": 20,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -14766,7 +14766,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "months_since_contract": 19,
+    "months_since_contract": 20,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -14992,7 +14992,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 19,
+    "months_since_contract": 20,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -15086,7 +15086,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "months_since_contract": 19,
+    "months_since_contract": 20,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -15246,7 +15246,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 19,
+    "months_since_contract": 20,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -15339,7 +15339,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 19,
+    "months_since_contract": 20,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -15431,7 +15431,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 19,
+    "months_since_contract": 20,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -15512,7 +15512,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 19,
+    "months_since_contract": 20,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -15608,7 +15608,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 19,
+    "months_since_contract": 20,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -15687,7 +15687,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 19,
+    "months_since_contract": 20,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -15779,7 +15779,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 19,
+    "months_since_contract": 20,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -15860,7 +15860,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 19,
+    "months_since_contract": 20,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -15926,7 +15926,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 19,
+    "months_since_contract": 20,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -16034,7 +16034,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 19,
+    "months_since_contract": 20,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -16113,7 +16113,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 19,
+    "months_since_contract": 20,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -16205,7 +16205,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 19,
+    "months_since_contract": 20,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -16303,7 +16303,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 19,
+    "months_since_contract": 20,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -16395,7 +16395,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 19,
+    "months_since_contract": 20,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -16487,7 +16487,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 19,
+    "months_since_contract": 20,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -16608,7 +16608,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 19,
+    "months_since_contract": 20,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -16739,7 +16739,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 19,
+    "months_since_contract": 20,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -16852,7 +16852,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 19,
+    "months_since_contract": 20,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -16960,7 +16960,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 19,
+    "months_since_contract": 20,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -17109,7 +17109,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 19,
+    "months_since_contract": 20,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -17210,7 +17210,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 19,
+    "months_since_contract": 20,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -17315,7 +17315,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 19,
+    "months_since_contract": 20,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -17422,7 +17422,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 19,
+    "months_since_contract": 20,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -17543,7 +17543,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 19,
+    "months_since_contract": 20,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -17676,7 +17676,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 19,
+    "months_since_contract": 20,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -17800,7 +17800,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 19,
+    "months_since_contract": 20,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -17912,7 +17912,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 19,
+    "months_since_contract": 20,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -18045,7 +18045,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 19,
+    "months_since_contract": 20,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -18144,7 +18144,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 19,
+    "months_since_contract": 20,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -18244,7 +18244,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 19,
+    "months_since_contract": 20,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -18344,7 +18344,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 19,
+    "months_since_contract": 20,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -18490,7 +18490,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 19,
+    "months_since_contract": 20,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -18596,7 +18596,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 19,
+    "months_since_contract": 20,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -18694,7 +18694,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 19,
+    "months_since_contract": 20,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -18790,7 +18790,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 19,
+    "months_since_contract": 20,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -18915,7 +18915,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 19,
+    "months_since_contract": 20,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -19030,7 +19030,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 19,
+    "months_since_contract": 20,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -19138,7 +19138,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 19,
+    "months_since_contract": 20,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -19253,7 +19253,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 19,
+    "months_since_contract": 20,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -19358,7 +19358,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 19,
+    "months_since_contract": 20,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -19482,7 +19482,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 19,
+    "months_since_contract": 20,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -19601,7 +19601,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 19,
+    "months_since_contract": 20,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -19736,7 +19736,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 19,
+    "months_since_contract": 20,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -19877,7 +19877,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 19,
+    "months_since_contract": 20,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -19991,7 +19991,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 19,
+    "months_since_contract": 20,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -20101,7 +20101,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 19,
+    "months_since_contract": 20,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -20217,7 +20217,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "months_since_contract": 19,
+    "months_since_contract": 20,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -20371,7 +20371,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 19,
+    "months_since_contract": 20,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -20477,7 +20477,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "months_since_contract": 19,
+    "months_since_contract": 20,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -20640,7 +20640,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "months_since_contract": 19,
+    "months_since_contract": 20,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -20792,7 +20792,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 19,
+    "months_since_contract": 20,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -20891,7 +20891,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "months_since_contract": 19,
+    "months_since_contract": 20,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -21038,7 +21038,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 19,
+    "months_since_contract": 20,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -21136,7 +21136,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "months_since_contract": 19,
+    "months_since_contract": 20,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -21283,7 +21283,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 19,
+    "months_since_contract": 20,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -21381,7 +21381,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "months_since_contract": 19,
+    "months_since_contract": 20,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -21535,7 +21535,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 19,
+    "months_since_contract": 20,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -21643,7 +21643,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 19,
+    "months_since_contract": 20,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -21737,7 +21737,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 19,
+    "months_since_contract": 20,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -21837,7 +21837,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 19,
+    "months_since_contract": 20,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -21937,7 +21937,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 19,
+    "months_since_contract": 20,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -22029,7 +22029,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 19,
+    "months_since_contract": 20,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -22121,7 +22121,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 19,
+    "months_since_contract": 20,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -22213,7 +22213,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 19,
+    "months_since_contract": 20,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -22305,7 +22305,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 19,
+    "months_since_contract": 20,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -22397,7 +22397,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 19,
+    "months_since_contract": 20,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -22492,7 +22492,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 19,
+    "months_since_contract": 20,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -22596,7 +22596,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 19,
+    "months_since_contract": 20,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -22708,7 +22708,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "months_since_contract": 19,
+    "months_since_contract": 20,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -22892,7 +22892,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 19,
+    "months_since_contract": 20,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -22995,7 +22995,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 19,
+    "months_since_contract": 20,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -23088,7 +23088,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 19,
+    "months_since_contract": 20,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -23187,7 +23187,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "months_since_contract": 19,
+    "months_since_contract": 20,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -23370,7 +23370,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "months_since_contract": 19,
+    "months_since_contract": 20,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -23572,7 +23572,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 19,
+    "months_since_contract": 20,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -23691,7 +23691,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 19,
+    "months_since_contract": 20,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -23799,7 +23799,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 19,
+    "months_since_contract": 20,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -23910,7 +23910,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "months_since_contract": 19,
+    "months_since_contract": 20,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -24078,7 +24078,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "months_since_contract": 19,
+    "months_since_contract": 20,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -24239,7 +24239,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 19,
+    "months_since_contract": 20,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -24349,7 +24349,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "months_since_contract": 19,
+    "months_since_contract": 20,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -24504,7 +24504,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "months_since_contract": 19,
+    "months_since_contract": 20,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -24690,7 +24690,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 19,
+    "months_since_contract": 20,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -24802,7 +24802,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "months_since_contract": 19,
+    "months_since_contract": 20,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -24959,7 +24959,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "months_since_contract": 19,
+    "months_since_contract": 20,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -25117,7 +25117,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 19,
+    "months_since_contract": 20,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -25214,7 +25214,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 19,
+    "months_since_contract": 20,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -25324,7 +25324,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 19,
+    "months_since_contract": 20,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -25424,7 +25424,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 19,
+    "months_since_contract": 20,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -25525,7 +25525,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "months_since_contract": 19,
+    "months_since_contract": 20,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -25726,7 +25726,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "months_since_contract": 19,
+    "months_since_contract": 20,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -25891,7 +25891,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 19,
+    "months_since_contract": 20,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -26005,7 +26005,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "months_since_contract": 19,
+    "months_since_contract": 20,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -26172,7 +26172,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "months_since_contract": 19,
+    "months_since_contract": 20,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -26325,7 +26325,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 19,
+    "months_since_contract": 20,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -26422,7 +26422,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 19,
+    "months_since_contract": 20,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -26523,7 +26523,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 19,
+    "months_since_contract": 20,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -26624,7 +26624,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 19,
+    "months_since_contract": 20,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -26721,7 +26721,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 19,
+    "months_since_contract": 20,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -26814,7 +26814,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 19,
+    "months_since_contract": 20,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -26899,7 +26899,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "months_since_contract": 19,
+    "months_since_contract": 20,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -27079,7 +27079,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "months_since_contract": 19,
+    "months_since_contract": 20,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -27220,7 +27220,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 19,
+    "months_since_contract": 20,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -27313,7 +27313,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 19,
+    "months_since_contract": 20,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -27410,7 +27410,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 19,
+    "months_since_contract": 20,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -27506,7 +27506,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "months_since_contract": 19,
+    "months_since_contract": 20,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -27602,7 +27602,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "months_since_contract": 19,
+    "months_since_contract": 20,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -27704,7 +27704,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 19,
+    "months_since_contract": 20,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -27785,7 +27785,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "months_since_contract": 19,
+    "months_since_contract": 20,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -27886,7 +27886,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "months_since_contract": 19,
+    "months_since_contract": 20,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -28075,7 +28075,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "months_since_contract": 19,
+    "months_since_contract": 20,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -28215,7 +28215,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 19,
+    "months_since_contract": 20,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -28296,7 +28296,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "months_since_contract": 19,
+    "months_since_contract": 20,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -28527,7 +28527,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 19,
+    "months_since_contract": 20,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -28621,7 +28621,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "months_since_contract": 19,
+    "months_since_contract": 20,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -28736,7 +28736,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "months_since_contract": 19,
+    "months_since_contract": 20,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -28916,7 +28916,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "months_since_contract": 19,
+    "months_since_contract": 20,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -29093,7 +29093,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "months_since_contract": 19,
+    "months_since_contract": 20,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -29250,7 +29250,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "months_since_contract": 19,
+    "months_since_contract": 20,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -29419,7 +29419,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 19,
+    "months_since_contract": 20,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -29513,7 +29513,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "months_since_contract": 19,
+    "months_since_contract": 20,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -29619,7 +29619,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 19,
+    "months_since_contract": 20,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -29700,7 +29700,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "months_since_contract": 19,
+    "months_since_contract": 20,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -29812,7 +29812,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 19,
+    "months_since_contract": 20,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -29906,7 +29906,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "months_since_contract": 19,
+    "months_since_contract": 20,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -30020,7 +30020,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "months_since_contract": 19,
+    "months_since_contract": 20,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -30119,7 +30119,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "months_since_contract": 19,
+    "months_since_contract": 20,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -30298,7 +30298,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 19,
+    "months_since_contract": 20,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -30383,7 +30383,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "months_since_contract": 19,
+    "months_since_contract": 20,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -30533,7 +30533,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "months_since_contract": 19,
+    "months_since_contract": 20,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -30701,7 +30701,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 19,
+    "months_since_contract": 20,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -30790,7 +30790,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "months_since_contract": 19,
+    "months_since_contract": 20,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -30941,7 +30941,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 19,
+    "months_since_contract": 20,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -31035,7 +31035,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "months_since_contract": 19,
+    "months_since_contract": 20,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -31214,7 +31214,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 19,
+    "months_since_contract": 20,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -31311,7 +31311,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 19,
+    "months_since_contract": 20,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -31404,7 +31404,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 19,
+    "months_since_contract": 20,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -31498,7 +31498,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "months_since_contract": 19,
+    "months_since_contract": 20,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -31675,7 +31675,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "months_since_contract": 19,
+    "months_since_contract": 20,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -31879,7 +31879,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "months_since_contract": 19,
+    "months_since_contract": 20,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -32067,7 +32067,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 19,
+    "months_since_contract": 20,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -32159,7 +32159,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 19,
+    "months_since_contract": 20,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -32251,7 +32251,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 19,
+    "months_since_contract": 20,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -32343,7 +32343,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 19,
+    "months_since_contract": 20,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -32439,7 +32439,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 19,
+    "months_since_contract": 20,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -32531,7 +32531,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 19,
+    "months_since_contract": 20,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -32623,7 +32623,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 19,
+    "months_since_contract": 20,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -32715,7 +32715,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 19,
+    "months_since_contract": 20,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -32819,7 +32819,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 19,
+    "months_since_contract": 20,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -32915,7 +32915,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 19,
+    "months_since_contract": 20,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -33007,7 +33007,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 19,
+    "months_since_contract": 20,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -33103,7 +33103,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 19,
+    "months_since_contract": 20,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -33215,7 +33215,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "months_since_contract": 19,
+    "months_since_contract": 20,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -33282,7 +33282,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "months_since_contract": 18,
+    "months_since_contract": 19,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -33452,7 +33452,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 18,
+    "months_since_contract": 19,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -33545,7 +33545,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 18,
+    "months_since_contract": 19,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -33643,7 +33643,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "months_since_contract": 18,
+    "months_since_contract": 19,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -33845,7 +33845,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "months_since_contract": 18,
+    "months_since_contract": 19,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -34028,7 +34028,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "months_since_contract": 18,
+    "months_since_contract": 19,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -34184,7 +34184,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 18,
+    "months_since_contract": 19,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -34285,7 +34285,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "months_since_contract": 18,
+    "months_since_contract": 19,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -34435,7 +34435,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "months_since_contract": 18,
+    "months_since_contract": 19,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -34635,7 +34635,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 18,
+    "months_since_contract": 19,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -34755,7 +34755,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 18,
+    "months_since_contract": 19,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -34861,7 +34861,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "months_since_contract": 18,
+    "months_since_contract": 19,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -34951,7 +34951,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 18,
+    "months_since_contract": 19,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -35054,7 +35054,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 18,
+    "months_since_contract": 19,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -35167,7 +35167,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 18,
+    "months_since_contract": 19,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -35275,7 +35275,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "months_since_contract": 18,
+    "months_since_contract": 19,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -35447,7 +35447,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 18,
+    "months_since_contract": 19,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -35545,7 +35545,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 18,
+    "months_since_contract": 19,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -35645,7 +35645,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "months_since_contract": 17,
+    "months_since_contract": 18,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -35810,7 +35810,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "months_since_contract": 17,
+    "months_since_contract": 18,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -35987,7 +35987,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 17,
+    "months_since_contract": 18,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -36084,7 +36084,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 17,
+    "months_since_contract": 18,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -36181,7 +36181,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 17,
+    "months_since_contract": 18,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -36279,7 +36279,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "months_since_contract": 17,
+    "months_since_contract": 18,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -36360,7 +36360,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "months_since_contract": 17,
+    "months_since_contract": 18,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -36441,7 +36441,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "months_since_contract": 17,
+    "months_since_contract": 18,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -36522,7 +36522,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "months_since_contract": 17,
+    "months_since_contract": 18,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -36680,7 +36680,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 17,
+    "months_since_contract": 18,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -36779,7 +36779,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "months_since_contract": 17,
+    "months_since_contract": 18,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -36929,7 +36929,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "months_since_contract": 17,
+    "months_since_contract": 18,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -37086,7 +37086,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "months_since_contract": 17,
+    "months_since_contract": 18,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -37233,7 +37233,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 17,
+    "months_since_contract": 18,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -37327,7 +37327,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "months_since_contract": 17,
+    "months_since_contract": 18,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -37482,7 +37482,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "months_since_contract": 17,
+    "months_since_contract": 18,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -37636,7 +37636,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 17,
+    "months_since_contract": 18,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -37733,7 +37733,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 17,
+    "months_since_contract": 18,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -37830,7 +37830,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 17,
+    "months_since_contract": 18,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -37923,7 +37923,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 17,
+    "months_since_contract": 18,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -38033,7 +38033,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "months_since_contract": 17,
+    "months_since_contract": 18,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -38224,7 +38224,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 17,
+    "months_since_contract": 18,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -38320,7 +38320,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 17,
+    "months_since_contract": 18,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -38422,7 +38422,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 17,
+    "months_since_contract": 18,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -38522,7 +38522,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 17,
+    "months_since_contract": 18,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -38625,7 +38625,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 17,
+    "months_since_contract": 18,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -38726,7 +38726,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 17,
+    "months_since_contract": 18,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -38827,7 +38827,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 17,
+    "months_since_contract": 18,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -38928,7 +38928,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 17,
+    "months_since_contract": 18,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -39033,7 +39033,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 17,
+    "months_since_contract": 18,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -39131,7 +39131,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 17,
+    "months_since_contract": 18,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -39225,7 +39225,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "months_since_contract": 17,
+    "months_since_contract": 18,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -39372,7 +39372,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 16,
+    "months_since_contract": 17,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -39458,7 +39458,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 16,
+    "months_since_contract": 17,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -39551,7 +39551,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 16,
+    "months_since_contract": 17,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -39644,7 +39644,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 16,
+    "months_since_contract": 17,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -39738,7 +39738,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "months_since_contract": 16,
+    "months_since_contract": 17,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -39883,7 +39883,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 16,
+    "months_since_contract": 17,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -39976,7 +39976,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 16,
+    "months_since_contract": 17,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -40075,7 +40075,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 16,
+    "months_since_contract": 17,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -40169,7 +40169,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "months_since_contract": 16,
+    "months_since_contract": 17,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -40335,7 +40335,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 16,
+    "months_since_contract": 17,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -40428,7 +40428,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 16,
+    "months_since_contract": 17,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -40520,7 +40520,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 15,
+    "months_since_contract": 16,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -40619,7 +40619,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 15,
+    "months_since_contract": 16,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -40711,7 +40711,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 15,
+    "months_since_contract": 16,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -40804,7 +40804,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 15,
+    "months_since_contract": 16,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -40898,7 +40898,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "months_since_contract": 15,
+    "months_since_contract": 16,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -41056,7 +41056,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 15,
+    "months_since_contract": 16,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -41149,7 +41149,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 15,
+    "months_since_contract": 16,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -41246,7 +41246,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 14,
+    "months_since_contract": 15,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -41349,7 +41349,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "months_since_contract": 14,
+    "months_since_contract": 15,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -41517,7 +41517,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "months_since_contract": 14,
+    "months_since_contract": 15,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -41672,7 +41672,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 14,
+    "months_since_contract": 15,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -41776,7 +41776,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "months_since_contract": 14,
+    "months_since_contract": 15,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -41924,7 +41924,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 14,
+    "months_since_contract": 15,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -42021,7 +42021,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 14,
+    "months_since_contract": 15,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -42120,7 +42120,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 14,
+    "months_since_contract": 15,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -42222,7 +42222,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "months_since_contract": 14,
+    "months_since_contract": 15,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -42368,7 +42368,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "months_since_contract": 13,
+    "months_since_contract": 14,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -42514,7 +42514,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "months_since_contract": 13,
+    "months_since_contract": 14,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -42656,7 +42656,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "months_since_contract": 13,
+    "months_since_contract": 14,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -42805,7 +42805,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 13,
+    "months_since_contract": 14,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -42902,7 +42902,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 13,
+    "months_since_contract": 14,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -42996,7 +42996,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "months_since_contract": 13,
+    "months_since_contract": 14,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -43192,7 +43192,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 13,
+    "months_since_contract": 14,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -43286,7 +43286,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "months_since_contract": 13,
+    "months_since_contract": 14,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -43450,7 +43450,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "months_since_contract": 13,
+    "months_since_contract": 14,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -43631,7 +43631,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "months_since_contract": 13,
+    "months_since_contract": 14,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -43784,7 +43784,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "months_since_contract": 13,
+    "months_since_contract": 14,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -43943,7 +43943,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "months_since_contract": 13,
+    "months_since_contract": 14,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -44096,7 +44096,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "months_since_contract": 13,
+    "months_since_contract": 14,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -44241,7 +44241,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 13,
+    "months_since_contract": 14,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -44346,7 +44346,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 13,
+    "months_since_contract": 14,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -44440,7 +44440,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "months_since_contract": 13,
+    "months_since_contract": 14,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -44594,7 +44594,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 13,
+    "months_since_contract": 14,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -44688,7 +44688,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "months_since_contract": 13,
+    "months_since_contract": 14,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -44839,7 +44839,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "months_since_contract": 13,
+    "months_since_contract": 14,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -44991,7 +44991,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "months_since_contract": 13,
+    "months_since_contract": 14,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -45136,7 +45136,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 12,
+    "months_since_contract": 13,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -45230,7 +45230,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "months_since_contract": 12,
+    "months_since_contract": 13,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -45397,7 +45397,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 12,
+    "months_since_contract": 13,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -45490,7 +45490,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 12,
+    "months_since_contract": 13,
     "remark": "재계약",
     "recalled": false,
     "groups": {
@@ -45579,7 +45579,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 12,
+    "months_since_contract": 13,
     "remark": "재계약",
     "recalled": false,
     "groups": {
@@ -45664,7 +45664,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "months_since_contract": 12,
+    "months_since_contract": 13,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -45827,7 +45827,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "months_since_contract": 12,
+    "months_since_contract": 13,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -46021,7 +46021,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "months_since_contract": 12,
+    "months_since_contract": 13,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -46196,7 +46196,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 11,
+    "months_since_contract": 12,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -46288,7 +46288,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 11,
+    "months_since_contract": 12,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -46392,7 +46392,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 11,
+    "months_since_contract": 12,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -46486,7 +46486,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "months_since_contract": 10,
+    "months_since_contract": 11,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -46628,7 +46628,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "months_since_contract": 10,
+    "months_since_contract": 11,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -46779,7 +46779,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "months_since_contract": 10,
+    "months_since_contract": 11,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -46921,7 +46921,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "months_since_contract": 10,
+    "months_since_contract": 11,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -47063,7 +47063,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "months_since_contract": 10,
+    "months_since_contract": 11,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -47205,7 +47205,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "months_since_contract": 10,
+    "months_since_contract": 11,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -47364,7 +47364,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "months_since_contract": 10,
+    "months_since_contract": 11,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -47517,7 +47517,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "months_since_contract": 10,
+    "months_since_contract": 11,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -47667,7 +47667,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "months_since_contract": 10,
+    "months_since_contract": 11,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -47813,7 +47813,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "months_since_contract": 10,
+    "months_since_contract": 11,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -47959,7 +47959,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "months_since_contract": 10,
+    "months_since_contract": 11,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -48105,7 +48105,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "months_since_contract": 10,
+    "months_since_contract": 11,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -48251,7 +48251,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "months_since_contract": 10,
+    "months_since_contract": 11,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -48391,7 +48391,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 10,
+    "months_since_contract": 11,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -48489,7 +48489,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "months_since_contract": 9,
+    "months_since_contract": 10,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -48631,7 +48631,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "months_since_contract": 9,
+    "months_since_contract": 10,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -48777,7 +48777,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "months_since_contract": 9,
+    "months_since_contract": 10,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -48919,7 +48919,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "months_since_contract": 9,
+    "months_since_contract": 10,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -49061,7 +49061,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "months_since_contract": 9,
+    "months_since_contract": 10,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -49224,7 +49224,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "months_since_contract": 9,
+    "months_since_contract": 10,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -49364,7 +49364,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 9,
+    "months_since_contract": 10,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -49460,7 +49460,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 7,
+    "months_since_contract": 8,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -49552,7 +49552,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 7,
+    "months_since_contract": 8,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -49656,7 +49656,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 7,
+    "months_since_contract": 8,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -49748,7 +49748,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 7,
+    "months_since_contract": 8,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -49843,7 +49843,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 7,
+    "months_since_contract": 8,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -49970,7 +49970,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 7,
+    "months_since_contract": 8,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -50068,7 +50068,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 7,
+    "months_since_contract": 8,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -50176,7 +50176,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 7,
+    "months_since_contract": 8,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -50268,7 +50268,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 7,
+    "months_since_contract": 8,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -50377,7 +50377,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 7,
+    "months_since_contract": 8,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -50482,7 +50482,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 7,
+    "months_since_contract": 8,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -50627,7 +50627,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 7,
+    "months_since_contract": 8,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -50751,7 +50751,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 7,
+    "months_since_contract": 8,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -50885,7 +50885,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 7,
+    "months_since_contract": 8,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -50992,7 +50992,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 7,
+    "months_since_contract": 8,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -51103,7 +51103,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 7,
+    "months_since_contract": 8,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -51195,7 +51195,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 7,
+    "months_since_contract": 8,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -51306,7 +51306,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 7,
+    "months_since_contract": 8,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -51406,7 +51406,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 7,
+    "months_since_contract": 8,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -51504,7 +51504,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 7,
+    "months_since_contract": 8,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -51600,7 +51600,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 7,
+    "months_since_contract": 8,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -51698,7 +51698,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 7,
+    "months_since_contract": 8,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -51790,7 +51790,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 7,
+    "months_since_contract": 8,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -51887,7 +51887,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 7,
+    "months_since_contract": 8,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -51984,7 +51984,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 7,
+    "months_since_contract": 8,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -52081,7 +52081,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 7,
+    "months_since_contract": 8,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -52178,7 +52178,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 7,
+    "months_since_contract": 8,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -52278,7 +52278,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 7,
+    "months_since_contract": 8,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -52371,7 +52371,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 7,
+    "months_since_contract": 8,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -52464,7 +52464,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 7,
+    "months_since_contract": 8,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -52561,7 +52561,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 7,
+    "months_since_contract": 8,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -52658,7 +52658,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 7,
+    "months_since_contract": 8,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -52751,7 +52751,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 7,
+    "months_since_contract": 8,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -52881,7 +52881,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 7,
+    "months_since_contract": 8,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -52999,7 +52999,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 7,
+    "months_since_contract": 8,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -53121,7 +53121,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 7,
+    "months_since_contract": 8,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -53227,7 +53227,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 7,
+    "months_since_contract": 8,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -53329,7 +53329,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 7,
+    "months_since_contract": 8,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -53427,7 +53427,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 7,
+    "months_since_contract": 8,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -53523,7 +53523,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 7,
+    "months_since_contract": 8,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -53621,7 +53621,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 7,
+    "months_since_contract": 8,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -53727,7 +53727,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 7,
+    "months_since_contract": 8,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -53833,7 +53833,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 7,
+    "months_since_contract": 8,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -53932,7 +53932,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 7,
+    "months_since_contract": 8,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -54024,7 +54024,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 7,
+    "months_since_contract": 8,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -54116,7 +54116,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 7,
+    "months_since_contract": 8,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -54208,7 +54208,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 7,
+    "months_since_contract": 8,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -54305,7 +54305,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 7,
+    "months_since_contract": 8,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -54401,7 +54401,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 7,
+    "months_since_contract": 8,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -54532,7 +54532,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 7,
+    "months_since_contract": 8,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -54636,7 +54636,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 7,
+    "months_since_contract": 8,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -54732,7 +54732,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 7,
+    "months_since_contract": 8,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -54824,7 +54824,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 7,
+    "months_since_contract": 8,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -54930,7 +54930,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 7,
+    "months_since_contract": 8,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -55042,7 +55042,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 7,
+    "months_since_contract": 8,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -55138,7 +55138,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 7,
+    "months_since_contract": 8,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -55230,7 +55230,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 7,
+    "months_since_contract": 8,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -55332,7 +55332,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 7,
+    "months_since_contract": 8,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -55433,7 +55433,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 7,
+    "months_since_contract": 8,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -55529,7 +55529,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 7,
+    "months_since_contract": 8,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -55621,7 +55621,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 7,
+    "months_since_contract": 8,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -55713,7 +55713,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 7,
+    "months_since_contract": 8,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -55819,7 +55819,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 7,
+    "months_since_contract": 8,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -55919,7 +55919,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 7,
+    "months_since_contract": 8,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -56020,7 +56020,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 7,
+    "months_since_contract": 8,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -56123,7 +56123,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 7,
+    "months_since_contract": 8,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -56229,7 +56229,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 7,
+    "months_since_contract": 8,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -56327,7 +56327,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 7,
+    "months_since_contract": 8,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -56429,7 +56429,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 7,
+    "months_since_contract": 8,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -56535,7 +56535,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 7,
+    "months_since_contract": 8,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -56635,7 +56635,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 7,
+    "months_since_contract": 8,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -56745,7 +56745,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 7,
+    "months_since_contract": 8,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -56870,7 +56870,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 7,
+    "months_since_contract": 8,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -56991,7 +56991,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 7,
+    "months_since_contract": 8,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -57088,7 +57088,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 7,
+    "months_since_contract": 8,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -57185,7 +57185,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 6,
+    "months_since_contract": 7,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -57286,7 +57286,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 6,
+    "months_since_contract": 7,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -57390,7 +57390,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 6,
+    "months_since_contract": 7,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -57486,7 +57486,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 6,
+    "months_since_contract": 7,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -57583,7 +57583,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 6,
+    "months_since_contract": 7,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -57680,7 +57680,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 5,
+    "months_since_contract": 6,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -57773,7 +57773,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 5,
+    "months_since_contract": 6,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -57883,7 +57883,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 5,
+    "months_since_contract": 6,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -57976,7 +57976,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 5,
+    "months_since_contract": 6,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -58088,7 +58088,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 5,
+    "months_since_contract": 6,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -58188,7 +58188,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 5,
+    "months_since_contract": 6,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -58292,7 +58292,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 5,
+    "months_since_contract": 6,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -58405,7 +58405,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 5,
+    "months_since_contract": 6,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -58511,7 +58511,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 5,
+    "months_since_contract": 6,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -58625,7 +58625,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 4,
+    "months_since_contract": 5,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -58721,7 +58721,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 4,
+    "months_since_contract": 5,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -58856,7 +58856,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 4,
+    "months_since_contract": 5,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -58955,7 +58955,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 4,
+    "months_since_contract": 5,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -59051,7 +59051,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 4,
+    "months_since_contract": 5,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -59156,7 +59156,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 4,
+    "months_since_contract": 5,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -59252,7 +59252,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 4,
+    "months_since_contract": 5,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -59344,7 +59344,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 4,
+    "months_since_contract": 5,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -59440,7 +59440,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 4,
+    "months_since_contract": 5,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -59550,7 +59550,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 4,
+    "months_since_contract": 5,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -59647,7 +59647,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 4,
+    "months_since_contract": 5,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -59744,7 +59744,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 4,
+    "months_since_contract": 5,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -59841,7 +59841,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 4,
+    "months_since_contract": 5,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -59954,7 +59954,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 4,
+    "months_since_contract": 5,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -60052,7 +60052,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 4,
+    "months_since_contract": 5,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -60166,7 +60166,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 4,
+    "months_since_contract": 5,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -60279,7 +60279,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 4,
+    "months_since_contract": 5,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -60384,7 +60384,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 4,
+    "months_since_contract": 5,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -60476,7 +60476,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 4,
+    "months_since_contract": 5,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -60568,7 +60568,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 4,
+    "months_since_contract": 5,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -60664,7 +60664,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 4,
+    "months_since_contract": 5,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -60758,7 +60758,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 4,
+    "months_since_contract": 5,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -60850,7 +60850,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 4,
+    "months_since_contract": 5,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -60950,7 +60950,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 4,
+    "months_since_contract": 5,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -61048,7 +61048,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 4,
+    "months_since_contract": 5,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -61144,7 +61144,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 4,
+    "months_since_contract": 5,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -61240,7 +61240,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 4,
+    "months_since_contract": 5,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -61335,7 +61335,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 4,
+    "months_since_contract": 5,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -61427,7 +61427,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 4,
+    "months_since_contract": 5,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -61519,7 +61519,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 4,
+    "months_since_contract": 5,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -61612,7 +61612,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 4,
+    "months_since_contract": 5,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -61722,7 +61722,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 3,
+    "months_since_contract": 4,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -61825,7 +61825,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 3,
+    "months_since_contract": 4,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -61929,7 +61929,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 3,
+    "months_since_contract": 4,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -62022,7 +62022,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 3,
+    "months_since_contract": 4,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -62115,7 +62115,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 3,
+    "months_since_contract": 4,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -62208,7 +62208,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 3,
+    "months_since_contract": 4,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -62305,7 +62305,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 3,
+    "months_since_contract": 4,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -62398,7 +62398,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 3,
+    "months_since_contract": 4,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -62498,7 +62498,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 3,
+    "months_since_contract": 4,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -62598,7 +62598,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 3,
+    "months_since_contract": 4,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -62690,7 +62690,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 3,
+    "months_since_contract": 4,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -62786,7 +62786,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 3,
+    "months_since_contract": 4,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -62878,7 +62878,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 3,
+    "months_since_contract": 4,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -62970,7 +62970,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 3,
+    "months_since_contract": 4,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -63062,7 +63062,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 3,
+    "months_since_contract": 4,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -63154,7 +63154,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 3,
+    "months_since_contract": 4,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -63250,7 +63250,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 3,
+    "months_since_contract": 4,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -63342,7 +63342,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 3,
+    "months_since_contract": 4,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -63434,7 +63434,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 3,
+    "months_since_contract": 4,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -63526,7 +63526,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 3,
+    "months_since_contract": 4,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -63622,7 +63622,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 3,
+    "months_since_contract": 4,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -63714,7 +63714,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 3,
+    "months_since_contract": 4,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -63806,7 +63806,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 3,
+    "months_since_contract": 4,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -63898,7 +63898,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 3,
+    "months_since_contract": 4,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -63990,7 +63990,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 3,
+    "months_since_contract": 4,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -64082,7 +64082,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 3,
+    "months_since_contract": 4,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -64174,7 +64174,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 3,
+    "months_since_contract": 4,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -64266,7 +64266,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 3,
+    "months_since_contract": 4,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -64365,7 +64365,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 3,
+    "months_since_contract": 4,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -64466,7 +64466,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 3,
+    "months_since_contract": 4,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -64559,7 +64559,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 3,
+    "months_since_contract": 4,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -64652,7 +64652,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 3,
+    "months_since_contract": 4,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -64744,7 +64744,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 3,
+    "months_since_contract": 4,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -64850,7 +64850,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 3,
+    "months_since_contract": 4,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -64953,7 +64953,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 3,
+    "months_since_contract": 4,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -65073,7 +65073,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 3,
+    "months_since_contract": 4,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -65194,7 +65194,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 3,
+    "months_since_contract": 4,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -65307,7 +65307,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 3,
+    "months_since_contract": 4,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -65412,7 +65412,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 3,
+    "months_since_contract": 4,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -65518,7 +65518,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 2,
+    "months_since_contract": 3,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -65615,7 +65615,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 2,
+    "months_since_contract": 3,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -65712,7 +65712,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 2,
+    "months_since_contract": 3,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -65842,7 +65842,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 2,
+    "months_since_contract": 3,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -65937,7 +65937,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 2,
+    "months_since_contract": 3,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -66034,7 +66034,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 2,
+    "months_since_contract": 3,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -66127,7 +66127,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 2,
+    "months_since_contract": 3,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -66219,7 +66219,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 2,
+    "months_since_contract": 3,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -66316,7 +66316,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 2,
+    "months_since_contract": 3,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -66425,7 +66425,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 2,
+    "months_since_contract": 3,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -66521,7 +66521,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 2,
+    "months_since_contract": 3,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -66615,7 +66615,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 2,
+    "months_since_contract": 3,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -66707,7 +66707,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 2,
+    "months_since_contract": 3,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -66799,7 +66799,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 2,
+    "months_since_contract": 3,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -66891,7 +66891,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 2,
+    "months_since_contract": 3,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -66983,7 +66983,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 2,
+    "months_since_contract": 3,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -67083,7 +67083,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 2,
+    "months_since_contract": 3,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -67181,7 +67181,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 2,
+    "months_since_contract": 3,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -67287,7 +67287,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 2,
+    "months_since_contract": 3,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -67401,7 +67401,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 2,
+    "months_since_contract": 3,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -67514,7 +67514,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 2,
+    "months_since_contract": 3,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -67633,7 +67633,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 2,
+    "months_since_contract": 3,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -67740,7 +67740,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 2,
+    "months_since_contract": 3,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -67845,7 +67845,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 2,
+    "months_since_contract": 3,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -67950,7 +67950,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 2,
+    "months_since_contract": 3,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -68055,7 +68055,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 2,
+    "months_since_contract": 3,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -68147,7 +68147,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 2,
+    "months_since_contract": 3,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -68252,7 +68252,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 2,
+    "months_since_contract": 3,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -68357,7 +68357,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 2,
+    "months_since_contract": 3,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -68462,7 +68462,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 2,
+    "months_since_contract": 3,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -68567,7 +68567,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 2,
+    "months_since_contract": 3,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -68672,7 +68672,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 2,
+    "months_since_contract": 3,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -68783,7 +68783,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 2,
+    "months_since_contract": 3,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -68888,7 +68888,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 2,
+    "months_since_contract": 3,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -68981,7 +68981,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 2,
+    "months_since_contract": 3,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -69113,7 +69113,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 2,
+    "months_since_contract": 3,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -69226,7 +69226,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 1,
+    "months_since_contract": 2,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -69279,7 +69279,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 1,
+    "months_since_contract": 2,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -69332,7 +69332,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 1,
+    "months_since_contract": 2,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -69385,7 +69385,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 1,
+    "months_since_contract": 2,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -69455,7 +69455,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 1,
+    "months_since_contract": 2,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -69508,7 +69508,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 1,
+    "months_since_contract": 2,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -69562,7 +69562,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 1,
+    "months_since_contract": 2,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -69649,7 +69649,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 1,
+    "months_since_contract": 2,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -69706,7 +69706,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 1,
+    "months_since_contract": 2,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -69759,7 +69759,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 1,
+    "months_since_contract": 2,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -69814,7 +69814,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 1,
+    "months_since_contract": 2,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -69867,7 +69867,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 1,
+    "months_since_contract": 2,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -69920,7 +69920,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 1,
+    "months_since_contract": 2,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -69974,7 +69974,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 1,
+    "months_since_contract": 2,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -70040,7 +70040,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 1,
+    "months_since_contract": 2,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -70093,7 +70093,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 1,
+    "months_since_contract": 2,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -70146,7 +70146,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 1,
+    "months_since_contract": 2,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -70199,7 +70199,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 1,
+    "months_since_contract": 2,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -70253,7 +70253,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 1,
+    "months_since_contract": 2,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -70318,7 +70318,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 1,
+    "months_since_contract": 2,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -70374,7 +70374,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 1,
+    "months_since_contract": 2,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -70428,7 +70428,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 1,
+    "months_since_contract": 2,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -70481,7 +70481,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 1,
+    "months_since_contract": 2,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -70534,7 +70534,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 1,
+    "months_since_contract": 2,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -70648,7 +70648,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 1,
+    "months_since_contract": 2,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -70708,7 +70708,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 1,
+    "months_since_contract": 2,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -70761,7 +70761,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 1,
+    "months_since_contract": 2,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -70815,7 +70815,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 1,
+    "months_since_contract": 2,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -70869,7 +70869,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 1,
+    "months_since_contract": 2,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -70930,7 +70930,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 1,
+    "months_since_contract": 2,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -70984,7 +70984,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 1,
+    "months_since_contract": 2,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -71047,7 +71047,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 1,
+    "months_since_contract": 2,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -71100,7 +71100,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 1,
+    "months_since_contract": 2,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -71153,7 +71153,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 1,
+    "months_since_contract": 2,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -71206,7 +71206,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 1,
+    "months_since_contract": 2,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -71264,7 +71264,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 1,
+    "months_since_contract": 2,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -71329,7 +71329,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 1,
+    "months_since_contract": 2,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -71382,7 +71382,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 1,
+    "months_since_contract": 2,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -71487,7 +71487,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 1,
+    "months_since_contract": 2,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -71544,7 +71544,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 1,
+    "months_since_contract": 2,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -71599,7 +71599,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 1,
+    "months_since_contract": 2,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -71653,7 +71653,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 1,
+    "months_since_contract": 2,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -71716,7 +71716,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 1,
+    "months_since_contract": 2,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -71769,7 +71769,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 1,
+    "months_since_contract": 2,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -71823,7 +71823,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 1,
+    "months_since_contract": 2,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -71876,7 +71876,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 1,
+    "months_since_contract": 2,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -71929,7 +71929,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 1,
+    "months_since_contract": 2,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -71986,7 +71986,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 1,
+    "months_since_contract": 2,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -72040,7 +72040,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 1,
+    "months_since_contract": 2,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -72137,7 +72137,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 1,
+    "months_since_contract": 2,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -72190,7 +72190,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 1,
+    "months_since_contract": 2,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -72244,7 +72244,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 1,
+    "months_since_contract": 2,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -72301,7 +72301,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 1,
+    "months_since_contract": 2,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -72358,7 +72358,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 1,
+    "months_since_contract": 2,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -72412,7 +72412,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 1,
+    "months_since_contract": 2,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -72477,7 +72477,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 1,
+    "months_since_contract": 2,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -72532,7 +72532,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 1,
+    "months_since_contract": 2,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -72601,7 +72601,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 1,
+    "months_since_contract": 2,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -72655,7 +72655,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 1,
+    "months_since_contract": 2,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -72710,7 +72710,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 1,
+    "months_since_contract": 2,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -72816,7 +72816,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 1,
+    "months_since_contract": 2,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -72874,7 +72874,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 1,
+    "months_since_contract": 2,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -72952,7 +72952,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 1,
+    "months_since_contract": 2,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -73020,7 +73020,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 1,
+    "months_since_contract": 2,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -73077,7 +73077,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 1,
+    "months_since_contract": 2,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -73135,7 +73135,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 1,
+    "months_since_contract": 2,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -73188,7 +73188,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 1,
+    "months_since_contract": 2,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -73242,7 +73242,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 1,
+    "months_since_contract": 2,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -73307,7 +73307,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 1,
+    "months_since_contract": 2,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -73361,7 +73361,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 1,
+    "months_since_contract": 2,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -73414,7 +73414,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 1,
+    "months_since_contract": 2,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -73472,7 +73472,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 1,
+    "months_since_contract": 2,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -73525,7 +73525,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 1,
+    "months_since_contract": 2,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -73579,7 +73579,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 1,
+    "months_since_contract": 2,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -73638,7 +73638,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 1,
+    "months_since_contract": 2,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -73692,7 +73692,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 1,
+    "months_since_contract": 2,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -73749,7 +73749,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 1,
+    "months_since_contract": 2,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -73802,7 +73802,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 1,
+    "months_since_contract": 2,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -73856,7 +73856,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 1,
+    "months_since_contract": 2,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -73914,7 +73914,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 1,
+    "months_since_contract": 2,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -73978,7 +73978,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 1,
+    "months_since_contract": 2,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -74031,7 +74031,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 1,
+    "months_since_contract": 2,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -74085,7 +74085,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 1,
+    "months_since_contract": 2,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -74154,7 +74154,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 1,
+    "months_since_contract": 2,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -74219,7 +74219,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 1,
+    "months_since_contract": 2,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -74273,7 +74273,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 1,
+    "months_since_contract": 2,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -74327,7 +74327,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 1,
+    "months_since_contract": 2,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -74381,7 +74381,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 1,
+    "months_since_contract": 2,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -74434,7 +74434,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 1,
+    "months_since_contract": 2,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -74488,7 +74488,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 1,
+    "months_since_contract": 2,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -74544,7 +74544,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 1,
+    "months_since_contract": 2,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -74597,7 +74597,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 1,
+    "months_since_contract": 2,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -74653,7 +74653,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 1,
+    "months_since_contract": 2,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -74706,7 +74706,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 1,
+    "months_since_contract": 2,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -74763,7 +74763,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 1,
+    "months_since_contract": 2,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -74816,7 +74816,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 1,
+    "months_since_contract": 2,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -74869,7 +74869,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 1,
+    "months_since_contract": 2,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -74923,7 +74923,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 1,
+    "months_since_contract": 2,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -74976,7 +74976,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 1,
+    "months_since_contract": 2,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -75037,7 +75037,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 1,
+    "months_since_contract": 2,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -75090,7 +75090,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 1,
+    "months_since_contract": 2,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -75143,7 +75143,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 1,
+    "months_since_contract": 2,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -75197,7 +75197,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 1,
+    "months_since_contract": 2,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -75257,7 +75257,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 1,
+    "months_since_contract": 2,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -75310,7 +75310,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 1,
+    "months_since_contract": 2,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -75364,7 +75364,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 1,
+    "months_since_contract": 2,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -75418,7 +75418,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 1,
+    "months_since_contract": 2,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -75472,7 +75472,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 1,
+    "months_since_contract": 2,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -75533,7 +75533,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 1,
+    "months_since_contract": 2,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -75586,7 +75586,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 1,
+    "months_since_contract": 2,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -75640,7 +75640,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 1,
+    "months_since_contract": 2,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -75693,7 +75693,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 1,
+    "months_since_contract": 2,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -75747,7 +75747,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 1,
+    "months_since_contract": 2,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -75801,7 +75801,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 1,
+    "months_since_contract": 2,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -75855,7 +75855,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 1,
+    "months_since_contract": 2,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -75909,7 +75909,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 1,
+    "months_since_contract": 2,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -75976,7 +75976,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 1,
+    "months_since_contract": 2,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -76036,7 +76036,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 1,
+    "months_since_contract": 2,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -76090,7 +76090,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 1,
+    "months_since_contract": 2,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -76155,7 +76155,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 1,
+    "months_since_contract": 2,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -76209,7 +76209,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 1,
+    "months_since_contract": 2,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -76263,7 +76263,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 1,
+    "months_since_contract": 2,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -76317,7 +76317,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 1,
+    "months_since_contract": 2,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -76375,7 +76375,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 1,
+    "months_since_contract": 2,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -76429,7 +76429,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 1,
+    "months_since_contract": 2,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -76494,7 +76494,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 1,
+    "months_since_contract": 2,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -76548,7 +76548,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 1,
+    "months_since_contract": 2,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -76607,7 +76607,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 1,
+    "months_since_contract": 2,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -76661,7 +76661,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 1,
+    "months_since_contract": 2,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -76715,7 +76715,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 1,
+    "months_since_contract": 2,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -76769,7 +76769,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 1,
+    "months_since_contract": 2,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -76823,7 +76823,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 1,
+    "months_since_contract": 2,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -76877,7 +76877,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 1,
+    "months_since_contract": 2,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -76935,7 +76935,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 1,
+    "months_since_contract": 2,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -76989,7 +76989,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 1,
+    "months_since_contract": 2,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -77043,7 +77043,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 1,
+    "months_since_contract": 2,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -77105,7 +77105,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 1,
+    "months_since_contract": 2,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -77158,7 +77158,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 1,
+    "months_since_contract": 2,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -77211,7 +77211,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 1,
+    "months_since_contract": 2,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -77303,7 +77303,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 1,
+    "months_since_contract": 2,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -77395,7 +77395,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 1,
+    "months_since_contract": 2,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -77487,7 +77487,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 1,
+    "months_since_contract": 2,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -77579,7 +77579,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 1,
+    "months_since_contract": 2,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -77671,7 +77671,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 1,
+    "months_since_contract": 2,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -77763,7 +77763,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 1,
+    "months_since_contract": 2,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -77855,7 +77855,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 1,
+    "months_since_contract": 2,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -77947,7 +77947,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 1,
+    "months_since_contract": 2,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -78039,7 +78039,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 1,
+    "months_since_contract": 2,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -78133,7 +78133,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 1,
+    "months_since_contract": 2,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -78225,7 +78225,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 1,
+    "months_since_contract": 2,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -78317,7 +78317,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 1,
+    "months_since_contract": 2,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -78425,7 +78425,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 1,
+    "months_since_contract": 2,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -78517,7 +78517,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 1,
+    "months_since_contract": 2,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -78609,7 +78609,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 1,
+    "months_since_contract": 2,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -78705,7 +78705,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 1,
+    "months_since_contract": 2,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -78797,7 +78797,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 1,
+    "months_since_contract": 2,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -78889,7 +78889,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 1,
+    "months_since_contract": 2,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -78996,7 +78996,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 1,
+    "months_since_contract": 2,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -79092,7 +79092,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 1,
+    "months_since_contract": 2,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -79185,7 +79185,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 1,
+    "months_since_contract": 2,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -79278,7 +79278,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 1,
+    "months_since_contract": 2,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -79371,7 +79371,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 0,
+    "months_since_contract": 1,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -79464,7 +79464,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 0,
+    "months_since_contract": 1,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -79561,7 +79561,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 0,
+    "months_since_contract": 1,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -79657,7 +79657,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 0,
+    "months_since_contract": 1,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -79766,7 +79766,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 0,
+    "months_since_contract": 1,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -79871,7 +79871,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 0,
+    "months_since_contract": 1,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -79976,7 +79976,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 0,
+    "months_since_contract": 1,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -80081,7 +80081,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 0,
+    "months_since_contract": 1,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -80186,7 +80186,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 0,
+    "months_since_contract": 1,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -80291,7 +80291,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 0,
+    "months_since_contract": 1,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -80383,7 +80383,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 0,
+    "months_since_contract": 1,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -80436,7 +80436,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 0,
+    "months_since_contract": 1,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -80489,7 +80489,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 0,
+    "months_since_contract": 1,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -80547,7 +80547,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 0,
+    "months_since_contract": 1,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -80648,7 +80648,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 0,
+    "months_since_contract": 1,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -80743,7 +80743,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 0,
+    "months_since_contract": 1,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -80796,7 +80796,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 0,
+    "months_since_contract": 1,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -80919,7 +80919,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 0,
+    "months_since_contract": 1,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -81028,7 +81028,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 0,
+    "months_since_contract": 1,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -81124,7 +81124,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 0,
+    "months_since_contract": 1,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -81232,7 +81232,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 0,
+    "months_since_contract": 1,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -81286,7 +81286,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 0,
+    "months_since_contract": 1,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -81400,7 +81400,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 0,
+    "months_since_contract": 1,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -81506,7 +81506,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 0,
+    "months_since_contract": 1,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -81615,7 +81615,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 0,
+    "months_since_contract": 1,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -81721,7 +81721,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 0,
+    "months_since_contract": 1,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -81831,7 +81831,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 0,
+    "months_since_contract": 1,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -81943,7 +81943,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 0,
+    "months_since_contract": 1,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -82282,14 +82282,14 @@ window.COMPANY_INFO = {
 };
 window.BLOCK_META = {
   "current_year": 2026,
-  "current_month": "2026-08",
+  "current_month": "2026-09",
   "recent_months": [
-    "2026-05",
     "2026-06",
     "2026-07",
-    "2026-08"
+    "2026-08",
+    "2026-09"
   ],
-  "generated_at": "2026-08-31 17:07",
+  "generated_at": "2026-09-01 08:39",
   "latest_sales_date": "2026-08-31"
 };
 window.TEAM_MEMBERS = {
