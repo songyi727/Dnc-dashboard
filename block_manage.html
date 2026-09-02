@@ -615,7 +615,8 @@ function render(){
     const rc = p>=100 ? 'high' : (p>=50 ? 'mid' : 'low');
     const totals = b.totals;
     const ev = { key: b.evalKey, label: b.evalLabel };
-    const activeGroupCount = Object.values(totals).filter(g=>g.actual>0).length;
+    const activeGroupRaw = Object.values(totals).filter(g=>g.actual>0).length;
+    const activeGroupCount = Math.max(0, activeGroupRaw - 1); // 복합시술 = 매출 발생 품목수 - 1 (2품목 구매 시 1, 3품목 구매 시 2 ...)
     const solo = soloGroupOf(b);
 
     const wrap = document.createElement('div');
