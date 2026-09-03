@@ -13019,7 +13019,8 @@ window.BLOCK_DETAIL = [
         },
         "actual_by_month": {
           "2026-07": 5500000.0,
-          "2026-08": 5500000.0
+          "2026-08": 5500000.0,
+          "2026-09": 12200000.0
         }
       },
       "리프팅실": {
@@ -67492,13 +67493,15 @@ window.BLOCK_DETAIL = [
               0
             ],
             "actual_by_month": {
-              "2026-06": 0.0
+              "2026-06": 0.0,
+              "2026-09": 409091.0
             },
             "remark": ""
           }
         },
         "actual_by_month": {
-          "2026-06": 0.0
+          "2026-06": 0.0,
+          "2026-09": 409091.0
         }
       },
       "필러군": {
@@ -69106,14 +69109,16 @@ window.BLOCK_DETAIL = [
             ],
             "actual_by_month": {
               "2026-07": 5500000.0,
-              "2026-08": 5500000.0
+              "2026-08": 5500000.0,
+              "2026-09": 12200000.0
             },
             "remark": ""
           }
         },
         "actual_by_month": {
           "2026-07": 5500000.0,
-          "2026-08": 5500000.0
+          "2026-08": 5500000.0,
+          "2026-09": 12200000.0
         }
       },
       "리프팅실": {
@@ -71979,63 +71984,6 @@ window.BLOCK_DETAIL = [
           }
         },
         "actual_by_month": {}
-      }
-    }
-  },
-  {
-    "manager": "트로스트바이오",
-    "manager_biz": 2968102476,
-    "manager_contract_years": [
-      2026
-    ],
-    "team": "블루오션TF",
-    "rep": "전지원",
-    "name": "리투의원",
-    "biz": 3482800658,
-    "contract_date": "2026-07-01",
-    "client_contract_years": [
-      2026
-    ],
-    "months_since_contract": 2,
-    "remark": "",
-    "recalled": false,
-    "groups": {
-      "나보타": {
-        "by_year": {},
-        "actual_by_month": {}
-      },
-      "브이올렛": {
-        "by_year": {},
-        "actual_by_month": {}
-      },
-      "필러군": {
-        "by_year": {},
-        "actual_by_month": {}
-      },
-      "리프팅실": {
-        "by_year": {},
-        "actual_by_month": {}
-      },
-      "리알로": {
-        "by_year": {
-          "2026": {
-            "contracted": true,
-            "contract_date": "2026-07-01",
-            "mbo_q": [
-              5000000,
-              5000000,
-              5000000,
-              5000000
-            ],
-            "actual_by_month": {
-              "2026-08": 0.0
-            },
-            "remark": ""
-          }
-        },
-        "actual_by_month": {
-          "2026-08": 0.0
-        }
       }
     }
   },
@@ -82398,8 +82346,8 @@ window.BLOCK_META = {
     "2026-08",
     "2026-09"
   ],
-  "generated_at": "2026-09-03 08:42",
-  "latest_sales_date": "2026-09-02"
+  "generated_at": "2026-09-04 07:35",
+  "latest_sales_date": "2026-09-03"
 };
 window.TEAM_MEMBERS = {
   "RPM1팀": [
