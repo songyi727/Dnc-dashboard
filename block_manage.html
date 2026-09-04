@@ -291,6 +291,10 @@
       <select id="f-manager"></select>
     </div>
     <div class="filter-group">
+      <label>블록영업담당자</label>
+      <select id="f-blockrep"></select>
+    </div>
+    <div class="filter-group">
       <label>팀</label>
       <select id="f-team"></select>
     </div>
@@ -359,7 +363,7 @@ const hasData = typeof window.BLOCK_DETAIL !== 'undefined' && typeof window.BLOC
 function buildBlocks(yearSel, monthSel, cMonthSel){
   const refMonth = (monthSel && monthSel !== 'all') ? monthSel : undefined;
   const scoped = hasData ? BlockCommon.scopeDetailByContractMonth(window.BLOCK_DETAIL, yearSel, cMonthSel) : [];
-  const blocks = hasData ? BlockCommon.transformAll(scoped, window.BLOCK_META, yearSel, refMonth) : [];
+  const blocks = hasData ? BlockCommon.transformAll(scoped, window.BLOCK_META, yearSel, refMonth, window.COMPANY_INFO) : [];
   blocks.forEach(b => {
     if(!monthSel || monthSel === 'all'){
       b.month = b.ytd; // 매출월 전체 선택 시 당월매출 = 연간누적매출
@@ -390,6 +394,12 @@ function fillSelect(id, values){
 }
 if(hasData){
   fillSelect('f-manager', [...new Set(allBlocks.map(b=>b.manager))].sort((a,b)=>a.localeCompare(b,'ko')));
+  {
+    const blockRepVals = [...new Set(allBlocks.map(b=>b.blockRep))].filter(v=>v);
+    const named = blockRepVals.filter(v=>v !== '-').sort((a,b)=>a.localeCompare(b,'ko'));
+    const dash = blockRepVals.includes('-') ? ['-'] : [];
+    fillSelect('f-blockrep', [...named, ...dash]);
+  }
   fillSelect('f-year', [...new Set(allBlocks.flatMap(b=>b.contractYears))].sort());
   {
     const teamVals = [...new Set(allBlocks.map(b=>b.team))].filter(t=>t);
@@ -400,6 +410,7 @@ if(hasData){
 }
 
 const fManager = document.getElementById('f-manager');
+const fBlockRep = document.getElementById('f-blockrep');
 const fYear = document.getElementById('f-year');
 const fCMonth = document.getElementById('f-cmonth');
 const fTeam = document.getElementById('f-team');
@@ -509,6 +520,7 @@ if(hasData){
 function currentFilters(){
   return {
     manager: fManager.value,
+    blockRep: fBlockRep.value,
     year: fYear.value,
     cMonth: fCMonth.value,
     team: fTeam.value,
@@ -535,6 +547,7 @@ function render(){
   const blocksForYear = buildBlocks(f.year, f.month, f.cMonth);
   const blocks = blocksForYear.filter(b =>
     (f.manager === 'all' || b.manager === f.manager) &&
+    (f.blockRep === 'all' || b.blockRep === f.blockRep) &&
     (f.year === 'all' || b.contractYears.some(y => String(y) === String(f.year))) &&
     (f.team === 'all' || b.team === f.team) &&
     (f.rep === 'all' || b.rep === f.rep) &&
@@ -698,7 +711,7 @@ function render(){
 fYear.addEventListener('change', () => { refreshMonthOptions(); refreshCMonthOptions(); render(); });
 fTeam.addEventListener('change', () => { refreshRepOptions(); render(); });
 fItem.addEventListener('change', () => { refreshCMonthOptions(); render(); });
-[fManager, fCMonth, fRep, fEval, fMonth, fSolo].forEach(s => s.addEventListener('change', render));
+[fManager, fBlockRep, fCMonth, fRep, fEval, fMonth, fSolo].forEach(s => s.addEventListener('change', render));
 setupQuarterMsel();
 render();
 
@@ -719,6 +732,7 @@ document.getElementById('btn-export').addEventListener('click', function(e){
   }
   const blocks = buildBlocks(f.year, f.month, f.cMonth).filter(b =>
     (f.manager === 'all' || b.manager === f.manager) &&
+    (f.blockRep === 'all' || b.blockRep === f.blockRep) &&
     (f.year === 'all' || b.contractYears.some(y => String(y) === String(f.year))) &&
     (f.team === 'all' || b.team === f.team) &&
     (f.rep === 'all' || b.rep === f.rep) &&
@@ -735,6 +749,7 @@ document.getElementById('btn-export').addEventListener('click', function(e){
       if(!isContracted) return; // 계약 안 된 품목군만 스킵 (계약됐으면 MBO 0이어도 포함)
       const row = {
         '블록담당자': b.manager,
+        '블록영업담당자': b.blockRep,
         '팀': b.team,
         '영업담당자': b.rep,
         '블록처': b.name,
