@@ -122,6 +122,10 @@
 
   <div class="toolbar">
     <div class="filter-group">
+      <label>블록영업담당자</label>
+      <select id="f-blockrep"></select>
+    </div>
+    <div class="filter-group">
       <label>팀</label>
       <select id="f-team"></select>
     </div>
@@ -129,6 +133,8 @@
       <label>담당자</label>
       <select id="f-rep"></select>
     </div>
+  </div>
+  <div class="toolbar">
     <div class="filter-group">
       <label>계약연도</label>
       <select id="f-year"></select>
@@ -172,6 +178,29 @@
     <div class="card"><p class="label">전체 계약처 수</p><p class="value" id="sc-blocks">-</p></div>
     <div class="card"><p class="label">전체 유효율</p><p class="value" id="sc-rate">-</p></div>
     <div class="card"><p class="label">전체 달성률</p><p class="value" id="sc-achieve">-</p></div>
+  </div>
+
+  <div class="section-title">
+    블록영업담당자별 현황
+    <span class="count" id="blockRepMeta"></span>
+  </div>
+  <div class="table-card" style="margin-bottom:24px;">
+    <div class="table-scroll">
+      <table>
+        <colgroup>
+          <col><col><col><col><col><col><col><col><col><col>
+        </colgroup>
+        <thead>
+          <tr>
+            <th>블록영업담당자</th><th>블록담당처 수</th><th>계약처 수</th>
+            <th>매출 처(연간누적)</th><th>유효율(연간누적)</th>
+            <th>매출 처(당월)</th><th>유효율(당월)</th>
+            <th>MBO</th><th>연간누적매출</th><th>달성률</th>
+          </tr>
+        </thead>
+        <tbody id="blockRepTbody"></tbody>
+      </table>
+    </div>
   </div>
 
   <div class="section-title">
@@ -242,11 +271,13 @@ function contractMonthsForYear(yearSel, itemFilter){
 }
 
 if(hasData){
+  fillSelect('f-blockrep', [...new Set(Object.values(window.COMPANY_INFO||{}).map(v=>v.block_rep))].filter(v=>v && v!=='-').sort((a,b)=>a.localeCompare(b,'ko')));
   fillSelect('f-team', [...new Set(window.BLOCK_DETAIL.map(r=>r.team).filter(t=>t && t!=='-'))].sort((a,b)=>a.localeCompare(b,'ko')));
   fillSelect('f-rep', [...new Set(window.BLOCK_DETAIL.map(r=>r.rep).filter(t=>t && t!=='-'))].sort((a,b)=>a.localeCompare(b,'ko')));
   fillSelect('f-year', [...new Set(window.BLOCK_DETAIL.flatMap(r=>r.client_contract_years||[]))].sort());
 }
 
+const fBlockRep = document.getElementById('f-blockrep');
 const fTeam = document.getElementById('f-team');
 const fRep = document.getElementById('f-rep');
 const fYear = document.getElementById('f-year');
@@ -276,6 +307,7 @@ function setupQuarterMsel(){
   updateLabel();
 }
 const tbody = document.getElementById('tbody');
+const blockRepTbody = document.getElementById('blockRepTbody');
 
 function refreshMonthOptions(){
   const months = monthsForYear(fYear.value);
@@ -310,12 +342,13 @@ function render(){
   const cMonthSel = fCMonth.value;
   const itemSel = fItem.value;
   const quarterSel = getSelectedQuarters();
+  const blockRepSel = fBlockRep.value;
   const teamSel = fTeam.value;
   const repSel = fRep.value;
 
   const scoped = hasData ? BlockCommon.scopeDetailByContractMonth(window.BLOCK_DETAIL, yearSel, cMonthSel) : [];
   const refMonth = (monthSel && monthSel !== 'all') ? monthSel : undefined;
-  const blocksAll = hasData ? BlockCommon.transformAll(scoped, window.BLOCK_META, yearSel, refMonth) : [];
+  const blocksAll = hasData ? BlockCommon.transformAll(scoped, window.BLOCK_META, yearSel, refMonth, window.COMPANY_INFO) : [];
   blocksAll.forEach(b => {
     if(!monthSel || monthSel === 'all'){
       b.month = b.ytd;
@@ -324,6 +357,7 @@ function render(){
   });
 
   const blocks = blocksAll.filter(b =>
+    (blockRepSel === 'all' || b.blockRep === blockRepSel) &&
     (teamSel === 'all' || b.team === teamSel) &&
     (repSel === 'all' || b.rep === repSel) &&
     (yearSel === 'all' || b.contractYears.some(y => String(y) === String(yearSel))) &&
@@ -362,6 +396,54 @@ function render(){
   if(yearSel !== 'all') labelParts.push(yearSel + '년 계약');
   document.getElementById('periodLabel').textContent = labelParts.length ? labelParts.join(' · ') : '전체';
   document.getElementById('listMeta').textContent = blocks.length + '개 처 조회됨';
+
+  // ── 블록영업담당자별 집계 ──────────────────────────────
+  const byBlockRep = new Map();
+  blocks.forEach(b => {
+    const br = b.blockRep || '-';
+    if(!byBlockRep.has(br)) byBlockRep.set(br, []);
+    byBlockRep.get(br).push(b);
+  });
+  const blockRepNames = [...byBlockRep.keys()].sort((a,b)=>a.localeCompare(b,'ko'));
+  const blockRepRows = [];
+  let brGrandManagers=0, brGrandBlocks=0, brGrandValidYtd=0, brGrandValidMonth=0, brGrandMbo=0, brGrandActual=0;
+
+  blockRepNames.forEach(br => {
+    const brBlocks = byBlockRep.get(br);
+    const managerCount = new Set(brBlocks.map(b=>b.manager)).size;
+    const cnt = brBlocks.length;
+    const validYtd = brBlocks.filter(b=>effYtd(b)>0).length;
+    const validMonth = brBlocks.filter(b=>effMonth(b)>0).length;
+    const mboSum = brBlocks.reduce((a,b)=>a+effMbo(b),0);
+    const actualSum = brBlocks.reduce((a,b)=>a+effYtd(b),0);
+    const rateYtd = pct(validYtd, cnt);
+    const rateMonth = pct(validMonth, cnt);
+    const achieve = pct(actualSum, mboSum);
+    brGrandManagers+=managerCount; brGrandBlocks+=cnt; brGrandValidYtd+=validYtd; brGrandValidMonth+=validMonth; brGrandMbo+=mboSum; brGrandActual+=actualSum;
+
+    blockRepRows.push(`<tr>
+      <td>${br}</td><td class="num-col">${managerCount}</td><td class="num-col">${cnt}</td>
+      <td class="num-col">${validYtd}</td><td class="rate ${rateYtd>=50?'high':rateYtd>=20?'mid':'low'}">${rateYtd}%</td>
+      <td class="num-col">${validMonth}</td><td class="rate ${rateMonth>=50?'high':rateMonth>=20?'mid':'low'}">${rateMonth}%</td>
+      <td class="num-col">${fmt0(mboSum)}</td><td class="num-col">${fmt0(actualSum)}</td>
+      <td class="rate ${achieve>=100?'high':achieve>=50?'mid':'low'}">${achieve}%</td>
+    </tr>`);
+  });
+
+  if(blocks.length){
+    const brGrandRateYtd = pct(brGrandValidYtd, brGrandBlocks);
+    const brGrandRateMonth = pct(brGrandValidMonth, brGrandBlocks);
+    const brGrandAchieve = pct(brGrandActual, brGrandMbo);
+    blockRepRows.push(`<tr class="grand-row">
+      <td class="label-col">총합계</td><td class="num-col">${brGrandManagers}</td><td class="num-col">${brGrandBlocks}</td>
+      <td class="num-col">${brGrandValidYtd}</td><td class="rate ${brGrandRateYtd>=50?'high':brGrandRateYtd>=20?'mid':'low'}">${brGrandRateYtd}%</td>
+      <td class="num-col">${brGrandValidMonth}</td><td class="rate ${brGrandRateMonth>=50?'high':brGrandRateMonth>=20?'mid':'low'}">${brGrandRateMonth}%</td>
+      <td class="num-col">${fmt0(brGrandMbo)}</td><td class="num-col">${fmt0(brGrandActual)}</td>
+      <td class="rate ${brGrandAchieve>=100?'high':brGrandAchieve>=50?'mid':'low'}">${brGrandAchieve}%</td>
+    </tr>`);
+  }
+  blockRepTbody.innerHTML = blockRepRows.length ? blockRepRows.join('') : `<tr><td colspan="10" style="text-align:center;color:var(--text-mute);padding:20px;">조건에 맞는 블록영업담당자가 없습니다.</td></tr>`;
+  document.getElementById('blockRepMeta').textContent = blockRepNames.length + '명 조회됨';
 
   // 팀 -> 담당자 -> blocks[] 그룹핑 (필터리스트 순서 보존을 위해 팀은 등장 순, 담당자는 가나다순)
   const byTeam = new Map();
@@ -448,7 +530,7 @@ if(hasData){
   fTeam.addEventListener('change', () => { refreshRepOptionsForTeam(); render(); });
   fYear.addEventListener('change', () => { refreshMonthOptions(); refreshCMonthOptions(); render(); });
   fItem.addEventListener('change', () => { refreshCMonthOptions(); render(); });
-  [fRep, fCMonth, fMonth].forEach(s => s.addEventListener('change', render));
+  [fBlockRep, fRep, fCMonth, fMonth].forEach(s => s.addEventListener('change', render));
   setupQuarterMsel();
   render();
 
@@ -468,7 +550,7 @@ if(hasData){
 
     const scoped = BlockCommon.scopeDetailByContractMonth(window.BLOCK_DETAIL, yearSel, cMonthSel);
     const refMonth = (monthSel && monthSel !== 'all') ? monthSel : undefined;
-    const blocksAll = BlockCommon.transformAll(scoped, window.BLOCK_META, yearSel, refMonth);
+    const blocksAll = BlockCommon.transformAll(scoped, window.BLOCK_META, yearSel, refMonth, window.COMPANY_INFO);
     blocksAll.forEach(b => {
       if(!monthSel || monthSel === 'all'){
         b.month = b.ytd;
