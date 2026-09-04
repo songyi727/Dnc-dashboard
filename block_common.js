@@ -78,7 +78,7 @@ const BlockCommon = (function () {
 
   // 블록처 1건(BLOCK_DETAIL의 원소)을 manage.html이 쓰는 형태로 변환.
   // year: 'all'(최신 연도 스냅샷) 또는 특정 연도 문자열/숫자 - 그 연도에 실제 계약된 품목군만 반영됨.
-  function transformBlock(record, meta, year, refMonth) {
+  function transformBlock(record, meta, year, refMonth, companyInfo) {
     const yearSel = year == null ? "all" : year;
     const monthKey = refMonth || meta.current_month;
     const q = {};
@@ -127,8 +127,12 @@ const BlockCommon = (function () {
       return { m: Number(m) + "월", v };
     });
 
+    const managerInfo = companyInfo ? companyInfo[record.manager_biz] : null;
+    const blockRep = managerInfo ? (managerInfo.block_rep || "-") : "-";
+
     return {
       manager: record.manager,
+      blockRep,
       team: record.team || "-",
       rep: record.rep || "-",
       name: record.name,
@@ -145,8 +149,8 @@ const BlockCommon = (function () {
     };
   }
 
-  function transformAll(detail, meta, year, refMonth) {
-    return detail.map(r => transformBlock(r, meta, year, refMonth));
+  function transformAll(detail, meta, year, refMonth, companyInfo) {
+    return detail.map(r => transformBlock(r, meta, year, refMonth, companyInfo));
   }
 
   // 담당자(블록담당자) 단위 요약 - index.html 현황 요약용
@@ -173,6 +177,7 @@ const BlockCommon = (function () {
       const info = companyInfo ? companyInfo[bizKey] : null;
       const name = allRecords[0] ? allRecords[0].manager : (info ? info.name : bizKey);
       const contractYears = allRecords[0] ? (allRecords[0].manager_contract_years || []) : (info ? info.years : []);
+      const blockRep = info ? (info.block_rep || "-") : "-";
 
       let mbo = 0;
       let earliestDate = null;
@@ -240,6 +245,7 @@ const BlockCommon = (function () {
       rows.push({
         name,
         contractYears,
+        blockRep,
         blocks: records.length,
         validBlocks,
         mbo: mbo / 1000000, // 원 단위 -> 백만원 단위 (요약 테이블 스케일에 맞춤)
