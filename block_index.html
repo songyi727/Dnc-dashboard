@@ -258,6 +258,10 @@
       <select id="f-manager"></select>
     </div>
     <div class="filter-group">
+      <label>블록영업담당자</label>
+      <select id="f-blockrep"></select>
+    </div>
+    <div class="filter-group">
       <label>계약품목</label>
       <select id="f-item">
         <option value="all">전체</option>
@@ -374,10 +378,12 @@ if(hasData){
 const allYears = [...new Set(rowsBase.flatMap(r=>r.contractYears))].sort();
 fillSelect('f-year', allYears);
 fillSelect('f-manager', [...new Set(rowsBase.map(r=>r.name))].sort((a,b)=>a.localeCompare(b,'ko')));
+fillSelect('f-blockrep', [...new Set(rowsBase.map(r=>r.blockRep).filter(v=>v && v!=='-'))].sort((a,b)=>a.localeCompare(b,'ko')));
 
 const fYear = document.getElementById('f-year');
 const fCMonth = document.getElementById('f-cmonth');
 const fManager = document.getElementById('f-manager');
+const fBlockRep = document.getElementById('f-blockrep');
 const fMonth = document.getElementById('f-month');
 const fItem = document.getElementById('f-item');
 const listBody = document.getElementById('listBody');
@@ -436,6 +442,7 @@ function render(){
   const rows = buildRows(yearSel, cMonthSel);
   const filtered = rows.filter(r =>
     (fManager.value === 'all' || r.name === fManager.value) &&
+    (fBlockRep.value === 'all' || r.blockRep === fBlockRep.value) &&
     (yearSel === 'all' || r.contractYears.some(y => String(y) === String(yearSel))) &&
     (fItem.value === 'all' || (r.mboByGroup && r.mboByGroup[fItem.value] > 0))
   ).sort((a,b) => {
@@ -604,7 +611,7 @@ function render(){
 
 fYear.addEventListener('change', () => { refreshMonthOptions(); refreshCMonthOptions(); render(); });
 fItem.addEventListener('change', () => { refreshCMonthOptions(); render(); });
-[fCMonth, fManager, fMonth].forEach(s => s.addEventListener('change', render));
+[fCMonth, fManager, fBlockRep, fMonth].forEach(s => s.addEventListener('change', render));
 render();
 
 document.getElementById('btn-export').addEventListener('click', function(e){
@@ -618,6 +625,7 @@ document.getElementById('btn-export').addEventListener('click', function(e){
   const scopedDetail = scopeDetailByContractMonth(window.BLOCK_DETAIL, yearSel, cMonthSel);
   const filtered = buildRows(yearSel, cMonthSel).filter(r =>
     (fManager.value === 'all' || r.name === fManager.value) &&
+    (fBlockRep.value === 'all' || r.blockRep === fBlockRep.value) &&
     (yearSel === 'all' || r.contractYears.some(y => String(y) === String(yearSel))) &&
     (fItem.value === 'all' || (r.mboByGroup && r.mboByGroup[fItem.value] > 0))
   );
@@ -639,6 +647,7 @@ document.getElementById('btn-export').addEventListener('click', function(e){
     }
     return {
       '블록담당자': r.name,
+      '블록영업담당자': r.blockRep,
       '계약일': r.date,
       'Total 블록': r.blocks,
       '유효 처수(연간누적)': r.validBlocks,
