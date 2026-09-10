@@ -9640,11 +9640,15 @@ window.BLOCK_DETAIL = [
               0,
               0
             ],
-            "actual_by_month": {},
+            "actual_by_month": {
+              "2026-09": 0.0
+            },
             "remark": ""
           }
         },
-        "actual_by_month": {}
+        "actual_by_month": {
+          "2026-09": 0.0
+        }
       },
       "리알로": {
         "by_year": {},
@@ -24700,11 +24704,15 @@ window.BLOCK_DETAIL = [
               0,
               0
             ],
-            "actual_by_month": {},
+            "actual_by_month": {
+              "2026-09": 0.0
+            },
             "remark": ""
           }
         },
-        "actual_by_month": {}
+        "actual_by_month": {
+          "2026-09": 0.0
+        }
       },
       "리프팅실": {
         "by_year": {
@@ -40520,11 +40528,15 @@ window.BLOCK_DETAIL = [
               5000000,
               10000000
             ],
-            "actual_by_month": {},
+            "actual_by_month": {
+              "2026-09": 0.0
+            },
             "remark": ""
           }
         },
-        "actual_by_month": {}
+        "actual_by_month": {
+          "2026-09": 0.0
+        }
       }
     }
   },
@@ -46301,11 +46313,15 @@ window.BLOCK_DETAIL = [
               2000000,
               2000000
             ],
-            "actual_by_month": {},
+            "actual_by_month": {
+              "2026-09": 3000000.0
+            },
             "remark": ""
           }
         },
-        "actual_by_month": {}
+        "actual_by_month": {
+          "2026-09": 3000000.0
+        }
       },
       "필러군": {
         "by_year": {
@@ -51303,11 +51319,15 @@ window.BLOCK_DETAIL = [
               5000000,
               10000000
             ],
-            "actual_by_month": {},
+            "actual_by_month": {
+              "2026-09": 0.0
+            },
             "remark": ""
           }
         },
-        "actual_by_month": {}
+        "actual_by_month": {
+          "2026-09": 0.0
+        }
       }
     }
   },
@@ -80127,11 +80147,15 @@ window.BLOCK_DETAIL = [
               1000000,
               1000000
             ],
-            "actual_by_month": {},
+            "actual_by_month": {
+              "2026-09": 0.0
+            },
             "remark": ""
           }
         },
-        "actual_by_month": {}
+        "actual_by_month": {
+          "2026-09": 0.0
+        }
       },
       "리프팅실": {
         "by_year": {
@@ -82860,8 +82884,8 @@ window.BLOCK_META = {
     "2026-08",
     "2026-09"
   ],
-  "generated_at": "2026-09-10 11:09",
-  "latest_sales_date": "2026-09-09"
+  "generated_at": "2026-09-11 08:34",
+  "latest_sales_date": "2026-09-10"
 };
 window.TEAM_MEMBERS = {
   "RPM1팀": [
