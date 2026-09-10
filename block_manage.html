@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>블록 관리장</title>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/exceljs/4.4.0/exceljs.min.js"></script>
 <style>
   :root{
     --bg:#F7F7F5;
@@ -716,7 +716,7 @@ fItem.addEventListener('change', () => { refreshCMonthOptions(); render(); });
 setupQuarterMsel();
 render();
 
-document.getElementById('btn-export').addEventListener('click', function(e){
+document.getElementById('btn-export').addEventListener('click', async function(e){
   e.preventDefault();
   if(!hasData){ alert('데이터가 없습니다.'); return; }
   const pw = prompt('다운로드 비밀번호를 입력하세요');
@@ -742,7 +742,7 @@ document.getElementById('btn-export').addEventListener('click', function(e){
     (f.solo === 'all' || dlSoloGroupOf(b) === f.solo)
   );
 
-  // 처 하나 = 한 행. 품목군마다 MBO/연간누적/당월매출/달성률 4개씩 가로로, 미계약 품목군은 '-' 처리
+  // 처 하나 = 한 행. 품목군마다 MBO/연간누적/당월매출/달성률 4개씩 가로로, 미계약 품목군은 '미계약' 처리
   const idCols = ['블록담당자', '블록영업담당자', '팀', '영업담당자', '블록처', '사업자번호', '계약연도'];
   const groupNames = [...groups.map(g=>g==='리알로'?'리알로파인':g), '합계'];
   const subCols = ['MBO', '연간누적', '당월매출', '달성률(%)'];
@@ -772,62 +772,93 @@ document.getElementById('btn-export').addEventListener('click', function(e){
     return [...idVals, ...groupVals, b.evalLabel, b.remark];
   });
 
-  // 2행 헤더: 1행은 품목군명(4칸 가로병합), 2행은 하위 컬럼명. id/평가/비고는 세로병합.
-  const header1 = [...idCols, ...groupNames.flatMap(g=>[g,'','','']), ...tailCols.map(()=>'')];
-  const header2 = [...idCols.map(()=>''), ...groupNames.flatMap(()=>subCols), ...tailCols];
+  const totalCols = idCols.length + groupNames.length*4 + tailCols.length;
   const tailStart = idCols.length + groupNames.length*4;
-  tailCols.forEach((t,i)=>{ header1[tailStart+i] = t; });
 
-  const aoa = [header1, header2, ...rows];
-  const ws = XLSX.utils.aoa_to_sheet(aoa);
+  const wb = new ExcelJS.Workbook();
+  const ws = wb.addWorksheet('관리장');
 
-  const merges = [];
-  idCols.forEach((_, i)=> merges.push({s:{r:0,c:i}, e:{r:1,c:i}}));
-  groupNames.forEach((_, gi)=>{
-    const c0 = idCols.length + gi*4;
-    merges.push({s:{r:0,c:c0}, e:{r:0,c:c0+3}});
+  const HEADER_FILL = { type:'pattern', pattern:'solid', fgColor:{argb:'FFF5F4F0'} };
+  const HEADER_FONT = { bold:true, size:11 };
+  const HEADER_ALIGN = { horizontal:'center', vertical:'middle', wrapText:true };
+  const THIN_BORDER = { top:{style:'thin',color:{argb:'FFE4E2DC'}}, bottom:{style:'thin',color:{argb:'FFE4E2DC'}}, left:{style:'thin',color:{argb:'FFE4E2DC'}}, right:{style:'thin',color:{argb:'FFE4E2DC'}} };
+
+  // 1행: id컬럼(세로병합) + 품목군명(4칸 가로병합) + 평가/비고(세로병합)
+  idCols.forEach((label, i)=>{
+    const col = i+1;
+    ws.getCell(1, col).value = label;
+    ws.mergeCells(1, col, 2, col);
   });
-  tailCols.forEach((_, i)=> merges.push({s:{r:0,c:tailStart+i}, e:{r:1,c:tailStart+i}}));
-  ws['!merges'] = merges;
+  groupNames.forEach((label, gi)=>{
+    const c0 = idCols.length + gi*4 + 1;
+    ws.getCell(1, c0).value = label;
+    ws.mergeCells(1, c0, 1, c0+3);
+    subCols.forEach((sub, si)=>{
+      ws.getCell(2, c0+si).value = sub;
+    });
+  });
+  tailCols.forEach((label, i)=>{
+    const col = tailStart + i + 1;
+    ws.getCell(1, col).value = label;
+    ws.mergeCells(1, col, 2, col);
+  });
 
-  // 컬럼너비 자동 조정 - 각 열의 헤더/데이터 중 가장 긴 표시길이 기준 (한글은 넉넉히 잡음)
-  const totalCols = header2.length;
-  const colWidths = [];
-  for(let c=0; c<totalCols; c++){
-    let maxLen = 8;
-    [header1[c], header2[c]].forEach(v=>{
-      if(v){ maxLen = Math.max(maxLen, String(v).length * 1.8); }
-    });
-    rows.forEach(row=>{
-      const v = row[c];
-      if(v != null && v !== ''){ maxLen = Math.max(maxLen, String(v).length * 1.6); }
-    });
-    colWidths.push({ wch: Math.min(Math.ceil(maxLen), 28) });
+  // 헤더 스타일(1~2행)
+  for(let r=1; r<=2; r++){
+    for(let c=1; c<=totalCols; c++){
+      const cell = ws.getCell(r, c);
+      cell.font = HEADER_FONT;
+      cell.fill = HEADER_FILL;
+      cell.alignment = HEADER_ALIGN;
+      cell.border = THIN_BORDER;
+    }
   }
-  ws['!cols'] = colWidths;
 
-  // 2행(하위 컬럼명)을 기준으로 자동필터 적용
-  const lastCol = XLSX.utils.encode_col(totalCols - 1);
-  ws['!autofilter'] = { ref: `A2:${lastCol}${aoa.length}` };
-
-  // MBO/연간누적/당월매출(품목군별 4칸 중 앞 3칸) 셀에 회계 서식(천단위 콤마) 적용 - 달성률/'-' 칸은 제외
-  const ACCT_FMT = '_-* #,##0_-;-* #,##0_-;_-* "-"_-;_-@_-';
-  groupNames.forEach((_, gi)=>{
-    const c0 = idCols.length + gi*4;
-    [c0, c0+1, c0+2].forEach(c=>{
-      for(let r=2; r<aoa.length; r++){
-        const cellRef = XLSX.utils.encode_cell({r, c});
-        const cell = ws[cellRef];
-        if(cell && typeof cell.v === 'number'){
-          cell.z = ACCT_FMT;
-        }
+  // 데이터 행
+  const ACCT_FMT = '#,##0;-#,##0;"-"';
+  rows.forEach((row, ri)=>{
+    const r = ri + 3;
+    row.forEach((val, ci)=>{
+      const cell = ws.getCell(r, ci+1);
+      cell.value = val;
+      cell.border = THIN_BORDER;
+      const inGroupSection = ci >= idCols.length && ci < tailStart;
+      const subIdx = (ci - idCols.length) % 4;
+      if(inGroupSection && subIdx < 3 && typeof val === 'number'){
+        cell.numFmt = ACCT_FMT;
+        cell.alignment = { horizontal:'right' };
+      } else if(inGroupSection && subIdx === 3 && typeof val === 'number'){
+        cell.alignment = { horizontal:'right' };
       }
     });
   });
 
-  const wb = XLSX.utils.book_new();
-  XLSX.utils.book_append_sheet(wb, ws, '관리장');
-  XLSX.writeFile(wb, `블록관리장_상세.xlsx`);
+  // 컬럼너비 자동 조정
+  for(let c=1; c<=totalCols; c++){
+    let maxLen = 8;
+    const h1 = ws.getCell(1, c).value;
+    const h2 = ws.getCell(2, c).value;
+    [h1, h2].forEach(v=>{ if(v){ maxLen = Math.max(maxLen, String(v).length * 1.8); } });
+    rows.forEach(row=>{
+      const v = row[c-1];
+      if(v != null && v !== ''){ maxLen = Math.max(maxLen, String(v).length * 1.6); }
+    });
+    ws.getColumn(c).width = Math.min(Math.ceil(maxLen), 28);
+  }
+
+  // 2행 기준 자동필터 + 헤더(1~2행) 틀고정
+  const lastColLetter = ws.getColumn(totalCols).letter;
+  ws.autoFilter = { from: `A2`, to: `${lastColLetter}${rows.length+2}` };
+  ws.views = [{ state:'frozen', xSplit: idCols.length, ySplit: 2 }];
+
+  const buf = await wb.xlsx.writeBuffer();
+  const blob = new Blob([buf], { type:'application/octet-stream' });
+  const url = URL.createObjectURL(blob);
+  const a = document.createElement('a');
+  a.href = url;
+  a.download = '블록관리장_상세.xlsx';
+  a.click();
+  URL.revokeObjectURL(url);
 });
 </script>
 </body>
