@@ -127,6 +127,26 @@ def build_html(d):
           <td style="{TOT};color:{chg_color(d.get('avg3_r'))}">{chg_arrow(d.get('avg3_r'))}</td>
         </tr>"""
 
+    # 담당자별 당월 매출 행
+    person_rows = ""
+    team_totals = {}
+    for p in d.get("person_data", []):
+        t = p["team"]
+        if t not in team_totals:
+            team_totals[t] = {"val": 0, "daily": 0}
+        team_totals[t]["val"] += p["val"]
+        team_totals[t]["daily"] += p["daily"]
+    cur_team = None
+    for p in d.get("person_data", []):
+        t = p["team"]
+        if t != cur_team:
+            cur_team = t
+            tt = team_totals[t]
+            person_rows += f'<tr style="background:#f5f5f3"><td style="{TDL};font-weight:500">{t}</td><td style="{TD};font-weight:500;text-align:left">소계</td><td style="{TD};font-weight:500">{fs(tt["daily"])}</td><td style="{TD};font-weight:500">{fs(tt["val"])}</td><td style="{TD}">-</td></tr>'
+        person_rows += f'<tr><td style="{TDL}"></td><td style="{TD};text-align:left;color:#666">{p["person"]}</td><td style="{TD}">{fs(p["daily"])}</td><td style="{TD};font-weight:500">{fs(p["val"])}</td><td style="{TD};color:{rate_color(p.get("rate"))}">{rate_str(p.get("rate"))}</td></tr>'
+    total_daily = sum(p["daily"] for p in d.get("person_data", []))
+    person_rows += f'<tr><td style="{TOTL}" colspan="2">합계</td><td style="{TOT}">{fs(total_daily)}</td><td style="{TOT}">{fs(d["cur_sales"])}</td><td style="{TOT};color:{rate_color(mr)}">{rate_str(mr)}</td></tr>'
+
     # 주요 품목 누적 매출 행 (매출+달성률만)
     acc_rows = ''
     acc_total = 0
@@ -256,6 +276,16 @@ def build_html(d):
         <th style="{THL}">팀</th><th style="{TH}">매출</th><th style="{TH}">달성률</th><th style="{TH}">전월대비</th><th style="{TH}">직3평균대비</th>
       </tr></thead>
       <tbody>{team_rows}</tbody>
+    </table>
+  </div>
+
+  <div style="padding:1.25rem 1.5rem;border-bottom:0.5px solid #eee">
+    <div style="font-size:12px;font-weight:500;color:#1a1a1a;margin-bottom:12px">👤 담당자별 당월 매출 <span style="font-size:10px;color:#888;font-weight:400">({max_date} 기준)</span></div>
+    <table width="100%" cellpadding="0" cellspacing="0" style="border:0.5px solid #eee;border-radius:8px;overflow:hidden">
+      <thead><tr style="background:#f5f5f3">
+        <th style="{THL}">팀</th><th style="{TH};text-align:left">담당자</th><th style="{TH}">당일</th><th style="{TH}">누적</th><th style="{TH}">달성률</th>
+      </tr></thead>
+      <tbody>{person_rows}</tbody>
     </table>
   </div>
 
