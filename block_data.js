@@ -81584,9 +81584,10 @@ window.BLOCK_DETAIL = [
     }
   },
   {
-    "manager": "클리노베",
-    "manager_biz": 3032765307,
+    "manager": "클리메드",
+    "manager_biz": 2435001090,
     "manager_contract_years": [
+      2025,
       2026
     ],
     "team": "RPM1팀",
@@ -81680,9 +81681,10 @@ window.BLOCK_DETAIL = [
     }
   },
   {
-    "manager": "클리노베",
-    "manager_biz": 3032765307,
+    "manager": "클리메드",
+    "manager_biz": 2435001090,
     "manager_contract_years": [
+      2025,
       2026
     ],
     "team": "RPM1팀",
@@ -82900,7 +82902,7 @@ window.BLOCK_META = {
     "2026-08",
     "2026-09"
   ],
-  "generated_at": "2026-09-14 08:35",
+  "generated_at": "2026-09-14 16:42",
   "latest_sales_date": "2026-09-13"
 };
 window.TEAM_MEMBERS = {
