@@ -13088,7 +13088,8 @@ window.BLOCK_DETAIL = [
       "리알로": {
         "by_year": {},
         "actual_by_month": {
-          "2026-08": 0.0
+          "2026-08": 0.0,
+          "2026-09": 27000000.0
         }
       }
     }
@@ -69456,13 +69457,15 @@ window.BLOCK_DETAIL = [
               4000000
             ],
             "actual_by_month": {
-              "2026-08": 0.0
+              "2026-08": 0.0,
+              "2026-09": 27000000.0
             },
             "remark": ""
           }
         },
         "actual_by_month": {
-          "2026-08": 0.0
+          "2026-08": 0.0,
+          "2026-09": 27000000.0
         }
       }
     }
@@ -82979,8 +82982,8 @@ window.BLOCK_META = {
     "2026-08",
     "2026-09"
   ],
-  "generated_at": "2026-09-22 08:36",
-  "latest_sales_date": "2026-09-21"
+  "generated_at": "2026-09-23 08:30",
+  "latest_sales_date": "2026-09-22"
 };
 window.TEAM_MEMBERS = {
   "RPM1팀": [
