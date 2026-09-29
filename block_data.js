@@ -6292,7 +6292,8 @@ window.BLOCK_DETAIL = [
             "actual_by_month": {
               "2026-02": 3181819.0,
               "2026-05": 3181819.0,
-              "2026-07": 3181819.0
+              "2026-07": 3181819.0,
+              "2026-09": 3181819.0
             },
             "remark": ""
           }
@@ -6308,7 +6309,8 @@ window.BLOCK_DETAIL = [
           "2025-11": 3181819.0,
           "2026-02": 3181819.0,
           "2026-05": 3181819.0,
-          "2026-07": 3181819.0
+          "2026-07": 3181819.0,
+          "2026-09": 3181819.0
         }
       },
       "브이올렛": {
@@ -10778,8 +10780,8 @@ window.BLOCK_DETAIL = [
       2026
     ],
     "months_since_contract": 20,
-    "remark": "사업자변경(폐업)",
-    "recalled": false,
+    "remark": "회수",
+    "recalled": true,
     "groups": {
       "나보타": {
         "by_year": {
@@ -10813,7 +10815,7 @@ window.BLOCK_DETAIL = [
             "actual_by_month": {
               "2026-02": 11363640.0
             },
-            "remark": "사업자변경(폐업)"
+            "remark": "회수"
           }
         },
         "actual_by_month": {
@@ -10851,7 +10853,7 @@ window.BLOCK_DETAIL = [
               0
             ],
             "actual_by_month": {},
-            "remark": "사업자변경(폐업)"
+            "remark": "회수"
           }
         },
         "actual_by_month": {}
@@ -10880,7 +10882,7 @@ window.BLOCK_DETAIL = [
               4000000
             ],
             "actual_by_month": {},
-            "remark": "사업자변경(폐업)"
+            "remark": "회수"
           }
         },
         "actual_by_month": {}
@@ -10909,7 +10911,7 @@ window.BLOCK_DETAIL = [
               0
             ],
             "actual_by_month": {},
-            "remark": "사업자변경(폐업)"
+            "remark": "회수"
           }
         },
         "actual_by_month": {}
@@ -25723,7 +25725,8 @@ window.BLOCK_DETAIL = [
               "2026-04": 409091.0,
               "2026-06": 409091.0,
               "2026-07": 818182.0,
-              "2026-08": 409091.0
+              "2026-08": 409091.0,
+              "2026-09": 409091.0
             },
             "remark": ""
           }
@@ -25738,7 +25741,8 @@ window.BLOCK_DETAIL = [
           "2026-04": 409091.0,
           "2026-06": 409091.0,
           "2026-07": 818182.0,
-          "2026-08": 409091.0
+          "2026-08": 409091.0,
+          "2026-09": 409091.0
         }
       },
       "필러군": {
@@ -28496,7 +28500,7 @@ window.BLOCK_DETAIL = [
               "2026-06": 1227273.0,
               "2026-07": 1227273.0,
               "2026-08": 1636364.0,
-              "2026-09": 1227273.0
+              "2026-09": 2045455.0
             },
             "remark": ""
           }
@@ -28538,7 +28542,7 @@ window.BLOCK_DETAIL = [
           "2026-06": 1227273.0,
           "2026-07": 1227273.0,
           "2026-08": 1636364.0,
-          "2026-09": 1227273.0
+          "2026-09": 2045455.0
         }
       },
       "브이올렛": {
@@ -28638,7 +28642,8 @@ window.BLOCK_DETAIL = [
               "2026-04": 593182.0,
               "2026-06": 593182.0,
               "2026-07": 593182.0,
-              "2026-08": 545454.0
+              "2026-08": 545454.0,
+              "2026-09": 545455.0
             },
             "remark": ""
           }
@@ -28657,7 +28662,8 @@ window.BLOCK_DETAIL = [
           "2026-04": 593182.0,
           "2026-06": 593182.0,
           "2026-07": 593182.0,
-          "2026-08": 545454.0
+          "2026-08": 545454.0,
+          "2026-09": 545455.0
         }
       },
       "리알로": {
@@ -55338,7 +55344,20 @@ window.BLOCK_DETAIL = [
         "actual_by_month": {}
       },
       "리알로": {
-        "by_year": {},
+        "by_year": {
+          "2026": {
+            "contracted": true,
+            "contract_date": "2026-09-01",
+            "mbo_q": [
+              5000000,
+              5000000,
+              10000000,
+              10000000
+            ],
+            "actual_by_month": {},
+            "remark": ""
+          }
+        },
         "actual_by_month": {}
       }
     }
@@ -55630,7 +55649,20 @@ window.BLOCK_DETAIL = [
         "actual_by_month": {}
       },
       "리알로": {
-        "by_year": {},
+        "by_year": {
+          "2026": {
+            "contracted": true,
+            "contract_date": "2026-09-01",
+            "mbo_q": [
+              3000000,
+              3000000,
+              5000000,
+              5000000
+            ],
+            "actual_by_month": {},
+            "remark": ""
+          }
+        },
         "actual_by_month": {}
       }
     }
@@ -56026,7 +56058,7 @@ window.BLOCK_DETAIL = [
     ],
     "team": "RPM4팀",
     "rep": "김재진",
-    "name": "\t메이린의원울산점",
+    "name": "메이린의원울산점",
     "biz": 7860200597,
     "contract_date": "2026-01-01",
     "client_contract_years": [
@@ -56119,7 +56151,20 @@ window.BLOCK_DETAIL = [
         "actual_by_month": {}
       },
       "리알로": {
-        "by_year": {},
+        "by_year": {
+          "2026": {
+            "contracted": true,
+            "contract_date": "2026-09-01",
+            "mbo_q": [
+              3000000,
+              3000000,
+              5000000,
+              5000000
+            ],
+            "actual_by_month": {},
+            "remark": ""
+          }
+        },
         "actual_by_month": {}
       }
     }
@@ -56731,7 +56776,20 @@ window.BLOCK_DETAIL = [
         "actual_by_month": {}
       },
       "리알로": {
-        "by_year": {},
+        "by_year": {
+          "2026": {
+            "contracted": true,
+            "contract_date": "2026-09-01",
+            "mbo_q": [
+              3000000,
+              3000000,
+              5000000,
+              5000000
+            ],
+            "actual_by_month": {},
+            "remark": ""
+          }
+        },
         "actual_by_month": {}
       }
     }
@@ -59043,7 +59101,20 @@ window.BLOCK_DETAIL = [
         "actual_by_month": {}
       },
       "리알로": {
-        "by_year": {},
+        "by_year": {
+          "2026": {
+            "contracted": true,
+            "contract_date": "2026-09-01",
+            "mbo_q": [
+              3000000,
+              3000000,
+              5000000,
+              5000000
+            ],
+            "actual_by_month": {},
+            "remark": ""
+          }
+        },
         "actual_by_month": {}
       }
     }
@@ -59277,7 +59348,20 @@ window.BLOCK_DETAIL = [
         "actual_by_month": {}
       },
       "리알로": {
-        "by_year": {},
+        "by_year": {
+          "2026": {
+            "contracted": true,
+            "contract_date": "2026-09-01",
+            "mbo_q": [
+              3000000,
+              3000000,
+              5000000,
+              5000000
+            ],
+            "actual_by_month": {},
+            "remark": ""
+          }
+        },
         "actual_by_month": {}
       }
     }
@@ -67440,7 +67524,20 @@ window.BLOCK_DETAIL = [
         "actual_by_month": {}
       },
       "리알로": {
-        "by_year": {},
+        "by_year": {
+          "2026": {
+            "contracted": true,
+            "contract_date": "2026-09-01",
+            "mbo_q": [
+              3000000,
+              3000000,
+              5000000,
+              5000000
+            ],
+            "actual_by_month": {},
+            "remark": ""
+          }
+        },
         "actual_by_month": {}
       }
     }
@@ -72269,8 +72366,8 @@ window.BLOCK_DETAIL = [
       2026
     ],
     "months_since_contract": 2,
-    "remark": "",
-    "recalled": false,
+    "remark": "회수",
+    "recalled": true,
     "groups": {
       "나보타": {
         "by_year": {},
@@ -72300,7 +72397,7 @@ window.BLOCK_DETAIL = [
               10000000
             ],
             "actual_by_month": {},
-            "remark": ""
+            "remark": "회수"
           }
         },
         "actual_by_month": {}
@@ -73188,11 +73285,15 @@ window.BLOCK_DETAIL = [
               10000000,
               10000000
             ],
-            "actual_by_month": {},
+            "actual_by_month": {
+              "2026-09": 9000000.0
+            },
             "remark": ""
           }
         },
-        "actual_by_month": {}
+        "actual_by_month": {
+          "2026-09": 9000000.0
+        }
       }
     }
   },
@@ -76101,11 +76202,15 @@ window.BLOCK_DETAIL = [
               10000000,
               10000000
             ],
-            "actual_by_month": {},
+            "actual_by_month": {
+              "2026-09": 9000000.0
+            },
             "remark": ""
           }
         },
-        "actual_by_month": {}
+        "actual_by_month": {
+          "2026-09": 9000000.0
+        }
       }
     }
   },
@@ -82712,6 +82817,1435 @@ window.BLOCK_DETAIL = [
         "actual_by_month": {}
       }
     }
+  },
+  {
+    "manager": "디웍스바이오",
+    "manager_biz": 6305000903,
+    "manager_contract_years": [
+      2025,
+      2026
+    ],
+    "team": "RPM1팀",
+    "rep": "박기주",
+    "name": "보니따의원",
+    "biz": 1141449459,
+    "contract_date": "2026-09-01",
+    "client_contract_years": [
+      2026
+    ],
+    "months_since_contract": 0,
+    "remark": "",
+    "recalled": false,
+    "groups": {
+      "나보타": {
+        "by_year": {
+          "2026": {
+            "contracted": true,
+            "contract_date": "2026-09-01",
+            "mbo_q": [
+              3000000,
+              5000000,
+              5000000,
+              8000000
+            ],
+            "actual_by_month": {},
+            "remark": ""
+          }
+        },
+        "actual_by_month": {}
+      },
+      "브이올렛": {
+        "by_year": {
+          "2026": {
+            "contracted": true,
+            "contract_date": "2026-09-01",
+            "mbo_q": [
+              1500000.0,
+              1500000.0,
+              2500000.0,
+              5000000
+            ],
+            "actual_by_month": {},
+            "remark": ""
+          }
+        },
+        "actual_by_month": {}
+      },
+      "필러군": {
+        "by_year": {
+          "2026": {
+            "contracted": true,
+            "contract_date": "2026-09-01",
+            "mbo_q": [
+              1000000,
+              2000000,
+              2000000,
+              3000000
+            ],
+            "actual_by_month": {},
+            "remark": ""
+          }
+        },
+        "actual_by_month": {}
+      },
+      "리프팅실": {
+        "by_year": {
+          "2026": {
+            "contracted": true,
+            "contract_date": "2026-09-01",
+            "mbo_q": [
+              500000.0,
+              500000.0,
+              1000000,
+              1500000.0
+            ],
+            "actual_by_month": {},
+            "remark": ""
+          }
+        },
+        "actual_by_month": {}
+      },
+      "리알로": {
+        "by_year": {
+          "2026": {
+            "contracted": true,
+            "contract_date": "2026-09-01",
+            "mbo_q": [
+              3000000,
+              5000000,
+              5000000,
+              6000000
+            ],
+            "actual_by_month": {},
+            "remark": ""
+          }
+        },
+        "actual_by_month": {}
+      }
+    }
+  },
+  {
+    "manager": "램프(LAMP)",
+    "manager_biz": 8116800337,
+    "manager_contract_years": [
+      2025,
+      2026
+    ],
+    "team": "RPM1팀",
+    "rep": "박기주",
+    "name": "픽셀렙성형외과",
+    "biz": 1791202350,
+    "contract_date": "2026-09-01",
+    "client_contract_years": [
+      2026
+    ],
+    "months_since_contract": 0,
+    "remark": "",
+    "recalled": false,
+    "groups": {
+      "나보타": {
+        "by_year": {},
+        "actual_by_month": {}
+      },
+      "브이올렛": {
+        "by_year": {},
+        "actual_by_month": {}
+      },
+      "필러군": {
+        "by_year": {},
+        "actual_by_month": {}
+      },
+      "리프팅실": {
+        "by_year": {},
+        "actual_by_month": {}
+      },
+      "리알로": {
+        "by_year": {
+          "2026": {
+            "contracted": true,
+            "contract_date": "2026-09-01",
+            "mbo_q": [
+              2000000,
+              2000000,
+              10000000,
+              10000000
+            ],
+            "actual_by_month": {},
+            "remark": ""
+          }
+        },
+        "actual_by_month": {}
+      }
+    }
+  },
+  {
+    "manager": "아이디파트너스",
+    "manager_biz": 5498803494,
+    "manager_contract_years": [
+      2026
+    ],
+    "team": "RPM1팀",
+    "rep": "박기주",
+    "name": "지우의원",
+    "biz": 3396400405,
+    "contract_date": "2026-09-01",
+    "client_contract_years": [
+      2026
+    ],
+    "months_since_contract": 0,
+    "remark": "",
+    "recalled": false,
+    "groups": {
+      "나보타": {
+        "by_year": {},
+        "actual_by_month": {}
+      },
+      "브이올렛": {
+        "by_year": {},
+        "actual_by_month": {}
+      },
+      "필러군": {
+        "by_year": {},
+        "actual_by_month": {}
+      },
+      "리프팅실": {
+        "by_year": {},
+        "actual_by_month": {}
+      },
+      "리알로": {
+        "by_year": {
+          "2026": {
+            "contracted": true,
+            "contract_date": "2026-09-01",
+            "mbo_q": [
+              1000000,
+              1000000,
+              2000000,
+              2000000
+            ],
+            "actual_by_month": {},
+            "remark": ""
+          }
+        },
+        "actual_by_month": {}
+      }
+    }
+  },
+  {
+    "manager": "주식회사 오피앤",
+    "manager_biz": 6308702474,
+    "manager_contract_years": [
+      2026
+    ],
+    "team": "RPM1팀",
+    "rep": "박기주",
+    "name": "노바 성형외과",
+    "biz": 5870503697,
+    "contract_date": "2026-09-01",
+    "client_contract_years": [
+      2026
+    ],
+    "months_since_contract": 0,
+    "remark": "",
+    "recalled": false,
+    "groups": {
+      "나보타": {
+        "by_year": {
+          "2026": {
+            "contracted": true,
+            "contract_date": "2026-09-01",
+            "mbo_q": [
+              3500000.0,
+              3500000.0,
+              3500000.0,
+              3500000.0
+            ],
+            "actual_by_month": {},
+            "remark": ""
+          }
+        },
+        "actual_by_month": {}
+      },
+      "브이올렛": {
+        "by_year": {
+          "2026": {
+            "contracted": true,
+            "contract_date": "2026-09-01",
+            "mbo_q": [
+              2500000.0,
+              2500000.0,
+              2500000.0,
+              2500000.0
+            ],
+            "actual_by_month": {},
+            "remark": ""
+          }
+        },
+        "actual_by_month": {}
+      },
+      "필러군": {
+        "by_year": {
+          "2026": {
+            "contracted": true,
+            "contract_date": "2026-09-01",
+            "mbo_q": [
+              2640000.0,
+              2640000.0,
+              2640000.0,
+              2640000.0
+            ],
+            "actual_by_month": {},
+            "remark": ""
+          }
+        },
+        "actual_by_month": {}
+      },
+      "리프팅실": {
+        "by_year": {
+          "2026": {
+            "contracted": true,
+            "contract_date": "2026-09-01",
+            "mbo_q": [
+              2640000.0,
+              2640000.0,
+              2640000.0,
+              2640000.0
+            ],
+            "actual_by_month": {},
+            "remark": ""
+          }
+        },
+        "actual_by_month": {}
+      },
+      "리알로": {
+        "by_year": {
+          "2026": {
+            "contracted": true,
+            "contract_date": "2026-09-01",
+            "mbo_q": [
+              2970000.0,
+              2970000.0,
+              2970000.0,
+              2970000.0
+            ],
+            "actual_by_month": {},
+            "remark": ""
+          }
+        },
+        "actual_by_month": {}
+      }
+    }
+  },
+  {
+    "manager": "주식회사 오피앤",
+    "manager_biz": 6308702474,
+    "manager_contract_years": [
+      2026
+    ],
+    "team": "RPM1팀",
+    "rep": "박기주",
+    "name": "애티튜드의원",
+    "biz": 6053794065,
+    "contract_date": "2026-09-01",
+    "client_contract_years": [
+      2026
+    ],
+    "months_since_contract": 0,
+    "remark": "",
+    "recalled": false,
+    "groups": {
+      "나보타": {
+        "by_year": {
+          "2026": {
+            "contracted": true,
+            "contract_date": "2026-09-01",
+            "mbo_q": [
+              3500000.0,
+              3500000.0,
+              3500000.0,
+              3500000.0
+            ],
+            "actual_by_month": {},
+            "remark": ""
+          }
+        },
+        "actual_by_month": {}
+      },
+      "브이올렛": {
+        "by_year": {
+          "2026": {
+            "contracted": true,
+            "contract_date": "2026-09-01",
+            "mbo_q": [
+              2500000.0,
+              2500000.0,
+              2500000.0,
+              2500000.0
+            ],
+            "actual_by_month": {},
+            "remark": ""
+          }
+        },
+        "actual_by_month": {}
+      },
+      "필러군": {
+        "by_year": {
+          "2026": {
+            "contracted": true,
+            "contract_date": "2026-09-01",
+            "mbo_q": [
+              2640000.0,
+              2640000.0,
+              2640000.0,
+              2640000.0
+            ],
+            "actual_by_month": {},
+            "remark": ""
+          }
+        },
+        "actual_by_month": {}
+      },
+      "리프팅실": {
+        "by_year": {
+          "2026": {
+            "contracted": true,
+            "contract_date": "2026-09-01",
+            "mbo_q": [
+              2640000.0,
+              2640000.0,
+              2640000.0,
+              2640000.0
+            ],
+            "actual_by_month": {},
+            "remark": ""
+          }
+        },
+        "actual_by_month": {}
+      },
+      "리알로": {
+        "by_year": {
+          "2026": {
+            "contracted": true,
+            "contract_date": "2026-09-01",
+            "mbo_q": [
+              2970000.0,
+              2970000.0,
+              2970000.0,
+              2970000.0
+            ],
+            "actual_by_month": {},
+            "remark": ""
+          }
+        },
+        "actual_by_month": {}
+      }
+    }
+  },
+  {
+    "manager": "주식회사 오피앤",
+    "manager_biz": 6308702474,
+    "manager_contract_years": [
+      2026
+    ],
+    "team": "RPM1팀",
+    "rep": "박기주",
+    "name": "웨이비의원",
+    "biz": 2024601054,
+    "contract_date": "2026-09-01",
+    "client_contract_years": [
+      2026
+    ],
+    "months_since_contract": 0,
+    "remark": "",
+    "recalled": false,
+    "groups": {
+      "나보타": {
+        "by_year": {
+          "2026": {
+            "contracted": true,
+            "contract_date": "2026-09-01",
+            "mbo_q": [
+              3500000.0,
+              3500000.0,
+              3500000.0,
+              3500000.0
+            ],
+            "actual_by_month": {},
+            "remark": ""
+          }
+        },
+        "actual_by_month": {}
+      },
+      "브이올렛": {
+        "by_year": {
+          "2026": {
+            "contracted": true,
+            "contract_date": "2026-09-01",
+            "mbo_q": [
+              2500000.0,
+              2500000.0,
+              2500000.0,
+              2500000.0
+            ],
+            "actual_by_month": {},
+            "remark": ""
+          }
+        },
+        "actual_by_month": {}
+      },
+      "필러군": {
+        "by_year": {
+          "2026": {
+            "contracted": true,
+            "contract_date": "2026-09-01",
+            "mbo_q": [
+              2640000.0,
+              2640000.0,
+              2640000.0,
+              2640000.0
+            ],
+            "actual_by_month": {},
+            "remark": ""
+          }
+        },
+        "actual_by_month": {}
+      },
+      "리프팅실": {
+        "by_year": {
+          "2026": {
+            "contracted": true,
+            "contract_date": "2026-09-01",
+            "mbo_q": [
+              2640000.0,
+              2640000.0,
+              2640000.0,
+              2640000.0
+            ],
+            "actual_by_month": {},
+            "remark": ""
+          }
+        },
+        "actual_by_month": {}
+      },
+      "리알로": {
+        "by_year": {
+          "2026": {
+            "contracted": true,
+            "contract_date": "2026-09-01",
+            "mbo_q": [
+              2970000.0,
+              2970000.0,
+              2970000.0,
+              2970000.0
+            ],
+            "actual_by_month": {},
+            "remark": ""
+          }
+        },
+        "actual_by_month": {}
+      }
+    }
+  },
+  {
+    "manager": "주식회사 오피앤",
+    "manager_biz": 6308702474,
+    "manager_contract_years": [
+      2026
+    ],
+    "team": "RPM3팀",
+    "rep": "박천",
+    "name": "미라보의원",
+    "biz": 2496400683,
+    "contract_date": "2026-09-01",
+    "client_contract_years": [
+      2026
+    ],
+    "months_since_contract": 0,
+    "remark": "",
+    "recalled": false,
+    "groups": {
+      "나보타": {
+        "by_year": {
+          "2026": {
+            "contracted": true,
+            "contract_date": "2026-09-01",
+            "mbo_q": [
+              3500000.0,
+              3500000.0,
+              3500000.0,
+              3500000.0
+            ],
+            "actual_by_month": {},
+            "remark": ""
+          }
+        },
+        "actual_by_month": {}
+      },
+      "브이올렛": {
+        "by_year": {
+          "2026": {
+            "contracted": true,
+            "contract_date": "2026-09-01",
+            "mbo_q": [
+              2500000.0,
+              2500000.0,
+              2500000.0,
+              2500000.0
+            ],
+            "actual_by_month": {},
+            "remark": ""
+          }
+        },
+        "actual_by_month": {}
+      },
+      "필러군": {
+        "by_year": {
+          "2026": {
+            "contracted": true,
+            "contract_date": "2026-09-01",
+            "mbo_q": [
+              2640000.0,
+              2640000.0,
+              2640000.0,
+              2640000.0
+            ],
+            "actual_by_month": {},
+            "remark": ""
+          }
+        },
+        "actual_by_month": {}
+      },
+      "리프팅실": {
+        "by_year": {
+          "2026": {
+            "contracted": true,
+            "contract_date": "2026-09-01",
+            "mbo_q": [
+              2640000.0,
+              2640000.0,
+              2640000.0,
+              2640000.0
+            ],
+            "actual_by_month": {},
+            "remark": ""
+          }
+        },
+        "actual_by_month": {}
+      },
+      "리알로": {
+        "by_year": {
+          "2026": {
+            "contracted": true,
+            "contract_date": "2026-09-01",
+            "mbo_q": [
+              2970000.0,
+              2970000.0,
+              2970000.0,
+              2970000.0
+            ],
+            "actual_by_month": {},
+            "remark": ""
+          }
+        },
+        "actual_by_month": {}
+      }
+    }
+  },
+  {
+    "manager": "램프(LAMP)",
+    "manager_biz": 8116800337,
+    "manager_contract_years": [
+      2025,
+      2026
+    ],
+    "team": "RPM3팀",
+    "rep": "홍원의",
+    "name": "유라인의원",
+    "biz": 7842800174,
+    "contract_date": "2026-09-01",
+    "client_contract_years": [
+      2026
+    ],
+    "months_since_contract": 0,
+    "remark": "",
+    "recalled": false,
+    "groups": {
+      "나보타": {
+        "by_year": {
+          "2026": {
+            "contracted": true,
+            "contract_date": "2026-09-01",
+            "mbo_q": [
+              10000000,
+              10000000,
+              20000000,
+              20000000
+            ],
+            "actual_by_month": {},
+            "remark": ""
+          }
+        },
+        "actual_by_month": {}
+      },
+      "브이올렛": {
+        "by_year": {
+          "2026": {
+            "contracted": true,
+            "contract_date": "2026-09-01",
+            "mbo_q": [
+              5000000,
+              5000000,
+              5000000,
+              5000000
+            ],
+            "actual_by_month": {},
+            "remark": ""
+          }
+        },
+        "actual_by_month": {}
+      },
+      "필러군": {
+        "by_year": {
+          "2026": {
+            "contracted": true,
+            "contract_date": "2026-09-01",
+            "mbo_q": [
+              1000000,
+              1000000,
+              5000000,
+              5000000
+            ],
+            "actual_by_month": {},
+            "remark": ""
+          }
+        },
+        "actual_by_month": {}
+      },
+      "리프팅실": {
+        "by_year": {
+          "2026": {
+            "contracted": true,
+            "contract_date": "2026-09-01",
+            "mbo_q": [
+              500000.0,
+              500000.0,
+              1000000,
+              1000000
+            ],
+            "actual_by_month": {},
+            "remark": ""
+          }
+        },
+        "actual_by_month": {}
+      },
+      "리알로": {
+        "by_year": {
+          "2026": {
+            "contracted": true,
+            "contract_date": "2026-09-01",
+            "mbo_q": [
+              1000000,
+              1000000,
+              5000000,
+              5000000
+            ],
+            "actual_by_month": {},
+            "remark": ""
+          }
+        },
+        "actual_by_month": {}
+      }
+    }
+  },
+  {
+    "manager": "주식회사 오피앤",
+    "manager_biz": 6308702474,
+    "manager_contract_years": [
+      2026
+    ],
+    "team": "RPM3팀",
+    "rep": "홍원의",
+    "name": "부스트의원",
+    "biz": 3724001399,
+    "contract_date": "2026-09-01",
+    "client_contract_years": [
+      2026
+    ],
+    "months_since_contract": 0,
+    "remark": "",
+    "recalled": false,
+    "groups": {
+      "나보타": {
+        "by_year": {
+          "2026": {
+            "contracted": true,
+            "contract_date": "2026-09-01",
+            "mbo_q": [
+              3500000.0,
+              3500000.0,
+              3500000.0,
+              3500000.0
+            ],
+            "actual_by_month": {},
+            "remark": ""
+          }
+        },
+        "actual_by_month": {}
+      },
+      "브이올렛": {
+        "by_year": {
+          "2026": {
+            "contracted": true,
+            "contract_date": "2026-09-01",
+            "mbo_q": [
+              2500000.0,
+              2500000.0,
+              2500000.0,
+              2500000.0
+            ],
+            "actual_by_month": {},
+            "remark": ""
+          }
+        },
+        "actual_by_month": {}
+      },
+      "필러군": {
+        "by_year": {
+          "2026": {
+            "contracted": true,
+            "contract_date": "2026-09-01",
+            "mbo_q": [
+              2640000.0,
+              2640000.0,
+              2640000.0,
+              2640000.0
+            ],
+            "actual_by_month": {},
+            "remark": ""
+          }
+        },
+        "actual_by_month": {}
+      },
+      "리프팅실": {
+        "by_year": {
+          "2026": {
+            "contracted": true,
+            "contract_date": "2026-09-01",
+            "mbo_q": [
+              2640000.0,
+              2640000.0,
+              2640000.0,
+              2640000.0
+            ],
+            "actual_by_month": {},
+            "remark": ""
+          }
+        },
+        "actual_by_month": {}
+      },
+      "리알로": {
+        "by_year": {
+          "2026": {
+            "contracted": true,
+            "contract_date": "2026-09-01",
+            "mbo_q": [
+              2970000.0,
+              2970000.0,
+              2970000.0,
+              2970000.0
+            ],
+            "actual_by_month": {},
+            "remark": ""
+          }
+        },
+        "actual_by_month": {}
+      }
+    }
+  },
+  {
+    "manager": "바모스",
+    "manager_biz": 8830203726,
+    "manager_contract_years": [
+      2026
+    ],
+    "team": "RPM4팀",
+    "rep": "송진영",
+    "name": "미미썸의원(김해)",
+    "biz": 7930203869,
+    "contract_date": "2026-09-01",
+    "client_contract_years": [
+      2026
+    ],
+    "months_since_contract": 0,
+    "remark": "",
+    "recalled": false,
+    "groups": {
+      "나보타": {
+        "by_year": {
+          "2026": {
+            "contracted": true,
+            "contract_date": "2026-09-01",
+            "mbo_q": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "actual_by_month": {},
+            "remark": ""
+          }
+        },
+        "actual_by_month": {}
+      },
+      "브이올렛": {
+        "by_year": {
+          "2026": {
+            "contracted": true,
+            "contract_date": "2026-09-01",
+            "mbo_q": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "actual_by_month": {},
+            "remark": ""
+          }
+        },
+        "actual_by_month": {}
+      },
+      "필러군": {
+        "by_year": {
+          "2026": {
+            "contracted": true,
+            "contract_date": "2026-09-01",
+            "mbo_q": [
+              2000000,
+              2000000,
+              2000000,
+              2000000
+            ],
+            "actual_by_month": {},
+            "remark": ""
+          }
+        },
+        "actual_by_month": {}
+      },
+      "리프팅실": {
+        "by_year": {
+          "2026": {
+            "contracted": true,
+            "contract_date": "2026-09-01",
+            "mbo_q": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "actual_by_month": {},
+            "remark": ""
+          }
+        },
+        "actual_by_month": {}
+      },
+      "리알로": {
+        "by_year": {
+          "2026": {
+            "contracted": true,
+            "contract_date": "2026-09-01",
+            "mbo_q": [
+              1000000,
+              2000000,
+              2000000,
+              4000000
+            ],
+            "actual_by_month": {},
+            "remark": ""
+          }
+        },
+        "actual_by_month": {}
+      }
+    }
+  },
+  {
+    "manager": "시보닉스",
+    "manager_biz": 4943501661,
+    "manager_contract_years": [
+      2026
+    ],
+    "team": "RPM4팀",
+    "rep": "김재진",
+    "name": "제이유의원",
+    "biz": 7273000927,
+    "contract_date": "2026-09-01",
+    "client_contract_years": [
+      2026
+    ],
+    "months_since_contract": 0,
+    "remark": "",
+    "recalled": false,
+    "groups": {
+      "나보타": {
+        "by_year": {
+          "2026": {
+            "contracted": true,
+            "contract_date": "2026-09-01",
+            "mbo_q": [
+              1500000.0,
+              1500000.0,
+              1500000.0,
+              1500000.0
+            ],
+            "actual_by_month": {},
+            "remark": ""
+          }
+        },
+        "actual_by_month": {}
+      },
+      "브이올렛": {
+        "by_year": {
+          "2026": {
+            "contracted": true,
+            "contract_date": "2026-09-01",
+            "mbo_q": [
+              500000.0,
+              500000.0,
+              500000.0,
+              500000.0
+            ],
+            "actual_by_month": {},
+            "remark": ""
+          }
+        },
+        "actual_by_month": {}
+      },
+      "필러군": {
+        "by_year": {
+          "2026": {
+            "contracted": true,
+            "contract_date": "2026-09-01",
+            "mbo_q": [
+              500000.0,
+              500000.0,
+              500000.0,
+              500000.0
+            ],
+            "actual_by_month": {},
+            "remark": ""
+          }
+        },
+        "actual_by_month": {}
+      },
+      "리프팅실": {
+        "by_year": {
+          "2026": {
+            "contracted": true,
+            "contract_date": "2026-09-01",
+            "mbo_q": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "actual_by_month": {},
+            "remark": ""
+          }
+        },
+        "actual_by_month": {}
+      },
+      "리알로": {
+        "by_year": {
+          "2026": {
+            "contracted": true,
+            "contract_date": "2026-09-01",
+            "mbo_q": [
+              3000000,
+              3000000,
+              5000000,
+              5000000
+            ],
+            "actual_by_month": {},
+            "remark": ""
+          }
+        },
+        "actual_by_month": {}
+      }
+    }
+  },
+  {
+    "manager": "루미엠",
+    "manager_biz": 4822002514,
+    "manager_contract_years": [
+      2026
+    ],
+    "team": "RPM2팀",
+    "rep": "이도현",
+    "name": "세이렌의원",
+    "biz": 8302701523,
+    "contract_date": "2026-09-01",
+    "client_contract_years": [
+      2026
+    ],
+    "months_since_contract": 0,
+    "remark": "",
+    "recalled": false,
+    "groups": {
+      "나보타": {
+        "by_year": {
+          "2026": {
+            "contracted": true,
+            "contract_date": "2026-09-01",
+            "mbo_q": [
+              1000000,
+              1000000,
+              2000000,
+              2000000
+            ],
+            "actual_by_month": {},
+            "remark": ""
+          }
+        },
+        "actual_by_month": {}
+      },
+      "브이올렛": {
+        "by_year": {
+          "2026": {
+            "contracted": true,
+            "contract_date": "2026-09-01",
+            "mbo_q": [
+              1000000,
+              1000000,
+              2000000,
+              2000000
+            ],
+            "actual_by_month": {},
+            "remark": ""
+          }
+        },
+        "actual_by_month": {}
+      },
+      "필러군": {
+        "by_year": {
+          "2026": {
+            "contracted": true,
+            "contract_date": "2026-09-01",
+            "mbo_q": [
+              2000000,
+              2000000,
+              3000000,
+              3000000
+            ],
+            "actual_by_month": {},
+            "remark": ""
+          }
+        },
+        "actual_by_month": {}
+      },
+      "리프팅실": {
+        "by_year": {
+          "2026": {
+            "contracted": true,
+            "contract_date": "2026-09-01",
+            "mbo_q": [
+              500000.0,
+              1000000,
+              1500000.0,
+              2000000
+            ],
+            "actual_by_month": {},
+            "remark": ""
+          }
+        },
+        "actual_by_month": {}
+      },
+      "리알로": {
+        "by_year": {
+          "2026": {
+            "contracted": true,
+            "contract_date": "2026-09-01",
+            "mbo_q": [
+              3000000,
+              4000000,
+              6000000,
+              8000000
+            ],
+            "actual_by_month": {},
+            "remark": ""
+          }
+        },
+        "actual_by_month": {}
+      }
+    }
+  },
+  {
+    "manager": "이음메디칼",
+    "manager_biz": 2211517311,
+    "manager_contract_years": [
+      2025,
+      2026
+    ],
+    "team": "RPM4팀",
+    "rep": "이상직",
+    "name": "엔의원(포항)",
+    "biz": 5062116529,
+    "contract_date": "2026-09-01",
+    "client_contract_years": [
+      2026
+    ],
+    "months_since_contract": 0,
+    "remark": "",
+    "recalled": false,
+    "groups": {
+      "나보타": {
+        "by_year": {},
+        "actual_by_month": {
+          "2026-01": 818182.0,
+          "2026-05": 818182.0
+        }
+      },
+      "브이올렛": {
+        "by_year": {},
+        "actual_by_month": {}
+      },
+      "필러군": {
+        "by_year": {},
+        "actual_by_month": {}
+      },
+      "리프팅실": {
+        "by_year": {},
+        "actual_by_month": {}
+      },
+      "리알로": {
+        "by_year": {
+          "2026": {
+            "contracted": true,
+            "contract_date": "2026-09-01",
+            "mbo_q": [
+              2000000,
+              4000000,
+              6000000,
+              8000000
+            ],
+            "actual_by_month": {},
+            "remark": ""
+          }
+        },
+        "actual_by_month": {}
+      }
+    }
+  },
+  {
+    "manager": "램프(LAMP)",
+    "manager_biz": 8116800337,
+    "manager_contract_years": [
+      2025,
+      2026
+    ],
+    "team": "RPM2팀",
+    "rep": "전우찬",
+    "name": "하일리의원",
+    "biz": 7961102430,
+    "contract_date": "2026-09-01",
+    "client_contract_years": [
+      2026
+    ],
+    "months_since_contract": 0,
+    "remark": "",
+    "recalled": false,
+    "groups": {
+      "나보타": {
+        "by_year": {
+          "2026": {
+            "contracted": true,
+            "contract_date": "2026-09-01",
+            "mbo_q": [
+              5000000,
+              5000000,
+              10000000,
+              10000000
+            ],
+            "actual_by_month": {},
+            "remark": ""
+          }
+        },
+        "actual_by_month": {}
+      },
+      "브이올렛": {
+        "by_year": {
+          "2026": {
+            "contracted": true,
+            "contract_date": "2026-09-01",
+            "mbo_q": [
+              1000000,
+              1000000,
+              5000000,
+              5000000
+            ],
+            "actual_by_month": {},
+            "remark": ""
+          }
+        },
+        "actual_by_month": {}
+      },
+      "필러군": {
+        "by_year": {
+          "2026": {
+            "contracted": true,
+            "contract_date": "2026-09-01",
+            "mbo_q": [
+              5000000,
+              5000000,
+              5000000,
+              5000000
+            ],
+            "actual_by_month": {},
+            "remark": ""
+          }
+        },
+        "actual_by_month": {
+          "2025-03": 0.0
+        }
+      },
+      "리프팅실": {
+        "by_year": {
+          "2026": {
+            "contracted": true,
+            "contract_date": "2026-09-01",
+            "mbo_q": [
+              500000.0,
+              500000.0,
+              1000000,
+              1000000
+            ],
+            "actual_by_month": {},
+            "remark": ""
+          }
+        },
+        "actual_by_month": {}
+      },
+      "리알로": {
+        "by_year": {
+          "2026": {
+            "contracted": true,
+            "contract_date": "2026-09-01",
+            "mbo_q": [
+              2000000,
+              2000000,
+              10000000,
+              10000000
+            ],
+            "actual_by_month": {},
+            "remark": ""
+          }
+        },
+        "actual_by_month": {}
+      }
+    }
+  },
+  {
+    "manager": "주식회사 오피앤",
+    "manager_biz": 6308702474,
+    "manager_contract_years": [
+      2026
+    ],
+    "team": "RPM2팀",
+    "rep": "전우찬",
+    "name": "입체성형외과",
+    "biz": 6706900257,
+    "contract_date": "2026-09-01",
+    "client_contract_years": [
+      2026
+    ],
+    "months_since_contract": 0,
+    "remark": "",
+    "recalled": false,
+    "groups": {
+      "나보타": {
+        "by_year": {
+          "2026": {
+            "contracted": true,
+            "contract_date": "2026-09-01",
+            "mbo_q": [
+              3500000.0,
+              3500000.0,
+              3500000.0,
+              3500000.0
+            ],
+            "actual_by_month": {},
+            "remark": ""
+          }
+        },
+        "actual_by_month": {}
+      },
+      "브이올렛": {
+        "by_year": {
+          "2026": {
+            "contracted": true,
+            "contract_date": "2026-09-01",
+            "mbo_q": [
+              2500000.0,
+              2500000.0,
+              2500000.0,
+              2500000.0
+            ],
+            "actual_by_month": {},
+            "remark": ""
+          }
+        },
+        "actual_by_month": {}
+      },
+      "필러군": {
+        "by_year": {
+          "2026": {
+            "contracted": true,
+            "contract_date": "2026-09-01",
+            "mbo_q": [
+              2640000.0,
+              2640000.0,
+              2640000.0,
+              2640000.0
+            ],
+            "actual_by_month": {},
+            "remark": ""
+          }
+        },
+        "actual_by_month": {}
+      },
+      "리프팅실": {
+        "by_year": {
+          "2026": {
+            "contracted": true,
+            "contract_date": "2026-09-01",
+            "mbo_q": [
+              2640000.0,
+              2640000.0,
+              2640000.0,
+              2640000.0
+            ],
+            "actual_by_month": {},
+            "remark": ""
+          }
+        },
+        "actual_by_month": {}
+      },
+      "리알로": {
+        "by_year": {
+          "2026": {
+            "contracted": true,
+            "contract_date": "2026-09-01",
+            "mbo_q": [
+              2970000.0,
+              2970000.0,
+              2970000.0,
+              2970000.0
+            ],
+            "actual_by_month": {},
+            "remark": ""
+          }
+        },
+        "actual_by_month": {}
+      }
+    }
   }
 ];
 window.COMPANY_INFO = {
@@ -83006,8 +84540,8 @@ window.BLOCK_META = {
     "2026-08",
     "2026-09"
   ],
-  "generated_at": "2026-09-29 08:35",
-  "latest_sales_date": "2026-09-28"
+  "generated_at": "2026-09-30 08:32",
+  "latest_sales_date": "2026-09-29"
 };
 window.TEAM_MEMBERS = {
   "RPM1팀": [
