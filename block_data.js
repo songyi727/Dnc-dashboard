@@ -26742,7 +26742,9 @@ window.BLOCK_DETAIL = [
             "remark": "회수"
           }
         },
-        "actual_by_month": {}
+        "actual_by_month": {
+          "2026-09": 10909091.0
+        }
       },
       "브이올렛": {
         "by_year": {
@@ -26801,7 +26803,9 @@ window.BLOCK_DETAIL = [
       },
       "리알로": {
         "by_year": {},
-        "actual_by_month": {}
+        "actual_by_month": {
+          "2026-09": 1090909.0
+        }
       }
     }
   },
@@ -31941,8 +31945,7 @@ window.BLOCK_DETAIL = [
               "2026-04": 818182.0,
               "2026-05": 818182.0,
               "2026-07": 818182.0,
-              "2026-08": 818182.0,
-              "2026-09": 818182.0
+              "2026-08": 818182.0
             },
             "remark": ""
           }
@@ -31988,8 +31991,7 @@ window.BLOCK_DETAIL = [
           "2026-04": 818182.0,
           "2026-05": 818182.0,
           "2026-07": 818182.0,
-          "2026-08": 818182.0,
-          "2026-09": 818182.0
+          "2026-08": 818182.0
         }
       },
       "브이올렛": {
@@ -41593,7 +41595,9 @@ window.BLOCK_DETAIL = [
       },
       "리알로": {
         "by_year": {},
-        "actual_by_month": {}
+        "actual_by_month": {
+          "2026-09": 0.0
+        }
       }
     }
   },
@@ -56675,7 +56679,9 @@ window.BLOCK_DETAIL = [
       },
       "리알로": {
         "by_year": {},
-        "actual_by_month": {}
+        "actual_by_month": {
+          "2026-09": 1090909.0
+        }
       }
     }
   },
@@ -59358,11 +59364,15 @@ window.BLOCK_DETAIL = [
               5000000,
               5000000
             ],
-            "actual_by_month": {},
+            "actual_by_month": {
+              "2026-09": 0.0
+            },
             "remark": ""
           }
         },
-        "actual_by_month": {}
+        "actual_by_month": {
+          "2026-09": 0.0
+        }
       }
     }
   },
@@ -67534,11 +67544,15 @@ window.BLOCK_DETAIL = [
               5000000,
               5000000
             ],
-            "actual_by_month": {},
+            "actual_by_month": {
+              "2026-09": 1090909.0
+            },
             "remark": ""
           }
         },
-        "actual_by_month": {}
+        "actual_by_month": {
+          "2026-09": 1090909.0
+        }
       }
     }
   },
@@ -68964,11 +68978,15 @@ window.BLOCK_DETAIL = [
               3500000.0,
               3500000.0
             ],
-            "actual_by_month": {},
+            "actual_by_month": {
+              "2026-09": 3181819.0
+            },
             "remark": ""
           }
         },
-        "actual_by_month": {}
+        "actual_by_month": {
+          "2026-09": 3181819.0
+        }
       },
       "브이올렛": {
         "by_year": {
@@ -82970,11 +82988,15 @@ window.BLOCK_DETAIL = [
               10000000,
               10000000
             ],
-            "actual_by_month": {},
+            "actual_by_month": {
+              "2026-09": 18000000.0
+            },
             "remark": ""
           }
         },
-        "actual_by_month": {}
+        "actual_by_month": {
+          "2026-09": 18000000.0
+        }
       }
     }
   },
@@ -83481,11 +83503,15 @@ window.BLOCK_DETAIL = [
               20000000,
               20000000
             ],
-            "actual_by_month": {},
+            "actual_by_month": {
+              "2026-09": 10909091.0
+            },
             "remark": ""
           }
         },
-        "actual_by_month": {}
+        "actual_by_month": {
+          "2026-09": 10909091.0
+        }
       },
       "브이올렛": {
         "by_year": {
@@ -83796,11 +83822,15 @@ window.BLOCK_DETAIL = [
               1500000.0,
               1500000.0
             ],
-            "actual_by_month": {},
+            "actual_by_month": {
+              "2026-09": 4772727.0
+            },
             "remark": ""
           }
         },
-        "actual_by_month": {}
+        "actual_by_month": {
+          "2026-09": 4772727.0
+        }
       },
       "브이올렛": {
         "by_year": {
@@ -84026,11 +84056,15 @@ window.BLOCK_DETAIL = [
               6000000,
               8000000
             ],
-            "actual_by_month": {},
+            "actual_by_month": {
+              "2026-09": 1090909.0
+            },
             "remark": ""
           }
         },
-        "actual_by_month": {}
+        "actual_by_month": {
+          "2026-09": 1090909.0
+        }
       }
     }
   },
@@ -84064,11 +84098,15 @@ window.BLOCK_DETAIL = [
               10000000,
               10000000
             ],
-            "actual_by_month": {},
+            "actual_by_month": {
+              "2026-09": 10909091.0
+            },
             "remark": ""
           }
         },
-        "actual_by_month": {}
+        "actual_by_month": {
+          "2026-09": 10909091.0
+        }
       },
       "브이올렛": {
         "by_year": {
@@ -84134,11 +84172,15 @@ window.BLOCK_DETAIL = [
               10000000,
               10000000
             ],
-            "actual_by_month": {},
+            "actual_by_month": {
+              "2026-09": 1090909.0
+            },
             "remark": ""
           }
         },
-        "actual_by_month": {}
+        "actual_by_month": {
+          "2026-09": 1090909.0
+        }
       }
     }
   },
@@ -84540,7 +84582,7 @@ window.BLOCK_META = {
     "2026-08",
     "2026-09"
   ],
-  "generated_at": "2026-09-30 08:32",
+  "generated_at": "2026-09-30 16:59",
   "latest_sales_date": "2026-09-29"
 };
 window.TEAM_MEMBERS = {
