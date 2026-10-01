@@ -16,7 +16,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "months_since_contract": 20,
+    "months_since_contract": 21,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -213,7 +213,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 20,
+    "months_since_contract": 21,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -328,7 +328,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "months_since_contract": 20,
+    "months_since_contract": 21,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -494,7 +494,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "months_since_contract": 20,
+    "months_since_contract": 21,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -672,7 +672,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "months_since_contract": 20,
+    "months_since_contract": 21,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -858,7 +858,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "months_since_contract": 20,
+    "months_since_contract": 21,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -888,7 +888,8 @@ window.BLOCK_DETAIL = [
               2500000.0
             ],
             "actual_by_month": {
-              "2026-03": 2272728.0
+              "2026-03": 2272728.0,
+              "2026-10": 2272728.0
             },
             "remark": ""
           }
@@ -898,7 +899,8 @@ window.BLOCK_DETAIL = [
           "2023-07": 2272728.0,
           "2024-05": 2272728.0,
           "2025-03": 2272728.0,
-          "2026-03": 2272728.0
+          "2026-03": 2272728.0,
+          "2026-10": 2272728.0
         }
       },
       "브이올렛": {
@@ -1014,7 +1016,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "months_since_contract": 20,
+    "months_since_contract": 21,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -1187,15 +1189,15 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM2팀",
-    "rep": "장은준",
+    "team": "RPM3팀",
+    "rep": "이창환",
     "name": "연세에이퀸의원",
     "biz": 2072311918,
     "contract_date": "2025-01-01",
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 20,
+    "months_since_contract": 21,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -1303,7 +1305,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 20,
+    "months_since_contract": 21,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -1407,7 +1409,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 20,
+    "months_since_contract": 21,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -1508,7 +1510,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "months_since_contract": 20,
+    "months_since_contract": 21,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -1695,7 +1697,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "months_since_contract": 20,
+    "months_since_contract": 21,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -1852,7 +1854,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "months_since_contract": 20,
+    "months_since_contract": 21,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -2012,7 +2014,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "months_since_contract": 20,
+    "months_since_contract": 21,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -2154,7 +2156,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "months_since_contract": 20,
+    "months_since_contract": 21,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -2203,7 +2205,8 @@ window.BLOCK_DETAIL = [
               "2026-06": 17909091.0,
               "2026-07": 12545456.0,
               "2026-08": 10545454.0,
-              "2026-09": 10545454.0
+              "2026-09": 10545454.0,
+              "2026-10": 26363636.0
             },
             "remark": ""
           }
@@ -2231,7 +2234,8 @@ window.BLOCK_DETAIL = [
           "2026-06": 17909091.0,
           "2026-07": 12545456.0,
           "2026-08": 10545454.0,
-          "2026-09": 10545454.0
+          "2026-09": 10545454.0,
+          "2026-10": 26363636.0
         }
       },
       "브이올렛": {
@@ -2367,7 +2371,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "months_since_contract": 20,
+    "months_since_contract": 21,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -2481,7 +2485,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "months_since_contract": 20,
+    "months_since_contract": 21,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -2656,7 +2660,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 20,
+    "months_since_contract": 21,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -2777,7 +2781,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "months_since_contract": 20,
+    "months_since_contract": 21,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -2937,7 +2941,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "months_since_contract": 20,
+    "months_since_contract": 21,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -2984,7 +2988,8 @@ window.BLOCK_DETAIL = [
               "2026-06": 6272728.0,
               "2026-07": 4181818.0,
               "2026-08": 4181818.0,
-              "2026-09": 4181818.0
+              "2026-09": 4181818.0,
+              "2026-10": 6272728.0
             },
             "remark": ""
           }
@@ -3015,7 +3020,8 @@ window.BLOCK_DETAIL = [
           "2026-06": 6272728.0,
           "2026-07": 4181818.0,
           "2026-08": 4181818.0,
-          "2026-09": 4181818.0
+          "2026-09": 4181818.0,
+          "2026-10": 6272728.0
         }
       },
       "브이올렛": {
@@ -3130,7 +3136,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 20,
+    "months_since_contract": 21,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -3226,7 +3232,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "months_since_contract": 20,
+    "months_since_contract": 21,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -3389,7 +3395,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "months_since_contract": 20,
+    "months_since_contract": 21,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -3556,7 +3562,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 20,
+    "months_since_contract": 21,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -3665,7 +3671,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 20,
+    "months_since_contract": 21,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -3774,7 +3780,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 20,
+    "months_since_contract": 21,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -3880,7 +3886,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 20,
+    "months_since_contract": 21,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -3987,7 +3993,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 20,
+    "months_since_contract": 21,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -4088,7 +4094,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "months_since_contract": 20,
+    "months_since_contract": 21,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -4244,7 +4250,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 20,
+    "months_since_contract": 21,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -4341,7 +4347,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "months_since_contract": 20,
+    "months_since_contract": 21,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -4461,7 +4467,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 20,
+    "months_since_contract": 21,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -4555,7 +4561,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "months_since_contract": 20,
+    "months_since_contract": 21,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -4745,7 +4751,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "months_since_contract": 20,
+    "months_since_contract": 21,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -4914,7 +4920,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "months_since_contract": 20,
+    "months_since_contract": 21,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -5073,7 +5079,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 20,
+    "months_since_contract": 21,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -5176,7 +5182,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "months_since_contract": 20,
+    "months_since_contract": 21,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -5326,7 +5332,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 20,
+    "months_since_contract": 21,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -5420,7 +5426,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "months_since_contract": 20,
+    "months_since_contract": 21,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -5602,7 +5608,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "months_since_contract": 20,
+    "months_since_contract": 21,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -5774,7 +5780,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "months_since_contract": 20,
+    "months_since_contract": 21,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -5958,7 +5964,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "months_since_contract": 20,
+    "months_since_contract": 21,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -6163,7 +6169,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 20,
+    "months_since_contract": 21,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -6257,7 +6263,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "months_since_contract": 20,
+    "months_since_contract": 21,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -6422,7 +6428,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "months_since_contract": 20,
+    "months_since_contract": 21,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -6620,7 +6626,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 20,
+    "months_since_contract": 21,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -6713,7 +6719,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 20,
+    "months_since_contract": 21,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -6812,7 +6818,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 20,
+    "months_since_contract": 21,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -6906,7 +6912,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "months_since_contract": 20,
+    "months_since_contract": 21,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -7065,7 +7071,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "months_since_contract": 20,
+    "months_since_contract": 21,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -7241,7 +7247,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 20,
+    "months_since_contract": 21,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -7346,7 +7352,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 20,
+    "months_since_contract": 21,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -7442,7 +7448,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 20,
+    "months_since_contract": 21,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -7535,7 +7541,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 20,
+    "months_since_contract": 21,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -7623,7 +7629,7 @@ window.BLOCK_DETAIL = [
       2026
     ],
     "team": "RPM4팀",
-    "rep": "김재진",
+    "rep": "이상직",
     "name": "헤어로의원(대구)",
     "biz": 1411102493,
     "contract_date": "2025-01-01",
@@ -7631,7 +7637,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "months_since_contract": 20,
+    "months_since_contract": 21,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -7826,7 +7832,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "months_since_contract": 20,
+    "months_since_contract": 21,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -8007,7 +8013,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 20,
+    "months_since_contract": 21,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -8101,7 +8107,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "months_since_contract": 20,
+    "months_since_contract": 21,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -8284,7 +8290,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "months_since_contract": 20,
+    "months_since_contract": 21,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -8441,7 +8447,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "months_since_contract": 20,
+    "months_since_contract": 21,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -8607,7 +8613,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 20,
+    "months_since_contract": 21,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -8703,7 +8709,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 20,
+    "months_since_contract": 21,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -8796,7 +8802,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 20,
+    "months_since_contract": 21,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -8891,7 +8897,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 20,
+    "months_since_contract": 21,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -8984,7 +8990,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 20,
+    "months_since_contract": 21,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -9077,7 +9083,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 20,
+    "months_since_contract": 21,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -9170,7 +9176,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 20,
+    "months_since_contract": 21,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -9263,7 +9269,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 20,
+    "months_since_contract": 21,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -9357,7 +9363,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "months_since_contract": 20,
+    "months_since_contract": 21,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -9517,7 +9523,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "months_since_contract": 20,
+    "months_since_contract": 21,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -9678,7 +9684,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "months_since_contract": 20,
+    "months_since_contract": 21,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -9885,7 +9891,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "months_since_contract": 20,
+    "months_since_contract": 21,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -10087,7 +10093,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "months_since_contract": 20,
+    "months_since_contract": 21,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -10252,7 +10258,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "months_since_contract": 20,
+    "months_since_contract": 21,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -10443,7 +10449,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "months_since_contract": 20,
+    "months_since_contract": 21,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -10627,7 +10633,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "months_since_contract": 20,
+    "months_since_contract": 21,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -10779,7 +10785,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "months_since_contract": 20,
+    "months_since_contract": 21,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -10938,7 +10944,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "months_since_contract": 20,
+    "months_since_contract": 21,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -11094,14 +11100,14 @@ window.BLOCK_DETAIL = [
       2026
     ],
     "team": "RPM2팀",
-    "rep": "김태훈",
+    "rep": "장은준",
     "name": "벨피부과",
     "biz": 1283686722,
     "contract_date": "2025-01-01",
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 20,
+    "months_since_contract": 21,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -11201,14 +11207,14 @@ window.BLOCK_DETAIL = [
       2026
     ],
     "team": "RPM2팀",
-    "rep": "김태훈",
+    "rep": "장은준",
     "name": "톡톡의원(파주)",
     "biz": 6482402000,
     "contract_date": "2025-01-01",
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 20,
+    "months_since_contract": 21,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -11301,7 +11307,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 20,
+    "months_since_contract": 21,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -11403,7 +11409,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 20,
+    "months_since_contract": 21,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -11495,7 +11501,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 20,
+    "months_since_contract": 21,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -11587,7 +11593,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 20,
+    "months_since_contract": 21,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -11679,7 +11685,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 20,
+    "months_since_contract": 21,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -11771,7 +11777,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 20,
+    "months_since_contract": 21,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -11869,7 +11875,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 20,
+    "months_since_contract": 21,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -11961,7 +11967,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 20,
+    "months_since_contract": 21,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -12053,7 +12059,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 20,
+    "months_since_contract": 21,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -12153,7 +12159,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 20,
+    "months_since_contract": 21,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -12245,7 +12251,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 20,
+    "months_since_contract": 21,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -12337,7 +12343,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 20,
+    "months_since_contract": 21,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -12429,7 +12435,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 20,
+    "months_since_contract": 21,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -12521,7 +12527,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 20,
+    "months_since_contract": 21,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -12613,7 +12619,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 20,
+    "months_since_contract": 21,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -12709,7 +12715,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 20,
+    "months_since_contract": 21,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -12801,7 +12807,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 20,
+    "months_since_contract": 21,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -12901,7 +12907,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 20,
+    "months_since_contract": 21,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -12993,7 +12999,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 20,
+    "months_since_contract": 21,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -13114,7 +13120,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 20,
+    "months_since_contract": 21,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -13214,7 +13220,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 20,
+    "months_since_contract": 21,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -13306,7 +13312,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 20,
+    "months_since_contract": 21,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -13406,7 +13412,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 20,
+    "months_since_contract": 21,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -13528,7 +13534,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 20,
+    "months_since_contract": 21,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -13628,7 +13634,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 20,
+    "months_since_contract": 21,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -13721,7 +13727,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 20,
+    "months_since_contract": 21,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -13826,7 +13832,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "months_since_contract": 20,
+    "months_since_contract": 21,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -14003,7 +14009,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 20,
+    "months_since_contract": 21,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -14106,7 +14112,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "months_since_contract": 20,
+    "months_since_contract": 21,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -14291,7 +14297,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 20,
+    "months_since_contract": 21,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -14384,7 +14390,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 20,
+    "months_since_contract": 21,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -14478,7 +14484,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "months_since_contract": 20,
+    "months_since_contract": 21,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -14642,7 +14648,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 20,
+    "months_since_contract": 21,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -14735,7 +14741,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 20,
+    "months_since_contract": 21,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -14833,7 +14839,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "months_since_contract": 20,
+    "months_since_contract": 21,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -14881,7 +14887,8 @@ window.BLOCK_DETAIL = [
               "2026-06": 6363636.0,
               "2026-07": 6363636.0,
               "2026-08": 8636364.0,
-              "2026-09": 6363636.0
+              "2026-09": 6363636.0,
+              "2026-10": 6363636.0
             },
             "remark": ""
           }
@@ -14906,7 +14913,8 @@ window.BLOCK_DETAIL = [
           "2026-06": 6363636.0,
           "2026-07": 6363636.0,
           "2026-08": 8636364.0,
-          "2026-09": 6363636.0
+          "2026-09": 6363636.0,
+          "2026-10": 6363636.0
         }
       },
       "브이올렛": {
@@ -15053,15 +15061,15 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM2팀",
-    "rep": "장은준",
+    "team": "RPM3팀",
+    "rep": "이창환",
     "name": "디온의원잠실점",
     "biz": 8862801668,
     "contract_date": "2025-01-01",
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 20,
+    "months_since_contract": 21,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -15155,7 +15163,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "months_since_contract": 20,
+    "months_since_contract": 21,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -15315,7 +15323,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 20,
+    "months_since_contract": 21,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -15408,7 +15416,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 20,
+    "months_since_contract": 21,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -15500,7 +15508,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 20,
+    "months_since_contract": 21,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -15581,7 +15589,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 20,
+    "months_since_contract": 21,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -15669,15 +15677,15 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2025
     ],
-    "team": "RPM2팀",
-    "rep": "장은준",
+    "team": "RPM3팀",
+    "rep": "이창환",
     "name": "유앤아이의원 판교점",
     "biz": 1440273165,
     "contract_date": "2025-01-01",
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 20,
+    "months_since_contract": 21,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -15748,15 +15756,15 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2025
     ],
-    "team": "RPM3팀",
-    "rep": "박천",
+    "team": "RPM2팀",
+    "rep": "이도현",
     "name": "유앤아이의원 산본점  ",
     "biz": 8832401190,
     "contract_date": "2025-01-01",
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 20,
+    "months_since_contract": 21,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -15848,7 +15856,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 20,
+    "months_since_contract": 21,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -15929,7 +15937,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 20,
+    "months_since_contract": 21,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -16002,7 +16010,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 20,
+    "months_since_contract": 21,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -16112,7 +16120,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 20,
+    "months_since_contract": 21,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -16191,7 +16199,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 20,
+    "months_since_contract": 21,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -16283,7 +16291,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 20,
+    "months_since_contract": 21,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -16381,7 +16389,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 20,
+    "months_since_contract": 21,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -16473,7 +16481,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 20,
+    "months_since_contract": 21,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -16565,7 +16573,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 20,
+    "months_since_contract": 21,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -16680,14 +16688,14 @@ window.BLOCK_DETAIL = [
       2025
     ],
     "team": "RPM4팀",
-    "rep": "김재진",
+    "rep": "이상직",
     "name": "2080연합피부과의원",
     "biz": 5042868980,
     "contract_date": "2025-01-01",
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 20,
+    "months_since_contract": 21,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -16818,7 +16826,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 20,
+    "months_since_contract": 21,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -16932,7 +16940,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 20,
+    "months_since_contract": 21,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -17040,7 +17048,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 20,
+    "months_since_contract": 21,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -17116,7 +17124,8 @@ window.BLOCK_DETAIL = [
           "2026-06": 245454.0,
           "2026-07": 736362.0,
           "2026-08": 245454.0,
-          "2026-09": 245454.0
+          "2026-09": 245454.0,
+          "2026-10": 245454.0
         }
       },
       "브이올렛": {
@@ -17190,7 +17199,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 20,
+    "months_since_contract": 21,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -17291,7 +17300,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 20,
+    "months_since_contract": 21,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -17396,7 +17405,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 20,
+    "months_since_contract": 21,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -17503,7 +17512,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 20,
+    "months_since_contract": 21,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -17624,7 +17633,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 20,
+    "months_since_contract": 21,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -17750,14 +17759,14 @@ window.BLOCK_DETAIL = [
       2025
     ],
     "team": "RPM4팀",
-    "rep": "김재진",
+    "rep": "이상직",
     "name": "로제피부과의원(범어점)",
     "biz": 5022974178,
     "contract_date": "2025-01-01",
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 20,
+    "months_since_contract": 21,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -17875,14 +17884,14 @@ window.BLOCK_DETAIL = [
       2025
     ],
     "team": "RPM4팀",
-    "rep": "김재진",
+    "rep": "이상직",
     "name": "로제피부과의원(율하)",
     "biz": 5022973766,
     "contract_date": "2025-01-01",
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 20,
+    "months_since_contract": 21,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -17994,7 +18003,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 20,
+    "months_since_contract": 21,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -18127,7 +18136,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 20,
+    "months_since_contract": 21,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -18219,14 +18228,14 @@ window.BLOCK_DETAIL = [
       2025
     ],
     "team": "RPM4팀",
-    "rep": "김재진",
+    "rep": "이상직",
     "name": "미라인의원(남구점)",
     "biz": 6102669072,
     "contract_date": "2025-01-01",
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 20,
+    "months_since_contract": 21,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -18319,14 +18328,14 @@ window.BLOCK_DETAIL = [
       2025
     ],
     "team": "RPM4팀",
-    "rep": "김재진",
+    "rep": "이상직",
     "name": "미소지앤의원(북구점)",
     "biz": 5043120012,
     "contract_date": "2025-01-01",
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 20,
+    "months_since_contract": 21,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -18426,7 +18435,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 20,
+    "months_since_contract": 21,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -18572,7 +18581,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 20,
+    "months_since_contract": 21,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -18678,7 +18687,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 20,
+    "months_since_contract": 21,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -18776,7 +18785,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 20,
+    "months_since_contract": 21,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -18872,7 +18881,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 20,
+    "months_since_contract": 21,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -18997,7 +19006,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 20,
+    "months_since_contract": 21,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -19112,7 +19121,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 20,
+    "months_since_contract": 21,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -19213,14 +19222,14 @@ window.BLOCK_DETAIL = [
       2025
     ],
     "team": "RPM4팀",
-    "rep": "김재진",
+    "rep": "이상직",
     "name": "아름다운피부과(수성)",
     "biz": 5022976064,
     "contract_date": "2025-01-01",
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 20,
+    "months_since_contract": 21,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -19335,7 +19344,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 20,
+    "months_since_contract": 21,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -19440,7 +19449,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 20,
+    "months_since_contract": 21,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -19557,14 +19566,14 @@ window.BLOCK_DETAIL = [
       2025
     ],
     "team": "RPM4팀",
-    "rep": "김재진",
+    "rep": "이상직",
     "name": "청담류의원",
     "biz": 1107300510,
     "contract_date": "2025-01-01",
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 20,
+    "months_since_contract": 21,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -19683,7 +19692,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 20,
+    "months_since_contract": 21,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -19811,14 +19820,14 @@ window.BLOCK_DETAIL = [
       2025
     ],
     "team": "RPM4팀",
-    "rep": "김재진",
+    "rep": "이상직",
     "name": "칠곡제이(J)성형외과의원",
     "biz": 5042470886,
     "contract_date": "2025-01-01",
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 20,
+    "months_since_contract": 21,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -19959,7 +19968,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 20,
+    "months_since_contract": 21,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -20073,7 +20082,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 20,
+    "months_since_contract": 21,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -20183,7 +20192,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 20,
+    "months_since_contract": 21,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -20299,7 +20308,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "months_since_contract": 20,
+    "months_since_contract": 21,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -20448,14 +20457,14 @@ window.BLOCK_DETAIL = [
       2026
     ],
     "team": "RPM4팀",
-    "rep": "김재진",
+    "rep": "이상직",
     "name": "연세예쁨의원",
     "biz": 7430203132,
     "contract_date": "2025-01-01",
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 20,
+    "months_since_contract": 21,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -20561,7 +20570,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "months_since_contract": 20,
+    "months_since_contract": 21,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -20724,7 +20733,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "months_since_contract": 20,
+    "months_since_contract": 21,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -20869,14 +20878,14 @@ window.BLOCK_DETAIL = [
       2026
     ],
     "team": "RPM4팀",
-    "rep": "김재진",
+    "rep": "이상직",
     "name": "빌리브피부과의원",
     "biz": 3605200804,
     "contract_date": "2025-01-01",
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 20,
+    "months_since_contract": 21,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -20975,7 +20984,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "months_since_contract": 20,
+    "months_since_contract": 21,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -21122,7 +21131,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 20,
+    "months_since_contract": 21,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -21220,7 +21229,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "months_since_contract": 20,
+    "months_since_contract": 21,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -21360,14 +21369,14 @@ window.BLOCK_DETAIL = [
       2026
     ],
     "team": "RPM4팀",
-    "rep": "김재진",
+    "rep": "이상직",
     "name": "연세미사랑의원",
     "biz": 7990803194,
     "contract_date": "2025-01-01",
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 20,
+    "months_since_contract": 21,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -21457,7 +21466,7 @@ window.BLOCK_DETAIL = [
       2026
     ],
     "team": "RPM4팀",
-    "rep": "김재진",
+    "rep": "이상직",
     "name": "만촌더설레임피부과의원",
     "biz": 3102909796,
     "contract_date": "2025-01-01",
@@ -21465,7 +21474,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "months_since_contract": 20,
+    "months_since_contract": 21,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -21615,14 +21624,14 @@ window.BLOCK_DETAIL = [
       2025
     ],
     "team": "RPM4팀",
-    "rep": "김재진",
+    "rep": "이상직",
     "name": "노블의원",
     "biz": 6102685034,
     "contract_date": "2025-01-01",
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 20,
+    "months_since_contract": 21,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -21730,7 +21739,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 20,
+    "months_since_contract": 21,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -21824,7 +21833,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 20,
+    "months_since_contract": 21,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -21924,7 +21933,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 20,
+    "months_since_contract": 21,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -22024,7 +22033,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 20,
+    "months_since_contract": 21,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -22116,7 +22125,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 20,
+    "months_since_contract": 21,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -22208,7 +22217,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 20,
+    "months_since_contract": 21,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -22300,7 +22309,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 20,
+    "months_since_contract": 21,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -22392,7 +22401,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 20,
+    "months_since_contract": 21,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -22484,7 +22493,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 20,
+    "months_since_contract": 21,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -22579,7 +22588,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 20,
+    "months_since_contract": 21,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -22683,7 +22692,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 20,
+    "months_since_contract": 21,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -22795,7 +22804,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "months_since_contract": 20,
+    "months_since_contract": 21,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -22979,7 +22988,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 20,
+    "months_since_contract": 21,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -23082,7 +23091,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 20,
+    "months_since_contract": 21,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -23167,15 +23176,15 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM2팀",
-    "rep": "장은준",
+    "team": "RPM3팀",
+    "rep": "이창환",
     "name": "바로그의원 강릉점",
     "biz": 8010602077,
     "contract_date": "2025-01-01",
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 20,
+    "months_since_contract": 21,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -23274,7 +23283,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "months_since_contract": 20,
+    "months_since_contract": 21,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -23459,7 +23468,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "months_since_contract": 20,
+    "months_since_contract": 21,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -23661,7 +23670,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 20,
+    "months_since_contract": 21,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -23780,7 +23789,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 20,
+    "months_since_contract": 21,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -23888,7 +23897,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 20,
+    "months_since_contract": 21,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -23999,7 +24008,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "months_since_contract": 20,
+    "months_since_contract": 21,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -24169,7 +24178,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "months_since_contract": 20,
+    "months_since_contract": 21,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -24330,7 +24339,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 20,
+    "months_since_contract": 21,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -24432,7 +24441,7 @@ window.BLOCK_DETAIL = [
       2026
     ],
     "team": "RPM4팀",
-    "rep": "김재진",
+    "rep": "이상직",
     "name": "바로그의원 울산점",
     "biz": 6266700580,
     "contract_date": "2025-01-01",
@@ -24440,7 +24449,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "months_since_contract": 20,
+    "months_since_contract": 21,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -24595,7 +24604,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "months_since_contract": 20,
+    "months_since_contract": 21,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -24787,7 +24796,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 20,
+    "months_since_contract": 21,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -24899,7 +24908,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "months_since_contract": 20,
+    "months_since_contract": 21,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -25056,7 +25065,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "months_since_contract": 20,
+    "months_since_contract": 21,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -25214,7 +25223,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 20,
+    "months_since_contract": 21,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -25311,7 +25320,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 20,
+    "months_since_contract": 21,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -25421,7 +25430,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 20,
+    "months_since_contract": 21,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -25521,7 +25530,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 20,
+    "months_since_contract": 21,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -25622,7 +25631,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "months_since_contract": 20,
+    "months_since_contract": 21,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -25665,7 +25674,8 @@ window.BLOCK_DETAIL = [
               "2026-03": 245454.0,
               "2026-05": 245454.0,
               "2026-06": 490908.0,
-              "2026-08": 245454.0
+              "2026-08": 245454.0,
+              "2026-10": 245454.0
             },
             "remark": ""
           }
@@ -25689,7 +25699,8 @@ window.BLOCK_DETAIL = [
           "2026-03": 245454.0,
           "2026-05": 245454.0,
           "2026-06": 490908.0,
-          "2026-08": 245454.0
+          "2026-08": 245454.0,
+          "2026-10": 245454.0
         }
       },
       "브이올렛": {
@@ -25825,7 +25836,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "months_since_contract": 20,
+    "months_since_contract": 21,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -25860,7 +25871,8 @@ window.BLOCK_DETAIL = [
             "actual_by_month": {
               "2026-02": 3181819.0,
               "2026-04": 3181819.0,
-              "2026-07": 3181819.0
+              "2026-07": 3181819.0,
+              "2026-10": 3181819.0
             },
             "remark": ""
           }
@@ -25874,7 +25886,8 @@ window.BLOCK_DETAIL = [
           "2025-12": 3181819.0,
           "2026-02": 3181819.0,
           "2026-04": 3181819.0,
-          "2026-07": 3181819.0
+          "2026-07": 3181819.0,
+          "2026-10": 3181819.0
         }
       },
       "브이올렛": {
@@ -25990,7 +26003,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 20,
+    "months_since_contract": 21,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -26104,7 +26117,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "months_since_contract": 20,
+    "months_since_contract": 21,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -26263,7 +26276,7 @@ window.BLOCK_DETAIL = [
       2026
     ],
     "team": "RPM4팀",
-    "rep": "김재진",
+    "rep": "이상직",
     "name": "바로그의원 울산동구점",
     "biz": 1127800525,
     "contract_date": "2025-01-01",
@@ -26271,7 +26284,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "months_since_contract": 20,
+    "months_since_contract": 21,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -26424,7 +26437,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 20,
+    "months_since_contract": 21,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -26521,7 +26534,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 20,
+    "months_since_contract": 21,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -26614,15 +26627,15 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM2팀",
-    "rep": "전우찬",
+    "team": "RPM1팀",
+    "rep": "박기주",
     "name": "더플랜성형외과",
     "biz": 6991100806,
     "contract_date": "2025-01-01",
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 20,
+    "months_since_contract": 21,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -26723,7 +26736,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 20,
+    "months_since_contract": 21,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -26824,7 +26837,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 20,
+    "months_since_contract": 21,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -26917,7 +26930,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 20,
+    "months_since_contract": 21,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -27002,7 +27015,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "months_since_contract": 20,
+    "months_since_contract": 21,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -27184,7 +27197,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "months_since_contract": 20,
+    "months_since_contract": 21,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -27325,7 +27338,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 20,
+    "months_since_contract": 21,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -27418,7 +27431,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 20,
+    "months_since_contract": 21,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -27515,7 +27528,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 20,
+    "months_since_contract": 21,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -27611,7 +27624,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "months_since_contract": 20,
+    "months_since_contract": 21,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -27716,7 +27729,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "months_since_contract": 20,
+    "months_since_contract": 21,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -27833,7 +27846,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 20,
+    "months_since_contract": 21,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -27919,7 +27932,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "months_since_contract": 20,
+    "months_since_contract": 21,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -28037,7 +28050,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "months_since_contract": 20,
+    "months_since_contract": 21,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -28226,7 +28239,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "months_since_contract": 20,
+    "months_since_contract": 21,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -28366,7 +28379,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 20,
+    "months_since_contract": 21,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -28456,7 +28469,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "months_since_contract": 20,
+    "months_since_contract": 21,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -28691,7 +28704,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 20,
+    "months_since_contract": 21,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -28796,7 +28809,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "months_since_contract": 20,
+    "months_since_contract": 21,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -28928,7 +28941,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "months_since_contract": 20,
+    "months_since_contract": 21,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -29110,7 +29123,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "months_since_contract": 20,
+    "months_since_contract": 21,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -29289,7 +29302,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "months_since_contract": 20,
+    "months_since_contract": 21,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -29446,7 +29459,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "months_since_contract": 20,
+    "months_since_contract": 21,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -29615,7 +29628,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 20,
+    "months_since_contract": 21,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -29709,7 +29722,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "months_since_contract": 20,
+    "months_since_contract": 21,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -29830,7 +29843,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 20,
+    "months_since_contract": 21,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -29915,7 +29928,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "months_since_contract": 20,
+    "months_since_contract": 21,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -30027,7 +30040,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 20,
+    "months_since_contract": 21,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -30121,7 +30134,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "months_since_contract": 20,
+    "months_since_contract": 21,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -30238,7 +30251,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "months_since_contract": 20,
+    "months_since_contract": 21,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -30339,7 +30352,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "months_since_contract": 20,
+    "months_since_contract": 21,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -30518,7 +30531,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 20,
+    "months_since_contract": 21,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -30603,7 +30616,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "months_since_contract": 20,
+    "months_since_contract": 21,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -30753,7 +30766,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "months_since_contract": 20,
+    "months_since_contract": 21,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -30923,7 +30936,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 20,
+    "months_since_contract": 21,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -31012,7 +31025,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "months_since_contract": 20,
+    "months_since_contract": 21,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -31163,7 +31176,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 20,
+    "months_since_contract": 21,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -31257,7 +31270,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "months_since_contract": 20,
+    "months_since_contract": 21,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -31436,7 +31449,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 20,
+    "months_since_contract": 21,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -31533,7 +31546,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 20,
+    "months_since_contract": 21,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -31626,7 +31639,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 20,
+    "months_since_contract": 21,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -31720,7 +31733,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "months_since_contract": 20,
+    "months_since_contract": 21,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -31899,7 +31912,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "months_since_contract": 20,
+    "months_since_contract": 21,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -31945,7 +31958,8 @@ window.BLOCK_DETAIL = [
               "2026-04": 818182.0,
               "2026-05": 818182.0,
               "2026-07": 818182.0,
-              "2026-08": 818182.0
+              "2026-08": 818182.0,
+              "2026-10": 1636364.0
             },
             "remark": ""
           }
@@ -31991,7 +32005,8 @@ window.BLOCK_DETAIL = [
           "2026-04": 818182.0,
           "2026-05": 818182.0,
           "2026-07": 818182.0,
-          "2026-08": 818182.0
+          "2026-08": 818182.0,
+          "2026-10": 1636364.0
         }
       },
       "브이올렛": {
@@ -32103,7 +32118,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "months_since_contract": 20,
+    "months_since_contract": 21,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -32285,15 +32300,15 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM2팀",
-    "rep": "장은준",
+    "team": "RPM3팀",
+    "rep": "이창환",
     "name": "베르나르의원",
     "biz": 1420665221,
     "contract_date": "2025-01-01",
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 20,
+    "months_since_contract": 21,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -32385,7 +32400,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 20,
+    "months_since_contract": 21,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -32477,7 +32492,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 20,
+    "months_since_contract": 21,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -32569,7 +32584,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 20,
+    "months_since_contract": 21,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -32658,14 +32673,14 @@ window.BLOCK_DETAIL = [
       2025
     ],
     "team": "RPM2팀",
-    "rep": "김태훈",
+    "rep": "장은준",
     "name": "차앤박피부과(일산)",
     "biz": 1283867388,
     "contract_date": "2025-01-01",
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 20,
+    "months_since_contract": 21,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -32757,7 +32772,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 20,
+    "months_since_contract": 21,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -32849,7 +32864,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 20,
+    "months_since_contract": 21,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -32933,15 +32948,15 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2025
     ],
-    "team": "RPM4팀",
-    "rep": "이다별",
+    "team": "블루오션TF",
+    "rep": "김진희",
     "name": "차앤박피부과(천안아산역)",
     "biz": 3123120164,
     "contract_date": "2025-01-01",
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 20,
+    "months_since_contract": 21,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -33045,7 +33060,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 20,
+    "months_since_contract": 21,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -33141,7 +33156,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 20,
+    "months_since_contract": 21,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -33233,7 +33248,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 20,
+    "months_since_contract": 21,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -33329,7 +33344,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 20,
+    "months_since_contract": 21,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -33441,7 +33456,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "months_since_contract": 20,
+    "months_since_contract": 21,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -33508,7 +33523,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "months_since_contract": 19,
+    "months_since_contract": 20,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -33678,7 +33693,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 19,
+    "months_since_contract": 20,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -33771,7 +33786,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 19,
+    "months_since_contract": 20,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -33869,7 +33884,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "months_since_contract": 19,
+    "months_since_contract": 20,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -34073,7 +34088,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "months_since_contract": 19,
+    "months_since_contract": 20,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -34258,7 +34273,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "months_since_contract": 19,
+    "months_since_contract": 20,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -34414,7 +34429,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 19,
+    "months_since_contract": 20,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -34515,7 +34530,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "months_since_contract": 19,
+    "months_since_contract": 20,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -34668,7 +34683,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "months_since_contract": 19,
+    "months_since_contract": 20,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -34872,7 +34887,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 19,
+    "months_since_contract": 20,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -34992,7 +35007,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 19,
+    "months_since_contract": 20,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -35098,7 +35113,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "months_since_contract": 19,
+    "months_since_contract": 20,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -35181,14 +35196,14 @@ window.BLOCK_DETAIL = [
       2026
     ],
     "team": "RPM4팀",
-    "rep": "김재진",
+    "rep": "이상직",
     "name": "엘리스의원(울산)",
     "biz": 6102771221,
     "contract_date": "2025-02-01",
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 19,
+    "months_since_contract": 20,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -35291,7 +35306,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 19,
+    "months_since_contract": 20,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -35404,7 +35419,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 19,
+    "months_since_contract": 20,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -35512,7 +35527,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "months_since_contract": 19,
+    "months_since_contract": 20,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -35684,7 +35699,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 19,
+    "months_since_contract": 20,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -35782,7 +35797,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 19,
+    "months_since_contract": 20,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -35882,7 +35897,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "months_since_contract": 18,
+    "months_since_contract": 19,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -36047,7 +36062,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "months_since_contract": 18,
+    "months_since_contract": 19,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -36224,7 +36239,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 18,
+    "months_since_contract": 19,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -36321,7 +36336,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 18,
+    "months_since_contract": 19,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -36418,7 +36433,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 18,
+    "months_since_contract": 19,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -36516,7 +36531,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "months_since_contract": 18,
+    "months_since_contract": 19,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -36602,7 +36617,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "months_since_contract": 18,
+    "months_since_contract": 19,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -36695,7 +36710,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "months_since_contract": 18,
+    "months_since_contract": 19,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -36779,7 +36794,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "months_since_contract": 18,
+    "months_since_contract": 19,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -36937,7 +36952,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 18,
+    "months_since_contract": 19,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -37036,7 +37051,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "months_since_contract": 18,
+    "months_since_contract": 19,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -37189,7 +37204,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "months_since_contract": 18,
+    "months_since_contract": 19,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -37223,7 +37238,8 @@ window.BLOCK_DETAIL = [
             "actual_by_month": {
               "2026-01": 3181819.0,
               "2026-05": 245454.0,
-              "2026-06": 3181819.0
+              "2026-06": 3181819.0,
+              "2026-10": 3181819.0
             },
             "remark": ""
           }
@@ -37234,7 +37250,8 @@ window.BLOCK_DETAIL = [
           "2025-10": 3181819.0,
           "2026-01": 3181819.0,
           "2026-05": 245454.0,
-          "2026-06": 3181819.0
+          "2026-06": 3181819.0,
+          "2026-10": 3181819.0
         }
       },
       "브이올렛": {
@@ -37346,7 +37363,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "months_since_contract": 18,
+    "months_since_contract": 19,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -37493,7 +37510,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 18,
+    "months_since_contract": 19,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -37587,7 +37604,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "months_since_contract": 18,
+    "months_since_contract": 19,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -37742,7 +37759,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "months_since_contract": 18,
+    "months_since_contract": 19,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -37896,7 +37913,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 18,
+    "months_since_contract": 19,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -37993,7 +38010,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 18,
+    "months_since_contract": 19,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -38090,7 +38107,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 18,
+    "months_since_contract": 19,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -38183,7 +38200,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 18,
+    "months_since_contract": 19,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -38293,7 +38310,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "months_since_contract": 18,
+    "months_since_contract": 19,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -38486,7 +38503,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 18,
+    "months_since_contract": 19,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -38574,15 +38591,15 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2025
     ],
-    "team": "RPM2팀",
-    "rep": "장은준",
+    "team": "RPM3팀",
+    "rep": "이창환",
     "name": "뷰티온의원 안성점",
     "biz": 6364800984,
     "contract_date": "2025-03-01",
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 18,
+    "months_since_contract": 19,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -38676,15 +38693,15 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2025
     ],
-    "team": "RPM2팀",
-    "rep": "장은준",
+    "team": "RPM3팀",
+    "rep": "이창환",
     "name": "뷰티온의원 성남점",
     "biz": 5714801162,
     "contract_date": "2025-03-01",
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 18,
+    "months_since_contract": 19,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -38784,7 +38801,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 18,
+    "months_since_contract": 19,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -38887,7 +38904,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 18,
+    "months_since_contract": 19,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -38981,14 +38998,14 @@ window.BLOCK_DETAIL = [
       2025
     ],
     "team": "RPM4팀",
-    "rep": "김재진",
+    "rep": "이상직",
     "name": "브이의원(수성)",
     "biz": 8100500848,
     "contract_date": "2025-03-01",
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 18,
+    "months_since_contract": 19,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -39082,14 +39099,14 @@ window.BLOCK_DETAIL = [
       2025
     ],
     "team": "RPM4팀",
-    "rep": "김재진",
+    "rep": "이상직",
     "name": "석피부과의원",
     "biz": 5022746794,
     "contract_date": "2025-03-01",
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 18,
+    "months_since_contract": 19,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -39190,7 +39207,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 18,
+    "months_since_contract": 19,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -39295,7 +39312,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 18,
+    "months_since_contract": 19,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -39393,7 +39410,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 18,
+    "months_since_contract": 19,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -39487,7 +39504,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "months_since_contract": 18,
+    "months_since_contract": 19,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -39634,7 +39651,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 17,
+    "months_since_contract": 18,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -39720,7 +39737,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 17,
+    "months_since_contract": 18,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -39813,7 +39830,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 17,
+    "months_since_contract": 18,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -39906,7 +39923,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 17,
+    "months_since_contract": 18,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -40000,7 +40017,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "months_since_contract": 17,
+    "months_since_contract": 18,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -40145,7 +40162,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 17,
+    "months_since_contract": 18,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -40238,7 +40255,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 17,
+    "months_since_contract": 18,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -40337,7 +40354,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 17,
+    "months_since_contract": 18,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -40431,7 +40448,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "months_since_contract": 17,
+    "months_since_contract": 18,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -40601,7 +40618,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 17,
+    "months_since_contract": 18,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -40694,7 +40711,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 17,
+    "months_since_contract": 18,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -40786,7 +40803,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 16,
+    "months_since_contract": 17,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -40877,15 +40894,15 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2025
     ],
-    "team": "RPM2팀",
-    "rep": "장은준",
+    "team": "RPM3팀",
+    "rep": "이창환",
     "name": "포레온365의원",
     "biz": 4960903098,
     "contract_date": "2025-05-01",
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 16,
+    "months_since_contract": 17,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -40977,7 +40994,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 16,
+    "months_since_contract": 17,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -41070,7 +41087,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 16,
+    "months_since_contract": 17,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -41164,7 +41181,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "months_since_contract": 16,
+    "months_since_contract": 17,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -41315,14 +41332,14 @@ window.BLOCK_DETAIL = [
       2026
     ],
     "team": "RPM4팀",
-    "rep": "김재진",
+    "rep": "이상직",
     "name": "제이린의원 울산점",
     "biz": 1701102905,
     "contract_date": "2025-05-01",
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 16,
+    "months_since_contract": 17,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -41415,7 +41432,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 16,
+    "months_since_contract": 17,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -41512,7 +41529,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 15,
+    "months_since_contract": 16,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -41617,7 +41634,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "months_since_contract": 15,
+    "months_since_contract": 16,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -41785,7 +41802,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "months_since_contract": 15,
+    "months_since_contract": 16,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -41943,7 +41960,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 15,
+    "months_since_contract": 16,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -42047,7 +42064,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "months_since_contract": 15,
+    "months_since_contract": 16,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -42195,7 +42212,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 15,
+    "months_since_contract": 16,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -42292,7 +42309,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 15,
+    "months_since_contract": 16,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -42384,14 +42401,14 @@ window.BLOCK_DETAIL = [
       2026
     ],
     "team": "RPM2팀",
-    "rep": "김태훈",
+    "rep": "장은준",
     "name": "미소드림의원",
     "biz": 1410594949,
     "contract_date": "2025-06-01",
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 15,
+    "months_since_contract": 16,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -42493,7 +42510,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "months_since_contract": 15,
+    "months_since_contract": 16,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -42639,9 +42656,9 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "months_since_contract": 14,
-    "remark": "",
-    "recalled": false,
+    "months_since_contract": 15,
+    "remark": "회수",
+    "recalled": true,
     "groups": {
       "나보타": {
         "by_year": {
@@ -42667,7 +42684,7 @@ window.BLOCK_DETAIL = [
               1000000
             ],
             "actual_by_month": {},
-            "remark": ""
+            "remark": "회수"
           }
         },
         "actual_by_month": {}
@@ -42696,7 +42713,7 @@ window.BLOCK_DETAIL = [
               1000000
             ],
             "actual_by_month": {},
-            "remark": ""
+            "remark": "회수"
           }
         },
         "actual_by_month": {}
@@ -42727,7 +42744,7 @@ window.BLOCK_DETAIL = [
               1000000
             ],
             "actual_by_month": {},
-            "remark": ""
+            "remark": "회수"
           }
         },
         "actual_by_month": {
@@ -42758,7 +42775,7 @@ window.BLOCK_DETAIL = [
               500000.0
             ],
             "actual_by_month": {},
-            "remark": ""
+            "remark": "회수"
           }
         },
         "actual_by_month": {}
@@ -42785,9 +42802,9 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "months_since_contract": 14,
-    "remark": "",
-    "recalled": false,
+    "months_since_contract": 15,
+    "remark": "회수",
+    "recalled": true,
     "groups": {
       "나보타": {
         "by_year": {
@@ -42813,7 +42830,7 @@ window.BLOCK_DETAIL = [
               1000000
             ],
             "actual_by_month": {},
-            "remark": ""
+            "remark": "회수"
           }
         },
         "actual_by_month": {}
@@ -42842,7 +42859,7 @@ window.BLOCK_DETAIL = [
               0
             ],
             "actual_by_month": {},
-            "remark": ""
+            "remark": "회수"
           }
         },
         "actual_by_month": {}
@@ -42871,7 +42888,7 @@ window.BLOCK_DETAIL = [
               0
             ],
             "actual_by_month": {},
-            "remark": ""
+            "remark": "회수"
           }
         },
         "actual_by_month": {}
@@ -42900,7 +42917,7 @@ window.BLOCK_DETAIL = [
               0
             ],
             "actual_by_month": {},
-            "remark": ""
+            "remark": "회수"
           }
         },
         "actual_by_month": {}
@@ -42927,9 +42944,9 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "months_since_contract": 14,
-    "remark": "",
-    "recalled": false,
+    "months_since_contract": 15,
+    "remark": "회수",
+    "recalled": true,
     "groups": {
       "나보타": {
         "by_year": {
@@ -42955,7 +42972,7 @@ window.BLOCK_DETAIL = [
               1000000
             ],
             "actual_by_month": {},
-            "remark": ""
+            "remark": "회수"
           }
         },
         "actual_by_month": {}
@@ -42984,7 +43001,7 @@ window.BLOCK_DETAIL = [
               0
             ],
             "actual_by_month": {},
-            "remark": ""
+            "remark": "회수"
           }
         },
         "actual_by_month": {}
@@ -43016,17 +43033,15 @@ window.BLOCK_DETAIL = [
               0
             ],
             "actual_by_month": {
-              "2026-01": 1600000.0,
-              "2026-09": 1600000.0
+              "2026-01": 1600000.0
             },
-            "remark": ""
+            "remark": "회수"
           }
         },
         "actual_by_month": {
           "2025-07": 0.0,
           "2025-09": 1600000.0,
-          "2026-01": 1600000.0,
-          "2026-09": 1600000.0
+          "2026-01": 1600000.0
         }
       },
       "리프팅실": {
@@ -43053,7 +43068,7 @@ window.BLOCK_DETAIL = [
               0
             ],
             "actual_by_month": {},
-            "remark": ""
+            "remark": "회수"
           }
         },
         "actual_by_month": {}
@@ -43078,7 +43093,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 14,
+    "months_since_contract": 15,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -43175,7 +43190,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 14,
+    "months_since_contract": 15,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -43269,7 +43284,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "months_since_contract": 14,
+    "months_since_contract": 15,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -43465,7 +43480,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 14,
+    "months_since_contract": 15,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -43559,7 +43574,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "months_since_contract": 14,
+    "months_since_contract": 15,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -43727,7 +43742,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "months_since_contract": 14,
+    "months_since_contract": 15,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -43908,7 +43923,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "months_since_contract": 14,
+    "months_since_contract": 15,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -44061,7 +44076,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "months_since_contract": 14,
+    "months_since_contract": 15,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -44224,7 +44239,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "months_since_contract": 14,
+    "months_since_contract": 15,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -44377,7 +44392,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "months_since_contract": 14,
+    "months_since_contract": 15,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -44522,7 +44537,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 14,
+    "months_since_contract": 15,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -44627,7 +44642,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 14,
+    "months_since_contract": 15,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -44721,7 +44736,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "months_since_contract": 14,
+    "months_since_contract": 15,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -44875,7 +44890,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 14,
+    "months_since_contract": 15,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -44969,7 +44984,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "months_since_contract": 14,
+    "months_since_contract": 15,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -45120,7 +45135,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "months_since_contract": 14,
+    "months_since_contract": 15,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -45272,7 +45287,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "months_since_contract": 14,
+    "months_since_contract": 15,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -45417,7 +45432,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 13,
+    "months_since_contract": 14,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -45511,7 +45526,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "months_since_contract": 13,
+    "months_since_contract": 14,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -45678,7 +45693,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 13,
+    "months_since_contract": 14,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -45771,7 +45786,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 13,
+    "months_since_contract": 14,
     "remark": "재계약",
     "recalled": false,
     "groups": {
@@ -45860,7 +45875,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 13,
+    "months_since_contract": 14,
     "remark": "재계약",
     "recalled": false,
     "groups": {
@@ -45945,7 +45960,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "months_since_contract": 13,
+    "months_since_contract": 14,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -46108,7 +46123,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "months_since_contract": 13,
+    "months_since_contract": 14,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -46308,7 +46323,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "months_since_contract": 13,
+    "months_since_contract": 14,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -46489,7 +46504,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 12,
+    "months_since_contract": 13,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -46573,15 +46588,15 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2025
     ],
-    "team": "RPM2팀",
-    "rep": "장은준",
+    "team": "RPM3팀",
+    "rep": "이창환",
     "name": "유앤아이의원 (잠실점)",
     "biz": 2300148688,
     "contract_date": "2025-09-01",
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 12,
+    "months_since_contract": 13,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -46686,7 +46701,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 12,
+    "months_since_contract": 13,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -46780,7 +46795,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "months_since_contract": 11,
+    "months_since_contract": 12,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -46922,7 +46937,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "months_since_contract": 11,
+    "months_since_contract": 12,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -47011,7 +47026,8 @@ window.BLOCK_DETAIL = [
             "actual_by_month": {
               "2026-04": 2200000.0,
               "2026-06": 2200000.0,
-              "2026-07": 2200000.0
+              "2026-07": 2200000.0,
+              "2026-10": 2200000.0
             },
             "remark": ""
           }
@@ -47019,7 +47035,8 @@ window.BLOCK_DETAIL = [
         "actual_by_month": {
           "2026-04": 2200000.0,
           "2026-06": 2200000.0,
-          "2026-07": 2200000.0
+          "2026-07": 2200000.0,
+          "2026-10": 2200000.0
         }
       },
       "리프팅실": {
@@ -47073,7 +47090,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "months_since_contract": 11,
+    "months_since_contract": 12,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -47215,7 +47232,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "months_since_contract": 11,
+    "months_since_contract": 12,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -47357,7 +47374,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "months_since_contract": 11,
+    "months_since_contract": 12,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -47499,9 +47516,9 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "months_since_contract": 11,
-    "remark": "",
-    "recalled": false,
+    "months_since_contract": 12,
+    "remark": "회수",
+    "recalled": true,
     "groups": {
       "나보타": {
         "by_year": {
@@ -47527,7 +47544,7 @@ window.BLOCK_DETAIL = [
               4000000
             ],
             "actual_by_month": {},
-            "remark": ""
+            "remark": "회수"
           }
         },
         "actual_by_month": {}
@@ -47558,7 +47575,7 @@ window.BLOCK_DETAIL = [
               1000000
             ],
             "actual_by_month": {},
-            "remark": ""
+            "remark": "회수"
           }
         },
         "actual_by_month": {
@@ -47589,7 +47606,7 @@ window.BLOCK_DETAIL = [
               0
             ],
             "actual_by_month": {},
-            "remark": ""
+            "remark": "회수"
           }
         },
         "actual_by_month": {}
@@ -47618,7 +47635,7 @@ window.BLOCK_DETAIL = [
               0
             ],
             "actual_by_month": {},
-            "remark": ""
+            "remark": "회수"
           }
         },
         "actual_by_month": {}
@@ -47635,7 +47652,7 @@ window.BLOCK_DETAIL = [
               4000000
             ],
             "actual_by_month": {},
-            "remark": ""
+            "remark": "회수"
           }
         },
         "actual_by_month": {}
@@ -47658,7 +47675,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "months_since_contract": 11,
+    "months_since_contract": 12,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -47811,7 +47828,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "months_since_contract": 11,
+    "months_since_contract": 12,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -47963,7 +47980,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "months_since_contract": 11,
+    "months_since_contract": 12,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -48109,7 +48126,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "months_since_contract": 11,
+    "months_since_contract": 12,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -48255,7 +48272,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "months_since_contract": 11,
+    "months_since_contract": 12,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -48401,7 +48418,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "months_since_contract": 11,
+    "months_since_contract": 12,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -48547,7 +48564,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "months_since_contract": 11,
+    "months_since_contract": 12,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -48687,7 +48704,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 11,
+    "months_since_contract": 12,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -48785,7 +48802,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "months_since_contract": 10,
+    "months_since_contract": 11,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -48927,7 +48944,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "months_since_contract": 10,
+    "months_since_contract": 11,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -49073,7 +49090,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "months_since_contract": 10,
+    "months_since_contract": 11,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -49215,7 +49232,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "months_since_contract": 10,
+    "months_since_contract": 11,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -49357,7 +49374,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "months_since_contract": 10,
+    "months_since_contract": 11,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -49520,7 +49537,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "months_since_contract": 10,
+    "months_since_contract": 11,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -49652,15 +49669,15 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2025
     ],
-    "team": "RPM2팀",
-    "rep": "장은준",
+    "team": "RPM3팀",
+    "rep": "이창환",
     "name": "유앤아이의원 하남미사점",
     "biz": 3555201058,
     "contract_date": "2025-11-01",
     "client_contract_years": [
       2025
     ],
-    "months_since_contract": 10,
+    "months_since_contract": 11,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -49756,7 +49773,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 8,
+    "months_since_contract": 9,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -49848,7 +49865,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 8,
+    "months_since_contract": 9,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -49957,7 +49974,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 8,
+    "months_since_contract": 9,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -50049,7 +50066,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 8,
+    "months_since_contract": 9,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -50144,7 +50161,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 8,
+    "months_since_contract": 9,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -50273,7 +50290,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 8,
+    "months_since_contract": 9,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -50371,7 +50388,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 8,
+    "months_since_contract": 9,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -50481,7 +50498,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 8,
+    "months_since_contract": 9,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -50573,7 +50590,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 8,
+    "months_since_contract": 9,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -50684,7 +50701,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 8,
+    "months_since_contract": 9,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -50789,7 +50806,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 8,
+    "months_since_contract": 9,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -50813,7 +50830,8 @@ window.BLOCK_DETAIL = [
               "2026-06": 245454.0,
               "2026-07": 736362.0,
               "2026-08": 245454.0,
-              "2026-09": 245454.0
+              "2026-09": 245454.0,
+              "2026-10": 245454.0
             },
             "remark": ""
           }
@@ -50862,7 +50880,8 @@ window.BLOCK_DETAIL = [
           "2026-06": 245454.0,
           "2026-07": 736362.0,
           "2026-08": 245454.0,
-          "2026-09": 245454.0
+          "2026-09": 245454.0,
+          "2026-10": 245454.0
         }
       },
       "브이올렛": {
@@ -50929,14 +50948,14 @@ window.BLOCK_DETAIL = [
       2026
     ],
     "team": "RPM4팀",
-    "rep": "김재진",
+    "rep": "이상직",
     "name": "로제피부과의원(범어점)",
     "biz": 5022974178,
     "contract_date": "2026-01-01",
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 8,
+    "months_since_contract": 9,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -51062,7 +51081,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 8,
+    "months_since_contract": 9,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -51196,7 +51215,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 8,
+    "months_since_contract": 9,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -51303,7 +51322,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 8,
+    "months_since_contract": 9,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -51418,7 +51437,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 8,
+    "months_since_contract": 9,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -51510,7 +51529,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 8,
+    "months_since_contract": 9,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -51621,7 +51640,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 8,
+    "months_since_contract": 9,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -51721,7 +51740,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 8,
+    "months_since_contract": 9,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -51819,7 +51838,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 8,
+    "months_since_contract": 9,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -51915,7 +51934,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 8,
+    "months_since_contract": 9,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -52015,7 +52034,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 8,
+    "months_since_contract": 9,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -52107,7 +52126,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 8,
+    "months_since_contract": 9,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -52204,7 +52223,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 8,
+    "months_since_contract": 9,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -52301,7 +52320,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 8,
+    "months_since_contract": 9,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -52398,7 +52417,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 8,
+    "months_since_contract": 9,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -52495,7 +52514,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 8,
+    "months_since_contract": 9,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -52595,7 +52614,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 8,
+    "months_since_contract": 9,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -52688,7 +52707,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 8,
+    "months_since_contract": 9,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -52781,9 +52800,9 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 8,
-    "remark": "",
-    "recalled": false,
+    "months_since_contract": 9,
+    "remark": "회수",
+    "recalled": true,
     "groups": {
       "나보타": {
         "by_year": {
@@ -52797,7 +52816,7 @@ window.BLOCK_DETAIL = [
               0
             ],
             "actual_by_month": {},
-            "remark": ""
+            "remark": "회수"
           }
         },
         "actual_by_month": {}
@@ -52814,7 +52833,7 @@ window.BLOCK_DETAIL = [
               1000000
             ],
             "actual_by_month": {},
-            "remark": ""
+            "remark": "회수"
           }
         },
         "actual_by_month": {}
@@ -52833,7 +52852,7 @@ window.BLOCK_DETAIL = [
             "actual_by_month": {
               "2026-02": 0.0
             },
-            "remark": ""
+            "remark": "회수"
           }
         },
         "actual_by_month": {
@@ -52852,7 +52871,7 @@ window.BLOCK_DETAIL = [
               0
             ],
             "actual_by_month": {},
-            "remark": ""
+            "remark": "회수"
           }
         },
         "actual_by_month": {}
@@ -52878,7 +52897,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 8,
+    "months_since_contract": 9,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -52975,7 +52994,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 8,
+    "months_since_contract": 9,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -53068,7 +53087,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 8,
+    "months_since_contract": 9,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -53198,7 +53217,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 8,
+    "months_since_contract": 9,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -53316,7 +53335,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 8,
+    "months_since_contract": 9,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -53438,7 +53457,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 8,
+    "months_since_contract": 9,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -53546,7 +53565,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 8,
+    "months_since_contract": 9,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -53641,14 +53660,14 @@ window.BLOCK_DETAIL = [
       2026
     ],
     "team": "RPM4팀",
-    "rep": "김재진",
+    "rep": "이상직",
     "name": "서울에이치피부과의원",
     "biz": 6102767222,
     "contract_date": "2026-01-01",
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 8,
+    "months_since_contract": 9,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -53741,14 +53760,14 @@ window.BLOCK_DETAIL = [
       2026
     ],
     "team": "RPM4팀",
-    "rep": "김재진",
+    "rep": "이상직",
     "name": "황금피부과의원",
     "biz": 1602800645,
     "contract_date": "2026-01-01",
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 8,
+    "months_since_contract": 9,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -53837,14 +53856,14 @@ window.BLOCK_DETAIL = [
       2026
     ],
     "team": "RPM4팀",
-    "rep": "김재진",
+    "rep": "이상직",
     "name": "\t힐하우스피부과의원 대구점\t",
     "biz": 4070722145,
     "contract_date": "2026-01-01",
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 8,
+    "months_since_contract": 9,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -53942,7 +53961,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 8,
+    "months_since_contract": 9,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -54048,7 +54067,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 8,
+    "months_since_contract": 9,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -54154,7 +54173,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 8,
+    "months_since_contract": 9,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -54253,7 +54272,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 8,
+    "months_since_contract": 9,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -54345,7 +54364,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 8,
+    "months_since_contract": 9,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -54437,7 +54456,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 8,
+    "months_since_contract": 9,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -54529,7 +54548,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 8,
+    "months_since_contract": 9,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -54626,7 +54645,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 8,
+    "months_since_contract": 9,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -54722,7 +54741,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 8,
+    "months_since_contract": 9,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -54855,7 +54874,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 8,
+    "months_since_contract": 9,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -54959,7 +54978,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 8,
+    "months_since_contract": 9,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -55055,7 +55074,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 8,
+    "months_since_contract": 9,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -55147,7 +55166,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 8,
+    "months_since_contract": 9,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -55253,7 +55272,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 8,
+    "months_since_contract": 9,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -55276,7 +55295,8 @@ window.BLOCK_DETAIL = [
               "2026-06": 6363636.0,
               "2026-07": 6363636.0,
               "2026-08": 6363636.0,
-              "2026-09": 6363636.0
+              "2026-09": 6363636.0,
+              "2026-10": 6363636.0
             },
             "remark": ""
           }
@@ -55289,7 +55309,8 @@ window.BLOCK_DETAIL = [
           "2026-06": 6363636.0,
           "2026-07": 6363636.0,
           "2026-08": 6363636.0,
-          "2026-09": 6363636.0
+          "2026-09": 6363636.0,
+          "2026-10": 6363636.0
         }
       },
       "브이올렛": {
@@ -55380,7 +55401,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 8,
+    "months_since_contract": 9,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -55478,7 +55499,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 8,
+    "months_since_contract": 9,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -55563,14 +55584,14 @@ window.BLOCK_DETAIL = [
       2026
     ],
     "team": "RPM4팀",
-    "rep": "김재진",
+    "rep": "이상직",
     "name": "핀다의원",
     "biz": 2203500775,
     "contract_date": "2026-01-01",
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 8,
+    "months_since_contract": 9,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -55678,14 +55699,14 @@ window.BLOCK_DETAIL = [
       2026
     ],
     "team": "RPM4팀",
-    "rep": "김재진",
+    "rep": "이상직",
     "name": "김앤김의원",
     "biz": 6201177240,
     "contract_date": "2026-01-01",
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 8,
+    "months_since_contract": 9,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -55779,14 +55800,14 @@ window.BLOCK_DETAIL = [
       2026
     ],
     "team": "RPM4팀",
-    "rep": "김재진",
+    "rep": "이상직",
     "name": "나의계절의원(울산)",
     "biz": 6183711662,
     "contract_date": "2026-01-01",
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 8,
+    "months_since_contract": 9,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -55877,14 +55898,14 @@ window.BLOCK_DETAIL = [
       2026
     ],
     "team": "RPM4팀",
-    "rep": "김재진",
+    "rep": "이상직",
     "name": "닥터디자이너의원(남구)",
     "biz": 1362600541,
     "contract_date": "2026-01-01",
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 8,
+    "months_since_contract": 9,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -55969,14 +55990,14 @@ window.BLOCK_DETAIL = [
       2026
     ],
     "team": "RPM4팀",
-    "rep": "김재진",
+    "rep": "이상직",
     "name": "르본의원(울산)",
     "biz": 6102737752,
     "contract_date": "2026-01-01",
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 8,
+    "months_since_contract": 9,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -56061,14 +56082,14 @@ window.BLOCK_DETAIL = [
       2026
     ],
     "team": "RPM4팀",
-    "rep": "김재진",
+    "rep": "이상직",
     "name": "메이린의원울산점",
     "biz": 7860200597,
     "contract_date": "2026-01-01",
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 8,
+    "months_since_contract": 9,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -56187,7 +56208,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 8,
+    "months_since_contract": 9,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -56287,7 +56308,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 8,
+    "months_since_contract": 9,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -56388,7 +56409,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 8,
+    "months_since_contract": 9,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -56484,14 +56505,14 @@ window.BLOCK_DETAIL = [
       2026
     ],
     "team": "RPM4팀",
-    "rep": "김재진",
+    "rep": "이상직",
     "name": "에시르의원",
     "biz": 8562501915,
     "contract_date": "2026-01-01",
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 8,
+    "months_since_contract": 9,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -56599,7 +56620,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 8,
+    "months_since_contract": 9,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -56692,14 +56713,14 @@ window.BLOCK_DETAIL = [
       2026
     ],
     "team": "RPM4팀",
-    "rep": "김재진",
+    "rep": "이상직",
     "name": "연세제이원의원",
     "biz": 7322701613,
     "contract_date": "2026-01-01",
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 8,
+    "months_since_contract": 9,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -56807,14 +56828,14 @@ window.BLOCK_DETAIL = [
       2026
     ],
     "team": "RPM4팀",
-    "rep": "김재진",
+    "rep": "이상직",
     "name": "제니스병원",
     "biz": 6102568396,
     "contract_date": "2026-01-01",
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 8,
+    "months_since_contract": 9,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -56920,7 +56941,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 8,
+    "months_since_contract": 9,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -57013,14 +57034,14 @@ window.BLOCK_DETAIL = [
       2026
     ],
     "team": "RPM4팀",
-    "rep": "김재진",
+    "rep": "이상직",
     "name": "리프톤피부과의원",
     "biz": 4555001029,
     "contract_date": "2026-01-01",
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 8,
+    "months_since_contract": 9,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -57127,14 +57148,14 @@ window.BLOCK_DETAIL = [
       2026
     ],
     "team": "RPM4팀",
-    "rep": "김재진",
+    "rep": "이상직",
     "name": "라마르의원(울산)",
     "biz": 6102638230,
     "contract_date": "2026-01-01",
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 8,
+    "months_since_contract": 9,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -57252,14 +57273,14 @@ window.BLOCK_DETAIL = [
       2026
     ],
     "team": "RPM4팀",
-    "rep": "김재진",
+    "rep": "이상직",
     "name": "강남의원",
     "biz": 6201180347,
     "contract_date": "2026-01-01",
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 8,
+    "months_since_contract": 9,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -57375,14 +57396,14 @@ window.BLOCK_DETAIL = [
       2026
     ],
     "team": "RPM4팀",
-    "rep": "김재진",
+    "rep": "이상직",
     "name": "라엘라의원",
     "biz": 6102740320,
     "contract_date": "2026-01-01",
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 8,
+    "months_since_contract": 9,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -57479,7 +57500,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 8,
+    "months_since_contract": 9,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -57576,7 +57597,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 7,
+    "months_since_contract": 8,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -57679,7 +57700,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 7,
+    "months_since_contract": 8,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -57785,7 +57806,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 7,
+    "months_since_contract": 8,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -57881,9 +57902,9 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 7,
-    "remark": "",
-    "recalled": false,
+    "months_since_contract": 8,
+    "remark": "회수",
+    "recalled": true,
     "groups": {
       "나보타": {
         "by_year": {
@@ -57897,7 +57918,7 @@ window.BLOCK_DETAIL = [
               0
             ],
             "actual_by_month": {},
-            "remark": ""
+            "remark": "회수"
           }
         },
         "actual_by_month": {}
@@ -57914,7 +57935,7 @@ window.BLOCK_DETAIL = [
               0
             ],
             "actual_by_month": {},
-            "remark": ""
+            "remark": "회수"
           }
         },
         "actual_by_month": {}
@@ -57933,7 +57954,7 @@ window.BLOCK_DETAIL = [
             "actual_by_month": {
               "2026-02": 0.0
             },
-            "remark": ""
+            "remark": "회수"
           }
         },
         "actual_by_month": {
@@ -57952,7 +57973,7 @@ window.BLOCK_DETAIL = [
               0
             ],
             "actual_by_month": {},
-            "remark": ""
+            "remark": "회수"
           }
         },
         "actual_by_month": {}
@@ -57978,7 +57999,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 7,
+    "months_since_contract": 8,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -58067,14 +58088,14 @@ window.BLOCK_DETAIL = [
       2026
     ],
     "team": "RPM4팀",
-    "rep": "김재진",
+    "rep": "이상직",
     "name": "미라인의원(북구점)",
     "biz": 6201387024,
     "contract_date": "2026-03-01",
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 6,
+    "months_since_contract": 7,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -58188,7 +58209,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 6,
+    "months_since_contract": 7,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -58281,7 +58302,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 6,
+    "months_since_contract": 7,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -58392,7 +58413,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 6,
+    "months_since_contract": 7,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -58503,7 +58524,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 6,
+    "months_since_contract": 7,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -58603,7 +58624,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 6,
+    "months_since_contract": 7,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -58712,7 +58733,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 6,
+    "months_since_contract": 7,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -58805,7 +58826,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 6,
+    "months_since_contract": 7,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -58914,7 +58935,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 6,
+    "months_since_contract": 7,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -59030,7 +59051,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 5,
+    "months_since_contract": 6,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -59139,7 +59160,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 5,
+    "months_since_contract": 6,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -59274,7 +59295,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 5,
+    "months_since_contract": 6,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -59390,7 +59411,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 5,
+    "months_since_contract": 6,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -59486,7 +59507,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 5,
+    "months_since_contract": 6,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -59591,7 +59612,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 5,
+    "months_since_contract": 6,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -59687,7 +59708,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 5,
+    "months_since_contract": 6,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -59779,7 +59800,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 5,
+    "months_since_contract": 6,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -59875,7 +59896,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 5,
+    "months_since_contract": 6,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -59985,7 +60006,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 5,
+    "months_since_contract": 6,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -60082,7 +60103,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 5,
+    "months_since_contract": 6,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -60179,7 +60200,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 5,
+    "months_since_contract": 6,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -60276,7 +60297,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 5,
+    "months_since_contract": 6,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -60389,7 +60410,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 5,
+    "months_since_contract": 6,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -60489,7 +60510,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 5,
+    "months_since_contract": 6,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -60607,7 +60628,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 5,
+    "months_since_contract": 6,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -60720,7 +60741,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 5,
+    "months_since_contract": 6,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -60825,7 +60846,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 5,
+    "months_since_contract": 6,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -60917,7 +60938,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 5,
+    "months_since_contract": 6,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -61009,7 +61030,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 5,
+    "months_since_contract": 6,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -61105,7 +61126,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 5,
+    "months_since_contract": 6,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -61199,7 +61220,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 5,
+    "months_since_contract": 6,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -61291,7 +61312,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 5,
+    "months_since_contract": 6,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -61391,7 +61412,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 5,
+    "months_since_contract": 6,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -61489,9 +61510,9 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 5,
-    "remark": "",
-    "recalled": false,
+    "months_since_contract": 6,
+    "remark": "회수",
+    "recalled": true,
     "groups": {
       "나보타": {
         "by_year": {
@@ -61505,15 +61526,13 @@ window.BLOCK_DETAIL = [
               2000000
             ],
             "actual_by_month": {
-              "2026-08": 6363636.0,
-              "2026-09": 15909091.0
+              "2026-08": 6363636.0
             },
-            "remark": ""
+            "remark": "회수"
           }
         },
         "actual_by_month": {
-          "2026-08": 6363636.0,
-          "2026-09": 15909091.0
+          "2026-08": 6363636.0
         }
       },
       "브이올렛": {
@@ -61528,7 +61547,7 @@ window.BLOCK_DETAIL = [
               1500000.0
             ],
             "actual_by_month": {},
-            "remark": ""
+            "remark": "회수"
           }
         },
         "actual_by_month": {}
@@ -61545,7 +61564,7 @@ window.BLOCK_DETAIL = [
               1500000.0
             ],
             "actual_by_month": {},
-            "remark": ""
+            "remark": "회수"
           }
         },
         "actual_by_month": {}
@@ -61562,7 +61581,7 @@ window.BLOCK_DETAIL = [
               1000000
             ],
             "actual_by_month": {},
-            "remark": ""
+            "remark": "회수"
           }
         },
         "actual_by_month": {}
@@ -61587,7 +61606,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 5,
+    "months_since_contract": 6,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -61683,9 +61702,9 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 5,
-    "remark": "",
-    "recalled": false,
+    "months_since_contract": 6,
+    "remark": "회수",
+    "recalled": true,
     "groups": {
       "나보타": {
         "by_year": {
@@ -61699,7 +61718,7 @@ window.BLOCK_DETAIL = [
               2000000
             ],
             "actual_by_month": {},
-            "remark": ""
+            "remark": "회수"
           }
         },
         "actual_by_month": {}
@@ -61716,7 +61735,7 @@ window.BLOCK_DETAIL = [
               1500000.0
             ],
             "actual_by_month": {},
-            "remark": ""
+            "remark": "회수"
           }
         },
         "actual_by_month": {
@@ -61736,7 +61755,7 @@ window.BLOCK_DETAIL = [
               1500000.0
             ],
             "actual_by_month": {},
-            "remark": ""
+            "remark": "회수"
           }
         },
         "actual_by_month": {}
@@ -61753,7 +61772,7 @@ window.BLOCK_DETAIL = [
               1000000
             ],
             "actual_by_month": {},
-            "remark": ""
+            "remark": "회수"
           }
         },
         "actual_by_month": {}
@@ -61778,7 +61797,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 5,
+    "months_since_contract": 6,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -61870,7 +61889,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 5,
+    "months_since_contract": 6,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -61962,7 +61981,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 5,
+    "months_since_contract": 6,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -62055,7 +62074,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 5,
+    "months_since_contract": 6,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -62158,14 +62177,14 @@ window.BLOCK_DETAIL = [
       2026
     ],
     "team": "RPM4팀",
-    "rep": "김재진",
+    "rep": "이상직",
     "name": "리쥬엘의원(수성점)",
     "biz": 4881402087,
     "contract_date": "2026-05-01",
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 4,
+    "months_since_contract": 5,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -62261,14 +62280,14 @@ window.BLOCK_DETAIL = [
       2026
     ],
     "team": "RPM4팀",
-    "rep": "김재진",
+    "rep": "이상직",
     "name": "브이의원(수성)",
     "biz": 8100500848,
     "contract_date": "2026-05-01",
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 4,
+    "months_since_contract": 5,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -62365,14 +62384,14 @@ window.BLOCK_DETAIL = [
       2026
     ],
     "team": "RPM4팀",
-    "rep": "김재진",
+    "rep": "이상직",
     "name": "디렉터의원",
     "biz": 2045822795,
     "contract_date": "2026-05-01",
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 4,
+    "months_since_contract": 5,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -62458,14 +62477,14 @@ window.BLOCK_DETAIL = [
       2026
     ],
     "team": "RPM4팀",
-    "rep": "김재진",
+    "rep": "이상직",
     "name": "디데이의원",
     "biz": 3952600868,
     "contract_date": "2026-05-01",
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 4,
+    "months_since_contract": 5,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -62558,7 +62577,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 4,
+    "months_since_contract": 5,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -62651,7 +62670,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 4,
+    "months_since_contract": 5,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -62748,7 +62767,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 4,
+    "months_since_contract": 5,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -62841,7 +62860,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 4,
+    "months_since_contract": 5,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -62934,14 +62953,14 @@ window.BLOCK_DETAIL = [
       2026
     ],
     "team": "RPM4팀",
-    "rep": "김재진",
+    "rep": "이상직",
     "name": "아르떼의원",
     "biz": 7360500083,
     "contract_date": "2026-05-01",
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 4,
+    "months_since_contract": 5,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -63041,9 +63060,9 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 4,
-    "remark": "",
-    "recalled": false,
+    "months_since_contract": 5,
+    "remark": "회수",
+    "recalled": true,
     "groups": {
       "나보타": {
         "by_year": {
@@ -63057,7 +63076,7 @@ window.BLOCK_DETAIL = [
               10000000
             ],
             "actual_by_month": {},
-            "remark": ""
+            "remark": "회수"
           }
         },
         "actual_by_month": {}
@@ -63074,7 +63093,7 @@ window.BLOCK_DETAIL = [
               6000000
             ],
             "actual_by_month": {},
-            "remark": ""
+            "remark": "회수"
           }
         },
         "actual_by_month": {}
@@ -63091,7 +63110,7 @@ window.BLOCK_DETAIL = [
               13000000
             ],
             "actual_by_month": {},
-            "remark": ""
+            "remark": "회수"
           }
         },
         "actual_by_month": {}
@@ -63108,7 +63127,7 @@ window.BLOCK_DETAIL = [
               0
             ],
             "actual_by_month": {},
-            "remark": ""
+            "remark": "회수"
           }
         },
         "actual_by_month": {}
@@ -63133,7 +63152,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 4,
+    "months_since_contract": 5,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -63231,7 +63250,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 4,
+    "months_since_contract": 5,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -63323,7 +63342,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 4,
+    "months_since_contract": 5,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -63415,7 +63434,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 4,
+    "months_since_contract": 5,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -63507,7 +63526,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 4,
+    "months_since_contract": 5,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -63599,7 +63618,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 4,
+    "months_since_contract": 5,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -63695,7 +63714,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 4,
+    "months_since_contract": 5,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -63787,7 +63806,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 4,
+    "months_since_contract": 5,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -63879,7 +63898,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 4,
+    "months_since_contract": 5,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -63971,7 +63990,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 4,
+    "months_since_contract": 5,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -64067,7 +64086,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 4,
+    "months_since_contract": 5,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -64159,9 +64178,9 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 4,
-    "remark": "",
-    "recalled": false,
+    "months_since_contract": 5,
+    "remark": "회수",
+    "recalled": true,
     "groups": {
       "나보타": {
         "by_year": {
@@ -64175,7 +64194,7 @@ window.BLOCK_DETAIL = [
               5500000.0
             ],
             "actual_by_month": {},
-            "remark": ""
+            "remark": "회수"
           }
         },
         "actual_by_month": {}
@@ -64192,7 +64211,7 @@ window.BLOCK_DETAIL = [
               3200000.0
             ],
             "actual_by_month": {},
-            "remark": ""
+            "remark": "회수"
           }
         },
         "actual_by_month": {}
@@ -64209,7 +64228,7 @@ window.BLOCK_DETAIL = [
               6700000.0
             ],
             "actual_by_month": {},
-            "remark": ""
+            "remark": "회수"
           }
         },
         "actual_by_month": {}
@@ -64226,7 +64245,7 @@ window.BLOCK_DETAIL = [
               0
             ],
             "actual_by_month": {},
-            "remark": ""
+            "remark": "회수"
           }
         },
         "actual_by_month": {}
@@ -64251,9 +64270,9 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 4,
-    "remark": "",
-    "recalled": false,
+    "months_since_contract": 5,
+    "remark": "회수",
+    "recalled": true,
     "groups": {
       "나보타": {
         "by_year": {
@@ -64267,7 +64286,7 @@ window.BLOCK_DETAIL = [
               10000000
             ],
             "actual_by_month": {},
-            "remark": ""
+            "remark": "회수"
           }
         },
         "actual_by_month": {}
@@ -64284,7 +64303,7 @@ window.BLOCK_DETAIL = [
               6000000
             ],
             "actual_by_month": {},
-            "remark": ""
+            "remark": "회수"
           }
         },
         "actual_by_month": {}
@@ -64301,7 +64320,7 @@ window.BLOCK_DETAIL = [
               4000000
             ],
             "actual_by_month": {},
-            "remark": ""
+            "remark": "회수"
           }
         },
         "actual_by_month": {}
@@ -64318,7 +64337,7 @@ window.BLOCK_DETAIL = [
               0
             ],
             "actual_by_month": {},
-            "remark": ""
+            "remark": "회수"
           }
         },
         "actual_by_month": {}
@@ -64343,9 +64362,9 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 4,
-    "remark": "",
-    "recalled": false,
+    "months_since_contract": 5,
+    "remark": "회수",
+    "recalled": true,
     "groups": {
       "나보타": {
         "by_year": {
@@ -64359,7 +64378,7 @@ window.BLOCK_DETAIL = [
               10000000
             ],
             "actual_by_month": {},
-            "remark": ""
+            "remark": "회수"
           }
         },
         "actual_by_month": {}
@@ -64376,7 +64395,7 @@ window.BLOCK_DETAIL = [
               6000000
             ],
             "actual_by_month": {},
-            "remark": ""
+            "remark": "회수"
           }
         },
         "actual_by_month": {}
@@ -64393,7 +64412,7 @@ window.BLOCK_DETAIL = [
               4000000
             ],
             "actual_by_month": {},
-            "remark": ""
+            "remark": "회수"
           }
         },
         "actual_by_month": {}
@@ -64410,7 +64429,7 @@ window.BLOCK_DETAIL = [
               0
             ],
             "actual_by_month": {},
-            "remark": ""
+            "remark": "회수"
           }
         },
         "actual_by_month": {}
@@ -64435,9 +64454,9 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 4,
-    "remark": "",
-    "recalled": false,
+    "months_since_contract": 5,
+    "remark": "회수",
+    "recalled": true,
     "groups": {
       "나보타": {
         "by_year": {
@@ -64451,7 +64470,7 @@ window.BLOCK_DETAIL = [
               5500000.0
             ],
             "actual_by_month": {},
-            "remark": ""
+            "remark": "회수"
           }
         },
         "actual_by_month": {}
@@ -64468,7 +64487,7 @@ window.BLOCK_DETAIL = [
               3200000.0
             ],
             "actual_by_month": {},
-            "remark": ""
+            "remark": "회수"
           }
         },
         "actual_by_month": {}
@@ -64485,7 +64504,7 @@ window.BLOCK_DETAIL = [
               6700000.0
             ],
             "actual_by_month": {},
-            "remark": ""
+            "remark": "회수"
           }
         },
         "actual_by_month": {}
@@ -64502,7 +64521,7 @@ window.BLOCK_DETAIL = [
               0
             ],
             "actual_by_month": {},
-            "remark": ""
+            "remark": "회수"
           }
         },
         "actual_by_month": {}
@@ -64527,9 +64546,9 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 4,
-    "remark": "",
-    "recalled": false,
+    "months_since_contract": 5,
+    "remark": "회수",
+    "recalled": true,
     "groups": {
       "나보타": {
         "by_year": {
@@ -64543,7 +64562,7 @@ window.BLOCK_DETAIL = [
               7500000.0
             ],
             "actual_by_month": {},
-            "remark": ""
+            "remark": "회수"
           }
         },
         "actual_by_month": {}
@@ -64560,7 +64579,7 @@ window.BLOCK_DETAIL = [
               4500000.0
             ],
             "actual_by_month": {},
-            "remark": ""
+            "remark": "회수"
           }
         },
         "actual_by_month": {}
@@ -64577,7 +64596,7 @@ window.BLOCK_DETAIL = [
               9400000.0
             ],
             "actual_by_month": {},
-            "remark": ""
+            "remark": "회수"
           }
         },
         "actual_by_month": {}
@@ -64594,7 +64613,7 @@ window.BLOCK_DETAIL = [
               0
             ],
             "actual_by_month": {},
-            "remark": ""
+            "remark": "회수"
           }
         },
         "actual_by_month": {}
@@ -64619,9 +64638,9 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 4,
-    "remark": "",
-    "recalled": false,
+    "months_since_contract": 5,
+    "remark": "회수",
+    "recalled": true,
     "groups": {
       "나보타": {
         "by_year": {
@@ -64635,7 +64654,7 @@ window.BLOCK_DETAIL = [
               5500000.0
             ],
             "actual_by_month": {},
-            "remark": ""
+            "remark": "회수"
           }
         },
         "actual_by_month": {}
@@ -64652,7 +64671,7 @@ window.BLOCK_DETAIL = [
               3200000.0
             ],
             "actual_by_month": {},
-            "remark": ""
+            "remark": "회수"
           }
         },
         "actual_by_month": {}
@@ -64669,7 +64688,7 @@ window.BLOCK_DETAIL = [
               6700000.0
             ],
             "actual_by_month": {},
-            "remark": ""
+            "remark": "회수"
           }
         },
         "actual_by_month": {}
@@ -64686,7 +64705,7 @@ window.BLOCK_DETAIL = [
               0
             ],
             "actual_by_month": {},
-            "remark": ""
+            "remark": "회수"
           }
         },
         "actual_by_month": {}
@@ -64711,7 +64730,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 4,
+    "months_since_contract": 5,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -64806,13 +64825,13 @@ window.BLOCK_DETAIL = [
     ],
     "team": "RPM1팀",
     "rep": "박기주",
-    "name": "더플랜의원",
+    "name": "어퍼11클리닉",
     "biz": 6991100806,
     "contract_date": "2026-05-01",
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 4,
+    "months_since_contract": 5,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -64913,7 +64932,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 4,
+    "months_since_contract": 5,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -65006,7 +65025,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 4,
+    "months_since_contract": 5,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -65099,7 +65118,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 4,
+    "months_since_contract": 5,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -65191,7 +65210,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 4,
+    "months_since_contract": 5,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -65299,7 +65318,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 4,
+    "months_since_contract": 5,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -65406,7 +65425,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 4,
+    "months_since_contract": 5,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -65528,7 +65547,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 4,
+    "months_since_contract": 5,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -65548,7 +65567,8 @@ window.BLOCK_DETAIL = [
               "2026-06": 10909091.0,
               "2026-07": 10909091.0,
               "2026-08": 10909091.0,
-              "2026-09": 10909091.0
+              "2026-09": 10909091.0,
+              "2026-10": 15272728.0
             },
             "remark": ""
           }
@@ -65558,7 +65578,8 @@ window.BLOCK_DETAIL = [
           "2026-06": 10909091.0,
           "2026-07": 10909091.0,
           "2026-08": 10909091.0,
-          "2026-09": 10909091.0
+          "2026-09": 10909091.0,
+          "2026-10": 15272728.0
         }
       },
       "브이올렛": {
@@ -65653,7 +65674,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 4,
+    "months_since_contract": 5,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -65766,7 +65787,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 4,
+    "months_since_contract": 5,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -65871,7 +65892,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 4,
+    "months_since_contract": 5,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -65977,7 +65998,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 3,
+    "months_since_contract": 4,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -66074,7 +66095,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 3,
+    "months_since_contract": 4,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -66171,7 +66192,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 3,
+    "months_since_contract": 4,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -66301,7 +66322,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 3,
+    "months_since_contract": 4,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -66396,7 +66417,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 3,
+    "months_since_contract": 4,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -66493,7 +66514,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 3,
+    "months_since_contract": 4,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -66586,7 +66607,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 3,
+    "months_since_contract": 4,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -66678,7 +66699,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 3,
+    "months_since_contract": 4,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -66775,7 +66796,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 3,
+    "months_since_contract": 4,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -66892,9 +66913,9 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 3,
-    "remark": "",
-    "recalled": false,
+    "months_since_contract": 4,
+    "remark": "회수",
+    "recalled": true,
     "groups": {
       "나보타": {
         "by_year": {
@@ -66908,7 +66929,7 @@ window.BLOCK_DETAIL = [
               0
             ],
             "actual_by_month": {},
-            "remark": ""
+            "remark": "회수"
           }
         },
         "actual_by_month": {}
@@ -66927,7 +66948,7 @@ window.BLOCK_DETAIL = [
             "actual_by_month": {
               "2026-06": 1227273.0
             },
-            "remark": ""
+            "remark": "회수"
           }
         },
         "actual_by_month": {
@@ -66946,7 +66967,7 @@ window.BLOCK_DETAIL = [
               1000000
             ],
             "actual_by_month": {},
-            "remark": ""
+            "remark": "회수"
           }
         },
         "actual_by_month": {}
@@ -66963,7 +66984,7 @@ window.BLOCK_DETAIL = [
               0
             ],
             "actual_by_month": {},
-            "remark": ""
+            "remark": "회수"
           }
         },
         "actual_by_month": {}
@@ -66988,7 +67009,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 3,
+    "months_since_contract": 4,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -67082,7 +67103,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 3,
+    "months_since_contract": 4,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -67174,7 +67195,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 3,
+    "months_since_contract": 4,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -67266,7 +67287,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 3,
+    "months_since_contract": 4,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -67358,7 +67379,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 3,
+    "months_since_contract": 4,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -67450,7 +67471,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 3,
+    "months_since_contract": 4,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -67563,14 +67584,14 @@ window.BLOCK_DETAIL = [
       2026
     ],
     "team": "RPM4팀",
-    "rep": "김재진",
+    "rep": "이상직",
     "name": "엘리스의원(울산)",
     "biz": 6102771221,
     "contract_date": "2026-06-01",
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 3,
+    "months_since_contract": 4,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -67668,7 +67689,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 3,
+    "months_since_contract": 4,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -67778,7 +67799,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 3,
+    "months_since_contract": 4,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -67892,7 +67913,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 3,
+    "months_since_contract": 4,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -68007,7 +68028,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 3,
+    "months_since_contract": 4,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -68130,7 +68151,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 3,
+    "months_since_contract": 4,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -68237,7 +68258,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 3,
+    "months_since_contract": 4,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -68342,7 +68363,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 3,
+    "months_since_contract": 4,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -68447,7 +68468,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 3,
+    "months_since_contract": 4,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -68552,7 +68573,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 3,
+    "months_since_contract": 4,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -68644,7 +68665,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 3,
+    "months_since_contract": 4,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -68749,7 +68770,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 3,
+    "months_since_contract": 4,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -68858,7 +68879,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 3,
+    "months_since_contract": 4,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -68963,7 +68984,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 3,
+    "months_since_contract": 4,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -69072,7 +69093,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 3,
+    "months_since_contract": 4,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -69177,7 +69198,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 3,
+    "months_since_contract": 4,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -69194,14 +69215,16 @@ window.BLOCK_DETAIL = [
             ],
             "actual_by_month": {
               "2026-06": 2045455.0,
-              "2026-07": 4909092.0
+              "2026-07": 4909092.0,
+              "2026-10": 2045455.0
             },
             "remark": ""
           }
         },
         "actual_by_month": {
           "2026-06": 2045455.0,
-          "2026-07": 4909092.0
+          "2026-07": 4909092.0,
+          "2026-10": 2045455.0
         }
       },
       "브이올렛": {
@@ -69288,7 +69311,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 3,
+    "months_since_contract": 4,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -69393,7 +69416,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 3,
+    "months_since_contract": 4,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -69486,7 +69509,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 3,
+    "months_since_contract": 4,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -69624,7 +69647,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 3,
+    "months_since_contract": 4,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -69643,7 +69666,8 @@ window.BLOCK_DETAIL = [
               "2026-06": 10454546.0,
               "2026-07": 10454546.0,
               "2026-08": 10545454.0,
-              "2026-09": 10545454.0
+              "2026-09": 10545454.0,
+              "2026-10": 10454546.0
             },
             "remark": ""
           }
@@ -69652,7 +69676,8 @@ window.BLOCK_DETAIL = [
           "2026-06": 10454546.0,
           "2026-07": 10454546.0,
           "2026-08": 10545454.0,
-          "2026-09": 10545454.0
+          "2026-09": 10545454.0,
+          "2026-10": 10454546.0
         }
       },
       "브이올렛": {
@@ -69739,7 +69764,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 2,
+    "months_since_contract": 3,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -69792,7 +69817,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 2,
+    "months_since_contract": 3,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -69845,7 +69870,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 2,
+    "months_since_contract": 3,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -69891,14 +69916,14 @@ window.BLOCK_DETAIL = [
       2026
     ],
     "team": "RPM4팀",
-    "rep": "김재진",
+    "rep": "이상직",
     "name": "베러미의원",
     "biz": 1092854772,
     "contract_date": "2026-07-01",
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 2,
+    "months_since_contract": 3,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -69968,7 +69993,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 2,
+    "months_since_contract": 3,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -70021,7 +70046,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 2,
+    "months_since_contract": 3,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -70075,7 +70100,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 2,
+    "months_since_contract": 3,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -70162,7 +70187,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 2,
+    "months_since_contract": 3,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -70220,7 +70245,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 2,
+    "months_since_contract": 3,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -70268,14 +70293,14 @@ window.BLOCK_DETAIL = [
       2026
     ],
     "team": "RPM4팀",
-    "rep": "김재진",
+    "rep": "이상직",
     "name": "황금피부과(대구)",
     "biz": 1602800645,
     "contract_date": "2026-07-01",
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 2,
+    "months_since_contract": 3,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -70330,7 +70355,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 2,
+    "months_since_contract": 3,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -70383,7 +70408,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 2,
+    "months_since_contract": 3,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -70446,7 +70471,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 2,
+    "months_since_contract": 3,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -70500,7 +70525,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 2,
+    "months_since_contract": 3,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -70568,7 +70593,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 2,
+    "months_since_contract": 3,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -70633,7 +70658,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 2,
+    "months_since_contract": 3,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -70686,7 +70711,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 2,
+    "months_since_contract": 3,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -70719,14 +70744,16 @@ window.BLOCK_DETAIL = [
             ],
             "actual_by_month": {
               "2026-08": 3000000.0,
-              "2026-09": 0.0
+              "2026-09": 0.0,
+              "2026-10": 0.0
             },
             "remark": ""
           }
         },
         "actual_by_month": {
           "2026-08": 3000000.0,
-          "2026-09": 0.0
+          "2026-09": 0.0,
+          "2026-10": 0.0
         }
       }
     }
@@ -70745,9 +70772,9 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 2,
-    "remark": "",
-    "recalled": false,
+    "months_since_contract": 3,
+    "remark": "회수",
+    "recalled": true,
     "groups": {
       "나보타": {
         "by_year": {},
@@ -70777,7 +70804,7 @@ window.BLOCK_DETAIL = [
               12000000
             ],
             "actual_by_month": {},
-            "remark": ""
+            "remark": "회수"
           }
         },
         "actual_by_month": {}
@@ -70799,7 +70826,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 2,
+    "months_since_contract": 3,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -70864,7 +70891,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 2,
+    "months_since_contract": 3,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -70920,7 +70947,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 2,
+    "months_since_contract": 3,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -70986,7 +71013,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 2,
+    "months_since_contract": 3,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -71039,7 +71066,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 2,
+    "months_since_contract": 3,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -71092,7 +71119,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 2,
+    "months_since_contract": 3,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -71201,14 +71228,14 @@ window.BLOCK_DETAIL = [
       2026
     ],
     "team": "RPM4팀",
-    "rep": "김재진",
+    "rep": "이상직",
     "name": "베러미의원",
     "biz": 2141568923,
     "contract_date": "2026-07-01",
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 2,
+    "months_since_contract": 3,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -71268,9 +71295,9 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 2,
-    "remark": "",
-    "recalled": false,
+    "months_since_contract": 3,
+    "remark": "회수",
+    "recalled": true,
     "groups": {
       "나보타": {
         "by_year": {},
@@ -71300,7 +71327,7 @@ window.BLOCK_DETAIL = [
               15000000
             ],
             "actual_by_month": {},
-            "remark": ""
+            "remark": "회수"
           }
         },
         "actual_by_month": {}
@@ -71321,7 +71348,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 2,
+    "months_since_contract": 3,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -71375,7 +71402,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 2,
+    "months_since_contract": 3,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -71429,7 +71456,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 2,
+    "months_since_contract": 3,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -71490,7 +71517,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 2,
+    "months_since_contract": 3,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -71544,7 +71571,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 2,
+    "months_since_contract": 3,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -71608,7 +71635,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 2,
+    "months_since_contract": 3,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -71661,7 +71688,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 2,
+    "months_since_contract": 3,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -71718,7 +71745,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 2,
+    "months_since_contract": 3,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -71793,7 +71820,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 2,
+    "months_since_contract": 3,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -71851,7 +71878,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 2,
+    "months_since_contract": 3,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -71917,7 +71944,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 2,
+    "months_since_contract": 3,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -71970,7 +71997,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 2,
+    "months_since_contract": 3,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -72079,7 +72106,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 2,
+    "months_since_contract": 3,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -72136,7 +72163,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 2,
+    "months_since_contract": 3,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -72191,9 +72218,9 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 2,
-    "remark": "",
-    "recalled": false,
+    "months_since_contract": 3,
+    "remark": "회수",
+    "recalled": true,
     "groups": {
       "나보타": {
         "by_year": {},
@@ -72230,7 +72257,7 @@ window.BLOCK_DETAIL = [
               12000000
             ],
             "actual_by_month": {},
-            "remark": ""
+            "remark": "회수"
           }
         },
         "actual_by_month": {}
@@ -72252,7 +72279,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 2,
+    "months_since_contract": 3,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -72315,9 +72342,9 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 2,
-    "remark": "",
-    "recalled": false,
+    "months_since_contract": 3,
+    "remark": "회수",
+    "recalled": true,
     "groups": {
       "나보타": {
         "by_year": {},
@@ -72362,7 +72389,7 @@ window.BLOCK_DETAIL = [
               12000000
             ],
             "actual_by_month": {},
-            "remark": ""
+            "remark": "회수"
           }
         },
         "actual_by_month": {}
@@ -72383,7 +72410,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 2,
+    "months_since_contract": 3,
     "remark": "회수",
     "recalled": true,
     "groups": {
@@ -72437,7 +72464,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 2,
+    "months_since_contract": 3,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -72499,9 +72526,9 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 2,
-    "remark": "",
-    "recalled": false,
+    "months_since_contract": 3,
+    "remark": "회수",
+    "recalled": true,
     "groups": {
       "나보타": {
         "by_year": {},
@@ -72543,7 +72570,7 @@ window.BLOCK_DETAIL = [
               15000000
             ],
             "actual_by_month": {},
-            "remark": ""
+            "remark": "회수"
           }
         },
         "actual_by_month": {}
@@ -72564,9 +72591,9 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 2,
-    "remark": "",
-    "recalled": false,
+    "months_since_contract": 3,
+    "remark": "회수",
+    "recalled": true,
     "groups": {
       "나보타": {
         "by_year": {},
@@ -72618,7 +72645,7 @@ window.BLOCK_DETAIL = [
               12000000
             ],
             "actual_by_month": {},
-            "remark": ""
+            "remark": "회수"
           }
         },
         "actual_by_month": {}
@@ -72640,7 +72667,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 2,
+    "months_since_contract": 3,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -72690,7 +72717,8 @@ window.BLOCK_DETAIL = [
           "2026-06": 245454.0,
           "2026-07": 736362.0,
           "2026-08": 245454.0,
-          "2026-09": 245454.0
+          "2026-09": 245454.0,
+          "2026-10": 245454.0
         }
       },
       "브이올렛": {
@@ -72738,7 +72766,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 2,
+    "months_since_contract": 3,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -72791,7 +72819,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 2,
+    "months_since_contract": 3,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -72845,7 +72873,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 2,
+    "months_since_contract": 3,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -72906,7 +72934,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 2,
+    "months_since_contract": 3,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -72963,7 +72991,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 2,
+    "months_since_contract": 3,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -73017,7 +73045,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 2,
+    "months_since_contract": 3,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -73084,7 +73112,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 2,
+    "months_since_contract": 3,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -73140,7 +73168,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 2,
+    "months_since_contract": 3,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -73209,7 +73237,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 2,
+    "months_since_contract": 3,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -73263,7 +73291,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 2,
+    "months_since_contract": 3,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -73329,7 +73357,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 2,
+    "months_since_contract": 3,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -73435,7 +73463,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 2,
+    "months_since_contract": 3,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -73486,14 +73514,14 @@ window.BLOCK_DETAIL = [
       2026
     ],
     "team": "RPM4팀",
-    "rep": "김재진",
+    "rep": "이상직",
     "name": "로제피부과의원",
     "biz": 5022974178,
     "contract_date": "2026-07-01",
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 2,
+    "months_since_contract": 3,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -73572,7 +73600,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 2,
+    "months_since_contract": 3,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -73644,7 +73672,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 2,
+    "months_since_contract": 3,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -73706,7 +73734,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 2,
+    "months_since_contract": 3,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -73764,7 +73792,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 2,
+    "months_since_contract": 3,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -73817,9 +73845,9 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 2,
-    "remark": "",
-    "recalled": false,
+    "months_since_contract": 3,
+    "remark": "회수",
+    "recalled": true,
     "groups": {
       "나보타": {
         "by_year": {},
@@ -73849,7 +73877,7 @@ window.BLOCK_DETAIL = [
               12000000
             ],
             "actual_by_month": {},
-            "remark": ""
+            "remark": "회수"
           }
         },
         "actual_by_month": {}
@@ -73871,7 +73899,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 2,
+    "months_since_contract": 3,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -73941,7 +73969,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 2,
+    "months_since_contract": 3,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -74000,7 +74028,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 2,
+    "months_since_contract": 3,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -74053,7 +74081,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 2,
+    "months_since_contract": 3,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -74111,7 +74139,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 2,
+    "months_since_contract": 3,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -74164,9 +74192,9 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 2,
-    "remark": "",
-    "recalled": false,
+    "months_since_contract": 3,
+    "remark": "회수",
+    "recalled": true,
     "groups": {
       "나보타": {
         "by_year": {},
@@ -74196,7 +74224,7 @@ window.BLOCK_DETAIL = [
               15000000
             ],
             "actual_by_month": {},
-            "remark": ""
+            "remark": "회수"
           }
         },
         "actual_by_month": {}
@@ -74211,14 +74239,14 @@ window.BLOCK_DETAIL = [
       2026
     ],
     "team": "RPM4팀",
-    "rep": "김재진",
+    "rep": "이상직",
     "name": "지미의원",
     "biz": 5462202374,
     "contract_date": "2026-07-01",
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 2,
+    "months_since_contract": 3,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -74277,7 +74305,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 2,
+    "months_since_contract": 3,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -74331,7 +74359,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 2,
+    "months_since_contract": 3,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -74388,7 +74416,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 2,
+    "months_since_contract": 3,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -74448,7 +74476,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 2,
+    "months_since_contract": 3,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -74502,7 +74530,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 2,
+    "months_since_contract": 3,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -74562,7 +74590,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 2,
+    "months_since_contract": 3,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -74626,7 +74654,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 2,
+    "months_since_contract": 3,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -74679,9 +74707,9 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 2,
-    "remark": "",
-    "recalled": false,
+    "months_since_contract": 3,
+    "remark": "회수",
+    "recalled": true,
     "groups": {
       "나보타": {
         "by_year": {},
@@ -74711,7 +74739,7 @@ window.BLOCK_DETAIL = [
               12000000
             ],
             "actual_by_month": {},
-            "remark": ""
+            "remark": "회수"
           }
         },
         "actual_by_month": {}
@@ -74733,7 +74761,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 2,
+    "months_since_contract": 3,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -74803,7 +74831,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 2,
+    "months_since_contract": 3,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -74868,7 +74896,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 2,
+    "months_since_contract": 3,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -74915,14 +74943,14 @@ window.BLOCK_DETAIL = [
       2026
     ],
     "team": "RPM4팀",
-    "rep": "김재진",
+    "rep": "이상직",
     "name": "닥터디자이너의원 죽전",
     "biz": 6110997889,
     "contract_date": "2026-07-01",
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 2,
+    "months_since_contract": 3,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -74976,7 +75004,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 2,
+    "months_since_contract": 3,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -75030,7 +75058,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 2,
+    "months_since_contract": 3,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -75083,7 +75111,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 2,
+    "months_since_contract": 3,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -75137,7 +75165,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 2,
+    "months_since_contract": 3,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -75193,7 +75221,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 2,
+    "months_since_contract": 3,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -75246,7 +75274,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 2,
+    "months_since_contract": 3,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -75316,9 +75344,9 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 2,
-    "remark": "",
-    "recalled": false,
+    "months_since_contract": 3,
+    "remark": "회수",
+    "recalled": true,
     "groups": {
       "나보타": {
         "by_year": {},
@@ -75348,7 +75376,7 @@ window.BLOCK_DETAIL = [
               12000000
             ],
             "actual_by_month": {},
-            "remark": ""
+            "remark": "회수"
           }
         },
         "actual_by_month": {}
@@ -75369,9 +75397,9 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 2,
-    "remark": "",
-    "recalled": false,
+    "months_since_contract": 3,
+    "remark": "회수",
+    "recalled": true,
     "groups": {
       "나보타": {
         "by_year": {},
@@ -75423,7 +75451,7 @@ window.BLOCK_DETAIL = [
             "actual_by_month": {
               "2026-08": 0.0
             },
-            "remark": ""
+            "remark": "회수"
           }
         },
         "actual_by_month": {
@@ -75446,7 +75474,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 2,
+    "months_since_contract": 3,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -75499,7 +75527,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 2,
+    "months_since_contract": 3,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -75559,7 +75587,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 2,
+    "months_since_contract": 3,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -75613,7 +75641,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 2,
+    "months_since_contract": 3,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -75666,7 +75694,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 2,
+    "months_since_contract": 3,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -75727,9 +75755,9 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 2,
-    "remark": "",
-    "recalled": false,
+    "months_since_contract": 3,
+    "remark": "회수",
+    "recalled": true,
     "groups": {
       "나보타": {
         "by_year": {},
@@ -75759,7 +75787,7 @@ window.BLOCK_DETAIL = [
               12000000
             ],
             "actual_by_month": {},
-            "remark": ""
+            "remark": "회수"
           }
         },
         "actual_by_month": {}
@@ -75780,7 +75808,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 2,
+    "months_since_contract": 3,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -75833,9 +75861,9 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 2,
-    "remark": "",
-    "recalled": false,
+    "months_since_contract": 3,
+    "remark": "회수",
+    "recalled": true,
     "groups": {
       "나보타": {
         "by_year": {},
@@ -75865,7 +75893,7 @@ window.BLOCK_DETAIL = [
               12000000
             ],
             "actual_by_month": {},
-            "remark": ""
+            "remark": "회수"
           }
         },
         "actual_by_month": {}
@@ -75887,7 +75915,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 2,
+    "months_since_contract": 3,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -75951,7 +75979,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 2,
+    "months_since_contract": 3,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -76004,7 +76032,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 2,
+    "months_since_contract": 3,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -76058,7 +76086,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 2,
+    "months_since_contract": 3,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -76116,7 +76144,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 2,
+    "months_since_contract": 3,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -76170,7 +76198,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 2,
+    "months_since_contract": 3,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -76246,7 +76274,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 2,
+    "months_since_contract": 3,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -76299,7 +76327,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 2,
+    "months_since_contract": 3,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -76353,7 +76381,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 2,
+    "months_since_contract": 3,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -76417,7 +76445,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 2,
+    "months_since_contract": 3,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -76471,7 +76499,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 2,
+    "months_since_contract": 3,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -76525,7 +76553,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 2,
+    "months_since_contract": 3,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -76572,14 +76600,14 @@ window.BLOCK_DETAIL = [
       2026
     ],
     "team": "RPM4팀",
-    "rep": "김재진",
+    "rep": "이상직",
     "name": "친절한미소의원",
     "biz": 8880402385,
     "contract_date": "2026-07-01",
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 2,
+    "months_since_contract": 3,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -76646,7 +76674,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 2,
+    "months_since_contract": 3,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -76718,7 +76746,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 2,
+    "months_since_contract": 3,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -76778,7 +76806,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 2,
+    "months_since_contract": 3,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -76832,7 +76860,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 2,
+    "months_since_contract": 3,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -76897,7 +76925,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 2,
+    "months_since_contract": 3,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -76951,7 +76979,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 2,
+    "months_since_contract": 3,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -77005,7 +77033,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 2,
+    "months_since_contract": 3,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -77059,7 +77087,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 2,
+    "months_since_contract": 3,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -77117,7 +77145,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 2,
+    "months_since_contract": 3,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -77171,7 +77199,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 2,
+    "months_since_contract": 3,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -77236,7 +77264,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 2,
+    "months_since_contract": 3,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -77290,7 +77318,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 2,
+    "months_since_contract": 3,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -77349,7 +77377,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 2,
+    "months_since_contract": 3,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -77403,7 +77431,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 2,
+    "months_since_contract": 3,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -77457,7 +77485,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 2,
+    "months_since_contract": 3,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -77511,7 +77539,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 2,
+    "months_since_contract": 3,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -77565,7 +77593,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 2,
+    "months_since_contract": 3,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -77619,7 +77647,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 2,
+    "months_since_contract": 3,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -77677,7 +77705,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 2,
+    "months_since_contract": 3,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -77731,7 +77759,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 2,
+    "months_since_contract": 3,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -77785,7 +77813,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 2,
+    "months_since_contract": 3,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -77847,7 +77875,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 2,
+    "months_since_contract": 3,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -77900,7 +77928,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 2,
+    "months_since_contract": 3,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -77950,14 +77978,14 @@ window.BLOCK_DETAIL = [
       2026
     ],
     "team": "RPM4팀",
-    "rep": "김재진",
+    "rep": "이상직",
     "name": "\t더차오름의원",
     "biz": 5384101036,
     "contract_date": "2026-07-01",
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 2,
+    "months_since_contract": 3,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -78059,7 +78087,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 2,
+    "months_since_contract": 3,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -78151,7 +78179,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 2,
+    "months_since_contract": 3,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -78243,7 +78271,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 2,
+    "months_since_contract": 3,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -78335,7 +78363,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 2,
+    "months_since_contract": 3,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -78427,7 +78455,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 2,
+    "months_since_contract": 3,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -78519,7 +78547,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 2,
+    "months_since_contract": 3,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -78611,7 +78639,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 2,
+    "months_since_contract": 3,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -78703,7 +78731,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 2,
+    "months_since_contract": 3,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -78795,7 +78823,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 2,
+    "months_since_contract": 3,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -78889,7 +78917,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 2,
+    "months_since_contract": 3,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -78981,7 +79009,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 2,
+    "months_since_contract": 3,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -79073,7 +79101,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 2,
+    "months_since_contract": 3,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -79181,7 +79209,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 2,
+    "months_since_contract": 3,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -79273,7 +79301,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 2,
+    "months_since_contract": 3,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -79365,7 +79393,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 2,
+    "months_since_contract": 3,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -79461,7 +79489,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 2,
+    "months_since_contract": 3,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -79553,7 +79581,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 2,
+    "months_since_contract": 3,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -79645,7 +79673,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 2,
+    "months_since_contract": 3,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -79752,7 +79780,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 2,
+    "months_since_contract": 3,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -79848,7 +79876,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 2,
+    "months_since_contract": 3,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -79941,7 +79969,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 2,
+    "months_since_contract": 3,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -80042,7 +80070,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 2,
+    "months_since_contract": 3,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -80139,7 +80167,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 1,
+    "months_since_contract": 2,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -80232,7 +80260,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 1,
+    "months_since_contract": 2,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -80333,7 +80361,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 1,
+    "months_since_contract": 2,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -80433,7 +80461,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 1,
+    "months_since_contract": 2,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -80542,7 +80570,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 1,
+    "months_since_contract": 2,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -80647,7 +80675,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 1,
+    "months_since_contract": 2,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -80756,7 +80784,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 1,
+    "months_since_contract": 2,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -80861,7 +80889,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 1,
+    "months_since_contract": 2,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -80970,7 +80998,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 1,
+    "months_since_contract": 2,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -81079,9 +81107,9 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 1,
-    "remark": "",
-    "recalled": false,
+    "months_since_contract": 2,
+    "remark": "회수",
+    "recalled": true,
     "groups": {
       "나보타": {
         "by_year": {
@@ -81095,7 +81123,7 @@ window.BLOCK_DETAIL = [
               0
             ],
             "actual_by_month": {},
-            "remark": ""
+            "remark": "회수"
           }
         },
         "actual_by_month": {}
@@ -81112,7 +81140,7 @@ window.BLOCK_DETAIL = [
               3000000
             ],
             "actual_by_month": {},
-            "remark": ""
+            "remark": "회수"
           }
         },
         "actual_by_month": {}
@@ -81129,7 +81157,7 @@ window.BLOCK_DETAIL = [
               3000000
             ],
             "actual_by_month": {},
-            "remark": ""
+            "remark": "회수"
           }
         },
         "actual_by_month": {}
@@ -81146,7 +81174,7 @@ window.BLOCK_DETAIL = [
               0
             ],
             "actual_by_month": {},
-            "remark": ""
+            "remark": "회수"
           }
         },
         "actual_by_month": {}
@@ -81171,7 +81199,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 1,
+    "months_since_contract": 2,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -81224,7 +81252,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 1,
+    "months_since_contract": 2,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -81277,7 +81305,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 1,
+    "months_since_contract": 2,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -81335,7 +81363,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 1,
+    "months_since_contract": 2,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -81438,7 +81466,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 1,
+    "months_since_contract": 2,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -81533,7 +81561,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 1,
+    "months_since_contract": 2,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -81590,7 +81618,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 1,
+    "months_since_contract": 2,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -81713,7 +81741,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 1,
+    "months_since_contract": 2,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -81823,7 +81851,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 1,
+    "months_since_contract": 2,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -81920,7 +81948,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 1,
+    "months_since_contract": 2,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -82028,7 +82056,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 1,
+    "months_since_contract": 2,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -82082,7 +82110,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 1,
+    "months_since_contract": 2,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -82198,7 +82226,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 1,
+    "months_since_contract": 2,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -82304,9 +82332,9 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 1,
-    "remark": "",
-    "recalled": false,
+    "months_since_contract": 2,
+    "remark": "회수",
+    "recalled": true,
     "groups": {
       "나보타": {
         "by_year": {
@@ -82320,7 +82348,7 @@ window.BLOCK_DETAIL = [
               2250000.0
             ],
             "actual_by_month": {},
-            "remark": ""
+            "remark": "회수"
           }
         },
         "actual_by_month": {}
@@ -82337,7 +82365,7 @@ window.BLOCK_DETAIL = [
               0
             ],
             "actual_by_month": {},
-            "remark": ""
+            "remark": "회수"
           }
         },
         "actual_by_month": {
@@ -82357,7 +82385,7 @@ window.BLOCK_DETAIL = [
               0
             ],
             "actual_by_month": {},
-            "remark": ""
+            "remark": "회수"
           }
         },
         "actual_by_month": {}
@@ -82374,7 +82402,7 @@ window.BLOCK_DETAIL = [
               0
             ],
             "actual_by_month": {},
-            "remark": ""
+            "remark": "회수"
           }
         },
         "actual_by_month": {}
@@ -82391,7 +82419,7 @@ window.BLOCK_DETAIL = [
               3000000
             ],
             "actual_by_month": {},
-            "remark": ""
+            "remark": "회수"
           }
         },
         "actual_by_month": {}
@@ -82413,7 +82441,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 1,
+    "months_since_contract": 2,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -82523,7 +82551,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 1,
+    "months_since_contract": 2,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -82633,7 +82661,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 1,
+    "months_since_contract": 2,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -82745,7 +82773,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 1,
+    "months_since_contract": 2,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -82851,7 +82879,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 0,
+    "months_since_contract": 1,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -82957,7 +82985,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 0,
+    "months_since_contract": 1,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -83014,7 +83042,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 0,
+    "months_since_contract": 1,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -83067,7 +83095,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 0,
+    "months_since_contract": 1,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -83172,7 +83200,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 0,
+    "months_since_contract": 1,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -83277,7 +83305,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 0,
+    "months_since_contract": 1,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -83382,7 +83410,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 0,
+    "months_since_contract": 1,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -83488,7 +83516,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 0,
+    "months_since_contract": 1,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -83597,7 +83625,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 0,
+    "months_since_contract": 1,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -83702,7 +83730,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 0,
+    "months_since_contract": 1,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -83768,11 +83796,15 @@ window.BLOCK_DETAIL = [
               0,
               0
             ],
-            "actual_by_month": {},
+            "actual_by_month": {
+              "2026-10": 1181818.0
+            },
             "remark": ""
           }
         },
-        "actual_by_month": {}
+        "actual_by_month": {
+          "2026-10": 1181818.0
+        }
       },
       "리알로": {
         "by_year": {
@@ -83800,14 +83832,14 @@ window.BLOCK_DETAIL = [
       2026
     ],
     "team": "RPM4팀",
-    "rep": "김재진",
+    "rep": "이상직",
     "name": "제이유의원",
     "biz": 7273000927,
     "contract_date": "2026-09-01",
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 0,
+    "months_since_contract": 1,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -83916,7 +83948,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 0,
+    "months_since_contract": 1,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -84022,7 +84054,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 0,
+    "months_since_contract": 1,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -84083,7 +84115,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 0,
+    "months_since_contract": 1,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -84198,7 +84230,7 @@ window.BLOCK_DETAIL = [
     "client_contract_years": [
       2026
     ],
-    "months_since_contract": 0,
+    "months_since_contract": 1,
     "remark": "",
     "recalled": false,
     "groups": {
@@ -84575,15 +84607,15 @@ window.COMPANY_INFO = {
 };
 window.BLOCK_META = {
   "current_year": 2026,
-  "current_month": "2026-09",
+  "current_month": "2026-10",
   "recent_months": [
-    "2026-06",
     "2026-07",
     "2026-08",
-    "2026-09"
+    "2026-09",
+    "2026-10"
   ],
-  "generated_at": "2026-09-30 16:59",
-  "latest_sales_date": "2026-09-29"
+  "generated_at": "2026-10-01 17:31",
+  "latest_sales_date": "2026-10-01"
 };
 window.TEAM_MEMBERS = {
   "RPM1팀": [
@@ -84606,7 +84638,6 @@ window.TEAM_MEMBERS = {
   ],
   "RPM4팀": [
     "송진영",
-    "김재진",
     "이다별",
     "이상직"
   ],
