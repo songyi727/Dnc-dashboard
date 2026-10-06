@@ -84642,7 +84642,7 @@ window.BLOCK_META = {
     "2026-09",
     "2026-10"
   ],
-  "generated_at": "2026-10-06 09:02",
+  "generated_at": "2026-10-06 14:47",
   "latest_sales_date": "2026-10-03"
 };
 window.TEAM_MEMBERS = {
