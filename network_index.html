@@ -1,0 +1,736 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>네트워크처 매출 현황</title>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.js"></script>
+<script src="network_data.js"></script>
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:-apple-system,BlinkMacSystemFont,'Noto Sans KR',sans-serif;background:#f5f5f3;color:#1a1a1a;padding:1.5rem}
+.wrap{max-width:1360px;margin:0 auto}
+
+.topbar{display:flex;align-items:center;gap:10px;margin-bottom:10px;flex-wrap:wrap}
+.topbar h2{font-size:17px;font-weight:500}
+.dept-badge{font-size:11px;padding:3px 10px;border-radius:20px;background:#E6F1FB;color:#185FA5;font-weight:500}
+
+.update-bar{display:flex;align-items:center;gap:8px;padding:7px 14px;background:#f0f0ee;border-radius:8px;margin-bottom:12px;font-size:11px;color:#666;flex-wrap:wrap}
+.update-bar strong{color:#1a1a1a;font-weight:500}
+
+.notice{font-size:12px;color:#666;background:#fff;border:0.5px solid #e8e8e8;border-radius:10px;padding:11px 14px;margin-bottom:1.25rem;line-height:1.85}
+.notice b{color:#1a1a1a;font-weight:500}
+.notice .item{display:flex;gap:6px}
+.notice .item .dot{flex-shrink:0}
+
+.filter-bar{display:flex;gap:8px;flex-wrap:wrap;align-items:flex-end;padding:10px 14px;background:#f0f0ee;border-radius:12px;margin-bottom:1.25rem}
+.filter-group{display:flex;flex-direction:column;gap:4px}
+.filter-label{font-size:11px;color:#666;font-weight:500;white-space:nowrap}
+select{font-size:12px;padding:6px 10px;border-radius:8px;border:0.5px solid #ccc;background:#fff;color:#1a1a1a;cursor:pointer;min-width:120px}
+
+.multi-select-wrap{position:relative;display:inline-block}
+.multi-select-btn{font-size:12px;padding:6px 28px 6px 10px;border-radius:8px;border:0.5px solid #ccc;background:#fff;color:#1a1a1a;cursor:pointer;white-space:nowrap;min-width:150px;max-width:230px;overflow:hidden;text-overflow:ellipsis;position:relative;user-select:none;text-align:left}
+.multi-select-btn::after{content:'▾';position:absolute;right:9px;top:50%;transform:translateY(-50%);font-size:10px;color:#666}
+.multi-select-btn.has-sel{border-color:#3266ad;color:#3266ad}
+.multi-select-btn:disabled{opacity:.5;cursor:not-allowed;background:#f5f5f3}
+.multi-select-btn:disabled::after{color:#ccc}
+.reset-btn{font-size:11px;padding:6px 10px;border-radius:8px;border:0.5px solid #ccc;background:#fff;color:#666;cursor:pointer;white-space:nowrap}
+.reset-btn:hover{border-color:#3266ad;color:#3266ad}
+.multi-dropdown{display:none;position:absolute;top:calc(100% + 4px);left:0;background:#fff;border:0.5px solid #ccc;border-radius:8px;box-shadow:0 4px 12px rgba(0,0,0,0.1);z-index:999;min-width:190px;padding:6px 0}
+.multi-dropdown.open{display:block}
+.multi-dropdown-item{display:flex;align-items:center;gap:8px;padding:6px 12px;cursor:pointer;font-size:12px;color:#1a1a1a}
+.multi-dropdown-item:hover{background:#f5f5f3}
+.multi-dropdown-item input[type=checkbox]{width:13px;height:13px;cursor:pointer;accent-color:#3266ad;flex-shrink:0}
+.multi-dropdown-item .sw{width:9px;height:9px;border-radius:2px;flex-shrink:0}
+.multi-dropdown-divider{border-top:0.5px solid #eee;margin:4px 0}
+.multi-dropdown-item.all-item{font-weight:500;color:#3266ad}
+
+.section-title{font-size:10px;font-weight:500;color:#888;letter-spacing:.07em;text-transform:uppercase;margin-bottom:8px}
+
+.metrics-row{display:grid;grid-template-columns:repeat(auto-fit,minmax(190px,1fr));gap:10px;margin-bottom:1.25rem}
+.metric-group{background:#fff;border:0.5px solid #e8e8e8;border-radius:12px;padding:1rem 1.1rem}
+.metric-group-label{font-size:10px;font-weight:500;color:#888;letter-spacing:.05em;text-transform:uppercase;margin-bottom:.5rem;padding-bottom:.5rem;border-bottom:0.5px solid #eee}
+.metric-main{font-size:20px;font-weight:500;color:#1a1a1a;margin-bottom:.3rem}
+.metric-note{font-size:11px;color:#888}
+.up{color:#1D9E75}.down{color:#E24B4A}.gn{color:#888}
+
+.card{background:#fff;border:0.5px solid #e8e8e8;border-radius:12px;padding:1rem 1.1rem;margin-bottom:14px}
+.card-title{font-size:12px;font-weight:500;color:#1a1a1a;margin-bottom:.2rem;display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:8px}
+.card-title .meta{font-size:11px;color:#888;font-weight:400}
+.chart-wrap{position:relative;height:300px;margin-top:12px}
+
+.legend{display:flex;flex-wrap:wrap;gap:10px 14px;margin:10px 2px 0;font-size:11px;color:#666}
+.legend span{display:flex;align-items:center;gap:5px}
+.ld{width:9px;height:9px;border-radius:2px;display:inline-block}
+
+.tbl-wrap{overflow-x:auto;margin-top:10px}
+.dt{width:100%;border-collapse:collapse;font-size:11.5px;min-width:760px}
+.dt th{font-size:10px;color:#888;padding:7px 8px;border-bottom:0.5px solid #eee;font-weight:500;text-align:right;white-space:nowrap;background:#f5f5f3}
+.dt th:first-child{text-align:left;position:sticky;left:0;background:#f5f5f3;z-index:2}
+.dt th.sortable{cursor:pointer}
+.dt th.sortable:hover{color:#3266ad}
+.dt td{padding:7px 8px;border-bottom:0.5px solid #eee;text-align:right;white-space:nowrap;color:#1a1a1a;font-variant-numeric:tabular-nums}
+.dt td:first-child{text-align:left;font-weight:500;position:sticky;left:0;background:#fff;z-index:1}
+.dt tbody tr:hover td{background:#fafaf9}
+.dt tbody tr:hover td:first-child{background:#fafaf9}
+.dt tbody tr.total-row td{background:#f5f5f3;font-weight:600;border-bottom:none}
+.dt tbody tr.total-row td:first-child{background:#f0f0ee}
+.dt td.zero{color:#c7c6c2}
+.dt td.strong{font-weight:600}
+.dt td.rate-high{color:#1D9E75;font-weight:600}
+.dt td.rate-mid{color:#a66a00;font-weight:600}
+.dt td.rate-low{color:#E24B4A;font-weight:600}
+.dt tr.no-goal-row td{color:#999}
+.dt th.rep-th{text-align:left}
+.dt td.rep-cell{text-align:left;font-weight:400;color:#555}
+
+.badge-flat{font-size:10.5px;padding:2px 8px;border-radius:8px;background:#f0f0ee;color:#888;font-weight:500;white-space:nowrap}
+@media(max-width:900px){.metrics-row{grid-template-columns:1fr 1fr}}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <div class="topbar">
+    <h2>네트워크처 매출 현황</h2>
+  </div>
+  <div class="update-bar" id="updateBar"></div>
+
+  <div class="notice">
+    <div class="item"><span class="dot">·</span><span><b>연결 기준</b>: 네트워크처 리스트(지점 x 사업자번호)와 매출 로우데이터를 <b>사업자번호</b>로 조인</span></div>
+    <div class="item"><span class="dot">·</span><span><b>품목구분</b>: 매출 로우데이터 품목구분(G열) 기준 — 제품명 단위가 아닌 상위 카테고리</span></div>
+    <div class="item"><span class="dot">·</span><span><b>유효율</b> = 매출 발생 지점 수 ÷ 전체 등록 지점 수 × 100 (선택한 연도·매출월 기준 매출 발생 여부)</span></div>
+  </div>
+
+  <div class="filter-bar">
+    <div class="filter-group">
+      <span class="filter-label">네트워크처</span>
+      <select id="f-network"></select>
+    </div>
+    <div class="filter-group">
+      <span class="filter-label">집계 연도</span>
+      <select id="f-year"></select>
+    </div>
+    <div class="filter-group">
+      <span class="filter-label">매출월</span>
+      <div class="multi-select-wrap">
+        <button type="button" class="multi-select-btn" id="monthBtn">전체</button>
+        <div class="multi-dropdown" id="monthDropdown"></div>
+      </div>
+    </div>
+    <div class="filter-group">
+      <span class="filter-label">품목구분</span>
+      <div style="display:flex;gap:6px;align-items:center">
+        <div class="multi-select-wrap">
+          <button type="button" class="multi-select-btn" id="itemBtn">전체</button>
+          <div class="multi-dropdown" id="itemDropdown"></div>
+        </div>
+        <button type="button" class="reset-btn" id="resetBtn" title="필터 초기화">초기화</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="metrics-row">
+    <div class="metric-group">
+      <div class="metric-group-label">등록 지점 수</div>
+      <div class="metric-main" id="sc-total">-</div>
+      <div class="metric-note">네트워크처 리스트 기준</div>
+    </div>
+    <div class="metric-group">
+      <div class="metric-group-label">매출 발생 지점 / 유효율</div>
+      <div class="metric-main" id="sc-active">-</div>
+      <div class="metric-note" id="sc-rate">-</div>
+    </div>
+    <div class="metric-group">
+      <div class="metric-group-label" id="sc-total-label">누적 매출액</div>
+      <div class="metric-main" id="sc-revenue">-</div>
+      <div class="metric-note" id="sc-revenue-sub">-</div>
+    </div>
+    <div class="metric-group">
+      <div class="metric-group-label" id="sc-latest-label">최근월 매출</div>
+      <div class="metric-main" id="sc-latest">-</div>
+      <div class="metric-note" id="sc-latest-mom">-</div>
+    </div>
+    <div class="metric-group" id="sc-goal-card">
+      <div class="metric-group-label" id="sc-goal-label">목표 대비 달성률</div>
+      <div class="metric-main" id="sc-goal">-</div>
+      <div class="metric-note" id="sc-goal-sub">-</div>
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="card-title">
+      <span id="chart-title">월별 품목구분 매출 추이</span>
+      <span class="meta" id="chart-meta"></span>
+    </div>
+    <div class="chart-wrap"><canvas id="trendChart"></canvas></div>
+    <div class="legend" id="chartLegend"></div>
+  </div>
+
+  <div class="card" id="goalCard" style="display:none">
+    <div class="card-title">
+      <span>품목별 약정 이행 현황</span>
+      <span class="meta" id="goal-table-meta"></span>
+    </div>
+    <div class="tbl-wrap">
+      <table class="dt" id="goalTable">
+        <thead>
+          <tr>
+            <th>품목구분</th><th>약정수량</th><th>판매수량</th><th>수량달성률</th>
+            <th>목표금액</th><th>실적금액</th><th>금액달성률</th>
+          </tr>
+        </thead>
+        <tbody id="goalTableBody"></tbody>
+      </table>
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="card-title">
+      <span>지점별 품목구분 매출 상세</span>
+      <span class="meta" id="table-meta"></span>
+    </div>
+    <div class="tbl-wrap">
+      <table class="dt" id="detailTable">
+        <thead><tr id="tableHead"></tr></thead>
+        <tbody id="tableBody"></tbody>
+      </table>
+    </div>
+  </div>
+
+</div>
+
+<script>
+const DATA = window.NETWORK_DATA || { network_options: [], items: [], months: [], branches: [] };
+
+// 품목구분 고정 색상 순서(신규 품목구분 추가 시 아래 목록 뒤에 추가)
+const ITEM_ORDER = ["톡신", "브이올렛", "HA", "CaHA", "리알로인젝트파인", "리프팅실", "병원화장품"];
+const ITEM_COLORS = {
+  "톡신": "#2a78d6",
+  "브이올렛": "#eb6834",
+  "HA": "#1baf7a",
+  "CaHA": "#eda100",
+  "리알로인젝트파인": "#e87ba4",
+  "리프팅실": "#008300",
+  "병원화장품": "#4a3aa7",
+};
+const FALLBACK_COLORS = ["#9085e9", "#e66767", "#199e70", "#c98500"];
+function itemColor(item, idx){
+  if(ITEM_COLORS[item]) return ITEM_COLORS[item];
+  return FALLBACK_COLORS[idx % FALLBACK_COLORS.length];
+}
+function sortedItems(list){
+  return [...list].sort((a,b)=>{
+    let ia = ITEM_ORDER.indexOf(a); if(ia<0) ia = 999;
+    let ib = ITEM_ORDER.indexOf(b); if(ib<0) ib = 999;
+    return ia - ib || a.localeCompare(b,'ko');
+  });
+}
+
+const fmt0 = n => Math.round(n||0).toLocaleString('ko-KR');
+const fmtEok = n => {
+  const v = n||0;
+  if(Math.abs(v) >= 100000000) return (v/100000000).toLocaleString('ko-KR',{maximumFractionDigits:1}) + '억';
+  if(Math.abs(v) >= 10000) return (v/10000).toLocaleString('ko-KR',{maximumFractionDigits:0}) + '만';
+  return fmt0(v);
+};
+
+const ITEMS = sortedItems(DATA.items);
+let selectedItems = new Set(ITEMS);
+
+// ----- 필터 UI 초기화 --------------------------------------------------
+const fNetwork = document.getElementById('f-network');
+const fYear = document.getElementById('f-year');
+const itemBtn = document.getElementById('itemBtn');
+const itemDropdown = document.getElementById('itemDropdown');
+const monthBtn = document.getElementById('monthBtn');
+const monthDropdown = document.getElementById('monthDropdown');
+
+(DATA.network_options.length ? DATA.network_options : ['블리비']).forEach(n=>{
+  const opt = document.createElement('option'); opt.value = n; opt.textContent = n;
+  fNetwork.appendChild(opt);
+});
+
+const years = [...new Set(DATA.months.map(m=>m.split('-')[0]))].sort();
+const yearOptEl = (v,l) => { const o=document.createElement('option'); o.value=v; o.textContent=l; return o; };
+fYear.appendChild(yearOptEl('all','전체(연도별)'));
+years.forEach(y=> fYear.appendChild(yearOptEl(y, y+'년')));
+
+// 기본값: 데이터 범위의 최신 연도 · 최신 월 (초기화 버튼도 이 값으로 복귀)
+const DEFAULT_NETWORK = (DATA.network_options.length ? DATA.network_options : ['블리비'])[0];
+const DEFAULT_YEAR = years.length ? years[years.length-1] : 'all';
+const DEFAULT_MONTH = DATA.months.length ? DATA.months[DATA.months.length-1] : null;
+
+// 매출월 필터: 집계 연도가 특정 연도일 때만 그 해의 월을 체크박스로 누적 선택할 수 있음(연도="전체"면 월 선택 의미 없음)
+let selectedMonths = new Set();
+function renderMonthDropdown(){
+  monthDropdown.innerHTML = '';
+  if(fYear.value === 'all'){
+    monthBtn.disabled = true;
+    monthDropdown.classList.remove('open');
+    return;
+  }
+  monthBtn.disabled = false;
+  const ms = monthsInYear(fYear.value);
+
+  const allItem = document.createElement('div');
+  allItem.className = 'multi-dropdown-item all-item';
+  allItem.innerHTML = `<input type="checkbox" id="chk-month-all"> <span>전체 선택</span>`;
+  monthDropdown.appendChild(allItem);
+  const div = document.createElement('div'); div.className='multi-dropdown-divider'; monthDropdown.appendChild(div);
+
+  ms.forEach(m=>{
+    const row = document.createElement('div');
+    row.className = 'multi-dropdown-item';
+    row.innerHTML = `<input type="checkbox" data-month="${m}" ${selectedMonths.has(m)?'checked':''}>
+      <span>${m.split('-')[1]}월</span>`;
+    monthDropdown.appendChild(row);
+  });
+
+  monthDropdown.querySelectorAll('input[data-month]').forEach(cb=>{
+    cb.addEventListener('change', e=>{
+      const m = e.target.getAttribute('data-month');
+      if(e.target.checked) selectedMonths.add(m); else selectedMonths.delete(m);
+      document.getElementById('chk-month-all').checked = selectedMonths.size === ms.length;
+      updateMonthBtnLabel(); refreshAll();
+    });
+  });
+  document.getElementById('chk-month-all').checked = selectedMonths.size === ms.length;
+  document.getElementById('chk-month-all').addEventListener('change', e=>{
+    selectedMonths = e.target.checked ? new Set(ms) : new Set();
+    renderMonthDropdown(); updateMonthBtnLabel(); refreshAll();
+  });
+}
+function updateMonthBtnLabel(){
+  if(fYear.value === 'all'){ monthBtn.textContent = '전체(연도별)'; monthBtn.classList.remove('has-sel'); return; }
+  const ms = monthsInYear(fYear.value);
+  if(selectedMonths.size === ms.length){ monthBtn.textContent = '전체'; monthBtn.classList.remove('has-sel'); }
+  else if(selectedMonths.size === 0){ monthBtn.textContent = '선택 없음'; monthBtn.classList.add('has-sel'); }
+  else { monthBtn.textContent = [...selectedMonths].sort((a,b)=>ymKey(a)-ymKey(b)).map(m=>m.split('-')[1]+'월').join(', '); monthBtn.classList.add('has-sel'); }
+}
+monthBtn.addEventListener('click', ()=>{ if(!monthBtn.disabled) monthDropdown.classList.toggle('open'); });
+
+function renderItemDropdown(){
+  itemDropdown.innerHTML = '';
+  const allItem = document.createElement('div');
+  allItem.className = 'multi-dropdown-item all-item';
+  allItem.innerHTML = `<input type="checkbox" id="chk-all"> <span>전체 선택</span>`;
+  itemDropdown.appendChild(allItem);
+  const div = document.createElement('div'); div.className='multi-dropdown-divider'; itemDropdown.appendChild(div);
+
+  ITEMS.forEach((it,idx)=>{
+    const row = document.createElement('div');
+    row.className = 'multi-dropdown-item';
+    row.innerHTML = `<input type="checkbox" data-item="${it}" ${selectedItems.has(it)?'checked':''}>
+      <span class="sw" style="background:${itemColor(it,idx)}"></span><span>${it}</span>`;
+    itemDropdown.appendChild(row);
+  });
+
+  itemDropdown.querySelectorAll('input[data-item]').forEach(cb=>{
+    cb.addEventListener('change', e=>{
+      const it = e.target.getAttribute('data-item');
+      if(e.target.checked) selectedItems.add(it); else selectedItems.delete(it);
+      updateItemBtnLabel(); refreshAll();
+    });
+  });
+  document.getElementById('chk-all').checked = selectedItems.size === ITEMS.length;
+  document.getElementById('chk-all').addEventListener('change', e=>{
+    if(e.target.checked){ selectedItems = new Set(ITEMS); } else { selectedItems = new Set(); }
+    renderItemDropdown(); updateItemBtnLabel(); refreshAll();
+  });
+}
+function updateItemBtnLabel(){
+  if(selectedItems.size === ITEMS.length){ itemBtn.textContent = '전체'; itemBtn.classList.remove('has-sel'); }
+  else if(selectedItems.size === 0){ itemBtn.textContent = '선택 없음'; itemBtn.classList.add('has-sel'); }
+  else { itemBtn.textContent = [...selectedItems].join(', '); itemBtn.classList.add('has-sel'); }
+}
+itemBtn.addEventListener('click', ()=> itemDropdown.classList.toggle('open'));
+document.addEventListener('click', e=>{
+  if(!e.target.closest('.multi-select-wrap')){ itemDropdown.classList.remove('open'); monthDropdown.classList.remove('open'); }
+});
+// 필터 초기화(초기 로딩 시 + "초기화" 버튼) - 데이터 범위의 최신 연도·최신 월 1개월, 품목구분 전체선택으로 복귀
+function resetFilters(){
+  fNetwork.value = DEFAULT_NETWORK;
+  fYear.value = DEFAULT_YEAR;
+  selectedMonths = DEFAULT_MONTH ? new Set([DEFAULT_MONTH]) : new Set();
+  selectedItems = new Set(ITEMS);
+  renderItemDropdown(); updateItemBtnLabel();
+  renderMonthDropdown(); updateMonthBtnLabel();
+  refreshAll();
+}
+
+fNetwork.addEventListener('change', refreshAll);
+fYear.addEventListener('change', ()=>{
+  // 연도를 바꾸면 그 해 전체 누적으로 기본 표시(특정 월로 좁히고 싶으면 매출월에서 다시 선택)
+  selectedMonths = fYear.value === 'all' ? new Set() : new Set(monthsInYear(fYear.value));
+  renderMonthDropdown(); updateMonthBtnLabel(); refreshAll();
+});
+document.getElementById('resetBtn').addEventListener('click', resetFilters);
+
+// ----- 집계 헬퍼 ---------------------------------------------------------
+function branchesFor(network){
+  return DATA.branches.filter(b=>b.network === network);
+}
+function monthsInYear(year){
+  return DATA.months.filter(m=>m.split('-')[0]===year);
+}
+function branchTotalForMonths(branch, months, items){
+  let sum = 0;
+  months.forEach(m=>{
+    const rec = branch.monthly[m]; if(!rec) return;
+    items.forEach(it=>{ sum += (rec[it] ? rec[it].a : 0); });
+  });
+  return sum;
+}
+function branchItemTotal(branch, item, months){
+  let sum = 0;
+  months.forEach(m=>{ const rec = branch.monthly[m]; if(rec && rec[item]) sum += rec[item].a; });
+  return sum;
+}
+function branchItemQty(branch, item, months){
+  let sum = 0;
+  months.forEach(m=>{ const rec = branch.monthly[m]; if(rec && rec[item]) sum += rec[item].q; });
+  return sum;
+}
+
+// ----- 목표(약정) 헬퍼 ---------------------------------------------------
+// 목표는 "적용연월부터 계속 적용"되는 효력발생일 방식 - 해당 월 이하 중 가장 최근 행을 찾는다.
+const TARGETS = DATA.targets || {};
+function ymKey(m){ const p = m.split('-').map(Number); return p[0]*100+p[1]; }
+function targetRowFor(network, item, month){
+  const rows = (TARGETS[network] && TARGETS[network][item]) || [];
+  const mk = ymKey(month);
+  let found = null;
+  for(const r of rows){ if(ymKey(r.ym) <= mk) found = r; else break; }
+  return found;
+}
+function quotaItemsFor(network){
+  return sortedItems(Object.keys(TARGETS[network] || {}));
+}
+function itemCoverageMonths(network, item, months){
+  return months.filter(m => targetRowFor(network, item, m));
+}
+function itemTargetSum(network, item, months){
+  let qty=0, amount=0;
+  months.forEach(m=>{ const r = targetRowFor(network,item,m); if(r){ qty+=r.qty; amount+=r.amount; } });
+  return { qty, amount };
+}
+
+let chart = null;
+
+function refreshAll(){
+  const network = fNetwork.value;
+  const yearSel = fYear.value;
+  const branches = branchesFor(network);
+  const items = ITEMS.filter(it=>selectedItems.has(it));
+  const yearMonths = yearSel === 'all' ? DATA.months : monthsInYear(yearSel);
+  // 매출월 체크박스에서 선택된 달만 누적(연도="전체"면 월 선택 자체가 비활성화되어 전체 기간 그대로 사용)
+  const scopeMonths = yearSel === 'all' ? yearMonths : yearMonths.filter(m=>selectedMonths.has(m));
+  const monthsAllChecked = yearSel === 'all' || selectedMonths.size === yearMonths.length;
+  const monthLabel = scopeMonths.map(m=>m.split('-')[1]+'월').join('+'); // 예: "9월+10월"
+
+  // ---- 스코어카드 ----
+  document.getElementById('sc-total').textContent = branches.length + '개';
+  const activeBranches = branches.filter(b => branchTotalForMonths(b, scopeMonths, ITEMS) > 0);
+  document.getElementById('sc-active').textContent = activeBranches.length + '개';
+  const rate = branches.length ? Math.round(activeBranches.length/branches.length*100) : 0;
+  document.getElementById('sc-rate').textContent = `유효율 ${rate}%`;
+
+  // 이 카드는 매출월 필터와 무관하게 "집계 연도" 전체 누적을 보여줌(선택월 값은 옆 카드에서 확인) — 두 카드가 같은 값을 중복 표시하지 않도록 함
+  document.getElementById('sc-total-label').textContent = yearSel==='all' ? '누적 매출액(전체기간)' : `${yearSel}년 누적 매출액`;
+  const totalRevenue = branches.reduce((a,b)=>a+branchTotalForMonths(b, yearMonths, ITEMS),0);
+  document.getElementById('sc-revenue').textContent = fmtEok(totalRevenue) + '원';
+  document.getElementById('sc-revenue-sub').textContent = `선택 품목 기준 ${fmtEok(branches.reduce((a,b)=>a+branchTotalForMonths(b, yearMonths, items),0))}원`;
+
+  // 최근월(또는 선택월) 매출 카드
+  // - 월 선택이 없거나(전체) 1개월만 선택: 기존처럼 그 달(또는 스코프 내 최근 실적월) 매출 + 전월 대비를 보여줌
+  // - 2개월 이상 선택: 선택된 달들의 합계를 보여줌(전월 대비는 의미가 없어 생략)
+  if(scopeMonths.length === 0){
+    document.getElementById('sc-latest-label').textContent = '선택월 매출';
+    document.getElementById('sc-latest').textContent = '-';
+    document.getElementById('sc-latest-mom').textContent = '선택된 월 없음';
+  } else if(monthsAllChecked || scopeMonths.length === 1){
+    let latestMonth;
+    if(!monthsAllChecked){
+      latestMonth = scopeMonths[0];
+    } else {
+      const monthsWithData = scopeMonths.filter(m => branches.some(b=>b.monthly[m]));
+      latestMonth = monthsWithData[monthsWithData.length-1];
+    }
+    const latestIdx = latestMonth ? DATA.months.indexOf(latestMonth) : -1;
+    const prevMonth = latestIdx > 0 ? DATA.months[latestIdx-1] : null;
+    document.getElementById('sc-latest-label').textContent = latestMonth ? `${latestMonth} 매출` : '최근월 매출';
+    const latestTotal = latestMonth ? branches.reduce((a,b)=>a+branchTotalForMonths(b,[latestMonth],ITEMS),0) : 0;
+    document.getElementById('sc-latest').textContent = latestMonth ? fmtEok(latestTotal)+'원' : '-';
+    if(latestMonth && prevMonth){
+      const prevTotal = branches.reduce((a,b)=>a+branchTotalForMonths(b,[prevMonth],ITEMS),0);
+      const diff = prevTotal ? Math.round((latestTotal-prevTotal)/prevTotal*100) : 0;
+      const cls = diff>0?'up':(diff<0?'down':'gn');
+      const arrow = diff>0?'▲':(diff<0?'▼':'-');
+      document.getElementById('sc-latest-mom').innerHTML = `<span class="${cls}">${arrow} ${Math.abs(diff)}%</span> 전월 대비`;
+    } else {
+      document.getElementById('sc-latest-mom').textContent = '-';
+    }
+  } else {
+    document.getElementById('sc-latest-label').textContent = `선택월(${monthLabel}) 합계`;
+    const sumTotal = branches.reduce((a,b)=>a+branchTotalForMonths(b,scopeMonths,ITEMS),0);
+    document.getElementById('sc-latest').textContent = fmtEok(sumTotal) + '원';
+    document.getElementById('sc-latest-mom').textContent = `${scopeMonths.length}개월 합계`;
+  }
+
+  // ---- 목표 대비 달성률 카드 ----
+  // 약정(목표) 있는 품목만 대상으로, 목표가 실제로 적용되는 달(coverage)만 놓고 실적과 목표를 같은 기간으로 비교함
+  // (목표 시작 이전 달의 실적까지 분자에 섞이면 달성률이 부풀려짐) - scopeMonths에 선택된 달이 여러 개면 그만큼 약정수량/목표금액도 누적됨
+  const quotaItems = quotaItemsFor(network);
+  let goalTargetAmt = 0, goalActualAmt = 0, hasCoverage = false;
+  quotaItems.forEach(it=>{
+    const cov = itemCoverageMonths(network, it, scopeMonths);
+    if(cov.length) hasCoverage = true;
+    goalTargetAmt += itemTargetSum(network, it, cov).amount;
+    goalActualAmt += branches.reduce((a,b)=>a+branchItemTotal(b,it,cov),0);
+  });
+  let goalLabel;
+  if(scopeMonths.length === 0) goalLabel = '목표 대비';
+  else if(!monthsAllChecked) goalLabel = `${monthLabel} 목표 대비`;
+  else goalLabel = (yearSel==='all' ? '전체기간 목표 대비' : `${yearSel}년 목표 대비`);
+  document.getElementById('sc-goal-label').textContent = goalLabel;
+  if(!quotaItems.length){
+    document.getElementById('sc-goal').textContent = '-';
+    document.getElementById('sc-goal-sub').textContent = '등록된 약정 품목 없음';
+  } else if(!hasCoverage){
+    document.getElementById('sc-goal').textContent = '-';
+    document.getElementById('sc-goal-sub').textContent = '선택 기간에 적용되는 목표 없음';
+  } else {
+    const goalRate = goalTargetAmt ? Math.round(goalActualAmt/goalTargetAmt*100) : 0;
+    document.getElementById('sc-goal').textContent = goalRate + '%';
+    document.getElementById('sc-goal-sub').textContent = `실적 ${fmtEok(goalActualAmt)}원 / 목표 ${fmtEok(goalTargetAmt)}원`;
+  }
+
+  updateChart(branches, items, yearSel, scopeMonths, monthsAllChecked, network);
+  updateTable(branches, items, scopeMonths, yearSel, monthsAllChecked);
+  updateGoalTable(network, branches, scopeMonths, yearSel, monthsAllChecked);
+  updateBar(network, yearSel);
+}
+
+function updateBar(network, yearSel){
+  const branches = branchesFor(network);
+  document.getElementById('updateBar').innerHTML =
+    `<strong>${network}</strong> · 등록 지점 ${branches.length}개 · 데이터 범위 ${DATA.months[0]||'-'} ~ ${DATA.months[DATA.months.length-1]||'-'} ` +
+    `· network_data.js 생성일 ${DATA.generated_at||'-'}`;
+}
+
+function updateChart(branches, items, yearSel, scopeMonths, monthsAllChecked, network){
+  const ctx = document.getElementById('trendChart').getContext('2d');
+  let labels, seriesMonths;
+  if(yearSel === 'all'){
+    labels = years.map(y=>y+'년');
+    seriesMonths = years.map(y=>monthsInYear(y));
+    document.getElementById('chart-title').textContent = '연도별 품목구분 매출 추이';
+    document.getElementById('chart-meta').textContent = `${years[0]||''} ~ ${years[years.length-1]||''}`;
+  } else {
+    const ms = monthsInYear(yearSel);
+    labels = ms.map(m=>m.split('-')[1]+'월');
+    seriesMonths = ms.map(m=>[m]);
+    document.getElementById('chart-title').textContent = `${yearSel}년 월별 품목구분 매출 추이`;
+    let metaSuffix = '';
+    if(!monthsAllChecked){
+      metaSuffix = scopeMonths.length ? ` · ${scopeMonths.map(m=>m.split('-')[1]+'월').join('+')} 선택됨` : ' · 선택된 월 없음';
+    }
+    document.getElementById('chart-meta').textContent = `${yearSel}-01 ~ ${yearSel}-12` + metaSuffix;
+  }
+
+  // 매출월 체크박스에서 선택된 달들만 강조하고 나머지는 옅게 표시(여러 달 동시 선택 가능)
+  const highlightSet = monthsAllChecked ? null : new Set(scopeMonths);
+  function withAlpha(hex, a){
+    const h = hex.replace('#','');
+    const r = parseInt(h.substring(0,2),16), g = parseInt(h.substring(2,4),16), b = parseInt(h.substring(4,6),16);
+    return `rgba(${r},${g},${b},${a})`;
+  }
+
+  const datasets = items.map((it, idx)=>({
+    type: 'bar',
+    label: it,
+    data: seriesMonths.map(ms => branches.reduce((a,b)=>a+branchItemTotalMulti(b,it,ms),0)),
+    backgroundColor: !highlightSet ? itemColor(it, idx)
+      : seriesMonths.map(ms => (ms.length===1 && highlightSet.has(ms[0])) ? itemColor(it, idx) : withAlpha(itemColor(it, idx), 0.25)),
+    borderColor: '#fff',
+    borderWidth: 1,
+    borderSkipped: false,
+    maxBarThickness: 24,
+    stack: 'total',
+    order: 2,
+  }));
+
+  // 약정(목표) 있는 품목이 하나라도 있으면 구간별 목표 합계를 점선으로 얹음 - 목표가 아직 적용 안 된 구간은 끊어서 표시
+  const quotaItems = quotaItemsFor(network);
+  let hasTargetLine = false;
+  if(quotaItems.length){
+    const targetData = seriesMonths.map(ms=>{
+      let any = false, sum = 0;
+      quotaItems.forEach(it=>{
+        const cov = itemCoverageMonths(network, it, ms);
+        if(cov.length){ any = true; sum += itemTargetSum(network, it, cov).amount; }
+      });
+      return any ? sum : null;
+    });
+    if(targetData.some(v=>v!=null)){
+      hasTargetLine = true;
+      datasets.push({
+        type: 'line',
+        label: '목표(약정 품목 합)',
+        data: targetData,
+        borderColor: '#1a1a1a',
+        borderDash: [6,4],
+        borderWidth: 1.5,
+        pointRadius: 3,
+        pointHoverRadius: 4,
+        pointBackgroundColor: '#1a1a1a',
+        pointBorderColor: '#fff',
+        pointBorderWidth: 1,
+        fill: false,
+        spanGaps: false,
+        order: 1,
+        yAxisID: 'y',
+      });
+    }
+  }
+
+  if(chart) chart.destroy();
+  chart = new Chart(ctx, {
+    type: 'bar',
+    data: { labels, datasets },
+    options: {
+      responsive: true, maintainAspectRatio: false,
+      plugins: {
+        legend: { display: false },
+        tooltip: {
+          callbacks: {
+            label: c => `${c.dataset.label}: ${fmt0(c.raw)}원`,
+            footer: items => {
+              const bars = items.filter(i=>i.dataset.type!=='line');
+              return bars.length ? `합계: ${fmt0(bars.reduce((a,i)=>a+i.parsed.y,0))}원` : '';
+            },
+          }
+        }
+      },
+      scales: {
+        x: { stacked: true, grid:{display:false}, ticks:{color:'#888', font:{size:10}} },
+        y: { stacked: true, grid:{color:'#eee'}, ticks:{color:'#888', font:{size:10}, callback:v=>fmtEok(v)} }
+      }
+    }
+  });
+
+  const legend = document.getElementById('chartLegend');
+  legend.innerHTML = items.map((it,idx)=>`<span><span class="ld" style="background:${itemColor(it,idx)}"></span>${it}</span>`).join('')
+    + (hasTargetLine ? `<span><span style="display:inline-block;width:14px;height:0;border-top:1.5px dashed #1a1a1a;vertical-align:middle"></span> 목표(약정 품목 합)</span>` : '');
+}
+function branchItemTotalMulti(branch, item, months){
+  let sum = 0;
+  months.forEach(m=>{ const rec = branch.monthly[m]; if(rec && rec[item]) sum += rec[item].a; });
+  return sum;
+}
+
+function updateTable(branches, items, scopeMonths, yearSel, monthsAllChecked){
+  const head = document.getElementById('tableHead');
+  head.innerHTML = `<th>지점명</th><th class="rep-th">영업담당자</th>` + items.map(it=>`<th>${it}</th>`).join('') + `<th class="strong">합계(선택 품목)</th><th>전체 합계</th>`;
+
+  const rows = branches.map(b=>{
+    const perItem = items.map(it=>branchItemTotal(b, it, scopeMonths));
+    const selSum = perItem.reduce((a,v)=>a+v,0);
+    const allSum = branchTotalForMonths(b, scopeMonths, ITEMS);
+    return { branch: b.branch, rep: b.rep, code: b.code, perItem, selSum, allSum };
+  }).sort((a,b)=>b.allSum - a.allSum);
+
+  const body = document.getElementById('tableBody');
+  body.innerHTML = rows.map(r=>{
+    const cells = r.perItem.map(v=>`<td class="${v?'':'zero'}">${v?fmt0(v):'-'}</td>`).join('');
+    return `<tr><td>${r.branch}</td><td class="rep-cell">${r.rep||'-'}</td>${cells}<td class="strong">${r.selSum?fmt0(r.selSum):'-'}</td><td class="strong">${r.allSum?fmt0(r.allSum):'-'}</td></tr>`;
+  }).join('');
+
+  const totalRow = document.createElement('tr');
+  totalRow.className = 'total-row';
+  const itemTotals = items.map(it=>branches.reduce((a,b)=>a+branchItemTotal(b,it,scopeMonths),0));
+  const selGrand = itemTotals.reduce((a,v)=>a+v,0);
+  const allGrand = branches.reduce((a,b)=>a+branchTotalForMonths(b,scopeMonths,ITEMS),0);
+  totalRow.innerHTML = `<td>합계 (${branches.length}개 지점)</td><td class="rep-cell">-</td>` +
+    itemTotals.map(v=>`<td>${v?fmt0(v):'-'}</td>`).join('') +
+    `<td>${selGrand?fmt0(selGrand):'-'}</td><td>${allGrand?fmt0(allGrand):'-'}</td>`;
+  body.appendChild(totalRow);
+
+  let metaText;
+  if(!monthsAllChecked) metaText = scopeMonths.length ? `${scopeMonths.map(m=>m.split('-')[1]+'월').join('+')} 매출 · 내림차순` : '선택된 월 없음';
+  else if(yearSel === 'all') metaText = '전체 기간 누적 · 내림차순';
+  else metaText = `${yearSel}년 누적 · 매출액 내림차순`;
+  document.getElementById('table-meta').textContent = metaText;
+}
+
+function rateClass(rate){
+  if(rate == null) return '';
+  if(rate >= 100) return 'rate-high';
+  if(rate >= 70) return 'rate-mid';
+  return 'rate-low';
+}
+
+function updateGoalTable(network, branches, scopeMonths, yearSel, monthsAllChecked){
+  const card = document.getElementById('goalCard');
+  const quotaItems = quotaItemsFor(network);
+  const nonQuotaItems = ITEMS.filter(it => !quotaItems.includes(it));
+
+  if(!quotaItems.length){ card.style.display = 'none'; return; }
+  card.style.display = '';
+
+  const rows = [];
+  quotaItems.forEach(it=>{
+    const cov = itemCoverageMonths(network, it, scopeMonths);
+    const t = itemTargetSum(network, it, cov);
+    const actualQty = branches.reduce((a,b)=>a+branchItemQty(b,it,cov),0);
+    const actualAmt = branches.reduce((a,b)=>a+branchItemTotal(b,it,cov),0);
+    const qtyRate = (cov.length && t.qty) ? Math.round(actualQty/t.qty*100) : null;
+    const amtRate = (cov.length && t.amount) ? Math.round(actualAmt/t.amount*100) : null;
+    // 선택 기간(scopeMonths) 전체가 아니라 목표가 적용된 달(cov)만 집계했을 때 - 표에 그 범위를 밝혀줌
+    const partial = cov.length > 0 && cov.length < scopeMonths.length;
+    rows.push({ item: it, hasCoverage: cov.length>0, partial, covLabel: cov[0], tQty: t.qty, tAmt: t.amount, aQty: actualQty, aAmt: actualAmt, qtyRate, amtRate });
+  });
+
+  const body = document.getElementById('goalTableBody');
+  body.innerHTML = rows.map(r=>{
+    const nameCell = r.partial
+      ? `${r.item} <span class="badge-flat">${r.covLabel}부터 집계</span>`
+      : r.item;
+    if(!r.hasCoverage){
+      return `<tr class="no-goal-row"><td>${r.item}</td><td colspan="5">선택 기간에 적용되는 목표 없음</td><td>-</td></tr>`;
+    }
+    return `<tr>
+      <td>${nameCell}</td>
+      <td>${fmt0(r.tQty)}</td>
+      <td>${fmt0(r.aQty)}</td>
+      <td class="${rateClass(r.qtyRate)}">${r.qtyRate==null?'-':r.qtyRate+'%'}</td>
+      <td>${fmt0(r.tAmt)}</td>
+      <td>${fmt0(r.aAmt)}</td>
+      <td class="${rateClass(r.amtRate)}">${r.amtRate==null?'-':r.amtRate+'%'}</td>
+    </tr>`;
+  }).join('');
+
+  // 비약정 품목 - 목표가 아예 없는 품목은 참고용 실적만 표시
+  nonQuotaItems.forEach(it=>{
+    const aQty = branches.reduce((a,b)=>a+branchItemQty(b,it,scopeMonths),0);
+    const aAmt = branches.reduce((a,b)=>a+branchItemTotal(b,it,scopeMonths),0);
+    if(!aQty && !aAmt) return; // 실적도 없으면 생략
+    body.innerHTML += `<tr>
+      <td>${it} <span class="badge-flat">비약정</span></td>
+      <td>-</td><td>${fmt0(aQty)}</td><td>-</td>
+      <td>-</td><td>${fmt0(aAmt)}</td><td>-</td>
+    </tr>`;
+  });
+
+  let metaText;
+  if(!monthsAllChecked) metaText = scopeMonths.length ? `${scopeMonths.map(m=>m.split('-')[1]+'월').join('+')} 기준` : '선택된 월 없음';
+  else if(yearSel === 'all') metaText = '전체 기간 (약정 품목은 목표 적용월부터)';
+  else metaText = `${yearSel}년 누적 (약정 품목은 목표 적용월부터)`;
+  document.getElementById('goal-table-meta').textContent = metaText;
+}
+
+resetFilters();
+</script>
+</body>
+</html>
