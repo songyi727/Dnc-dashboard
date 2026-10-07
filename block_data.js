@@ -84663,7 +84663,7 @@ window.BLOCK_META = {
     "2026-09",
     "2026-10"
   ],
-  "generated_at": "2026-10-07 08:35",
+  "generated_at": "2026-10-07 11:02",
   "latest_sales_date": "2026-10-06"
 };
 window.TEAM_MEMBERS = {
