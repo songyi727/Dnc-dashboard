@@ -83,6 +83,13 @@
   ],
   "team_data": [
     {
+      "team": "0",
+      "val": 0.0,
+      "rate": null,
+      "chg_mom": null,
+      "chg_avg": null
+    },
+    {
       "team": "RPM1팀",
       "val": 205953366.0,
       "rate": 55.15487577260202,
