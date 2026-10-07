@@ -22,6 +22,8 @@ body{font-family:-apple-system,BlinkMacSystemFont,'Noto Sans KR',sans-serif;back
 .update-bar strong{color:#1a1a1a;font-weight:500}
 .filter-bar{display:flex;gap:8px;flex-wrap:wrap;align-items:center;padding:10px 14px;background:#f0f0ee;border-radius:12px;margin-bottom:1.25rem}
 .filter-label{font-size:11px;color:#666;font-weight:500;white-space:nowrap}
+.filter-reset-btn{font-size:12px;padding:6px 12px;border-radius:8px;border:0.5px solid #ccc;background:#fff;color:#555;cursor:pointer;white-space:nowrap;font-family:inherit}
+.filter-reset-btn:hover{border-color:#3266ad;color:#3266ad}
 select{font-size:12px;padding:6px 10px;border-radius:8px;border:0.5px solid #ccc;background:#fff;color:#1a1a1a;cursor:pointer}
 .multi-select-wrap{position:relative;display:inline-block}
 .multi-select-btn{font-size:12px;padding:6px 28px 6px 10px;border-radius:8px;border:0.5px solid #ccc;background:#fff;color:#1a1a1a;cursor:pointer;white-space:nowrap;min-width:130px;max-width:210px;overflow:hidden;text-overflow:ellipsis;position:relative;user-select:none}
@@ -1087,6 +1089,7 @@ function runSampleAI(){
         <div id="v2ProdList"></div>
       </div>
     </div>
+    <button type="button" class="filter-reset-btn" onclick="resetV2Filters()">↺ 초기화</button>
   </div>
 
   <!-- ① 핵심 지표 4칸 -->
@@ -1485,6 +1488,7 @@ function runSampleAI(){
     </select>
     <input id="dailyCnSearch" type="text" placeholder="🔍 거래처명 검색" oninput="dailyApply()"
       style="font-size:12px;padding:5px 10px;border-radius:8px;border:0.5px solid #ccc;background:#fff;width:160px;outline:none;font-family:inherit">
+    <button type="button" class="filter-reset-btn" onclick="resetDailyFilters()">↺ 초기화</button>
   </div>
 
   <!-- 일자별 매출처 테이블 -->
@@ -1898,6 +1902,7 @@ function runSampleAI(){
         <div id="fProdList"></div>
       </div>
     </div>
+    <button type="button" class="filter-reset-btn" onclick="resetV1Filters()">↺ 초기화</button>
   </div>
 
   <div class="section-title">핵심 지표</div>
@@ -2230,6 +2235,20 @@ function initFilters(){
   sM = String(maxM);
   selMonths = new Set([maxM]);
   applyFilters();
+}
+// V1 필터 초기화: 최초 로딩 상태(최신 연도/최신 월/전체 팀·담당자·제품/처방 제외)로 복원
+function resetV1Filters(){
+  document.querySelectorAll('.fQuarter-chk').forEach(c=>c.checked=false);
+  const qAll=document.getElementById('fQuarterChkAll'); if(qAll) qAll.checked=true;
+  updateDropBtn('fQuarterBtn',[],'전체 분기');
+  selQuarters=new Set();
+  selProds=null;
+  const pdAll=document.getElementById('fProdChkAll'); if(pdAll) pdAll.checked=true;
+  updateDropBtn('fProdBtn',[],'전체 제품');
+  const tAll=document.getElementById('fTeamChkAll'); if(tAll) tAll.checked=true;
+  updateDropBtn('fTeamBtn',[],'전체 팀');
+  initFilters();
+  updateDistBtn();
 }
 function fpersons(teams){
   const selTeamArr=Array.isArray(teams)?teams:(teams==='all'?null:[teams]);
@@ -4745,6 +4764,48 @@ function initV2Page(){
   v2UpdateMonths();
 }
 
+// V2 필터 초기화: 최초 로딩 상태(최신 연도/최신 월/전체 팀·담당자·유통·제품/처방 제외)로 복원
+function resetV2Filters(){
+  if(!v2InitDone) return;
+  const maxY = Math.max(...Object.keys(mxMo).map(Number));
+  const ysel = document.getElementById('v2Year');
+  if([...ysel.options].some(o=>o.value===String(maxY))) ysel.value = String(maxY);
+  // 분기
+  document.querySelectorAll('.v2Quarter-chk').forEach(c=>c.checked=false);
+  const qAll=document.getElementById('v2QuarterChkAll'); if(qAll) qAll.checked=true;
+  updateDropBtn('v2QuarterBtn',[],'전체 분기');
+  v2SelM = null;
+  // 팀
+  document.querySelectorAll('.v2Team-chk').forEach(c=>c.checked=true);
+  const tAll=document.getElementById('v2TeamChkAll'); if(tAll) tAll.checked=true;
+  updateDropBtn('v2TeamBtn',[],'전체 팀');
+  // 담당자 (팀 선택으로 줄어든 목록을 전체 담당자로 복원)
+  const pListEl=document.getElementById('v2PersonList');
+  if(pListEl){
+    pListEl.innerHTML=AP.map(p=>`<div class="dist-dropdown-item">
+      <input type="checkbox" class="v2Person-chk" value="${p}" checked onchange="onV2PersonChk()">
+      <label style="cursor:pointer">${p}</label>
+    </div>`).join('');
+  }
+  const pAll=document.getElementById('v2PersonChkAll'); if(pAll) pAll.checked=true;
+  updateDropBtn('v2PersonBtn',[],'전체 담당자');
+  // 품목 (처방 제외가 기본)
+  document.querySelectorAll('.v2-item-chk').forEach(c=>c.checked=!DEFAULT_EXCLUDED.has(c.value));
+  const v2iBtn=document.getElementById('v2ItemBtn'); if(v2iBtn) v2iBtn.textContent='전체 품목구분'; // 최초 로딩 표시와 동일
+  const v2iAll=document.getElementById('v2ChkAll'); if(v2iAll) v2iAll.checked=false;
+  // 유통구분
+  document.querySelectorAll('.v2-dist-chk').forEach(c=>c.checked=true);
+  const dAll=document.getElementById('v2DistChkAll'); if(dAll) dAll.checked=true;
+  v2UpdateDistBtn();
+  // 제품
+  document.querySelectorAll('.v2Prod-chk').forEach(c=>c.checked=true);
+  const prAll=document.getElementById('v2ProdChkAll'); if(prAll) prAll.checked=true;
+  updateDropBtn('v2ProdBtn',[],'전체 제품');
+  v2SelProd = null;
+  // 최신 월 기본 선택 + 재계산
+  v2UpdateMonths();
+}
+
 function v2ToggleDistDrop(e){
   e.stopPropagation();
   const d=document.getElementById('v2DistDrop');
@@ -6740,6 +6801,18 @@ function initDailyPage(){
   const dsel = document.getElementById('dailyDist');
   dists.forEach(d=>{ const o=document.createElement('option'); o.value=d; o.textContent=d; dsel.appendChild(o); });
 
+  dailyUpdateDates();
+}
+
+// 일일순도 필터 초기화: 최초 로딩 상태(최신 연도/월/일, 나머지 전체, 검색어 비움)로 복원
+function resetDailyFilters(){
+  if(!dailyInitDone) return;
+  ['dailyTeam','dailyItem','dailyProduct','dailyDist'].forEach(id=>{
+    const el=document.getElementById(id); if(el) el.value='all';
+  });
+  const sch=document.getElementById('dailyCnSearch'); if(sch) sch.value='';
+  const years=[...new Set(DAILY.map(r=>r._date.slice(0,4)))].filter(Boolean).sort();
+  if(years.length) document.getElementById('dailyYear').value=String(Math.max(...years.map(Number)));
   dailyUpdateDates();
 }
 
