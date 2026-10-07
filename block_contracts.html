@@ -63,6 +63,7 @@
   .check .mark{color:var(--green);font-weight:700;font-size:13px;}
   .check .date{font-size:10px;color:var(--text-mute);}
   .dash{color:var(--border-strong);}
+  .recalled{display:inline-block;font-size:11px;padding:1px 7px;border-radius:6px;background:#F1EFE8;color:var(--text-mute);}
   .empty{color:var(--text-mute);}
 </style>
 </head>
@@ -202,7 +203,7 @@ function buildRows(f){
       } else {
         snap = byYear[String(f.year)] || null;
       }
-      contracts[g] = snap ? { contracted: true, date: snap.contract_date } : { contracted: false };
+      contracts[g] = snap ? { contracted: true, date: snap.contract_date, recalled: String(snap.remark||'').includes('회수') } : { contracted: false };
     });
     return {
       manager: rec.manager,
@@ -235,6 +236,9 @@ function render(){
   tbody.innerHTML = rows.map(r => {
     const cells = GROUPS.map(g => {
       const c = r.contracts[g];
+      if(c.contracted && c.recalled){
+        return `<td><span class="recalled">회수</span></td>`;
+      }
       if(c.contracted){
         return `<td><span class="check"><span class="mark">✓</span><span class="date">${(c.date||'').replace(/-/g,'.')}</span></span></td>`;
       }
@@ -270,7 +274,7 @@ if(hasData){
       };
       GROUPS.forEach(g => {
         const c = r.contracts[g];
-        row[GROUP_LABEL[g]] = c.contracted ? (c.date || '계약됨') : '';
+        row[GROUP_LABEL[g]] = c.contracted ? (c.recalled ? '회수' : (c.date || '계약됨')) : '';
       });
       return row;
     });
