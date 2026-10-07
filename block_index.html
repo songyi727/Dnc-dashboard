@@ -469,6 +469,7 @@ function render(){
 
     scopedDetail.forEach(rec => {
       if(rec.manager === r.name && (yearSel === 'all' || rec.client_contract_years.some(y => String(y) === String(yearSel)))){
+        if(BlockCommon.isRecalled(rec, yearSel)) return; // 회수된 처는 계약처수/유효율에서 제외
         const itemMatch = fItem.value === 'all' || (() => {
           const gKey = fItem.value === '리알로파인' ? '리알로' : fItem.value;
           const byYear = (rec.groups[gKey]||{}).by_year || {};
@@ -500,7 +501,8 @@ function render(){
     } else {
       const managerRecs = scopedDetail.filter(rec =>
         rec.manager === r.name &&
-        (yearSel === 'all' || rec.client_contract_years.some(y => String(y) === String(yearSel)))
+        (yearSel === 'all' || rec.client_contract_years.some(y => String(y) === String(yearSel))) &&
+        !BlockCommon.isRecalled(rec, yearSel)
       );
       monthTotal = managerRecs.length;
       monthValid = managerRecs.filter(rec => hasContractedRevenueInMonth(rec, monthSel)).length;
@@ -596,6 +598,7 @@ function render(){
       })();
       return (fManager.value === 'all' || r.manager === fManager.value) &&
         (yearSel === 'all' || r.client_contract_years.some(y => String(y) === String(yearSel))) &&
+        !BlockCommon.isRecalled(r, yearSel) &&
         itemMatch;
     });
     const bizValidMap = new Map(); // 사업자번호 -> 그 달 매출 있었는지(관계 중 하나라도 있으면 true)
@@ -640,7 +643,8 @@ document.getElementById('btn-export').addEventListener('click', function(e){
     if(monthSel !== 'all'){
       const managerRecs = scopedDetail.filter(rec =>
         rec.manager === r.name &&
-        (yearSel === 'all' || rec.client_contract_years.some(y => String(y) === String(yearSel)))
+        (yearSel === 'all' || rec.client_contract_years.some(y => String(y) === String(yearSel))) &&
+        !BlockCommon.isRecalled(rec, yearSel)
       );
       monthTotal = managerRecs.length;
       monthValid = managerRecs.filter(rec => hasContractedRevenueInMonth(rec, monthSel)).length;
@@ -670,6 +674,7 @@ document.getElementById('btn-export').addEventListener('click', function(e){
       '보류': r.ev.보류||0,
       '1차경고': r.ev.경고||0,
       '회수대상': r.ev.회수대상||0,
+      '회수': r.ev.회수||0,
       '유지': r.ev.유지||0,
     };
   });
