@@ -55,6 +55,14 @@ const BlockCommon = (function () {
     return byYear[String(year)] || null;
   }
 
+  // 선택 연도(all이면 최신 연도) 기준으로 비고에 "회수"가 있는 처인지 - 계약처수/유효율 집계에서 제외하는 데 사용
+  function isRecalled(rec, year) {
+    return GROUPS.some(g => {
+      const snap = pickYearSnapshot((rec.groups || {})[g], year == null ? "all" : year);
+      return !!(snap && snap.remark && String(snap.remark).includes("회수"));
+    });
+  }
+
   // 이미 특정 연도로 스코프된 actual_by_month를 분기별로 집계 (연도 필터링 불필요)
   function actualByQuarterAny(monthMap) {
     const q = { 1: 0, 2: 0, 3: 0, 4: 0 };
@@ -182,6 +190,7 @@ const BlockCommon = (function () {
       let mbo = 0;
       let earliestDate = null;
       let validBlocks = 0;
+      let recalledCount = 0;
       const itemsByYear = {};
       const mboByGroup = { 나보타: 0, 브이올렛: 0, 필러군: 0, 리프팅실: 0, 리알로파인: 0 };
       const comp = { 3: 0, 2: 0, 1: 0, 0: 0 };
@@ -198,6 +207,13 @@ const BlockCommon = (function () {
               earliestDate = snap.contract_date;
             }
           });
+        }
+
+        // 회수된 처는 계약처수/유효율/MBO/매출/복합시술/평가 집계에서 모두 제외하고 "회수" 건수로만 센다
+        if (isRecalled(rec, yearSel)) {
+          recalledCount += 1;
+          ev.회수 += 1;
+          return;
         }
 
         let recMboTotal = 0;
@@ -238,7 +254,6 @@ const BlockCommon = (function () {
         if (status.key === "hold") ev.보류 += 1;
         else if (status.key === "warn") ev.경고 += 1;
         else if (status.key === "recall") ev.회수대상 += 1;
-        else if (status.key === "recalled") ev.회수 += 1;
         else ev.유지 += 1;
       });
 
@@ -246,7 +261,7 @@ const BlockCommon = (function () {
         name,
         contractYears,
         blockRep,
-        blocks: records.length,
+        blocks: records.length - recalledCount,
         validBlocks,
         mbo: mbo / 1000000, // 원 단위 -> 백만원 단위 (요약 테이블 스케일에 맞춤)
         mboByGroup: Object.fromEntries(Object.entries(mboByGroup).map(([k, v]) => [k, v / 1000000])),
@@ -286,7 +301,7 @@ const BlockCommon = (function () {
   return {
     GROUPS, fmt, fmt1, pct, quarterOfMonth, niceCeil, evalStatus,
     transformBlock, transformAll, aggregateSummary,
-    yearEarliestContractDate, scopeDetailByContractMonth,
+    yearEarliestContractDate, scopeDetailByContractMonth, isRecalled,
     sumActualForQuarters, sumMboForQuarters,
   };
 })();
