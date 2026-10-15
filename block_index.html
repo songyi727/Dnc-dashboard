@@ -366,6 +366,13 @@ function fillSelect(id, values){
   sel.innerHTML = '<option value="all">전체</option>' + values.map(v=>`<option value="${v}">${v}</option>`).join('');
 }
 
+// 회수 처 판정 기준월: 매출월을 고르면 그 달, '전체'면 현재월 (종료일 다음 달부터 모수에서 제외)
+function recallRef(){
+  const el = document.getElementById('f-month');
+  const m = el ? el.value : 'all';
+  return (m && m !== 'all') ? m : window.BLOCK_META.current_month;
+}
+
 // rec가 monthSel(YYYY-MM)에 "계약된 품목군"에서 매출이 있었는지 확인 (미계약 품목의 우발적 매출은 제외)
 function hasContractedRevenueInMonth(rec, monthSel){
   const y = monthSel.slice(0,4);
@@ -469,7 +476,7 @@ function render(){
 
     scopedDetail.forEach(rec => {
       if(rec.manager === r.name && (yearSel === 'all' || rec.client_contract_years.some(y => String(y) === String(yearSel)))){
-        if(BlockCommon.isRecalled(rec, yearSel)) return; // 회수된 처는 계약처수/유효율에서 제외
+        if(BlockCommon.isRecalled(rec, yearSel, recallRef())) return; // 회수된 처는 계약처수/유효율에서 제외
         const itemMatch = fItem.value === 'all' || (() => {
           const gKey = fItem.value === '리알로파인' ? '리알로' : fItem.value;
           const byYear = (rec.groups[gKey]||{}).by_year || {};
@@ -502,7 +509,7 @@ function render(){
       const managerRecs = scopedDetail.filter(rec =>
         rec.manager === r.name &&
         (yearSel === 'all' || rec.client_contract_years.some(y => String(y) === String(yearSel))) &&
-        !BlockCommon.isRecalled(rec, yearSel)
+        !BlockCommon.isRecalled(rec, yearSel, recallRef())
       );
       monthTotal = managerRecs.length;
       monthValid = managerRecs.filter(rec => hasContractedRevenueInMonth(rec, monthSel)).length;
@@ -598,7 +605,7 @@ function render(){
       })();
       return (fManager.value === 'all' || r.manager === fManager.value) &&
         (yearSel === 'all' || r.client_contract_years.some(y => String(y) === String(yearSel))) &&
-        !BlockCommon.isRecalled(r, yearSel) &&
+        !BlockCommon.isRecalled(r, yearSel, recallRef()) &&
         itemMatch;
     });
     const bizValidMap = new Map(); // 사업자번호 -> 그 달 매출 있었는지(관계 중 하나라도 있으면 true)
@@ -644,7 +651,7 @@ document.getElementById('btn-export').addEventListener('click', function(e){
       const managerRecs = scopedDetail.filter(rec =>
         rec.manager === r.name &&
         (yearSel === 'all' || rec.client_contract_years.some(y => String(y) === String(yearSel))) &&
-        !BlockCommon.isRecalled(rec, yearSel)
+        !BlockCommon.isRecalled(rec, yearSel, recallRef())
       );
       monthTotal = managerRecs.length;
       monthValid = managerRecs.filter(rec => hasContractedRevenueInMonth(rec, monthSel)).length;
