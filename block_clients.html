@@ -164,7 +164,7 @@ input.addEventListener('input', () => {
   }
 
   suggestList.innerHTML = matches.map(c=>{
-    const hasActive = c.block && c.block.some(b => !(b.remark||'').includes('회수'));
+    const hasActive = c.block && c.block.some(b => !blockRecalled(b));
     const hasAny = c.block && c.block.length > 0;
     const tagClass = hasActive ? '' : (hasAny ? 'recalled' : 'none');
     const tagText = hasActive ? '블록계약' : (hasAny ? '회수' : '미계약');
@@ -189,18 +189,24 @@ document.addEventListener('click', (e) => {
   if(!e.target.closest('.search-box')) suggestList.classList.remove('open');
 });
 
+// 계약 품목이 전부 회수일 때만 처 전체가 회수 (일부 품목만 해지되면 계약 진행중). 구버전 데이터는 비고로 판정
+function blockRecalled(b){
+  if(typeof b.recalled === 'boolean') return b.recalled;
+  return (b.remark||'').includes('회수');
+}
+
 function showClient(c){
   emptyHint.style.display = 'none';
   resultBox.classList.add('open');
 
   const blockHtml = (c.block && c.block.length) ? c.block.map(b=>{
     const contractedGroups = GROUPS.filter(g => (b.groups[g].contracted_years||[]).length > 0);
-    const isRecalled = (b.remark||'').includes('회수');
+    const isRecalled = blockRecalled(b);
     const chipStyle = isRecalled ? 'opacity:0.6;border-style:dashed;' : '';
     return `<div class="block-chip" style="${chipStyle}">
       <div class="mgr">${b.manager}${isRecalled ? ' <span style="font-size:10px;padding:1px 6px;border-radius:6px;background:#3A3A38;color:#fff;font-weight:500">회수</span>' : ''}</div>
       <div class="sub">${b.team||'-'} · ${b.rep||'-'} ${b.remark ? '· '+b.remark : ''}</div>
-      <div class="groups">${contractedGroups.length ? contractedGroups.map(g=>`<span class="gtag" ${isRecalled?'style="background:#F1EFE8;color:#5F5E5A"':''}>${g} (${b.groups[g].contracted_years.join('/')})</span>`).join('') : '<span style="color:var(--text-mute);font-size:11px">계약 품목 없음</span>'}</div>
+      <div class="groups">${contractedGroups.length ? contractedGroups.map(g=>{ const gr = b.groups[g].recalled; const gEnd = (b.groups[g].end_date||'').slice(0,7).replace('-','.'); return `<span class="gtag" ${(isRecalled||gr)?'style="background:#F1EFE8;color:#5F5E5A"':''}>${g} (${b.groups[g].contracted_years.join('/')})${gr ? ' · 해지'+(gEnd && !gEnd.endsWith('.12') ? ' '+gEnd : '') : ''}</span>`; }).join('') : '<span style="color:var(--text-mute);font-size:11px">계약 품목 없음</span>'}</div>
     </div>`;
   }).join('') : '<div class="no-block">블록 계약 이력 없음 (직납/대형처 등 일반 거래처)</div>';
 
