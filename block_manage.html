@@ -552,6 +552,7 @@ function render(){
     (f.year === 'all' || b.contractYears.some(y => String(y) === String(f.year))) &&
     (f.team === 'all' || b.team === f.team) &&
     (f.rep === 'all' || b.rep === f.rep) &&
+    (f.evalKey === 'recalled' || b.evalKey !== 'recalled') &&  // 회수 처는 모수에서 제외 (평가 필터에서 '회수'를 직접 고른 경우만 표시)
     (f.evalKey === 'all' || b.evalKey === f.evalKey) &&
     (f.item === 'all' || (b.contractedFlags && b.contractedFlags[f.item])) &&
     (f.solo === 'all' || soloGroupOf(b) === f.solo)
@@ -737,6 +738,7 @@ document.getElementById('btn-export').addEventListener('click', async function(e
     (f.year === 'all' || b.contractYears.some(y => String(y) === String(f.year))) &&
     (f.team === 'all' || b.team === f.team) &&
     (f.rep === 'all' || b.rep === f.rep) &&
+    (f.evalKey === 'recalled' || b.evalKey !== 'recalled') &&  // 회수 처는 모수에서 제외 (평가 필터에서 '회수'를 직접 고른 경우만 표시)
     (f.evalKey === 'all' || b.evalKey === f.evalKey) &&
     (f.item === 'all' || (b.contractedFlags && b.contractedFlags[f.item])) &&
     (f.solo === 'all' || dlSoloGroupOf(b) === f.solo)
