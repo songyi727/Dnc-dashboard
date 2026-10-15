@@ -25,6 +25,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               1000000,
               3500000.0,
@@ -44,6 +45,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               1000000,
               3500000.0,
@@ -84,6 +86,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               1000000,
               1000000,
@@ -103,6 +106,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               1000000,
               1000000,
@@ -135,6 +139,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -149,6 +154,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -168,6 +174,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -180,6 +187,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -222,6 +230,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -239,6 +248,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               4000000,
               4000000,
@@ -275,6 +285,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -292,6 +303,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -337,6 +349,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               1500000.0,
               1500000.0,
@@ -349,6 +362,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               1500000.0,
               1500000.0,
@@ -366,6 +380,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               1000000,
               1000000,
@@ -384,6 +399,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               1000000,
               1000000,
@@ -419,6 +435,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -431,6 +448,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -448,6 +466,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -460,6 +479,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -503,6 +523,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               2000000,
               2000000,
@@ -519,6 +540,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               2000000,
               2000000,
@@ -557,6 +579,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -569,6 +592,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -586,6 +610,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -601,6 +626,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -624,6 +650,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -636,6 +663,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -681,6 +709,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               3500000.0,
@@ -695,6 +724,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               3500000.0,
@@ -724,6 +754,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               1000000,
               0,
@@ -740,6 +771,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               1000000,
               0,
@@ -767,6 +799,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -779,6 +812,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -796,6 +830,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               500000.0,
               500000.0,
@@ -808,6 +843,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               500000.0,
               500000.0,
@@ -828,6 +864,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-07-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               2000000,
               2000000,
@@ -867,6 +904,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               2500000.0,
@@ -881,6 +919,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               2500000.0,
@@ -908,6 +947,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               500000.0,
               500000.0,
@@ -922,6 +962,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               500000.0,
               500000.0,
@@ -941,6 +982,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -953,6 +995,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -970,6 +1013,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -982,6 +1026,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -1025,6 +1070,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               3500000.0,
@@ -1037,6 +1083,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               3500000.0,
@@ -1054,6 +1101,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               4000000,
               4000000,
@@ -1073,6 +1121,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               4000000,
               4000000,
@@ -1119,6 +1168,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               1000000,
               1000000,
@@ -1131,6 +1181,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               1000000,
               1000000,
@@ -1148,6 +1199,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -1162,6 +1214,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -1206,6 +1259,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               2500000.0,
@@ -1228,6 +1282,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               500000.0,
@@ -1255,6 +1310,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -1272,6 +1328,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -1314,6 +1371,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -1331,6 +1389,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               2500000.0,
@@ -1357,6 +1416,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -1374,6 +1434,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -1418,6 +1479,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               3500000.0,
               7000000,
@@ -1437,6 +1499,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               1000000,
               0,
@@ -1459,6 +1522,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -1476,6 +1540,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -1519,6 +1584,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               1400000.0,
               3500000.0,
@@ -1540,6 +1606,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               1400000.0,
               3500000.0,
@@ -1585,6 +1652,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               1000000,
               1000000,
@@ -1600,6 +1668,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               1000000,
               1000000,
@@ -1622,6 +1691,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -1634,6 +1704,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -1651,6 +1722,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -1663,6 +1735,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -1706,6 +1779,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -1718,6 +1792,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -1735,6 +1810,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               1000000,
@@ -1750,6 +1826,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               1000000,
@@ -1779,6 +1856,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -1791,6 +1869,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -1808,6 +1887,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -1820,6 +1900,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -1863,6 +1944,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -1875,6 +1957,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -1892,6 +1975,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               2000000,
@@ -1908,6 +1992,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               2000000,
@@ -1939,6 +2024,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               1000000,
               1000000,
@@ -1951,6 +2037,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               1000000,
               1000000,
@@ -1968,6 +2055,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -1980,6 +2068,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -2051,6 +2140,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -2076,6 +2166,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               500000.0,
               500000.0,
@@ -2093,6 +2184,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               1000000,
               1000000,
@@ -2122,6 +2214,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-07-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               2000000,
               2000000,
@@ -2165,6 +2258,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               5000000,
               2500000.0,
@@ -2190,6 +2284,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               5000000,
               2500000.0,
@@ -2243,6 +2338,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               2000000,
@@ -2258,6 +2354,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               2000000,
@@ -2283,6 +2380,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -2295,6 +2393,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -2312,6 +2411,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -2324,6 +2424,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -2341,6 +2442,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-07-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               2000000,
               2000000,
@@ -2380,6 +2482,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -2397,6 +2500,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               2200000.0,
               2200000.0,
@@ -2421,6 +2525,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               500000.0,
               500000.0,
@@ -2438,6 +2543,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               500000.0,
               500000.0,
@@ -2455,6 +2561,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-07-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               2000000,
               2000000,
@@ -2494,6 +2601,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               3500000.0,
               3500000.0,
@@ -2512,6 +2620,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-05-26",
             "mbo_q": [
               3500000.0,
               3500000.0,
@@ -2546,6 +2655,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               1500000.0,
               1500000.0,
@@ -2561,6 +2671,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-05-26",
             "mbo_q": [
               1500000.0,
               1500000.0,
@@ -2586,6 +2697,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -2598,6 +2710,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-05-26",
             "mbo_q": [
               0,
               0,
@@ -2615,6 +2728,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -2627,6 +2741,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-05-26",
             "mbo_q": [
               0,
               0,
@@ -2669,6 +2784,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               500000.0,
               500000.0,
@@ -2704,6 +2820,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               500000.0,
               500000.0,
@@ -2730,6 +2847,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -2747,6 +2865,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -2790,6 +2909,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -2802,6 +2922,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -2819,6 +2940,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               1000000,
               1500000.0,
@@ -2837,6 +2959,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               1000000,
               1500000.0,
@@ -2866,6 +2989,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -2878,6 +3002,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -2895,6 +3020,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -2907,6 +3033,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -2950,6 +3077,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               7000000,
               5000000,
@@ -2974,6 +3102,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               7000000,
               5000000,
@@ -3029,6 +3158,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -3041,6 +3171,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -3058,6 +3189,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               2000000,
               2000000,
@@ -3070,6 +3202,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               2000000,
               2000000,
@@ -3087,6 +3220,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -3101,6 +3235,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -3145,6 +3280,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -3162,6 +3298,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               2200000.0,
               2200000.0,
@@ -3181,6 +3318,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -3198,6 +3336,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -3241,6 +3380,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -3253,6 +3393,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -3270,6 +3411,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               2200000.0,
@@ -3287,6 +3429,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               2200000.0,
@@ -3320,6 +3463,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -3332,6 +3476,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -3349,6 +3494,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -3361,6 +3507,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -3404,6 +3551,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               3500000.0,
@@ -3418,6 +3566,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               3500000.0,
@@ -3443,6 +3592,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               1000000,
               0,
@@ -3460,6 +3610,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               1000000,
               0,
@@ -3491,6 +3642,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -3503,6 +3655,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -3520,6 +3673,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -3532,6 +3686,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -3574,6 +3729,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               1000000,
               3500000.0,
@@ -3607,6 +3763,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -3624,6 +3781,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -3641,6 +3799,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -3683,6 +3842,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               1000000,
               1000000,
@@ -3716,6 +3876,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -3733,6 +3894,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -3750,6 +3912,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -3796,6 +3959,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               500000.0,
               500000.0,
@@ -3835,6 +3999,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -3856,6 +4021,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -3898,6 +4064,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               3500000.0,
               0,
@@ -3915,6 +4082,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               2500000.0,
@@ -3946,6 +4114,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -3963,6 +4132,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               1000000,
               1000000,
@@ -4005,6 +4175,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               1000000,
               1000000,
@@ -4029,6 +4200,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -4046,6 +4218,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -4063,6 +4236,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -4106,6 +4280,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -4118,6 +4293,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -4135,6 +4311,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               1000000,
               1000000,
@@ -4154,6 +4331,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               1000000,
               1000000,
@@ -4179,6 +4357,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -4191,6 +4370,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -4208,6 +4388,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -4220,6 +4401,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -4262,6 +4444,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -4282,6 +4465,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -4299,6 +4483,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               1000000,
               1000000,
@@ -4316,6 +4501,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -4359,6 +4545,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               8000000,
               8000000,
@@ -4384,6 +4571,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               2000000,
               2000000,
@@ -4403,6 +4591,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -4424,6 +4613,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -4441,6 +4631,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-07-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               5000000,
               10000000,
@@ -4479,6 +4670,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               3000000,
               3000000,
@@ -4496,6 +4688,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -4513,6 +4706,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -4530,6 +4724,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -4573,6 +4768,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               5000000,
               5000000,
@@ -4593,6 +4789,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               5000000,
               5000000,
@@ -4632,6 +4829,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -4644,6 +4842,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -4661,6 +4860,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -4682,6 +4882,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -4708,6 +4909,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -4720,6 +4922,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -4763,6 +4966,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               2000000,
               2000000,
@@ -4779,6 +4983,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               2000000,
               2000000,
@@ -4815,6 +5020,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               1000000,
               1000000,
@@ -4827,6 +5033,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               1000000,
               1000000,
@@ -4848,6 +5055,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -4860,6 +5068,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -4877,6 +5086,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -4889,6 +5099,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -4932,6 +5143,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               3000000,
               3000000,
@@ -4948,6 +5160,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               3000000,
               3000000,
@@ -4979,6 +5192,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -4991,6 +5205,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -5008,6 +5223,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -5020,6 +5236,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -5037,6 +5254,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -5049,6 +5267,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -5091,6 +5310,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               4000000,
               4000000,
@@ -5117,6 +5337,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -5134,6 +5355,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               1000000,
               1000000,
@@ -5151,6 +5373,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -5194,6 +5417,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               2000000,
               2000000,
@@ -5210,6 +5434,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               2000000,
               2000000,
@@ -5232,6 +5457,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               1000000,
               1000000,
@@ -5244,6 +5470,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               1000000,
               1000000,
@@ -5261,6 +5488,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -5273,6 +5501,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -5290,6 +5519,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -5302,6 +5532,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -5344,6 +5575,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               2000000,
               2000000,
@@ -5361,6 +5593,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               1000000,
               1000000,
@@ -5378,6 +5611,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -5395,6 +5629,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -5438,6 +5673,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               4000000,
               4000000,
@@ -5456,6 +5692,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               4000000,
               4000000,
@@ -5496,6 +5733,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -5508,6 +5746,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -5525,6 +5764,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               1000000,
               1000000,
@@ -5537,6 +5777,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               1000000,
               1000000,
@@ -5554,6 +5795,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -5566,6 +5808,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -5583,6 +5826,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-07-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               5000000,
               5000000,
@@ -5622,6 +5866,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               4000000,
               4000000,
@@ -5638,6 +5883,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               4000000,
               4000000,
@@ -5674,6 +5920,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -5686,6 +5933,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -5703,6 +5951,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               1000000,
               1000000,
@@ -5717,6 +5966,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               1000000,
               1000000,
@@ -5739,6 +5989,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -5751,6 +6002,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -5794,6 +6046,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               8000000,
               8000000,
@@ -5813,6 +6066,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               8000000,
               8000000,
@@ -5862,6 +6116,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               1000000,
               1000000,
@@ -5874,6 +6129,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               1000000,
               1000000,
@@ -5896,6 +6152,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               1000000,
               1000000,
@@ -5908,6 +6165,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               1000000,
               1000000,
@@ -5925,6 +6183,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -5937,6 +6196,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -5980,6 +6240,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               3000000,
               3000000,
@@ -5997,6 +6258,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               3000000,
               3000000,
@@ -6036,6 +6298,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               1000000,
               1000000,
@@ -6052,6 +6315,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               1000000,
               1000000,
@@ -6082,6 +6346,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               1000000,
               1000000,
@@ -6096,6 +6361,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               1000000,
               1000000,
@@ -6118,6 +6384,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -6130,6 +6397,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -6147,6 +6415,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-07-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               5000000,
               10000000,
@@ -6185,6 +6454,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               1500000.0,
               1500000.0,
@@ -6202,6 +6472,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -6219,6 +6490,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               500000.0,
               500000.0,
@@ -6236,6 +6508,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -6279,6 +6552,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               5000000,
               5000000,
@@ -6296,6 +6570,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               5000000,
               5000000,
@@ -6331,6 +6606,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -6343,6 +6619,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -6360,6 +6637,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -6372,6 +6650,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -6389,6 +6668,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -6401,6 +6681,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -6444,6 +6725,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               4000000,
               4000000,
@@ -6466,6 +6748,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               4000000,
               4000000,
@@ -6519,6 +6802,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -6531,6 +6815,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -6548,6 +6833,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               1000000,
               1000000,
@@ -6560,6 +6846,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               1000000,
               1000000,
@@ -6577,6 +6864,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -6589,6 +6877,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -6606,6 +6895,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-07-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               5000000,
               5000000,
@@ -6644,6 +6934,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               2000000,
               2000000,
@@ -6661,6 +6952,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               1000000,
               1000000,
@@ -6678,6 +6970,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -6695,6 +6988,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -6737,6 +7031,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               3000000,
               3000000,
@@ -6760,6 +7055,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -6777,6 +7073,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -6794,6 +7091,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -6836,6 +7134,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -6853,6 +7152,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               1000000,
               1000000,
@@ -6870,6 +7170,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               1000000,
               1000000,
@@ -6887,6 +7188,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -6930,6 +7232,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               2000000,
               2000000,
@@ -6947,6 +7250,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               2000000,
               2000000,
@@ -6976,6 +7280,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -6988,6 +7293,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -7005,6 +7311,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               1000000,
               1000000,
@@ -7017,6 +7324,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               1000000,
               1000000,
@@ -7034,6 +7342,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -7046,6 +7355,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -7089,6 +7399,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               2000000,
               2000000,
@@ -7105,6 +7416,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               2000000,
               2000000,
@@ -7147,6 +7459,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -7159,6 +7472,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -7176,6 +7490,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               1000000,
               1000000,
@@ -7191,6 +7506,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               1000000,
               1000000,
@@ -7211,6 +7527,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -7223,6 +7540,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -7265,6 +7583,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               2000000,
               2000000,
@@ -7294,6 +7613,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -7311,6 +7631,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -7328,6 +7649,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -7370,6 +7692,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               2000000,
               2000000,
@@ -7390,6 +7713,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -7407,6 +7731,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -7424,6 +7749,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -7466,6 +7792,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               3000000,
               3000000,
@@ -7483,6 +7810,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -7500,6 +7828,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -7517,6 +7846,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -7559,6 +7889,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               2000000,
               2000000,
@@ -7576,6 +7907,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               1000000,
               1000000,
@@ -7593,6 +7925,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -7612,6 +7945,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -7637,8 +7971,8 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": null,
-    "rep": "김재진",
+    "team": "RPM4팀",
+    "rep": "이상직",
     "name": "헤어로의원(대구)",
     "biz": 1411102493,
     "contract_date": "2025-01-01",
@@ -7655,6 +7989,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               8000000,
               8000000,
@@ -7676,6 +8011,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               8000000,
               8000000,
@@ -7714,6 +8050,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -7726,6 +8063,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -7743,6 +8081,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               2000000,
               2000000,
@@ -7763,6 +8102,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               2000000,
               2000000,
@@ -7795,6 +8135,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -7807,6 +8148,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -7850,6 +8192,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               4000000,
               4000000,
@@ -7870,6 +8213,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               4000000,
               4000000,
@@ -7900,6 +8244,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -7912,6 +8257,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -7929,6 +8275,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               1000000,
               1000000,
@@ -7947,6 +8294,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               1000000,
               1000000,
@@ -7977,6 +8325,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -7989,6 +8338,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -8031,6 +8381,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               3000000,
               3000000,
@@ -8048,6 +8399,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -8065,6 +8417,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -8082,6 +8435,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -8125,6 +8479,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               1000000,
               2000000,
@@ -8146,6 +8501,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               1000000,
               2000000,
@@ -8195,6 +8551,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -8207,6 +8564,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -8224,6 +8582,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -8236,6 +8595,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -8253,6 +8613,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -8265,6 +8626,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -8308,6 +8670,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               2000000,
               2000000,
@@ -8323,6 +8686,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               2000000,
               2000000,
@@ -8352,6 +8716,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -8364,6 +8729,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -8381,6 +8747,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -8393,6 +8760,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -8410,6 +8778,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -8422,6 +8791,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -8465,6 +8835,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               1000000,
               1000000,
@@ -8482,6 +8853,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               1000000,
               1000000,
@@ -8519,6 +8891,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -8531,6 +8904,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -8548,6 +8922,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -8560,6 +8935,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -8577,6 +8953,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -8589,6 +8966,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -8631,6 +9009,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               1000000,
               1000000,
@@ -8651,6 +9030,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -8668,6 +9048,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -8685,6 +9066,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -8727,6 +9109,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -8744,6 +9127,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -8761,6 +9145,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               2000000,
               2000000,
@@ -8778,6 +9163,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -8820,6 +9206,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -8837,6 +9224,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -8854,6 +9242,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               1000000,
               1000000,
@@ -8873,6 +9262,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -8915,6 +9305,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -8932,6 +9323,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -8949,6 +9341,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               1000000,
               1000000,
@@ -8966,6 +9359,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -9008,6 +9402,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -9025,6 +9420,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -9042,6 +9438,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               1000000,
               1000000,
@@ -9059,6 +9456,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -9101,6 +9499,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -9118,6 +9517,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -9135,6 +9535,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               1000000,
               1000000,
@@ -9152,6 +9553,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -9194,6 +9596,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -9211,6 +9614,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               1000000,
               1000000,
@@ -9228,6 +9632,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -9245,6 +9650,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -9287,6 +9693,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -9304,6 +9711,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               1000000,
               1000000,
@@ -9321,6 +9729,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -9338,6 +9747,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -9381,6 +9791,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -9400,6 +9811,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -9424,6 +9836,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               1000000,
               1000000,
@@ -9436,6 +9849,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               1000000,
               1000000,
@@ -9453,6 +9867,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -9467,6 +9882,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -9486,6 +9902,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -9498,6 +9915,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -9541,6 +9959,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -9555,6 +9974,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -9581,6 +10001,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -9593,6 +10014,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -9610,6 +10032,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               1000000,
               1000000,
@@ -9622,6 +10045,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               1000000,
               1000000,
@@ -9643,6 +10067,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -9655,6 +10080,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -9702,6 +10128,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               10000000,
               10000000,
@@ -9724,6 +10151,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               10000000,
               10000000,
@@ -9766,6 +10194,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               1000000,
               1000000,
@@ -9778,6 +10207,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               1000000,
               1000000,
@@ -9795,6 +10225,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               3000000,
               3000000,
@@ -9812,6 +10243,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               3000000,
               3000000,
@@ -9841,6 +10273,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               2000000,
               2000000,
@@ -9853,6 +10286,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               2000000,
               2000000,
@@ -9870,6 +10304,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-07-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               6000000,
               6000000,
@@ -9909,6 +10344,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               8000000,
               8000000,
@@ -9928,6 +10364,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               8000000,
               8000000,
@@ -9976,6 +10413,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               1000000,
               1000000,
@@ -9988,6 +10426,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               1000000,
               1000000,
@@ -10005,6 +10444,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               2000000,
               2000000,
@@ -10019,6 +10459,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               2000000,
               2000000,
@@ -10045,6 +10486,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               1000000,
               1000000,
@@ -10057,6 +10499,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               1000000,
               1000000,
@@ -10074,6 +10517,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-07-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               3000000,
               6000000,
@@ -10113,6 +10557,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               3500000.0,
               3500000.0,
@@ -10125,6 +10570,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-03-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               1500000.0,
               3000000,
@@ -10142,6 +10588,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               1000000,
               1000000,
@@ -10159,6 +10606,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-03-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               1500000.0,
               2000000,
@@ -10181,6 +10629,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               1000000,
               1000000,
@@ -10193,6 +10642,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-03-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               500000.0,
               1000000,
@@ -10210,6 +10660,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -10222,6 +10673,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-03-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               500000.0,
               500000.0,
@@ -10239,6 +10691,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-07-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               3000000,
               6000000,
@@ -10278,6 +10731,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               12000000,
               12000000,
@@ -10298,6 +10752,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               12000000,
               12000000,
@@ -10343,6 +10798,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               1000000,
               1000000,
@@ -10355,6 +10811,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               1000000,
               1000000,
@@ -10372,6 +10829,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               2000000,
               2000000,
@@ -10384,6 +10842,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               2000000,
               2000000,
@@ -10401,6 +10860,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               1000000,
               1000000,
@@ -10413,6 +10873,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               1000000,
               1000000,
@@ -10430,6 +10891,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-07-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               1000000,
               3000000,
@@ -10469,6 +10931,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               9500000.0,
               9500000.0,
@@ -10492,6 +10955,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               9500000.0,
               9500000.0,
@@ -10527,6 +10991,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               2500000.0,
               2500000.0,
@@ -10539,6 +11004,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               2500000.0,
               2500000.0,
@@ -10556,6 +11022,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               2000000,
               2000000,
@@ -10568,6 +11035,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               2000000,
               2000000,
@@ -10585,6 +11053,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               1000000,
               1000000,
@@ -10597,6 +11066,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               1000000,
               1000000,
@@ -10614,6 +11084,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-07-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               1000000,
               3000000,
@@ -10653,6 +11124,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               7000000,
               7000000,
@@ -10668,6 +11140,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               7000000,
               7000000,
@@ -10692,6 +11165,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -10704,6 +11178,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -10721,6 +11196,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               4000000,
               4000000,
@@ -10733,6 +11209,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               4000000,
               4000000,
@@ -10750,6 +11227,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -10762,6 +11240,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -10805,6 +11284,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               7000000,
               7000000,
@@ -10823,6 +11303,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-04-30",
             "mbo_q": [
               7000000,
               7000000,
@@ -10851,6 +11332,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -10863,6 +11345,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-04-30",
             "mbo_q": [
               0,
               0,
@@ -10880,6 +11363,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               4000000,
               4000000,
@@ -10892,6 +11376,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-04-30",
             "mbo_q": [
               4000000,
               4000000,
@@ -10909,6 +11394,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -10921,6 +11407,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-04-30",
             "mbo_q": [
               0,
               0,
@@ -10964,6 +11451,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               7000000,
               7000000,
@@ -10984,6 +11472,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-04-15",
             "mbo_q": [
               7000000,
               7000000,
@@ -11011,6 +11500,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               2500000.0,
               2500000.0,
@@ -11025,6 +11515,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-04-15",
             "mbo_q": [
               2500000.0,
               2500000.0,
@@ -11044,6 +11535,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               4000000,
               4000000,
@@ -11056,6 +11548,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-04-15",
             "mbo_q": [
               4000000,
               4000000,
@@ -11073,6 +11566,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               500000.0,
               500000.0,
@@ -11085,6 +11579,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-04-15",
             "mbo_q": [
               500000.0,
               500000.0,
@@ -11127,6 +11622,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               1500000.0,
               1500000.0,
@@ -11158,6 +11654,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               500000.0,
               500000.0,
@@ -11175,6 +11672,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               1500000.0,
               1500000.0,
@@ -11192,6 +11690,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -11234,6 +11733,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               3500000.0,
               3500000.0,
@@ -11251,6 +11751,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               500000.0,
               500000.0,
@@ -11268,6 +11769,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               1500000.0,
               1500000.0,
@@ -11285,6 +11787,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               1000000,
               1000000,
@@ -11327,6 +11830,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               3500000.0,
               3500000.0,
@@ -11344,6 +11848,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -11371,6 +11876,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               3000000,
               3000000,
@@ -11388,6 +11894,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               1000000,
               1000000,
@@ -11429,6 +11936,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               1250000.0,
               1250000.0,
@@ -11446,6 +11954,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -11463,6 +11972,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -11480,6 +11990,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -11521,6 +12032,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               3500000.0,
               0,
@@ -11538,6 +12050,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               4000000,
@@ -11555,6 +12068,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -11572,6 +12086,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -11613,6 +12128,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               3500000.0,
@@ -11630,6 +12146,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -11647,6 +12164,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -11664,6 +12182,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -11705,6 +12224,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               17500000.0,
               17500000.0,
@@ -11722,6 +12242,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -11739,6 +12260,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -11756,6 +12278,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -11797,6 +12320,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               3500000.0,
               3500000.0,
@@ -11814,6 +12338,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               3000000,
@@ -11837,6 +12362,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -11854,6 +12380,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -11895,6 +12422,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               3500000.0,
@@ -11912,6 +12440,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -11929,6 +12458,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -11946,6 +12476,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -11987,6 +12518,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               3500000.0,
               0,
@@ -12004,6 +12536,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               3000000,
@@ -12021,6 +12554,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -12038,6 +12572,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -12079,6 +12614,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               3500000.0,
               3500000.0,
@@ -12100,6 +12636,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               3000000,
@@ -12121,6 +12658,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -12138,6 +12676,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -12179,6 +12718,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               3500000.0,
               0,
@@ -12196,6 +12736,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               3000000,
@@ -12213,6 +12754,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -12230,6 +12772,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -12271,6 +12814,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               3500000.0,
               0,
@@ -12288,6 +12832,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -12305,6 +12850,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -12322,6 +12868,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -12363,6 +12910,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               7000000,
               7000000,
@@ -12380,6 +12928,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               2500000.0,
@@ -12397,6 +12946,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -12414,6 +12964,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -12455,6 +13006,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               7000000,
               7000000,
@@ -12472,6 +13024,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -12489,6 +13042,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -12506,6 +13060,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -12547,6 +13102,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               7000000,
               0,
@@ -12564,6 +13120,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               1100000.0,
               0,
@@ -12581,6 +13138,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -12598,6 +13156,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -12639,6 +13198,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               3500000.0,
               3500000.0,
@@ -12656,6 +13216,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               1100000.0,
               1100000.0,
@@ -12677,6 +13238,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -12694,6 +13256,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -12735,6 +13298,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               3500000.0,
               0,
@@ -12752,6 +13316,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               1100000.0,
@@ -12769,6 +13334,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -12786,6 +13352,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -12827,6 +13394,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               7000000,
               0,
@@ -12844,6 +13412,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               1100000.0,
               0,
@@ -12869,6 +13438,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -12886,6 +13456,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -12927,6 +13498,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               3500000.0,
               0,
@@ -12944,6 +13516,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               1100000.0,
               0,
@@ -12961,6 +13534,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -12978,6 +13552,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -13019,6 +13594,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               3500000.0,
               0,
@@ -13036,6 +13612,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               1100000.0,
               0,
@@ -13075,6 +13652,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -13096,6 +13674,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -13140,6 +13719,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               7000000,
               0,
@@ -13157,6 +13737,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               1100000.0,
@@ -13182,6 +13763,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -13199,6 +13781,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -13240,6 +13823,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               7000000,
               0,
@@ -13257,6 +13841,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               2200000.0,
@@ -13274,6 +13859,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -13291,6 +13877,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -13332,6 +13919,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               3500000.0,
               0,
@@ -13349,6 +13937,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               1100000.0,
               0,
@@ -13374,6 +13963,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -13391,6 +13981,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -13432,6 +14023,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               1700000.0,
               0,
@@ -13473,6 +14065,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               1100000.0,
               0,
@@ -13496,6 +14089,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -13513,6 +14107,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -13554,6 +14149,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               1700000.0,
               0,
@@ -13579,6 +14175,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               1100000.0,
               0,
@@ -13596,6 +14193,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -13613,6 +14211,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -13654,6 +14253,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               7000000,
               0,
@@ -13671,6 +14271,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               2200000.0,
@@ -13688,6 +14289,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -13705,6 +14307,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -13747,6 +14350,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               1000000,
               0,
@@ -13775,6 +14379,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -13792,6 +14397,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               1000000,
               0,
@@ -13809,6 +14415,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -13852,6 +14459,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -13864,6 +14472,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -13881,6 +14490,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               1000000,
               1000000,
@@ -13901,6 +14511,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               1000000,
               1000000,
@@ -13946,6 +14557,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               1000000,
               0,
@@ -13958,6 +14570,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               1000000,
               0,
@@ -13975,6 +14588,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -13987,6 +14601,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -14029,6 +14644,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               2000000,
               4000000,
@@ -14055,6 +14671,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               2000000,
               2000000,
@@ -14072,6 +14689,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -14089,6 +14707,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -14132,6 +14751,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               2000000,
               2000000,
@@ -14154,6 +14774,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               2000000,
               2000000,
@@ -14168,7 +14789,8 @@ window.BLOCK_DETAIL = [
               "2026-05": 26363637.0,
               "2026-06": 26363637.0,
               "2026-07": 26363637.0,
-              "2026-08": 836364.0
+              "2026-08": 836364.0,
+              "2026-10": 418182.0
             },
             "remark": ""
           }
@@ -14190,7 +14812,8 @@ window.BLOCK_DETAIL = [
           "2026-05": 26363637.0,
           "2026-06": 26363637.0,
           "2026-07": 26363637.0,
-          "2026-08": 836364.0
+          "2026-08": 836364.0,
+          "2026-10": 418182.0
         }
       },
       "브이올렛": {
@@ -14198,6 +14821,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -14210,6 +14834,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -14227,6 +14852,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -14241,6 +14867,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -14263,6 +14890,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -14275,6 +14903,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -14317,6 +14946,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -14334,6 +14964,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -14351,6 +14982,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               2000000,
               2000000,
@@ -14368,6 +15000,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -14410,6 +15043,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               2000000,
@@ -14427,6 +15061,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               2000000,
               0,
@@ -14444,6 +15079,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               1000000,
               1000000,
@@ -14461,6 +15097,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -14504,6 +15141,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               3000000,
               2000000,
@@ -14522,6 +15160,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               3000000,
               2000000,
@@ -14552,6 +15191,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -14564,6 +15204,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -14581,6 +15222,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               2000000,
               2000000,
@@ -14595,6 +15237,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               2000000,
               2000000,
@@ -14614,6 +15257,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -14626,6 +15270,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -14668,6 +15313,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               2000000,
               2000000,
@@ -14685,6 +15331,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -14702,6 +15349,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -14719,6 +15367,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -14761,6 +15410,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               2000000,
               2000000,
@@ -14778,6 +15428,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -14799,6 +15450,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -14816,6 +15468,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -14859,6 +15512,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               5000000,
               6000000,
@@ -14883,6 +15537,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               5000000,
               6000000,
@@ -14933,6 +15588,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               2500000.0,
               3000000,
@@ -14948,6 +15604,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               2500000.0,
               3000000,
@@ -14971,6 +15628,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               2500000.0,
               4000000,
@@ -14985,6 +15643,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               2500000.0,
               4000000,
@@ -15011,6 +15670,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               1000000,
               1500000.0,
@@ -15025,6 +15685,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               1000000,
               1500000.0,
@@ -15051,6 +15712,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-07-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               2000000,
               4000000,
@@ -15089,6 +15751,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               5000000,
               6000000,
@@ -15106,6 +15769,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               2500000.0,
               3000000,
@@ -15123,6 +15787,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               2500000.0,
               4000000,
@@ -15140,6 +15805,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               1000000,
               1500000.0,
@@ -15183,6 +15849,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               5000000,
               6000000,
@@ -15195,6 +15862,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               5000000,
               6000000,
@@ -15212,6 +15880,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               2500000.0,
               3000000,
@@ -15227,6 +15896,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               2500000.0,
               3000000,
@@ -15247,6 +15917,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               2500000.0,
               4000000,
@@ -15259,6 +15930,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               2500000.0,
               4000000,
@@ -15276,6 +15948,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               1000000,
               1500000.0,
@@ -15288,6 +15961,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               1000000,
               1500000.0,
@@ -15305,6 +15979,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-07-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               2000000,
               3000000,
@@ -15343,6 +16018,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               5000000,
               6000000,
@@ -15360,6 +16036,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               2500000.0,
               3000000,
@@ -15377,6 +16054,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               2500000.0,
               4000000,
@@ -15394,6 +16072,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               1000000,
               1500000.0,
@@ -15436,6 +16115,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               5000000,
               6000000,
@@ -15453,6 +16133,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               2500000.0,
               3000000,
@@ -15470,6 +16151,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               2500000.0,
               4000000,
@@ -15487,6 +16169,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               1000000,
               1500000.0,
@@ -15534,6 +16217,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               1500000.0,
               1500000.0,
@@ -15551,6 +16235,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               1500000.0,
               1500000.0,
@@ -15568,6 +16253,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               1000000,
               1000000,
@@ -15616,6 +16302,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               1500000.0,
               1500000.0,
@@ -15647,6 +16334,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               1000000,
               1000000,
@@ -15664,6 +16352,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               200000.0,
               200000.0,
@@ -15709,6 +16398,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               1500000.0,
               1500000.0,
@@ -15726,6 +16416,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               1500000.0,
               1500000.0,
@@ -15743,6 +16434,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               500000.0,
               500000.0,
@@ -15784,6 +16476,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               1500000.0,
               1500000.0,
@@ -15801,6 +16494,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               500000.0,
               500000.0,
@@ -15818,6 +16512,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               1500000.0,
               1500000.0,
@@ -15835,6 +16530,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               200000.0,
               200000.0,
@@ -15882,6 +16578,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               1500000.0,
               1500000.0,
@@ -15899,6 +16596,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               1000000,
               1000000,
@@ -15916,6 +16614,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               500000.0,
               200000.0,
@@ -15968,6 +16667,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               1500000.0,
               1500000.0,
@@ -15989,6 +16689,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               1500000.0,
               1500000.0,
@@ -16030,6 +16731,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               1500000.0,
               1500000.0,
@@ -16051,6 +16753,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               500000.0,
               500000.0,
@@ -16068,6 +16771,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               1500000.0,
               1500000.0,
@@ -16098,6 +16802,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               200000.0,
               200000.0,
@@ -16145,6 +16850,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               1500000.0,
               1500000.0,
@@ -16162,6 +16868,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               1000000,
               1000000,
@@ -16179,6 +16886,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               1500000.0,
               1500000.0,
@@ -16220,6 +16928,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               3500000.0,
               0,
@@ -16237,6 +16946,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               500000.0,
               500000.0,
@@ -16254,6 +16964,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               1000000,
               1000000,
@@ -16271,6 +16982,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               200000.0,
               200000.0,
@@ -16312,6 +17024,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               2300000.0,
               0,
@@ -16329,6 +17042,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               500000.0,
               500000.0,
@@ -16352,6 +17066,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               1000000,
               1000000,
@@ -16369,6 +17084,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               200000.0,
               200000.0,
@@ -16410,6 +17126,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               2300000.0,
               0,
@@ -16427,6 +17144,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               500000.0,
               1500000.0,
@@ -16444,6 +17162,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               500000.0,
               500000.0,
@@ -16461,6 +17180,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               200000.0,
               200000.0,
@@ -16502,6 +17222,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               3500000.0,
               0,
@@ -16519,6 +17240,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               500000.0,
               500000.0,
@@ -16536,6 +17258,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               1000000,
               1000000,
@@ -16553,6 +17276,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -16594,6 +17318,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               3500000.0,
               0,
@@ -16637,6 +17362,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               500000.0,
               500000.0,
@@ -16656,6 +17382,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               1000000,
               1000000,
@@ -16676,6 +17403,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -16700,8 +17428,8 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2025
     ],
-    "team": null,
-    "rep": "김재진",
+    "team": "RPM4팀",
+    "rep": "이상직",
     "name": "2080연합피부과의원",
     "biz": 5042868980,
     "contract_date": "2025-01-01",
@@ -16717,6 +17445,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               3500000.0,
               0,
@@ -16773,6 +17502,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               500000.0,
               500000.0,
@@ -16790,6 +17520,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               1000000,
               1000000,
@@ -16807,6 +17538,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               200000.0,
               200000.0,
@@ -16848,6 +17580,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               3500000.0,
               3500000.0,
@@ -16873,6 +17606,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               1500000.0,
               0,
@@ -16900,6 +17634,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -16917,6 +17652,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               1000000,
               1000000,
@@ -16962,6 +17698,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               500000.0,
               1000000,
@@ -16991,6 +17728,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               500000.0,
               500000.0,
@@ -17008,6 +17746,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               1000000,
               1000000,
@@ -17029,6 +17768,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               500000.0,
               500000.0,
@@ -17070,6 +17810,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               1000000,
               1000000,
@@ -17146,6 +17887,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               500000.0,
               500000.0,
@@ -17163,6 +17905,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               1700000.0,
               1700000.0,
@@ -17180,6 +17923,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -17221,6 +17965,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               3500000.0,
               0,
@@ -17247,6 +17992,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               500000.0,
               500000.0,
@@ -17264,6 +18010,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               1000000,
               1000000,
@@ -17281,6 +18028,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -17322,6 +18070,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               1500000.0,
               1500000.0,
@@ -17352,6 +18101,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -17369,6 +18119,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               1500000.0,
               1500000.0,
@@ -17386,6 +18137,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               200000.0,
               200000.0,
@@ -17427,6 +18179,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               3500000.0,
               0,
@@ -17444,6 +18197,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               2300000.0,
               0,
@@ -17476,6 +18230,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -17493,6 +18248,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -17534,6 +18290,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               1500000.0,
               1500000.0,
@@ -17580,6 +18337,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               500000.0,
               500000.0,
@@ -17597,6 +18355,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               1000000,
               1000000,
@@ -17614,6 +18373,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -17655,6 +18415,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               2300000.0,
               0,
@@ -17713,6 +18474,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               500000.0,
               500000.0,
@@ -17730,6 +18492,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               1000000,
               1000000,
@@ -17747,6 +18510,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               200000.0,
               200000.0,
@@ -17771,8 +18535,8 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2025
     ],
-    "team": null,
-    "rep": "김재진",
+    "team": "RPM4팀",
+    "rep": "이상직",
     "name": "로제피부과의원(범어점)",
     "biz": 5022974178,
     "contract_date": "2025-01-01",
@@ -17788,6 +18552,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               3500000.0,
               0,
@@ -17829,6 +18594,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               1000000,
               1000000,
@@ -17856,6 +18622,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               1000000,
               1000000,
@@ -17873,6 +18640,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               500000.0,
               500000.0,
@@ -17897,8 +18665,8 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2025
     ],
-    "team": null,
-    "rep": "김재진",
+    "team": "RPM4팀",
+    "rep": "이상직",
     "name": "로제피부과의원(율하)",
     "biz": 5022973766,
     "contract_date": "2025-01-01",
@@ -17914,6 +18682,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               3500000.0,
               0,
@@ -17951,6 +18720,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               1000000,
               1000000,
@@ -17968,6 +18738,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               1000000,
               1000000,
@@ -17985,6 +18756,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               500000.0,
               500000.0,
@@ -18026,6 +18798,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               5500000.0,
               5500000.0,
@@ -18058,6 +18831,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               5000000,
               7500000.0,
@@ -18101,6 +18875,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               1000000,
               1000000,
@@ -18118,6 +18893,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               2200000.0,
               2200000.0,
@@ -18159,6 +18935,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               5800000.0,
               0,
@@ -18183,6 +18960,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               1500000.0,
               1500000.0,
@@ -18200,6 +18978,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               2000000,
               2000000,
@@ -18217,6 +18996,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -18241,8 +19021,8 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2025
     ],
-    "team": null,
-    "rep": "김재진",
+    "team": "RPM4팀",
+    "rep": "이상직",
     "name": "미라인의원(남구점)",
     "biz": 6102669072,
     "contract_date": "2025-01-01",
@@ -18258,6 +19038,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               3500000.0,
               3500000.0,
@@ -18283,6 +19064,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -18300,6 +19082,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               500000.0,
               500000.0,
@@ -18317,6 +19100,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -18341,8 +19125,8 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2025
     ],
-    "team": null,
-    "rep": "김재진",
+    "team": "RPM4팀",
+    "rep": "이상직",
     "name": "미소지앤의원(북구점)",
     "biz": 5043120012,
     "contract_date": "2025-01-01",
@@ -18358,6 +19142,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               1500000.0,
               1500000.0,
@@ -18383,6 +19168,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               500000.0,
               500000.0,
@@ -18400,6 +19186,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               1000000,
               1000000,
@@ -18417,6 +19204,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -18458,6 +19246,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               15000000,
               15000000,
@@ -18517,6 +19306,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               7500000.0,
               7500000.0,
@@ -18546,6 +19336,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               1500000.0,
               1500000.0,
@@ -18563,6 +19354,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               1500000.0,
               1500000.0,
@@ -18604,6 +19396,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               3500000.0,
               3500000.0,
@@ -18631,6 +19424,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               500000.0,
               500000.0,
@@ -18648,6 +19442,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               1500000.0,
               1500000.0,
@@ -18667,6 +19462,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -18710,6 +19506,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               3500000.0,
               3500000.0,
@@ -18727,6 +19524,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               500000.0,
               500000.0,
@@ -18750,6 +19548,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               1500000.0,
               1500000.0,
@@ -18767,6 +19566,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -18808,6 +19608,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               3500000.0,
               3500000.0,
@@ -18825,6 +19626,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               500000.0,
               500000.0,
@@ -18846,6 +19648,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               1500000.0,
               1500000.0,
@@ -18863,6 +19666,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -18904,6 +19708,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               3500000.0,
               0,
@@ -18954,6 +19759,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               500000.0,
               500000.0,
@@ -18971,6 +19777,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               700000.0,
               700000.0,
@@ -18988,6 +19795,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -19029,6 +19837,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               3500000.0,
               0,
@@ -19046,6 +19855,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               2500000.0,
               0,
@@ -19086,6 +19896,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               1500000.0,
               1500000.0,
@@ -19103,6 +19914,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               400000.0,
               400000.0,
@@ -19144,6 +19956,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               3500000.0,
               0,
@@ -19168,6 +19981,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               1500000.0,
               1500000.0,
@@ -19194,6 +20008,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               1000000,
               1000000,
@@ -19211,6 +20026,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -19235,8 +20051,8 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2025
     ],
-    "team": null,
-    "rep": "김재진",
+    "team": "RPM4팀",
+    "rep": "이상직",
     "name": "아름다운피부과(수성)",
     "biz": 5022976064,
     "contract_date": "2025-01-01",
@@ -19252,6 +20068,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               3500000.0,
               6000000,
@@ -19292,6 +20109,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               500000.0,
               500000.0,
@@ -19309,6 +20127,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -19326,6 +20145,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -19367,6 +20187,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               2300000.0,
               2300000.0,
@@ -19397,6 +20218,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -19414,6 +20236,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -19431,6 +20254,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               400000.0,
               400000.0,
@@ -19472,6 +20296,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               2300000.0,
               2300000.0,
@@ -19517,6 +20342,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               2500000.0,
               500000.0,
@@ -19538,6 +20364,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -19555,6 +20382,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -19579,8 +20407,8 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2025
     ],
-    "team": null,
-    "rep": "김재진",
+    "team": "RPM4팀",
+    "rep": "이상직",
     "name": "청담류의원",
     "biz": 1107300510,
     "contract_date": "2025-01-01",
@@ -19596,6 +20424,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               4000000,
               4000000,
@@ -19631,6 +20460,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               500000.0,
               500000.0,
@@ -19657,6 +20487,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -19674,6 +20505,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -19715,6 +20547,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               3500000.0,
               5000000,
@@ -19754,6 +20587,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               2500000.0,
@@ -19792,6 +20626,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -19809,6 +20644,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               400000.0,
@@ -19833,8 +20669,8 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2025
     ],
-    "team": null,
-    "rep": "김재진",
+    "team": "RPM4팀",
+    "rep": "이상직",
     "name": "칠곡제이(J)성형외과의원",
     "biz": 5042470886,
     "contract_date": "2025-01-01",
@@ -19850,6 +20686,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               5000000,
               5000000,
@@ -19908,6 +20745,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               500000.0,
               500000.0,
@@ -19933,6 +20771,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -19950,6 +20789,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               1000000,
               1000000,
@@ -19991,6 +20831,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               3500000.0,
               3500000.0,
@@ -20030,6 +20871,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               500000.0,
               500000.0,
@@ -20047,6 +20889,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -20064,6 +20907,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               1000000,
@@ -20105,6 +20949,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               3500000.0,
               0,
@@ -20134,6 +20979,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               2500000.0,
               0,
@@ -20157,6 +21003,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               1000000,
               1000000,
@@ -20174,6 +21021,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -20215,6 +21063,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               3500000.0,
               5000000,
@@ -20248,6 +21097,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               2500000.0,
               0,
@@ -20271,6 +21121,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -20288,6 +21139,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               200000.0,
               200000.0,
@@ -20331,6 +21183,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               2200000.0,
               2200000.0,
@@ -20346,6 +21199,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               2200000.0,
               2200000.0,
@@ -20375,6 +21229,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               1000000,
               1000000,
@@ -20387,6 +21242,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               1000000,
               1000000,
@@ -20404,6 +21260,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -20416,6 +21273,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -20433,6 +21291,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -20445,6 +21304,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -20470,8 +21330,8 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": null,
-    "rep": "김재진",
+    "team": "RPM4팀",
+    "rep": "이상직",
     "name": "연세예쁨의원",
     "biz": 7430203132,
     "contract_date": "2025-01-01",
@@ -20487,6 +21347,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               2200000.0,
               0,
@@ -20516,6 +21377,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               1000000,
               0,
@@ -20533,6 +21395,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -20550,6 +21413,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -20593,6 +21457,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               1200000.0,
               0,
@@ -20605,6 +21470,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               1200000.0,
               0,
@@ -20626,6 +21492,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               1000000,
               1000000,
@@ -20644,6 +21511,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               1000000,
               1000000,
@@ -20672,6 +21540,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -20684,6 +21553,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -20701,6 +21571,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -20713,6 +21584,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -20756,6 +21628,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               2200000.0,
               2200000.0,
@@ -20768,6 +21641,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               2200000.0,
               2200000.0,
@@ -20785,6 +21659,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               1500000.0,
               1500000.0,
@@ -20800,6 +21675,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               1500000.0,
               1500000.0,
@@ -20825,6 +21701,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -20837,6 +21714,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -20854,6 +21732,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -20866,6 +21745,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -20891,8 +21771,8 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": null,
-    "rep": "김재진",
+    "team": "RPM4팀",
+    "rep": "이상직",
     "name": "빌리브피부과의원",
     "biz": 3605200804,
     "contract_date": "2025-01-01",
@@ -20908,6 +21788,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               2200000.0,
               2200000.0,
@@ -20925,6 +21806,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               2300000.0,
@@ -20947,6 +21829,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               1000000,
               500000.0,
@@ -20964,6 +21847,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -21007,6 +21891,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -21019,6 +21904,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -21036,6 +21922,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               2500000.0,
               2500000.0,
@@ -21050,6 +21937,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               2500000.0,
               2500000.0,
@@ -21071,6 +21959,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               500000.0,
               500000.0,
@@ -21083,6 +21972,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               500000.0,
               500000.0,
@@ -21100,6 +21990,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -21112,6 +22003,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -21154,6 +22046,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               2200000.0,
               2200000.0,
@@ -21171,6 +22064,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               1000000,
               1000000,
@@ -21192,6 +22086,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               500000.0,
               500000.0,
@@ -21209,6 +22104,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -21252,6 +22148,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               1200000.0,
               1200000.0,
@@ -21264,6 +22161,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               1200000.0,
               1200000.0,
@@ -21281,6 +22179,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               1000000,
               1000000,
@@ -21296,6 +22195,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               1000000,
               1000000,
@@ -21316,6 +22216,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               1000000,
               1000000,
@@ -21328,6 +22229,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               1000000,
               1000000,
@@ -21345,6 +22247,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -21357,6 +22260,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -21382,8 +22286,8 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": null,
-    "rep": "김재진",
+    "team": "RPM4팀",
+    "rep": "이상직",
     "name": "연세미사랑의원",
     "biz": 7990803194,
     "contract_date": "2025-01-01",
@@ -21399,6 +22303,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               1200000.0,
               1200000.0,
@@ -21416,6 +22321,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               1000000,
               1000000,
@@ -21437,6 +22343,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               1000000,
               1000000,
@@ -21454,6 +22361,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -21479,8 +22387,8 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": null,
-    "rep": "김재진",
+    "team": "RPM4팀",
+    "rep": "이상직",
     "name": "만촌더설레임피부과의원",
     "biz": 3102909796,
     "contract_date": "2025-01-01",
@@ -21497,6 +22405,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               3500000.0,
               7000000,
@@ -21513,6 +22422,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               3500000.0,
               7000000,
@@ -21539,6 +22449,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               1000000,
               0,
@@ -21553,6 +22464,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               1000000,
               0,
@@ -21572,6 +22484,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -21584,6 +22497,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -21601,6 +22515,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -21613,6 +22528,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -21637,8 +22553,8 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2025
     ],
-    "team": null,
-    "rep": "김재진",
+    "team": "RPM4팀",
+    "rep": "이상직",
     "name": "노블의원",
     "biz": 6102685034,
     "contract_date": "2025-01-01",
@@ -21654,6 +22570,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               2273000.0,
               2273000.0,
@@ -21687,6 +22604,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               1000000,
               1000000,
@@ -21704,6 +22622,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -21721,6 +22640,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               1000000,
               1000000,
@@ -21762,6 +22682,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               2300000.0,
               2300000.0,
@@ -21781,6 +22702,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               1000000,
@@ -21798,6 +22720,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               1000000,
               0,
@@ -21815,6 +22738,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               500000.0,
@@ -21856,6 +22780,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -21873,6 +22798,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               1500000.0,
@@ -21890,6 +22816,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -21911,6 +22838,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               1500000.0,
@@ -21956,6 +22884,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               3500000.0,
               3500000.0,
@@ -21981,6 +22910,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -21998,6 +22928,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               1000000,
@@ -22015,6 +22946,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               1000000,
@@ -22056,6 +22988,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               2000000,
@@ -22073,6 +23006,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -22090,6 +23024,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               1000000,
@@ -22107,6 +23042,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -22148,6 +23084,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               2000000,
@@ -22165,6 +23102,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -22182,6 +23120,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               1000000,
@@ -22199,6 +23138,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               500000.0,
@@ -22240,6 +23180,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               3500000.0,
@@ -22257,6 +23198,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               500000.0,
               500000.0,
@@ -22274,6 +23216,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               1500000.0,
@@ -22291,6 +23234,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -22332,6 +23276,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               2000000,
@@ -22349,6 +23294,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -22366,6 +23312,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               500000.0,
@@ -22383,6 +23330,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               500000.0,
@@ -22424,6 +23372,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -22441,6 +23390,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               1000000,
@@ -22458,6 +23408,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               2000000,
@@ -22475,6 +23426,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -22516,6 +23468,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               5000000,
               5000000,
@@ -22536,6 +23489,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -22553,6 +23507,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               6500000.0,
               6500000.0,
@@ -22570,6 +23525,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -22611,6 +23567,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               7500000.0,
               7500000.0,
@@ -22639,6 +23596,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -22656,6 +23614,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               7500000.0,
               7500000.0,
@@ -22673,6 +23632,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -22715,6 +23675,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               5000000,
               5000000,
@@ -22741,6 +23702,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               2300000.0,
               2300000.0,
@@ -22767,6 +23729,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -22784,6 +23747,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               1000000,
               1000000,
@@ -22827,6 +23791,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               4000000,
               4000000,
@@ -22845,6 +23810,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               4000000,
               4000000,
@@ -22888,6 +23854,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               1000000,
               1000000,
@@ -22900,6 +23867,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               1000000,
               1000000,
@@ -22921,6 +23889,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -22935,6 +23904,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -22957,6 +23927,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               1000000,
               1000000,
@@ -22969,6 +23940,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               1000000,
               1000000,
@@ -23011,6 +23983,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               2000000,
               2000000,
@@ -23036,6 +24009,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               1000000,
               1000000,
@@ -23055,6 +24029,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -23072,6 +24047,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               1000000,
               1000000,
@@ -23114,6 +24090,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               1000000,
               1000000,
@@ -23131,6 +24108,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -23148,6 +24126,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -23165,6 +24144,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               1000000,
               1000000,
@@ -23207,6 +24187,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               2000000,
               2000000,
@@ -23229,6 +24210,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -23246,6 +24228,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -23263,6 +24246,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               1000000,
               1000000,
@@ -23306,6 +24290,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               2000000,
               2000000,
@@ -23323,6 +24308,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               2000000,
               2000000,
@@ -23359,6 +24345,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               1000000,
               1000000,
@@ -23376,6 +24363,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               1000000,
               1000000,
@@ -23407,6 +24395,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -23419,6 +24408,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -23436,6 +24426,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               1000000,
@@ -23448,6 +24439,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               1000000,
@@ -23491,6 +24483,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               3500000.0,
               3500000.0,
@@ -23507,6 +24500,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               3500000.0,
               3500000.0,
@@ -23549,6 +24543,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               5000000,
               5000000,
@@ -23564,6 +24559,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               5000000,
               5000000,
@@ -23591,6 +24587,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -23603,6 +24600,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -23624,6 +24622,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               1500000.0,
               1500000.0,
@@ -23638,6 +24637,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               1500000.0,
               1500000.0,
@@ -23693,6 +24693,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               3500000.0,
               3500000.0,
@@ -23721,6 +24722,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -23743,6 +24745,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               1000000,
               1000000,
@@ -23764,6 +24767,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               1000000,
               1000000,
@@ -23812,6 +24816,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -23829,6 +24834,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               2500000.0,
               2500000.0,
@@ -23861,6 +24867,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -23878,6 +24885,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               2000000,
               2000000,
@@ -23920,6 +24928,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               1500000.0,
               1500000.0,
@@ -23944,6 +24953,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -23971,6 +24981,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -23988,6 +24999,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               2000000,
               2000000,
@@ -24031,6 +25043,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               4000000,
               4000000,
@@ -24048,6 +25061,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               4000000,
               4000000,
@@ -24084,6 +25098,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               1000000,
               0,
@@ -24096,6 +25111,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               1000000,
               0,
@@ -24117,6 +25133,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -24129,6 +25146,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -24146,6 +25164,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               1000000,
               1000000,
@@ -24158,6 +25177,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               1000000,
               1000000,
@@ -24201,6 +25221,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               3000000,
               3000000,
@@ -24219,6 +25240,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               3000000,
               3000000,
@@ -24242,6 +25264,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               1000000,
               1000000,
@@ -24258,6 +25281,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               1000000,
               1000000,
@@ -24279,6 +25303,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -24291,6 +25316,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -24308,6 +25334,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -24320,6 +25347,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -24362,6 +25390,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               2500000.0,
               2500000.0,
@@ -24393,6 +25422,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -24412,6 +25442,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -24429,6 +25460,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               1500000.0,
               1500000.0,
@@ -24454,8 +25486,8 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": null,
-    "rep": "김재진",
+    "team": "RPM4팀",
+    "rep": "이상직",
     "name": "바로그의원 울산점",
     "biz": 6266700580,
     "contract_date": "2025-01-01",
@@ -24472,6 +25504,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               2500000.0,
               2500000.0,
@@ -24486,6 +25519,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               2500000.0,
               2500000.0,
@@ -24508,6 +25542,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -24522,6 +25557,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -24543,6 +25579,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -24555,6 +25592,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -24572,6 +25610,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               1500000.0,
               1500000.0,
@@ -24584,6 +25623,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               1500000.0,
               1500000.0,
@@ -24627,6 +25667,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               3500000.0,
               3500000.0,
@@ -24647,6 +25688,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               3500000.0,
               3500000.0,
@@ -24688,6 +25730,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               1000000,
               0,
@@ -24702,6 +25745,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               1000000,
               0,
@@ -24732,6 +25776,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -24744,6 +25789,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -24765,6 +25811,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               1500000.0,
               1500000.0,
@@ -24777,6 +25824,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               1500000.0,
               1500000.0,
@@ -24819,6 +25867,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               3000000,
               3000000,
@@ -24849,6 +25898,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -24871,6 +25921,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -24888,6 +25939,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               2000000,
               2000000,
@@ -24931,6 +25983,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               2000000,
               2000000,
@@ -24947,6 +26000,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               2000000,
               2000000,
@@ -24973,6 +26027,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -24985,6 +26040,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -25004,6 +26060,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -25016,6 +26073,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -25033,6 +26091,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               1500000.0,
               1500000.0,
@@ -25045,6 +26104,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               1500000.0,
               1500000.0,
@@ -25088,6 +26148,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               2300000.0,
               2300000.0,
@@ -25102,6 +26163,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               2300000.0,
               2300000.0,
@@ -25125,6 +26187,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -25139,6 +26202,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -25163,6 +26227,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -25175,6 +26240,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -25192,6 +26258,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               1500000.0,
               1500000.0,
@@ -25204,6 +26271,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               1500000.0,
               1500000.0,
@@ -25246,6 +26314,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               2500000.0,
               2500000.0,
@@ -25265,6 +26334,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               1000000,
               1000000,
@@ -25284,6 +26354,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -25301,6 +26372,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               1000000,
               1000000,
@@ -25343,6 +26415,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               2500000.0,
               2500000.0,
@@ -25370,6 +26443,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               500000.0,
               500000.0,
@@ -25394,6 +26468,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -25411,6 +26486,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               1000000,
               1000000,
@@ -25453,6 +26529,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               1000000,
               1000000,
@@ -25475,6 +26552,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               500000.0,
               500000.0,
@@ -25494,6 +26572,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -25511,6 +26590,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               1500000.0,
               1500000.0,
@@ -25553,6 +26633,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               1000000,
               1000000,
@@ -25572,6 +26653,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               500000.0,
               500000.0,
@@ -25594,6 +26676,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -25611,6 +26694,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               1500000.0,
               1500000.0,
@@ -25654,6 +26738,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               1000000,
               1000000,
@@ -25676,6 +26761,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               1000000,
               1000000,
@@ -25722,6 +26808,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               500000.0,
               500000.0,
@@ -25740,6 +26827,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               500000.0,
               500000.0,
@@ -25775,6 +26863,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -25787,6 +26876,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -25804,6 +26894,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               1500000.0,
               1500000.0,
@@ -25816,6 +26907,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               1500000.0,
               1500000.0,
@@ -25859,6 +26951,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               1000000,
               1000000,
@@ -25876,6 +26969,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               1000000,
               1000000,
@@ -25909,6 +27003,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               500000.0,
               500000.0,
@@ -25923,6 +27018,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               500000.0,
               500000.0,
@@ -25943,6 +27039,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -25955,6 +27052,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -25972,6 +27070,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               1500000.0,
               1500000.0,
@@ -25984,6 +27083,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               1500000.0,
               1500000.0,
@@ -26026,6 +27126,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               1000000,
               1000000,
@@ -26047,6 +27148,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               500000.0,
               500000.0,
@@ -26068,6 +27170,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -26089,6 +27192,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               1500000.0,
               1500000.0,
@@ -26140,6 +27244,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               1000000,
               1000000,
@@ -26156,6 +27261,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               1000000,
               1000000,
@@ -26177,6 +27283,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               500000.0,
               500000.0,
@@ -26191,6 +27298,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               500000.0,
               500000.0,
@@ -26210,6 +27318,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -26222,6 +27331,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -26239,6 +27349,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               1500000.0,
               1500000.0,
@@ -26253,6 +27364,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               1500000.0,
               1500000.0,
@@ -26289,8 +27401,8 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": null,
-    "rep": "김재진",
+    "team": "RPM4팀",
+    "rep": "이상직",
     "name": "바로그의원 울산동구점",
     "biz": 1127800525,
     "contract_date": "2025-01-01",
@@ -26307,6 +27419,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               1000000,
               1000000,
@@ -26323,6 +27436,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               1000000,
               1000000,
@@ -26344,6 +27458,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               500000.0,
               500000.0,
@@ -26356,6 +27471,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               500000.0,
               500000.0,
@@ -26373,6 +27489,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -26387,6 +27504,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -26406,6 +27524,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               1500000.0,
               1500000.0,
@@ -26418,6 +27537,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               1500000.0,
               1500000.0,
@@ -26460,6 +27580,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               1200000.0,
               3000000,
@@ -26481,6 +27602,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               2000000,
               0,
@@ -26498,6 +27620,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -26515,6 +27638,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -26557,6 +27681,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               2272727.2727272725,
               2272727.2727272725,
@@ -26574,6 +27699,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               2272727.2727272725,
               2272727.2727272725,
@@ -26599,6 +27725,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -26616,6 +27743,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               790909.0909090909,
               790909.0909090909,
@@ -26658,6 +27786,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               3181818.1818181816,
               0,
@@ -26675,6 +27804,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               3272727.2727272725,
               3272727.2727272725,
@@ -26700,6 +27830,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               854545.4545454545,
               0,
@@ -26717,6 +27848,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -26759,6 +27891,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               3181818.1818181816,
               0,
@@ -26779,6 +27912,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               2272727.2727272725,
               0,
@@ -26796,6 +27930,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -26818,6 +27953,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -26862,6 +27998,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               3181818.1818181816,
               0,
@@ -26879,6 +28016,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               2272727.2727272725,
               2272727.2727272725,
@@ -26896,6 +28034,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               1636363.6363636362,
               1636363.6363636362,
@@ -26913,6 +28052,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -26961,6 +28101,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               2272727.2727272725,
@@ -26978,6 +28119,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -26995,6 +28137,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               1581818.1818181819,
               1581818.1818181819,
@@ -27040,6 +28183,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               3181818.1818181816,
               0,
@@ -27052,6 +28196,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               3181818.1818181816,
               0,
@@ -27069,6 +28214,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               2272727.2727272725,
               2272727.2727272725,
@@ -27087,6 +28233,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               2272727.2727272725,
               2272727.2727272725,
@@ -27119,6 +28266,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               909090.9090909091,
@@ -27131,6 +28279,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               909090.9090909091,
@@ -27148,6 +28297,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -27160,6 +28310,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -27177,6 +28328,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-07-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               900000.0,
               2700000.0,
@@ -27222,6 +28374,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               3181818.1818181816,
               0,
@@ -27234,6 +28387,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               3181818.1818181816,
               0,
@@ -27251,6 +28405,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               2272727.2727272725,
@@ -27263,6 +28418,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               2272727.2727272725,
@@ -27280,6 +28436,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               3272727.2727272725,
               3272727.2727272725,
@@ -27292,6 +28449,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               3272727.2727272725,
               3272727.2727272725,
@@ -27309,6 +28467,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -27321,6 +28480,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -27363,6 +28523,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               3181818.1818181816,
@@ -27380,6 +28541,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               2272727.2727272725,
@@ -27397,6 +28559,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               854545.4545454545,
@@ -27414,6 +28577,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -27456,6 +28620,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               2272727.2727272725,
@@ -27473,6 +28638,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               2272727.2727272725,
@@ -27490,6 +28656,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -27511,6 +28678,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -27553,6 +28721,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               409090.90909090906,
               3590909.0909090904,
@@ -27572,6 +28741,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               2272727.2727272725,
@@ -27589,6 +28759,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -27606,6 +28777,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               790909.0909090909,
               790909.0909090909,
@@ -27662,6 +28834,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               2272727.2727272725,
@@ -27679,6 +28852,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               854545.4545454545,
@@ -27696,6 +28870,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -27715,6 +28890,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-07-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               2700000.0,
               2700000.0,
@@ -27773,6 +28949,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -27790,6 +28967,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -27807,6 +28985,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               1581818.1818181819,
               1581818.1818181819,
@@ -27833,6 +29012,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-07-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               2700000.0,
               4500000.0,
@@ -27880,6 +29060,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -27897,6 +29078,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -27914,6 +29096,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               790909.0909090909,
@@ -27978,6 +29161,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -27995,6 +29179,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -28012,6 +29197,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               1581818.1818181819,
@@ -28032,6 +29218,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-07-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               900000.0,
               900000.0,
@@ -28075,6 +29262,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -28092,6 +29280,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -28127,6 +29316,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               2272727.2727272725,
@@ -28139,6 +29329,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               2272727.2727272725,
@@ -28156,6 +29347,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -28168,6 +29360,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -28185,6 +29378,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               790909.0909090909,
               790909.0909090909,
@@ -28197,6 +29391,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               790909.0909090909,
               790909.0909090909,
@@ -28221,6 +29416,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-07-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               900000.0,
               2700000.0,
@@ -28264,6 +29460,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               20909090.909090906,
@@ -28283,6 +29480,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               2272727.2727272725,
               2272727.2727272725,
@@ -28297,6 +29495,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               2272727.2727272725,
               2272727.2727272725,
@@ -28319,6 +29518,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -28331,6 +29531,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -28348,6 +29549,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               1581818.1818181819,
@@ -28360,6 +29562,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               1581818.1818181819,
@@ -28417,6 +29620,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -28434,6 +29638,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               909090.9090909091,
               909090.9090909091,
@@ -28451,6 +29656,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -28494,6 +29700,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               2272727.2727272725,
               2272727.2727272725,
@@ -28518,6 +29725,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               2272727.2727272725,
               2272727.2727272725,
@@ -28585,6 +29793,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               499999.99999999994,
               499999.99999999994,
@@ -28597,6 +29806,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               499999.99999999994,
               499999.99999999994,
@@ -28621,6 +29831,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -28633,6 +29844,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -28650,6 +29862,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               790909.0909090909,
               790909.0909090909,
@@ -28664,6 +29877,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               790909.0909090909,
               790909.0909090909,
@@ -28746,6 +29960,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -28763,6 +29978,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -28780,6 +29996,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               790909.0909090909,
               790909.0909090909,
@@ -28857,6 +30074,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -28882,6 +30100,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               1636363.6363636362,
               1636363.6363636362,
@@ -28899,6 +30118,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               1581818.1818181819,
               1581818.1818181819,
@@ -28925,6 +30145,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-07-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               4500000.0,
               4500000.0,
@@ -28970,6 +30191,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               818181.8181818181,
               818181.8181818181,
@@ -28991,6 +30213,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               818181.8181818181,
               818181.8181818181,
@@ -29035,6 +30258,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               2272727.2727272725,
@@ -29047,6 +30271,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               2272727.2727272725,
@@ -29066,6 +30291,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -29078,6 +30304,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -29095,6 +30322,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -29107,6 +30335,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -29152,6 +30381,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               2272727.2727272725,
               2272727.2727272725,
@@ -29164,6 +30394,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               2272727.2727272725,
               2272727.2727272725,
@@ -29187,6 +30418,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -29207,6 +30439,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -29243,6 +30476,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -29255,6 +30489,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -29272,6 +30507,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               1581818.1818181819,
               1581818.1818181819,
@@ -29286,6 +30522,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               1581818.1818181819,
               1581818.1818181819,
@@ -29331,6 +30568,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               3181818.1818181816,
@@ -29347,6 +30585,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               3181818.1818181816,
@@ -29375,6 +30614,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               2272727.2727272725,
@@ -29387,6 +30627,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               2272727.2727272725,
@@ -29404,6 +30645,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -29416,6 +30658,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -29433,6 +30676,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -29445,6 +30689,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -29488,6 +30733,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               2272727.2727272725,
               2272727.2727272725,
@@ -29500,6 +30746,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               2272727.2727272725,
               2272727.2727272725,
@@ -29522,6 +30769,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               2272727.2727272725,
@@ -29540,6 +30788,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               2272727.2727272725,
@@ -29570,6 +30819,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -29582,6 +30832,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -29599,6 +30850,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               790909.0909090909,
               790909.0909090909,
@@ -29611,6 +30863,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               790909.0909090909,
               790909.0909090909,
@@ -29657,6 +30910,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               3181818.1818181816,
@@ -29674,6 +30928,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               2272727.2727272725,
@@ -29691,6 +30946,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               909090.9090909091,
               909090.9090909091,
@@ -29708,6 +30964,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -29770,6 +31027,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               2272727.2727272725,
               2272727.2727272725,
@@ -29798,6 +31056,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               909090.9090909091,
               909090.9090909091,
@@ -29815,6 +31074,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -29834,6 +31094,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-07-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               2700000.0,
               4500000.0,
@@ -29884,6 +31145,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -29901,6 +31163,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               909090.9090909091,
@@ -29918,6 +31181,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -29967,6 +31231,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               4545454.545454545,
               2272727.2727272725,
@@ -29997,6 +31262,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               2000000,
               2000000,
@@ -30014,6 +31280,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               2081818.181818182,
               1290909.090909091,
@@ -30031,6 +31298,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-07-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               2700000.0,
               4500000.0,
@@ -30073,6 +31341,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               3181818.1818181816,
               0,
@@ -30090,6 +31359,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               2272727.2727272725,
@@ -30107,6 +31377,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -30124,6 +31395,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               790909.0909090909,
@@ -30174,6 +31446,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               2272727.2727272725,
@@ -30211,6 +31484,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               909090.9090909091,
@@ -30228,6 +31502,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -30245,6 +31520,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-07-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               2700000.0,
               4500000.0,
@@ -30290,6 +31566,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               2272727.2727272725,
@@ -30312,6 +31589,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               909090.9090909091,
@@ -30329,6 +31607,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -30346,6 +31625,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-07-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               2700000.0,
               4500000.0,
@@ -30385,6 +31665,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -30400,6 +31681,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -30420,6 +31702,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               2272727.2727272725,
@@ -30441,6 +31724,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               2272727.2727272725,
@@ -30481,6 +31765,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               909090.9090909091,
@@ -30493,6 +31778,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               909090.9090909091,
@@ -30510,6 +31796,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -30522,6 +31809,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -30568,6 +31856,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               2272727.2727272725,
@@ -30589,6 +31878,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -30606,6 +31896,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -30649,6 +31940,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               3181818.1818181816,
               3181818.1818181816,
@@ -30661,6 +31953,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               3181818.1818181816,
               3181818.1818181816,
@@ -30678,6 +31971,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               2272727.2727272725,
               2272727.2727272725,
@@ -30692,6 +31986,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               2272727.2727272725,
               2272727.2727272725,
@@ -30715,6 +32010,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -30727,6 +32023,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -30744,6 +32041,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -30756,6 +32054,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -30799,6 +32098,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               3181818.1818181816,
@@ -30811,6 +32111,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               3181818.1818181816,
@@ -30828,6 +32129,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               2272727.2727272725,
               2272727.2727272725,
@@ -30843,6 +32145,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               2272727.2727272725,
               2272727.2727272725,
@@ -30886,6 +32189,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               854545.4545454545,
@@ -30898,6 +32202,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               854545.4545454545,
@@ -30915,6 +32220,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -30927,6 +32233,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -30981,6 +32288,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -30998,6 +32306,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -31015,6 +32324,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               790909.0909090909,
               0,
@@ -31060,6 +32370,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               20909090.909090906,
@@ -31077,6 +32388,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               2272727.2727272725,
               0,
@@ -31094,6 +32406,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               2272727.2727272725,
               0,
@@ -31102,7 +32415,8 @@ window.BLOCK_DETAIL = [
             ],
             "actual_by_month": {
               "2026-02": 818182.0,
-              "2026-07": 1227273.0
+              "2026-07": 1227273.0,
+              "2026-10": 818182.0
             },
             "remark": ""
           }
@@ -31118,7 +32432,8 @@ window.BLOCK_DETAIL = [
           "2025-09": 1000000.0,
           "2025-10": 1000000.0,
           "2026-02": 818182.0,
-          "2026-07": 1227273.0
+          "2026-07": 1227273.0,
+          "2026-10": 818182.0
         }
       },
       "필러군": {
@@ -31126,6 +32441,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -31138,6 +32454,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -31155,6 +32472,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -31167,6 +32485,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -31211,6 +32530,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               3181818.1818181816,
@@ -31228,6 +32548,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               2272727.2727272725,
               0,
@@ -31245,6 +32566,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -31262,6 +32584,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               790909.0909090909,
@@ -31305,6 +32628,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               2272727.2727272725,
               0,
@@ -31321,6 +32645,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               2272727.2727272725,
               0,
@@ -31347,6 +32672,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               2272727.2727272725,
               2272727.2727272725,
@@ -31363,6 +32689,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               2272727.2727272725,
               2272727.2727272725,
@@ -31388,6 +32715,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -31400,6 +32728,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -31417,6 +32746,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               790909.0909090909,
               0,
@@ -31429,6 +32759,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               790909.0909090909,
               0,
@@ -31446,6 +32777,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-07-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               900000.0,
               900000.0,
@@ -31484,6 +32816,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               2909090.909090909,
               2909090.909090909,
@@ -31501,6 +32834,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               2272727.2727272725,
               2272727.2727272725,
@@ -31522,6 +32856,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -31539,6 +32874,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -31581,6 +32917,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               3181818.1818181816,
@@ -31598,6 +32935,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               2272727.2727272725,
               0,
@@ -31615,6 +32953,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -31632,6 +32971,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -31674,6 +33014,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               3181818.1818181816,
               3181818.1818181816,
@@ -31691,6 +33032,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -31708,6 +33050,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               3636363.6363636362,
               3636363.6363636362,
@@ -31725,6 +33068,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -31768,6 +33112,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               6000000,
               6000000,
@@ -31787,6 +33132,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               6000000,
               6000000,
@@ -31834,6 +33180,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               1000000,
               2000000,
@@ -31846,6 +33193,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               1000000,
               2000000,
@@ -31863,6 +33211,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -31875,6 +33224,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -31892,6 +33242,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -31904,6 +33255,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -31947,6 +33299,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               4000000,
               4000000,
@@ -31971,6 +33324,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               4000000,
               4000000,
@@ -32040,6 +33394,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               1000000,
               1500000.0,
@@ -32052,6 +33407,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               1000000,
               1500000.0,
@@ -32069,6 +33425,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -32081,6 +33438,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -32098,6 +33456,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -32110,6 +33469,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -32153,6 +33513,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               1500000.0,
               2000000,
@@ -32165,6 +33526,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               1500000.0,
               2000000,
@@ -32186,6 +33548,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               1000000,
               1000000,
@@ -32198,6 +33561,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               1000000,
               1000000,
@@ -32219,6 +33583,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -32242,6 +33607,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -32287,6 +33653,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               900000.0,
               1200000.0,
@@ -32301,6 +33668,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               900000.0,
               1200000.0,
@@ -32345,6 +33713,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               1500000.0,
               1500000.0,
@@ -32362,6 +33731,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               1000000,
               1000000,
@@ -32379,6 +33749,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -32396,6 +33767,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               900000.0,
               1200000.0,
@@ -32437,6 +33809,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               1000000,
               1000000,
@@ -32454,6 +33827,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -32471,6 +33845,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               300000.0,
               300000.0,
@@ -32488,6 +33863,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -32529,6 +33905,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               1000000,
               1000000,
@@ -32546,6 +33923,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               300000.0,
               300000.0,
@@ -32563,6 +33941,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               300000.0,
               300000.0,
@@ -32580,6 +33959,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -32621,6 +34001,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               1000000,
               1000000,
@@ -32638,6 +34019,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               300000.0,
               300000.0,
@@ -32655,6 +34037,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -32676,6 +34059,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -32717,6 +34101,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               1000000,
               1000000,
@@ -32734,6 +34119,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               300000.0,
               300000.0,
@@ -32751,6 +34137,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -32768,6 +34155,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -32809,6 +34197,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               1000000,
               1000000,
@@ -32826,6 +34215,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -32843,6 +34233,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               300000.0,
               300000.0,
@@ -32860,6 +34251,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -32901,6 +34293,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               1000000,
               1000000,
@@ -32918,6 +34311,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -32935,6 +34329,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               300000.0,
               300000.0,
@@ -32952,6 +34347,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -32993,6 +34389,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               1000000,
               1000000,
@@ -33010,6 +34407,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               300000.0,
               300000.0,
@@ -33031,6 +34429,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -33052,6 +34451,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -33097,6 +34497,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               1000000,
               1000000,
@@ -33118,6 +34519,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -33135,6 +34537,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               300000.0,
               300000.0,
@@ -33152,6 +34555,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -33193,6 +34597,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               1000000,
               1000000,
@@ -33210,6 +34615,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               300000.0,
               300000.0,
@@ -33227,6 +34633,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -33244,6 +34651,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -33285,6 +34693,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               1000000,
               1000000,
@@ -33302,6 +34711,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               300000.0,
               300000.0,
@@ -33323,6 +34733,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -33340,6 +34751,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -33381,6 +34793,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               300000.0,
               300000.0,
@@ -33404,6 +34817,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               300000.0,
               300000.0,
@@ -33425,6 +34839,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -33450,6 +34865,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -33493,6 +34909,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-01-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               7000000,
               7000000,
@@ -33505,6 +34922,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               7000000,
               7000000,
@@ -33560,6 +34978,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-02-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               10000000,
               10000000,
@@ -33576,6 +34995,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               10000000,
               10000000,
@@ -33600,6 +35020,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-02-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               2500000.0,
               2500000.0,
@@ -33612,6 +35033,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               2500000.0,
               2500000.0,
@@ -33633,6 +35055,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-02-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               1500000.0,
               2000000,
@@ -33648,6 +35071,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               1500000.0,
               2000000,
@@ -33668,6 +35092,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-02-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               1000000,
               1000000,
@@ -33684,6 +35109,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               1000000,
               1000000,
@@ -33730,6 +35156,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-02-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               5000000,
               6000000,
@@ -33747,6 +35174,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-02-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               1000000,
               1500000.0,
@@ -33764,6 +35192,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-02-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               2000000,
               2000000,
@@ -33781,6 +35210,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-02-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -33823,6 +35253,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-02-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               8000000,
               9500000.0,
@@ -33840,6 +35271,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-02-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               1500000.0,
               2000000,
@@ -33857,6 +35289,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-02-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               1000000,
               1000000,
@@ -33878,6 +35311,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-02-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               1000000,
               1000000,
@@ -33921,6 +35355,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-02-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               5000000,
               8500000.0,
@@ -33936,6 +35371,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               5000000,
               8500000.0,
@@ -33965,6 +35401,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-02-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               2000000,
               2000000,
@@ -33977,6 +35414,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               2000000,
               2000000,
@@ -33994,6 +35432,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-02-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               6000000,
               6000000,
@@ -34012,6 +35451,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               6000000,
               6000000,
@@ -34044,6 +35484,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-02-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               2000000,
               2000000,
@@ -34059,6 +35500,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               2000000,
               2000000,
@@ -34086,6 +35528,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-07-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               10000000,
               10000000,
@@ -34125,6 +35568,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-02-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               2000000,
@@ -34137,6 +35581,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               2000000,
@@ -34154,6 +35599,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-02-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               5000000,
@@ -34176,6 +35622,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               5000000,
@@ -34218,6 +35665,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-02-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -34230,6 +35678,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -34247,6 +35696,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-02-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               1500000.0,
@@ -34263,6 +35713,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               1500000.0,
@@ -34310,6 +35761,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-02-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               2000000,
@@ -34327,6 +35779,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               2000000,
@@ -34354,6 +35807,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-02-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -34366,6 +35820,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -34383,6 +35838,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-02-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               1000000,
@@ -34395,6 +35851,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               1000000,
@@ -34412,6 +35869,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-02-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               500000.0,
@@ -34424,6 +35882,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               500000.0,
@@ -34466,6 +35925,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-02-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               3000000,
@@ -34483,6 +35943,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-02-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -34503,6 +35964,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-02-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               1000000,
@@ -34524,6 +35986,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-02-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               1500000.0,
@@ -34567,6 +36030,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-02-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               3000000,
@@ -34581,6 +36045,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               3000000,
@@ -34603,6 +36068,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-02-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               2000000,
@@ -34615,6 +36081,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               2000000,
@@ -34632,6 +36099,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-02-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               2000000,
@@ -34646,6 +36114,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               2000000,
@@ -34665,6 +36134,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-02-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               1000000,
@@ -34677,6 +36147,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               1000000,
@@ -34720,6 +36191,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-02-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               3000000,
@@ -34734,6 +36206,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-09-30",
             "mbo_q": [
               0,
               3000000,
@@ -34758,6 +36231,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-02-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -34772,6 +36246,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-09-30",
             "mbo_q": [
               0,
               0,
@@ -34791,6 +36266,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-02-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               1000000,
               2000000,
@@ -34813,6 +36289,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-09-30",
             "mbo_q": [
               1000000,
               2000000,
@@ -34851,6 +36328,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-02-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               1500000.0,
@@ -34863,6 +36341,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-09-30",
             "mbo_q": [
               0,
               1500000.0,
@@ -34880,6 +36359,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-07-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               10000000,
               10000000,
@@ -34926,6 +36406,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-02-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               6000000,
               7000000,
@@ -34969,6 +36450,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-02-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               500000.0,
@@ -34986,6 +36468,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-02-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               2000000,
               3000000,
@@ -35003,6 +36486,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-02-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -35047,6 +36531,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-02-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               3800000.0,
               3800000.0,
@@ -35072,6 +36557,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-02-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -35093,6 +36579,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-02-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               500000.0,
               500000.0,
@@ -35110,6 +36597,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-02-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -35157,6 +36645,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-02-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -35178,6 +36667,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-02-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               1000000,
               2000000,
@@ -35205,6 +36695,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-07-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               3000000,
               3000000,
@@ -35226,8 +36717,8 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": null,
-    "rep": "김재진",
+    "team": "RPM4팀",
+    "rep": "이상직",
     "name": "엘리스의원(울산)",
     "biz": 6102771221,
     "contract_date": "2025-02-01",
@@ -35243,6 +36734,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-02-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               3000000,
               3000000,
@@ -35264,6 +36756,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-02-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               500000.0,
               500000.0,
@@ -35281,6 +36774,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-02-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -35304,6 +36798,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-02-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               500000.0,
               500000.0,
@@ -35346,6 +36841,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-02-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               3200000.0,
               6400000.0,
@@ -35379,6 +36875,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-02-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               2272000.0,
               0,
@@ -35400,6 +36897,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-02-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -35417,6 +36915,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-02-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -35459,6 +36958,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-02-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               2272000.0,
               3200000.0,
@@ -35490,6 +36990,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-02-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -35507,6 +37008,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-02-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               500000.0,
               500000.0,
@@ -35524,6 +37026,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-02-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -35567,6 +37070,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-02-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               4000000,
               4000000,
@@ -35585,6 +37089,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               4000000,
               4000000,
@@ -35615,6 +37120,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-02-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -35627,6 +37133,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -35644,6 +37151,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-02-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -35662,6 +37170,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -35690,6 +37199,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-02-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -35702,6 +37212,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -35743,6 +37254,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-02-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               3181000.0,
@@ -35764,6 +37276,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-02-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               4091000.0,
               0,
@@ -35784,6 +37297,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-02-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -35801,6 +37315,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-02-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -35842,6 +37357,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-02-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               3181000.0,
               0,
@@ -35859,6 +37375,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-02-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               4091000.0,
               0,
@@ -35882,6 +37399,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-02-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -35899,6 +37417,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-02-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -35942,6 +37461,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-03-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               2250000.0,
@@ -35954,6 +37474,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               2250000.0,
@@ -35971,6 +37492,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-03-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               500000.0,
               2250000.0,
@@ -35988,6 +37510,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               500000.0,
               2250000.0,
@@ -36010,6 +37533,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-03-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -36022,6 +37546,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -36039,6 +37564,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-03-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -36051,6 +37577,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -36068,6 +37595,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-07-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               2700000.0,
               4500000.0,
@@ -36107,6 +37635,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-03-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -36119,6 +37648,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -36136,6 +37666,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-03-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -36148,6 +37679,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -36165,6 +37697,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-03-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -36177,6 +37710,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -36194,6 +37728,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-03-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               1363636.3636363635,
               1364000.0,
@@ -36211,6 +37746,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               1363636.3636363635,
               1364000.0,
@@ -36242,6 +37778,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-07-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               2700000.0,
               2700000.0,
@@ -36284,6 +37821,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-03-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -36301,6 +37839,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-03-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               2272727.2727272725,
               2273000.0,
@@ -36322,6 +37861,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-03-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               1818000.0,
               1818000.0,
@@ -36339,6 +37879,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-03-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -36381,6 +37922,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-03-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               2250000.0,
@@ -36398,6 +37940,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-03-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               2250000.0,
               2250000.0,
@@ -36419,6 +37962,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-03-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               1818000.0,
@@ -36436,6 +37980,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-03-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -36478,6 +38023,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-03-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -36495,6 +38041,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-03-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -36516,6 +38063,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-03-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -36533,6 +38081,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-03-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -36585,6 +38134,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-03-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -36606,6 +38156,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-03-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               500000.0,
               1000000,
@@ -36623,6 +38174,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-07-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               10000000,
               10000000,
@@ -36678,6 +38230,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-03-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -36699,6 +38252,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-03-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               500000.0,
               1000000,
@@ -36716,6 +38270,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-07-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               10000000,
               10000000,
@@ -36762,6 +38317,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-03-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -36783,6 +38339,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-03-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               500000.0,
               1000000,
@@ -36800,6 +38357,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-07-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               10000000,
               10000000,
@@ -36839,6 +38397,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-03-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -36851,6 +38410,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -36868,6 +38428,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-03-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -36880,6 +38441,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -36897,6 +38459,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-03-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -36909,6 +38472,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -36926,6 +38490,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-03-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               500000.0,
               1000000,
@@ -36942,6 +38507,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               500000.0,
               1000000,
@@ -36997,6 +38563,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-03-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               3000000,
               0,
@@ -37019,6 +38586,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-03-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -37036,6 +38604,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-03-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               1000000,
@@ -37053,6 +38622,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-03-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               1000000,
@@ -37096,6 +38666,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-03-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               3000000,
               0,
@@ -37110,6 +38681,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               3000000,
               0,
@@ -37134,6 +38706,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-03-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -37146,6 +38719,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -37163,6 +38737,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-03-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               1000000,
@@ -37177,6 +38752,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               1000000,
@@ -37196,6 +38772,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-03-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               1000000,
@@ -37208,6 +38785,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               1000000,
@@ -37251,6 +38829,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-03-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               3000000,
               3000000,
@@ -37267,6 +38846,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               3000000,
               3000000,
@@ -37297,6 +38877,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-03-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -37309,6 +38890,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -37326,6 +38908,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-03-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               1500000.0,
@@ -37338,6 +38921,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               1500000.0,
@@ -37355,6 +38939,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-03-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -37367,6 +38952,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -37410,6 +38996,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-03-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               3000000,
@@ -37425,6 +39012,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               3000000,
@@ -37445,6 +39033,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-03-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -37457,6 +39046,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -37474,6 +39064,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-03-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -37486,6 +39077,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -37503,6 +39095,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-03-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               1500000.0,
@@ -37515,6 +39108,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               1500000.0,
@@ -37557,6 +39151,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-03-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -37574,6 +39169,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-03-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               2000000,
               2000000,
@@ -37591,6 +39187,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-03-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               1000000,
@@ -37608,6 +39205,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-03-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -37651,6 +39249,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-03-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -37663,6 +39262,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -37680,6 +39280,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-03-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               4000000,
@@ -37695,6 +39296,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               4000000,
@@ -37724,6 +39326,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-03-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               1000000,
@@ -37736,6 +39339,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               1000000,
@@ -37753,6 +39357,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-03-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               1000000,
@@ -37765,6 +39370,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               1000000,
@@ -37808,6 +39414,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-03-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               3000000,
@@ -37823,6 +39430,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               3000000,
@@ -37850,6 +39458,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-03-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -37862,6 +39471,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -37879,6 +39489,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-03-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               1000000,
@@ -37891,6 +39502,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               1000000,
@@ -37908,6 +39520,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-03-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -37920,6 +39533,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -37962,6 +39576,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-03-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               3000000,
@@ -37979,6 +39594,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-03-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -38000,6 +39616,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-03-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               1500000.0,
@@ -38017,6 +39634,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-03-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -38059,6 +39677,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-03-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               1000000,
@@ -38076,6 +39695,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-03-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               4000000,
@@ -38093,6 +39713,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-03-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -38110,6 +39731,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-03-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               1500000.0,
@@ -38156,6 +39778,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-03-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -38173,6 +39796,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-03-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -38190,6 +39814,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-03-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               1500000.0,
@@ -38207,6 +39832,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-03-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               1000000,
@@ -38249,6 +39875,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-03-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -38266,6 +39893,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-03-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               3000000,
               3000000,
@@ -38299,6 +39927,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-03-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               1500000.0,
@@ -38316,6 +39945,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-03-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -38359,6 +39989,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-03-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               2500000.0,
               2500000.0,
@@ -38381,6 +40012,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               2500000.0,
               2500000.0,
@@ -38429,6 +40061,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-03-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               1000000,
@@ -38441,6 +40074,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               1000000,
@@ -38458,6 +40092,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-03-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               1000000,
@@ -38474,6 +40109,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               1000000,
@@ -38502,6 +40138,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-03-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -38514,6 +40151,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -38556,6 +40194,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-03-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               3000000,
               3000000,
@@ -38578,6 +40217,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-03-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -38595,6 +40235,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-03-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -38612,6 +40253,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-03-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               1500000.0,
@@ -38653,6 +40295,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-03-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -38670,6 +40313,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-03-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               3500000.0,
               3000000,
@@ -38697,6 +40341,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-03-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -38714,6 +40359,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-03-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -38755,6 +40401,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-03-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -38776,6 +40423,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-03-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               3500000.0,
               3500000.0,
@@ -38797,6 +40445,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-03-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -38814,6 +40463,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-03-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -38855,6 +40505,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-03-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               500000.0,
               1000000,
@@ -38883,6 +40534,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-03-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               500000.0,
               500000.0,
@@ -38900,6 +40552,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-03-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               1000000,
               1000000,
@@ -38917,6 +40570,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-03-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -38958,6 +40612,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-03-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               3500000.0,
               0,
@@ -38975,6 +40630,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-03-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               500000.0,
               500000.0,
@@ -39001,6 +40657,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-03-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -39018,6 +40675,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-03-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -39042,8 +40700,8 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2025
     ],
-    "team": null,
-    "rep": "김재진",
+    "team": "RPM4팀",
+    "rep": "이상직",
     "name": "브이의원(수성)",
     "biz": 8100500848,
     "contract_date": "2025-03-01",
@@ -39059,6 +40717,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-03-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               3500000.0,
               0,
@@ -39078,6 +40737,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-03-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               500000.0,
               500000.0,
@@ -39102,6 +40762,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-03-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -39119,6 +40780,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-03-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               400000.0,
               400000.0,
@@ -39143,8 +40805,8 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2025
     ],
-    "team": null,
-    "rep": "김재진",
+    "team": "RPM4팀",
+    "rep": "이상직",
     "name": "석피부과의원",
     "biz": 5022746794,
     "contract_date": "2025-03-01",
@@ -39160,6 +40822,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-03-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               3500000.0,
               0,
@@ -39186,6 +40849,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-03-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               500000.0,
               500000.0,
@@ -39203,6 +40867,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-03-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               1000000,
               1000000,
@@ -39220,6 +40885,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-03-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -39261,6 +40927,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-03-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               3500000.0,
               0,
@@ -39287,6 +40954,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-03-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               1000000,
               1000000,
@@ -39304,6 +40972,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-03-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -39321,6 +40990,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-03-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -39366,6 +41036,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-03-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               1200000.0,
               1200000.0,
@@ -39383,6 +41054,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-03-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               1000000,
               1000000,
@@ -39406,6 +41078,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-03-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               1000000,
               1000000,
@@ -39423,6 +41096,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-03-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -39464,6 +41138,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-03-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               2300000.0,
               2300000.0,
@@ -39481,6 +41156,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-03-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               500000.0,
               500000.0,
@@ -39498,6 +41174,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-03-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               1000000,
               1000000,
@@ -39515,6 +41192,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-03-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -39558,6 +41236,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-03-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               1200000.0,
               3000000,
@@ -39570,6 +41249,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               1200000.0,
               3000000,
@@ -39587,6 +41267,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-03-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               2000000,
               0,
@@ -39602,6 +41283,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               2000000,
               0,
@@ -39622,6 +41304,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-03-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -39634,6 +41317,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -39651,6 +41335,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-03-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -39663,6 +41348,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -39709,6 +41395,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-04-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               4090909.090909091,
               0,
@@ -39732,6 +41419,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-04-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               1000000,
@@ -39749,6 +41437,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-04-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -39791,6 +41480,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-04-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               2250000.0,
@@ -39808,6 +41498,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-04-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -39825,6 +41516,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-04-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -39842,6 +41534,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-04-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               500000.0,
               500000.0,
@@ -39884,6 +41577,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-04-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -39901,6 +41595,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-04-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               2273000.0,
@@ -39918,6 +41613,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-04-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               454545.45454545453,
@@ -39935,6 +41631,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-04-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -39977,6 +41674,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-04-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -39994,6 +41692,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-04-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               2273000.0,
@@ -40011,6 +41710,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-04-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               455000.0,
@@ -40028,6 +41728,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-04-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -40071,6 +41772,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-04-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -40083,6 +41785,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -40100,6 +41803,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-04-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               3000000,
@@ -40114,6 +41818,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               3000000,
@@ -40133,6 +41838,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-04-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               1000000,
@@ -40145,6 +41851,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               1000000,
@@ -40162,6 +41869,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-04-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               1000000,
@@ -40174,6 +41882,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               1000000,
@@ -40216,6 +41925,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-04-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               3000000,
@@ -40233,6 +41943,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-04-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               2000000,
@@ -40250,6 +41961,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-04-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -40267,6 +41979,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-04-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               1000000,
@@ -40309,6 +42022,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-04-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -40326,6 +42040,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-04-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               1000000,
@@ -40345,6 +42060,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-04-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               1500000.0,
@@ -40366,6 +42082,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-04-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -40408,6 +42125,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-04-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -40425,6 +42143,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-04-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -40442,6 +42161,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-04-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               1000000,
@@ -40459,6 +42179,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-04-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               1000000,
@@ -40502,6 +42223,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-04-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -40514,6 +42236,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -40531,6 +42254,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-04-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               2000000,
@@ -40547,6 +42271,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               2000000,
@@ -40568,6 +42293,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-04-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               1000000,
@@ -40580,6 +42306,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               1000000,
@@ -40601,6 +42328,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-04-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               1000000,
@@ -40613,6 +42341,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               1000000,
@@ -40630,6 +42359,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-07-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               5000000,
               10000000,
@@ -40672,6 +42402,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-04-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -40689,6 +42420,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-04-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -40706,6 +42438,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-04-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               1000000,
@@ -40723,6 +42456,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-04-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               1000000,
@@ -40765,6 +42499,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-04-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -40782,6 +42517,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-04-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -40799,6 +42535,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-04-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               1000000,
@@ -40816,6 +42553,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-04-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               1000000,
@@ -40857,6 +42595,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-05-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               3500000.0,
               0,
@@ -40874,6 +42613,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-05-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               500000.0,
               500000.0,
@@ -40898,6 +42638,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-05-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               1000000,
               1000000,
@@ -40915,6 +42656,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-05-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               200000.0,
               200000.0,
@@ -40956,6 +42698,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-05-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               1000000,
               2000000,
@@ -40973,6 +42716,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-05-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               1000000,
               1500000.0,
@@ -40990,6 +42734,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-05-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -41007,6 +42752,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-05-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -41048,6 +42794,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-05-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -41065,6 +42812,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-05-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -41082,6 +42830,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-05-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               1000000,
               2000000,
@@ -41099,6 +42848,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-05-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -41141,6 +42891,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-05-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               2000000,
               2000000,
@@ -41158,6 +42909,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-05-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               2000000,
               0,
@@ -41175,6 +42927,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-05-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -41192,6 +42945,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-05-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -41235,6 +42989,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-05-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               3000000,
               2000000,
@@ -41249,6 +43004,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               3000000,
               2000000,
@@ -41268,6 +43024,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-05-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -41280,6 +43037,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -41297,6 +43055,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-05-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               3000000,
               0,
@@ -41309,6 +43068,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               3000000,
               0,
@@ -41326,6 +43086,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-05-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -41338,6 +43099,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -41355,6 +43117,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-07-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               3000000,
               3000000,
@@ -41393,6 +43156,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-05-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -41410,6 +43174,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-05-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               2000000,
@@ -41427,6 +43192,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-05-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               1000000,
@@ -41444,6 +43210,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-05-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -41486,6 +43253,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-05-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -41503,6 +43271,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-05-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               1000000,
@@ -41524,6 +43293,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-05-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               500000.0,
@@ -41541,6 +43311,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-05-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -41583,6 +43354,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-06-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               2500000.0,
@@ -41605,6 +43377,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-06-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               500000.0,
@@ -41626,6 +43399,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-06-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               1000000,
@@ -41643,6 +43417,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-06-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -41688,6 +43463,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-06-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -41700,6 +43476,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -41717,6 +43494,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-06-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -41731,6 +43509,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -41759,6 +43538,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-06-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -41771,6 +43551,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -41788,6 +43569,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-06-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -41800,6 +43582,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -41817,6 +43600,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-08-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               2000000,
               2000000,
@@ -41856,6 +43640,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-06-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -41868,6 +43653,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -41885,6 +43671,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-06-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               1000000,
@@ -41899,6 +43686,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               1000000,
@@ -41921,6 +43709,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-06-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               1000000,
@@ -41938,6 +43727,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               1000000,
@@ -41960,6 +43750,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-06-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -41972,6 +43763,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -42014,6 +43806,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-06-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               3000000,
               5000000,
@@ -42031,6 +43824,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-06-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               2500000.0,
               5000000,
@@ -42052,6 +43846,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-06-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               1000000,
               1000000,
@@ -42075,6 +43870,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-06-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               500000.0,
               500000.0,
@@ -42118,6 +43914,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-06-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               2500000.0,
               5000000,
@@ -42132,6 +43929,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               2500000.0,
               5000000,
@@ -42154,6 +43952,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-06-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               2500000.0,
               2500000.0,
@@ -42166,6 +43965,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               2500000.0,
               2500000.0,
@@ -42183,6 +43983,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-06-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               500000.0,
               500000.0,
@@ -42195,6 +43996,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               500000.0,
               500000.0,
@@ -42212,6 +44014,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-06-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               500000.0,
               1000000,
@@ -42224,6 +44027,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               500000.0,
               1000000,
@@ -42266,6 +44070,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-06-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               2500000.0,
               5000000,
@@ -42283,6 +44088,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-06-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               5000000,
               7500000.0,
@@ -42304,6 +44110,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-06-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -42321,6 +44128,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-06-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               500000.0,
               1500000.0,
@@ -42363,6 +44171,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-06-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               2000000,
               2000000,
@@ -42380,6 +44189,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-06-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               2500000.0,
               2500000.0,
@@ -42403,6 +44213,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-06-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               500000.0,
               500000.0,
@@ -42420,6 +44231,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-06-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               500000.0,
               1000000,
@@ -42462,6 +44274,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-06-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               5000000,
               8000000,
@@ -42479,6 +44292,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-06-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               500000.0,
               1500000.0,
@@ -42496,6 +44310,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-06-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               500000.0,
               1000000,
@@ -42521,6 +44336,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-06-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               500000.0,
               500000.0,
@@ -42564,6 +44380,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-06-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               5000000,
               8000000,
@@ -42576,6 +44393,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               5000000,
               8000000,
@@ -42593,6 +44411,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-06-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               2500000.0,
               5000000,
@@ -42607,6 +44426,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               2500000.0,
               5000000,
@@ -42626,6 +44446,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-06-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               1000000,
               2000000,
@@ -42638,6 +44459,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               1000000,
               2000000,
@@ -42655,6 +44477,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-06-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               1000000,
               2000000,
@@ -42667,6 +44490,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               1000000,
               2000000,
@@ -42710,6 +44534,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-07-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -42722,6 +44547,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-08-31",
             "mbo_q": [
               0,
               0,
@@ -42739,6 +44565,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-07-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -42751,6 +44578,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-08-31",
             "mbo_q": [
               0,
               0,
@@ -42768,6 +44596,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-07-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -42782,6 +44611,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-08-31",
             "mbo_q": [
               0,
               0,
@@ -42801,6 +44631,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-07-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -42813,6 +44644,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-08-31",
             "mbo_q": [
               0,
               0,
@@ -42856,6 +44688,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-07-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -42868,6 +44701,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-08-31",
             "mbo_q": [
               0,
               0,
@@ -42885,6 +44719,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-07-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -42897,6 +44732,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-08-31",
             "mbo_q": [
               0,
               0,
@@ -42914,6 +44750,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-07-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -42926,6 +44763,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-08-31",
             "mbo_q": [
               0,
               0,
@@ -42943,6 +44781,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-07-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -42955,6 +44794,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-08-31",
             "mbo_q": [
               0,
               0,
@@ -42998,6 +44838,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-07-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -43010,6 +44851,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-08-31",
             "mbo_q": [
               0,
               0,
@@ -43027,6 +44869,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-07-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -43039,6 +44882,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-08-31",
             "mbo_q": [
               0,
               0,
@@ -43056,6 +44900,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-07-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -43071,6 +44916,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-08-31",
             "mbo_q": [
               0,
               0,
@@ -43094,6 +44940,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-07-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -43106,6 +44953,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-08-31",
             "mbo_q": [
               0,
               0,
@@ -43147,6 +44995,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-07-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -43164,6 +45013,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-07-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               4500000.0,
               4500000.0,
@@ -43185,6 +45035,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-07-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -43202,6 +45053,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-07-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -43244,6 +45096,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-07-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               3000000,
               5000000,
@@ -43261,6 +45114,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-07-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               1500000.0,
               1500000.0,
@@ -43278,6 +45132,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-07-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               2000000,
               2000000,
@@ -43295,6 +45150,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-07-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               500000.0,
               500000.0,
@@ -43338,6 +45194,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-07-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               2500000.0,
               5000000,
@@ -43354,6 +45211,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               2500000.0,
               5000000,
@@ -43392,6 +45250,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-07-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               2500000.0,
               5000000,
@@ -43407,6 +45266,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               2500000.0,
               5000000,
@@ -43436,6 +45296,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-07-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               500000.0,
               1000000,
@@ -43450,6 +45311,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               500000.0,
               1000000,
@@ -43469,6 +45331,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-07-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               500000.0,
               1000000,
@@ -43481,6 +45344,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               500000.0,
               1000000,
@@ -43498,6 +45362,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-07-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               3000000,
               4000000,
@@ -43536,6 +45401,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-07-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               3000000,
               5000000,
@@ -43553,6 +45419,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-07-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               1500000.0,
               1500000.0,
@@ -43570,6 +45437,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-07-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               2000000,
               2000000,
@@ -43587,6 +45455,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-07-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               500000.0,
               500000.0,
@@ -43630,6 +45499,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-07-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               3000000,
               5000000,
@@ -43642,6 +45512,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               3000000,
               5000000,
@@ -43659,6 +45530,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-07-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               1500000.0,
               2500000.0,
@@ -43673,6 +45545,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               1500000.0,
               2500000.0,
@@ -43697,6 +45570,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-07-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               2000000,
               2000000,
@@ -43709,6 +45583,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               2000000,
               2000000,
@@ -43730,6 +45605,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-07-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               500000.0,
               500000.0,
@@ -43742,6 +45618,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               500000.0,
               500000.0,
@@ -43759,6 +45636,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-07-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               1000000,
               3000000,
@@ -43798,6 +45676,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-07-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               3000000,
               5000000,
@@ -43812,6 +45691,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               3000000,
               5000000,
@@ -43836,6 +45716,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-07-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               2500000.0,
               5000000,
@@ -43851,6 +45732,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               2500000.0,
               5000000,
@@ -43882,6 +45764,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-07-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               2000000,
               2000000,
@@ -43894,6 +45777,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               2000000,
               2000000,
@@ -43911,6 +45795,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-07-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               500000.0,
               500000.0,
@@ -43923,6 +45808,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               500000.0,
               500000.0,
@@ -43940,6 +45826,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-07-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               3000000,
               5000000,
@@ -43979,6 +45866,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-07-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               3000000,
               5000000,
@@ -43991,6 +45879,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               3000000,
               5000000,
@@ -44008,6 +45897,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-07-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               2500000.0,
               5000000,
@@ -44022,6 +45912,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               2500000.0,
               5000000,
@@ -44044,6 +45935,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-07-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               2000000,
               2000000,
@@ -44056,6 +45948,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               2000000,
               2000000,
@@ -44077,6 +45970,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-07-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               500000.0,
               500000.0,
@@ -44089,6 +45983,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               500000.0,
               500000.0,
@@ -44132,6 +46027,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-07-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               3000000,
               5000000,
@@ -44144,6 +46040,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               3000000,
               5000000,
@@ -44165,6 +46062,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-07-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               2500000.0,
               5000000,
@@ -44181,6 +46079,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               2500000.0,
               5000000,
@@ -44209,6 +46108,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-07-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               2000000,
               2000000,
@@ -44221,6 +46121,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               2000000,
               2000000,
@@ -44242,6 +46143,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-07-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               500000.0,
               500000.0,
@@ -44254,17 +46156,22 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               500000.0,
               500000.0,
               1000000,
               1500000.0
             ],
-            "actual_by_month": {},
+            "actual_by_month": {
+              "2026-10": 0.0
+            },
             "remark": ""
           }
         },
-        "actual_by_month": {}
+        "actual_by_month": {
+          "2026-10": 0.0
+        }
       },
       "리알로": {
         "by_year": {},
@@ -44297,6 +46204,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-07-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               3000000,
               5000000,
@@ -44309,6 +46217,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               3000000,
               5000000,
@@ -44326,6 +46235,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-07-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               1500000.0,
               2500000.0,
@@ -44342,6 +46252,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               1500000.0,
               2500000.0,
@@ -44366,6 +46277,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-07-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               2000000,
               2000000,
@@ -44378,6 +46290,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               2000000,
               2000000,
@@ -44395,6 +46308,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-07-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               500000.0,
               500000.0,
@@ -44407,6 +46321,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               500000.0,
               500000.0,
@@ -44450,6 +46365,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-07-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               2250000.0,
@@ -44462,6 +46378,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               2250000.0,
@@ -44479,6 +46396,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-07-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               4090909.090909091,
               0,
@@ -44493,6 +46411,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               4090909.090909091,
               0,
@@ -44512,6 +46431,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-07-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -44524,6 +46444,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -44541,6 +46462,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-07-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -44553,6 +46475,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -44595,6 +46518,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-07-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               3000000,
               4000000,
@@ -44624,6 +46548,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-07-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               3000000,
               3000000,
@@ -44641,6 +46566,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-07-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               2000000,
               2000000,
@@ -44658,6 +46584,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-07-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -44700,6 +46627,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-07-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               2000000,
               2000000,
@@ -44717,6 +46645,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-07-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -44734,6 +46663,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-07-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -44751,6 +46681,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-07-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               2000000,
@@ -44794,6 +46725,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-07-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               2000000,
               2000000,
@@ -44806,6 +46738,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               2000000,
               2000000,
@@ -44823,6 +46756,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-07-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               2000000,
               0,
@@ -44838,6 +46772,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               2000000,
               0,
@@ -44861,6 +46796,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-07-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               1000000,
@@ -44875,6 +46811,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               1000000,
@@ -44894,6 +46831,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-07-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -44906,6 +46844,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -44948,6 +46887,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-07-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               2000000,
@@ -44965,6 +46905,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-07-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               2000000,
               2000000,
@@ -44982,6 +46923,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-07-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -44999,6 +46941,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-07-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -45042,6 +46985,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-07-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               3000000,
               3000000,
@@ -45054,6 +46998,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               3000000,
               3000000,
@@ -45071,6 +47016,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-07-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -45086,6 +47032,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -45109,6 +47056,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-07-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -45121,6 +47069,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -45138,6 +47087,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-07-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               1000000,
               1000000,
@@ -45150,6 +47100,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               1000000,
               1000000,
@@ -45193,6 +47144,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-07-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -45207,6 +47159,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -45234,6 +47187,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-07-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -45246,6 +47200,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -45263,6 +47218,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-07-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -45275,6 +47231,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -45292,6 +47249,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-07-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -45304,6 +47262,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -45347,6 +47306,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-07-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -45359,6 +47319,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -45376,6 +47337,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-07-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -45390,6 +47352,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -45409,6 +47372,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-07-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -45421,6 +47385,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -45438,6 +47403,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-07-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -45450,6 +47416,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -45492,6 +47459,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-08-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               2250000.0,
@@ -45509,6 +47477,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-08-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               2272727.2727272725,
               0,
@@ -45526,6 +47495,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-08-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -45543,6 +47513,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-08-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -45586,6 +47557,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-08-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               3181818.1818181816,
@@ -45601,6 +47573,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               3181818.1818181816,
@@ -45624,6 +47597,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-08-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               2272727.2727272725,
@@ -45636,6 +47610,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               2272727.2727272725,
@@ -45657,6 +47632,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-08-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -45669,6 +47645,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -45686,6 +47663,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-08-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               790909.0909090909,
               790909.0909090909,
@@ -45698,6 +47676,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               790909.0909090909,
               790909.0909090909,
@@ -45715,6 +47694,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-07-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               900000.0,
               2700000.0,
@@ -45753,6 +47733,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-08-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               2250000.0,
@@ -45770,6 +47751,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-08-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               2272727.2727272725,
               0,
@@ -45787,6 +47769,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-08-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -45804,6 +47787,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-08-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               1364000.0,
@@ -45850,6 +47834,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-08-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -45867,6 +47852,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-08-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -45889,6 +47875,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-08-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -45936,6 +47923,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-08-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -45953,6 +47941,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-08-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -45970,6 +47959,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-08-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -46021,6 +48011,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -46041,6 +48032,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-08-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -46053,6 +48045,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -46070,6 +48063,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-08-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -46087,6 +48081,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -46109,6 +48104,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-08-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -46123,6 +48119,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -46145,6 +48142,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-07-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               3000000,
               3000000,
@@ -46184,6 +48182,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-08-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -46201,6 +48200,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -46244,6 +48244,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-08-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -46256,6 +48257,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -46273,6 +48275,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-08-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -46289,6 +48292,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -46310,6 +48314,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-08-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -46324,6 +48329,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -46343,6 +48349,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-08-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               2000000,
               2000000,
@@ -46386,6 +48393,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-08-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -46401,6 +48409,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -46430,6 +48439,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-08-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -46442,6 +48452,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -46463,6 +48474,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-08-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -46478,6 +48490,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -46498,6 +48511,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-08-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -46512,6 +48526,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -46531,6 +48546,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-08-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               3000000,
               3000000,
@@ -46569,6 +48585,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-09-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               2250000.0,
@@ -46586,6 +48603,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-09-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               2272727.2727272725,
               0,
@@ -46603,6 +48621,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-09-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               1000000,
@@ -46620,6 +48639,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-09-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -46661,6 +48681,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-09-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -46678,6 +48699,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-09-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               3000000,
               5000000,
@@ -46708,6 +48730,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-09-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               500000.0,
@@ -46725,6 +48748,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-09-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -46766,6 +48790,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-09-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -46783,6 +48808,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-09-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               2000000,
               2500000.0,
@@ -46800,6 +48826,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-09-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               500000.0,
@@ -46817,6 +48844,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-09-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -46860,6 +48888,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-10-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -46872,6 +48901,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -46889,6 +48919,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-10-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               2300000.0,
               4000000,
@@ -46901,6 +48932,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               2300000.0,
               4000000,
@@ -46918,6 +48950,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-10-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -46930,6 +48963,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -46947,6 +48981,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-10-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -46959,6 +48994,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -47002,6 +49038,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -47019,6 +49056,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-10-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               2300000.0,
               3000000,
@@ -47033,6 +49071,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               2300000.0,
               3000000,
@@ -47061,6 +49100,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-10-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               1000000,
               2000000,
@@ -47073,6 +49113,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               1000000,
               2000000,
@@ -47100,6 +49141,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-10-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -47112,6 +49154,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -47155,6 +49198,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-10-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -47167,6 +49211,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -47184,6 +49229,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-10-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               3000000,
               3000000,
@@ -47196,6 +49242,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               3000000,
               3000000,
@@ -47213,6 +49260,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-10-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               1000000,
               2000000,
@@ -47225,6 +49273,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               1000000,
               2000000,
@@ -47242,6 +49291,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-10-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               1000000,
               0,
@@ -47254,6 +49304,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               1000000,
               0,
@@ -47297,6 +49348,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-10-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -47309,6 +49361,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -47326,6 +49379,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-10-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               3000000,
               4000000,
@@ -47338,6 +49392,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               3000000,
               4000000,
@@ -47355,6 +49410,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-10-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               1000000,
               2000000,
@@ -47367,6 +49423,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               1000000,
               2000000,
@@ -47384,6 +49441,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-10-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -47396,6 +49454,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -47439,6 +49498,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-10-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -47451,6 +49511,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -47468,6 +49529,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-10-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               3000000,
               4000000,
@@ -47480,6 +49542,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               3000000,
               4000000,
@@ -47497,6 +49560,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-10-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -47509,6 +49573,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -47526,6 +49591,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-10-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -47538,6 +49604,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -47581,6 +49648,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-10-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               3000000,
               4000000,
@@ -47593,6 +49661,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-09-30",
             "mbo_q": [
               3000000,
               4000000,
@@ -47610,6 +49679,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-10-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               4000000,
               4000000,
@@ -47624,6 +49694,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-09-30",
             "mbo_q": [
               4000000,
               4000000,
@@ -47643,6 +49714,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-10-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -47655,6 +49727,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-09-30",
             "mbo_q": [
               0,
               0,
@@ -47672,6 +49745,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-10-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -47684,6 +49758,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-09-30",
             "mbo_q": [
               0,
               0,
@@ -47701,6 +49776,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-07-01",
+            "end_date": "2026-09-30",
             "mbo_q": [
               2000000,
               3000000,
@@ -47740,6 +49816,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-10-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               4000000,
               4000000,
@@ -47752,6 +49829,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               4000000,
               4000000,
@@ -47769,6 +49847,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-10-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               2000000,
@@ -47781,6 +49860,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               2000000,
@@ -47798,6 +49878,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-10-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               3000000,
@@ -47812,6 +49893,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               3000000,
@@ -47834,6 +49916,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-10-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -47848,6 +49931,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -47893,6 +49977,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-10-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               4000000,
@@ -47905,6 +49990,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               4000000,
@@ -47922,6 +50008,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-10-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               2000000,
               0,
@@ -47934,6 +50021,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               2000000,
               0,
@@ -47951,6 +50039,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-10-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               2000000,
@@ -47963,6 +50052,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               2000000,
@@ -47984,6 +50074,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-10-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               1000000,
@@ -47996,6 +50087,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               1000000,
@@ -48045,6 +50137,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-10-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               4000000,
               4000000,
@@ -48059,6 +50152,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               4000000,
               4000000,
@@ -48078,6 +50172,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-10-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               2000000,
@@ -48090,6 +50185,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               2000000,
@@ -48107,6 +50203,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-10-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               2000000,
               0,
@@ -48119,6 +50216,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               2000000,
               0,
@@ -48136,6 +50234,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-10-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -48148,6 +50247,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -48191,6 +50291,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-10-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               3000000,
               5000000,
@@ -48203,6 +50304,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               3000000,
               5000000,
@@ -48220,6 +50322,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-10-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               1500000.0,
               1500000.0,
@@ -48234,6 +50337,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               1500000.0,
               1500000.0,
@@ -48253,6 +50357,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-10-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               1000000,
               2000000,
@@ -48265,6 +50370,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               1000000,
               2000000,
@@ -48282,6 +50388,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-10-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               500000.0,
               500000.0,
@@ -48294,6 +50401,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               500000.0,
               500000.0,
@@ -48337,6 +50445,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-10-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               2500000.0,
               5000000,
@@ -48349,6 +50458,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               2500000.0,
               5000000,
@@ -48366,6 +50476,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-10-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               2500000.0,
               5000000,
@@ -48380,6 +50491,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               2500000.0,
               5000000,
@@ -48399,6 +50511,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-10-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               500000.0,
               1000000,
@@ -48411,6 +50524,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               500000.0,
               1000000,
@@ -48428,6 +50542,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-10-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               500000.0,
               1000000,
@@ -48440,6 +50555,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               500000.0,
               1000000,
@@ -48483,6 +50599,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-10-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               3000000,
               5000000,
@@ -48495,6 +50612,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               3000000,
               5000000,
@@ -48512,6 +50630,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-10-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               3000000,
               5000000,
@@ -48526,6 +50645,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               3000000,
               5000000,
@@ -48545,6 +50665,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-10-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               500000.0,
               1000000,
@@ -48557,6 +50678,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               500000.0,
               1000000,
@@ -48574,6 +50696,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-10-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               500000.0,
               1000000,
@@ -48586,6 +50709,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               500000.0,
               1000000,
@@ -48629,6 +50753,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-10-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               2250000.0,
@@ -48641,6 +50766,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               2250000.0,
@@ -48658,6 +50784,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-10-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               2272727.2727272725,
               0,
@@ -48670,6 +50797,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               2272727.2727272725,
               0,
@@ -48687,6 +50815,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-10-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               1000000,
@@ -48699,6 +50828,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               1000000,
@@ -48716,6 +50846,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-10-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -48728,6 +50859,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -48769,6 +50901,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-10-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -48786,6 +50919,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-10-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               2000000,
               2500000.0,
@@ -48807,6 +50941,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-10-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               500000.0,
@@ -48824,6 +50959,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-10-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -48867,6 +51003,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-11-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -48879,6 +51016,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -48896,6 +51034,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-11-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -48908,6 +51047,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -48925,6 +51065,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-11-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -48937,6 +51078,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -48954,6 +51096,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-11-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -48966,6 +51109,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -49009,6 +51153,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-11-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -49021,6 +51166,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -49038,6 +51184,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-11-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -49050,6 +51197,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -49067,6 +51215,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-11-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -49081,6 +51230,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -49100,6 +51250,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-11-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -49112,6 +51263,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -49155,6 +51307,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-11-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -49167,6 +51320,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -49184,6 +51338,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-11-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -49196,6 +51351,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -49213,6 +51369,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-11-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -49225,6 +51382,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -49242,6 +51400,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-11-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -49254,6 +51413,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -49297,6 +51457,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-11-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               1000000,
               0,
@@ -49309,6 +51470,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               1000000,
               0,
@@ -49326,6 +51488,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-11-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -49338,6 +51501,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -49355,6 +51519,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-11-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               4000000,
               2500000.0,
@@ -49367,6 +51532,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               4000000,
               2500000.0,
@@ -49384,6 +51550,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-11-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -49396,6 +51563,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -49439,6 +51607,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-11-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -49451,6 +51620,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -49472,6 +51642,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-11-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               2272727.2727272725,
               2273000.0,
@@ -49486,6 +51657,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               2272727.2727272725,
               2273000.0,
@@ -49505,6 +51677,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-11-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               1000000,
@@ -49517,6 +51690,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               1000000,
@@ -49534,6 +51708,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-11-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -49546,6 +51721,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -49563,6 +51739,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-07-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               900000.0,
               2700000.0,
@@ -49602,6 +51779,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-11-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               3000000,
               5000000,
@@ -49614,6 +51792,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               3000000,
               5000000,
@@ -49631,6 +51810,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-11-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               1500000.0,
               1500000.0,
@@ -49643,6 +51823,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               1500000.0,
               1500000.0,
@@ -49660,6 +51841,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-11-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               1000000,
               2000000,
@@ -49672,6 +51854,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               1000000,
               2000000,
@@ -49689,6 +51872,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-11-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               500000.0,
               500000.0,
@@ -49701,6 +51885,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               500000.0,
               500000.0,
@@ -49742,6 +51927,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-11-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               2000000,
@@ -49759,6 +51945,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-11-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               3000000,
               3000000,
@@ -49780,6 +51967,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-11-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               500000.0,
@@ -49797,6 +51985,7 @@ window.BLOCK_DETAIL = [
           "2025": {
             "contracted": true,
             "contract_date": "2025-11-01",
+            "end_date": "2025-12-31",
             "mbo_q": [
               0,
               0,
@@ -49838,6 +52027,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               3500000.0,
               0,
@@ -49855,6 +52045,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               1500000.0,
               1500000.0,
@@ -49872,6 +52063,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               1500000.0,
               1500000.0,
@@ -49889,6 +52081,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               500000.0,
               500000.0,
@@ -49930,6 +52123,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               1500000.0,
               1500000.0,
@@ -49955,6 +52149,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               500000.0,
               500000.0,
@@ -49972,6 +52167,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               1500000.0,
               1500000.0,
@@ -49998,6 +52194,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               200000.0,
               200000.0,
@@ -50041,6 +52238,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               3500000.0,
               0,
@@ -50058,6 +52256,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               500000.0,
               500000.0,
@@ -50075,6 +52274,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               1000000,
               1000000,
@@ -50092,6 +52292,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               200000.0,
               200000.0,
@@ -50133,6 +52334,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               1500000.0,
               1500000.0,
@@ -50150,6 +52352,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               500000.0,
               500000.0,
@@ -50170,6 +52373,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               1500000.0,
               1500000.0,
@@ -50187,6 +52391,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               200000.0,
               200000.0,
@@ -50228,6 +52433,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               2300000.0,
               0,
@@ -50274,6 +52480,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               500000.0,
               500000.0,
@@ -50295,6 +52502,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               1000000,
               1000000,
@@ -50318,6 +52526,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               200000.0,
               200000.0,
@@ -50359,6 +52568,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               3500000.0,
               0,
@@ -50376,6 +52586,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               500000.0,
               500000.0,
@@ -50399,6 +52610,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               1000000,
               1000000,
@@ -50416,6 +52628,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               200000.0,
               200000.0,
@@ -50457,6 +52670,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               2300000.0,
               0,
@@ -50474,6 +52688,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               500000.0,
               500000.0,
@@ -50509,6 +52724,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               1000000,
               1000000,
@@ -50526,6 +52742,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               200000.0,
               200000.0,
@@ -50567,6 +52784,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               3500000.0,
               0,
@@ -50584,6 +52802,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               500000.0,
               1500000.0,
@@ -50601,6 +52820,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -50618,6 +52838,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               500000.0,
               500000.0,
@@ -50659,6 +52880,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               2300000.0,
               0,
@@ -50684,6 +52906,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               500000.0,
               1500000.0,
@@ -50710,6 +52933,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               500000.0,
               500000.0,
@@ -50727,6 +52951,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               200000.0,
               200000.0,
@@ -50770,6 +52995,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               3500000.0,
               0,
@@ -50798,6 +53024,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               500000.0,
               500000.0,
@@ -50815,6 +53042,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               1000000,
               1000000,
@@ -50834,6 +53062,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -50875,6 +53104,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               3500000.0,
               0,
@@ -50949,6 +53179,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               500000.0,
               1000000,
@@ -50966,6 +53197,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               3500000.0,
               0,
@@ -50983,6 +53215,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               500000.0,
               1000000,
@@ -51007,8 +53240,8 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2026
     ],
-    "team": null,
-    "rep": "김재진",
+    "team": "RPM4팀",
+    "rep": "이상직",
     "name": "로제피부과의원(범어점)",
     "biz": 5022974178,
     "contract_date": "2026-01-01",
@@ -51024,6 +53257,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               3500000.0,
               0,
@@ -51065,6 +53299,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               500000.0,
               500000.0,
@@ -51094,6 +53329,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               1000000,
               1000000,
@@ -51111,6 +53347,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -51152,6 +53389,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               3500000.0,
               0,
@@ -51185,6 +53423,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               500000.0,
               500000.0,
@@ -51228,6 +53467,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               1000000,
               1000000,
@@ -51245,6 +53485,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               200000.0,
               200000.0,
@@ -51286,6 +53527,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               2300000.0,
               0,
@@ -51310,6 +53552,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               500000.0,
               1500000.0,
@@ -51335,6 +53578,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               500000.0,
               500000.0,
@@ -51352,6 +53596,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               200000.0,
               200000.0,
@@ -51393,6 +53638,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               2000000,
@@ -51410,6 +53656,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -51427,6 +53674,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               2000000,
               2000000,
@@ -51450,6 +53698,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -51467,6 +53716,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-07-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               5000000,
               10000000,
@@ -51508,6 +53758,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -51525,6 +53776,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               1000000,
               1000000,
@@ -51542,6 +53794,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               1000000,
               1000000,
@@ -51559,6 +53812,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -51600,6 +53854,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -51617,6 +53872,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               1000000,
@@ -51634,6 +53890,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               1000000,
               1000000,
@@ -51657,6 +53914,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -51674,6 +53932,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-08-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               2000000,
               2000000,
@@ -51711,6 +53970,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               1000000,
@@ -51728,6 +53988,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               1000000,
@@ -51745,6 +54006,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               1000000,
               2000000,
@@ -51766,6 +54028,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -51811,6 +54074,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -51828,6 +54092,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               2000000,
@@ -51851,6 +54116,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               1000000,
               1000000,
@@ -51868,6 +54134,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -51909,6 +54176,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               1000000,
@@ -51926,6 +54194,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               1000000,
@@ -51947,6 +54216,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               1000000,
               2000000,
@@ -51964,6 +54234,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -52005,6 +54276,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               1000000,
               2000000,
@@ -52030,6 +54302,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               1000000,
               1000000,
@@ -52047,6 +54320,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               2000000,
@@ -52064,6 +54338,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -52105,6 +54380,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -52122,6 +54398,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               500000.0,
               1000000,
@@ -52139,6 +54416,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               1000000,
               1000000,
@@ -52156,6 +54434,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               1000000,
@@ -52197,6 +54476,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               1000000,
               1000000,
@@ -52218,6 +54498,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               2000000,
               2000000,
@@ -52235,6 +54516,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               2000000,
@@ -52252,6 +54534,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -52294,6 +54577,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               3000000,
@@ -52311,6 +54595,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               1500000.0,
               1500000.0,
@@ -52328,6 +54613,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               1000000,
               1000000,
@@ -52349,6 +54635,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -52391,6 +54678,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               1000000,
@@ -52408,6 +54696,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               1000000,
@@ -52425,6 +54714,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               1000000,
               1000000,
@@ -52446,6 +54736,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -52488,6 +54779,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -52505,6 +54797,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               500000.0,
               500000.0,
@@ -52522,6 +54815,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               500000.0,
               1000000,
@@ -52543,6 +54837,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -52585,6 +54880,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -52605,6 +54901,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               1000000,
               1000000,
@@ -52622,6 +54919,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -52643,6 +54941,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               500000.0,
               1000000,
@@ -52685,6 +54984,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -52702,6 +55002,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               1000000,
@@ -52719,6 +55020,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               500000.0,
               1000000,
@@ -52736,6 +55038,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -52778,6 +55081,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -52795,6 +55099,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -52812,6 +55117,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -52829,6 +55135,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -52871,6 +55178,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-09-30",
             "mbo_q": [
               0,
               0,
@@ -52888,6 +55196,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-09-30",
             "mbo_q": [
               0,
               1000000,
@@ -52905,6 +55214,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-09-30",
             "mbo_q": [
               0,
               2000000,
@@ -52926,6 +55236,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-09-30",
             "mbo_q": [
               0,
               0,
@@ -52968,6 +55279,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               2000000,
               0,
@@ -52987,6 +55299,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               2000000,
               0,
@@ -53004,6 +55317,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -53021,6 +55335,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               500000.0,
               0,
@@ -53065,6 +55380,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               3000000,
               5000000,
@@ -53082,6 +55398,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               1500000.0,
               1500000.0,
@@ -53099,6 +55416,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               1000000,
               2000000,
@@ -53116,6 +55434,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               500000.0,
               500000.0,
@@ -53158,6 +55477,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               2000000,
               3000000,
@@ -53175,6 +55495,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               2000000,
               4000000,
@@ -53206,6 +55527,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               1000000,
               1500000.0,
@@ -53229,6 +55551,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -53252,6 +55575,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-07-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               2700000.0,
               4500000.0,
@@ -53290,6 +55614,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               2000000,
               3000000,
@@ -53311,6 +55636,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               2000000,
               3000000,
@@ -53328,6 +55654,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -53349,6 +55676,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               1000000,
               2000000,
@@ -53366,6 +55694,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-07-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               2700000.0,
               4500000.0,
@@ -53408,6 +55737,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               2000000,
               3000000,
@@ -53437,6 +55767,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               1500000.0,
               2500000.0,
@@ -53454,6 +55785,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               1000000,
               5000000,
@@ -53475,6 +55807,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               500000.0,
               1000000,
@@ -53492,6 +55825,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-07-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               2000000,
               4000000,
@@ -53530,6 +55864,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               8000000,
               8000000,
@@ -53544,7 +55879,7 @@ window.BLOCK_DETAIL = [
               "2026-07": 10454546.0,
               "2026-08": 10545454.0,
               "2026-09": 10545454.0,
-              "2026-10": 10454546.0
+              "2026-10": 26363637.0
             },
             "remark": ""
           }
@@ -53557,7 +55892,7 @@ window.BLOCK_DETAIL = [
           "2026-07": 10454546.0,
           "2026-08": 10545454.0,
           "2026-09": 10545454.0,
-          "2026-10": 10454546.0
+          "2026-10": 26363637.0
         }
       },
       "브이올렛": {
@@ -53565,6 +55900,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               2000000,
               2000000,
@@ -53582,6 +55918,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               2000000,
               2000000,
@@ -53599,6 +55936,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -53640,6 +55978,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               3000000,
               3000000,
@@ -53663,6 +56002,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               1000000,
@@ -53680,6 +56020,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               500000.0,
               500000.0,
@@ -53701,6 +56042,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -53725,8 +56067,8 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2026
     ],
-    "team": null,
-    "rep": "김재진",
+    "team": "RPM4팀",
+    "rep": "이상직",
     "name": "서울에이치피부과의원",
     "biz": 6102767222,
     "contract_date": "2026-01-01",
@@ -53742,6 +56084,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               5000000,
@@ -53767,6 +56110,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               500000.0,
               1000000,
@@ -53784,6 +56128,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               500000.0,
@@ -53801,6 +56146,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -53842,6 +56188,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               1000000,
               1500000.0,
@@ -53859,6 +56206,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               2000000,
               3000000,
@@ -53880,6 +56228,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               1000000,
               0,
@@ -53897,6 +56246,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -53921,8 +56271,8 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2026
     ],
-    "team": null,
-    "rep": "김재진",
+    "team": "RPM4팀",
+    "rep": "이상직",
     "name": "\t힐하우스피부과의원 대구점\t",
     "biz": 4070722145,
     "contract_date": "2026-01-01",
@@ -53938,6 +56288,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               1000000,
               1000000,
@@ -53955,6 +56306,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -53978,6 +56330,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -53995,6 +56348,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -54036,6 +56390,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               1500000.0,
               2000000,
@@ -54063,6 +56418,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               1000000,
               1000000,
@@ -54084,6 +56440,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               1000000,
               500000.0,
@@ -54101,6 +56458,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -54142,6 +56500,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               500000.0,
               1000000,
@@ -54159,6 +56518,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               1500000.0,
               2000000,
@@ -54192,6 +56552,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               500000.0,
               500000.0,
@@ -54209,6 +56570,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -54250,6 +56612,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               3500000.0,
@@ -54271,6 +56634,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               1000000,
               1000000,
@@ -54291,6 +56655,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               500000.0,
               500000.0,
@@ -54308,6 +56673,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -54349,6 +56715,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               1000000,
               1000000,
@@ -54366,6 +56733,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               500000.0,
               500000.0,
@@ -54383,6 +56751,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               500000.0,
               500000.0,
@@ -54400,6 +56769,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -54441,6 +56811,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -54458,6 +56829,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -54475,6 +56847,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -54492,6 +56865,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               500000.0,
               500000.0,
@@ -54533,6 +56907,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -54550,6 +56925,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               500000.0,
               500000.0,
@@ -54567,6 +56943,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               500000.0,
               500000.0,
@@ -54584,6 +56961,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -54625,6 +57003,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               1000000,
               1000000,
@@ -54647,6 +57026,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               500000.0,
               500000.0,
@@ -54664,6 +57044,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -54681,6 +57062,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               500000.0,
               500000.0,
@@ -54722,6 +57104,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               3500000.0,
               0,
@@ -54743,6 +57126,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               500000.0,
               500000.0,
@@ -54760,6 +57144,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               1000000,
               1000000,
@@ -54777,6 +57162,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -54818,6 +57204,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               1000000,
               1000000,
@@ -54853,6 +57240,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               500000.0,
               500000.0,
@@ -54870,6 +57258,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               500000.0,
               500000.0,
@@ -54895,6 +57284,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -54912,6 +57302,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-07-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               5000000,
               5000000,
@@ -54953,6 +57344,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               2500000.0,
               0,
@@ -54976,6 +57368,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -54993,6 +57386,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               500000.0,
               500000.0,
@@ -55016,6 +57410,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -55057,6 +57452,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -55074,6 +57470,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               1500000.0,
               1500000.0,
@@ -55095,6 +57492,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -55112,6 +57510,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -55153,6 +57552,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               1000000,
               1000000,
@@ -55170,6 +57570,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               1500000.0,
               1500000.0,
@@ -55187,6 +57588,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               500000.0,
               500000.0,
@@ -55204,6 +57606,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -55245,6 +57648,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               1500000.0,
               1500000.0,
@@ -55272,6 +57676,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -55289,6 +57694,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               500000.0,
               500000.0,
@@ -55310,6 +57716,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -55351,6 +57758,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               2500000.0,
               0,
@@ -55388,6 +57796,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -55405,6 +57814,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               500000.0,
               500000.0,
@@ -55426,6 +57836,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -55443,6 +57854,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-09-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               5000000,
               5000000,
@@ -55480,6 +57892,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -55497,6 +57910,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               1000000,
               1000000,
@@ -55520,6 +57934,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               500000.0,
               500000.0,
@@ -55537,6 +57952,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -55578,6 +57994,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               3500000.0,
               0,
@@ -55595,6 +58012,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               2500000.0,
               0,
@@ -55612,6 +58030,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               500000.0,
               500000.0,
@@ -55629,6 +58048,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -55653,8 +58073,8 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2026
     ],
-    "team": null,
-    "rep": "김재진",
+    "team": "RPM4팀",
+    "rep": "이상직",
     "name": "핀다의원",
     "biz": 2203500775,
     "contract_date": "2026-01-01",
@@ -55670,6 +58090,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -55691,6 +58112,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -55712,6 +58134,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               1000000,
               1000000,
@@ -55735,6 +58158,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -55752,6 +58176,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-09-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               3000000,
               3000000,
@@ -55772,8 +58197,8 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2026
     ],
-    "team": null,
-    "rep": "김재진",
+    "team": "RPM4팀",
+    "rep": "이상직",
     "name": "김앤김의원",
     "biz": 6201177240,
     "contract_date": "2026-01-01",
@@ -55789,6 +58214,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               3500000.0,
               0,
@@ -55810,6 +58236,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               2000000,
               2000000,
@@ -55832,6 +58259,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -55849,6 +58277,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -55873,8 +58302,8 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2026
     ],
-    "team": null,
-    "rep": "김재진",
+    "team": "RPM4팀",
+    "rep": "이상직",
     "name": "나의계절의원(울산)",
     "biz": 6183711662,
     "contract_date": "2026-01-01",
@@ -55890,6 +58319,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               3500000.0,
               0,
@@ -55913,6 +58343,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               500000.0,
               500000.0,
@@ -55930,6 +58361,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               500000.0,
               500000.0,
@@ -55947,6 +58379,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -55971,8 +58404,8 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2026
     ],
-    "team": null,
-    "rep": "김재진",
+    "team": "RPM4팀",
+    "rep": "이상직",
     "name": "닥터디자이너의원(남구)",
     "biz": 1362600541,
     "contract_date": "2026-01-01",
@@ -55988,6 +58421,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -56005,6 +58439,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               2000000,
               2000000,
@@ -56022,6 +58457,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               500000.0,
               500000.0,
@@ -56039,6 +58475,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -56063,8 +58500,8 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2026
     ],
-    "team": null,
-    "rep": "김재진",
+    "team": "RPM4팀",
+    "rep": "이상직",
     "name": "르본의원(울산)",
     "biz": 6102737752,
     "contract_date": "2026-01-01",
@@ -56080,6 +58517,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -56097,6 +58535,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               500000.0,
               500000.0,
@@ -56114,6 +58553,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               500000.0,
               500000.0,
@@ -56131,6 +58571,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -56155,8 +58596,8 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2026
     ],
-    "team": null,
-    "rep": "김재진",
+    "team": "RPM4팀",
+    "rep": "이상직",
     "name": "메이린의원울산점",
     "biz": 7860200597,
     "contract_date": "2026-01-01",
@@ -56172,6 +58613,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -56199,6 +58641,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               1000000,
               1000000,
@@ -56216,6 +58659,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               1000000,
               1000000,
@@ -56237,6 +58681,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               500000.0,
               500000.0,
@@ -56254,6 +58699,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-09-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               3000000,
               3000000,
@@ -56291,6 +58737,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               3500000.0,
               0,
@@ -56316,6 +58763,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               1000000,
               1000000,
@@ -56333,6 +58781,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               500000.0,
               500000.0,
@@ -56350,6 +58799,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -56391,6 +58841,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               3500000.0,
               0,
@@ -56413,6 +58864,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               500000.0,
               500000.0,
@@ -56434,6 +58886,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -56451,6 +58904,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -56492,6 +58946,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               3500000.0,
               0,
@@ -56516,6 +58971,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               500000.0,
               500000.0,
@@ -56537,6 +58993,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               500000.0,
               500000.0,
@@ -56554,6 +59011,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -56578,8 +59036,8 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2026
     ],
-    "team": null,
-    "rep": "김재진",
+    "team": "RPM4팀",
+    "rep": "이상직",
     "name": "에시르의원",
     "biz": 8562501915,
     "contract_date": "2026-01-01",
@@ -56595,6 +59053,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               3500000.0,
               0,
@@ -56624,6 +59083,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               1500000.0,
               1500000.0,
@@ -56645,6 +59105,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               500000.0,
               500000.0,
@@ -56662,6 +59123,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -56703,6 +59165,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               1500000.0,
               1500000.0,
@@ -56728,6 +59191,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               500000.0,
               500000.0,
@@ -56745,6 +59209,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               500000.0,
               500000.0,
@@ -56762,6 +59227,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -56789,8 +59255,8 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2026
     ],
-    "team": null,
-    "rep": "김재진",
+    "team": "RPM4팀",
+    "rep": "이상직",
     "name": "연세제이원의원",
     "biz": 7322701613,
     "contract_date": "2026-01-01",
@@ -56806,6 +59272,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               3500000.0,
               3500000.0,
@@ -56829,6 +59296,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -56846,6 +59314,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -56867,6 +59336,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               500000.0,
               500000.0,
@@ -56884,6 +59354,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-09-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               3000000,
               3000000,
@@ -56904,8 +59375,8 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2026
     ],
-    "team": null,
-    "rep": "김재진",
+    "team": "RPM4팀",
+    "rep": "이상직",
     "name": "제니스병원",
     "biz": 6102568396,
     "contract_date": "2026-01-01",
@@ -56921,6 +59392,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -56938,6 +59410,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               1000000,
               1000000,
@@ -56969,6 +59442,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -56986,6 +59460,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               500000.0,
               500000.0,
@@ -57027,6 +59502,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               2500000.0,
               2500000.0,
@@ -57052,6 +59528,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               500000.0,
               500000.0,
@@ -57069,6 +59546,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               500000.0,
               500000.0,
@@ -57086,6 +59564,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -57110,8 +59589,8 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2026
     ],
-    "team": null,
-    "rep": "김재진",
+    "team": "RPM4팀",
+    "rep": "이상직",
     "name": "리프톤피부과의원",
     "biz": 4555001029,
     "contract_date": "2026-01-01",
@@ -57127,6 +59606,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -57156,6 +59636,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               1500000.0,
               1500000.0,
@@ -57179,6 +59660,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -57200,6 +59682,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -57224,8 +59707,8 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2026
     ],
-    "team": null,
-    "rep": "김재진",
+    "team": "RPM4팀",
+    "rep": "이상직",
     "name": "라마르의원(울산)",
     "biz": 6102638230,
     "contract_date": "2026-01-01",
@@ -57241,6 +59724,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               2500000.0,
               2500000.0,
@@ -57272,6 +59756,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               500000.0,
               500000.0,
@@ -57289,6 +59774,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -57310,6 +59796,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               500000.0,
               500000.0,
@@ -57327,6 +59814,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-07-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               5000000,
               5000000,
@@ -57351,8 +59839,8 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2026
     ],
-    "team": null,
-    "rep": "김재진",
+    "team": "RPM4팀",
+    "rep": "이상직",
     "name": "강남의원",
     "biz": 6201180347,
     "contract_date": "2026-01-01",
@@ -57368,6 +59856,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -57389,6 +59878,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               500000.0,
               500000.0,
@@ -57406,6 +59896,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               500000.0,
               500000.0,
@@ -57433,6 +59924,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               500000.0,
               500000.0,
@@ -57450,6 +59942,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-07-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               3000000,
               3000000,
@@ -57474,8 +59967,8 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2026
     ],
-    "team": null,
-    "rep": "김재진",
+    "team": "RPM4팀",
+    "rep": "이상직",
     "name": "라엘라의원",
     "biz": 6102740320,
     "contract_date": "2026-01-01",
@@ -57491,6 +59984,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -57508,6 +60002,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               1000000,
               1000000,
@@ -57530,6 +60025,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               500000.0,
               500000.0,
@@ -57547,6 +60043,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -57588,6 +60085,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               5000000,
               5000000,
@@ -57609,6 +60107,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               1000000,
               1000000,
@@ -57626,6 +60125,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               500000.0,
               500000.0,
@@ -57643,6 +60143,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-01-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -57685,6 +60186,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-02-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               3200000.0,
@@ -57708,6 +60210,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-02-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -57725,6 +60228,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-02-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               2000000,
               2000000,
@@ -57746,6 +60250,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-02-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -57788,6 +60293,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-02-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               3200000.0,
@@ -57809,6 +60315,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-02-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -57826,6 +60333,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-02-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               1000000,
               1000000,
@@ -57847,6 +60355,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-02-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               1000000,
               1000000,
@@ -57894,6 +60403,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-02-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -57911,6 +60421,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-02-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               1000000,
               1000000,
@@ -57932,6 +60443,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-02-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               500000.0,
               500000.0,
@@ -57949,6 +60461,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-02-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -57990,6 +60503,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-02-01",
+            "end_date": "2026-09-30",
             "mbo_q": [
               0,
               0,
@@ -58007,6 +60521,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-02-01",
+            "end_date": "2026-09-30",
             "mbo_q": [
               0,
               0,
@@ -58024,6 +60539,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-02-01",
+            "end_date": "2026-09-30",
             "mbo_q": [
               500000.0,
               500000.0,
@@ -58045,6 +60561,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-02-01",
+            "end_date": "2026-09-30",
             "mbo_q": [
               0,
               0,
@@ -58087,6 +60604,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-02-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               5000000,
@@ -58108,6 +60626,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-02-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               2272727.2727272725,
               0,
@@ -58125,6 +60644,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-02-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               500000.0,
               1000000,
@@ -58142,6 +60662,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-02-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -58166,8 +60687,8 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2026
     ],
-    "team": null,
-    "rep": "김재진",
+    "team": "RPM4팀",
+    "rep": "이상직",
     "name": "미라인의원(북구점)",
     "biz": 6201387024,
     "contract_date": "2026-03-01",
@@ -58183,6 +60704,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-03-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -58204,6 +60726,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-03-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -58221,6 +60744,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-03-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               1000000,
               1000000,
@@ -58238,6 +60762,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-03-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               1000000,
@@ -58255,6 +60780,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-07-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               3000000,
               3000000,
@@ -58297,6 +60823,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-03-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               2250000.0,
@@ -58314,6 +60841,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-03-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               2272727.2727272725,
               0,
@@ -58331,6 +60859,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-03-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -58348,6 +60877,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-03-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               1364000.0,
@@ -58390,6 +60920,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-03-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               2250000.0,
@@ -58407,6 +60938,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-03-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               2272727.2727272725,
               0,
@@ -58430,6 +60962,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-03-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               500000.0,
               500000.0,
@@ -58447,6 +60980,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-03-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               1364000.0,
@@ -58464,6 +60998,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-07-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               2700000.0,
               2700000.0,
@@ -58501,6 +61036,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-03-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -58522,6 +61058,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-03-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               6000000,
@@ -58543,6 +61080,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-03-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               5000000,
               0,
@@ -58564,6 +61102,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-03-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               1000000,
               1000000,
@@ -58612,6 +61151,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-03-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               1500000.0,
               1500000.0,
@@ -58633,6 +61173,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-03-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -58650,6 +61191,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-03-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               1000000,
               1000000,
@@ -58671,6 +61213,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-03-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -58712,6 +61255,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-03-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               3500000.0,
               0,
@@ -58743,6 +61287,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-03-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               500000.0,
               500000.0,
@@ -58760,6 +61305,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-03-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               1000000,
               1000000,
@@ -58777,6 +61323,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-03-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               200000.0,
               200000.0,
@@ -58821,6 +61368,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-03-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               900000.0,
               900000.0,
@@ -58838,6 +61386,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-03-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               1000000,
               1000000,
@@ -58855,6 +61404,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-03-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               2500000.0,
               2500000.0,
@@ -58872,6 +61422,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-03-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -58914,6 +61465,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-03-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               2250000.0,
@@ -58931,6 +61483,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-03-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               2272727.2727272725,
               0,
@@ -58952,6 +61505,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-03-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               1000000,
@@ -58969,6 +61523,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-03-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -58986,6 +61541,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-07-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               900000.0,
               900000.0,
@@ -59023,6 +61579,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-03-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               3500000.0,
               0,
@@ -59056,6 +61613,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-03-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               500000.0,
               500000.0,
@@ -59077,6 +61635,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-03-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               1000000,
               1000000,
@@ -59098,6 +61657,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-03-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               200000.0,
               200000.0,
@@ -59139,6 +61699,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-04-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               1500000.0,
               1500000.0,
@@ -59156,6 +61717,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-04-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -59177,6 +61739,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-04-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               500000.0,
               500000.0,
@@ -59194,6 +61757,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-04-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -59211,6 +61775,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-09-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               3000000,
               3000000,
@@ -59248,6 +61813,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-04-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               2000000,
               2000000,
@@ -59293,6 +61859,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-04-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -59310,6 +61877,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-04-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               500000.0,
               500000.0,
@@ -59327,6 +61895,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-04-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -59344,6 +61913,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-07-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               5000000,
               5000000,
@@ -59385,6 +61955,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-04-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               500000.0,
               1000000,
@@ -59407,6 +61978,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-04-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -59426,6 +61998,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-04-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               500000.0,
               500000.0,
@@ -59443,6 +62016,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-04-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -59460,6 +62034,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-09-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               3000000,
               3000000,
@@ -59501,6 +62076,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-04-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               1500000.0,
               1500000.0,
@@ -59518,6 +62094,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-04-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -59535,6 +62112,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-04-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               500000.0,
               500000.0,
@@ -59556,6 +62134,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-04-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -59597,6 +62176,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-04-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               1000000,
               1000000,
@@ -59618,6 +62198,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-04-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               4000000,
               0,
@@ -59639,6 +62220,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-04-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -59660,6 +62242,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-04-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -59702,6 +62285,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-04-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               5000000,
               5000000,
@@ -59719,6 +62303,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-04-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -59736,6 +62321,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-04-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               5000000,
               0,
@@ -59757,6 +62343,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-04-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -59798,6 +62385,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-04-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               500000.0,
               1000000,
@@ -59815,6 +62403,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-04-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               2000000,
               3000000,
@@ -59832,6 +62421,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-04-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               500000.0,
               500000.0,
@@ -59849,6 +62439,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-04-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -59890,6 +62481,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-04-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               1500000.0,
               1500000.0,
@@ -59907,6 +62499,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-04-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -59924,6 +62517,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-04-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               1000000,
               5000000,
@@ -59945,6 +62539,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-04-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -59986,6 +62581,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-04-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               1000000,
               1000000,
@@ -60003,6 +62599,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-04-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               4000000,
               0,
@@ -60020,6 +62617,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-04-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -60037,6 +62635,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-04-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -60054,6 +62653,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-07-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               3000000,
               3000000,
@@ -60096,6 +62696,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-04-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -60113,6 +62714,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-04-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               2000000,
               2000000,
@@ -60130,6 +62732,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-04-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               2000000,
               2000000,
@@ -60151,6 +62754,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-04-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -60193,6 +62797,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-04-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               2000000,
@@ -60210,6 +62815,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-04-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               1000000,
               1000000,
@@ -60227,6 +62833,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-04-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               1000000,
               1000000,
@@ -60248,6 +62855,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-04-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               1000000,
               0,
@@ -60290,6 +62898,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-04-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               1000000,
               2000000,
@@ -60307,6 +62916,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-04-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -60324,6 +62934,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-04-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               1000000,
@@ -60345,6 +62956,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-04-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               1000000,
@@ -60387,6 +62999,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-04-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               1000000,
               2000000,
@@ -60408,6 +63021,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-04-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               2000000,
               3000000,
@@ -60425,6 +63039,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-04-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               1000000,
               2000000,
@@ -60446,6 +63061,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-04-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               500000.0,
               1000000,
@@ -60463,6 +63079,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-07-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               2000000,
               3000000,
@@ -60500,6 +63117,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-04-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               2000000,
               3000000,
@@ -60525,6 +63143,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-04-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               3000000,
               3000000,
@@ -60542,6 +63161,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-04-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               3000000,
               3000000,
@@ -60559,6 +63179,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-04-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -60600,6 +63221,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-04-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               2500000.0,
               2500000.0,
@@ -60633,6 +63255,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-04-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               5000000,
               5000000,
@@ -60658,6 +63281,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-04-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               3000000,
               5000000,
@@ -60679,6 +63303,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-04-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -60720,6 +63345,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-04-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               2000000,
               1000000,
@@ -60737,6 +63363,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-04-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               4000000,
               4000000,
@@ -60758,6 +63385,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-04-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               500000.0,
               500000.0,
@@ -60779,6 +63407,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-04-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               500000.0,
@@ -60796,6 +63425,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-08-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               3000000,
               3000000,
@@ -60833,6 +63463,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-04-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               1000000,
               500000.0,
@@ -60863,6 +63494,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-04-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               1000000,
               1000000,
@@ -60880,6 +63512,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-04-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               1000000,
               1000000,
@@ -60897,6 +63530,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-04-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -60938,6 +63572,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-04-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               3000000,
               3000000,
@@ -60955,6 +63590,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-04-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               2000000,
               1000000,
@@ -60972,6 +63608,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-04-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               1000000,
               1000000,
@@ -60989,6 +63626,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-04-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               1000000,
               1000000,
@@ -61030,6 +63668,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-04-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               3000000,
               3000000,
@@ -61047,6 +63686,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-04-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               500000.0,
               1000000,
@@ -61064,6 +63704,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-04-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               1000000,
               1000000,
@@ -61081,6 +63722,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-04-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -61122,6 +63764,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-04-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               2000000,
               2000000,
@@ -61139,6 +63782,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-04-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               1000000,
               1000000,
@@ -61160,6 +63804,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-04-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               1000000,
               1000000,
@@ -61177,6 +63822,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-04-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -61218,6 +63864,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-04-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               1000000,
               1000000,
@@ -61235,6 +63882,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-04-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               1000000,
               2000000,
@@ -61254,6 +63902,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-04-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               1000000,
               1000000,
@@ -61271,6 +63920,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-04-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -61312,6 +63962,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-04-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               500000.0,
               500000.0,
@@ -61329,6 +63980,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-04-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               500000.0,
               500000.0,
@@ -61346,6 +63998,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-04-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               500000.0,
               500000.0,
@@ -61363,6 +64016,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-04-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -61404,6 +64058,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-04-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               500000.0,
               500000.0,
@@ -61421,6 +64076,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-04-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               1000000,
               1000000,
@@ -61442,6 +64098,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-04-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               500000.0,
               500000.0,
@@ -61463,6 +64120,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-04-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -61504,6 +64162,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-04-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               500000.0,
               1000000,
@@ -61521,6 +64180,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-04-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               500000.0,
               500000.0,
@@ -61538,6 +64198,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-04-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               500000.0,
               1000000,
@@ -61561,6 +64222,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-04-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               500000.0,
               500000.0,
@@ -61602,6 +64264,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-04-01",
+            "end_date": "2026-08-31",
             "mbo_q": [
               500000.0,
               500000.0,
@@ -61623,6 +64286,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-04-01",
+            "end_date": "2026-08-31",
             "mbo_q": [
               500000.0,
               500000.0,
@@ -61640,6 +64304,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-04-01",
+            "end_date": "2026-08-31",
             "mbo_q": [
               500000.0,
               1000000,
@@ -61657,6 +64322,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-04-01",
+            "end_date": "2026-08-31",
             "mbo_q": [
               500000.0,
               500000.0,
@@ -61698,6 +64364,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-04-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               500000.0,
               1000000,
@@ -61715,6 +64382,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-04-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               500000.0,
               500000.0,
@@ -61736,6 +64404,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-04-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               500000.0,
               1000000,
@@ -61753,6 +64422,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-04-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               500000.0,
               500000.0,
@@ -61794,6 +64464,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-04-01",
+            "end_date": "2026-08-31",
             "mbo_q": [
               500000.0,
               1000000,
@@ -61811,6 +64482,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-04-01",
+            "end_date": "2026-08-31",
             "mbo_q": [
               500000.0,
               500000.0,
@@ -61831,6 +64503,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-04-01",
+            "end_date": "2026-08-31",
             "mbo_q": [
               500000.0,
               1000000,
@@ -61848,6 +64521,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-04-01",
+            "end_date": "2026-08-31",
             "mbo_q": [
               500000.0,
               500000.0,
@@ -61889,6 +64563,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-04-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               500000.0,
               1000000,
@@ -61906,6 +64581,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-04-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               500000.0,
               500000.0,
@@ -61923,6 +64599,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-04-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               500000.0,
               1000000,
@@ -61940,6 +64617,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-04-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               500000.0,
               500000.0,
@@ -61981,6 +64659,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-04-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               500000.0,
               1000000,
@@ -61998,6 +64677,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-04-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               500000.0,
               500000.0,
@@ -62015,6 +64695,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-04-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               500000.0,
               1000000,
@@ -62032,6 +64713,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-04-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               500000.0,
               500000.0,
@@ -62073,6 +64755,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-04-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               500000.0,
               1000000,
@@ -62090,6 +64773,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-04-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               500000.0,
               500000.0,
@@ -62107,6 +64791,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-04-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               500000.0,
               1000000,
@@ -62124,6 +64809,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-04-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               500000.0,
               500000.0,
@@ -62166,6 +64852,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-04-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               4000000,
               4000000,
@@ -62183,6 +64870,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-04-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               6000000,
               6000000,
@@ -62204,6 +64892,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-04-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               4000000,
               4000000,
@@ -62221,6 +64910,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-04-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               500000.0,
               500000.0,
@@ -62238,6 +64928,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-07-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               1000000,
               3000000,
@@ -62259,8 +64950,8 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": null,
-    "rep": "김재진",
+    "team": "RPM4팀",
+    "rep": "이상직",
     "name": "리쥬엘의원(수성점)",
     "biz": 4881402087,
     "contract_date": "2026-05-01",
@@ -62276,6 +64967,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-05-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -62298,6 +64990,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-05-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -62320,6 +65013,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-05-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               1000000,
@@ -62337,6 +65031,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-05-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -62362,8 +65057,8 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": null,
-    "rep": "김재진",
+    "team": "RPM4팀",
+    "rep": "이상직",
     "name": "브이의원(수성)",
     "biz": 8100500848,
     "contract_date": "2026-05-01",
@@ -62379,6 +65074,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-05-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -62400,6 +65096,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-05-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -62424,6 +65121,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-05-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               500000.0,
@@ -62441,6 +65139,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-05-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -62466,8 +65165,8 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": null,
-    "rep": "김재진",
+    "team": "RPM4팀",
+    "rep": "이상직",
     "name": "디렉터의원",
     "biz": 2045822795,
     "contract_date": "2026-05-01",
@@ -62483,6 +65182,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-05-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -62500,6 +65200,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-05-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -62517,6 +65218,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-05-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               2000000,
@@ -62534,6 +65236,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-05-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -62559,8 +65262,8 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": null,
-    "rep": "김재진",
+    "team": "RPM4팀",
+    "rep": "이상직",
     "name": "디데이의원",
     "biz": 3952600868,
     "contract_date": "2026-05-01",
@@ -62576,6 +65279,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-05-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -62593,6 +65297,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-05-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -62610,6 +65315,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-05-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               1000000,
@@ -62627,6 +65333,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-05-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -62669,6 +65376,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-05-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -62686,6 +65394,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-05-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -62703,6 +65412,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-05-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               1000000,
@@ -62720,6 +65430,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-05-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -62762,6 +65473,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-05-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -62779,6 +65491,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-05-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               2000000,
@@ -62796,6 +65509,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-05-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               1000000,
@@ -62817,6 +65531,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-05-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -62859,6 +65574,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-05-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -62876,6 +65592,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-05-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               3000000,
@@ -62893,6 +65610,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-05-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -62910,6 +65628,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-05-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -62952,6 +65671,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-05-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               1000000,
@@ -62973,6 +65693,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-05-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -62990,6 +65711,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-05-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               1000000,
@@ -63013,6 +65735,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-05-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -63037,8 +65760,8 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2026
     ],
-    "team": null,
-    "rep": "김재진",
+    "team": "RPM4팀",
+    "rep": "이상직",
     "name": "아르떼의원",
     "biz": 7360500083,
     "contract_date": "2026-05-01",
@@ -63054,6 +65777,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-05-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -63071,6 +65795,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-05-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               4000000,
@@ -63092,6 +65817,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-05-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               1000000,
@@ -63109,6 +65835,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-05-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -63154,6 +65881,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-05-01",
+            "end_date": "2026-09-30",
             "mbo_q": [
               0,
               5000000,
@@ -63171,6 +65899,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-05-01",
+            "end_date": "2026-09-30",
             "mbo_q": [
               0,
               3000000,
@@ -63188,6 +65917,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-05-01",
+            "end_date": "2026-09-30",
             "mbo_q": [
               0,
               600000.0,
@@ -63205,6 +65935,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-05-01",
+            "end_date": "2026-09-30",
             "mbo_q": [
               0,
               0,
@@ -63246,6 +65977,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-05-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               2000000,
@@ -63269,6 +66001,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-05-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               1100000.0,
@@ -63286,6 +66019,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-05-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               2600000.0,
@@ -63303,6 +66037,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-05-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -63344,6 +66079,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-05-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               3000000,
@@ -63361,6 +66097,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-05-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               2000000,
@@ -63378,6 +66115,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-05-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               4000000,
@@ -63395,6 +66133,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-05-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -63436,6 +66175,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-05-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               2100000.0,
@@ -63453,6 +66193,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-05-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               3000000,
@@ -63470,6 +66211,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-05-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               2000000,
@@ -63487,6 +66229,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-05-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -63528,6 +66271,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-05-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               3000000,
@@ -63545,6 +66289,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-05-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               2000000,
@@ -63562,6 +66307,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-05-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               400000.0,
@@ -63579,6 +66325,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-05-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -63620,6 +66367,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-05-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               5000000,
@@ -63637,6 +66385,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-05-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               3000000,
@@ -63654,6 +66403,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-05-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               600000.0,
@@ -63671,6 +66421,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-05-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -63712,6 +66463,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-05-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               300000.0,
@@ -63729,6 +66481,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-05-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               200000.0,
@@ -63746,6 +66499,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-05-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               400000.0,
@@ -63767,6 +66521,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-05-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               300000.0,
@@ -63808,6 +66563,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-05-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               3000000,
@@ -63825,6 +66581,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-05-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               2000000,
@@ -63842,6 +66599,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-05-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               400000.0,
@@ -63859,6 +66617,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-05-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -63900,6 +66659,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-05-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -63917,6 +66677,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-05-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               2000000,
@@ -63934,6 +66695,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-05-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -63951,6 +66713,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-05-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               3000000,
@@ -63992,6 +66755,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-05-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               2000000,
@@ -64009,6 +66773,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-05-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               1100000.0,
@@ -64026,6 +66791,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-05-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               2600000.0,
@@ -64043,6 +66809,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-05-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -64084,6 +66851,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-05-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               3000000,
@@ -64101,6 +66869,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-05-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               2000000,
@@ -64118,6 +66887,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-05-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               4000000,
@@ -64135,6 +66905,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-05-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -64180,6 +66951,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-05-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               2000000,
@@ -64197,6 +66969,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-05-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               1100000.0,
@@ -64214,6 +66987,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-05-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               2600000.0,
@@ -64231,6 +67005,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-05-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -64272,6 +67047,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-05-01",
+            "end_date": "2026-09-30",
             "mbo_q": [
               0,
               2000000,
@@ -64289,6 +67065,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-05-01",
+            "end_date": "2026-09-30",
             "mbo_q": [
               0,
               1100000.0,
@@ -64306,6 +67083,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-05-01",
+            "end_date": "2026-09-30",
             "mbo_q": [
               0,
               2600000.0,
@@ -64323,6 +67101,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-05-01",
+            "end_date": "2026-09-30",
             "mbo_q": [
               0,
               0,
@@ -64364,6 +67143,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-05-01",
+            "end_date": "2026-09-30",
             "mbo_q": [
               0,
               5000000,
@@ -64381,6 +67161,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-05-01",
+            "end_date": "2026-09-30",
             "mbo_q": [
               0,
               3000000,
@@ -64398,6 +67179,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-05-01",
+            "end_date": "2026-09-30",
             "mbo_q": [
               0,
               1300000.0,
@@ -64415,6 +67197,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-05-01",
+            "end_date": "2026-09-30",
             "mbo_q": [
               0,
               0,
@@ -64456,6 +67239,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-05-01",
+            "end_date": "2026-09-30",
             "mbo_q": [
               0,
               5000000,
@@ -64473,6 +67257,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-05-01",
+            "end_date": "2026-09-30",
             "mbo_q": [
               0,
               3000000,
@@ -64490,6 +67275,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-05-01",
+            "end_date": "2026-09-30",
             "mbo_q": [
               0,
               1300000.0,
@@ -64507,6 +67293,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-05-01",
+            "end_date": "2026-09-30",
             "mbo_q": [
               0,
               0,
@@ -64548,6 +67335,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-05-01",
+            "end_date": "2026-09-30",
             "mbo_q": [
               0,
               2000000,
@@ -64565,6 +67353,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-05-01",
+            "end_date": "2026-09-30",
             "mbo_q": [
               0,
               1100000.0,
@@ -64582,6 +67371,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-05-01",
+            "end_date": "2026-09-30",
             "mbo_q": [
               0,
               2600000.0,
@@ -64599,6 +67389,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-05-01",
+            "end_date": "2026-09-30",
             "mbo_q": [
               0,
               0,
@@ -64640,6 +67431,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-05-01",
+            "end_date": "2026-09-30",
             "mbo_q": [
               0,
               3000000,
@@ -64657,6 +67449,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-05-01",
+            "end_date": "2026-09-30",
             "mbo_q": [
               0,
               2000000,
@@ -64674,6 +67467,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-05-01",
+            "end_date": "2026-09-30",
             "mbo_q": [
               0,
               4000000,
@@ -64691,6 +67485,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-05-01",
+            "end_date": "2026-09-30",
             "mbo_q": [
               0,
               0,
@@ -64732,6 +67527,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-05-01",
+            "end_date": "2026-09-30",
             "mbo_q": [
               0,
               2000000,
@@ -64749,6 +67545,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-05-01",
+            "end_date": "2026-09-30",
             "mbo_q": [
               0,
               1100000.0,
@@ -64766,6 +67563,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-05-01",
+            "end_date": "2026-09-30",
             "mbo_q": [
               0,
               2600000.0,
@@ -64783,6 +67581,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-05-01",
+            "end_date": "2026-09-30",
             "mbo_q": [
               0,
               0,
@@ -64824,6 +67623,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-05-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               3000000,
@@ -64849,6 +67649,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-05-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               2000000,
@@ -64866,6 +67667,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-05-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               4000000,
@@ -64883,6 +67685,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-05-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -64925,6 +67728,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-05-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               2000000,
@@ -64942,6 +67746,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-05-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               4545000.0,
@@ -64967,6 +67772,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-05-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               2000000,
@@ -64984,6 +67790,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-05-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -65026,6 +67833,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-05-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               2000000,
@@ -65043,6 +67851,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-05-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               4545000.0,
@@ -65060,6 +67869,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-05-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -65077,6 +67887,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-05-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -65119,6 +67930,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-05-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               2000000,
@@ -65136,6 +67948,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-05-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               4000000,
@@ -65153,6 +67966,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-05-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               2000000,
@@ -65170,6 +67984,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-05-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -65212,6 +68027,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-05-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               3000000,
@@ -65229,6 +68045,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-05-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               2000000,
@@ -65246,6 +68063,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-05-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               4000000,
@@ -65263,6 +68081,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-05-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -65304,6 +68123,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-05-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               2500000.0,
@@ -65335,6 +68155,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-05-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               500000.0,
@@ -65352,6 +68173,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-05-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               1000000,
@@ -65373,6 +68195,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-05-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -65414,6 +68237,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-05-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               5000000,
@@ -65437,6 +68261,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-05-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               1000000,
@@ -65454,6 +68279,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-05-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               500000.0,
@@ -65475,6 +68301,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-05-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -65521,6 +68348,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-05-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               2000000,
@@ -65548,6 +68376,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-05-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               1000000,
@@ -65565,6 +68394,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-05-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               1000000,
@@ -65588,6 +68418,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-05-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               500000.0,
@@ -65605,6 +68436,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-07-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               2000000,
               4000000,
@@ -65643,6 +68475,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-05-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               2000000,
@@ -65674,6 +68507,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-05-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               1000000,
@@ -65691,6 +68525,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-05-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               1000000,
@@ -65716,6 +68551,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-05-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               500000.0,
@@ -65733,6 +68569,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-07-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               2000000,
               3000000,
@@ -65770,6 +68607,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-05-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               250000.0,
@@ -65787,6 +68625,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-05-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -65804,6 +68643,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-05-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               1000000,
@@ -65829,6 +68669,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-05-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               3000000,
@@ -65846,6 +68687,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-07-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               3000000,
               3000000,
@@ -65887,6 +68729,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-05-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -65904,6 +68747,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-05-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               500000.0,
@@ -65926,6 +68770,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-05-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -65949,6 +68794,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-07-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               3000000,
               3000000,
@@ -65991,6 +68837,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-05-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               7000000,
               7000000,
@@ -66008,6 +68855,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-05-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -66025,6 +68873,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-05-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               4000000,
               4000000,
@@ -66042,6 +68891,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-05-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -66059,6 +68909,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-07-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               3000000,
               5000000,
@@ -66097,6 +68948,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-06-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               3000000,
               3000000,
@@ -66118,6 +68970,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-06-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               3000000,
               0,
@@ -66135,6 +68988,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-06-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -66152,6 +69006,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-06-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -66194,6 +69049,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-06-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -66211,6 +69067,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-06-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -66228,6 +69085,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-06-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -66245,6 +69103,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-06-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               800000.0,
@@ -66291,6 +69150,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-06-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -66319,6 +69179,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-06-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -66341,6 +69202,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-06-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -66360,6 +69222,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-06-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -66379,6 +69242,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-08-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               3000000,
               6000000,
@@ -66421,6 +69285,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-06-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -66440,6 +69305,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-06-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               500000.0,
@@ -66457,6 +69323,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-06-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -66474,6 +69341,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-06-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -66516,6 +69384,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-06-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               1200000.0,
               1200000.0,
@@ -66539,6 +69408,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-06-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -66556,6 +69426,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-06-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -66573,6 +69444,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-06-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -66615,6 +69487,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-06-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               3000000,
               0,
@@ -66632,6 +69505,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-06-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -66649,6 +69523,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-06-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -66666,6 +69541,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-06-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -66708,6 +69584,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-06-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               5000000,
               0,
@@ -66725,6 +69602,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-06-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -66742,6 +69620,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-06-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -66759,6 +69638,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-06-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -66800,6 +69680,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-06-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               3000000,
@@ -66822,6 +69703,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-06-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -66839,6 +69721,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-06-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -66856,6 +69739,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-06-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -66897,6 +69781,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-06-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -66914,6 +69799,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-06-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               1500000.0,
@@ -66935,6 +69821,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-06-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               1300000.0,
@@ -66956,6 +69843,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-06-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -66973,6 +69861,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-08-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               1000000,
               3000000,
@@ -67014,6 +69903,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-06-01",
+            "end_date": "2026-09-30",
             "mbo_q": [
               0,
               0,
@@ -67031,6 +69921,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-06-01",
+            "end_date": "2026-09-30",
             "mbo_q": [
               0,
               0,
@@ -67052,6 +69943,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-06-01",
+            "end_date": "2026-09-30",
             "mbo_q": [
               0,
               0,
@@ -67069,6 +69961,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-06-01",
+            "end_date": "2026-09-30",
             "mbo_q": [
               0,
               0,
@@ -67110,6 +70003,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-06-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               3000000,
               0,
@@ -67132,6 +70026,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-06-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -67149,6 +70044,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-06-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -67166,6 +70062,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-06-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -67207,6 +70104,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-06-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               1000000,
               3000000,
@@ -67224,6 +70122,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-06-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -67241,6 +70140,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-06-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -67258,6 +70158,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-06-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -67299,6 +70200,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-06-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               3000000,
@@ -67316,6 +70218,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-06-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -67333,6 +70236,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-06-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -67350,6 +70254,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-06-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -67391,6 +70296,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-06-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               500000.0,
               500000.0,
@@ -67408,6 +70314,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-06-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -67425,6 +70332,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-06-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -67442,6 +70350,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-06-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -67483,6 +70392,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-06-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -67500,6 +70410,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-06-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -67517,6 +70428,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-06-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -67534,6 +70446,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-06-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -67575,6 +70488,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-06-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -67603,6 +70517,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-06-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -67620,6 +70535,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-06-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -67637,6 +70553,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-06-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -67654,6 +70571,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-09-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               3000000,
               3000000,
@@ -67678,8 +70596,8 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2026
     ],
-    "team": null,
-    "rep": "김재진",
+    "team": "RPM4팀",
+    "rep": "이상직",
     "name": "엘리스의원(울산)",
     "biz": 6102771221,
     "contract_date": "2026-06-01",
@@ -67695,6 +70613,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-06-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -67714,6 +70633,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-06-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -67731,6 +70651,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-06-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -67751,6 +70672,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-06-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -67793,6 +70715,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-06-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               2250000.0,
@@ -67810,6 +70733,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-06-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               2272727.2727272725,
               0,
@@ -67827,6 +70751,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-06-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -67844,6 +70769,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-06-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               500000.0,
@@ -67861,6 +70787,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-07-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               2700000.0,
               2700000.0,
@@ -67903,6 +70830,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-06-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               2250000.0,
@@ -67920,6 +70848,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-06-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               2272727.2727272725,
               0,
@@ -67941,6 +70870,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-06-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               500000.0,
@@ -67958,6 +70888,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-06-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -67975,6 +70906,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-07-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               900000.0,
               2700000.0,
@@ -68017,6 +70949,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-06-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               2250000.0,
@@ -68034,6 +70967,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-06-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               2272727.2727272725,
               0,
@@ -68057,6 +70991,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-06-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               500000.0,
@@ -68078,6 +71013,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-06-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -68095,6 +71031,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-07-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               900000.0,
               2700000.0,
@@ -68132,6 +71069,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-06-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               3500000.0,
               3500000.0,
@@ -68157,6 +71095,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-06-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               2500000.0,
               2500000.0,
@@ -68178,6 +71117,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-06-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               2640000.0,
               2640000.0,
@@ -68203,6 +71143,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-06-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               2640000.0,
               2640000.0,
@@ -68220,6 +71161,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-08-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               2970000.0,
               2970000.0,
@@ -68257,6 +71199,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-06-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               3500000.0,
               3500000.0,
@@ -68276,6 +71219,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-06-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               2500000.0,
               2500000.0,
@@ -68293,6 +71237,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-06-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               2640000.0,
               2640000.0,
@@ -68310,6 +71255,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-06-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               2640000.0,
               2640000.0,
@@ -68327,6 +71273,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-08-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               2970000.0,
               2970000.0,
@@ -68364,6 +71311,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-06-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               3500000.0,
               3500000.0,
@@ -68381,6 +71329,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-06-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               2500000.0,
               2500000.0,
@@ -68398,6 +71347,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-06-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               2640000.0,
               2640000.0,
@@ -68415,6 +71365,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-06-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               2640000.0,
               2640000.0,
@@ -68432,6 +71383,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-08-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               2970000.0,
               2970000.0,
@@ -68469,6 +71421,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-06-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               3500000.0,
               3500000.0,
@@ -68486,6 +71439,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-06-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               2500000.0,
               2500000.0,
@@ -68503,6 +71457,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-06-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               2640000.0,
               2640000.0,
@@ -68520,6 +71475,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-06-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               2640000.0,
               2640000.0,
@@ -68537,6 +71493,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-08-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               2970000.0,
               2970000.0,
@@ -68574,6 +71531,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-06-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               3500000.0,
               3500000.0,
@@ -68591,6 +71549,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-06-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               2500000.0,
               2500000.0,
@@ -68608,6 +71567,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-06-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               2640000.0,
               2640000.0,
@@ -68625,6 +71585,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-06-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               2640000.0,
               2640000.0,
@@ -68642,6 +71603,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-08-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               2970000.0,
               2970000.0,
@@ -68679,6 +71641,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-06-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               3500000.0,
               3500000.0,
@@ -68696,6 +71659,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-06-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               2500000.0,
               2500000.0,
@@ -68713,6 +71677,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-06-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               2640000.0,
               2640000.0,
@@ -68730,6 +71695,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-06-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               2640000.0,
               2640000.0,
@@ -68771,6 +71737,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-06-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               3500000.0,
               3500000.0,
@@ -68788,6 +71755,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-06-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               2500000.0,
               2500000.0,
@@ -68805,6 +71773,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-06-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               2640000.0,
               2640000.0,
@@ -68822,6 +71791,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-06-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               2640000.0,
               2640000.0,
@@ -68839,6 +71809,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-08-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               2970000.0,
               2970000.0,
@@ -68876,6 +71847,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-06-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               3500000.0,
               3500000.0,
@@ -68893,6 +71865,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-06-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               2500000.0,
               2500000.0,
@@ -68910,6 +71883,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-06-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               2640000.0,
               2640000.0,
@@ -68927,6 +71901,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-06-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               2640000.0,
               2640000.0,
@@ -68944,6 +71919,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-08-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               2970000.0,
               2970000.0,
@@ -68985,6 +71961,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-06-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               3500000.0,
               3500000.0,
@@ -69002,6 +71979,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-06-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               2500000.0,
               2500000.0,
@@ -69019,6 +71997,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-06-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               2640000.0,
               2640000.0,
@@ -69036,6 +72015,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-06-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               2640000.0,
               2640000.0,
@@ -69053,6 +72033,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-08-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               2970000.0,
               2970000.0,
@@ -69090,6 +72071,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-06-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               3500000.0,
               3500000.0,
@@ -69111,6 +72093,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-06-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               2500000.0,
               2500000.0,
@@ -69128,6 +72111,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-06-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               2640000.0,
               2640000.0,
@@ -69145,6 +72129,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-06-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               2640000.0,
               2640000.0,
@@ -69162,6 +72147,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-08-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               2970000.0,
               2970000.0,
@@ -69199,6 +72185,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-06-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               3500000.0,
               3500000.0,
@@ -69216,6 +72203,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-06-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               2500000.0,
               2500000.0,
@@ -69233,6 +72221,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-06-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               2640000.0,
               2640000.0,
@@ -69250,6 +72239,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-06-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               2640000.0,
               2640000.0,
@@ -69267,6 +72257,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-08-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               2970000.0,
               2970000.0,
@@ -69304,6 +72295,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-06-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               3500000.0,
               3500000.0,
@@ -69329,6 +72321,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-06-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               2500000.0,
               2500000.0,
@@ -69346,6 +72339,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-06-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               2640000.0,
               2640000.0,
@@ -69363,6 +72357,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-06-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               2640000.0,
               2640000.0,
@@ -69380,6 +72375,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-08-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               2970000.0,
               2970000.0,
@@ -69417,6 +72413,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-06-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               3500000.0,
               3500000.0,
@@ -69434,6 +72431,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-06-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               2500000.0,
               2500000.0,
@@ -69451,6 +72449,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-06-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               2640000.0,
               2640000.0,
@@ -69468,6 +72467,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-06-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               2640000.0,
               2640000.0,
@@ -69485,6 +72485,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-08-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               2970000.0,
               2970000.0,
@@ -69522,6 +72523,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-06-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               3500000.0,
               3500000.0,
@@ -69539,6 +72541,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-06-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               2500000.0,
               2500000.0,
@@ -69556,6 +72559,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-06-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               2640000.0,
               2640000.0,
@@ -69573,6 +72577,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-06-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               2640000.0,
               2640000.0,
@@ -69615,6 +72620,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-06-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               1000000,
               2000000,
@@ -69632,6 +72638,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-06-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               10000000,
               10000000,
@@ -69667,6 +72674,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-06-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               20000000,
               20000000,
@@ -69692,6 +72700,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-06-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               500000.0,
               500000.0,
@@ -69709,6 +72718,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-07-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               2000000,
               3000000,
@@ -69753,6 +72763,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-06-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               5000000,
               6000000,
@@ -69782,6 +72793,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-06-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -69799,6 +72811,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-06-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               1000000,
               1500000.0,
@@ -69816,6 +72829,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-06-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -69833,6 +72847,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-07-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               2000000,
               2000000,
@@ -69886,6 +72901,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-07-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               5000000,
               5000000,
@@ -69939,6 +72955,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-07-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               3000000,
               3000000,
@@ -69992,6 +73009,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-07-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               3000000,
               3000000,
@@ -70012,8 +73030,8 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2026
     ],
-    "team": null,
-    "rep": "김재진",
+    "team": "RPM4팀",
+    "rep": "이상직",
     "name": "베러미의원",
     "biz": 1092854772,
     "contract_date": "2026-07-01",
@@ -70057,6 +73075,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-07-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               5000000,
               5000000,
@@ -70115,6 +73134,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-07-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               10000000,
               10000000,
@@ -70168,6 +73188,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-07-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               5000000,
               5000000,
@@ -70255,6 +73276,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-07-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               5000000,
               5000000,
@@ -70313,6 +73335,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-07-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               3000000,
               3000000,
@@ -70369,6 +73392,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-07-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               5000000,
               5000000,
@@ -70424,6 +73448,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-07-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               10000000,
               10000000,
@@ -70477,6 +73502,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-07-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               5000000,
               5000000,
@@ -70540,6 +73566,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-07-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               3000000,
               7000000,
@@ -70593,6 +73620,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-07-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               5000000,
               5000000,
@@ -70658,6 +73686,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-07-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               5000000,
               5000000,
@@ -70728,6 +73757,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-07-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               10000000,
               10000000,
@@ -70781,6 +73811,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-07-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               3000000,
               3000000,
@@ -70834,6 +73865,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-07-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               5000000,
               5000000,
@@ -70895,6 +73927,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-07-01",
+            "end_date": "2026-09-30",
             "mbo_q": [
               3000000,
               6000000,
@@ -70960,6 +73993,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-07-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               5000000,
               5000000,
@@ -71017,6 +74051,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-07-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               5000000,
               5000000,
@@ -71082,6 +74117,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-07-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               3000000,
               7000000,
@@ -71136,6 +74172,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-07-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               2000000,
               3000000,
@@ -71189,6 +74226,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-07-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               5000000,
               5000000,
@@ -71226,6 +74264,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-08-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -71243,6 +74282,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-08-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -71260,6 +74300,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-08-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               5000000,
               5000000,
@@ -71283,6 +74324,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-08-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -71300,6 +74342,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-07-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               5000000,
               5000000,
@@ -71325,8 +74368,8 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": null,
-    "rep": "김재진",
+    "team": "RPM4팀",
+    "rep": "이상직",
     "name": "베러미의원",
     "biz": 2141568923,
     "contract_date": "2026-07-01",
@@ -71361,6 +74404,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-07-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               5000000,
               10000000,
@@ -71418,6 +74462,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-07-01",
+            "end_date": "2026-09-30",
             "mbo_q": [
               6000000,
               9000000,
@@ -71471,6 +74516,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-07-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               3000000,
               3000000,
@@ -71525,6 +74571,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-07-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               5000000,
               5000000,
@@ -71587,6 +74634,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-07-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               5000000,
               5000000,
@@ -71640,6 +74688,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-07-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               5000000,
               5000000,
@@ -71704,6 +74753,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-07-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               5000000,
               5000000,
@@ -71758,6 +74808,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-07-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               2000000,
               3000000,
@@ -71811,6 +74862,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-07-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               3000000,
               3000000,
@@ -71890,6 +74942,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-07-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               3000000,
               7000000,
@@ -71943,6 +74996,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-07-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               5000000,
               5000000,
@@ -72013,6 +75067,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-07-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               5000000,
               5000000,
@@ -72067,6 +75122,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-07-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               4000000,
               4000000,
@@ -72104,6 +75160,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-07-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -72121,6 +75178,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-07-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               5000000,
               5000000,
@@ -72142,6 +75200,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-07-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               3000000,
               3000000,
@@ -72159,6 +75218,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-07-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -72176,6 +75236,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-07-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               10000000,
               10000000,
@@ -72229,6 +75290,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-07-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               5000000,
               5000000,
@@ -72288,6 +75350,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-07-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               5000000,
               5000000,
@@ -72348,6 +75411,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-07-01",
+            "end_date": "2026-09-30",
             "mbo_q": [
               3000000,
               6000000,
@@ -72412,6 +75476,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-07-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               5000000,
               5000000,
@@ -72480,6 +75545,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-07-01",
+            "end_date": "2026-09-30",
             "mbo_q": [
               3000000,
               6000000,
@@ -72533,6 +75599,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-07-01",
+            "end_date": "2026-08-31",
             "mbo_q": [
               10000000,
               10000000,
@@ -72596,6 +75663,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-07-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               10000000,
               10000000,
@@ -72661,6 +75729,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-07-01",
+            "end_date": "2026-09-30",
             "mbo_q": [
               6000000,
               9000000,
@@ -72736,6 +75805,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-07-01",
+            "end_date": "2026-09-30",
             "mbo_q": [
               3000000,
               6000000,
@@ -72836,6 +75906,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-07-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               3000000,
               3000000,
@@ -72889,6 +75960,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-07-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               5000000,
               5000000,
@@ -72942,6 +76014,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-07-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               5000000,
               5000000,
@@ -73000,6 +76073,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-07-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               10000000,
               10000000,
@@ -73057,6 +76131,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-07-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               10000000,
               10000000,
@@ -73114,6 +76189,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-07-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               3000000,
               3000000,
@@ -73182,6 +76258,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-07-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               5000000,
               5000000,
@@ -73239,6 +76316,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-07-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               5000000,
               5000000,
@@ -73308,6 +76386,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-07-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               5000000,
               5000000,
@@ -73361,6 +76440,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-07-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               5000000,
               5000000,
@@ -73424,6 +76504,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-07-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               10000000,
               10000000,
@@ -73465,6 +76546,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-08-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -73482,6 +76564,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-08-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -73499,6 +76582,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-08-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               3000000,
               3000000,
@@ -73516,6 +76600,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-08-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -73533,6 +76618,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-07-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               5000000,
               5000000,
@@ -73591,6 +76677,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-07-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               5000000,
               5000000,
@@ -73612,8 +76699,8 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": null,
-    "rep": "김재진",
+    "team": "RPM4팀",
+    "rep": "이상직",
     "name": "로제피부과의원",
     "biz": 5022974178,
     "contract_date": "2026-07-01",
@@ -73671,6 +76758,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-07-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               3000000,
               3000000,
@@ -73739,6 +76827,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-07-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               3000000,
               3000000,
@@ -73802,6 +76891,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-07-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               3000000,
               3000000,
@@ -73859,6 +76949,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-07-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               10000000,
               10000000,
@@ -73917,6 +77008,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-07-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               5000000,
               5000000,
@@ -73970,6 +77062,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-07-01",
+            "end_date": "2026-09-30",
             "mbo_q": [
               3000000,
               6000000,
@@ -74040,6 +77133,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-07-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               10000000,
               10000000,
@@ -74099,6 +77193,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-07-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               5000000,
               5000000,
@@ -74153,6 +77248,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-07-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               2000000,
               4000000,
@@ -74206,6 +77302,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-07-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               5000000,
               5000000,
@@ -74264,6 +77361,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-07-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               5000000,
               5000000,
@@ -74317,6 +77415,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-07-01",
+            "end_date": "2026-09-30",
             "mbo_q": [
               6000000,
               9000000,
@@ -74338,8 +77437,8 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": null,
-    "rep": "김재진",
+    "team": "RPM4팀",
+    "rep": "이상직",
     "name": "지미의원",
     "biz": 5462202374,
     "contract_date": "2026-07-01",
@@ -74371,6 +77470,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-07-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               5000000,
               5000000,
@@ -74430,6 +77530,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-07-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               3000000,
               3000000,
@@ -74487,6 +77588,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-07-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               3000000,
               3000000,
@@ -74548,6 +77650,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-07-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               5000000,
               5000000,
@@ -74601,6 +77704,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-07-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               5000000,
               5000000,
@@ -74657,6 +77761,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-07-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               5000000,
               5000000,
@@ -74726,6 +77831,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-07-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               3000000,
               3000000,
@@ -74779,6 +77885,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-07-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               5000000,
               5000000,
@@ -74832,6 +77939,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-07-01",
+            "end_date": "2026-09-30",
             "mbo_q": [
               3000000,
               6000000,
@@ -74902,6 +78010,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-07-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               3000000,
               3000000,
@@ -74967,6 +78076,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-07-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               3000000,
               3000000,
@@ -75021,6 +78131,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-07-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               4000000,
               4000000,
@@ -75042,8 +78153,8 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": null,
-    "rep": "김재진",
+    "team": "RPM4팀",
+    "rep": "이상직",
     "name": "닥터디자이너의원 죽전",
     "biz": 6110997889,
     "contract_date": "2026-07-01",
@@ -75075,6 +78186,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-07-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               5000000,
               5000000,
@@ -75129,6 +78241,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-07-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               3000000,
               3000000,
@@ -75183,6 +78296,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-07-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               3000000,
               3000000,
@@ -75236,6 +78350,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-07-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               5000000,
               5000000,
@@ -75292,6 +78407,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-07-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               5000000,
               5000000,
@@ -75346,6 +78462,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-07-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               5000000,
               5000000,
@@ -75416,6 +78533,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-07-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               10000000,
               10000000,
@@ -75469,6 +78587,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-07-01",
+            "end_date": "2026-09-30",
             "mbo_q": [
               3000000,
               6000000,
@@ -75542,6 +78661,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-07-01",
+            "end_date": "2026-09-30",
             "mbo_q": [
               6000000,
               9000000,
@@ -75599,6 +78719,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-07-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               3000000,
               3000000,
@@ -75659,6 +78780,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-07-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               3000000,
               3000000,
@@ -75712,6 +78834,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-07-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               3000000,
               7000000,
@@ -75766,6 +78889,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-07-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               3000000,
               3000000,
@@ -75827,6 +78951,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-07-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               5000000,
               5000000,
@@ -75880,6 +79005,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-07-01",
+            "end_date": "2026-09-30",
             "mbo_q": [
               3000000,
               6000000,
@@ -75933,6 +79059,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-07-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               5000000,
               5000000,
@@ -75986,6 +79113,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-07-01",
+            "end_date": "2026-09-30",
             "mbo_q": [
               3000000,
               6000000,
@@ -76051,6 +79179,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-07-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               5000000,
               5000000,
@@ -76104,6 +79233,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-07-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               10000000,
               10000000,
@@ -76157,6 +79287,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-07-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               5000000,
               5000000,
@@ -76215,6 +79346,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-07-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               5000000,
               5000000,
@@ -76269,6 +79401,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-07-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               3000000,
               3000000,
@@ -76342,6 +79475,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-07-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               10000000,
               10000000,
@@ -76399,6 +79533,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-07-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               5000000,
               5000000,
@@ -76452,6 +79587,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-07-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               5000000,
               5000000,
@@ -76517,6 +79653,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-07-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               10000000,
               10000000,
@@ -76570,6 +79707,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-07-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               2000000,
               2000000,
@@ -76624,6 +79762,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-07-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               5000000,
               5000000,
@@ -76678,6 +79817,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-07-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               10000000,
               10000000,
@@ -76699,8 +79839,8 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": null,
-    "rep": "김재진",
+    "team": "RPM4팀",
+    "rep": "이상직",
     "name": "친절한미소의원",
     "biz": 8880402385,
     "contract_date": "2026-07-01",
@@ -76745,6 +79885,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-07-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               3000000,
               3000000,
@@ -76813,6 +79954,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-07-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               1800000.0,
               1800000.0,
@@ -76873,6 +80015,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-07-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               2700000.0,
               4500000.0,
@@ -76931,6 +80074,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-07-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               900000.0,
               900000.0,
@@ -76996,6 +80140,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-07-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               2700000.0,
               4500000.0,
@@ -77050,6 +80195,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-07-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               2700000.0,
               2700000.0,
@@ -77104,6 +80250,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-07-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               2700000.0,
               2700000.0,
@@ -77158,6 +80305,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-07-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               2700000.0,
               2700000.0,
@@ -77212,6 +80360,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-07-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               2700000.0,
               2700000.0,
@@ -77270,6 +80419,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-07-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               2700000.0,
               4500000.0,
@@ -77331,6 +80481,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-07-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               2700000.0,
               4500000.0,
@@ -77389,6 +80540,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-07-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               2700000.0,
               2700000.0,
@@ -77448,6 +80600,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-07-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               900000.0,
               2700000.0,
@@ -77502,6 +80655,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-07-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               900000.0,
               2700000.0,
@@ -77556,6 +80710,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-07-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               900000.0,
               2700000.0,
@@ -77610,6 +80765,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-07-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               900000.0,
               2700000.0,
@@ -77664,6 +80820,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-07-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               900000.0,
               2700000.0,
@@ -77718,6 +80875,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-07-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               900000.0,
               900000.0,
@@ -77772,6 +80930,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-07-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               900000.0,
               2700000.0,
@@ -77830,6 +80989,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-07-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               2700000.0,
               2700000.0,
@@ -77884,6 +81044,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-07-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               2700000.0,
               2700000.0,
@@ -77946,6 +81107,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-07-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               900000.0,
               2700000.0,
@@ -78000,6 +81162,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-07-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               2700000.0,
               2700000.0,
@@ -78053,6 +81216,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-07-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               900000.0,
               2700000.0,
@@ -78077,8 +81241,8 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2026
     ],
-    "team": null,
-    "rep": "김재진",
+    "team": "RPM4팀",
+    "rep": "이상직",
     "name": "\t더차오름의원",
     "biz": 5384101036,
     "contract_date": "2026-07-01",
@@ -78094,6 +81258,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-07-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               10000000,
               10000000,
@@ -78117,6 +81282,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-07-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               5000000,
               5000000,
@@ -78134,6 +81300,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-07-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               5000000,
               5000000,
@@ -78157,6 +81324,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-07-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -78198,6 +81366,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-07-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               3000000,
               3000000,
@@ -78215,6 +81384,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-07-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               3000000,
               3000000,
@@ -78232,6 +81402,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-07-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               3000000,
               3000000,
@@ -78249,6 +81420,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-07-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -78290,6 +81462,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-07-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -78307,6 +81480,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-07-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -78324,6 +81498,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-07-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               1000000,
               2000000,
@@ -78341,6 +81516,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-07-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               1000000,
               1000000,
@@ -78382,6 +81558,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-07-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -78399,6 +81576,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-07-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -78416,6 +81594,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-07-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               3000000,
               3000000,
@@ -78433,6 +81612,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-07-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -78474,6 +81654,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-07-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -78491,6 +81672,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-07-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -78508,6 +81690,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-07-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               3000000,
               4000000,
@@ -78525,6 +81708,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-07-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -78566,6 +81750,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-07-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -78583,6 +81768,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-07-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -78600,6 +81786,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-07-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               2000000,
               4000000,
@@ -78617,6 +81804,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-07-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -78658,6 +81846,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-07-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -78675,6 +81864,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-07-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -78692,6 +81882,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-07-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               1000000,
               2000000,
@@ -78709,6 +81900,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-07-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -78750,6 +81942,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-07-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -78767,6 +81960,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-07-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -78784,6 +81978,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-07-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               2000000,
               3000000,
@@ -78801,6 +81996,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-07-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -78842,6 +82038,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-07-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -78859,6 +82056,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-07-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -78876,6 +82074,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-07-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               3000000,
               3000000,
@@ -78893,6 +82092,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-07-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -78934,6 +82134,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-07-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -78951,6 +82152,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-07-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -78970,6 +82172,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-07-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               2000000,
               2000000,
@@ -78987,6 +82190,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-07-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -79028,6 +82232,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-07-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -79045,6 +82250,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-07-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               2000000,
               2000000,
@@ -79062,6 +82268,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-07-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               1000000,
               2000000,
@@ -79079,6 +82286,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-07-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -79120,6 +82328,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-07-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -79137,6 +82346,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-07-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -79154,6 +82364,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-07-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               500000.0,
               1000000,
@@ -79171,6 +82382,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-07-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -79212,6 +82424,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-07-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -79229,6 +82442,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-07-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -79262,6 +82476,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-07-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               1000000,
               2000000,
@@ -79279,6 +82494,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-07-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -79320,6 +82536,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-07-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -79337,6 +82554,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-07-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -79354,6 +82572,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-07-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               2000000,
               4000000,
@@ -79371,6 +82590,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-07-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -79412,6 +82632,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-07-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -79429,6 +82650,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-07-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -79446,6 +82668,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-07-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               1000000,
               1000000,
@@ -79463,6 +82686,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-07-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -79504,6 +82728,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-07-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -79525,6 +82750,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-07-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               2000000,
               0,
@@ -79542,6 +82768,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-07-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               2000000,
               2000000,
@@ -79559,6 +82786,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-07-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -79600,6 +82828,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-07-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -79617,6 +82846,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-07-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -79634,6 +82864,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-07-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               1000000,
               2000000,
@@ -79651,6 +82882,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-07-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -79692,6 +82924,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-07-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -79709,6 +82942,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-07-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -79726,6 +82960,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-07-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               1000000,
               1000000,
@@ -79743,6 +82978,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-07-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -79784,6 +83020,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-07-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -79810,6 +83047,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-07-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               2000000,
               4000000,
@@ -79827,6 +83065,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-07-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               3000000,
               3000000,
@@ -79848,6 +83087,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-07-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -79891,6 +83131,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-07-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -79908,6 +83149,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-07-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -79925,6 +83167,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-07-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               2000000,
               2000000,
@@ -79942,6 +83185,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-07-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -79987,6 +83231,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-07-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -80004,6 +83249,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-07-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -80021,6 +83267,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-07-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               1000000,
               1000000,
@@ -80038,6 +83285,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-07-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -80080,6 +83328,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-07-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -80097,6 +83346,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-07-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               2000000,
               4000000,
@@ -80118,6 +83368,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-07-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               3000000,
               3000000,
@@ -80139,6 +83390,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-07-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -80181,6 +83433,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-07-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               5000000,
               0,
@@ -80202,6 +83455,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-07-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               5000000,
               0,
@@ -80219,6 +83473,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-07-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -80236,6 +83491,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-07-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -80278,6 +83534,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-08-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               1000000,
               2000000,
@@ -80295,6 +83552,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-08-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               1000000,
               1000000,
@@ -80312,6 +83570,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-08-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               5000000,
               5000000,
@@ -80329,6 +83588,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-08-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               500000.0,
               500000.0,
@@ -80375,6 +83635,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-08-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               1000000,
               2000000,
@@ -80392,6 +83653,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-08-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               1000000,
               1000000,
@@ -80413,6 +83675,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-08-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               1000000,
               1000000,
@@ -80434,6 +83697,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-08-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               500000.0,
               500000.0,
@@ -80476,6 +83740,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-08-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               1000000,
               2000000,
@@ -80493,6 +83758,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-08-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               1000000,
               1000000,
@@ -80514,6 +83780,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-08-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               5000000,
               5000000,
@@ -80535,6 +83802,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-08-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               500000.0,
               500000.0,
@@ -80576,6 +83844,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-08-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               2000000,
               3000000,
@@ -80597,6 +83866,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-08-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               1000000,
               2000000,
@@ -80614,6 +83884,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-08-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               2000000,
               3000000,
@@ -80631,6 +83902,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-08-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               1000000,
               1500000.0,
@@ -80648,6 +83920,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-08-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               6000000,
               7000000,
@@ -80689,6 +83962,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-08-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               2000000,
               3000000,
@@ -80706,6 +83980,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-08-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               1000000,
               2000000,
@@ -80723,6 +83998,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-08-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               2000000,
               3000000,
@@ -80740,6 +84016,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-08-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               1000000,
               1500000.0,
@@ -80757,6 +84034,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-08-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               3000000,
               4000000,
@@ -80794,6 +84072,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-08-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               2000000,
               3000000,
@@ -80815,6 +84094,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-08-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               1000000,
               2000000,
@@ -80832,6 +84112,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-08-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               2000000,
               3000000,
@@ -80849,6 +84130,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-08-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               1000000,
               1500000.0,
@@ -80866,6 +84148,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-08-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               4000000,
               5000000,
@@ -80903,6 +84186,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-08-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               2000000,
               3000000,
@@ -80920,6 +84204,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-08-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               1000000,
               2000000,
@@ -80937,6 +84222,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-08-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               2000000,
               3000000,
@@ -80954,6 +84240,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-08-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               1000000,
               1500000.0,
@@ -80971,6 +84258,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-08-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               3000000,
               4000000,
@@ -81008,6 +84296,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-08-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               2000000,
               3000000,
@@ -81029,6 +84318,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-08-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               1000000,
               2000000,
@@ -81046,6 +84336,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-08-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               2000000,
               3000000,
@@ -81063,6 +84354,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-08-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               1000000,
               1500000.0,
@@ -81080,6 +84372,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-08-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               1000000,
               2000000,
@@ -81117,6 +84410,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-08-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               2000000,
               3000000,
@@ -81138,6 +84432,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-08-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               1000000,
               2000000,
@@ -81155,6 +84450,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-08-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               2000000,
               3000000,
@@ -81172,6 +84468,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-08-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               1000000,
               1500000.0,
@@ -81189,6 +84486,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-08-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               1000000,
               2000000,
@@ -81226,6 +84524,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-08-01",
+            "end_date": "2026-09-30",
             "mbo_q": [
               0,
               0,
@@ -81243,6 +84542,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-08-01",
+            "end_date": "2026-09-30",
             "mbo_q": [
               3000000,
               3000000,
@@ -81260,6 +84560,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-08-01",
+            "end_date": "2026-09-30",
             "mbo_q": [
               2000000,
               2000000,
@@ -81277,6 +84578,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-08-01",
+            "end_date": "2026-09-30",
             "mbo_q": [
               0,
               0,
@@ -81334,6 +84636,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-08-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               2000000,
               3000000,
@@ -81387,6 +84690,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-08-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               1000000,
               2000000,
@@ -81445,6 +84749,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-08-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               3000000,
               3000000,
@@ -81482,6 +84787,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-08-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               1000000,
               1000000,
@@ -81499,6 +84805,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-08-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               5000000,
               5000000,
@@ -81522,6 +84829,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-08-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               5000000,
               1000000,
@@ -81543,6 +84851,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-08-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               1000000,
               1000000,
@@ -81643,6 +84952,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-08-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               3000000,
               6000000,
@@ -81696,6 +85006,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-08-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               2970000.0,
               2970000.0,
@@ -81737,6 +85048,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-08-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -81764,6 +85076,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-08-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               3000000,
               3000000,
@@ -81781,6 +85094,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-08-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               2000000,
               2000000,
@@ -81802,6 +85116,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-08-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -81819,6 +85134,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-08-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               2000000,
               2000000,
@@ -81860,6 +85176,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-08-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -81877,6 +85194,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-08-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -81894,6 +85212,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-08-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               2000000,
               2000000,
@@ -81915,6 +85234,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-08-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -81932,6 +85252,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-08-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               2000000,
               2000000,
@@ -81970,6 +85291,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-08-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -81987,6 +85309,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-08-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               3000000,
               0,
@@ -82008,6 +85331,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-08-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               1000000,
               2000000,
@@ -82025,6 +85349,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-08-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -82067,6 +85392,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-08-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               2000000,
               3000000,
@@ -82084,6 +85410,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-08-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               1000000,
               2000000,
@@ -82117,6 +85444,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-08-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               2000000,
               3000000,
@@ -82134,6 +85462,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-08-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               1000000,
               1500000.0,
@@ -82191,6 +85520,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-08-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               3000000,
               3000000,
@@ -82229,6 +85559,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-08-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -82246,6 +85577,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-08-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               2000000,
               2000000,
@@ -82263,6 +85595,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-08-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -82284,6 +85617,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-08-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               2000000,
               2000000,
@@ -82307,6 +85641,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-08-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               2000000,
               2000000,
@@ -82345,6 +85680,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-08-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               2250000.0,
@@ -82362,6 +85698,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-08-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               2272727.2727272725,
               0,
@@ -82379,6 +85716,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-08-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               2400000.0,
@@ -82396,6 +85734,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-08-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -82413,6 +85752,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-08-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               3000000,
               0,
@@ -82451,6 +85791,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-08-01",
+            "end_date": "2026-09-30",
             "mbo_q": [
               0,
               2250000.0,
@@ -82468,6 +85809,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-08-01",
+            "end_date": "2026-09-30",
             "mbo_q": [
               2272727.2727272725,
               0,
@@ -82488,6 +85830,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-08-01",
+            "end_date": "2026-09-30",
             "mbo_q": [
               0,
               0,
@@ -82505,6 +85848,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-08-01",
+            "end_date": "2026-09-30",
             "mbo_q": [
               0,
               0,
@@ -82522,6 +85866,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-08-01",
+            "end_date": "2026-09-30",
             "mbo_q": [
               3000000,
               3000000,
@@ -82560,6 +85905,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-08-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               2250000.0,
@@ -82577,6 +85923,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-08-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               2272727.2727272725,
               0,
@@ -82594,6 +85941,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-08-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -82611,6 +85959,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-08-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -82628,6 +85977,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-08-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               3000000,
               3000000,
@@ -82670,6 +86020,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-08-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               2250000.0,
@@ -82691,6 +86042,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-08-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               2272727.2727272725,
               0,
@@ -82708,6 +86060,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-08-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -82725,6 +86078,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-08-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -82742,6 +86096,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-08-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               3000000,
               0,
@@ -82780,6 +86135,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-08-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               2250000.0,
@@ -82799,6 +86155,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-08-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               2272727.2727272725,
               0,
@@ -82822,6 +86179,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-08-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               2400000.0,
               2400000.0,
@@ -82839,6 +86197,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-08-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -82856,6 +86215,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-08-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               3000000,
               3000000,
@@ -82894,6 +86254,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-08-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               2250000.0,
@@ -82915,6 +86276,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-08-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               2272727.2727272725,
               0,
@@ -82932,6 +86294,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-08-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -82949,6 +86312,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-08-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -82966,6 +86330,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-08-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               1999999.9,
               2999999.9999999995,
@@ -83004,6 +86369,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-09-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               3000000,
               5000000,
@@ -83021,6 +86387,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-09-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               1500000.0,
               1500000.0,
@@ -83038,6 +86405,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-09-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               1000000,
               2000000,
@@ -83055,6 +86423,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-09-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               500000.0,
               500000.0,
@@ -83072,6 +86441,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-09-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               3000000,
               5000000,
@@ -83126,6 +86496,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-09-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               2000000,
               2000000,
@@ -83183,6 +86554,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-09-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               1000000,
               1000000,
@@ -83220,6 +86592,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-09-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               3500000.0,
               3500000.0,
@@ -83237,6 +86610,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-09-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               2500000.0,
               2500000.0,
@@ -83254,6 +86628,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-09-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               2640000.0,
               2640000.0,
@@ -83271,6 +86646,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-09-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               2640000.0,
               2640000.0,
@@ -83288,6 +86664,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-09-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               2970000.0,
               2970000.0,
@@ -83325,6 +86702,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-09-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               3500000.0,
               3500000.0,
@@ -83342,6 +86720,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-09-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               2500000.0,
               2500000.0,
@@ -83359,6 +86738,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-09-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               2640000.0,
               2640000.0,
@@ -83376,6 +86756,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-09-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               2640000.0,
               2640000.0,
@@ -83393,6 +86774,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-09-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               2970000.0,
               2970000.0,
@@ -83430,6 +86812,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-09-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               3500000.0,
               3500000.0,
@@ -83447,6 +86830,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-09-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               2500000.0,
               2500000.0,
@@ -83464,6 +86848,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-09-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               2640000.0,
               2640000.0,
@@ -83481,6 +86866,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-09-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               2640000.0,
               2640000.0,
@@ -83498,6 +86884,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-09-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               2970000.0,
               2970000.0,
@@ -83535,6 +86922,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-09-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               3500000.0,
               3500000.0,
@@ -83552,6 +86940,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-09-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               2500000.0,
               2500000.0,
@@ -83569,6 +86958,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-09-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               2640000.0,
               2640000.0,
@@ -83586,6 +86976,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-09-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               2640000.0,
               2640000.0,
@@ -83603,6 +86994,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-09-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               2970000.0,
               2970000.0,
@@ -83641,6 +87033,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-09-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               10000000,
               10000000,
@@ -83648,13 +87041,15 @@ window.BLOCK_DETAIL = [
               20000000
             ],
             "actual_by_month": {
-              "2026-09": 10909091.0
+              "2026-09": 10909091.0,
+              "2026-10": 16363637.0
             },
             "remark": ""
           }
         },
         "actual_by_month": {
-          "2026-09": 10909091.0
+          "2026-09": 10909091.0,
+          "2026-10": 16363637.0
         }
       },
       "브이올렛": {
@@ -83662,6 +87057,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-09-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               5000000,
               5000000,
@@ -83679,6 +87075,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-09-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               1000000,
               1000000,
@@ -83696,6 +87093,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-09-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               500000.0,
               500000.0,
@@ -83713,6 +87111,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-09-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               1000000,
               1000000,
@@ -83750,6 +87149,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-09-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               3500000.0,
               3500000.0,
@@ -83767,6 +87167,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-09-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               2500000.0,
               2500000.0,
@@ -83784,6 +87185,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-09-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               2640000.0,
               2640000.0,
@@ -83801,6 +87203,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-09-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               2640000.0,
               2640000.0,
@@ -83818,6 +87221,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-09-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               2970000.0,
               2970000.0,
@@ -83855,6 +87259,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-09-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -83872,6 +87277,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-09-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -83889,6 +87295,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-09-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               2000000,
               2000000,
@@ -83906,6 +87313,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-09-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -83927,6 +87335,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-09-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               1000000,
               2000000,
@@ -83947,8 +87356,8 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2026
     ],
-    "team": null,
-    "rep": "김재진",
+    "team": "RPM4팀",
+    "rep": "이상직",
     "name": "제이유의원",
     "biz": 7273000927,
     "contract_date": "2026-09-01",
@@ -83964,6 +87373,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-09-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               1500000.0,
               1500000.0,
@@ -83985,6 +87395,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-09-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               500000.0,
               500000.0,
@@ -84006,6 +87417,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-09-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               500000.0,
               500000.0,
@@ -84023,6 +87435,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-09-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               0,
               0,
@@ -84040,6 +87453,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-09-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               3000000,
               3000000,
@@ -84081,6 +87495,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-09-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               1000000,
               1000000,
@@ -84098,6 +87513,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-09-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               1000000,
               1000000,
@@ -84115,6 +87531,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-09-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               2000000,
               2000000,
@@ -84132,6 +87549,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-09-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               500000.0,
               1000000,
@@ -84149,6 +87567,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-09-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               3000000,
               4000000,
@@ -84207,6 +87626,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-09-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               2000000,
               4000000,
@@ -84251,6 +87671,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-09-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               5000000,
               5000000,
@@ -84274,6 +87695,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-09-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               1000000,
               1000000,
@@ -84291,6 +87713,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-09-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               5000000,
               5000000,
@@ -84313,6 +87736,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-09-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               500000.0,
               500000.0,
@@ -84330,6 +87754,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-09-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               2000000,
               2000000,
@@ -84371,6 +87796,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-09-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               3500000.0,
               3500000.0,
@@ -84388,6 +87814,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-09-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               2500000.0,
               2500000.0,
@@ -84405,6 +87832,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-09-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               2640000.0,
               2640000.0,
@@ -84422,6 +87850,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-09-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               2640000.0,
               2640000.0,
@@ -84439,6 +87868,7 @@ window.BLOCK_DETAIL = [
           "2026": {
             "contracted": true,
             "contract_date": "2026-09-01",
+            "end_date": "2026-12-31",
             "mbo_q": [
               2970000.0,
               2970000.0,
@@ -84739,8 +88169,8 @@ window.BLOCK_META = {
     "2026-09",
     "2026-10"
   ],
-  "generated_at": "2026-10-15 09:33",
-  "latest_sales_date": "2026-10-14"
+  "generated_at": "2026-10-16 08:31",
+  "latest_sales_date": "2026-10-15"
 };
 window.TEAM_MEMBERS = {
   "RPM1팀": [
@@ -84763,6 +88193,7 @@ window.TEAM_MEMBERS = {
   ],
   "RPM4팀": [
     "송진영",
+    "손창민",
     "이다별",
     "이상직"
   ],
