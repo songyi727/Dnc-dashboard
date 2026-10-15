@@ -7637,8 +7637,8 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM4팀",
-    "rep": "이상직",
+    "team": null,
+    "rep": "김재진",
     "name": "헤어로의원(대구)",
     "biz": 1411102493,
     "contract_date": "2025-01-01",
@@ -16700,8 +16700,8 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2025
     ],
-    "team": "RPM4팀",
-    "rep": "이상직",
+    "team": null,
+    "rep": "김재진",
     "name": "2080연합피부과의원",
     "biz": 5042868980,
     "contract_date": "2025-01-01",
@@ -17771,8 +17771,8 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2025
     ],
-    "team": "RPM4팀",
-    "rep": "이상직",
+    "team": null,
+    "rep": "김재진",
     "name": "로제피부과의원(범어점)",
     "biz": 5022974178,
     "contract_date": "2025-01-01",
@@ -17897,8 +17897,8 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2025
     ],
-    "team": "RPM4팀",
-    "rep": "이상직",
+    "team": null,
+    "rep": "김재진",
     "name": "로제피부과의원(율하)",
     "biz": 5022973766,
     "contract_date": "2025-01-01",
@@ -18241,8 +18241,8 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2025
     ],
-    "team": "RPM4팀",
-    "rep": "이상직",
+    "team": null,
+    "rep": "김재진",
     "name": "미라인의원(남구점)",
     "biz": 6102669072,
     "contract_date": "2025-01-01",
@@ -18341,8 +18341,8 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2025
     ],
-    "team": "RPM4팀",
-    "rep": "이상직",
+    "team": null,
+    "rep": "김재진",
     "name": "미소지앤의원(북구점)",
     "biz": 5043120012,
     "contract_date": "2025-01-01",
@@ -19235,8 +19235,8 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2025
     ],
-    "team": "RPM4팀",
-    "rep": "이상직",
+    "team": null,
+    "rep": "김재진",
     "name": "아름다운피부과(수성)",
     "biz": 5022976064,
     "contract_date": "2025-01-01",
@@ -19579,8 +19579,8 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2025
     ],
-    "team": "RPM4팀",
-    "rep": "이상직",
+    "team": null,
+    "rep": "김재진",
     "name": "청담류의원",
     "biz": 1107300510,
     "contract_date": "2025-01-01",
@@ -19833,8 +19833,8 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2025
     ],
-    "team": "RPM4팀",
-    "rep": "이상직",
+    "team": null,
+    "rep": "김재진",
     "name": "칠곡제이(J)성형외과의원",
     "biz": 5042470886,
     "contract_date": "2025-01-01",
@@ -20470,8 +20470,8 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM4팀",
-    "rep": "이상직",
+    "team": null,
+    "rep": "김재진",
     "name": "연세예쁨의원",
     "biz": 7430203132,
     "contract_date": "2025-01-01",
@@ -20891,8 +20891,8 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM4팀",
-    "rep": "이상직",
+    "team": null,
+    "rep": "김재진",
     "name": "빌리브피부과의원",
     "biz": 3605200804,
     "contract_date": "2025-01-01",
@@ -21382,8 +21382,8 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM4팀",
-    "rep": "이상직",
+    "team": null,
+    "rep": "김재진",
     "name": "연세미사랑의원",
     "biz": 7990803194,
     "contract_date": "2025-01-01",
@@ -21479,8 +21479,8 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM4팀",
-    "rep": "이상직",
+    "team": null,
+    "rep": "김재진",
     "name": "만촌더설레임피부과의원",
     "biz": 3102909796,
     "contract_date": "2025-01-01",
@@ -21637,8 +21637,8 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2025
     ],
-    "team": "RPM4팀",
-    "rep": "이상직",
+    "team": null,
+    "rep": "김재진",
     "name": "노블의원",
     "biz": 6102685034,
     "contract_date": "2025-01-01",
@@ -24454,8 +24454,8 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM4팀",
-    "rep": "이상직",
+    "team": null,
+    "rep": "김재진",
     "name": "바로그의원 울산점",
     "biz": 6266700580,
     "contract_date": "2025-01-01",
@@ -26289,8 +26289,8 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM4팀",
-    "rep": "이상직",
+    "team": null,
+    "rep": "김재진",
     "name": "바로그의원 울산동구점",
     "biz": 1127800525,
     "contract_date": "2025-01-01",
@@ -34888,14 +34888,16 @@ window.BLOCK_DETAIL = [
             ],
             "actual_by_month": {
               "2026-07": 4500000.0,
-              "2026-09": 9000000.0
+              "2026-09": 9000000.0,
+              "2026-10": 9000000.0
             },
             "remark": ""
           }
         },
         "actual_by_month": {
           "2026-07": 4500000.0,
-          "2026-09": 9000000.0
+          "2026-09": 9000000.0,
+          "2026-10": 9000000.0
         }
       }
     }
@@ -35224,8 +35226,8 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM4팀",
-    "rep": "이상직",
+    "team": null,
+    "rep": "김재진",
     "name": "엘리스의원(울산)",
     "biz": 6102771221,
     "contract_date": "2025-02-01",
@@ -39040,8 +39042,8 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2025
     ],
-    "team": "RPM4팀",
-    "rep": "이상직",
+    "team": null,
+    "rep": "김재진",
     "name": "브이의원(수성)",
     "biz": 8100500848,
     "contract_date": "2025-03-01",
@@ -39141,8 +39143,8 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2025
     ],
-    "team": "RPM4팀",
-    "rep": "이상직",
+    "team": null,
+    "rep": "김재진",
     "name": "석피부과의원",
     "biz": 5022746794,
     "contract_date": "2025-03-01",
@@ -51005,8 +51007,8 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2026
     ],
-    "team": "RPM4팀",
-    "rep": "이상직",
+    "team": null,
+    "rep": "김재진",
     "name": "로제피부과의원(범어점)",
     "biz": 5022974178,
     "contract_date": "2026-01-01",
@@ -53723,8 +53725,8 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2026
     ],
-    "team": "RPM4팀",
-    "rep": "이상직",
+    "team": null,
+    "rep": "김재진",
     "name": "서울에이치피부과의원",
     "biz": 6102767222,
     "contract_date": "2026-01-01",
@@ -53919,8 +53921,8 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2026
     ],
-    "team": "RPM4팀",
-    "rep": "이상직",
+    "team": null,
+    "rep": "김재진",
     "name": "\t힐하우스피부과의원 대구점\t",
     "biz": 4070722145,
     "contract_date": "2026-01-01",
@@ -55651,8 +55653,8 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2026
     ],
-    "team": "RPM4팀",
-    "rep": "이상직",
+    "team": null,
+    "rep": "김재진",
     "name": "핀다의원",
     "biz": 2203500775,
     "contract_date": "2026-01-01",
@@ -55770,8 +55772,8 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2026
     ],
-    "team": "RPM4팀",
-    "rep": "이상직",
+    "team": null,
+    "rep": "김재진",
     "name": "김앤김의원",
     "biz": 6201177240,
     "contract_date": "2026-01-01",
@@ -55871,8 +55873,8 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2026
     ],
-    "team": "RPM4팀",
-    "rep": "이상직",
+    "team": null,
+    "rep": "김재진",
     "name": "나의계절의원(울산)",
     "biz": 6183711662,
     "contract_date": "2026-01-01",
@@ -55969,8 +55971,8 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2026
     ],
-    "team": "RPM4팀",
-    "rep": "이상직",
+    "team": null,
+    "rep": "김재진",
     "name": "닥터디자이너의원(남구)",
     "biz": 1362600541,
     "contract_date": "2026-01-01",
@@ -56061,8 +56063,8 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2026
     ],
-    "team": "RPM4팀",
-    "rep": "이상직",
+    "team": null,
+    "rep": "김재진",
     "name": "르본의원(울산)",
     "biz": 6102737752,
     "contract_date": "2026-01-01",
@@ -56153,8 +56155,8 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2026
     ],
-    "team": "RPM4팀",
-    "rep": "이상직",
+    "team": null,
+    "rep": "김재진",
     "name": "메이린의원울산점",
     "biz": 7860200597,
     "contract_date": "2026-01-01",
@@ -56576,8 +56578,8 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2026
     ],
-    "team": "RPM4팀",
-    "rep": "이상직",
+    "team": null,
+    "rep": "김재진",
     "name": "에시르의원",
     "biz": 8562501915,
     "contract_date": "2026-01-01",
@@ -56775,7 +56777,8 @@ window.BLOCK_DETAIL = [
       "리알로": {
         "by_year": {},
         "actual_by_month": {
-          "2026-09": 1090909.0
+          "2026-09": 1090909.0,
+          "2026-10": 3000000.0
         }
       }
     }
@@ -56786,8 +56789,8 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2026
     ],
-    "team": "RPM4팀",
-    "rep": "이상직",
+    "team": null,
+    "rep": "김재진",
     "name": "연세제이원의원",
     "biz": 7322701613,
     "contract_date": "2026-01-01",
@@ -56901,8 +56904,8 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2026
     ],
-    "team": "RPM4팀",
-    "rep": "이상직",
+    "team": null,
+    "rep": "김재진",
     "name": "제니스병원",
     "biz": 6102568396,
     "contract_date": "2026-01-01",
@@ -57107,8 +57110,8 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2026
     ],
-    "team": "RPM4팀",
-    "rep": "이상직",
+    "team": null,
+    "rep": "김재진",
     "name": "리프톤피부과의원",
     "biz": 4555001029,
     "contract_date": "2026-01-01",
@@ -57221,8 +57224,8 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2026
     ],
-    "team": "RPM4팀",
-    "rep": "이상직",
+    "team": null,
+    "rep": "김재진",
     "name": "라마르의원(울산)",
     "biz": 6102638230,
     "contract_date": "2026-01-01",
@@ -57348,8 +57351,8 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2026
     ],
-    "team": "RPM4팀",
-    "rep": "이상직",
+    "team": null,
+    "rep": "김재진",
     "name": "강남의원",
     "biz": 6201180347,
     "contract_date": "2026-01-01",
@@ -57471,8 +57474,8 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2026
     ],
-    "team": "RPM4팀",
-    "rep": "이상직",
+    "team": null,
+    "rep": "김재진",
     "name": "라엘라의원",
     "biz": 6102740320,
     "contract_date": "2026-01-01",
@@ -58163,8 +58166,8 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2026
     ],
-    "team": "RPM4팀",
-    "rep": "이상직",
+    "team": null,
+    "rep": "김재진",
     "name": "미라인의원(북구점)",
     "biz": 6201387024,
     "contract_date": "2026-03-01",
@@ -62256,8 +62259,8 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM4팀",
-    "rep": "이상직",
+    "team": null,
+    "rep": "김재진",
     "name": "리쥬엘의원(수성점)",
     "biz": 4881402087,
     "contract_date": "2026-05-01",
@@ -62359,8 +62362,8 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM4팀",
-    "rep": "이상직",
+    "team": null,
+    "rep": "김재진",
     "name": "브이의원(수성)",
     "biz": 8100500848,
     "contract_date": "2026-05-01",
@@ -62463,8 +62466,8 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM4팀",
-    "rep": "이상직",
+    "team": null,
+    "rep": "김재진",
     "name": "디렉터의원",
     "biz": 2045822795,
     "contract_date": "2026-05-01",
@@ -62556,8 +62559,8 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM4팀",
-    "rep": "이상직",
+    "team": null,
+    "rep": "김재진",
     "name": "디데이의원",
     "biz": 3952600868,
     "contract_date": "2026-05-01",
@@ -63034,8 +63037,8 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2026
     ],
-    "team": "RPM4팀",
-    "rep": "이상직",
+    "team": null,
+    "rep": "김재진",
     "name": "아르떼의원",
     "biz": 7360500083,
     "contract_date": "2026-05-01",
@@ -67675,8 +67678,8 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2026
     ],
-    "team": "RPM4팀",
-    "rep": "이상직",
+    "team": null,
+    "rep": "김재진",
     "name": "엘리스의원(울산)",
     "biz": 6102771221,
     "contract_date": "2026-06-01",
@@ -70009,8 +70012,8 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2026
     ],
-    "team": "RPM4팀",
-    "rep": "이상직",
+    "team": null,
+    "rep": "김재진",
     "name": "베러미의원",
     "biz": 1092854772,
     "contract_date": "2026-07-01",
@@ -71322,8 +71325,8 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM4팀",
-    "rep": "이상직",
+    "team": null,
+    "rep": "김재진",
     "name": "베러미의원",
     "biz": 2141568923,
     "contract_date": "2026-07-01",
@@ -73609,8 +73612,8 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM4팀",
-    "rep": "이상직",
+    "team": null,
+    "rep": "김재진",
     "name": "로제피부과의원",
     "biz": 5022974178,
     "contract_date": "2026-07-01",
@@ -74335,8 +74338,8 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM4팀",
-    "rep": "이상직",
+    "team": null,
+    "rep": "김재진",
     "name": "지미의원",
     "biz": 5462202374,
     "contract_date": "2026-07-01",
@@ -75039,8 +75042,8 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM4팀",
-    "rep": "이상직",
+    "team": null,
+    "rep": "김재진",
     "name": "닥터디자이너의원 죽전",
     "biz": 6110997889,
     "contract_date": "2026-07-01",
@@ -76696,8 +76699,8 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM4팀",
-    "rep": "이상직",
+    "team": null,
+    "rep": "김재진",
     "name": "친절한미소의원",
     "biz": 8880402385,
     "contract_date": "2026-07-01",
@@ -78074,8 +78077,8 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2026
     ],
-    "team": "RPM4팀",
-    "rep": "이상직",
+    "team": null,
+    "rep": "김재진",
     "name": "\t더차오름의원",
     "biz": 5384101036,
     "contract_date": "2026-07-01",
@@ -83944,8 +83947,8 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2026
     ],
-    "team": "RPM4팀",
-    "rep": "이상직",
+    "team": null,
+    "rep": "김재진",
     "name": "제이유의원",
     "biz": 7273000927,
     "contract_date": "2026-09-01",
@@ -84043,11 +84046,15 @@ window.BLOCK_DETAIL = [
               5000000,
               5000000
             ],
-            "actual_by_month": {},
+            "actual_by_month": {
+              "2026-10": 0.0
+            },
             "remark": ""
           }
         },
-        "actual_by_month": {}
+        "actual_by_month": {
+          "2026-10": 0.0
+        }
       }
     }
   },
@@ -84207,13 +84214,15 @@ window.BLOCK_DETAIL = [
               8000000
             ],
             "actual_by_month": {
-              "2026-09": 1090909.0
+              "2026-09": 1090909.0,
+              "2026-10": 3000000.0
             },
             "remark": ""
           }
         },
         "actual_by_month": {
-          "2026-09": 1090909.0
+          "2026-09": 1090909.0,
+          "2026-10": 3000000.0
         }
       }
     }
@@ -84730,7 +84739,7 @@ window.BLOCK_META = {
     "2026-09",
     "2026-10"
   ],
-  "generated_at": "2026-10-15 08:32",
+  "generated_at": "2026-10-15 09:33",
   "latest_sales_date": "2026-10-14"
 };
 window.TEAM_MEMBERS = {
