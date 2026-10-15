@@ -55,12 +55,45 @@ const BlockCommon = (function () {
     return byYear[String(year)] || null;
   }
 
-  // 선택 연도(all이면 최신 연도) 기준으로 비고에 "회수"가 있는 처인지 - 계약처수/유효율 집계에서 제외하는 데 사용
-  function isRecalled(rec, year) {
-    return GROUPS.some(g => {
+  // 회수 처의 종료일(O열)이 속한 달까지는 정상 관리 처로 보고 모수에 포함, 그 다음 달부터 제외한다.
+  // (false로 바꾸면 종료일이 속한 달부터 제외)
+  const RECALL_INCLUDE_END_MONTH = true;
+
+  // 선택 연도(all이면 최신 연도) 기준으로 비고에 "회수"가 있는 품목군 스냅샷 목록
+  function recalledSnaps(rec, year) {
+    const out = [];
+    GROUPS.forEach(g => {
       const snap = pickYearSnapshot((rec.groups || {})[g], year == null ? "all" : year);
-      return !!(snap && snap.remark && String(snap.remark).includes("회수"));
+      if (snap && snap.remark && String(snap.remark).includes("회수")) out.push(snap);
     });
+    return out;
+  }
+
+  // 회수 시점(종료일의 YYYY-MM). 종료일이 없거나 12/31(연말 기본값)이면 실제 회수일이 아니므로 null
+  function recallEndMonth(rec, year) {
+    const snaps = recalledSnaps(rec, year);
+    let best = null;
+    for (const sn of snaps) {
+      const e = sn.end_date ? String(sn.end_date) : "";
+      if (!e || e.endsWith("-12-31")) return null;
+      if (!best || e > best) best = e;
+    }
+    return best ? best.slice(0, 7) : null;
+  }
+
+  // 선택 연도(all이면 최신 연도) 기준 "회수" 처인지 - refMonth(YYYY-MM)을 주면 그 달 기준으로 판정.
+  // refMonth 없이 부르면 시점과 무관하게 회수 표시가 있으면 true.
+  // 계약 품목 중 일부만 해지(회수)되고 다른 품목이 남아 있으면 처 자체는 회수가 아니다 -> 전 품목이 회수일 때만 true
+  function isRecalled(rec, year, refMonth) {
+    const rs = recalledSnaps(rec, year);
+    if (!rs.length) return false;
+    let contracted = 0;
+    GROUPS.forEach(g => { if (pickYearSnapshot((rec.groups || {})[g], year == null ? "all" : year)) contracted += 1; });
+    if (rs.length < contracted) return false;
+    if (!refMonth) return true;
+    const end = recallEndMonth(rec, year);
+    if (!end) return true;
+    return RECALL_INCLUDE_END_MONTH ? end < refMonth : end <= refMonth;
   }
 
   // 이미 특정 연도로 스코프된 actual_by_month를 분기별로 집계 (연도 필터링 불필요)
@@ -115,7 +148,7 @@ const BlockCommon = (function () {
 
     // 선택 연도(yearSel) 안에서의 비고 - "회수"가 하나라도 있으면 최우선으로 표시
     const yearRemark = yearRemarks.find(r => r.includes("회수")) || yearRemarks[0] || "";
-    const yearRecalled = yearRemark.includes("회수");
+    const yearRecalled = isRecalled(record, yearSel, monthKey);
 
     const mbo = GROUPS.reduce((a, g) => a + totals[g].mbo, 0);
     const ytd = GROUPS.reduce((a, g) => a + totals[g].actual, 0);
@@ -210,7 +243,7 @@ const BlockCommon = (function () {
         }
 
         // 회수된 처는 계약처수/유효율/MBO/매출/복합시술/평가 집계에서 모두 제외하고 "회수" 건수로만 센다
-        if (isRecalled(rec, yearSel)) {
+        if (isRecalled(rec, yearSel, meta && meta.current_month)) {
           recalledCount += 1;
           ev.회수 += 1;
           return;
