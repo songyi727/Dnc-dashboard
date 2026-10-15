@@ -361,6 +361,7 @@ function render(){
     (blockRepSel === 'all' || b.blockRep === blockRepSel) &&
     (teamSel === 'all' || b.team === teamSel) &&
     (repSel === 'all' || b.rep === repSel) &&
+    !b.recalled &&  // 회수 처는 모수에서 제외
     (yearSel === 'all' || b.contractYears.some(y => String(y) === String(yearSel))) &&
     (itemSel === 'all' || (b.contractedFlags && b.contractedFlags[itemSel]))
   );
@@ -562,6 +563,7 @@ if(hasData){
     const blocks = blocksAll.filter(b =>
       (teamSel === 'all' || b.team === teamSel) &&
       (repSel === 'all' || b.rep === repSel) &&
+      !b.recalled &&  // 회수 처는 모수에서 제외
       (yearSel === 'all' || b.contractYears.some(y => String(y) === String(yearSel))) &&
       (itemSel === 'all' || (b.contractedFlags && b.contractedFlags[itemSel]))
     );
