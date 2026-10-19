@@ -88192,7 +88192,7 @@ window.BLOCK_META = {
     "2026-09",
     "2026-10"
   ],
-  "generated_at": "2026-10-19 09:45",
+  "generated_at": "2026-10-19 10:10",
   "latest_sales_date": "2026-10-17"
 };
 window.TEAM_MEMBERS = {
