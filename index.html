@@ -510,6 +510,7 @@ select{font-size:12px;padding:6px 10px;border-radius:8px;border:0.5px solid #ccc
         <div class="sfp-item" data-val="7" onclick="sfSelectPeriod('7')" style="padding:7px 14px;cursor:pointer;font-size:12px;white-space:nowrap">7일 이내</div>
         <div class="sfp-item" data-val="30" onclick="sfSelectPeriod('30')" style="padding:7px 14px;cursor:pointer;font-size:12px;white-space:nowrap">8일 ~ 30일 이내</div>
         <div class="sfp-item" data-val="90" onclick="sfSelectPeriod('90')" style="padding:7px 14px;cursor:pointer;font-size:12px;white-space:nowrap">31일 ~ 90일 이내</div>
+        <div class="sfp-item" data-val="pre" onclick="sfSelectPeriod('pre')" style="padding:7px 14px;cursor:pointer;font-size:12px;white-space:nowrap">출고 전 30일~당일 매출</div>
       </div>
     </div>
 
@@ -606,7 +607,7 @@ let sfChartItem=null;
 function sfSelectPeriod(val){
   sfSelPeriod=val;
   const arrow='<svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>';
-  const labels={'':'전체 기간','7':'7일 이내','30':'8~30일 이내','90':'31~90일 이내'};
+  const labels={'':'전체 기간','7':'7일 이내','30':'8~30일 이내','90':'31~90일 이내','pre':'출고 전 30일~당일'};
   const btn=document.getElementById('sfPeriodBtn');
   btn.innerHTML=(labels[val]||'전체 기간')+' '+arrow;
   if(val) btn.classList.add('has-sel'); else btn.classList.remove('has-sel');
@@ -729,8 +730,9 @@ function sfFilterRows(){
     if(bizQ&&!r.cn.toLowerCase().includes(bizQ.toLowerCase()))return false;
     // 기간 필터
     if(sfSelPeriod){
+      if(sfSelPeriod==='pre') return !!r.pre;
       const v=parseInt(sfSelPeriod);
-      if(v===7) return r.converted&&r.days!==null&&r.days<=7;
+      if(v===7) return !r.pre&&r.converted&&r.days!==null&&r.days<=7;
       if(v===30) return r.converted&&r.days!==null&&r.days>=8&&r.days<=30;
       if(v===90) return r.converted&&r.days!==null&&r.days>=31&&r.days<=90;
       return false;
@@ -745,7 +747,7 @@ function sampleApply(){
   const conv3m=rows.filter(r=>r.converted&&r.days!==null&&r.days<=90).length;
   const convAll=rows.filter(r=>r.converted).length;
   const rate3m=total>0?(conv3m/total*100):0;
-  const convDays=rows.filter(r=>r.converted&&r.days!==null&&r.days<=90);
+  const convDays=rows.filter(r=>r.converted&&!r.pre&&r.days!==null&&r.days<=90);
   const avgDays=convDays.length>0?(convDays.reduce((s,r)=>s+r.days,0)/convDays.length):null;
 
   document.getElementById('smKpi1').textContent=total+'처';
@@ -795,7 +797,8 @@ function sampleApply(){
     `</tbody>`;
 
   // 전환 기간 표
-  const p7=rows.filter(r=>r.converted&&r.days!==null&&r.days<=7).length;
+  const pPre=rows.filter(r=>r.pre).length;
+  const p7=rows.filter(r=>r.converted&&!r.pre&&r.days!==null&&r.days<=7).length;
   const p30=rows.filter(r=>r.converted&&r.days!==null&&r.days>=8&&r.days<=30).length;
   const p90=rows.filter(r=>r.converted&&r.days!==null&&r.days>=31&&r.days<=90).length;
   document.getElementById('tSamplePeriod').innerHTML=
@@ -803,7 +806,8 @@ function sampleApply(){
     `<tr><td style="text-align:left">7일 이내</td><td style="text-align:center;font-weight:600">${p7}처</td></tr>`+
     `<tr><td style="text-align:left">8일 ~ 30일 이내</td><td style="text-align:center;font-weight:600">${p30}처</td></tr>`+
     `<tr><td style="text-align:left">31일 ~ 90일 이내</td><td style="text-align:center;font-weight:600">${p90}처</td></tr>`+
-    `<tr style="background:#f5f5f3"><td style="text-align:left">합계</td><td style="text-align:center;font-weight:700">${p7+p30+p90}처</td></tr></tbody>`;
+    `<tr><td style="text-align:left">출고 전 30일~당일 매출</td><td style="text-align:center;font-weight:600">${pPre}처</td></tr>`+
+    `<tr style="background:#f5f5f3"><td style="text-align:left">합계</td><td style="text-align:center;font-weight:700">${p7+p30+p90+pPre}처</td></tr></tbody>`;
 
   // 팀별
   const teams=[...new Set(SAMPLE_RAW.map(r=>r.team))].filter(Boolean).sort();
@@ -848,7 +852,7 @@ function sampleApply(){
   const fmtAmt=v=>v>=1e8?(v/1e8).toFixed(1)+'억':v>=1e4?Math.round(v/1e4).toLocaleString()+'만':v.toLocaleString()+'원';
   document.getElementById('tSampleCv').innerHTML=
     `<thead><tr><th style="text-align:left">사업자번호</th><th style="text-align:left">거래처명</th><th style="text-align:center">담당자</th><th style="text-align:center">품목구분</th><th style="text-align:center">샘플일</th><th style="text-align:center">매출발생일</th><th style="text-align:center">매출액</th></tr></thead><tbody>`+
-    cvRows.map(r=>`<tr><td style="text-align:left;color:#888;font-size:10px">${r.biz}</td><td style="text-align:left;font-weight:500">${r.cn}</td><td style="text-align:center">${r.person}</td><td style="text-align:center">${r.item}</td><td style="text-align:center">${r.date}</td><td style="text-align:center;color:#1D9E75;font-weight:500">${r.rev_date}</td><td style="text-align:center;font-weight:600">${r.rev_amt?fmtAmt(r.rev_amt):'-'}</td></tr>`).join('')+
+    cvRows.map(r=>`<tr><td style="text-align:left;color:#888;font-size:10px">${r.biz}</td><td style="text-align:left;font-weight:500">${r.cn}</td><td style="text-align:center">${r.person}</td><td style="text-align:center">${r.item}</td><td style="text-align:center">${r.date}</td><td style="text-align:center;color:#1D9E75;font-weight:500">${r.rev_date}${r.pre?' <span style="font-size:9px;color:#888">(출고 전)</span>':''}</td><td style="text-align:center;font-weight:600">${r.rev_amt?fmtAmt(r.rev_amt):'-'}</td></tr>`).join('')+
     `</tbody>`;
 }
 
@@ -894,7 +898,7 @@ function runSampleAI(){
         if(r.converted&&r.days!==null){
           byYM[key].conv++;
           if(r.days<=90) byYM[key].conv90++;
-          byYM[key].days.push(r.days);
+          if(!r.pre) byYM[key].days.push(r.days);
         }
       });
 
