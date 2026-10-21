@@ -330,6 +330,7 @@ function renderItemDropdown(){
     cb.addEventListener('change', e=>{
       const it = e.target.getAttribute('data-item');
       if(e.target.checked) selectedItems.add(it); else selectedItems.delete(it);
+      document.getElementById('chk-all').checked = selectedItems.size === ITEMS.length;
       updateItemBtnLabel(); refreshAll();
     });
   });
@@ -514,24 +515,28 @@ function refreshAll(){
 
 function updateBar(network, yearSel){
   const branches = branchesFor(network);
+  const contractYm = (DATA.network_contract || {})[network];
+  const contractPart = contractYm ? ` · 계약 ${contractYm}~` : '';
   document.getElementById('updateBar').innerHTML =
-    `<strong>${network}</strong> · 등록 지점 ${branches.length}개 · 데이터 범위 ${DATA.months[0]||'-'} ~ ${DATA.months[DATA.months.length-1]||'-'} ` +
+    `<strong>${network}</strong>${contractPart} · 등록 지점 ${branches.length}개 · 데이터 범위 ${DATA.months[0]||'-'} ~ ${DATA.months[DATA.months.length-1]||'-'} ` +
     `· network_data.js 생성일 ${DATA.generated_at||'-'}`;
 }
 
 function updateChart(branches, items, yearSel, scopeMonths, monthsAllChecked, network){
   const ctx = document.getElementById('trendChart').getContext('2d');
+  // "전체 선택" 상태일 때만 누적막대, 그 외(품목을 하나라도 좁혀서 고르면) 품목별 라인차트로 전환
+  const lineMode = items.length > 0 && items.length < ITEMS.length;
   let labels, seriesMonths;
   if(yearSel === 'all'){
     labels = years.map(y=>y+'년');
     seriesMonths = years.map(y=>monthsInYear(y));
-    document.getElementById('chart-title').textContent = '연도별 품목구분 매출 추이';
+    document.getElementById('chart-title').textContent = lineMode ? '연도별 품목 매출 추이' : '연도별 품목구분 매출 추이';
     document.getElementById('chart-meta').textContent = `${years[0]||''} ~ ${years[years.length-1]||''}`;
   } else {
     const ms = monthsInYear(yearSel);
     labels = ms.map(m=>m.split('-')[1]+'월');
     seriesMonths = ms.map(m=>[m]);
-    document.getElementById('chart-title').textContent = `${yearSel}년 월별 품목구분 매출 추이`;
+    document.getElementById('chart-title').textContent = lineMode ? `${yearSel}년 품목별 매출 추이` : `${yearSel}년 월별 품목구분 매출 추이`;
     let metaSuffix = '';
     if(!monthsAllChecked){
       metaSuffix = scopeMonths.length ? ` · ${scopeMonths.map(m=>m.split('-')[1]+'월').join('+')} 선택됨` : ' · 선택된 월 없음';
@@ -539,7 +544,7 @@ function updateChart(branches, items, yearSel, scopeMonths, monthsAllChecked, ne
     document.getElementById('chart-meta').textContent = `${yearSel}-01 ~ ${yearSel}-12` + metaSuffix;
   }
 
-  // 매출월 체크박스에서 선택된 달들만 강조하고 나머지는 옅게 표시(여러 달 동시 선택 가능)
+  // 매출월 체크박스에서 선택된 달들만 강조하고 나머지는 옅게 표시(여러 달 동시 선택 가능) - 누적막대 모드에서만 사용
   const highlightSet = monthsAllChecked ? null : new Set(scopeMonths);
   function withAlpha(hex, a){
     const h = hex.replace('#','');
@@ -547,7 +552,23 @@ function updateChart(branches, items, yearSel, scopeMonths, monthsAllChecked, ne
     return `rgba(${r},${g},${b},${a})`;
   }
 
-  const datasets = items.map((it, idx)=>({
+  const datasets = lineMode ? items.map((it, idx)=>({
+    type: 'line',
+    label: it,
+    data: seriesMonths.map(ms => branches.reduce((a,b)=>a+branchItemTotalMulti(b,it,ms),0)),
+    borderColor: itemColor(it, idx),
+    backgroundColor: itemColor(it, idx),
+    borderWidth: 2,
+    pointRadius: 3,
+    pointHoverRadius: 4,
+    pointBackgroundColor: itemColor(it, idx),
+    pointBorderColor: '#fff',
+    pointBorderWidth: 1,
+    fill: false,
+    tension: 0.15,
+    spanGaps: true,
+    order: 2,
+  })) : items.map((it, idx)=>({
     type: 'bar',
     label: it,
     data: seriesMonths.map(ms => branches.reduce((a,b)=>a+branchItemTotalMulti(b,it,ms),0)),
@@ -562,7 +583,8 @@ function updateChart(branches, items, yearSel, scopeMonths, monthsAllChecked, ne
   }));
 
   // 약정(목표) 있는 품목이 하나라도 있으면 구간별 목표 합계를 점선으로 얹음 - 목표가 아직 적용 안 된 구간은 끊어서 표시
-  const quotaItems = quotaItemsFor(network);
+  // (품목별 꺾은선 모드에서는 목표선 때문에 축이 눌려 작은 품목들이 더 안 보이게 되므로 생략)
+  const quotaItems = lineMode ? [] : quotaItemsFor(network);
   let hasTargetLine = false;
   if(quotaItems.length){
     const targetData = seriesMonths.map(ms=>{
@@ -597,7 +619,7 @@ function updateChart(branches, items, yearSel, scopeMonths, monthsAllChecked, ne
 
   if(chart) chart.destroy();
   chart = new Chart(ctx, {
-    type: 'bar',
+    type: lineMode ? 'line' : 'bar',
     data: { labels, datasets },
     options: {
       responsive: true, maintainAspectRatio: false,
@@ -607,6 +629,7 @@ function updateChart(branches, items, yearSel, scopeMonths, monthsAllChecked, ne
           callbacks: {
             label: c => `${c.dataset.label}: ${fmt0(c.raw)}원`,
             footer: items => {
+              if(lineMode) return '';
               const bars = items.filter(i=>i.dataset.type!=='line');
               return bars.length ? `합계: ${fmt0(bars.reduce((a,i)=>a+i.parsed.y,0))}원` : '';
             },
@@ -614,8 +637,8 @@ function updateChart(branches, items, yearSel, scopeMonths, monthsAllChecked, ne
         }
       },
       scales: {
-        x: { stacked: true, grid:{display:false}, ticks:{color:'#888', font:{size:10}} },
-        y: { stacked: true, grid:{color:'#eee'}, ticks:{color:'#888', font:{size:10}, callback:v=>fmtEok(v)} }
+        x: { stacked: !lineMode, grid:{display:false}, ticks:{color:'#888', font:{size:10}} },
+        y: { stacked: !lineMode, grid:{color:'#eee'}, ticks:{color:'#888', font:{size:10}, callback:v=>fmtEok(v)} }
       }
     }
   });
