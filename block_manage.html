@@ -673,8 +673,12 @@ function render(){
                 const rlabel = qrate===null ? '-' : qrate+'%';
                 return `<td class="qcell"><span class="a">${fmt(c.actual)}</span><span class="m">/${fmt(c.mbo)}</span><span class="r ${rclass}">${rlabel}</span></td>`;
               }).join('');
+              const gi = b.groupInfo && b.groupInfo[g];
+              const fd = d => (d||'').replace(/-/g,'.');
+              const endTxt = (gi && gi.recalled && gi.end_date && !gi.end_date.endsWith('-12-31')) ? ` · 해지 ${fd(gi.end_date)}` : '';
+              const dateLine = (gi && gi.contract_date) ? `<span style="display:block;font-size:10px;color:var(--text-mute);font-weight:400">계약 ${fd(gi.contract_date)}${endTxt}</span>` : '';
               const nameCell = isContracted
-                ? `<td>${g} <span style="color:var(--green);font-weight:700">✓</span></td>`
+                ? `<td>${g} <span style="color:var(--green);font-weight:700">✓</span>${dateLine}</td>`
                 : `<td style="color:var(--text-mute)">${g}</td>`;
               return `<tr>${nameCell}${qcells}<td class="sum" style="color:${color}">${fmt(t.actual)} (${gp}%)</td></tr>`;
             }).join('')}

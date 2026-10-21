@@ -125,6 +125,7 @@ const BlockCommon = (function () {
     const q = {};
     const totals = {};
     const contractedFlags = {};
+    const groupInfo = {}; // 품목별 계약일/종료일/해지 여부
 
     const yearRemarks = [];
     GROUPS.forEach(g => {
@@ -143,6 +144,7 @@ const BlockCommon = (function () {
       const actualSum = qa[1] + qa[2] + qa[3] + qa[4];
       totals[g] = { mbo: mboSum, actual: actualSum };
       contractedFlags[g] = !!snap;
+      groupInfo[g] = snap ? { contract_date: snap.contract_date || '', end_date: snap.end_date || '', recalled: String(snap.remark || '').includes('회수') } : null;
       if (snap && snap.remark) yearRemarks.push(snap.remark);
     });
 
@@ -185,7 +187,7 @@ const BlockCommon = (function () {
       months: record.months_since_contract,
       recalled: yearRecalled,
       remark: yearRemark,
-      q, totals, contractedFlags, groupMonth,
+      q, totals, contractedFlags, groupInfo, groupMonth,
       trend,
     };
   }
