@@ -35564,11 +35564,15 @@ window.BLOCK_DETAIL = [
               10000000,
               10000000
             ],
-            "actual_by_month": {},
+            "actual_by_month": {
+              "2026-10": 0.0
+            },
             "remark": ""
           }
         },
-        "actual_by_month": {}
+        "actual_by_month": {
+          "2026-10": 0.0
+        }
       }
     }
   },
@@ -65038,11 +65042,15 @@ window.BLOCK_DETAIL = [
               5000000,
               5000000
             ],
-            "actual_by_month": {},
+            "actual_by_month": {
+              "2026-10": 0.0
+            },
             "remark": ""
           }
         },
-        "actual_by_month": {}
+        "actual_by_month": {
+          "2026-10": 0.0
+        }
       }
     }
   },
@@ -71421,11 +71429,15 @@ window.BLOCK_DETAIL = [
               2970000.0,
               2970000.0
             ],
-            "actual_by_month": {},
+            "actual_by_month": {
+              "2026-10": 0.0
+            },
             "remark": ""
           }
         },
-        "actual_by_month": {}
+        "actual_by_month": {
+          "2026-10": 0.0
+        }
       }
     }
   },
@@ -92018,11 +92030,15 @@ window.BLOCK_DETAIL = [
               3000000,
               3000000
             ],
-            "actual_by_month": {},
+            "actual_by_month": {
+              "2026-10": 9000000.0
+            },
             "remark": ""
           }
         },
-        "actual_by_month": {}
+        "actual_by_month": {
+          "2026-10": 9000000.0
+        }
       }
     }
   },
@@ -95103,8 +95119,8 @@ window.BLOCK_META = {
     "2026-09",
     "2026-10"
   ],
-  "generated_at": "2026-10-30 10:15",
-  "latest_sales_date": "2026-10-29"
+  "generated_at": "2026-10-30 16:48",
+  "latest_sales_date": "2026-10-30"
 };
 window.TEAM_MEMBERS = {
   "RPM1팀": [
