@@ -68955,11 +68955,19 @@ window.BLOCK_DETAIL = [
               7000000,
               7000000
             ],
-            "actual_by_month": {},
+            "actual_by_month": {
+              "2026-05": 9545454.0,
+              "2026-08": 4181818.0,
+              "2026-10": 10454546.0
+            },
             "remark": ""
           }
         },
-        "actual_by_month": {}
+        "actual_by_month": {
+          "2026-05": 9545454.0,
+          "2026-08": 4181818.0,
+          "2026-10": 10454546.0
+        }
       },
       "브이올렛": {
         "by_year": {
@@ -68991,11 +68999,15 @@ window.BLOCK_DETAIL = [
               4000000,
               4000000
             ],
-            "actual_by_month": {},
+            "actual_by_month": {
+              "2026-07": 650000.0
+            },
             "remark": ""
           }
         },
-        "actual_by_month": {}
+        "actual_by_month": {
+          "2026-07": 650000.0
+        }
       },
       "리프팅실": {
         "by_year": {
@@ -88677,11 +88689,15 @@ window.BLOCK_DETAIL = [
               3000000,
               3000000
             ],
-            "actual_by_month": {},
+            "actual_by_month": {
+              "2026-10": 818182.0
+            },
             "remark": ""
           }
         },
-        "actual_by_month": {}
+        "actual_by_month": {
+          "2026-10": 818182.0
+        }
       },
       "필러군": {
         "by_year": {
@@ -95087,7 +95103,7 @@ window.BLOCK_META = {
     "2026-09",
     "2026-10"
   ],
-  "generated_at": "2026-10-30 08:40",
+  "generated_at": "2026-10-30 10:15",
   "latest_sales_date": "2026-10-29"
 };
 window.TEAM_MEMBERS = {
