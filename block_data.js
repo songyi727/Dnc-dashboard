@@ -95167,7 +95167,7 @@ window.BLOCK_META = {
     "2026-10",
     "2026-11"
   ],
-  "generated_at": "2026-11-03 17:05",
+  "generated_at": "2026-11-03 17:20",
   "latest_sales_date": "2026-11-02"
 };
 window.TEAM_MEMBERS = {
