@@ -1,32 +1,38 @@
 name: DNC 매출 리포트 자동 발송
-
+ 
 on:
   workflow_dispatch:  # update_dashboard.py에서 자동 트리거
-
+    inputs:
+      skip_wait:
+        description: '테스트용: true 이면 10분 대기 없이 바로 발송'
+        required: false
+        default: 'false'
+ 
 jobs:
   send-email:
     runs-on: ubuntu-latest
-
+ 
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-
+ 
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
           python-version: '3.11'
-
+ 
       - name: Install dependencies
         run: pip install pandas openpyxl
-
+ 
       - name: 10분 대기 (데이터 안정화)
+        if: ${{ inputs.skip_wait != 'true' }}
         run: |
           echo "⏳ 데이터 업데이트 감지! 10분 후 메일 발송합니다..."
           sleep 600
-
+ 
       - name: 최신 데이터로 재체크아웃
         uses: actions/checkout@v4
-
+ 
       - name: Generate and send report
         env:
           GMAIL_USER:     ${{ secrets.GMAIL_USER }}
