@@ -33,6 +33,11 @@ def chg_arrow(v):
     if v is None: return '-'
     return f"{'▲' if v >= 0 else '▼'}{abs(v):.1f}%"
 
+def chg2(v, base, td, ):
+    """증감률(윗줄) + 비교 기간 매출(아랫줄) 두 줄 셀"""
+    return (f'<td style="{td};color:{chg_color(v)}">{chg_arrow(v)}'
+            f'<div style="font-size:9px;color:#999;font-weight:400;margin-top:2px">{fs(base)}</div></td>')
+
 def diff_str(v, unit=''):
     if v is None: return '-'
     sign = '+' if v >= 0 else ''
@@ -97,9 +102,9 @@ def build_html(d):
           <td style="{TDL}">{it['item']}</td>
           <td style="{TD};font-weight:500">{fs(it['val'])}</td>
           <td style="{TD};color:{rate_color(it.get('rate'))}">{rate_str(it.get('rate'))}</td>
-          <td style="{TD};color:{chg_color(it.get('chg_mom'))}">{chg_arrow(it.get('chg_mom'))}</td>
-          <td style="{TD};color:{chg_color(it.get('chg_avg'))}">{chg_arrow(it.get('chg_avg'))}</td>
-          <td style="{TD};color:{chg_color(it.get('chg_yoy'))}">{chg_arrow(it.get('chg_yoy'))}</td>
+          {chg2(it.get('chg_mom'), it.get('base_mom'), TD)}
+          {chg2(it.get('chg_avg'), it.get('base_avg'), TD)}
+          {chg2(it.get('chg_yoy'), it.get('base_yoy'), TD)}
         </tr>"""
     item_total = sum(it['val'] for it in d.get('item_data', []))
     item_rows += f"""
@@ -107,9 +112,9 @@ def build_html(d):
           <td style="{TOTL}">합계</td>
           <td style="{TOT}">{fs(item_total)}</td>
           <td style="{TOT};color:{rate_color(mr)}">{rate_str(mr)}</td>
-          <td style="{TOT};color:{chg_color(d.get('mom_r'))}">{chg_arrow(d.get('mom_r'))}</td>
-          <td style="{TOT};color:{chg_color(d.get('avg3_r'))}">{chg_arrow(d.get('avg3_r'))}</td>
-          <td style="{TOT};color:{chg_color(d.get('yoy_r'))}">{chg_arrow(d.get('yoy_r'))}</td>
+          {chg2(d.get('mom_r'), d.get('prev_sales'), TOT)}
+          {chg2(d.get('avg3_r'), d.get('p3_sales'), TOT)}
+          {chg2(d.get('yoy_r'), d.get('yoy_sales'), TOT)}
         </tr>"""
 
     # 팀별 당월 매출 행
@@ -123,18 +128,18 @@ def build_html(d):
           <td style="{TDL}">{t['team']}</td>
           <td style="{TD};font-weight:500">{fs(t['val'])}</td>
           <td style="{TD};color:{rate_color(t.get('rate'))}">{rate_str(t.get('rate'))}</td>
-          <td style="{TD};color:{chg_color(t.get('chg_mom'))}">{chg_arrow(t.get('chg_mom'))}</td>
-          <td style="{TD};color:{chg_color(t.get('chg_avg'))}">{chg_arrow(t.get('chg_avg'))}</td>
-          <td style="{TD};color:{chg_color(t.get('chg_yoy'))}">{chg_arrow(t.get('chg_yoy'))}</td>
+          {chg2(t.get('chg_mom'), t.get('base_mom'), TD)}
+          {chg2(t.get('chg_avg'), t.get('base_avg'), TD)}
+          {chg2(t.get('chg_yoy'), t.get('base_yoy'), TD)}
         </tr>"""
     team_rows += f"""
         <tr>
           <td style="{TOTL}">합계</td>
           <td style="{TOT}">{fs(team_total)}</td>
           <td style="{TOT};color:{rate_color(mr)}">{rate_str(mr)}</td>
-          <td style="{TOT};color:{chg_color(d.get('mom_r'))}">{chg_arrow(d.get('mom_r'))}</td>
-          <td style="{TOT};color:{chg_color(d.get('avg3_r'))}">{chg_arrow(d.get('avg3_r'))}</td>
-          <td style="{TOT};color:{chg_color(d.get('yoy_r'))}">{chg_arrow(d.get('yoy_r'))}</td>
+          {chg2(d.get('mom_r'), d.get('prev_sales'), TOT)}
+          {chg2(d.get('avg3_r'), d.get('p3_sales'), TOT)}
+          {chg2(d.get('yoy_r'), d.get('yoy_sales'), TOT)}
         </tr>"""
 
     # 담당자별 당월 매출 행
@@ -296,7 +301,7 @@ def build_html(d):
   </div>
 
   <div style="padding:1.25rem 1.5rem;border-bottom:0.5px solid #eee">
-    <div style="font-size:12px;font-weight:500;color:#1a1a1a;margin-bottom:12px">🏷 품목별 당월 매출 <span style="font-size:10px;color:#888;font-weight:400">({W} 기준)</span></div>
+    <div style="font-size:12px;font-weight:500;color:#1a1a1a;margin-bottom:12px">🏷 품목별 당월 매출 <span style="font-size:10px;color:#888;font-weight:400">({W} 기준 · 아랫줄: 비교 기간 매출)</span></div>
     <table width="100%" cellpadding="0" cellspacing="0" style="border:0.5px solid #eee;border-radius:8px;overflow:hidden">
       <thead><tr style="background:#f5f5f3">
         <th style="{THL}">품목</th><th style="{TH}">매출액</th><th style="{TH}">당월<br>달성률</th><th style="{TH}">전월<br>{W}</th><th style="{TH}">직3평균<br>{W}</th><th style="{TH}">전년<br>{W}</th>
@@ -306,7 +311,7 @@ def build_html(d):
   </div>
 
   <div style="padding:1.25rem 1.5rem;border-bottom:0.5px solid #eee">
-    <div style="font-size:12px;font-weight:500;color:#1a1a1a;margin-bottom:12px">👥 팀별 당월 매출 <span style="font-size:10px;color:#888;font-weight:400">({W} 기준)</span></div>
+    <div style="font-size:12px;font-weight:500;color:#1a1a1a;margin-bottom:12px">👥 팀별 당월 매출 <span style="font-size:10px;color:#888;font-weight:400">({W} 기준 · 아랫줄: 비교 기간 매출)</span></div>
     <table width="100%" cellpadding="0" cellspacing="0" style="border:0.5px solid #eee;border-radius:8px;overflow:hidden">
       <thead><tr style="background:#f5f5f3">
         <th style="{THL}">팀</th><th style="{TH}">매출</th><th style="{TH}">당월<br>달성률</th><th style="{TH}">전월<br>{W}</th><th style="{TH}">직3평균<br>{W}</th><th style="{TH}">전년<br>{W}</th>
