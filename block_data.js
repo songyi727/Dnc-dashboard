@@ -10785,7 +10785,8 @@ window.BLOCK_DETAIL = [
               "2026-07": 6272728.0,
               "2026-08": 10545454.0,
               "2026-09": 10545454.0,
-              "2026-10": 10454546.0
+              "2026-10": 10454546.0,
+              "2026-11": 10454546.0
             },
             "remark": ""
           }
@@ -10810,7 +10811,8 @@ window.BLOCK_DETAIL = [
           "2026-07": 6272728.0,
           "2026-08": 10545454.0,
           "2026-09": 10545454.0,
-          "2026-10": 10454546.0
+          "2026-10": 10454546.0,
+          "2026-11": 10454546.0
         }
       },
       "브이올렛": {
@@ -21071,7 +21073,9 @@ window.BLOCK_DETAIL = [
       },
       "리알로": {
         "by_year": {},
-        "actual_by_month": {}
+        "actual_by_month": {
+          "2026-11": 0.0
+        }
       }
     }
   },
@@ -40828,7 +40832,9 @@ window.BLOCK_DETAIL = [
             "remark": "회수"
           }
         },
-        "actual_by_month": {}
+        "actual_by_month": {
+          "2026-11": 0.0
+        }
       },
       "리프팅실": {
         "by_year": {
@@ -55958,7 +55964,8 @@ window.BLOCK_DETAIL = [
               "2026-07": 10454546.0,
               "2026-08": 10545454.0,
               "2026-09": 10545454.0,
-              "2026-10": 26363637.0
+              "2026-10": 26363637.0,
+              "2026-11": 10454546.0
             },
             "remark": ""
           }
@@ -55971,7 +55978,8 @@ window.BLOCK_DETAIL = [
           "2026-07": 10454546.0,
           "2026-08": 10545454.0,
           "2026-09": 10545454.0,
-          "2026-10": 26363637.0
+          "2026-10": 26363637.0,
+          "2026-11": 10454546.0
         }
       },
       "브이올렛": {
@@ -65265,11 +65273,15 @@ window.BLOCK_DETAIL = [
               1500000.0,
               1500000.0
             ],
-            "actual_by_month": {},
+            "actual_by_month": {
+              "2026-11": 0.0
+            },
             "remark": ""
           }
         },
-        "actual_by_month": {}
+        "actual_by_month": {
+          "2026-11": 0.0
+        }
       },
       "리프팅실": {
         "by_year": {
@@ -81519,14 +81531,16 @@ window.BLOCK_DETAIL = [
             ],
             "actual_by_month": {
               "2026-07": 3000000.0,
-              "2026-09": 3000000.0
+              "2026-09": 3000000.0,
+              "2026-11": 5000000.0
             },
             "remark": ""
           }
         },
         "actual_by_month": {
           "2026-07": 3000000.0,
-          "2026-09": 3000000.0
+          "2026-09": 3000000.0,
+          "2026-11": 5000000.0
         }
       },
       "리프팅실": {
@@ -92535,11 +92549,15 @@ window.BLOCK_DETAIL = [
               2000000,
               2000000
             ],
-            "actual_by_month": {},
+            "actual_by_month": {
+              "2026-11": 0.0
+            },
             "remark": ""
           }
         },
-        "actual_by_month": {}
+        "actual_by_month": {
+          "2026-11": 0.0
+        }
       }
     }
   },
@@ -94238,7 +94256,7 @@ window.BLOCK_DETAIL = [
   },
   {
     "manager": "㈜유안메디",
-    "manager_biz": "㈜유안메디",
+    "manager_biz": 6728603000,
     "manager_contract_years": [
       2026
     ],
@@ -94292,7 +94310,7 @@ window.BLOCK_DETAIL = [
   },
   {
     "manager": "㈜유안메디",
-    "manager_biz": "㈜유안메디",
+    "manager_biz": 6728603000,
     "manager_contract_years": [
       2026
     ],
@@ -94346,7 +94364,7 @@ window.BLOCK_DETAIL = [
   },
   {
     "manager": "㈜유안메디",
-    "manager_biz": "㈜유안메디",
+    "manager_biz": 6728603000,
     "manager_contract_years": [
       2026
     ],
@@ -94404,7 +94422,7 @@ window.BLOCK_DETAIL = [
   },
   {
     "manager": "㈜유안메디",
-    "manager_biz": "㈜유안메디",
+    "manager_biz": 6728603000,
     "manager_contract_years": [
       2026
     ],
@@ -94458,7 +94476,7 @@ window.BLOCK_DETAIL = [
   },
   {
     "manager": "㈜유안메디",
-    "manager_biz": "㈜유안메디",
+    "manager_biz": 6728603000,
     "manager_contract_years": [
       2026
     ],
@@ -94512,7 +94530,7 @@ window.BLOCK_DETAIL = [
   },
   {
     "manager": "㈜유안메디",
-    "manager_biz": "㈜유안메디",
+    "manager_biz": 6728603000,
     "manager_contract_years": [
       2026
     ],
@@ -94566,7 +94584,7 @@ window.BLOCK_DETAIL = [
   },
   {
     "manager": "㈜유안메디",
-    "manager_biz": "㈜유안메디",
+    "manager_biz": 6728603000,
     "manager_contract_years": [
       2026
     ],
@@ -94884,7 +94902,7 @@ window.COMPANY_INFO = {
     ],
     "block_rep": "송진영"
   },
-  "㈜유안메디": {
+  "6728603000": {
     "name": "㈜유안메디",
     "years": [
       2026
@@ -95175,8 +95193,8 @@ window.BLOCK_META = {
     "2026-10",
     "2026-11"
   ],
-  "generated_at": "2026-11-04 08:39",
-  "latest_sales_date": "2026-11-03"
+  "generated_at": "2026-11-05 09:00",
+  "latest_sales_date": "2026-11-04"
 };
 window.TEAM_MEMBERS = {
   "RPM1팀": [
