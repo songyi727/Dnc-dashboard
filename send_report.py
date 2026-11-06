@@ -332,7 +332,7 @@ def build_html(d):
 
   <div style="padding:1.25rem 1.5rem;text-align:center">
     <a href="{DASHBOARD_URL}" style="display:inline-flex;align-items:center;gap:6px;padding:10px 24px;background:#185FA5;color:#fff;border-radius:8px;font-size:13px;font-weight:500;text-decoration:none;margin-bottom:16px">🔲 전체 대시보드 보기</a>
-    <div style="font-size:10px;color:#aaa;line-height:1.7;margin-bottom:10px">※ 품목구분 "기타"(KPI 없음)는 모든 지표에서 제외했습니다.<br>※ 전월·직3개월 평균·전년 비교는 당월과 같은 {W}({cmp_n}{N_UNIT})까지만 합산한 값입니다.<br>※ 담당자별 표는 담당자 이동으로 동일 {W} 비교 없이 당월 누적 기준입니다.</div>
+    <div style="font-size:10px;color:#aaa;line-height:1.7;margin-bottom:10px">※ 품목구분 "기타"(KPI 없음)와 "처방"(마감 후 늦게 반영)은 모든 지표에서 제외했습니다.<br>※ 전월·직3개월 평균·전년 비교는 당월과 같은 {W}({cmp_n}{N_UNIT})까지만 합산한 값입니다.<br>※ 담당자별 표는 담당자 이동으로 동일 {W} 비교 없이 당월 누적 기준입니다.</div>
     <div style="font-size:11px;color:#888;line-height:1.7">DNC AESTHETICS · DA_RPM사업부 매출 현황 자동 리포트<br>본 메일은 자동 발송됩니다.</div>
   </div>
 
