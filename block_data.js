@@ -30287,7 +30287,8 @@ window.BLOCK_DETAIL = [
               "2026-03": 409091.0,
               "2026-04": 409091.0,
               "2026-06": 409091.0,
-              "2026-09": 409091.0
+              "2026-09": 409091.0,
+              "2026-11": 409091.0
             },
             "remark": ""
           }
@@ -30312,7 +30313,8 @@ window.BLOCK_DETAIL = [
           "2026-03": 409091.0,
           "2026-04": 409091.0,
           "2026-06": 409091.0,
-          "2026-09": 409091.0
+          "2026-09": 409091.0,
+          "2026-11": 409091.0
         }
       },
       "브이올렛": {
@@ -36556,7 +36558,9 @@ window.BLOCK_DETAIL = [
             "remark": "회수"
           }
         },
-        "actual_by_month": {}
+        "actual_by_month": {
+          "2026-11": 1100000.0
+        }
       },
       "리프팅실": {
         "by_year": {
@@ -48834,7 +48838,8 @@ window.BLOCK_DETAIL = [
           "2026-06": 409091.0,
           "2026-07": 409091.0,
           "2026-09": 409091.0,
-          "2026-10": 818182.0
+          "2026-10": 818182.0,
+          "2026-11": 409091.0
         }
       },
       "필러군": {
@@ -52823,7 +52828,8 @@ window.BLOCK_DETAIL = [
               "2026-06": 409091.0,
               "2026-07": 409091.0,
               "2026-09": 409091.0,
-              "2026-10": 818182.0
+              "2026-10": 818182.0,
+              "2026-11": 409091.0
             },
             "remark": ""
           }
@@ -52838,7 +52844,8 @@ window.BLOCK_DETAIL = [
           "2026-06": 409091.0,
           "2026-07": 409091.0,
           "2026-09": 409091.0,
-          "2026-10": 818182.0
+          "2026-10": 818182.0,
+          "2026-11": 409091.0
         }
       },
       "필러군": {
@@ -59296,11 +59303,15 @@ window.BLOCK_DETAIL = [
               2000000,
               3000000
             ],
-            "actual_by_month": {},
+            "actual_by_month": {
+              "2026-11": 0.0
+            },
             "remark": ""
           }
         },
-        "actual_by_month": {}
+        "actual_by_month": {
+          "2026-11": 0.0
+        }
       }
     }
   },
@@ -59873,11 +59884,15 @@ window.BLOCK_DETAIL = [
               2000000,
               3000000
             ],
-            "actual_by_month": {},
+            "actual_by_month": {
+              "2026-11": 0.0
+            },
             "remark": ""
           }
         },
-        "actual_by_month": {}
+        "actual_by_month": {
+          "2026-11": 0.0
+        }
       }
     }
   },
@@ -62075,11 +62090,15 @@ window.BLOCK_DETAIL = [
               500000.0,
               500000.0
             ],
-            "actual_by_month": {},
+            "actual_by_month": {
+              "2026-11": 1100000.0
+            },
             "remark": ""
           }
         },
-        "actual_by_month": {}
+        "actual_by_month": {
+          "2026-11": 1100000.0
+        }
       },
       "리프팅실": {
         "by_year": {
@@ -68706,7 +68725,7 @@ window.BLOCK_DETAIL = [
               "2026-08": 10909091.0,
               "2026-09": 10909091.0,
               "2026-10": 15272728.0,
-              "2026-11": 15272728.0
+              "2026-11": 19454546.0
             },
             "remark": ""
           }
@@ -68718,7 +68737,7 @@ window.BLOCK_DETAIL = [
           "2026-08": 10909091.0,
           "2026-09": 10909091.0,
           "2026-10": 15272728.0,
-          "2026-11": 15272728.0
+          "2026-11": 19454546.0
         }
       },
       "브이올렛": {
@@ -75011,7 +75030,8 @@ window.BLOCK_DETAIL = [
           "2026-06": 409091.0,
           "2026-07": 409091.0,
           "2026-09": 409091.0,
-          "2026-10": 818182.0
+          "2026-10": 818182.0,
+          "2026-11": 409091.0
         }
       },
       "필러군": {
@@ -84922,19 +84942,79 @@ window.BLOCK_DETAIL = [
     "recalled": false,
     "groups": {
       "나보타": {
-        "by_year": {},
-        "actual_by_month": {}
+        "by_year": {
+          "2026": {
+            "contracted": true,
+            "contract_date": "2026-10-01",
+            "end_date": "2026-12-31",
+            "mbo_q": [
+              2000000,
+              2000000,
+              3000000,
+              3000000
+            ],
+            "actual_by_month": {
+              "2026-10": 6363636.0
+            },
+            "remark": ""
+          }
+        },
+        "actual_by_month": {
+          "2026-10": 6363636.0
+        }
       },
       "브이올렛": {
-        "by_year": {},
+        "by_year": {
+          "2026": {
+            "contracted": true,
+            "contract_date": "2026-10-01",
+            "end_date": "2026-12-31",
+            "mbo_q": [
+              300000.0,
+              400000.0,
+              400000.0,
+              500000.0
+            ],
+            "actual_by_month": {},
+            "remark": ""
+          }
+        },
         "actual_by_month": {}
       },
       "필러군": {
-        "by_year": {},
+        "by_year": {
+          "2026": {
+            "contracted": true,
+            "contract_date": "2026-10-01",
+            "end_date": "2026-12-31",
+            "mbo_q": [
+              2000000,
+              2000000,
+              3000000,
+              3500000.0
+            ],
+            "actual_by_month": {},
+            "remark": ""
+          }
+        },
         "actual_by_month": {}
       },
       "리프팅실": {
-        "by_year": {},
+        "by_year": {
+          "2026": {
+            "contracted": true,
+            "contract_date": "2026-10-01",
+            "end_date": "2026-12-31",
+            "mbo_q": [
+              500000.0,
+              1000000,
+              1000000,
+              1500000.0
+            ],
+            "actual_by_month": {},
+            "remark": ""
+          }
+        },
         "actual_by_month": {}
       },
       "리알로": {
@@ -89180,13 +89260,15 @@ window.BLOCK_DETAIL = [
               5000000
             ],
             "actual_by_month": {
-              "2026-10": 11363637.0
+              "2026-10": 11363637.0,
+              "2026-11": 15909091.0
             },
             "remark": ""
           }
         },
         "actual_by_month": {
-          "2026-10": 11363637.0
+          "2026-10": 11363637.0,
+          "2026-11": 15909091.0
         }
       },
       "브이올렛": {
@@ -90093,7 +90175,7 @@ window.BLOCK_DETAIL = [
   },
   {
     "manager": "반타바이오",
-    "manager_biz": "반타바이오",
+    "manager_biz": 6424701429,
     "manager_contract_years": [
       2026
     ],
@@ -90151,17 +90233,21 @@ window.BLOCK_DETAIL = [
               5000000,
               5000000
             ],
-            "actual_by_month": {},
+            "actual_by_month": {
+              "2026-11": 0.0
+            },
             "remark": ""
           }
         },
-        "actual_by_month": {}
+        "actual_by_month": {
+          "2026-11": 0.0
+        }
       }
     }
   },
   {
     "manager": "반타바이오",
-    "manager_biz": "반타바이오",
+    "manager_biz": 6424701429,
     "manager_contract_years": [
       2026
     ],
@@ -90223,17 +90309,21 @@ window.BLOCK_DETAIL = [
               3000000,
               3000000
             ],
-            "actual_by_month": {},
+            "actual_by_month": {
+              "2026-11": 0.0
+            },
             "remark": ""
           }
         },
-        "actual_by_month": {}
+        "actual_by_month": {
+          "2026-11": 0.0
+        }
       }
     }
   },
   {
     "manager": "반타바이오",
-    "manager_biz": "반타바이오",
+    "manager_biz": 6424701429,
     "manager_contract_years": [
       2026
     ],
@@ -90315,7 +90405,7 @@ window.BLOCK_DETAIL = [
   },
   {
     "manager": "반타바이오",
-    "manager_biz": "반타바이오",
+    "manager_biz": 6424701429,
     "manager_contract_years": [
       2026
     ],
@@ -90373,17 +90463,21 @@ window.BLOCK_DETAIL = [
               6000000,
               6000000
             ],
-            "actual_by_month": {},
+            "actual_by_month": {
+              "2026-11": 0.0
+            },
             "remark": ""
           }
         },
-        "actual_by_month": {}
+        "actual_by_month": {
+          "2026-11": 0.0
+        }
       }
     }
   },
   {
     "manager": "반타바이오",
-    "manager_biz": "반타바이오",
+    "manager_biz": 6424701429,
     "manager_contract_years": [
       2026
     ],
@@ -90444,7 +90538,7 @@ window.BLOCK_DETAIL = [
   },
   {
     "manager": "반타바이오",
-    "manager_biz": "반타바이오",
+    "manager_biz": 6424701429,
     "manager_contract_years": [
       2026
     ],
@@ -90526,7 +90620,7 @@ window.BLOCK_DETAIL = [
   },
   {
     "manager": "반타바이오",
-    "manager_biz": "반타바이오",
+    "manager_biz": 6424701429,
     "manager_contract_years": [
       2026
     ],
@@ -90596,7 +90690,7 @@ window.BLOCK_DETAIL = [
   },
   {
     "manager": "반타바이오",
-    "manager_biz": "반타바이오",
+    "manager_biz": 6424701429,
     "manager_contract_years": [
       2026
     ],
@@ -90668,7 +90762,7 @@ window.BLOCK_DETAIL = [
   },
   {
     "manager": "반타바이오",
-    "manager_biz": "반타바이오",
+    "manager_biz": 6424701429,
     "manager_contract_years": [
       2026
     ],
@@ -90743,17 +90837,21 @@ window.BLOCK_DETAIL = [
               3000000,
               3000000
             ],
-            "actual_by_month": {},
+            "actual_by_month": {
+              "2026-11": 0.0
+            },
             "remark": ""
           }
         },
-        "actual_by_month": {}
+        "actual_by_month": {
+          "2026-11": 0.0
+        }
       }
     }
   },
   {
     "manager": "반타바이오",
-    "manager_biz": "반타바이오",
+    "manager_biz": 6424701429,
     "manager_contract_years": [
       2026
     ],
@@ -90835,7 +90933,7 @@ window.BLOCK_DETAIL = [
   },
   {
     "manager": "반타바이오",
-    "manager_biz": "반타바이오",
+    "manager_biz": 6424701429,
     "manager_contract_years": [
       2026
     ],
@@ -90917,7 +91015,7 @@ window.BLOCK_DETAIL = [
   },
   {
     "manager": "반타바이오",
-    "manager_biz": "반타바이오",
+    "manager_biz": 6424701429,
     "manager_contract_years": [
       2026
     ],
@@ -90971,7 +91069,7 @@ window.BLOCK_DETAIL = [
   },
   {
     "manager": "반타바이오",
-    "manager_biz": "반타바이오",
+    "manager_biz": 6424701429,
     "manager_contract_years": [
       2026
     ],
@@ -91088,7 +91186,7 @@ window.BLOCK_DETAIL = [
   },
   {
     "manager": "반타바이오",
-    "manager_biz": "반타바이오",
+    "manager_biz": 6424701429,
     "manager_contract_years": [
       2026
     ],
@@ -91156,7 +91254,7 @@ window.BLOCK_DETAIL = [
   },
   {
     "manager": "반타바이오",
-    "manager_biz": "반타바이오",
+    "manager_biz": 6424701429,
     "manager_contract_years": [
       2026
     ],
@@ -91230,7 +91328,7 @@ window.BLOCK_DETAIL = [
   },
   {
     "manager": "반타바이오",
-    "manager_biz": "반타바이오",
+    "manager_biz": 6424701429,
     "manager_contract_years": [
       2026
     ],
@@ -91284,7 +91382,7 @@ window.BLOCK_DETAIL = [
   },
   {
     "manager": "반타바이오",
-    "manager_biz": "반타바이오",
+    "manager_biz": 6424701429,
     "manager_contract_years": [
       2026
     ],
@@ -91352,7 +91450,7 @@ window.BLOCK_DETAIL = [
   },
   {
     "manager": "반타바이오",
-    "manager_biz": "반타바이오",
+    "manager_biz": 6424701429,
     "manager_contract_years": [
       2026
     ],
@@ -91408,7 +91506,7 @@ window.BLOCK_DETAIL = [
   },
   {
     "manager": "반타바이오",
-    "manager_biz": "반타바이오",
+    "manager_biz": 6424701429,
     "manager_contract_years": [
       2026
     ],
@@ -91476,7 +91574,7 @@ window.BLOCK_DETAIL = [
   },
   {
     "manager": "반타바이오",
-    "manager_biz": "반타바이오",
+    "manager_biz": 6424701429,
     "manager_contract_years": [
       2026
     ],
@@ -91544,7 +91642,7 @@ window.BLOCK_DETAIL = [
   },
   {
     "manager": "반타바이오",
-    "manager_biz": "반타바이오",
+    "manager_biz": 6424701429,
     "manager_contract_years": [
       2026
     ],
@@ -91612,7 +91710,7 @@ window.BLOCK_DETAIL = [
   },
   {
     "manager": "반타바이오",
-    "manager_biz": "반타바이오",
+    "manager_biz": 6424701429,
     "manager_contract_years": [
       2026
     ],
@@ -91680,7 +91778,7 @@ window.BLOCK_DETAIL = [
   },
   {
     "manager": "반타바이오",
-    "manager_biz": "반타바이오",
+    "manager_biz": 6424701429,
     "manager_contract_years": [
       2026
     ],
@@ -91748,7 +91846,7 @@ window.BLOCK_DETAIL = [
   },
   {
     "manager": "반타바이오",
-    "manager_biz": "반타바이오",
+    "manager_biz": 6424701429,
     "manager_contract_years": [
       2026
     ],
@@ -91816,7 +91914,7 @@ window.BLOCK_DETAIL = [
   },
   {
     "manager": "반타바이오",
-    "manager_biz": "반타바이오",
+    "manager_biz": 6424701429,
     "manager_contract_years": [
       2026
     ],
@@ -91898,7 +91996,7 @@ window.BLOCK_DETAIL = [
   },
   {
     "manager": "반타바이오",
-    "manager_biz": "반타바이오",
+    "manager_biz": 6424701429,
     "manager_contract_years": [
       2026
     ],
@@ -91966,7 +92064,7 @@ window.BLOCK_DETAIL = [
   },
   {
     "manager": "반타바이오",
-    "manager_biz": "반타바이오",
+    "manager_biz": 6424701429,
     "manager_contract_years": [
       2026
     ],
@@ -92038,7 +92136,7 @@ window.BLOCK_DETAIL = [
   },
   {
     "manager": "반타바이오",
-    "manager_biz": "반타바이오",
+    "manager_biz": 6424701429,
     "manager_contract_years": [
       2026
     ],
@@ -92106,7 +92204,7 @@ window.BLOCK_DETAIL = [
   },
   {
     "manager": "반타바이오",
-    "manager_biz": "반타바이오",
+    "manager_biz": 6424701429,
     "manager_contract_years": [
       2026
     ],
@@ -92194,7 +92292,7 @@ window.BLOCK_DETAIL = [
   },
   {
     "manager": "반타바이오",
-    "manager_biz": "반타바이오",
+    "manager_biz": 6424701429,
     "manager_contract_years": [
       2026
     ],
@@ -92300,7 +92398,7 @@ window.BLOCK_DETAIL = [
   },
   {
     "manager": "반타바이오",
-    "manager_biz": "반타바이오",
+    "manager_biz": 6424701429,
     "manager_contract_years": [
       2026
     ],
@@ -92382,7 +92480,7 @@ window.BLOCK_DETAIL = [
   },
   {
     "manager": "반타바이오",
-    "manager_biz": "반타바이오",
+    "manager_biz": 6424701429,
     "manager_contract_years": [
       2026
     ],
@@ -92464,7 +92562,7 @@ window.BLOCK_DETAIL = [
   },
   {
     "manager": "반타바이오",
-    "manager_biz": "반타바이오",
+    "manager_biz": 6424701429,
     "manager_contract_years": [
       2026
     ],
@@ -92564,7 +92662,7 @@ window.BLOCK_DETAIL = [
   },
   {
     "manager": "반타바이오",
-    "manager_biz": "반타바이오",
+    "manager_biz": 6424701429,
     "manager_contract_years": [
       2026
     ],
@@ -92649,7 +92747,7 @@ window.BLOCK_DETAIL = [
   },
   {
     "manager": "반타바이오",
-    "manager_biz": "반타바이오",
+    "manager_biz": 6424701429,
     "manager_contract_years": [
       2026
     ],
@@ -92717,7 +92815,7 @@ window.BLOCK_DETAIL = [
   },
   {
     "manager": "반타바이오",
-    "manager_biz": "반타바이오",
+    "manager_biz": 6424701429,
     "manager_contract_years": [
       2026
     ],
@@ -92796,7 +92894,7 @@ window.BLOCK_DETAIL = [
   },
   {
     "manager": "반타바이오",
-    "manager_biz": "반타바이오",
+    "manager_biz": 6424701429,
     "manager_contract_years": [
       2026
     ],
@@ -92896,7 +92994,7 @@ window.BLOCK_DETAIL = [
   },
   {
     "manager": "반타바이오",
-    "manager_biz": "반타바이오",
+    "manager_biz": 6424701429,
     "manager_contract_years": [
       2026
     ],
@@ -92967,7 +93065,7 @@ window.BLOCK_DETAIL = [
   },
   {
     "manager": "반타바이오",
-    "manager_biz": "반타바이오",
+    "manager_biz": 6424701429,
     "manager_contract_years": [
       2026
     ],
@@ -93035,7 +93133,7 @@ window.BLOCK_DETAIL = [
   },
   {
     "manager": "반타바이오",
-    "manager_biz": "반타바이오",
+    "manager_biz": 6424701429,
     "manager_contract_years": [
       2026
     ],
@@ -93100,17 +93198,21 @@ window.BLOCK_DETAIL = [
               3000000,
               3000000
             ],
-            "actual_by_month": {},
+            "actual_by_month": {
+              "2026-11": 0.0
+            },
             "remark": ""
           }
         },
-        "actual_by_month": {}
+        "actual_by_month": {
+          "2026-11": 0.0
+        }
       }
     }
   },
   {
     "manager": "반타바이오",
-    "manager_biz": "반타바이오",
+    "manager_biz": 6424701429,
     "manager_contract_years": [
       2026
     ],
@@ -93660,11 +93762,15 @@ window.BLOCK_DETAIL = [
               15000000,
               15000000
             ],
-            "actual_by_month": {},
+            "actual_by_month": {
+              "2026-11": 7636364.0
+            },
             "remark": ""
           }
         },
-        "actual_by_month": {}
+        "actual_by_month": {
+          "2026-11": 7636364.0
+        }
       },
       "리프팅실": {
         "by_year": {
@@ -94983,7 +95089,7 @@ window.COMPANY_INFO = {
     ],
     "block_rep": "박천"
   },
-  "반타바이오": {
+  "6424701429": {
     "name": "반타바이오",
     "years": [
       2026
@@ -95281,8 +95387,8 @@ window.BLOCK_META = {
     "2026-10",
     "2026-11"
   ],
-  "generated_at": "2026-11-12 08:41",
-  "latest_sales_date": "2026-11-11"
+  "generated_at": "2026-11-13 17:09",
+  "latest_sales_date": "2026-11-13"
 };
 window.TEAM_MEMBERS = {
   "RPM1팀": [
