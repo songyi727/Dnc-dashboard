@@ -27622,9 +27622,9 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM2팀",
-    "rep": "김태훈",
-    "name": "바로그의원(연신내점)",
+    "team": "RPM4팀",
+    "rep": "이상직",
+    "name": "포항 밴스의원",
     "biz": 3201202550,
     "contract_date": "2025-01-01",
     "client_contract_years": [
@@ -44456,8 +44456,8 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM1팀",
-    "rep": "박기주",
+    "team": "블루오션TF",
+    "rep": "전지원",
     "name": "연세리움의원",
     "biz": 3823001664,
     "contract_date": "2025-06-01",
@@ -45273,9 +45273,9 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM3팀",
-    "rep": "정대철",
-    "name": "비브톤의원(의정부)",
+    "team": "RPM1팀",
+    "rep": "박기주",
+    "name": "비브톤의원(강남)",
     "biz": 5987200256,
     "contract_date": "2025-07-01",
     "client_contract_years": [
@@ -66682,8 +66682,8 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2026
     ],
-    "team": "RPM1팀",
-    "rep": "박기주",
+    "team": "블루오션TF",
+    "rep": "전지원",
     "name": "기쁨성형외과의원",
     "biz": 2200885477,
     "contract_date": "2026-05-01",
@@ -72784,8 +72784,8 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2026
     ],
-    "team": "블루오션TF",
-    "rep": "전지원",
+    "team": "RPM2팀",
+    "rep": "전우찬",
     "name": "레지움피부과",
     "biz": 3236200634,
     "contract_date": "2026-06-01",
@@ -95395,7 +95395,7 @@ window.BLOCK_META = {
     "2026-10",
     "2026-11"
   ],
-  "generated_at": "2026-11-16 08:26",
+  "generated_at": "2026-11-16 13:08",
   "latest_sales_date": "2026-11-14"
 };
 window.TEAM_MEMBERS = {
