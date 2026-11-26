@@ -216,6 +216,11 @@ function buildRows(f){
   });
 }
 
+// 정렬용 이름 키: (주)/㈜/주식회사/공백/괄호를 무시하고 가나다 순으로 비교
+function nameKey(s){ return String(s||'').replace(/\(주\)|㈜|주식회사|\(유\)|㈲|유한회사|[\s()]/g,''); }
+function cmpKo(a,b){ return nameKey(a).localeCompare(nameKey(b),'ko') || String(a||'').localeCompare(String(b||''),'ko'); }
+const byManagerThenName = (a,b) => cmpKo(a.manager,b.manager) || cmpKo(a.name,b.name);
+
 function render(){
   const f = currentFilters();
   const rows = buildRows(f);
@@ -226,7 +231,7 @@ function render(){
   document.getElementById('periodLabel').textContent = labelParts.length ? labelParts.join(' · ') : '전체';
   document.getElementById('listMeta').textContent = rows.length + '개 처 조회됨';
 
-  rows.sort((a,b) => a.manager.localeCompare(b.manager,'ko') || a.name.localeCompare(b.name,'ko'));
+  rows.sort(byManagerThenName);
 
   if(!rows.length){
     tbody.innerHTML = `<tr><td colspan="10" style="text-align:center;color:var(--text-mute);padding:20px;">조건에 맞는 블록처가 없습니다.</td></tr>`;
@@ -262,7 +267,7 @@ if(hasData){
     if(pw !== 'dncsales'){ alert('비밀번호가 올바르지 않습니다.'); return; }
 
     const f = currentFilters();
-    const rows = buildRows(f).sort((a,b) => a.manager.localeCompare(b.manager,'ko') || a.name.localeCompare(b.name,'ko'));
+    const rows = buildRows(f).sort(byManagerThenName);
 
     const data = rows.map(r => {
       const row = {
