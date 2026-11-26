@@ -157,6 +157,9 @@
     cursor:pointer;
   }
   .row-main:hover{background:#FBFBFA;}
+  .row-main.total-row{background:#F6F5F1;border-bottom:1px solid var(--border-strong);font-weight:700;cursor:default;}
+  .row-main.total-row:hover{background:#F6F5F1;}
+  .row-main.total-row #totalCount{font-weight:500;color:var(--text-sub);font-size:12px;}
   .row-main .sub{color:var(--text-sub);font-size:12px;}
   .row-main .num{text-align:right;}
   .row-main .rate{text-align:right;font-weight:600;}
@@ -346,6 +349,9 @@
     <div class="row-head">
       <span>블록담당자</span><span>블록처</span><span id="mbo-label">MBO</span><span id="ytd-label">연간누적매출</span><span>당월매출</span><span>달성률</span><span style="text-align:center">복합시술</span><span style="text-align:center">평가</span>
     </div>
+    <div class="row-main total-row" id="totalRow">
+      <span>합계</span><span id="totalCount"></span><span></span><span class="num" id="totalYtd">-</span><span class="num" id="totalMonth">-</span><span></span><span></span><span></span>
+    </div>
     <div id="listBody"></div>
   </div>
 
@@ -534,6 +540,11 @@ function currentFilters(){
   };
 }
 
+// 정렬용 이름 키: (주)/㈜/주식회사/공백/괄호를 무시하고 가나다 순으로 비교
+function nameKey(s){ return String(s||'').replace(/\(주\)|㈜|주식회사|\(유\)|㈲|유한회사|[\s()]/g,''); }
+function cmpKo(a,b){ return nameKey(a).localeCompare(nameKey(b),'ko') || String(a||'').localeCompare(String(b||''),'ko'); }
+const byManagerThenName = (a,b) => cmpKo(a.manager,b.manager) || cmpKo(a.name,b.name);
+
 function render(){
   const f = currentFilters();
 
@@ -556,7 +567,7 @@ function render(){
     (f.evalKey === 'all' || b.evalKey === f.evalKey) &&
     (f.item === 'all' || (b.contractedFlags && b.contractedFlags[f.item])) &&
     (f.solo === 'all' || soloGroupOf(b) === f.solo)
-  );
+  ).sort(byManagerThenName);
 
   const labelParts = [];
   if(f.manager !== 'all') labelParts.push(f.manager);
@@ -620,6 +631,11 @@ function render(){
   const qLabel = f.quarter.length ? f.quarter.join('+') : null;
   document.getElementById('mbo-label').textContent = qLabel ? (qLabel + ' MBO') : 'MBO';
   document.getElementById('ytd-label').textContent = qLabel ? (qLabel + ' 매출') : '연간누적매출';
+
+  // 합계: 현재 조회(필터)된 블록처 기준 - 각 행에 표시되는 값(effYtd/effMonth)을 그대로 합산
+  document.getElementById('totalCount').textContent = blocks.length + '개 처';
+  document.getElementById('totalYtd').textContent = fmt(blocks.reduce((a,b)=>a+effYtd(b),0));
+  document.getElementById('totalMonth').textContent = fmt(blocks.reduce((a,b)=>a+effMonth(b),0));
 
   listBody.innerHTML = '';
   blocks.forEach(b=>{
@@ -746,7 +762,7 @@ document.getElementById('btn-export').addEventListener('click', async function(e
     (f.evalKey === 'all' || b.evalKey === f.evalKey) &&
     (f.item === 'all' || (b.contractedFlags && b.contractedFlags[f.item])) &&
     (f.solo === 'all' || dlSoloGroupOf(b) === f.solo)
-  );
+  ).sort(byManagerThenName);
 
   // 처 하나 = 한 행. 품목군마다 MBO/연간누적/당월매출/달성률 4개씩 가로로, 미계약 품목군은 '미계약' 처리
   const idCols = ['블록담당자', '블록영업담당자', '팀', '영업담당자', '블록처', '사업자번호', '계약연도'];
