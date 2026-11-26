@@ -7,7 +7,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM3팀",
+    "team": "담당자 전체",
     "rep": "홍원의",
     "name": "어반힐의원",
     "biz": 2111079033,
@@ -213,7 +213,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM1팀",
+    "team": "담당자 전체",
     "rep": "박기주",
     "name": "메이필의원",
     "biz": 4935400369,
@@ -695,7 +695,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM3팀",
+    "team": "담당자 전체",
     "rep": "정대철",
     "name": "라비아의원",
     "biz": 2062882754,
@@ -890,7 +890,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM2팀",
+    "team": "담당자 전체",
     "rep": "전우찬",
     "name": "더라인성형외과",
     "biz": 2110947501,
@@ -1056,7 +1056,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM1팀",
+    "team": "담당자 전체",
     "rep": "박기주",
     "name": "꿈꾸는성형외과",
     "biz": 2105261656,
@@ -1360,7 +1360,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM1팀",
+    "team": "담당자 전체",
     "rep": "박기주",
     "name": "벨뷰의원",
     "biz": 4050195960,
@@ -1468,7 +1468,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "송진영",
     "name": "강남더뷰티성형외과(세종)",
     "biz": 1360274668,
@@ -1572,7 +1572,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "송진영",
     "name": "서울퍼스트성형외과",
     "biz": 2981700468,
@@ -1767,7 +1767,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM2팀",
+    "team": "담당자 전체",
     "rep": "김태훈",
     "name": "더끌림산부인과",
     "biz": 4902100611,
@@ -1932,7 +1932,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "송진영",
     "name": "뮤즈의원(청주)",
     "biz": 5574800717,
@@ -2100,7 +2100,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "송진영",
     "name": "톡스앤필(불당)",
     "biz": 5371800865,
@@ -2246,7 +2246,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "송진영",
     "name": "톡스앤필(신부)",
     "biz": 1732402020,
@@ -2472,7 +2472,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "송진영",
     "name": "샤인빔의원(천안)",
     "biz": 5171200840,
@@ -2591,7 +2591,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "송진영",
     "name": "샤인빔의원(청주) - 폐업",
     "biz": 7057200475,
@@ -2775,7 +2775,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "송진영",
     "name": "제이의원",
     "biz": 3053152616,
@@ -2899,7 +2899,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "송진영",
     "name": "미하이의원(유성)",
     "biz": 1875600134,
@@ -3067,7 +3067,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM3팀",
+    "team": "담당자 전체",
     "rep": "홍원의",
     "name": "성낙관성형외과",
     "biz": 2110945269,
@@ -3273,7 +3273,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM3팀",
+    "team": "담당자 전체",
     "rep": "홍원의",
     "name": "멜로우피부과(청담)",
     "biz": 8562202155,
@@ -3372,7 +3372,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM3팀",
+    "team": "담당자 전체",
     "rep": "정대철",
     "name": "멜로우피부과(도봉)",
     "biz": 3933701265,
@@ -3543,7 +3543,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM2팀",
+    "team": "담당자 전체",
     "rep": "이도현",
     "name": "봄여름가을겨울피부과(영등포)",
     "biz": 1071837822,
@@ -3722,7 +3722,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM3팀",
+    "team": "담당자 전체",
     "rep": "홍원의",
     "name": "연세모에버의원",
     "biz": 3780901884,
@@ -3835,7 +3835,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "송진영",
     "name": "미애로 여성의원(세종)",
     "biz": 8150300908,
@@ -3948,7 +3948,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "송진영",
     "name": "복지재단예쁨의원",
     "biz": 3058210452,
@@ -4057,7 +4057,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM1팀",
+    "team": "담당자 전체",
     "rep": "박기주",
     "name": "플래뉴의원",
     "biz": 5782901560,
@@ -4168,7 +4168,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM2팀",
+    "team": "담당자 전체",
     "rep": "전우찬",
     "name": "모프로의원",
     "biz": 2790702582,
@@ -4272,7 +4272,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM3팀",
+    "team": "담당자 전체",
     "rep": "홍원의",
     "name": "도브의원",
     "biz": 1424000353,
@@ -4437,7 +4437,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "손창민",
     "name": "미하이의원(전주)",
     "biz": 4022337298,
@@ -4537,7 +4537,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "손창민",
     "name": "필스토리의원(전주)",
     "biz": 4022184273,
@@ -4663,7 +4663,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "손창민",
     "name": "삼성로하스의원",
     "biz": 4022293143,
@@ -4760,7 +4760,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "손창민",
     "name": "헤어로의원",
     "biz": 6011173748,
@@ -4958,7 +4958,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "손창민",
     "name": "레브의원",
     "biz": 5222500314,
@@ -5135,7 +5135,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "손창민",
     "name": "센텀쁘띠의원",
     "biz": 2212139164,
@@ -5303,7 +5303,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "손창민",
     "name": "고은미래의원(네트워크)",
     "biz": 4180698648,
@@ -5409,7 +5409,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "손창민",
     "name": "라이브성형외과",
     "biz": 5053494482,
@@ -5568,7 +5568,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "손창민",
     "name": "클로엔성형외과",
     "biz": 3922000120,
@@ -5665,7 +5665,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "손창민",
     "name": "조성배성형외과",
     "biz": 4031428316,
@@ -5858,7 +5858,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "손창민",
     "name": "리즈의원",
     "biz": 2870900240,
@@ -6038,7 +6038,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "손창민",
     "name": "톡스앤필(전주)",
     "biz": 6642400829,
@@ -6232,7 +6232,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "손창민",
     "name": "광주미하이의원",
     "biz": 5180401677,
@@ -6447,7 +6447,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM3팀",
+    "team": "담당자 전체",
     "rep": "박천",
     "name": "고은미래(평택)",
     "biz": 4640900721,
@@ -6544,7 +6544,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "손창민",
     "name": "예사랑피부과",
     "biz": 4103091419,
@@ -6717,7 +6717,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "손창민",
     "name": "닥터에이치의원",
     "biz": 8892900364,
@@ -6929,7 +6929,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "손창민",
     "name": "리후성형외과",
     "biz": 1791901535,
@@ -7026,7 +7026,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "손창민",
     "name": "라인아트의원",
     "biz": 3692101276,
@@ -7129,7 +7129,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "손창민",
     "name": "닥터스피부과",
     "biz": 6076600388,
@@ -7226,7 +7226,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "손창민",
     "name": "효자고은미래의원",
     "biz": 4022188527,
@@ -7393,7 +7393,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "손창민",
     "name": "차수석가정의학과",
     "biz": 2272704549,
@@ -7580,7 +7580,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "손창민",
     "name": "송천고은미래",
     "biz": 4180698653,
@@ -7689,7 +7689,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "손창민",
     "name": "미래피부과",
     "biz": 4180724366,
@@ -7789,7 +7789,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "송진영",
     "name": "비앤티의원",
     "biz": 6244100532,
@@ -7886,7 +7886,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "손창민",
     "name": "아름드리의원",
     "biz": 8721502353,
@@ -7985,7 +7985,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "이상직",
     "name": "헤어로의원(대구)",
     "biz": 1411102493,
@@ -8188,7 +8188,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "송진영",
     "name": "헤어로의원(부산)",
     "biz": 6282901813,
@@ -8382,7 +8382,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "손창민",
     "name": "삼성로얄클리닉",
     "biz": 4010880407,
@@ -8479,7 +8479,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "손창민",
     "name": "더나은마취통증의학과",
     "biz": 4092468106,
@@ -8672,7 +8672,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "손창민",
     "name": "셀피부과의원",
     "biz": 6083551023,
@@ -8837,7 +8837,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "손창민",
     "name": "아름다운피부과의원",
     "biz": 4081919438,
@@ -9014,7 +9014,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "손창민",
     "name": "삼성정맥마취통증의학과",
     "biz": 4081919364,
@@ -9114,7 +9114,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "손창민",
     "name": "닥터지의원(수완)",
     "biz": 2172665289,
@@ -9211,7 +9211,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "손창민",
     "name": "광주성형외과",
     "biz": 5066700573,
@@ -9310,7 +9310,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "손창민",
     "name": "미소의원",
     "biz": 7361202231,
@@ -9407,7 +9407,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "손창민",
     "name": "고은미래의원(첨단)",
     "biz": 4102819675,
@@ -9504,7 +9504,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "손창민",
     "name": "yes의원",
     "biz": 5340200545,
@@ -9601,7 +9601,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "손창민",
     "name": "비쥬여성의원",
     "biz": 4102825385,
@@ -9698,7 +9698,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "손창민",
     "name": "맑은윤피부과의원",
     "biz": 3061438037,
@@ -9795,7 +9795,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "손창민",
     "name": "김봉가정의학과(군산)",
     "biz": 4011174884,
@@ -9963,7 +9963,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "손창민",
     "name": "유달성형외과의원",
     "biz": 4111337328,
@@ -10136,7 +10136,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM3팀",
+    "team": "담당자 전체",
     "rep": "정대철",
     "name": "청담아이성형외과",
     "biz": 1274613036,
@@ -10358,7 +10358,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM2팀",
+    "team": "담당자 전체",
     "rep": "장은준",
     "name": "메디에스(일산)",
     "biz": 1283652746,
@@ -10573,7 +10573,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM2팀",
+    "team": "담당자 전체",
     "rep": "장은준",
     "name": "수피부과",
     "biz": 1410582031,
@@ -10747,7 +10747,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM1팀",
+    "team": "담당자 전체",
     "rep": "박기주",
     "name": "아윤의원",
     "biz": 3024600466,
@@ -10951,7 +10951,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM3팀",
+    "team": "담당자 전체",
     "rep": "정대철",
     "name": "건대톡스앤필",
     "biz": 7440603017,
@@ -11306,7 +11306,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM3팀",
+    "team": "담당자 전체",
     "rep": "홍원의",
     "name": "연의원(논현)-폐업",
     "biz": 7762201239,
@@ -11473,7 +11473,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM3팀",
+    "team": "담당자 전체",
     "rep": "정대철",
     "name": "데이뷰의원(의정부) - 폐업",
     "biz": 4271901943,
@@ -11645,7 +11645,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM2팀",
+    "team": "담당자 전체",
     "rep": "장은준",
     "name": "벨피부과",
     "biz": 1283686722,
@@ -11756,7 +11756,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM2팀",
+    "team": "담당자 전체",
     "rep": "장은준",
     "name": "톡톡의원(파주)",
     "biz": 6482402000,
@@ -11853,7 +11853,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM3팀",
+    "team": "담당자 전체",
     "rep": "정대철",
     "name": "포에버(의정부)",
     "biz": 5350600828,
@@ -11959,7 +11959,7 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2025
     ],
-    "team": "RPM2팀",
+    "team": "담당자 전체",
     "rep": "전우찬",
     "name": "탱글성형외과",
     "biz": 3532001594,
@@ -12055,7 +12055,7 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2025
     ],
-    "team": "RPM2팀",
+    "team": "담당자 전체",
     "rep": "전우찬",
     "name": "뷰티앤영의원",
     "biz": 7777200446,
@@ -12151,7 +12151,7 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2025
     ],
-    "team": "RPM2팀",
+    "team": "담당자 전체",
     "rep": "전우찬",
     "name": "압구정MK성형외과",
     "biz": 2110947684,
@@ -12247,7 +12247,7 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2025
     ],
-    "team": "RPM2팀",
+    "team": "담당자 전체",
     "rep": "전우찬",
     "name": "김형진베이직성형외과",
     "biz": 2111012411,
@@ -12343,7 +12343,7 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2025
     ],
-    "team": "RPM2팀",
+    "team": "담당자 전체",
     "rep": "이도현",
     "name": "더힐피부과",
     "biz": 5450401529,
@@ -12445,7 +12445,7 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2025
     ],
-    "team": "RPM2팀",
+    "team": "담당자 전체",
     "rep": "전우찬",
     "name": "메이린의원",
     "biz": 1245800665,
@@ -12541,7 +12541,7 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2025
     ],
-    "team": "RPM2팀",
+    "team": "담당자 전체",
     "rep": "전우찬",
     "name": "닥터소녀로의원",
     "biz": 4562700613,
@@ -12637,7 +12637,7 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2025
     ],
-    "team": "RPM2팀",
+    "team": "담당자 전체",
     "rep": "전우찬",
     "name": "압구정톡스앤필의원",
     "biz": 2111017186,
@@ -12741,7 +12741,7 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2025
     ],
-    "team": "RPM2팀",
+    "team": "담당자 전체",
     "rep": "전우찬",
     "name": "이유의원",
     "biz": 5381102042,
@@ -12933,7 +12933,7 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2025
     ],
-    "team": "RPM1팀",
+    "team": "담당자 전체",
     "rep": "이상준",
     "name": "오르성형외과",
     "biz": 1313509383,
@@ -13029,7 +13029,7 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2025
     ],
-    "team": "RPM1팀",
+    "team": "담당자 전체",
     "rep": "이상준",
     "name": "오르s의원",
     "biz": 1313590962,
@@ -13125,7 +13125,7 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2025
     ],
-    "team": "RPM2팀",
+    "team": "담당자 전체",
     "rep": "김태훈",
     "name": "에스리본의원",
     "biz": 4930202752,
@@ -13221,7 +13221,7 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2025
     ],
-    "team": "RPM2팀",
+    "team": "담당자 전체",
     "rep": "김태훈",
     "name": "에버유의원",
     "biz": 2047006287,
@@ -13321,7 +13321,7 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2025
     ],
-    "team": "RPM3팀",
+    "team": "담당자 전체",
     "rep": "박천",
     "name": "데이샤인의원",
     "biz": 6012998201,
@@ -13417,7 +13417,7 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2025
     ],
-    "team": "RPM2팀",
+    "team": "담당자 전체",
     "rep": "전우찬",
     "name": "필로스의원",
     "biz": 2122422374,
@@ -13521,7 +13521,7 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2025
     ],
-    "team": "RPM1팀",
+    "team": "담당자 전체",
     "rep": "이상준",
     "name": "연세나눔의원",
     "biz": 1091425265,
@@ -13617,7 +13617,7 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2025
     ],
-    "team": "RPM2팀",
+    "team": "담당자 전체",
     "rep": "전우찬",
     "name": "리프톤피부과 신사",
     "biz": 8460102833,
@@ -13747,7 +13747,7 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2025
     ],
-    "team": "RPM2팀",
+    "team": "담당자 전체",
     "rep": "전우찬",
     "name": "아르나의원",
     "biz": 2556300570,
@@ -13851,7 +13851,7 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2025
     ],
-    "team": "RPM2팀",
+    "team": "담당자 전체",
     "rep": "전우찬",
     "name": "리턴성형외과",
     "biz": 1631002797,
@@ -13947,7 +13947,7 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2025
     ],
-    "team": "RPM3팀",
+    "team": "담당자 전체",
     "rep": "정대철",
     "name": "메이저피부과 성신여대",
     "biz": 2090862176,
@@ -14051,7 +14051,7 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2025
     ],
-    "team": "RPM2팀",
+    "team": "담당자 전체",
     "rep": "전우찬",
     "name": "에스디피부과",
     "biz": 2111046435,
@@ -14177,7 +14177,7 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2025
     ],
-    "team": "RPM1팀",
+    "team": "담당자 전체",
     "rep": "박기주",
     "name": "이온피부과",
     "biz": 5891001364,
@@ -14281,7 +14281,7 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2025
     ],
-    "team": "RPM2팀",
+    "team": "담당자 전체",
     "rep": "이도현",
     "name": "노벨의원 영등포",
     "biz": 4220700233,
@@ -14378,7 +14378,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "손창민",
     "name": "중앙피부과",
     "biz": 4081776677,
@@ -14486,7 +14486,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "손창민",
     "name": "벨르몬성형외과",
     "biz": 7623201239,
@@ -14672,7 +14672,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "손창민",
     "name": "하얀피부과(신창)",
     "biz": 4103096001,
@@ -14778,7 +14778,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "손창민",
     "name": "베스트피부과",
     "biz": 8735100318,
@@ -14976,7 +14976,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "손창민",
     "name": "더블린의원",
     "biz": 3460600117,
@@ -15073,7 +15073,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "손창민",
     "name": "벨버티의원",
     "biz": 1511701678,
@@ -15170,7 +15170,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "손창민",
     "name": "이노블성형외과",
     "biz": 4102819452,
@@ -15345,7 +15345,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "손창민",
     "name": "압구정제이엘의원",
     "biz": 6390101013,
@@ -15442,7 +15442,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "손창민",
     "name": "앨리스의원(광주)",
     "biz": 8943400244,
@@ -15543,7 +15543,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM2팀",
+    "team": "담당자 전체",
     "rep": "김태훈",
     "name": "디온의원홍대점",
     "biz": 5621701714,
@@ -15882,7 +15882,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM2팀",
+    "team": "담당자 전체",
     "rep": "전우찬",
     "name": "디온의원신사점",
     "biz": 4586700594,
@@ -16052,7 +16052,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM3팀",
+    "team": "담당자 전체",
     "rep": "홍원의",
     "name": "디온의원선릉점",
     "biz": 8040803079,
@@ -16149,7 +16149,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM2팀",
+    "team": "담당자 전체",
     "rep": "김태훈",
     "name": "오로지의원",
     "biz": 2371002915,
@@ -16245,7 +16245,7 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2025
     ],
-    "team": "RPM1팀",
+    "team": "담당자 전체",
     "rep": "박기주",
     "name": "유앤아이의원 사당점 ",
     "biz": 5504600518,
@@ -16329,7 +16329,7 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2025
     ],
-    "team": "RPM3팀",
+    "team": "담당자 전체",
     "rep": "박천",
     "name": "유앤아이의원 광교점 ",
     "biz": 3187500137,
@@ -16510,7 +16510,7 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2025
     ],
-    "team": "RPM2팀",
+    "team": "담당자 전체",
     "rep": "이도현",
     "name": "유앤아이의원 산본점  ",
     "biz": 8832401190,
@@ -16606,7 +16606,7 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2025
     ],
-    "team": "RPM1팀",
+    "team": "담당자 전체",
     "rep": "이상준",
     "name": "유앤아이의원 부천점 ",
     "biz": 3503101096,
@@ -16690,7 +16690,7 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2025
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "송진영",
     "name": "유앤아이의원 천안점 ",
     "biz": 5657600370,
@@ -16765,7 +16765,7 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2025
     ],
-    "team": "RPM1팀",
+    "team": "담당자 전체",
     "rep": "이상준",
     "name": "유앤아이의원 김포점 ",
     "biz": 1673801076,
@@ -16883,7 +16883,7 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2025
     ],
-    "team": "RPM2팀",
+    "team": "담당자 전체",
     "rep": "이도현",
     "name": "유앤아이의원 구로점 ",
     "biz": 5073049874,
@@ -16965,7 +16965,7 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2025
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "송진영",
     "name": "유앤아이의원 부산점 ",
     "biz": 5412002074,
@@ -17061,7 +17061,7 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2025
     ],
-    "team": "RPM3팀",
+    "team": "담당자 전체",
     "rep": "박천",
     "name": "유앤아이의원 평택점 ",
     "biz": 2050510919,
@@ -17163,7 +17163,7 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2025
     ],
-    "team": "RPM2팀",
+    "team": "담당자 전체",
     "rep": "이도현",
     "name": "유앤아이의원 여의도점 ",
     "biz": 7621702031,
@@ -17259,7 +17259,7 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2025
     ],
-    "team": "RPM2팀",
+    "team": "담당자 전체",
     "rep": "이도현",
     "name": "유앤아이의원 안양점 ",
     "biz": 2080371717,
@@ -17355,7 +17355,7 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2025
     ],
-    "team": "RPM1팀",
+    "team": "담당자 전체",
     "rep": "이상준",
     "name": "유앤아이의원 부평점 ",
     "biz": 1670802836,
@@ -17483,7 +17483,7 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2025
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "이상직",
     "name": "2080연합피부과의원",
     "biz": 5042868980,
@@ -17618,7 +17618,7 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2025
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "송진영",
     "name": "ABC성형외과",
     "biz": 6052484820,
@@ -17736,7 +17736,7 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2025
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "송진영",
     "name": "SK최은정성형외과의원",
     "biz": 6052485187,
@@ -17848,7 +17848,7 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2025
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "송진영",
     "name": "고운세상피부과의원(명지)",
     "biz": 3561600995,
@@ -18004,7 +18004,7 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2025
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "송진영",
     "name": "고은미래의원(청주)",
     "biz": 3170546272,
@@ -18110,7 +18110,7 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2025
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "송진영",
     "name": "다미인의원",
     "biz": 6121153572,
@@ -18219,7 +18219,7 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2025
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "송진영",
     "name": "대전예쁨주의쁨의원",
     "biz": 3386300351,
@@ -18330,7 +18330,7 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2025
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "송진영",
     "name": "더고운피부과(부산)",
     "biz": 7481100369,
@@ -18455,7 +18455,7 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2025
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "이상직",
     "name": "듀오성형외과의원",
     "biz": 5042470436,
@@ -18592,7 +18592,7 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2025
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "이상직",
     "name": "로제피부과의원(범어점)",
     "biz": 5022974178,
@@ -18723,7 +18723,7 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2025
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "이상직",
     "name": "로제피부과의원(율하)",
     "biz": 5022973766,
@@ -18839,7 +18839,7 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2025
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "송진영",
     "name": "메디아트(대연)",
     "biz": 1362000840,
@@ -18977,7 +18977,7 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2025
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "송진영",
     "name": "리앤영의원",
     "biz": 5033909529,
@@ -19080,7 +19080,7 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2025
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "이상직",
     "name": "미라인의원(남구점)",
     "biz": 6102669072,
@@ -19184,7 +19184,7 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2025
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "이상직",
     "name": "미소지앤의원(북구점)",
     "biz": 5043120012,
@@ -19288,7 +19288,7 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2025
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "이상직",
     "name": "브이성형외과의원",
     "biz": 5042469190,
@@ -19438,7 +19438,7 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2025
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "송진영",
     "name": "삼성필성형외과",
     "biz": 5852601271,
@@ -19548,7 +19548,7 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2025
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "송진영",
     "name": "서울뷰의원 대전",
     "biz": 4252800839,
@@ -19650,7 +19650,7 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2025
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "송진영",
     "name": "서울뷰의원 청주",
     "biz": 6517300516,
@@ -19750,7 +19750,7 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2025
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "이상직",
     "name": "수피부과의원",
     "biz": 5142220341,
@@ -19879,7 +19879,7 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2025
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "송진영",
     "name": "실로스",
     "biz": 8484600962,
@@ -19998,7 +19998,7 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2025
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "이상직",
     "name": "씨앤미의원(구미)",
     "biz": 5812100557,
@@ -20110,7 +20110,7 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2025
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "이상직",
     "name": "아름다운피부과(수성)",
     "biz": 5022976064,
@@ -20229,7 +20229,7 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2025
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "이상직",
     "name": "예담성형외과의원",
     "biz": 5042470192,
@@ -20338,7 +20338,7 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2025
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "송진영",
     "name": "오라클피부과(청주)",
     "biz": 5334200136,
@@ -20466,7 +20466,7 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2025
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "이상직",
     "name": "청담류의원",
     "biz": 1107300510,
@@ -20589,7 +20589,7 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2025
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "송진영",
     "name": "초이스뷰의원",
     "biz": 3142799184,
@@ -20728,7 +20728,7 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2025
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "이상직",
     "name": "칠곡제이(J)성형외과의원",
     "biz": 5042470886,
@@ -20873,7 +20873,7 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2025
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "송진영",
     "name": "클린앤미의원",
     "biz": 1932900749,
@@ -20991,7 +20991,7 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2025
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "송진영",
     "name": "클린앤피부과",
     "biz": 3123084652,
@@ -21109,7 +21109,7 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2025
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "송진영",
     "name": "페이스성형외과의원",
     "biz": 3142791178,
@@ -21228,7 +21228,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "송진영",
     "name": "서울청담성형외과의원",
     "biz": 2111074076,
@@ -21393,7 +21393,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "이상직",
     "name": "연세예쁨의원",
     "biz": 7430203132,
@@ -21502,7 +21502,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "이상직",
     "name": "신&손비뇨기과",
     "biz": 5051496823,
@@ -21673,7 +21673,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "이상직",
     "name": "스타S피부과",
     "biz": 2103272586,
@@ -21834,7 +21834,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "이상직",
     "name": "빌리브피부과의원",
     "biz": 3605200804,
@@ -21936,7 +21936,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "이상직",
     "name": "더퍼스트의원",
     "biz": 8822501836,
@@ -22092,7 +22092,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "이상직",
     "name": "샤인빔의원 포항",
     "biz": 4950701981,
@@ -22193,7 +22193,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "이상직",
     "name": "연세미의원",
     "biz": 6935001034,
@@ -22349,7 +22349,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "이상직",
     "name": "연세미사랑의원",
     "biz": 7990803194,
@@ -22450,7 +22450,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "이상직",
     "name": "만촌더설레임피부과의원",
     "biz": 3102909796,
@@ -22616,7 +22616,7 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2025
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "이상직",
     "name": "노블의원",
     "biz": 6102685034,
@@ -22728,7 +22728,7 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2025
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "송진영",
     "name": "하늘성형외과",
     "biz": 6052485358,
@@ -22826,7 +22826,7 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2025
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "송진영",
     "name": "더페이스(THEFACE)성형외과의원",
     "biz": 6052484816,
@@ -22930,7 +22930,7 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2025
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "송진영",
     "name": "바다성형외과",
     "biz": 5626600561,
@@ -23034,7 +23034,7 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2025
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "송진영",
     "name": "LK성형외과",
     "biz": 5101401158,
@@ -23130,7 +23130,7 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2025
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "송진영",
     "name": "제네시스성형외과",
     "biz": 6173188996,
@@ -23226,7 +23226,7 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2025
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "송진영",
     "name": "유케이성형외과",
     "biz": 6696600329,
@@ -23322,7 +23322,7 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2025
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "송진영",
     "name": "플랜비성형",
     "biz": 7720402019,
@@ -23418,7 +23418,7 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2025
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "송진영",
     "name": "레드성형외과의원",
     "biz": 6092259649,
@@ -23514,7 +23514,7 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2025
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "송진영",
     "name": "다원메디컬의원",
     "biz": 7440902756,
@@ -23613,7 +23613,7 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2025
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "송진영",
     "name": "아루다의원",
     "biz": 4816500080,
@@ -23721,7 +23721,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "송진영",
     "name": "바로그의원 서면점",
     "biz": 5102509743,
@@ -23836,7 +23836,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "송진영",
     "name": "바로그의원 덕천점",
     "biz": 8560302173,
@@ -24029,7 +24029,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "송진영",
     "name": "바로그의원 해운대점",
     "biz": 2631902334,
@@ -24136,7 +24136,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM1팀",
+    "team": "담당자 전체",
     "rep": "이상준",
     "name": "바로그의원 발산점",
     "biz": 6414000942,
@@ -24335,7 +24335,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "송진영",
     "name": "바로그의원 하단점",
     "biz": 2731402637,
@@ -24530,7 +24530,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "송진영",
     "name": "바로그의원 마산점",
     "biz": 7450102471,
@@ -24741,7 +24741,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "송진영",
     "name": "바로그의원 김해점",
     "biz": 6706400494,
@@ -24864,7 +24864,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM1팀",
+    "team": "담당자 전체",
     "rep": "박기주",
     "name": "바로그의원 강남점",
     "biz": 3111483854,
@@ -24976,7 +24976,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "송진영",
     "name": "바로그의원 청주점",
     "biz": 3062162025,
@@ -25090,7 +25090,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "이상직",
     "name": "바로그의원 포항점",
     "biz": 6191176862,
@@ -25268,7 +25268,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "이상직",
     "name": "바로그의원 구미점",
     "biz": 8811902409,
@@ -25438,7 +25438,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "손창민",
     "name": "바로그의원 여수점",
     "biz": 1820802591,
@@ -25551,7 +25551,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "이상직",
     "name": "바로그의원 울산점",
     "biz": 6266700580,
@@ -25714,7 +25714,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "송진영",
     "name": "바로그의원 양산점",
     "biz": 1213332641,
@@ -25915,7 +25915,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "이상직",
     "name": "바로그의원 경주점",
     "biz": 3065501080,
@@ -26030,7 +26030,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "송진영",
     "name": "바로그의원 거제점",
     "biz": 6192701585,
@@ -26195,7 +26195,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "손창민",
     "name": "바로그의원 군산점",
     "biz": 8542401611,
@@ -26362,7 +26362,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "손창민",
     "name": "바로그의원 익산점",
     "biz": 5280902737,
@@ -26463,7 +26463,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "송진영",
     "name": "바로그의원 진해점",
     "biz": 7594500350,
@@ -26577,7 +26577,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM3팀",
+    "team": "담당자 전체",
     "rep": "정대철",
     "name": "바로그의원 구리점",
     "biz": 6911602412,
@@ -26681,7 +26681,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "송진영",
     "name": "바로그의원 유성점",
     "biz": 8112501682,
@@ -27002,7 +27002,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "송진영",
     "name": "바로그의원 아산점",
     "biz": 1023807485,
@@ -27178,7 +27178,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM1팀",
+    "team": "담당자 전체",
     "rep": "이상준",
     "name": "바로그의원 부천점",
     "biz": 7420903031,
@@ -27295,7 +27295,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "이상직",
     "name": "바로그의원 동성로점",
     "biz": 7643001551,
@@ -27472,7 +27472,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "이상직",
     "name": "바로그의원 울산동구점",
     "biz": 1127800525,
@@ -27634,7 +27634,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "이상직",
     "name": "포항 밴스의원",
     "biz": 3201202550,
@@ -27735,7 +27735,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM2팀",
+    "team": "담당자 전체",
     "rep": "전우찬",
     "name": "신사넘버파이브의원",
     "biz": 6940502040,
@@ -27840,7 +27840,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM1팀",
+    "team": "담당자 전체",
     "rep": "박기주",
     "name": "더플랜성형외과",
     "biz": 6991100806,
@@ -27945,7 +27945,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM2팀",
+    "team": "담당자 전체",
     "rep": "전우찬",
     "name": "하일리의원",
     "biz": 7961102430,
@@ -28054,7 +28054,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM3팀",
+    "team": "담당자 전체",
     "rep": "홍원의",
     "name": "벨리시모의원",
     "biz": 7103201164,
@@ -28151,7 +28151,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM1팀",
+    "team": "담당자 전체",
     "rep": "박기주",
     "name": "마블성형외과",
     "biz": 3014461393,
@@ -28238,7 +28238,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM1팀",
+    "team": "담당자 전체",
     "rep": "박기주",
     "name": "메종드엠의원",
     "biz": 8012801236,
@@ -28435,7 +28435,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM2팀",
+    "team": "담당자 전체",
     "rep": "전우찬",
     "name": "온앤위드의원",
     "biz": 8347900281,
@@ -28585,7 +28585,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM2팀",
+    "team": "담당자 전체",
     "rep": "전우찬",
     "name": "림피부과",
     "biz": 5102194034,
@@ -28682,7 +28682,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM1팀",
+    "team": "담당자 전체",
     "rep": "박기주",
     "name": "루쎄여성의원",
     "biz": 4484400074,
@@ -28783,7 +28783,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM1팀",
+    "team": "담당자 전체",
     "rep": "박기주",
     "name": "비비의원",
     "biz": 2141333997,
@@ -28882,7 +28882,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM1팀",
+    "team": "담당자 전체",
     "rep": "박기주",
     "name": "에르네의원",
     "biz": 2141442120,
@@ -28991,7 +28991,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM2팀",
+    "team": "담당자 전체",
     "rep": "전우찬",
     "name": "강남서연성형외과",
     "biz": 5695500076,
@@ -29113,7 +29113,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM1팀",
+    "team": "담당자 전체",
     "rep": "박기주",
     "name": "에스엠성형외과",
     "biz": 2141430551,
@@ -29201,7 +29201,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM1팀",
+    "team": "담당자 전체",
     "rep": "박기주",
     "name": "시선성형외과",
     "biz": 5965900168,
@@ -29323,7 +29323,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM1팀",
+    "team": "담당자 전체",
     "rep": "박기주",
     "name": "라인피부과",
     "biz": 1141590969,
@@ -29521,7 +29521,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM1팀",
+    "team": "담당자 전체",
     "rep": "박기주",
     "name": "얼굴본성형외과",
     "biz": 4860701065,
@@ -29669,7 +29669,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM2팀",
+    "team": "담당자 전체",
     "rep": "전우찬",
     "name": "더(THE)성형외과의원",
     "biz": 2110946458,
@@ -29761,7 +29761,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM3팀",
+    "team": "담당자 전체",
     "rep": "홍원의",
     "name": "리젠클리닉",
     "biz": 2110948043,
@@ -30009,7 +30009,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM2팀",
+    "team": "담당자 전체",
     "rep": "전우찬",
     "name": "더원성형외과의원",
     "biz": 2110947063,
@@ -30116,7 +30116,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM1팀",
+    "team": "담당자 전체",
     "rep": "박기주",
     "name": "데이원의원",
     "biz": 4804300033,
@@ -30254,7 +30254,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM2팀",
+    "team": "담당자 전체",
     "rep": "전우찬",
     "name": "라이트성형외과",
     "biz": 5451201029,
@@ -30446,7 +30446,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM1팀",
+    "team": "담당자 전체",
     "rep": "박기주",
     "name": "메이드영성형외과",
     "biz": 3667400105,
@@ -30635,7 +30635,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM2팀",
+    "team": "담당자 전체",
     "rep": "전우찬",
     "name": "111의원",
     "biz": 3983000108,
@@ -30800,7 +30800,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM2팀",
+    "team": "담당자 전체",
     "rep": "전우찬",
     "name": "에프아이성형외과",
     "biz": 1830900462,
@@ -30978,7 +30978,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM1팀",
+    "team": "담당자 전체",
     "rep": "박기주",
     "name": "뉴케이의원",
     "biz": 5284900792,
@@ -31075,7 +31075,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM1팀",
+    "team": "담당자 전체",
     "rep": "박기주",
     "name": "강남역데이원의원",
     "biz": 1683500671,
@@ -31205,7 +31205,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM3팀",
+    "team": "담당자 전체",
     "rep": "홍원의",
     "name": "차소연의원(강남구)",
     "biz": 8446300462,
@@ -31292,7 +31292,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM2팀",
+    "team": "담당자 전체",
     "rep": "장은준",
     "name": "리버스의원(일산)",
     "biz": 1283963259,
@@ -31409,7 +31409,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM3팀",
+    "team": "담당자 전체",
     "rep": "홍원의",
     "name": "스웨이성형외과",
     "biz": 6182767828,
@@ -31506,7 +31506,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM2팀",
+    "team": "담당자 전체",
     "rep": "김태훈",
     "name": "리버스의원(마포)",
     "biz": 7665500226,
@@ -31627,7 +31627,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM1팀",
+    "team": "담당자 전체",
     "rep": "박기주",
     "name": "리버스의원(서초)",
     "biz": 3632002101,
@@ -31732,7 +31732,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM1팀",
+    "team": "담당자 전체",
     "rep": "이상준",
     "name": "리버스의원(구월)",
     "biz": 2627700070,
@@ -31820,7 +31820,8 @@ window.BLOCK_DETAIL = [
               "2026-03": 409091.0,
               "2026-05": 409091.0,
               "2026-06": 409091.0,
-              "2026-08": 818182.0
+              "2026-08": 818182.0,
+              "2026-11": 409091.0
             },
             "remark": ""
           }
@@ -31842,7 +31843,8 @@ window.BLOCK_DETAIL = [
           "2026-03": 409091.0,
           "2026-05": 409091.0,
           "2026-06": 409091.0,
-          "2026-08": 818182.0
+          "2026-08": 818182.0,
+          "2026-11": 409091.0
         }
       },
       "필러군": {
@@ -31920,7 +31922,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM2팀",
+    "team": "담당자 전체",
     "rep": "김태훈",
     "name": "리버스의원(명동)",
     "biz": 2054300107,
@@ -32007,7 +32009,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM3팀",
+    "team": "담당자 전체",
     "rep": "정대철",
     "name": "예쁜나의원",
     "biz": 5491201749,
@@ -32165,7 +32167,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM3팀",
+    "team": "담당자 전체",
     "rep": "홍원의",
     "name": "우아성형외과",
     "biz": 8283900451,
@@ -32346,7 +32348,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM1팀",
+    "team": "담당자 전체",
     "rep": "박기주",
     "name": "이미지업성형외과",
     "biz": 5362501160,
@@ -32437,7 +32439,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM1팀",
+    "team": "담당자 전체",
     "rep": "박기주",
     "name": "서울퀸성형외과",
     "biz": 6135200334,
@@ -32598,7 +32600,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM2팀",
+    "team": "담당자 전체",
     "rep": "전우찬",
     "name": "스타트성형외과",
     "biz": 8577900116,
@@ -32695,7 +32697,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM3팀",
+    "team": "담당자 전체",
     "rep": "홍원의",
     "name": "라인마스터의원",
     "biz": 6973101603,
@@ -32739,8 +32741,7 @@ window.BLOCK_DETAIL = [
             ],
             "actual_by_month": {
               "2026-05": 654546.0,
-              "2026-08": 490909.0,
-              "2026-11": 11363636.0
+              "2026-08": 490909.0
             },
             "remark": "회수"
           }
@@ -32750,8 +32751,7 @@ window.BLOCK_DETAIL = [
           "2025-04": 490909.0,
           "2025-05": 490909.0,
           "2026-05": 654546.0,
-          "2026-08": 490909.0,
-          "2026-11": 11363636.0
+          "2026-08": 490909.0
         }
       },
       "브이올렛": {
@@ -32886,7 +32886,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM3팀",
+    "team": "담당자 전체",
     "rep": "홍원의",
     "name": "세이에스의원",
     "biz": 5111402669,
@@ -32987,7 +32987,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM1팀",
+    "team": "담당자 전체",
     "rep": "박기주",
     "name": "유캔비성형외과",
     "biz": 2141334787,
@@ -33084,7 +33084,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM1팀",
+    "team": "담당자 전체",
     "rep": "이상준",
     "name": "아이비의원(목동점)",
     "biz": 1621900635,
@@ -33181,7 +33181,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM2팀",
+    "team": "담당자 전체",
     "rep": "이도현",
     "name": "포에버의원",
     "biz": 3744100656,
@@ -33370,7 +33370,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM3팀",
+    "team": "담당자 전체",
     "rep": "박천",
     "name": "유디트의원",
     "biz": 2212993922,
@@ -33584,7 +33584,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM3팀",
+    "team": "담당자 전체",
     "rep": "박천",
     "name": "샤인유의원",
     "biz": 1532800569,
@@ -33883,7 +33883,7 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2025
     ],
-    "team": "RPM2팀",
+    "team": "담당자 전체",
     "rep": "이도현",
     "name": "차앤박피부과(여의도)",
     "biz": 1072021395,
@@ -33979,7 +33979,7 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2025
     ],
-    "team": "RPM3팀",
+    "team": "담당자 전체",
     "rep": "박천",
     "name": "차앤박피부과(평택점)",
     "biz": 1252510834,
@@ -34075,7 +34075,7 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2025
     ],
-    "team": "RPM2팀",
+    "team": "담당자 전체",
     "rep": "전우찬",
     "name": "차앤박피부과(압구정점)",
     "biz": 2110951325,
@@ -34175,7 +34175,7 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2025
     ],
-    "team": "RPM2팀",
+    "team": "담당자 전체",
     "rep": "장은준",
     "name": "차앤박피부과(일산)",
     "biz": 1283867388,
@@ -34271,7 +34271,7 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2025
     ],
-    "team": "RPM2팀",
+    "team": "담당자 전체",
     "rep": "이도현",
     "name": "차앤박피부과(안산)",
     "biz": 1343230185,
@@ -34367,7 +34367,7 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2025
     ],
-    "team": "RPM3팀",
+    "team": "담당자 전체",
     "rep": "정대철",
     "name": "차앤박피부과(의정부)",
     "biz": 1273470261,
@@ -34463,7 +34463,7 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2025
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "손창민",
     "name": "씨앤피차앤박피부과의원",
     "biz": 3123120164,
@@ -34571,7 +34571,7 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2025
     ],
-    "team": "RPM3팀",
+    "team": "담당자 전체",
     "rep": "박천",
     "name": "김지훈피부과",
     "biz": 1245233688,
@@ -34671,7 +34671,7 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2025
     ],
-    "team": "RPM2팀",
+    "team": "담당자 전체",
     "rep": "이도현",
     "name": "평촌초이스피부과",
     "biz": 5550303172,
@@ -34767,7 +34767,7 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2025
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "송진영",
     "name": "바른빛피부과",
     "biz": 3420803042,
@@ -34867,7 +34867,7 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2025
     ],
-    "team": "RPM3팀",
+    "team": "담당자 전체",
     "rep": "홍원의",
     "name": "청담글래시피부과",
     "biz": 6662201437,
@@ -34982,7 +34982,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM1팀",
+    "team": "담당자 전체",
     "rep": "유재준",
     "name": "한국메디홀스㈜",
     "biz": 1208669985,
@@ -35051,7 +35051,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "송진영",
     "name": "삼성미의원",
     "biz": 6532001586,
@@ -35230,7 +35230,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "송진영",
     "name": "라비에피부과",
     "biz": 5694000349,
@@ -35327,7 +35327,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "송진영",
     "name": "스타뷰의원",
     "biz": 6350901749,
@@ -35428,7 +35428,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "송진영",
     "name": "필스톡스의원",
     "biz": 6052636792,
@@ -35647,7 +35647,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "송진영",
     "name": "바노바기의원(부산)",
     "biz": 1980502561,
@@ -35840,7 +35840,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "송진영",
     "name": "마린성형외과",
     "biz": 6173189374,
@@ -36007,7 +36007,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "송진영",
     "name": "파라다이스의원",
     "biz": 1690102056,
@@ -36111,7 +36111,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "송진영",
     "name": "미엘르의원",
     "biz": 8454300943,
@@ -36271,11 +36271,15 @@ window.BLOCK_DETAIL = [
               4000000,
               4000000
             ],
-            "actual_by_month": {},
+            "actual_by_month": {
+              "2026-11": 900000.0
+            },
             "remark": ""
           }
         },
-        "actual_by_month": {}
+        "actual_by_month": {
+          "2026-11": 900000.0
+        }
       }
     }
   },
@@ -36286,7 +36290,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "송진영",
     "name": "리노보의원",
     "biz": 1780101935,
@@ -36504,7 +36508,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "송진영",
     "name": "뷰에르의원",
     "biz": 4583900494,
@@ -36632,7 +36636,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "송진영",
     "name": "미포유의원",
     "biz": 6151684123,
@@ -36741,7 +36745,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "이상직",
     "name": "메디아트의원(대구)",
     "biz": 5042470076,
@@ -36835,7 +36839,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "이상직",
     "name": "엘리스의원(울산)",
     "biz": 6102771221,
@@ -36942,7 +36946,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "송진영",
     "name": "창원퍼스트피부과",
     "biz": 6710200941,
@@ -37059,7 +37063,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "송진영",
     "name": "아름다운피부과(연산)",
     "biz": 7603200592,
@@ -37170,7 +37174,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM3팀",
+    "team": "담당자 전체",
     "rep": "박천",
     "name": "헤어로의원",
     "biz": 8261602323,
@@ -37357,7 +37361,7 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2025
     ],
-    "team": "RPM3팀",
+    "team": "담당자 전체",
     "rep": "홍원의",
     "name": "원셀메디의원",
     "biz": 1265500753,
@@ -37460,7 +37464,7 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2025
     ],
-    "team": "RPM1팀",
+    "team": "담당자 전체",
     "rep": "박기주",
     "name": "더그레이스의원",
     "biz": 1141641015,
@@ -37563,7 +37567,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM1팀",
+    "team": "담당자 전체",
     "rep": "박기주",
     "name": "어반성형외과",
     "biz": 8140202814,
@@ -37740,7 +37744,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM1팀",
+    "team": "담당자 전체",
     "rep": "박기주",
     "name": "큐비스의원",
     "biz": 2110948378,
@@ -37927,7 +37931,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM1팀",
+    "team": "담당자 전체",
     "rep": "박기주",
     "name": "조이플성형외과",
     "biz": 4922502078,
@@ -38028,7 +38032,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM1팀",
+    "team": "담당자 전체",
     "rep": "박기주",
     "name": "아이엠퀸여성의원",
     "biz": 8102201811,
@@ -38129,7 +38133,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "송진영",
     "name": "제이린의원 남포점",
     "biz": 1234301202,
@@ -38230,7 +38234,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "송진영",
     "name": "쉬즈라인서면점",
     "biz": 2743401487,
@@ -38319,7 +38323,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "송진영",
     "name": "비오비의원",
     "biz": 5035203922,
@@ -38415,7 +38419,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "송진영",
     "name": "뉴라인성형외과",
     "biz": 2011976600,
@@ -38502,7 +38506,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "송진영",
     "name": "연세결성형외과",
     "biz": 3601201826,
@@ -38669,7 +38673,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "송진영",
     "name": "김우신성형외과",
     "biz": 6121152286,
@@ -38771,7 +38775,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "송진영",
     "name": "하이갤러리성형외과",
     "biz": 6052485907,
@@ -38934,7 +38938,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "송진영",
     "name": "고운피부과의원(진주)",
     "biz": 6132251840,
@@ -39101,7 +39105,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "송진영",
     "name": "리저브성형외과",
     "biz": 1257200306,
@@ -39257,7 +39261,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "송진영",
     "name": "스위트의원",
     "biz": 4210302263,
@@ -39354,7 +39358,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "송진영",
     "name": "뉴스타일성형외과",
     "biz": 6052485076,
@@ -39519,7 +39523,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "송진영",
     "name": "압구정미인의원",
     "biz": 6445400856,
@@ -39684,7 +39688,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "송진영",
     "name": "봄빛의원",
     "biz": 3897500328,
@@ -39785,7 +39789,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "송진영",
     "name": "아이케이의원",
     "biz": 8981800886,
@@ -39886,7 +39890,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "송진영",
     "name": "뷰센스의원(해운대점)",
     "biz": 6173191021,
@@ -39983,7 +39987,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "송진영",
     "name": "이현재피부과의원",
     "biz": 8841000877,
@@ -40096,7 +40100,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "송진영",
     "name": "본피부과",
     "biz": 6212219496,
@@ -40304,7 +40308,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "송진영",
     "name": "BB의원(해운대)",
     "biz": 1093027884,
@@ -40615,7 +40619,7 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2025
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "이상직",
     "name": "고운피부과(경주)",
     "biz": 5051497588,
@@ -40722,7 +40726,7 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2025
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "이상직",
     "name": "로제피부과의원중앙점",
     "biz": 5043020316,
@@ -40827,7 +40831,7 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2025
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "이상직",
     "name": "브이의원(수성)",
     "biz": 8100500848,
@@ -40935,7 +40939,7 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2025
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "이상직",
     "name": "석피부과의원",
     "biz": 5022746794,
@@ -41040,7 +41044,7 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2025
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "송진영",
     "name": "성모피부과의원(청주)",
     "biz": 3170534761,
@@ -41149,7 +41153,7 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2025
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "송진영",
     "name": "유스앤영서울뷰의원",
     "biz": 7986700376,
@@ -41251,7 +41255,7 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2025
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "송진영",
     "name": "프리미엄에스 서면",
     "biz": 6052487021,
@@ -41348,7 +41352,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "송진영",
     "name": "워너비의원",
     "biz": 3673301633,
@@ -41504,7 +41508,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM1팀",
+    "team": "담당자 전체",
     "rep": "박기주",
     "name": "피네의원",
     "biz": 5613201484,
@@ -41593,7 +41597,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM1팀",
+    "team": "담당자 전체",
     "rep": "박기주",
     "name": "클레이성형외과",
     "biz": 1141449333,
@@ -41690,7 +41694,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM2팀",
+    "team": "담당자 전체",
     "rep": "전우찬",
     "name": "올리미의원",
     "biz": 3016200667,
@@ -41787,7 +41791,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM1팀",
+    "team": "담당자 전체",
     "rep": "박기주",
     "name": "베일러의원",
     "biz": 7583201318,
@@ -41884,7 +41888,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "송진영",
     "name": "미테크성형외과",
     "biz": 6822601437,
@@ -42038,7 +42042,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "송진영",
     "name": "마노필의원",
     "biz": 7261002768,
@@ -42135,7 +42139,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "송진영",
     "name": "라라피부과의원",
     "biz": 5101162299,
@@ -42238,7 +42242,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "송진영",
     "name": "포에버의원(서면)",
     "biz": 1855000010,
@@ -42335,7 +42339,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "송진영",
     "name": "제이린의원",
     "biz": 6290801621,
@@ -42515,7 +42519,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "송진영",
     "name": "서면아이성형외과",
     "biz": 6052484946,
@@ -42612,7 +42616,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "송진영",
     "name": "디에이치(DH)성형외과",
     "biz": 2050383214,
@@ -42708,7 +42712,7 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2025
     ],
-    "team": "RPM2팀",
+    "team": "담당자 전체",
     "rep": "이도현",
     "name": "유앤아이의원 시흥배곧점",
     "biz": 4981700753,
@@ -42908,7 +42912,7 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2025
     ],
-    "team": "RPM3팀",
+    "team": "담당자 전체",
     "rep": "홍원의",
     "name": "닥터세비앙",
     "biz": 1402500484,
@@ -43005,7 +43009,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "손창민",
     "name": "아이린의원(광주)",
     "biz": 4102820186,
@@ -43102,7 +43106,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "손창민",
     "name": "필스토리의원",
     "biz": 7431402247,
@@ -43270,7 +43274,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "이상직",
     "name": "제이린의원 울산점",
     "biz": 1701102905,
@@ -43367,7 +43371,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "이상직",
     "name": "더올림성형외과",
     "biz": 5731002994,
@@ -43468,7 +43472,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "송진영",
     "name": "센텀코어의원",
     "biz": 7241302332,
@@ -43576,7 +43580,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "송진영",
     "name": "갤럭시성형외과",
     "biz": 8961100391,
@@ -43753,7 +43757,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "송진영",
     "name": "제나성형외과의원",
     "biz": 4424300424,
@@ -43920,7 +43924,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM3팀",
+    "team": "담당자 전체",
     "rep": "정대철",
     "name": "의정부빔스테틱의원",
     "biz": 1274356994,
@@ -44027,7 +44031,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM3팀",
+    "team": "담당자 전체",
     "rep": "정대철",
     "name": "에스필의원",
     "biz": 1322655869,
@@ -44184,7 +44188,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM1팀",
+    "team": "담당자 전체",
     "rep": "박기주",
     "name": "안티에이지의원",
     "biz": 5362302049,
@@ -44285,7 +44289,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM1팀",
+    "team": "담당자 전체",
     "rep": "박기주",
     "name": "르모아의원",
     "biz": 3270402935,
@@ -44388,7 +44392,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM2팀",
+    "team": "담당자 전체",
     "rep": "장은준",
     "name": "미소드림의원",
     "biz": 1410594949,
@@ -44493,7 +44497,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "블루오션TF",
+    "team": "담당자 전체",
     "rep": "전지원",
     "name": "연세리움의원",
     "biz": 3823001664,
@@ -44650,7 +44654,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM2팀",
+    "team": "담당자 전체",
     "rep": "장은준",
     "name": "연세 유의원 ",
     "biz": 7653000180,
@@ -44804,7 +44808,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM1팀",
+    "team": "담당자 전체",
     "rep": "박기주",
     "name": "마이디 양재 ",
     "biz": 2209104699,
@@ -44954,7 +44958,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM1팀",
+    "team": "담당자 전체",
     "rep": "박기주",
     "name": "연세팰리체 여성의원",
     "biz": 2152299897,
@@ -45112,7 +45116,7 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2025
     ],
-    "team": "RPM1팀",
+    "team": "담당자 전체",
     "rep": "박기주",
     "name": "세예의원",
     "biz": 4700303420,
@@ -45213,7 +45217,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM3팀",
+    "team": "담당자 전체",
     "rep": "정대철",
     "name": "유앤영피부과",
     "biz": 2171022033,
@@ -45310,7 +45314,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM1팀",
+    "team": "담당자 전체",
     "rep": "박기주",
     "name": "비브톤의원(강남)",
     "biz": 5987200256,
@@ -45518,7 +45522,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM3팀",
+    "team": "담당자 전체",
     "rep": "정대철",
     "name": "닥터린의원",
     "biz": 7681300033,
@@ -45615,7 +45619,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM3팀",
+    "team": "담당자 전체",
     "rep": "정대철",
     "name": "타토아의원(노원점)",
     "biz": 4871602550,
@@ -46143,7 +46147,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM3팀",
+    "team": "담당자 전체",
     "rep": "정대철",
     "name": "타토아(의정부점)",
     "biz": 1881602333,
@@ -46228,7 +46232,7 @@ window.BLOCK_DETAIL = [
               "2026-01": 2000000.0,
               "2026-05": 1227273.0,
               "2026-10": 409091.0,
-              "2026-11": 409091.0
+              "2026-11": 1227273.0
             },
             "remark": ""
           }
@@ -46240,7 +46244,7 @@ window.BLOCK_DETAIL = [
           "2026-01": 2000000.0,
           "2026-05": 1227273.0,
           "2026-10": 409091.0,
-          "2026-11": 409091.0
+          "2026-11": 1227273.0
         }
       },
       "필러군": {
@@ -46326,7 +46330,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "이상직",
     "name": "타토아(구미점)",
     "biz": 3356500598,
@@ -46487,7 +46491,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM2팀",
+    "team": "담당자 전체",
     "rep": "전우찬",
     "name": "메디컬오의원",
     "biz": 8204201344,
@@ -46641,7 +46645,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "손창민",
     "name": "리뉴어의원(익산)",
     "biz": 1104296536,
@@ -46750,7 +46754,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "손창민",
     "name": "비비드성형외과",
     "biz": 6851200880,
@@ -46847,7 +46851,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "손창민",
     "name": "리엘르의원(광주)",
     "biz": 3485400773,
@@ -47010,7 +47014,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "손창민",
     "name": "마레피부과",
     "biz": 6572001405,
@@ -47107,7 +47111,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "손창민",
     "name": "케이스타의원",
     "biz": 4103133075,
@@ -47266,7 +47270,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "송진영",
     "name": "셀피성형외과",
     "biz": 3750102516,
@@ -47428,7 +47432,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM3팀",
+    "team": "담당자 전체",
     "rep": "박천",
     "name": "바로그의원(평택점)",
     "biz": 5574301254,
@@ -47585,7 +47589,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM1팀",
+    "team": "담당자 전체",
     "rep": "박기주",
     "name": "서초바른하지의원",
     "biz": 6951003274,
@@ -47682,7 +47686,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM1팀",
+    "team": "담당자 전체",
     "rep": "박기주",
     "name": "고트의원",
     "biz": 2012707132,
@@ -47859,7 +47863,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM1팀",
+    "team": "담당자 전체",
     "rep": "박기주",
     "name": "신데렐라성형외과",
     "biz": 2141334792,
@@ -47956,7 +47960,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM3팀",
+    "team": "담당자 전체",
     "rep": "정대철",
     "name": "오아로 노원",
     "biz": 5071438187,
@@ -48049,7 +48053,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM1팀",
+    "team": "담당자 전체",
     "rep": "박기주",
     "name": "그레이스 성형외과 ",
     "biz": 2110945823,
@@ -48137,7 +48141,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "송진영",
     "name": "연세메디컬의원",
     "biz": 6173653191,
@@ -48314,7 +48318,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "송진영",
     "name": "\t제니크의원(해운대)\t",
     "biz": 4696800572,
@@ -48527,7 +48531,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "송진영",
     "name": "제니크의원",
     "biz": 8910503131,
@@ -48720,7 +48724,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM3팀",
+    "team": "담당자 전체",
     "rep": "정대철",
     "name": "서울업피부과",
     "biz": 8300902606,
@@ -48927,7 +48931,7 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2025
     ],
-    "team": "RPM2팀",
+    "team": "담당자 전체",
     "rep": "이도현",
     "name": "유앤아이의원 (과천점)",
     "biz": 3402801745,
@@ -49024,7 +49028,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM3팀",
+    "team": "담당자 전체",
     "rep": "홍원의",
     "name": "리핏의원",
     "biz": 7210902957,
@@ -49174,7 +49178,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM1팀",
+    "team": "담당자 전체",
     "rep": "박기주",
     "name": "서울아이성형외과",
     "biz": 3020795116,
@@ -49334,7 +49338,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM1팀",
+    "team": "담당자 전체",
     "rep": "박기주",
     "name": "프리아의원",
     "biz": 3392501763,
@@ -49484,7 +49488,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM1팀",
+    "team": "담당자 전체",
     "rep": "박기주",
     "name": "아이러브피부과",
     "biz": 2200986115,
@@ -49634,7 +49638,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM1팀",
+    "team": "담당자 전체",
     "rep": "박기주",
     "name": "리참성형외과",
     "biz": 5791002560,
@@ -49784,7 +49788,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM2팀",
+    "team": "담당자 전체",
     "rep": "전우찬",
     "name": "하이미의원",
     "biz": 3172302114,
@@ -49952,7 +49956,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "손창민",
     "name": "힐링미드림의원",
     "biz": 4452600635,
@@ -50113,7 +50117,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "손창민",
     "name": "뷰티드1.0의원",
     "biz": 3404401314,
@@ -50273,7 +50277,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "손창민",
     "name": "더나은병원",
     "biz": 4103140372,
@@ -50427,7 +50431,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM3팀",
+    "team": "담당자 전체",
     "rep": "정대철",
     "name": "샤인영의원",
     "biz": 7583001857,
@@ -50581,7 +50585,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM3팀",
+    "team": "담당자 전체",
     "rep": "정대철",
     "name": "메이드림의원",
     "biz": 1274673499,
@@ -50735,7 +50739,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM3팀",
+    "team": "담당자 전체",
     "rep": "박천",
     "name": "톤즈의원",
     "biz": 7982801681,
@@ -50889,7 +50893,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM1팀",
+    "team": "담당자 전체",
     "rep": "박기주",
     "name": "브라운아이의원",
     "biz": 2110947253,
@@ -51038,7 +51042,7 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2025
     ],
-    "team": "RPM3팀",
+    "team": "담당자 전체",
     "rep": "정대철",
     "name": "유앤아이의원(창동)",
     "biz": 2400103621,
@@ -51139,7 +51143,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "이상직",
     "name": "연세미의원",
     "biz": 5871003051,
@@ -51289,7 +51293,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "송진영",
     "name": "최상호성형외과",
     "biz": 6020838588,
@@ -51443,7 +51447,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "송진영",
     "name": "쉬즈위시의원",
     "biz": 6052727719,
@@ -51593,7 +51597,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "송진영",
     "name": "닥터셈매직뷰티의원",
     "biz": 5455400715,
@@ -51743,7 +51747,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM1팀",
+    "team": "담당자 전체",
     "rep": "박기주",
     "name": "페슈의원",
     "biz": 2190528999,
@@ -52165,7 +52169,7 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2026
     ],
-    "team": "RPM2팀",
+    "team": "담당자 전체",
     "rep": "이도현",
     "name": "유앤아이의원 산본점  ",
     "biz": 8832401190,
@@ -52261,7 +52265,7 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2026
     ],
-    "team": "RPM1팀",
+    "team": "담당자 전체",
     "rep": "이상준",
     "name": "유앤아이의원 김포점 ",
     "biz": 1673801076,
@@ -52381,7 +52385,7 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2026
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "송진영",
     "name": "유앤아이의원 부산점 ",
     "biz": 5412002074,
@@ -52477,7 +52481,7 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2026
     ],
-    "team": "RPM3팀",
+    "team": "담당자 전체",
     "rep": "박천",
     "name": "유앤아이의원 평택점 ",
     "biz": 2050510919,
@@ -52576,7 +52580,7 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2026
     ],
-    "team": "RPM1팀",
+    "team": "담당자 전체",
     "rep": "이상준",
     "name": "유앤아이의원 부평점 ",
     "biz": 1670802836,
@@ -52713,7 +52717,7 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2026
     ],
-    "team": "RPM2팀",
+    "team": "담당자 전체",
     "rep": "이도현",
     "name": "유앤아이의원 시흥배곧점",
     "biz": 4981700753,
@@ -52935,7 +52939,7 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2026
     ],
-    "team": "RPM2팀",
+    "team": "담당자 전체",
     "rep": "이도현",
     "name": "유앤아이의원(과천점)",
     "biz": 3402801745,
@@ -53031,7 +53035,7 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2026
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "송진영",
     "name": "ABC성형외과",
     "biz": 6052484820,
@@ -53146,7 +53150,7 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2026
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "송진영",
     "name": "SK최은정성형외과의원",
     "biz": 6052485187,
@@ -53255,7 +53259,7 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2026
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "송진영",
     "name": "고운세상피부과의원(명지)",
     "biz": 3561600995,
@@ -53410,7 +53414,7 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2026
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "이상직",
     "name": "로제피부과의원(범어점)",
     "biz": 5022974178,
@@ -53544,7 +53548,7 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2026
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "송진영",
     "name": "메디아트(대연)",
     "biz": 1362000840,
@@ -53684,7 +53688,7 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2026
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "이상직",
     "name": "씨앤미의원(구미)",
     "biz": 5812100557,
@@ -53795,7 +53799,7 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2026
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "송진영",
     "name": "더붐의원",
     "biz": 6141701956,
@@ -53915,7 +53919,7 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2026
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "송진영",
     "name": "셀렉트피부과의원",
     "biz": 2302201941,
@@ -54011,7 +54015,7 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2026
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "송진영",
     "name": "센텀연의원",
     "biz": 6052672594,
@@ -54127,7 +54131,7 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2026
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "송진영",
     "name": "신비성형외과",
     "biz": 8610401697,
@@ -54231,7 +54235,7 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2026
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "송진영",
     "name": "플로리아의원",
     "biz": 4660502426,
@@ -54333,7 +54337,7 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2026
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "송진영",
     "name": "리뉴미피부과의원\t",
     "biz": 4355300712,
@@ -54433,7 +54437,7 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2026
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "송진영",
     "name": "잘빼는에스의원",
     "biz": 6052583449,
@@ -54537,7 +54541,7 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2026
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "송진영",
     "name": "디움의원",
     "biz": 7233600422,
@@ -54633,7 +54637,7 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2026
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "송진영",
     "name": "셀리즈피부과",
     "biz": 2092896446,
@@ -54734,7 +54738,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "손창민",
     "name": "아미의원",
     "biz": 5542500738,
@@ -54835,7 +54839,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "손창민",
     "name": "카멜리아의원",
     "biz": 2262061908,
@@ -54936,7 +54940,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "손창민",
     "name": "더미인의원(제주)",
     "biz": 6661700069,
@@ -55037,7 +55041,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "손창민",
     "name": "더리프트의원",
     "biz": 1465800592,
@@ -55141,7 +55145,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "송진영",
     "name": "더고운의원(제주)",
     "biz": 8510802493,
@@ -55238,7 +55242,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "손창민",
     "name": "\t쁨글로벌의원(제주)",
     "biz": 3835100886,
@@ -55335,7 +55339,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "손창민",
     "name": "\t블리비의원",
     "biz": 6790802377,
@@ -55436,7 +55440,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM3팀",
+    "team": "담당자 전체",
     "rep": "홍원의",
     "name": "아이엘의원",
     "biz": 3685800396,
@@ -55537,7 +55541,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM2팀",
+    "team": "담당자 전체",
     "rep": "장은준",
     "name": "스무살의원",
     "biz": 1283996876,
@@ -55634,7 +55638,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM1팀",
+    "team": "담당자 전체",
     "rep": "박기주",
     "name": "브이에이성형외과",
     "biz": 1352906669,
@@ -55771,7 +55775,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM1팀",
+    "team": "담당자 전체",
     "rep": "박기주",
     "name": "라포엘의원",
     "biz": 4121365259,
@@ -55894,7 +55898,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM3팀",
+    "team": "담당자 전체",
     "rep": "홍원의",
     "name": "아카이브청담의원",
     "biz": 8150602891,
@@ -56021,7 +56025,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "손창민",
     "name": "오비쎄의원",
     "biz": 6140903018,
@@ -56137,7 +56141,7 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2026
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "송진영",
     "name": "리엔하이피부과의원",
     "biz": 2782000289,
@@ -56245,7 +56249,7 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2026
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "이상직",
     "name": "서울에이치피부과의원",
     "biz": 6102767222,
@@ -56349,7 +56353,7 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2026
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "이상직",
     "name": "황금피부과의원",
     "biz": 1602800645,
@@ -56449,7 +56453,7 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2026
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "이상직",
     "name": "\t힐하우스피부과의원 대구점\t",
     "biz": 4070722145,
@@ -56551,7 +56555,7 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2026
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "송진영",
     "name": "메이준피부과",
     "biz": 6863000849,
@@ -56663,7 +56667,7 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2026
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "송진영",
     "name": "그대고운피부과",
     "biz": 7013001114,
@@ -56775,7 +56779,7 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2026
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "송진영",
     "name": "BS더바디성형외과의원",
     "biz": 6052484271,
@@ -56878,7 +56882,7 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2026
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "송진영",
     "name": "강남W의원",
     "biz": 2292661011,
@@ -56974,7 +56978,7 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2026
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "송진영",
     "name": "브랜드성형외과의원",
     "biz": 6715100196,
@@ -57070,7 +57074,7 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2026
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "송진영",
     "name": "비젠성형외과의원",
     "biz": 6052484965,
@@ -57166,7 +57170,7 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2026
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "송진영",
     "name": "제이오성형외과의원",
     "biz": 8880202362,
@@ -57267,7 +57271,7 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2026
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "송진영",
     "name": "\t미앤미의원부산센텀시티점\t",
     "biz": 6404500380,
@@ -57367,7 +57371,7 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2026
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "송진영",
     "name": "뷰티203",
     "biz": 6220620467,
@@ -57492,13 +57496,15 @@ window.BLOCK_DETAIL = [
               5000000
             ],
             "actual_by_month": {
-              "2026-07": 0.0
+              "2026-07": 0.0,
+              "2026-11": 1080000.0
             },
             "remark": ""
           }
         },
         "actual_by_month": {
-          "2026-07": 0.0
+          "2026-07": 0.0,
+          "2026-11": 1080000.0
         }
       }
     }
@@ -57509,7 +57515,7 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2026
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "송진영",
     "name": "비치안의원",
     "biz": 6102409008,
@@ -57639,7 +57645,7 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2026
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "송진영",
     "name": "빌리브세웅병원",
     "biz": 6173188429,
@@ -57739,7 +57745,7 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2026
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "송진영",
     "name": "삼성노블의원(양산)",
     "biz": 2837600070,
@@ -57835,7 +57841,7 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2026
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "송진영",
     "name": "송제니퍼성형외과",
     "biz": 4673801199,
@@ -57945,7 +57951,7 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2026
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "송진영",
     "name": "예뻐지는의원(부산)",
     "biz": 6173282795,
@@ -58083,7 +58089,7 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2026
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "송진영",
     "name": "일라스의원",
     "biz": 4210801425,
@@ -58185,7 +58191,7 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2026
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "송진영",
     "name": "젠의원",
     "biz": 6173342451,
@@ -58281,7 +58287,7 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2026
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "이상직",
     "name": "핀다의원",
     "biz": 2203500775,
@@ -58405,7 +58411,7 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2026
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "이상직",
     "name": "김앤김의원",
     "biz": 6201177240,
@@ -58510,7 +58516,7 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2026
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "이상직",
     "name": "나의계절의원(울산)",
     "biz": 6183711662,
@@ -58612,7 +58618,7 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2026
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "이상직",
     "name": "닥터디자이너의원(남구)",
     "biz": 1362600541,
@@ -58708,7 +58714,7 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2026
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "이상직",
     "name": "르본의원(울산)",
     "biz": 6102737752,
@@ -58804,7 +58810,7 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2026
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "이상직",
     "name": "메이린의원울산점",
     "biz": 7860200597,
@@ -58938,7 +58944,7 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2026
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "이상직",
     "name": "미채움의원",
     "biz": 2851601635,
@@ -59056,7 +59062,7 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2026
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "이상직",
     "name": "씨앤미의원(경주)",
     "biz": 8342300834,
@@ -59161,7 +59167,7 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2026
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "이상직",
     "name": "씨앤미의원(포항)",
     "biz": 3372700059,
@@ -59268,7 +59274,7 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2026
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "이상직",
     "name": "에시르의원",
     "biz": 8562501915,
@@ -59400,7 +59406,7 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2026
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "이상직",
     "name": "엔의원(포항)",
     "biz": 5062116529,
@@ -59507,7 +59513,7 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2026
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "이상직",
     "name": "연세제이원의원",
     "biz": 7322701613,
@@ -59629,7 +59635,7 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2026
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "이상직",
     "name": "제니스병원",
     "biz": 6102568396,
@@ -59739,7 +59745,7 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2026
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "이상직",
     "name": "나의계절의원",
     "biz": 8962601055,
@@ -59845,7 +59851,7 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2026
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "이상직",
     "name": "리프톤피부과의원",
     "biz": 4555001029,
@@ -59981,7 +59987,7 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2026
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "이상직",
     "name": "라마르의원(울산)",
     "biz": 6102638230,
@@ -60117,7 +60123,7 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2026
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "이상직",
     "name": "강남의원",
     "biz": 6201180347,
@@ -60245,7 +60251,7 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2026
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "이상직",
     "name": "라엘라의원",
     "biz": 6102740320,
@@ -60360,7 +60366,7 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2026
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "송진영",
     "name": "민의원",
     "biz": 6071863650,
@@ -60461,7 +60467,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "송진영",
     "name": "엔킴의원",
     "biz": 1793600737,
@@ -60568,7 +60574,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "송진영",
     "name": "제이린의원(해운대)",
     "biz": 1104901848,
@@ -60680,7 +60686,7 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2026
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "송진영",
     "name": "미다모아의원",
     "biz": 2691200183,
@@ -60780,7 +60786,7 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2026
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "송진영",
     "name": "블리비의원(김해)",
     "biz": 4595200725,
@@ -60881,7 +60887,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM1팀",
+    "team": "담당자 전체",
     "rep": "박기주",
     "name": "그리다성형외과",
     "biz": 6786100084,
@@ -60981,7 +60987,7 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2026
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "이상직",
     "name": "미라인의원(북구점)",
     "biz": 6201387024,
@@ -61100,7 +61106,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM1팀",
+    "team": "담당자 전체",
     "rep": "박기주",
     "name": "디유성형외과",
     "biz": 4750503526,
@@ -61197,7 +61203,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM1팀",
+    "team": "담당자 전체",
     "rep": "박기주",
     "name": "원트성형외과",
     "biz": 6953901452,
@@ -61313,7 +61319,7 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2026
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "송진영",
     "name": "미호의원",
     "biz": 2033803837,
@@ -61430,7 +61436,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "손창민",
     "name": "메이리의원(제주)",
     "biz": 6501002914,
@@ -61534,7 +61540,7 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2026
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "이상직",
     "name": "미소의원(대구)",
     "biz": 5042872373,
@@ -61648,7 +61654,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM3팀",
+    "team": "담당자 전체",
     "rep": "홍원의",
     "name": "디알피부과",
     "biz": 2200764121,
@@ -61745,7 +61751,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM3팀",
+    "team": "담당자 전체",
     "rep": "홍원의",
     "name": "루센느의원",
     "biz": 4921702525,
@@ -61859,7 +61865,7 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2026
     ],
-    "team": "RPM3팀",
+    "team": "담당자 전체",
     "rep": "홍원의",
     "name": "제로의원 신사",
     "biz": 2567200594,
@@ -61890,8 +61896,7 @@ window.BLOCK_DETAIL = [
               "2026-06": 25454546.0,
               "2026-07": 26363636.0,
               "2026-08": 10545454.0,
-              "2026-09": 10545454.0,
-              "2026-11": 26363636.0
+              "2026-09": 10545454.0
             },
             "remark": "회수"
           }
@@ -61903,8 +61908,7 @@ window.BLOCK_DETAIL = [
           "2026-06": 25454546.0,
           "2026-07": 26363636.0,
           "2026-08": 10545454.0,
-          "2026-09": 10545454.0,
-          "2026-11": 26363636.0
+          "2026-09": 10545454.0
         }
       },
       "브이올렛": {
@@ -61981,7 +61985,7 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2026
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "이상직",
     "name": "리네의원",
     "biz": 4950701981,
@@ -62095,7 +62099,7 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2026
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "송진영",
     "name": "뷰에르의원",
     "biz": 4583900494,
@@ -62243,7 +62247,7 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2026
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "송진영",
     "name": "센텀코어의원",
     "biz": 7241302332,
@@ -62364,7 +62368,7 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2026
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "송진영",
     "name": "리프앤의원",
     "biz": 4801800462,
@@ -62478,7 +62482,7 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2026
     ],
-    "team": "RPM1팀",
+    "team": "담당자 전체",
     "rep": "박기주",
     "name": "커스텀피부과의원",
     "biz": 8480803104,
@@ -62587,7 +62591,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "송진영",
     "name": "바노바기의원(창원)",
     "biz": 1353401523,
@@ -62689,7 +62693,7 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2026
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "송진영",
     "name": "바스키아의원(해운대)",
     "biz": 6173189447,
@@ -62785,7 +62789,7 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2026
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "송진영",
     "name": "라온셀의원(해운대)",
     "biz": 6164800729,
@@ -62885,7 +62889,7 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2026
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "송진영",
     "name": "임페리어의원",
     "biz": 3904400945,
@@ -63000,7 +63004,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "손창민",
     "name": "데이뷰의원광주상무점",
     "biz": 7030603016,
@@ -63101,7 +63105,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "손창민",
     "name": "아름드리의원",
     "biz": 8721502353,
@@ -63202,7 +63206,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "손창민",
     "name": "광주성형외과의원",
     "biz": 5066700573,
@@ -63303,7 +63307,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM2팀",
+    "team": "담당자 전체",
     "rep": "전우찬",
     "name": "라비앙성형외과",
     "biz": 2110999616,
@@ -63423,7 +63427,7 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2026
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "송진영",
     "name": "글로리여성의원",
     "biz": 1387200340,
@@ -63529,7 +63533,7 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2026
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "송진영",
     "name": "유앤아이의원(창원)",
     "biz": 4152401793,
@@ -64476,7 +64480,7 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2026
     ],
-    "team": "RPM2팀",
+    "team": "담당자 전체",
     "rep": "김태훈",
     "name": "명동비엘에스의원",
     "biz": 3061284968,
@@ -64578,7 +64582,7 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2026
     ],
-    "team": "RPM1팀",
+    "team": "담당자 전체",
     "rep": "박기주",
     "name": "강남비엘에스의원",
     "biz": 7672601999,
@@ -64678,7 +64682,7 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2026
     ],
-    "team": "RPM3팀",
+    "team": "담당자 전체",
     "rep": "홍원의",
     "name": "비엘에스의원",
     "biz": 2110945027,
@@ -64778,7 +64782,7 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2026
     ],
-    "team": "RPM1팀",
+    "team": "담당자 전체",
     "rep": "이상준",
     "name": "비엘에스의원(송도) ",
     "biz": 1313588850,
@@ -64877,7 +64881,7 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2026
     ],
-    "team": "RPM2팀",
+    "team": "담당자 전체",
     "rep": "전우찬",
     "name": "압구정비엘에스의원",
     "biz": 7464700135,
@@ -65069,7 +65073,7 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2026
     ],
-    "team": "RPM3팀",
+    "team": "담당자 전체",
     "rep": "홍원의",
     "name": "청담비엘에스의원",
     "biz": 2785900014,
@@ -65166,7 +65170,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM1팀",
+    "team": "담당자 전체",
     "rep": "이상준",
     "name": "타토아의원(인천송도)",
     "biz": 3024201545,
@@ -65285,7 +65289,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "이상직",
     "name": "리쥬엘의원(수성점)",
     "biz": 4881402087,
@@ -65392,7 +65396,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "이상직",
     "name": "브이의원(수성)",
     "biz": 8100500848,
@@ -65506,7 +65510,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "이상직",
     "name": "디렉터의원",
     "biz": 2045822795,
@@ -65603,7 +65607,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "이상직",
     "name": "디데이의원",
     "biz": 3952600868,
@@ -65700,7 +65704,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "송진영",
     "name": "고운피부과(영도)",
     "biz": 6020933464,
@@ -65797,7 +65801,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "손창민",
     "name": "더올림의원",
     "biz": 4283701182,
@@ -65898,7 +65902,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "손창민",
     "name": "미미썸의원",
     "biz": 1700503354,
@@ -65995,7 +65999,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "손창민",
     "name": "프리미어의원",
     "biz": 2923401772,
@@ -66101,7 +66105,7 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2026
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "이상직",
     "name": "아르떼의원",
     "biz": 7360500083,
@@ -66205,7 +66209,7 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2026
     ],
-    "team": "RPM3팀",
+    "team": "담당자 전체",
     "rep": "정대철",
     "name": "덕소엔비의원",
     "biz": 1322740252,
@@ -66301,7 +66305,7 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2026
     ],
-    "team": "RPM3팀",
+    "team": "담당자 전체",
     "rep": "정대철",
     "name": "김희옥피부과의원",
     "biz": 2063153899,
@@ -66407,7 +66411,7 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2026
     ],
-    "team": "RPM3팀",
+    "team": "담당자 전체",
     "rep": "정대철",
     "name": "서울미앤유의원",
     "biz": 1322804025,
@@ -66503,7 +66507,7 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2026
     ],
-    "team": "RPM3팀",
+    "team": "담당자 전체",
     "rep": "정대철",
     "name": "신효선성형외과",
     "biz": 2102043055,
@@ -66599,7 +66603,7 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2026
     ],
-    "team": "RPM3팀",
+    "team": "담당자 전체",
     "rep": "정대철",
     "name": "연세피부사랑의원",
     "biz": 1293458360,
@@ -66695,7 +66699,7 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2026
     ],
-    "team": "RPM2팀",
+    "team": "담당자 전체",
     "rep": "장은준",
     "name": "포에버의원(홍제)",
     "biz": 4700500427,
@@ -66791,7 +66795,7 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2026
     ],
-    "team": "블루오션TF",
+    "team": "담당자 전체",
     "rep": "전지원",
     "name": "기쁨성형외과의원",
     "biz": 2200885477,
@@ -66891,7 +66895,7 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2026
     ],
-    "team": "RPM1팀",
+    "team": "담당자 전체",
     "rep": "박기주",
     "name": "유로진여성의원",
     "biz": 6495900123,
@@ -67179,7 +67183,7 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2026
     ],
-    "team": "RPM2팀",
+    "team": "담당자 전체",
     "rep": "이도현",
     "name": "비앤에스의원",
     "biz": 1400874577,
@@ -67279,7 +67283,7 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2026
     ],
-    "team": "RPM2팀",
+    "team": "담당자 전체",
     "rep": "이도현",
     "name": "김준범성형외과",
     "biz": 1400874067,
@@ -67375,7 +67379,7 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2026
     ],
-    "team": "RPM1팀",
+    "team": "담당자 전체",
     "rep": "이상준",
     "name": "삼성산부인과의원",
     "biz": 1372168821,
@@ -67471,7 +67475,7 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2026
     ],
-    "team": "RPM1팀",
+    "team": "담당자 전체",
     "rep": "이상준",
     "name": "케이톡스의원구월점",
     "biz": 7712601611,
@@ -67567,7 +67571,7 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2026
     ],
-    "team": "RPM1팀",
+    "team": "담당자 전체",
     "rep": "이상준",
     "name": "케이톡스의원",
     "biz": 4391002127,
@@ -67663,7 +67667,7 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2026
     ],
-    "team": "RPM1팀",
+    "team": "담당자 전체",
     "rep": "이상준",
     "name": "케이톡스의원강서마곡점",
     "biz": 3504800964,
@@ -67759,7 +67763,7 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2026
     ],
-    "team": "RPM1팀",
+    "team": "담당자 전체",
     "rep": "이상준",
     "name": "트로이성형외과",
     "biz": 1171548631,
@@ -67855,7 +67859,7 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2026
     ],
-    "team": "RPM1팀",
+    "team": "담당자 전체",
     "rep": "이상준",
     "name": "하얀미의원",
     "biz": 1304380020,
@@ -67951,7 +67955,7 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2026
     ],
-    "team": "RPM2팀",
+    "team": "담당자 전체",
     "rep": "이도현",
     "name": "함초롬피부과의원",
     "biz": 1199145240,
@@ -68058,7 +68062,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM1팀",
+    "team": "담당자 전체",
     "rep": "박기주",
     "name": "어퍼11클리닉",
     "biz": 6991100806,
@@ -68163,7 +68167,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM1팀",
+    "team": "담당자 전체",
     "rep": "박기주",
     "name": "에버샘의원",
     "biz": 1046300893,
@@ -68260,7 +68264,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM3팀",
+    "team": "담당자 전체",
     "rep": "홍원의",
     "name": "비에체피부과",
     "biz": 7875201013,
@@ -68357,7 +68361,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM2팀",
+    "team": "담당자 전체",
     "rep": "전우찬",
     "name": "디아더피부과",
     "biz": 8642002185,
@@ -68453,7 +68457,7 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2026
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "이상직",
     "name": "서울한결의원",
     "biz": 6799300773,
@@ -68569,7 +68573,7 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2026
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "이상직",
     "name": "메이린의원",
     "biz": 6711602553,
@@ -68684,7 +68688,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM2팀",
+    "team": "담당자 전체",
     "rep": "전우찬",
     "name": "압구정비앤미의원",
     "biz": 3711103206,
@@ -68815,7 +68819,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM2팀",
+    "team": "담당자 전체",
     "rep": "전우찬",
     "name": "청담아이우의원",
     "biz": 7893201743,
@@ -68949,7 +68953,7 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2026
     ],
-    "team": "RPM1팀",
+    "team": "담당자 전체",
     "rep": "박기주",
     "name": "그레이스 성형외과 ",
     "biz": 2110945823,
@@ -69069,7 +69073,7 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2026
     ],
-    "team": "RPM3팀",
+    "team": "담당자 전체",
     "rep": "정대철",
     "name": "오아로피부과노원",
     "biz": 5071438187,
@@ -69181,7 +69185,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM3팀",
+    "team": "담당자 전체",
     "rep": "홍원의",
     "name": "연의원",
     "biz": 8550803437,
@@ -69306,7 +69310,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "송진영",
     "name": "센텀엘의원",
     "biz": 6173208024,
@@ -69409,7 +69413,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "송진영",
     "name": "창원리즈온의원",
     "biz": 4292300947,
@@ -69510,7 +69514,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "송진영",
     "name": "아르의원",
     "biz": 6706400494,
@@ -69645,7 +69649,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "송진영",
     "name": "당신의피부과의원",
     "biz": 2364800805,
@@ -69744,7 +69748,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "송진영",
     "name": "\t선샤인피부과의원",
     "biz": 5314400681,
@@ -69847,7 +69851,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "송진영",
     "name": "디자인의원(해운대)",
     "biz": 6173683036,
@@ -69944,7 +69948,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "송진영",
     "name": "더올림의원",
     "biz": 7521502592,
@@ -70014,7 +70018,7 @@ window.BLOCK_DETAIL = [
         "by_year": {
           "2026": {
             "contracted": true,
-            "contract_date": "2026-06-01",
+            "contract_date": "2026-10-01",
             "end_date": "2026-12-31",
             "mbo_q": [
               0,
@@ -70054,7 +70058,7 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2026
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "송진영",
     "name": "김우신성형외과",
     "biz": 6121152286,
@@ -70155,7 +70159,7 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2026
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "송진영",
     "name": "리즈의원",
     "biz": 1015200772,
@@ -70277,7 +70281,7 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2026
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "송진영",
     "name": "블리비의원",
     "biz": 3871502796,
@@ -70377,7 +70381,7 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2026
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "송진영",
     "name": "BB의원(해운대)",
     "biz": 1093027884,
@@ -70478,7 +70482,7 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2026
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "송진영",
     "name": "도레미의원",
     "biz": 1041597757,
@@ -70578,7 +70582,7 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2026
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "송진영",
     "name": "뮤즈의원(창원)",
     "biz": 1730400378,
@@ -70674,7 +70678,7 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2026
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "송진영",
     "name": "보다나의원",
     "biz": 4022798686,
@@ -70770,7 +70774,7 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2026
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "송진영",
     "name": "미미썸의원김해점",
     "biz": 6151901763,
@@ -70866,7 +70870,7 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2026
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "송진영",
     "name": "오케이(OK)성형외과의원",
     "biz": 1553000141,
@@ -70995,7 +70999,7 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2026
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "이상직",
     "name": "엘리스의원(울산)",
     "biz": 6102771221,
@@ -71097,7 +71101,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM1팀",
+    "team": "담당자 전체",
     "rep": "박기주",
     "name": "인스타성형외과",
     "biz": 7600600536,
@@ -71212,7 +71216,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM1팀",
+    "team": "담당자 전체",
     "rep": "박기주",
     "name": "아크성형외과",
     "biz": 5392801194,
@@ -71331,7 +71335,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM1팀",
+    "team": "담당자 전체",
     "rep": "박기주",
     "name": "리무브의원 강남",
     "biz": 6293301623,
@@ -71451,7 +71455,7 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2026
     ],
-    "team": "RPM1팀",
+    "team": "담당자 전체",
     "rep": "박기주",
     "name": "미오클리닉",
     "biz": 5177800486,
@@ -71479,7 +71483,7 @@ window.BLOCK_DETAIL = [
               "2026-06": 818182.0,
               "2026-07": 3590910.0,
               "2026-09": 3181819.0,
-              "2026-11": 318181.0
+              "2026-11": 3500000.0
             },
             "remark": ""
           }
@@ -71488,7 +71492,7 @@ window.BLOCK_DETAIL = [
           "2026-06": 818182.0,
           "2026-07": 3590910.0,
           "2026-09": 3181819.0,
-          "2026-11": 318181.0
+          "2026-11": 3500000.0
         }
       },
       "브이올렛": {
@@ -71585,7 +71589,7 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2026
     ],
-    "team": "RPM2팀",
+    "team": "담당자 전체",
     "rep": "전우찬",
     "name": "베이드의원",
     "biz": 4130353024,
@@ -71701,7 +71705,7 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2026
     ],
-    "team": "RPM2팀",
+    "team": "담당자 전체",
     "rep": "이도현",
     "name": "빛채운피부과의원",
     "biz": 2720203076,
@@ -71811,7 +71815,7 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2026
     ],
-    "team": "RPM1팀",
+    "team": "담당자 전체",
     "rep": "박기주",
     "name": "영영영클리닉",
     "biz": 4891502239,
@@ -71921,7 +71925,7 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2026
     ],
-    "team": "RPM1팀",
+    "team": "담당자 전체",
     "rep": "박기주",
     "name": "디오레의원",
     "biz": 8663301601,
@@ -72031,7 +72035,7 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2026
     ],
-    "team": "RPM3팀",
+    "team": "담당자 전체",
     "rep": "홍원의",
     "name": "비브이의원",
     "biz": 5153801353,
@@ -72127,7 +72131,7 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2026
     ],
-    "team": "RPM1팀",
+    "team": "담당자 전체",
     "rep": "이상준",
     "name": "리나메르의원(인천)",
     "biz": 1527100577,
@@ -72237,7 +72241,7 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2026
     ],
-    "team": "RPM2팀",
+    "team": "담당자 전체",
     "rep": "이도현",
     "name": "멜로우피부과(영등포)",
     "biz": 7851102503,
@@ -72351,7 +72355,7 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2026
     ],
-    "team": "RPM2팀",
+    "team": "담당자 전체",
     "rep": "김태훈",
     "name": "아르스킨의원(홍대)",
     "biz": 3032971803,
@@ -72461,7 +72465,7 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2026
     ],
-    "team": "RPM1팀",
+    "team": "담당자 전체",
     "rep": "박기주",
     "name": "더이뻐의원",
     "biz": 5980103495,
@@ -72575,7 +72579,7 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2026
     ],
-    "team": "RPM3팀",
+    "team": "담당자 전체",
     "rep": "정대철",
     "name": "맑은윤의원 구의점",
     "biz": 7151202821,
@@ -72685,7 +72689,7 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2026
     ],
-    "team": "RPM2팀",
+    "team": "담당자 전체",
     "rep": "김태훈",
     "name": "오테나의원",
     "biz": 7634301131,
@@ -72803,7 +72807,7 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2026
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "송진영",
     "name": "셀리타의원",
     "biz": 2672702103,
@@ -72913,7 +72917,7 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2026
     ],
-    "team": "RPM2팀",
+    "team": "담당자 전체",
     "rep": "전우찬",
     "name": "레지움피부과",
     "biz": 3236200634,
@@ -73010,7 +73014,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM2팀",
+    "team": "담당자 전체",
     "rep": "전우찬",
     "name": "리프톤피부과의원",
     "biz": 8460102833,
@@ -73163,7 +73167,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "송진영",
     "name": "셀린의원(청주)",
     "biz": 2212271098,
@@ -73291,7 +73295,7 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2026
     ],
-    "team": "RPM3팀",
+    "team": "담당자 전체",
     "rep": "홍원의",
     "name": "오운의원 삼성점",
     "biz": 1011664220,
@@ -73345,7 +73349,7 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2026
     ],
-    "team": "RPM3팀",
+    "team": "담당자 전체",
     "rep": "홍원의",
     "name": "디오디피부과의원 청담",
     "biz": 1012812481,
@@ -73399,7 +73403,7 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2026
     ],
-    "team": "RPM2팀",
+    "team": "담당자 전체",
     "rep": "이도현",
     "name": "연세마이뷰의원",
     "biz": 1081976558,
@@ -73453,7 +73457,7 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2026
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "이상직",
     "name": "베러미의원",
     "biz": 1092854772,
@@ -73524,7 +73528,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM2팀",
+    "team": "담당자 전체",
     "rep": "장은준",
     "name": "브이에스라인일산",
     "biz": 1116900665,
@@ -73582,7 +73586,7 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2026
     ],
-    "team": "RPM1팀",
+    "team": "담당자 전체",
     "rep": "박기주",
     "name": "더셀피부과의원",
     "biz": 1161300625,
@@ -73637,7 +73641,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "송진영",
     "name": "메디아트대연",
     "biz": 1362000840,
@@ -73726,7 +73730,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "송진영",
     "name": "글로리여성의원",
     "biz": 1387200340,
@@ -73786,7 +73790,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM2팀",
+    "team": "담당자 전체",
     "rep": "장은준",
     "name": "유앤아이의원일산",
     "biz": 1512201615,
@@ -73842,7 +73846,7 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2026
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "이상직",
     "name": "황금피부과(대구)",
     "biz": 1602800645,
@@ -73898,7 +73902,7 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2026
     ],
-    "team": "RPM1팀",
+    "team": "담당자 전체",
     "rep": "박기주",
     "name": "예젤의원",
     "biz": 1610101432,
@@ -73952,7 +73956,7 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2026
     ],
-    "team": "RPM3팀",
+    "team": "담당자 전체",
     "rep": "홍원의",
     "name": "셀업성형외과의원",
     "biz": 1634401022,
@@ -74016,7 +74020,7 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2026
     ],
-    "team": "RPM1팀",
+    "team": "담당자 전체",
     "rep": "이상준",
     "name": "오운의원 송도점",
     "biz": 1641302243,
@@ -74071,7 +74075,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM1팀",
+    "team": "담당자 전체",
     "rep": "이상준",
     "name": "유앤아이의원김포",
     "biz": 1673801076,
@@ -74145,7 +74149,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM2팀",
+    "team": "담당자 전체",
     "rep": "전우찬",
     "name": "브이에스라인압구정",
     "biz": 1793701053,
@@ -74211,7 +74215,7 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2026
     ],
-    "team": "RPM3팀",
+    "team": "담당자 전체",
     "rep": "홍원의",
     "name": "제이드의원",
     "biz": 1911401340,
@@ -74265,7 +74269,7 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2026
     ],
-    "team": "RPM1팀",
+    "team": "담당자 전체",
     "rep": "박기주",
     "name": "민앤민의원",
     "biz": 1920501695,
@@ -74327,7 +74331,7 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2026
     ],
-    "team": "RPM1팀",
+    "team": "담당자 전체",
     "rep": "박기주",
     "name": "팅의원",
     "biz": 1984000958,
@@ -74382,7 +74386,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "이상직",
     "name": "엣지성형외과",
     "biz": 2026507909,
@@ -74448,7 +74452,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM3팀",
+    "team": "담당자 전체",
     "rep": "박천",
     "name": "유앤아이의원평택",
     "biz": 2050510919,
@@ -74505,7 +74509,7 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2026
     ],
-    "team": "RPM1팀",
+    "team": "담당자 전체",
     "rep": "박기주",
     "name": "예정홀릭성형외과의원",
     "biz": 2110949284,
@@ -74572,7 +74576,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM2팀",
+    "team": "담당자 전체",
     "rep": "전우찬",
     "name": "리뉴얼의원",
     "biz": 2110951136,
@@ -74626,7 +74630,7 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2026
     ],
-    "team": "RPM3팀",
+    "team": "담당자 전체",
     "rep": "홍원의",
     "name": "로즈여성의원",
     "biz": 2111072836,
@@ -74680,7 +74684,7 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2026
     ],
-    "team": "RPM1팀",
+    "team": "담당자 전체",
     "rep": "박기주",
     "name": "위드셀의원",
     "biz": 2141334225,
@@ -74803,7 +74807,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "이상직",
     "name": "베러미의원",
     "biz": 2141568923,
@@ -74864,7 +74868,7 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2026
     ],
-    "team": "RPM2팀",
+    "team": "담당자 전체",
     "rep": "전우찬",
     "name": "루비의원 신사점 ",
     "biz": 2161531311,
@@ -74918,7 +74922,7 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2026
     ],
-    "team": "RPM3팀",
+    "team": "담당자 전체",
     "rep": "홍원의",
     "name": "디알피부과",
     "biz": 2200764121,
@@ -74973,7 +74977,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "송진영",
     "name": "레이필의원(부산)",
     "biz": 2211393033,
@@ -75028,7 +75032,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "송진영",
     "name": "제이영의원(부산)",
     "biz": 2230782448,
@@ -75090,7 +75094,7 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2026
     ],
-    "team": "RPM1팀",
+    "team": "담당자 전체",
     "rep": "박기주",
     "name": "레픽의원",
     "biz": 2250696257,
@@ -75212,7 +75216,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM2팀",
+    "team": "담당자 전체",
     "rep": "전우찬",
     "name": "압구정리앤스타의원",
     "biz": 2300403834,
@@ -75266,7 +75270,7 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2026
     ],
-    "team": "RPM2팀",
+    "team": "담당자 전체",
     "rep": "전우찬",
     "name": "리뉴아의원",
     "biz": 2340703327,
@@ -75324,7 +75328,7 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2026
     ],
-    "team": "RPM3팀",
+    "team": "담당자 전체",
     "rep": "홍원의",
     "name": "신상성형외과의원",
     "biz": 2351901290,
@@ -75400,7 +75404,7 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2026
     ],
-    "team": "RPM2팀",
+    "team": "담당자 전체",
     "rep": "전우찬",
     "name": "스케줄의원",
     "biz": 2410302158,
@@ -75459,7 +75463,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM3팀",
+    "team": "담당자 전체",
     "rep": "홍원의",
     "name": "제로의원신사점",
     "biz": 2567200594,
@@ -75480,8 +75484,7 @@ window.BLOCK_DETAIL = [
           "2026-06": 25454546.0,
           "2026-07": 26363636.0,
           "2026-08": 10545454.0,
-          "2026-09": 10545454.0,
-          "2026-11": 26363636.0
+          "2026-09": 10545454.0
         }
       },
       "브이올렛": {
@@ -75527,7 +75530,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "송진영",
     "name": "넬의원(부산)",
     "biz": 2684001275,
@@ -75581,7 +75584,7 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2026
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "송진영",
     "name": "밴스의원",
     "biz": 2750603054,
@@ -75697,7 +75700,7 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2026
     ],
-    "team": "RPM2팀",
+    "team": "담당자 전체",
     "rep": "전우찬",
     "name": "엘레브의원",
     "biz": 2841701866,
@@ -75755,7 +75758,7 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2026
     ],
-    "team": "RPM3팀",
+    "team": "담당자 전체",
     "rep": "홍원의",
     "name": "청담디어의원",
     "biz": 2960602300,
@@ -75811,7 +75814,7 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2026
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "송진영",
     "name": "더노블성형외과의원",
     "biz": 3061071173,
@@ -75873,7 +75876,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM3팀",
+    "team": "담당자 전체",
     "rep": "박천",
     "name": "유앤아이의원(수원)",
     "biz": 3187500137,
@@ -75937,7 +75940,7 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2026
     ],
-    "team": "RPM3팀",
+    "team": "담당자 전체",
     "rep": "홍원의",
     "name": "더새로이의원",
     "biz": 3371301750,
@@ -76006,7 +76009,7 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2026
     ],
-    "team": "RPM1팀",
+    "team": "담당자 전체",
     "rep": "박기주",
     "name": "지우의원",
     "biz": 3396400405,
@@ -76061,7 +76064,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM1팀",
+    "team": "담당자 전체",
     "rep": "박기주",
     "name": "브이에스라인강남",
     "biz": 3432900776,
@@ -76128,7 +76131,7 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2026
     ],
-    "team": "RPM2팀",
+    "team": "담당자 전체",
     "rep": "전우찬",
     "name": "논현 튠의원",
     "biz": 3470702094,
@@ -76194,7 +76197,7 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2026
     ],
-    "team": "RPM1팀",
+    "team": "담당자 전체",
     "rep": "박기주",
     "name": "신사에그의원",
     "biz": 3511201050,
@@ -76271,7 +76274,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "송진영",
     "name": "고운세상피부과(명지)",
     "biz": 3561600995,
@@ -76372,7 +76375,7 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2026
     ],
-    "team": "RPM1팀",
+    "team": "담당자 전체",
     "rep": "박기주",
     "name": "강남세가지소원성형와과",
     "biz": 3745400700,
@@ -76426,7 +76429,7 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2026
     ],
-    "team": "RPM3팀",
+    "team": "담당자 전체",
     "rep": "홍원의",
     "name": "더안청담의원",
     "biz": 3887700616,
@@ -76481,7 +76484,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM1팀",
+    "team": "담당자 전체",
     "rep": "이상준",
     "name": "브이에스라인인천구월",
     "biz": 3976900541,
@@ -76543,7 +76546,7 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2026
     ],
-    "team": "RPM3팀",
+    "team": "담당자 전체",
     "rep": "홍원의",
     "name": "오가나셀피부과",
     "biz": 4070763957,
@@ -76601,7 +76604,7 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2026
     ],
-    "team": "RPM1팀",
+    "team": "담당자 전체",
     "rep": "박기주",
     "name": "포르테의원",
     "biz": 4082293253,
@@ -76656,7 +76659,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "송진영",
     "name": "유앤아이의원창원",
     "biz": 4152401793,
@@ -76727,7 +76730,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "송진영",
     "name": "일라스의원(부산)",
     "biz": 4210801425,
@@ -76784,7 +76787,7 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2026
     ],
-    "team": "RPM1팀",
+    "team": "담당자 전체",
     "rep": "박기주",
     "name": "오드의원",
     "biz": 4371102244,
@@ -76854,7 +76857,7 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2026
     ],
-    "team": "RPM2팀",
+    "team": "담당자 전체",
     "rep": "전우찬",
     "name": "브인앤엠제이피부과의원",
     "biz": 4484900410,
@@ -76909,7 +76912,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM1팀",
+    "team": "담당자 전체",
     "rep": "박기주",
     "name": "유앤아이의원강남",
     "biz": 4501800627,
@@ -76976,7 +76979,7 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2026
     ],
-    "team": "RPM1팀",
+    "team": "담당자 전체",
     "rep": "박기주",
     "name": "페이지랩의원",
     "biz": 4534500393,
@@ -77087,7 +77090,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM2팀",
+    "team": "담당자 전체",
     "rep": "이도현",
     "name": "유앤아이의원시흥",
     "biz": 4981700753,
@@ -77147,7 +77150,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "이상직",
     "name": "로제피부과의원",
     "biz": 5022974178,
@@ -77229,7 +77232,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "이상직",
     "name": "미소의원(대구)",
     "biz": 5042872373,
@@ -77304,7 +77307,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "이상직",
     "name": "올포스킨세브란스피부과",
     "biz": 5043015453,
@@ -77367,7 +77370,7 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2026
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "이상직",
     "name": "비엘성형(대구)",
     "biz": 5043031109,
@@ -77426,7 +77429,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM2팀",
+    "team": "담당자 전체",
     "rep": "이도현",
     "name": "유앤아이의원구로",
     "biz": 5073049874,
@@ -77480,7 +77483,7 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2026
     ],
-    "team": "RPM1팀",
+    "team": "담당자 전체",
     "rep": "박기주",
     "name": "세이지의원",
     "biz": 5090651691,
@@ -77535,7 +77538,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM3팀",
+    "team": "담당자 전체",
     "rep": "홍원의",
     "name": "유앤아이의원선릉",
     "biz": 5091129359,
@@ -77606,7 +77609,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "송진영",
     "name": "유앤아이의원대전",
     "biz": 5097200372,
@@ -77666,7 +77669,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM2팀",
+    "team": "담당자 전체",
     "rep": "김태훈",
     "name": "케이트의원",
     "biz": 5253600662,
@@ -77720,7 +77723,7 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2026
     ],
-    "team": "RPM1팀",
+    "team": "담당자 전체",
     "rep": "박기주",
     "name": "서울원(ONE)피부과의원",
     "biz": 5346500405,
@@ -77779,7 +77782,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "송진영",
     "name": "유앤아이의원부산",
     "biz": 5412002074,
@@ -77833,7 +77836,7 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2026
     ],
-    "team": "RPM3팀",
+    "team": "담당자 전체",
     "rep": "홍원의",
     "name": "오셀 청담의원",
     "biz": 5435201238,
@@ -77888,7 +77891,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "이상직",
     "name": "지미의원",
     "biz": 5462202374,
@@ -77948,7 +77951,7 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2026
     ],
-    "team": "RPM1팀",
+    "team": "담당자 전체",
     "rep": "박기주",
     "name": "소엘의원",
     "biz": 5570103548,
@@ -78003,7 +78006,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM1팀",
+    "team": "담당자 전체",
     "rep": "박기주",
     "name": "피네의원",
     "biz": 5613201484,
@@ -78061,7 +78064,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "송진영",
     "name": "유앤아이의원천안",
     "biz": 5657600370,
@@ -78122,7 +78125,7 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2026
     ],
-    "team": "RPM2팀",
+    "team": "담당자 전체",
     "rep": "김태훈",
     "name": "멜로우피부과공덕점",
     "biz": 5747000708,
@@ -78177,7 +78180,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "이상직",
     "name": "유앤아이의원대구",
     "biz": 5756300590,
@@ -78238,7 +78241,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "이상직",
     "name": "씨앤미의원(구미)",
     "biz": 5812100557,
@@ -78303,7 +78306,7 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2026
     ],
-    "team": "RPM1팀",
+    "team": "담당자 전체",
     "rep": "박기주",
     "name": "셀리데이의원",
     "biz": 5822901782,
@@ -78357,7 +78360,7 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2026
     ],
-    "team": "RPM3팀",
+    "team": "담당자 전체",
     "rep": "홍원의",
     "name": "오셀의원",
     "biz": 5894100980,
@@ -78412,7 +78415,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "송진영",
     "name": "ABC성형외과",
     "biz": 6052484820,
@@ -78483,7 +78486,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "송진영",
     "name": "SK최은정성형외과",
     "biz": 6052485187,
@@ -78549,7 +78552,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "송진영",
     "name": "리오성형외과(부산)",
     "biz": 6052691586,
@@ -78604,7 +78607,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "이상직",
     "name": "닥터디자이너의원 죽전",
     "biz": 6110997889,
@@ -78659,7 +78662,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "송진영",
     "name": "날씬의원(부산)",
     "biz": 6121153984,
@@ -78714,7 +78717,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "송진영",
     "name": "자이의원(부산)",
     "biz": 6121194398,
@@ -78768,7 +78771,7 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2026
     ],
-    "team": "RPM1팀",
+    "team": "담당자 전체",
     "rep": "박기주",
     "name": "닥터송포유의원",
     "biz": 6153600776,
@@ -78823,7 +78826,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "송진영",
     "name": "라운셀의원(부산)",
     "biz": 6164800729,
@@ -78880,7 +78883,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "송진영",
     "name": "유성종성형외과(부산)",
     "biz": 6173190420,
@@ -78934,7 +78937,7 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2026
     ],
-    "team": "RPM3팀",
+    "team": "담당자 전체",
     "rep": "홍원의",
     "name": "오르세윤의원",
     "biz": 6173710199,
@@ -79005,7 +79008,7 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2026
     ],
-    "team": "RPM2팀",
+    "team": "담당자 전체",
     "rep": "전우찬",
     "name": "미자인의원",
     "biz": 6181978484,
@@ -79137,7 +79140,7 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2026
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "송진영",
     "name": "예뻐지는의원(부산)",
     "biz": 6278200043,
@@ -79191,7 +79194,7 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2026
     ],
-    "team": "RPM1팀",
+    "team": "담당자 전체",
     "rep": "박기주",
     "name": "맑고고운라벨라의원",
     "biz": 6420101872,
@@ -79252,7 +79255,7 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2026
     ],
-    "team": "RPM1팀",
+    "team": "담당자 전체",
     "rep": "박기주",
     "name": "홀드의원",
     "biz": 6864001395,
@@ -79307,7 +79310,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "이상직",
     "name": "닥터리메이드",
     "biz": 6952101952,
@@ -79361,7 +79364,7 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2026
     ],
-    "team": "RPM1팀",
+    "team": "담당자 전체",
     "rep": "박기주",
     "name": "어퍼11클리닉",
     "biz": 6991100806,
@@ -79423,7 +79426,7 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2026
     ],
-    "team": "RPM3팀",
+    "team": "담당자 전체",
     "rep": "홍원의",
     "name": "루비성형외과",
     "biz": 7030100523,
@@ -79477,7 +79480,7 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2026
     ],
-    "team": "RPM1팀",
+    "team": "담당자 전체",
     "rep": "박기주",
     "name": "골든발란스여성의원",
     "biz": 7474600714,
@@ -79531,7 +79534,7 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2026
     ],
-    "team": "RPM3팀",
+    "team": "담당자 전체",
     "rep": "홍원의",
     "name": "리메이크강남의원",
     "biz": 7510203680,
@@ -79586,7 +79589,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM3팀",
+    "team": "담당자 전체",
     "rep": "박천",
     "name": "유앤아이의원팔달",
     "biz": 7701801118,
@@ -79651,7 +79654,7 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2026
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "이상직",
     "name": "제이린의원(대구)",
     "biz": 8182201931,
@@ -79705,7 +79708,7 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2026
     ],
-    "team": "RPM1팀",
+    "team": "담당자 전체",
     "rep": "박기주",
     "name": "골드제이이원",
     "biz": 8212301332,
@@ -79760,7 +79763,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM2팀",
+    "team": "담당자 전체",
     "rep": "전우찬",
     "name": "엔디어트의원",
     "biz": 8252001949,
@@ -79819,7 +79822,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM1팀",
+    "team": "담당자 전체",
     "rep": "박기주",
     "name": "올피채의원강남",
     "biz": 8430801682,
@@ -79874,7 +79877,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM2팀",
+    "team": "담당자 전체",
     "rep": "이도현",
     "name": "유앤아이의원영등포",
     "biz": 8485700255,
@@ -79951,7 +79954,7 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2026
     ],
-    "team": "RPM1팀",
+    "team": "담당자 전체",
     "rep": "박기주",
     "name": "글로우의원",
     "biz": 8490502000,
@@ -80005,7 +80008,7 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2026
     ],
-    "team": "RPM1팀",
+    "team": "담당자 전체",
     "rep": "박기주",
     "name": "역삼 밴스피부과의원",
     "biz": 8522202115,
@@ -80060,7 +80063,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "송진영",
     "name": "쉬즈라인덕천점",
     "biz": 8613500576,
@@ -80125,7 +80128,7 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2026
     ],
-    "team": "RPM3팀",
+    "team": "담당자 전체",
     "rep": "홍원의",
     "name": "청담청아의원",
     "biz": 8746900709,
@@ -80180,7 +80183,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM2팀",
+    "team": "담당자 전체",
     "rep": "이도현",
     "name": "유앤아이의원산본",
     "biz": 8832401190,
@@ -80290,7 +80293,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "이상직",
     "name": "친절한미소의원",
     "biz": 8880402385,
@@ -80358,7 +80361,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM2팀",
+    "team": "담당자 전체",
     "rep": "전우찬",
     "name": "BR피부과",
     "biz": 2111046702,
@@ -80431,7 +80434,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM1팀",
+    "team": "담당자 전체",
     "rep": "박기주",
     "name": "드레스성형외과",
     "biz": 7320800990,
@@ -80492,7 +80495,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM1팀",
+    "team": "담당자 전체",
     "rep": "박기주",
     "name": "르웰의원",
     "biz": 6674101085,
@@ -80547,7 +80550,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM1팀",
+    "team": "담당자 전체",
     "rep": "박기주",
     "name": "리필톡의원",
     "biz": 7146300327,
@@ -80613,7 +80616,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM1팀",
+    "team": "담당자 전체",
     "rep": "박기주",
     "name": "모래시계의원",
     "biz": 1812900412,
@@ -80668,7 +80671,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM3팀",
+    "team": "담당자 전체",
     "rep": "정대철",
     "name": "미앤미의원 노원점",
     "biz": 8250601792,
@@ -80778,7 +80781,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM1팀",
+    "team": "담당자 전체",
     "rep": "박기주",
     "name": "베러미의원 강남점 ",
     "biz": 4620903076,
@@ -80837,7 +80840,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM1팀",
+    "team": "담당자 전체",
     "rep": "박기주",
     "name": "벧엘피부과의원",
     "biz": 1141451315,
@@ -80892,7 +80895,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM1팀",
+    "team": "담당자 전체",
     "rep": "박기주",
     "name": "벨뷰의원",
     "biz": 4050195960,
@@ -80958,7 +80961,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM1팀",
+    "team": "담당자 전체",
     "rep": "박기주",
     "name": "본디 성형외과의원",
     "biz": 2327800232,
@@ -81013,7 +81016,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM2팀",
+    "team": "담당자 전체",
     "rep": "이도현",
     "name": "삼성올바른외과의원",
     "biz": 4745000813,
@@ -81073,7 +81076,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM3팀",
+    "team": "담당자 전체",
     "rep": "홍원의",
     "name": "스타라인성형외과의원",
     "biz": 3426900430,
@@ -81128,7 +81131,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM1팀",
+    "team": "담당자 전체",
     "rep": "박기주",
     "name": "아너스티성형외과의원",
     "biz": 1621001820,
@@ -81183,7 +81186,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM2팀",
+    "team": "담당자 전체",
     "rep": "전우찬",
     "name": "에비앙스의원",
     "biz": 5411702749,
@@ -81293,7 +81296,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM3팀",
+    "team": "담당자 전체",
     "rep": "홍원의",
     "name": "우유빛의원",
     "biz": 6422701663,
@@ -81348,7 +81351,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM1팀",
+    "team": "담당자 전체",
     "rep": "박기주",
     "name": "원더풀성형외과",
     "biz": 3321701336,
@@ -81407,7 +81410,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM1팀",
+    "team": "담당자 전체",
     "rep": "박기주",
     "name": "원진 성형외과",
     "biz": 8246700414,
@@ -81462,7 +81465,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM1팀",
+    "team": "담당자 전체",
     "rep": "박기주",
     "name": "코디성형외과의원",
     "biz": 2141480686,
@@ -81517,7 +81520,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM1팀",
+    "team": "담당자 전체",
     "rep": "박기주",
     "name": "크크서울의원",
     "biz": 2110983297,
@@ -81580,7 +81583,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM1팀",
+    "team": "담당자 전체",
     "rep": "박기주",
     "name": "티티성형외과의원",
     "biz": 6072286252,
@@ -81634,7 +81637,7 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2026
     ],
-    "team": "RPM1팀",
+    "team": "담당자 전체",
     "rep": "이상준",
     "name": "오가나셀피부과 마곡점",
     "biz": 5990203215,
@@ -81692,7 +81695,7 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2026
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "이상직",
     "name": "\t더차오름의원",
     "biz": 5384101036,
@@ -81804,7 +81807,7 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2026
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "송진영",
     "name": "더차오름의원 부산",
     "biz": 5720103945,
@@ -81914,7 +81917,7 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2026
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "송진영",
     "name": "연세W의원",
     "biz": 1023806356,
@@ -82010,7 +82013,7 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2026
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "송진영",
     "name": "팝의원",
     "biz": 3632501674,
@@ -82106,7 +82109,7 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2026
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "송진영",
     "name": "닉스의원 대전",
     "biz": 2771302554,
@@ -82202,7 +82205,7 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2026
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "송진영",
     "name": "더나인의원",
     "biz": 8530403485,
@@ -82298,7 +82301,7 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2026
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "송진영",
     "name": "리움의원(대전점)",
     "biz": 3020725513,
@@ -82394,7 +82397,7 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2026
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "송진영",
     "name": "디렉터의원(대전점)",
     "biz": 5172401895,
@@ -82490,7 +82493,7 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2026
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "송진영",
     "name": "천안스노우의원 불당",
     "biz": 8514500850,
@@ -82586,7 +82589,7 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2026
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "송진영",
     "name": "온리영의원",
     "biz": 8985800413,
@@ -82684,7 +82687,7 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2026
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "송진영",
     "name": "닥터에버스의원 천안",
     "biz": 3895600706,
@@ -82780,7 +82783,7 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2026
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "송진영",
     "name": "혜성산부인과병원",
     "biz": 3123230989,
@@ -82876,7 +82879,7 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2026
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "송진영",
     "name": "리라클의원",
     "biz": 1094650386,
@@ -82988,7 +82991,7 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2026
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "송진영",
     "name": "청주잇츠미의원",
     "biz": 5113800411,
@@ -83084,7 +83087,7 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2026
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "송진영",
     "name": "동안나라의원(청주)",
     "biz": 3574000294,
@@ -83180,7 +83183,7 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2026
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "송진영",
     "name": "포에버의원(청주)",
     "biz": 7435900269,
@@ -83280,7 +83283,7 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2026
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "송진영",
     "name": "리움의원청주",
     "biz": 4467400508,
@@ -83376,7 +83379,7 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2026
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "송진영",
     "name": "다시봄날오송",
     "biz": 5090432889,
@@ -83472,7 +83475,7 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2026
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "송진영",
     "name": "세종톡스앤필의원",
     "biz": 5433201128,
@@ -83583,7 +83586,7 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2026
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "송진영",
     "name": "잇츠미의원",
     "biz": 3282801497,
@@ -83687,7 +83690,7 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2026
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "송진영",
     "name": "밴스의원세종점",
     "biz": 2091999271,
@@ -83784,7 +83787,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM3팀",
+    "team": "담당자 전체",
     "rep": "홍원의",
     "name": "브이씨성형외과",
     "biz": 3692302342,
@@ -83893,7 +83896,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM1팀",
+    "team": "담당자 전체",
     "rep": "박기주",
     "name": "하나비의원",
     "biz": 2303000229,
@@ -83994,7 +83997,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM2팀",
+    "team": "담당자 전체",
     "rep": "전우찬",
     "name": "동안중심의원(신사)",
     "biz": 3481900715,
@@ -84101,7 +84104,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM2팀",
+    "team": "담당자 전체",
     "rep": "전우찬",
     "name": "디와이피부과의원",
     "biz": 5391802855,
@@ -84206,7 +84209,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM2팀",
+    "team": "담당자 전체",
     "rep": "전우찬",
     "name": "라피스여성의원",
     "biz": 8512001929,
@@ -84310,7 +84313,7 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2026
     ],
-    "team": "RPM1팀",
+    "team": "담당자 전체",
     "rep": "박기주",
     "name": "리베리의원 강남점",
     "biz": 2126167018,
@@ -84428,7 +84431,7 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2026
     ],
-    "team": "RPM2팀",
+    "team": "담당자 전체",
     "rep": "김태훈",
     "name": "리베리의원 마포점",
     "biz": 8764801029,
@@ -84538,7 +84541,7 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2026
     ],
-    "team": "RPM2팀",
+    "team": "담당자 전체",
     "rep": "김태훈",
     "name": "리베리의원 명동점 ",
     "biz": 7030203357,
@@ -84652,7 +84655,7 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2026
     ],
-    "team": "RPM1팀",
+    "team": "담당자 전체",
     "rep": "이상준",
     "name": "리베리의원 영종도",
     "biz": 6771802012,
@@ -84762,7 +84765,7 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2026
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "송진영",
     "name": "리베리의원 청주점",
     "biz": 5416900570,
@@ -84878,7 +84881,7 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2026
     ],
-    "team": "RPM3팀",
+    "team": "담당자 전체",
     "rep": "박천",
     "name": "리베리의원 화성병점",
     "biz": 5111831712,
@@ -84996,7 +84999,7 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2026
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "송진영",
     "name": "\t블리비의원",
     "biz": 5111056323,
@@ -85092,7 +85095,7 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2026
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "송진영",
     "name": "강남닥터우성형외과",
     "biz": 4720900514,
@@ -85116,15 +85119,11 @@ window.BLOCK_DETAIL = [
               3000000,
               3000000
             ],
-            "actual_by_month": {
-              "2026-10": 6363636.0
-            },
+            "actual_by_month": {},
             "remark": ""
           }
         },
-        "actual_by_month": {
-          "2026-10": 6363636.0
-        }
+        "actual_by_month": {}
       },
       "브이올렛": {
         "by_year": {
@@ -85206,7 +85205,7 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2026
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "송진영",
     "name": "미어게인의원",
     "biz": 4087010006,
@@ -85260,7 +85259,7 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2026
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "송진영",
     "name": "파라다이스의원",
     "biz": 1690102056,
@@ -85319,7 +85318,7 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2026
     ],
-    "team": "RPM2팀",
+    "team": "담당자 전체",
     "rep": "전우찬",
     "name": "예피다의원",
     "biz": 2343801532,
@@ -85426,7 +85425,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "송진영",
     "name": "아르의원(마산점)\t",
     "biz": 7450102471,
@@ -85522,7 +85521,7 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2026
     ],
-    "team": "RPM2팀",
+    "team": "담당자 전체",
     "rep": "이도현",
     "name": "더바른피부과의원",
     "biz": 2252200988,
@@ -85580,7 +85579,7 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2026
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "송진영",
     "name": "삼성필성형외과",
     "biz": 5852601271,
@@ -85708,7 +85707,7 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2026
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "송진영",
     "name": "와인성형외과",
     "biz": 5014289153,
@@ -85823,7 +85822,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM1팀",
+    "team": "담당자 전체",
     "rep": "박기주",
     "name": "다이아의원",
     "biz": 1973101364,
@@ -85924,7 +85923,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM1팀",
+    "team": "담당자 전체",
     "rep": "박기주",
     "name": "오드의원",
     "biz": 4371102244,
@@ -86091,7 +86090,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "손창민",
     "name": "뷰티드1.0의원",
     "biz": 3404401314,
@@ -86212,7 +86211,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM1팀",
+    "team": "담당자 전체",
     "rep": "박기주",
     "name": "대치 밴스의원",
     "biz": 4832202506,
@@ -86323,7 +86322,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM3팀",
+    "team": "담당자 전체",
     "rep": "정대철",
     "name": "블리비의원(노원)",
     "biz": 8850402902,
@@ -86437,7 +86436,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM1팀",
+    "team": "담당자 전체",
     "rep": "이상준",
     "name": "아이비의원(목동점)",
     "biz": 2320143845,
@@ -86552,7 +86551,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM1팀",
+    "team": "담당자 전체",
     "rep": "박기주",
     "name": "온우의원",
     "biz": 4273401742,
@@ -86667,7 +86666,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM3팀",
+    "team": "담당자 전체",
     "rep": "홍원의",
     "name": "원셀의원",
     "biz": 1265500753,
@@ -86786,7 +86785,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM3팀",
+    "team": "담당자 전체",
     "rep": "정대철",
     "name": "큰길내과",
     "biz": 4920803202,
@@ -86901,7 +86900,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM1팀",
+    "team": "담당자 전체",
     "rep": "박기주",
     "name": "보니따의원",
     "biz": 1141449459,
@@ -87012,7 +87011,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM1팀",
+    "team": "담당자 전체",
     "rep": "박기주",
     "name": "픽셀렙성형외과",
     "biz": 1791202350,
@@ -87070,7 +87069,7 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2026
     ],
-    "team": "RPM1팀",
+    "team": "담당자 전체",
     "rep": "박기주",
     "name": "지우의원",
     "biz": 3396400405,
@@ -87124,7 +87123,7 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2026
     ],
-    "team": "RPM1팀",
+    "team": "담당자 전체",
     "rep": "박기주",
     "name": "노바 성형외과",
     "biz": 5870503697,
@@ -87234,7 +87233,7 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2026
     ],
-    "team": "RPM1팀",
+    "team": "담당자 전체",
     "rep": "박기주",
     "name": "애티튜드의원",
     "biz": 6053794065,
@@ -87344,7 +87343,7 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2026
     ],
-    "team": "RPM1팀",
+    "team": "담당자 전체",
     "rep": "박기주",
     "name": "웨이비의원",
     "biz": 2024601054,
@@ -87454,7 +87453,7 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2026
     ],
-    "team": "RPM3팀",
+    "team": "담당자 전체",
     "rep": "박천",
     "name": "미라보의원",
     "biz": 2496400683,
@@ -87565,7 +87564,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM3팀",
+    "team": "담당자 전체",
     "rep": "홍원의",
     "name": "유라인의원",
     "biz": 7842800174,
@@ -87687,7 +87686,7 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2026
     ],
-    "team": "RPM3팀",
+    "team": "담당자 전체",
     "rep": "홍원의",
     "name": "부스트의원",
     "biz": 3724001399,
@@ -87797,7 +87796,7 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2026
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "송진영",
     "name": "미미썸의원(김해)",
     "biz": 7930203869,
@@ -87915,7 +87914,7 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2026
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "이상직",
     "name": "제이유의원",
     "biz": 7273000927,
@@ -88039,7 +88038,7 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2026
     ],
-    "team": "RPM2팀",
+    "team": "담당자 전체",
     "rep": "이도현",
     "name": "세이렌의원",
     "biz": 8302701523,
@@ -88150,7 +88149,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "이상직",
     "name": "엔의원(포항)",
     "biz": 5062116529,
@@ -88215,7 +88214,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM2팀",
+    "team": "담당자 전체",
     "rep": "전우찬",
     "name": "하일리의원",
     "biz": 7961102430,
@@ -88344,7 +88343,7 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2026
     ],
-    "team": "RPM2팀",
+    "team": "담당자 전체",
     "rep": "전우찬",
     "name": "입체성형외과",
     "biz": 6706900257,
@@ -88514,7 +88513,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM1팀",
+    "team": "담당자 전체",
     "rep": "이상준",
     "name": "유앤아이의원 부평",
     "biz": 1670802836,
@@ -89042,7 +89041,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM1팀",
+    "team": "담당자 전체",
     "rep": "박기주",
     "name": "강남아쥬르의원",
     "biz": 1401302873,
@@ -89157,7 +89156,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM2팀",
+    "team": "담당자 전체",
     "rep": "전우찬",
     "name": "도제의원",
     "biz": 4171095927,
@@ -89284,7 +89283,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM2팀",
+    "team": "담당자 전체",
     "rep": "전우찬",
     "name": "몬스터클리닉",
     "biz": 2092621640,
@@ -89404,7 +89403,7 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2026
     ],
-    "team": "RPM3팀",
+    "team": "담당자 전체",
     "rep": "홍원의",
     "name": "데이뷰 강남점",
     "biz": 8973401242,
@@ -89524,7 +89523,7 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2026
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "송진영",
     "name": "더리젤의원",
     "biz": 2271063763,
@@ -89591,7 +89590,21 @@ window.BLOCK_DETAIL = [
         "actual_by_month": {}
       },
       "리프팅실": {
-        "by_year": {},
+        "by_year": {
+          "2026": {
+            "contracted": true,
+            "contract_date": "2026-10-01",
+            "end_date": "2026-12-31",
+            "mbo_q": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "actual_by_month": {},
+            "remark": ""
+          }
+        },
         "actual_by_month": {}
       },
       "리알로": {
@@ -89620,7 +89633,7 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2026
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "송진영",
     "name": "뮤즈의원",
     "biz": 2842701472,
@@ -89687,7 +89700,21 @@ window.BLOCK_DETAIL = [
         "actual_by_month": {}
       },
       "리프팅실": {
-        "by_year": {},
+        "by_year": {
+          "2026": {
+            "contracted": true,
+            "contract_date": "2026-10-01",
+            "end_date": "2026-12-31",
+            "mbo_q": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "actual_by_month": {},
+            "remark": ""
+          }
+        },
         "actual_by_month": {}
       },
       "리알로": {
@@ -89716,7 +89743,7 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2026
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "송진영",
     "name": "민현주여성의원",
     "biz": 6173648010,
@@ -89800,8 +89827,26 @@ window.BLOCK_DETAIL = [
         }
       },
       "리프팅실": {
-        "by_year": {},
-        "actual_by_month": {}
+        "by_year": {
+          "2026": {
+            "contracted": true,
+            "contract_date": "2026-10-01",
+            "end_date": "2026-12-31",
+            "mbo_q": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "actual_by_month": {
+              "2026-11": 272727.0
+            },
+            "remark": ""
+          }
+        },
+        "actual_by_month": {
+          "2026-11": 272727.0
+        }
       },
       "리알로": {
         "by_year": {
@@ -89829,7 +89874,7 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2026
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "송진영",
     "name": "밴스의원(남포)",
     "biz": 4406001123,
@@ -89896,7 +89941,21 @@ window.BLOCK_DETAIL = [
         "actual_by_month": {}
       },
       "리프팅실": {
-        "by_year": {},
+        "by_year": {
+          "2026": {
+            "contracted": true,
+            "contract_date": "2026-10-01",
+            "end_date": "2026-12-31",
+            "mbo_q": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "actual_by_month": {},
+            "remark": ""
+          }
+        },
         "actual_by_month": {}
       },
       "리알로": {
@@ -89925,7 +89984,7 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2026
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "송진영",
     "name": "실로스",
     "biz": 8484600962,
@@ -90007,7 +90066,21 @@ window.BLOCK_DETAIL = [
         "actual_by_month": {}
       },
       "리프팅실": {
-        "by_year": {},
+        "by_year": {
+          "2026": {
+            "contracted": true,
+            "contract_date": "2026-10-01",
+            "end_date": "2026-12-31",
+            "mbo_q": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "actual_by_month": {},
+            "remark": ""
+          }
+        },
         "actual_by_month": {}
       },
       "리알로": {
@@ -90036,7 +90109,7 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2026
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "송진영",
     "name": "예쁜라인성형외과의원",
     "biz": 6140801823,
@@ -90103,7 +90176,21 @@ window.BLOCK_DETAIL = [
         "actual_by_month": {}
       },
       "리프팅실": {
-        "by_year": {},
+        "by_year": {
+          "2026": {
+            "contracted": true,
+            "contract_date": "2026-10-01",
+            "end_date": "2026-12-31",
+            "mbo_q": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "actual_by_month": {},
+            "remark": ""
+          }
+        },
         "actual_by_month": {}
       },
       "리알로": {
@@ -90132,7 +90219,7 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2026
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "송진영",
     "name": "위너성형외과의원",
     "biz": 7831700651,
@@ -90199,7 +90286,21 @@ window.BLOCK_DETAIL = [
         "actual_by_month": {}
       },
       "리프팅실": {
-        "by_year": {},
+        "by_year": {
+          "2026": {
+            "contracted": true,
+            "contract_date": "2026-10-01",
+            "end_date": "2026-12-31",
+            "mbo_q": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "actual_by_month": {},
+            "remark": ""
+          }
+        },
         "actual_by_month": {}
       },
       "리알로": {
@@ -90228,7 +90329,7 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2026
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "송진영",
     "name": "창원퍼스트피부과의원",
     "biz": 6710200941,
@@ -90352,7 +90453,7 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2026
     ],
-    "team": "RPM3팀",
+    "team": "담당자 전체",
     "rep": "박천",
     "name": " 빌라드스킨피부과의원",
     "biz": 1061852233,
@@ -90383,15 +90484,57 @@ window.BLOCK_DETAIL = [
         "actual_by_month": {}
       },
       "브이올렛": {
-        "by_year": {},
+        "by_year": {
+          "2026": {
+            "contracted": true,
+            "contract_date": "2026-10-01",
+            "end_date": "2026-12-31",
+            "mbo_q": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "actual_by_month": {},
+            "remark": ""
+          }
+        },
         "actual_by_month": {}
       },
       "필러군": {
-        "by_year": {},
+        "by_year": {
+          "2026": {
+            "contracted": true,
+            "contract_date": "2026-10-01",
+            "end_date": "2026-12-31",
+            "mbo_q": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "actual_by_month": {},
+            "remark": ""
+          }
+        },
         "actual_by_month": {}
       },
       "리프팅실": {
-        "by_year": {},
+        "by_year": {
+          "2026": {
+            "contracted": true,
+            "contract_date": "2026-10-01",
+            "end_date": "2026-12-31",
+            "mbo_q": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "actual_by_month": {},
+            "remark": ""
+          }
+        },
         "actual_by_month": {}
       },
       "리알로": {
@@ -90424,7 +90567,7 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2026
     ],
-    "team": "RPM3팀",
+    "team": "담당자 전체",
     "rep": "박천",
     "name": "WIP성형외과",
     "biz": 7124500744,
@@ -90437,7 +90580,21 @@ window.BLOCK_DETAIL = [
     "recalled": false,
     "groups": {
       "나보타": {
-        "by_year": {},
+        "by_year": {
+          "2026": {
+            "contracted": true,
+            "contract_date": "2026-10-01",
+            "end_date": "2026-12-31",
+            "mbo_q": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "actual_by_month": {},
+            "remark": ""
+          }
+        },
         "actual_by_month": {}
       },
       "브이올렛": {
@@ -90463,13 +90620,43 @@ window.BLOCK_DETAIL = [
         }
       },
       "필러군": {
-        "by_year": {},
+        "by_year": {
+          "2026": {
+            "contracted": true,
+            "contract_date": "2026-10-01",
+            "end_date": "2026-12-31",
+            "mbo_q": [
+              3000000,
+              3000000,
+              3000000,
+              3000000
+            ],
+            "actual_by_month": {
+              "2026-11": 0.0
+            },
+            "remark": ""
+          }
+        },
         "actual_by_month": {
           "2026-11": 0.0
         }
       },
       "리프팅실": {
-        "by_year": {},
+        "by_year": {
+          "2026": {
+            "contracted": true,
+            "contract_date": "2026-10-01",
+            "end_date": "2026-12-31",
+            "mbo_q": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "actual_by_month": {},
+            "remark": ""
+          }
+        },
         "actual_by_month": {}
       },
       "리알로": {
@@ -90502,7 +90689,7 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2026
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "송진영",
     "name": "갤러리아의원",
     "biz": 4870701296,
@@ -90515,7 +90702,21 @@ window.BLOCK_DETAIL = [
     "recalled": false,
     "groups": {
       "나보타": {
-        "by_year": {},
+        "by_year": {
+          "2026": {
+            "contracted": true,
+            "contract_date": "2026-10-01",
+            "end_date": "2026-12-31",
+            "mbo_q": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "actual_by_month": {},
+            "remark": ""
+          }
+        },
         "actual_by_month": {}
       },
       "브이올렛": {
@@ -90537,7 +90738,21 @@ window.BLOCK_DETAIL = [
         "actual_by_month": {}
       },
       "필러군": {
-        "by_year": {},
+        "by_year": {
+          "2026": {
+            "contracted": true,
+            "contract_date": "2026-10-01",
+            "end_date": "2026-12-31",
+            "mbo_q": [
+              1000000,
+              1000000,
+              1000000,
+              1000000
+            ],
+            "actual_by_month": {},
+            "remark": ""
+          }
+        },
         "actual_by_month": {}
       },
       "리프팅실": {
@@ -90584,7 +90799,7 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2026
     ],
-    "team": "RPM3팀",
+    "team": "담당자 전체",
     "rep": "박천",
     "name": "갤러리아피부과 광교",
     "biz": 4510102765,
@@ -90597,7 +90812,21 @@ window.BLOCK_DETAIL = [
     "recalled": false,
     "groups": {
       "나보타": {
-        "by_year": {},
+        "by_year": {
+          "2026": {
+            "contracted": true,
+            "contract_date": "2026-10-01",
+            "end_date": "2026-12-31",
+            "mbo_q": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "actual_by_month": {},
+            "remark": ""
+          }
+        },
         "actual_by_month": {}
       },
       "브이올렛": {
@@ -90619,11 +90848,39 @@ window.BLOCK_DETAIL = [
         "actual_by_month": {}
       },
       "필러군": {
-        "by_year": {},
+        "by_year": {
+          "2026": {
+            "contracted": true,
+            "contract_date": "2026-10-01",
+            "end_date": "2026-12-31",
+            "mbo_q": [
+              2000000,
+              3000000,
+              3000000,
+              3000000
+            ],
+            "actual_by_month": {},
+            "remark": ""
+          }
+        },
         "actual_by_month": {}
       },
       "리프팅실": {
-        "by_year": {},
+        "by_year": {
+          "2026": {
+            "contracted": true,
+            "contract_date": "2026-10-01",
+            "end_date": "2026-12-31",
+            "mbo_q": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "actual_by_month": {},
+            "remark": ""
+          }
+        },
         "actual_by_month": {}
       },
       "리알로": {
@@ -90656,7 +90913,7 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2026
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "송진영",
     "name": "고은미래의원(청주)",
     "biz": 3170546272,
@@ -90669,7 +90926,23 @@ window.BLOCK_DETAIL = [
     "recalled": false,
     "groups": {
       "나보타": {
-        "by_year": {},
+        "by_year": {
+          "2026": {
+            "contracted": true,
+            "contract_date": "2026-10-01",
+            "end_date": "2026-12-31",
+            "mbo_q": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "actual_by_month": {
+              "2026-10": 2272728.0
+            },
+            "remark": ""
+          }
+        },
         "actual_by_month": {
           "2023-03": 2272728.0,
           "2023-12": 2272728.0,
@@ -90680,15 +90953,57 @@ window.BLOCK_DETAIL = [
         }
       },
       "브이올렛": {
-        "by_year": {},
+        "by_year": {
+          "2026": {
+            "contracted": true,
+            "contract_date": "2026-10-01",
+            "end_date": "2026-12-31",
+            "mbo_q": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "actual_by_month": {},
+            "remark": ""
+          }
+        },
         "actual_by_month": {}
       },
       "필러군": {
-        "by_year": {},
+        "by_year": {
+          "2026": {
+            "contracted": true,
+            "contract_date": "2026-10-01",
+            "end_date": "2026-12-31",
+            "mbo_q": [
+              4000000,
+              4000000,
+              4000000,
+              5000000
+            ],
+            "actual_by_month": {},
+            "remark": ""
+          }
+        },
         "actual_by_month": {}
       },
       "리프팅실": {
-        "by_year": {},
+        "by_year": {
+          "2026": {
+            "contracted": true,
+            "contract_date": "2026-10-01",
+            "end_date": "2026-12-31",
+            "mbo_q": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "actual_by_month": {},
+            "remark": ""
+          }
+        },
         "actual_by_month": {}
       },
       "리알로": {
@@ -90717,7 +91032,7 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2026
     ],
-    "team": "RPM3팀",
+    "team": "담당자 전체",
     "rep": "박천",
     "name": "광교퍼스트피부과",
     "biz": 4012152574,
@@ -90730,11 +91045,39 @@ window.BLOCK_DETAIL = [
     "recalled": false,
     "groups": {
       "나보타": {
-        "by_year": {},
+        "by_year": {
+          "2026": {
+            "contracted": true,
+            "contract_date": "2026-10-01",
+            "end_date": "2026-12-31",
+            "mbo_q": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "actual_by_month": {},
+            "remark": ""
+          }
+        },
         "actual_by_month": {}
       },
       "브이올렛": {
-        "by_year": {},
+        "by_year": {
+          "2026": {
+            "contracted": true,
+            "contract_date": "2026-10-01",
+            "end_date": "2026-12-31",
+            "mbo_q": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "actual_by_month": {},
+            "remark": ""
+          }
+        },
         "actual_by_month": {}
       },
       "필러군": {
@@ -90799,7 +91142,7 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2026
     ],
-    "team": "RPM3팀",
+    "team": "담당자 전체",
     "rep": "박천",
     "name": "닥터스피부과의원(수원)",
     "biz": 8452200711,
@@ -90812,11 +91155,41 @@ window.BLOCK_DETAIL = [
     "recalled": false,
     "groups": {
       "나보타": {
-        "by_year": {},
+        "by_year": {
+          "2026": {
+            "contracted": true,
+            "contract_date": "2026-10-01",
+            "end_date": "2026-12-31",
+            "mbo_q": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "actual_by_month": {},
+            "remark": ""
+          }
+        },
         "actual_by_month": {}
       },
       "브이올렛": {
-        "by_year": {},
+        "by_year": {
+          "2026": {
+            "contracted": true,
+            "contract_date": "2026-10-01",
+            "end_date": "2026-12-31",
+            "mbo_q": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "actual_by_month": {
+              "2026-10": 3000000.0
+            },
+            "remark": ""
+          }
+        },
         "actual_by_month": {
           "2026-10": 3000000.0
         }
@@ -90840,7 +91213,21 @@ window.BLOCK_DETAIL = [
         "actual_by_month": {}
       },
       "리프팅실": {
-        "by_year": {},
+        "by_year": {
+          "2026": {
+            "contracted": true,
+            "contract_date": "2026-10-01",
+            "end_date": "2026-12-31",
+            "mbo_q": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "actual_by_month": {},
+            "remark": ""
+          }
+        },
         "actual_by_month": {}
       },
       "리알로": {
@@ -90869,7 +91256,7 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2026
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "송진영",
     "name": "대전예쁨주의쁨의원",
     "biz": 1784401266,
@@ -90882,7 +91269,21 @@ window.BLOCK_DETAIL = [
     "recalled": false,
     "groups": {
       "나보타": {
-        "by_year": {},
+        "by_year": {
+          "2026": {
+            "contracted": true,
+            "contract_date": "2026-10-01",
+            "end_date": "2026-12-31",
+            "mbo_q": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "actual_by_month": {},
+            "remark": ""
+          }
+        },
         "actual_by_month": {}
       },
       "브이올렛": {
@@ -90908,11 +91309,39 @@ window.BLOCK_DETAIL = [
         }
       },
       "필러군": {
-        "by_year": {},
+        "by_year": {
+          "2026": {
+            "contracted": true,
+            "contract_date": "2026-10-01",
+            "end_date": "2026-12-31",
+            "mbo_q": [
+              1000000,
+              1000000,
+              1000000,
+              1000000
+            ],
+            "actual_by_month": {},
+            "remark": ""
+          }
+        },
         "actual_by_month": {}
       },
       "리프팅실": {
-        "by_year": {},
+        "by_year": {
+          "2026": {
+            "contracted": true,
+            "contract_date": "2026-10-01",
+            "end_date": "2026-12-31",
+            "mbo_q": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "actual_by_month": {},
+            "remark": ""
+          }
+        },
         "actual_by_month": {}
       },
       "리알로": {
@@ -90941,7 +91370,7 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2026
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "송진영",
     "name": "더뉴라인의원",
     "biz": 1022653399,
@@ -90993,11 +91422,39 @@ window.BLOCK_DETAIL = [
         }
       },
       "필러군": {
-        "by_year": {},
+        "by_year": {
+          "2026": {
+            "contracted": true,
+            "contract_date": "2026-10-01",
+            "end_date": "2026-12-31",
+            "mbo_q": [
+              1000000,
+              1000000,
+              1000000,
+              1000000
+            ],
+            "actual_by_month": {},
+            "remark": ""
+          }
+        },
         "actual_by_month": {}
       },
       "리프팅실": {
-        "by_year": {},
+        "by_year": {
+          "2026": {
+            "contracted": true,
+            "contract_date": "2026-10-01",
+            "end_date": "2026-12-31",
+            "mbo_q": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "actual_by_month": {},
+            "remark": ""
+          }
+        },
         "actual_by_month": {}
       },
       "리알로": {
@@ -91030,7 +91487,7 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2026
     ],
-    "team": "RPM3팀",
+    "team": "담당자 전체",
     "rep": "박천",
     "name": "동탄스노우의원",
     "biz": 6352101678,
@@ -91043,7 +91500,21 @@ window.BLOCK_DETAIL = [
     "recalled": false,
     "groups": {
       "나보타": {
-        "by_year": {},
+        "by_year": {
+          "2026": {
+            "contracted": true,
+            "contract_date": "2026-10-01",
+            "end_date": "2026-12-31",
+            "mbo_q": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "actual_by_month": {},
+            "remark": ""
+          }
+        },
         "actual_by_month": {}
       },
       "브이올렛": {
@@ -91083,7 +91554,21 @@ window.BLOCK_DETAIL = [
         "actual_by_month": {}
       },
       "리프팅실": {
-        "by_year": {},
+        "by_year": {
+          "2026": {
+            "contracted": true,
+            "contract_date": "2026-10-01",
+            "end_date": "2026-12-31",
+            "mbo_q": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "actual_by_month": {},
+            "remark": ""
+          }
+        },
         "actual_by_month": {}
       },
       "리알로": {
@@ -91112,7 +91597,7 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2026
     ],
-    "team": "RPM3팀",
+    "team": "담당자 전체",
     "rep": "박천",
     "name": "동탄오라클피부과의원",
     "biz": 8353301039,
@@ -91161,11 +91646,39 @@ window.BLOCK_DETAIL = [
         "actual_by_month": {}
       },
       "필러군": {
-        "by_year": {},
+        "by_year": {
+          "2026": {
+            "contracted": true,
+            "contract_date": "2026-10-01",
+            "end_date": "2026-12-31",
+            "mbo_q": [
+              2000000,
+              2000000,
+              2000000,
+              3000000
+            ],
+            "actual_by_month": {},
+            "remark": ""
+          }
+        },
         "actual_by_month": {}
       },
       "리프팅실": {
-        "by_year": {},
+        "by_year": {
+          "2026": {
+            "contracted": true,
+            "contract_date": "2026-10-01",
+            "end_date": "2026-12-31",
+            "mbo_q": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "actual_by_month": {},
+            "remark": ""
+          }
+        },
         "actual_by_month": {}
       },
       "리알로": {
@@ -91194,7 +91707,7 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2026
     ],
-    "team": "RPM3팀",
+    "team": "담당자 전체",
     "rep": "박천",
     "name": "디에스타의원",
     "biz": 1932201017,
@@ -91215,11 +91728,39 @@ window.BLOCK_DETAIL = [
         "actual_by_month": {}
       },
       "필러군": {
-        "by_year": {},
+        "by_year": {
+          "2026": {
+            "contracted": true,
+            "contract_date": "2026-10-01",
+            "end_date": "2026-12-31",
+            "mbo_q": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "actual_by_month": {},
+            "remark": ""
+          }
+        },
         "actual_by_month": {}
       },
       "리프팅실": {
-        "by_year": {},
+        "by_year": {
+          "2026": {
+            "contracted": true,
+            "contract_date": "2026-10-01",
+            "end_date": "2026-12-31",
+            "mbo_q": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "actual_by_month": {},
+            "remark": ""
+          }
+        },
         "actual_by_month": {}
       },
       "리알로": {
@@ -91248,7 +91789,7 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2026
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "송진영",
     "name": "록스웰의원",
     "biz": 2092277466,
@@ -91365,7 +91906,7 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2026
     ],
-    "team": "RPM3팀",
+    "team": "담당자 전체",
     "rep": "박천",
     "name": "리즈온의원",
     "biz": 8884201205,
@@ -91396,15 +91937,57 @@ window.BLOCK_DETAIL = [
         "actual_by_month": {}
       },
       "브이올렛": {
-        "by_year": {},
+        "by_year": {
+          "2026": {
+            "contracted": true,
+            "contract_date": "2026-10-01",
+            "end_date": "2026-12-31",
+            "mbo_q": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "actual_by_month": {},
+            "remark": ""
+          }
+        },
         "actual_by_month": {}
       },
       "필러군": {
-        "by_year": {},
+        "by_year": {
+          "2026": {
+            "contracted": true,
+            "contract_date": "2026-10-01",
+            "end_date": "2026-12-31",
+            "mbo_q": [
+              1000000,
+              1000000,
+              1000000,
+              1000000
+            ],
+            "actual_by_month": {},
+            "remark": ""
+          }
+        },
         "actual_by_month": {}
       },
       "리프팅실": {
-        "by_year": {},
+        "by_year": {
+          "2026": {
+            "contracted": true,
+            "contract_date": "2026-10-01",
+            "end_date": "2026-12-31",
+            "mbo_q": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "actual_by_month": {},
+            "remark": ""
+          }
+        },
         "actual_by_month": {}
       },
       "리알로": {
@@ -91433,7 +92016,7 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2026
     ],
-    "team": "RPM3팀",
+    "team": "담당자 전체",
     "rep": "박천",
     "name": "리프탑의원",
     "biz": 5742801993,
@@ -91446,17 +92029,61 @@ window.BLOCK_DETAIL = [
     "recalled": false,
     "groups": {
       "나보타": {
-        "by_year": {},
+        "by_year": {
+          "2026": {
+            "contracted": true,
+            "contract_date": "2026-10-01",
+            "end_date": "2026-12-31",
+            "mbo_q": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "actual_by_month": {},
+            "remark": ""
+          }
+        },
         "actual_by_month": {}
       },
       "브이올렛": {
-        "by_year": {},
+        "by_year": {
+          "2026": {
+            "contracted": true,
+            "contract_date": "2026-10-01",
+            "end_date": "2026-12-31",
+            "mbo_q": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "actual_by_month": {
+              "2026-11": 5363636.0
+            },
+            "remark": ""
+          }
+        },
         "actual_by_month": {
           "2026-11": 5363636.0
         }
       },
       "필러군": {
-        "by_year": {},
+        "by_year": {
+          "2026": {
+            "contracted": true,
+            "contract_date": "2026-10-01",
+            "end_date": "2026-12-31",
+            "mbo_q": [
+              1000000,
+              1000000,
+              1000000,
+              2000000
+            ],
+            "actual_by_month": {},
+            "remark": ""
+          }
+        },
         "actual_by_month": {}
       },
       "리프팅실": {
@@ -91507,7 +92134,7 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2026
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "송진영",
     "name": "메디캐슬의원",
     "biz": 3123184741,
@@ -91520,19 +92147,75 @@ window.BLOCK_DETAIL = [
     "recalled": false,
     "groups": {
       "나보타": {
-        "by_year": {},
+        "by_year": {
+          "2026": {
+            "contracted": true,
+            "contract_date": "2026-10-01",
+            "end_date": "2026-12-31",
+            "mbo_q": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "actual_by_month": {},
+            "remark": ""
+          }
+        },
         "actual_by_month": {}
       },
       "브이올렛": {
-        "by_year": {},
+        "by_year": {
+          "2026": {
+            "contracted": true,
+            "contract_date": "2026-10-01",
+            "end_date": "2026-12-31",
+            "mbo_q": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "actual_by_month": {},
+            "remark": ""
+          }
+        },
         "actual_by_month": {}
       },
       "필러군": {
-        "by_year": {},
+        "by_year": {
+          "2026": {
+            "contracted": true,
+            "contract_date": "2026-10-01",
+            "end_date": "2026-12-31",
+            "mbo_q": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "actual_by_month": {},
+            "remark": ""
+          }
+        },
         "actual_by_month": {}
       },
       "리프팅실": {
-        "by_year": {},
+        "by_year": {
+          "2026": {
+            "contracted": true,
+            "contract_date": "2026-10-01",
+            "end_date": "2026-12-31",
+            "mbo_q": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "actual_by_month": {},
+            "remark": ""
+          }
+        },
         "actual_by_month": {}
       },
       "리알로": {
@@ -91561,7 +92244,7 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2026
     ],
-    "team": "RPM3팀",
+    "team": "담당자 전체",
     "rep": "박천",
     "name": "미올린의원(수원)",
     "biz": 2796100266,
@@ -91574,7 +92257,21 @@ window.BLOCK_DETAIL = [
     "recalled": false,
     "groups": {
       "나보타": {
-        "by_year": {},
+        "by_year": {
+          "2026": {
+            "contracted": true,
+            "contract_date": "2026-10-01",
+            "end_date": "2026-12-31",
+            "mbo_q": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "actual_by_month": {},
+            "remark": ""
+          }
+        },
         "actual_by_month": {}
       },
       "브이올렛": {
@@ -91596,11 +92293,39 @@ window.BLOCK_DETAIL = [
         "actual_by_month": {}
       },
       "필러군": {
-        "by_year": {},
+        "by_year": {
+          "2026": {
+            "contracted": true,
+            "contract_date": "2026-10-01",
+            "end_date": "2026-12-31",
+            "mbo_q": [
+              1000000,
+              1000000,
+              2000000,
+              2000000
+            ],
+            "actual_by_month": {},
+            "remark": ""
+          }
+        },
         "actual_by_month": {}
       },
       "리프팅실": {
-        "by_year": {},
+        "by_year": {
+          "2026": {
+            "contracted": true,
+            "contract_date": "2026-10-01",
+            "end_date": "2026-12-31",
+            "mbo_q": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "actual_by_month": {},
+            "remark": ""
+          }
+        },
         "actual_by_month": {}
       },
       "리알로": {
@@ -91629,7 +92354,7 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2026
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "송진영",
     "name": "바른빛피부과의원",
     "biz": 3420803042,
@@ -91642,21 +92367,77 @@ window.BLOCK_DETAIL = [
     "recalled": false,
     "groups": {
       "나보타": {
-        "by_year": {},
+        "by_year": {
+          "2026": {
+            "contracted": true,
+            "contract_date": "2026-10-01",
+            "end_date": "2026-12-31",
+            "mbo_q": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "actual_by_month": {},
+            "remark": ""
+          }
+        },
         "actual_by_month": {}
       },
       "브이올렛": {
-        "by_year": {},
+        "by_year": {
+          "2026": {
+            "contracted": true,
+            "contract_date": "2026-10-01",
+            "end_date": "2026-12-31",
+            "mbo_q": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "actual_by_month": {},
+            "remark": ""
+          }
+        },
         "actual_by_month": {
           "2025-05": 500000.0
         }
       },
       "필러군": {
-        "by_year": {},
+        "by_year": {
+          "2026": {
+            "contracted": true,
+            "contract_date": "2026-10-01",
+            "end_date": "2026-12-31",
+            "mbo_q": [
+              1000000,
+              1000000,
+              1000000,
+              1000000
+            ],
+            "actual_by_month": {},
+            "remark": ""
+          }
+        },
         "actual_by_month": {}
       },
       "리프팅실": {
-        "by_year": {},
+        "by_year": {
+          "2026": {
+            "contracted": true,
+            "contract_date": "2026-10-01",
+            "end_date": "2026-12-31",
+            "mbo_q": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "actual_by_month": {},
+            "remark": ""
+          }
+        },
         "actual_by_month": {}
       },
       "리알로": {
@@ -91685,7 +92466,7 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2026
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "송진영",
     "name": "밴스의원(대전)",
     "biz": 6093709444,
@@ -91698,7 +92479,21 @@ window.BLOCK_DETAIL = [
     "recalled": false,
     "groups": {
       "나보타": {
-        "by_year": {},
+        "by_year": {
+          "2026": {
+            "contracted": true,
+            "contract_date": "2026-10-01",
+            "end_date": "2026-12-31",
+            "mbo_q": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "actual_by_month": {},
+            "remark": ""
+          }
+        },
         "actual_by_month": {}
       },
       "브이올렛": {
@@ -91720,11 +92515,39 @@ window.BLOCK_DETAIL = [
         "actual_by_month": {}
       },
       "필러군": {
-        "by_year": {},
+        "by_year": {
+          "2026": {
+            "contracted": true,
+            "contract_date": "2026-10-01",
+            "end_date": "2026-12-31",
+            "mbo_q": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "actual_by_month": {},
+            "remark": ""
+          }
+        },
         "actual_by_month": {}
       },
       "리프팅실": {
-        "by_year": {},
+        "by_year": {
+          "2026": {
+            "contracted": true,
+            "contract_date": "2026-10-01",
+            "end_date": "2026-12-31",
+            "mbo_q": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "actual_by_month": {},
+            "remark": ""
+          }
+        },
         "actual_by_month": {}
       },
       "리알로": {
@@ -91753,7 +92576,7 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2026
     ],
-    "team": "RPM3팀",
+    "team": "담당자 전체",
     "rep": "박천",
     "name": "밴스의원광교",
     "biz": 3091505906,
@@ -91766,7 +92589,21 @@ window.BLOCK_DETAIL = [
     "recalled": false,
     "groups": {
       "나보타": {
-        "by_year": {},
+        "by_year": {
+          "2026": {
+            "contracted": true,
+            "contract_date": "2026-10-01",
+            "end_date": "2026-12-31",
+            "mbo_q": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "actual_by_month": {},
+            "remark": ""
+          }
+        },
         "actual_by_month": {}
       },
       "브이올렛": {
@@ -91788,11 +92625,39 @@ window.BLOCK_DETAIL = [
         "actual_by_month": {}
       },
       "필러군": {
-        "by_year": {},
+        "by_year": {
+          "2026": {
+            "contracted": true,
+            "contract_date": "2026-10-01",
+            "end_date": "2026-12-31",
+            "mbo_q": [
+              2000000,
+              2000000,
+              2000000,
+              3000000
+            ],
+            "actual_by_month": {},
+            "remark": ""
+          }
+        },
         "actual_by_month": {}
       },
       "리프팅실": {
-        "by_year": {},
+        "by_year": {
+          "2026": {
+            "contracted": true,
+            "contract_date": "2026-10-01",
+            "end_date": "2026-12-31",
+            "mbo_q": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "actual_by_month": {},
+            "remark": ""
+          }
+        },
         "actual_by_month": {}
       },
       "리알로": {
@@ -91821,7 +92686,7 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2026
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "송진영",
     "name": "블리비의원(천안점)",
     "biz": 6681801377,
@@ -91889,7 +92754,7 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2026
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "송진영",
     "name": "샤인빔의원대전점",
     "biz": 4233601725,
@@ -91902,7 +92767,21 @@ window.BLOCK_DETAIL = [
     "recalled": false,
     "groups": {
       "나보타": {
-        "by_year": {},
+        "by_year": {
+          "2026": {
+            "contracted": true,
+            "contract_date": "2026-10-01",
+            "end_date": "2026-12-31",
+            "mbo_q": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "actual_by_month": {},
+            "remark": ""
+          }
+        },
         "actual_by_month": {}
       },
       "브이올렛": {
@@ -91924,11 +92803,39 @@ window.BLOCK_DETAIL = [
         "actual_by_month": {}
       },
       "필러군": {
-        "by_year": {},
+        "by_year": {
+          "2026": {
+            "contracted": true,
+            "contract_date": "2026-10-01",
+            "end_date": "2026-12-31",
+            "mbo_q": [
+              1000000,
+              1000000,
+              1000000,
+              1000000
+            ],
+            "actual_by_month": {},
+            "remark": ""
+          }
+        },
         "actual_by_month": {}
       },
       "리프팅실": {
-        "by_year": {},
+        "by_year": {
+          "2026": {
+            "contracted": true,
+            "contract_date": "2026-10-01",
+            "end_date": "2026-12-31",
+            "mbo_q": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "actual_by_month": {},
+            "remark": ""
+          }
+        },
         "actual_by_month": {}
       },
       "리알로": {
@@ -91957,7 +92864,7 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2026
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "송진영",
     "name": "서울나인앤의원",
     "biz": 2050795998,
@@ -91970,11 +92877,39 @@ window.BLOCK_DETAIL = [
     "recalled": false,
     "groups": {
       "나보타": {
-        "by_year": {},
+        "by_year": {
+          "2026": {
+            "contracted": true,
+            "contract_date": "2026-10-01",
+            "end_date": "2026-12-31",
+            "mbo_q": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "actual_by_month": {},
+            "remark": ""
+          }
+        },
         "actual_by_month": {}
       },
       "브이올렛": {
-        "by_year": {},
+        "by_year": {
+          "2026": {
+            "contracted": true,
+            "contract_date": "2026-10-01",
+            "end_date": "2026-12-31",
+            "mbo_q": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "actual_by_month": {},
+            "remark": ""
+          }
+        },
         "actual_by_month": {}
       },
       "필러군": {
@@ -91996,7 +92931,21 @@ window.BLOCK_DETAIL = [
         "actual_by_month": {}
       },
       "리프팅실": {
-        "by_year": {},
+        "by_year": {
+          "2026": {
+            "contracted": true,
+            "contract_date": "2026-10-01",
+            "end_date": "2026-12-31",
+            "mbo_q": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "actual_by_month": {},
+            "remark": ""
+          }
+        },
         "actual_by_month": {}
       },
       "리알로": {
@@ -92025,7 +92974,7 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2026
     ],
-    "team": "RPM3팀",
+    "team": "담당자 전체",
     "rep": "박천",
     "name": "세모아의원",
     "biz": 5062813384,
@@ -92042,7 +92991,21 @@ window.BLOCK_DETAIL = [
         "actual_by_month": {}
       },
       "브이올렛": {
-        "by_year": {},
+        "by_year": {
+          "2026": {
+            "contracted": true,
+            "contract_date": "2026-10-01",
+            "end_date": "2026-12-31",
+            "mbo_q": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "actual_by_month": {},
+            "remark": ""
+          }
+        },
         "actual_by_month": {}
       },
       "필러군": {
@@ -92064,7 +93027,21 @@ window.BLOCK_DETAIL = [
         "actual_by_month": {}
       },
       "리프팅실": {
-        "by_year": {},
+        "by_year": {
+          "2026": {
+            "contracted": true,
+            "contract_date": "2026-10-01",
+            "end_date": "2026-12-31",
+            "mbo_q": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "actual_by_month": {},
+            "remark": ""
+          }
+        },
         "actual_by_month": {}
       },
       "리알로": {
@@ -92093,7 +93070,7 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2026
     ],
-    "team": "RPM3팀",
+    "team": "담당자 전체",
     "rep": "박천",
     "name": "아비쥬의원(수원)",
     "biz": 7740500367,
@@ -92106,7 +93083,21 @@ window.BLOCK_DETAIL = [
     "recalled": false,
     "groups": {
       "나보타": {
-        "by_year": {},
+        "by_year": {
+          "2026": {
+            "contracted": true,
+            "contract_date": "2026-10-01",
+            "end_date": "2026-12-31",
+            "mbo_q": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "actual_by_month": {},
+            "remark": ""
+          }
+        },
         "actual_by_month": {}
       },
       "브이올렛": {
@@ -92146,7 +93137,21 @@ window.BLOCK_DETAIL = [
         "actual_by_month": {}
       },
       "리프팅실": {
-        "by_year": {},
+        "by_year": {
+          "2026": {
+            "contracted": true,
+            "contract_date": "2026-10-01",
+            "end_date": "2026-12-31",
+            "mbo_q": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "actual_by_month": {},
+            "remark": ""
+          }
+        },
         "actual_by_month": {}
       },
       "리알로": {
@@ -92175,7 +93180,7 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2026
     ],
-    "team": "RPM3팀",
+    "team": "담당자 전체",
     "rep": "박천",
     "name": "에르샤몽의원",
     "biz": 8112102096,
@@ -92188,7 +93193,21 @@ window.BLOCK_DETAIL = [
     "recalled": false,
     "groups": {
       "나보타": {
-        "by_year": {},
+        "by_year": {
+          "2026": {
+            "contracted": true,
+            "contract_date": "2026-10-01",
+            "end_date": "2026-12-31",
+            "mbo_q": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "actual_by_month": {},
+            "remark": ""
+          }
+        },
         "actual_by_month": {}
       },
       "브이올렛": {
@@ -92210,11 +93229,39 @@ window.BLOCK_DETAIL = [
         "actual_by_month": {}
       },
       "필러군": {
-        "by_year": {},
+        "by_year": {
+          "2026": {
+            "contracted": true,
+            "contract_date": "2026-10-01",
+            "end_date": "2026-12-31",
+            "mbo_q": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "actual_by_month": {},
+            "remark": ""
+          }
+        },
         "actual_by_month": {}
       },
       "리프팅실": {
-        "by_year": {},
+        "by_year": {
+          "2026": {
+            "contracted": true,
+            "contract_date": "2026-10-01",
+            "end_date": "2026-12-31",
+            "mbo_q": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "actual_by_month": {},
+            "remark": ""
+          }
+        },
         "actual_by_month": {}
       },
       "리알로": {
@@ -92243,7 +93290,7 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2026
     ],
-    "team": "RPM3팀",
+    "team": "담당자 전체",
     "rep": "박천",
     "name": "에미뜨의원",
     "biz": 6022663932,
@@ -92256,7 +93303,21 @@ window.BLOCK_DETAIL = [
     "recalled": false,
     "groups": {
       "나보타": {
-        "by_year": {},
+        "by_year": {
+          "2026": {
+            "contracted": true,
+            "contract_date": "2026-10-01",
+            "end_date": "2026-12-31",
+            "mbo_q": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "actual_by_month": {},
+            "remark": ""
+          }
+        },
         "actual_by_month": {}
       },
       "브이올렛": {
@@ -92271,22 +93332,46 @@ window.BLOCK_DETAIL = [
               2000000,
               2000000
             ],
-            "actual_by_month": {
-              "2026-11": 1636364.0
-            },
+            "actual_by_month": {},
             "remark": ""
           }
         },
-        "actual_by_month": {
-          "2026-11": 1636364.0
-        }
+        "actual_by_month": {}
       },
       "필러군": {
-        "by_year": {},
+        "by_year": {
+          "2026": {
+            "contracted": true,
+            "contract_date": "2026-10-01",
+            "end_date": "2026-12-31",
+            "mbo_q": [
+              3000000,
+              3000000,
+              3000000,
+              3000000
+            ],
+            "actual_by_month": {},
+            "remark": ""
+          }
+        },
         "actual_by_month": {}
       },
       "리프팅실": {
-        "by_year": {},
+        "by_year": {
+          "2026": {
+            "contracted": true,
+            "contract_date": "2026-10-01",
+            "end_date": "2026-12-31",
+            "mbo_q": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "actual_by_month": {},
+            "remark": ""
+          }
+        },
         "actual_by_month": {}
       },
       "리알로": {
@@ -92315,7 +93400,7 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2026
     ],
-    "team": "RPM3팀",
+    "team": "담당자 전체",
     "rep": "박천",
     "name": "에비뉴의원(평택)",
     "biz": 7794300118,
@@ -92332,7 +93417,21 @@ window.BLOCK_DETAIL = [
         "actual_by_month": {}
       },
       "브이올렛": {
-        "by_year": {},
+        "by_year": {
+          "2026": {
+            "contracted": true,
+            "contract_date": "2026-10-01",
+            "end_date": "2026-12-31",
+            "mbo_q": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "actual_by_month": {},
+            "remark": ""
+          }
+        },
         "actual_by_month": {}
       },
       "필러군": {
@@ -92354,7 +93453,21 @@ window.BLOCK_DETAIL = [
         "actual_by_month": {}
       },
       "리프팅실": {
-        "by_year": {},
+        "by_year": {
+          "2026": {
+            "contracted": true,
+            "contract_date": "2026-10-01",
+            "end_date": "2026-12-31",
+            "mbo_q": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "actual_by_month": {},
+            "remark": ""
+          }
+        },
         "actual_by_month": {}
       },
       "리알로": {
@@ -92383,7 +93496,7 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2026
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "송진영",
     "name": "예쁨현의원",
     "biz": 6480102700,
@@ -92396,7 +93509,21 @@ window.BLOCK_DETAIL = [
     "recalled": false,
     "groups": {
       "나보타": {
-        "by_year": {},
+        "by_year": {
+          "2026": {
+            "contracted": true,
+            "contract_date": "2026-10-01",
+            "end_date": "2026-12-31",
+            "mbo_q": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "actual_by_month": {},
+            "remark": ""
+          }
+        },
         "actual_by_month": {
           "2024-10": 409091.0
         }
@@ -92420,7 +93547,21 @@ window.BLOCK_DETAIL = [
         "actual_by_month": {}
       },
       "필러군": {
-        "by_year": {},
+        "by_year": {
+          "2026": {
+            "contracted": true,
+            "contract_date": "2026-10-01",
+            "end_date": "2026-12-31",
+            "mbo_q": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "actual_by_month": {},
+            "remark": ""
+          }
+        },
         "actual_by_month": {}
       },
       "리프팅실": {
@@ -92471,7 +93612,7 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2026
     ],
-    "team": "RPM3팀",
+    "team": "담당자 전체",
     "rep": "박천",
     "name": "유앤아이의원(수원)",
     "biz": 3187500137,
@@ -92577,7 +93718,7 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2026
     ],
-    "team": "RPM3팀",
+    "team": "담당자 전체",
     "rep": "박천",
     "name": "윤슬피부과의원",
     "biz": 1583601326,
@@ -92626,11 +93767,39 @@ window.BLOCK_DETAIL = [
         "actual_by_month": {}
       },
       "필러군": {
-        "by_year": {},
+        "by_year": {
+          "2026": {
+            "contracted": true,
+            "contract_date": "2026-10-01",
+            "end_date": "2026-12-31",
+            "mbo_q": [
+              1000000,
+              1000000,
+              1000000,
+              1000000
+            ],
+            "actual_by_month": {},
+            "remark": ""
+          }
+        },
         "actual_by_month": {}
       },
       "리프팅실": {
-        "by_year": {},
+        "by_year": {
+          "2026": {
+            "contracted": true,
+            "contract_date": "2026-10-01",
+            "end_date": "2026-12-31",
+            "mbo_q": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "actual_by_month": {},
+            "remark": ""
+          }
+        },
         "actual_by_month": {}
       },
       "리알로": {
@@ -92659,7 +93828,7 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2026
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "송진영",
     "name": "잇츠미의원(서구)",
     "biz": 4756000566,
@@ -92708,11 +93877,39 @@ window.BLOCK_DETAIL = [
         "actual_by_month": {}
       },
       "필러군": {
-        "by_year": {},
+        "by_year": {
+          "2026": {
+            "contracted": true,
+            "contract_date": "2026-10-01",
+            "end_date": "2026-12-31",
+            "mbo_q": [
+              1000000,
+              1000000,
+              1000000,
+              1000000
+            ],
+            "actual_by_month": {},
+            "remark": ""
+          }
+        },
         "actual_by_month": {}
       },
       "리프팅실": {
-        "by_year": {},
+        "by_year": {
+          "2026": {
+            "contracted": true,
+            "contract_date": "2026-10-01",
+            "end_date": "2026-12-31",
+            "mbo_q": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "actual_by_month": {},
+            "remark": ""
+          }
+        },
         "actual_by_month": {}
       },
       "리알로": {
@@ -92741,7 +93938,7 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2026
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "송진영",
     "name": "초이스뷰의원",
     "biz": 3142799184,
@@ -92754,7 +93951,21 @@ window.BLOCK_DETAIL = [
     "recalled": false,
     "groups": {
       "나보타": {
-        "by_year": {},
+        "by_year": {
+          "2026": {
+            "contracted": true,
+            "contract_date": "2026-10-01",
+            "end_date": "2026-12-31",
+            "mbo_q": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "actual_by_month": {},
+            "remark": ""
+          }
+        },
         "actual_by_month": {
           "2023-02": 3727272.0,
           "2023-05": 3727272.0,
@@ -92808,11 +94019,39 @@ window.BLOCK_DETAIL = [
         }
       },
       "필러군": {
-        "by_year": {},
+        "by_year": {
+          "2026": {
+            "contracted": true,
+            "contract_date": "2026-10-01",
+            "end_date": "2026-12-31",
+            "mbo_q": [
+              1000000,
+              2000000,
+              2000000,
+              2000000
+            ],
+            "actual_by_month": {},
+            "remark": ""
+          }
+        },
         "actual_by_month": {}
       },
       "리프팅실": {
-        "by_year": {},
+        "by_year": {
+          "2026": {
+            "contracted": true,
+            "contract_date": "2026-10-01",
+            "end_date": "2026-12-31",
+            "mbo_q": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "actual_by_month": {},
+            "remark": ""
+          }
+        },
         "actual_by_month": {}
       },
       "리알로": {
@@ -92841,7 +94080,7 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2026
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "송진영",
     "name": "클린앤피부과",
     "biz": 3123084652,
@@ -92880,20 +94119,64 @@ window.BLOCK_DETAIL = [
         }
       },
       "브이올렛": {
-        "by_year": {},
+        "by_year": {
+          "2026": {
+            "contracted": true,
+            "contract_date": "2026-10-01",
+            "end_date": "2026-12-31",
+            "mbo_q": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "actual_by_month": {},
+            "remark": ""
+          }
+        },
         "actual_by_month": {
           "2025-03": 4090909.0,
           "2025-08": 4090909.0
         }
       },
       "필러군": {
-        "by_year": {},
+        "by_year": {
+          "2026": {
+            "contracted": true,
+            "contract_date": "2026-10-01",
+            "end_date": "2026-12-31",
+            "mbo_q": [
+              2000000,
+              2000000,
+              2000000,
+              2000000
+            ],
+            "actual_by_month": {
+              "2026-11": 0.0
+            },
+            "remark": ""
+          }
+        },
         "actual_by_month": {
           "2026-11": 0.0
         }
       },
       "리프팅실": {
-        "by_year": {},
+        "by_year": {
+          "2026": {
+            "contracted": true,
+            "contract_date": "2026-10-01",
+            "end_date": "2026-12-31",
+            "mbo_q": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "actual_by_month": {},
+            "remark": ""
+          }
+        },
         "actual_by_month": {}
       },
       "리알로": {
@@ -92926,7 +94209,7 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2026
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "송진영",
     "name": "클린휴의원",
     "biz": 8621100651,
@@ -92939,7 +94222,21 @@ window.BLOCK_DETAIL = [
     "recalled": false,
     "groups": {
       "나보타": {
-        "by_year": {},
+        "by_year": {
+          "2026": {
+            "contracted": true,
+            "contract_date": "2026-10-01",
+            "end_date": "2026-12-31",
+            "mbo_q": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "actual_by_month": {},
+            "remark": ""
+          }
+        },
         "actual_by_month": {}
       },
       "브이올렛": {
@@ -92961,11 +94258,39 @@ window.BLOCK_DETAIL = [
         "actual_by_month": {}
       },
       "필러군": {
-        "by_year": {},
+        "by_year": {
+          "2026": {
+            "contracted": true,
+            "contract_date": "2026-10-01",
+            "end_date": "2026-12-31",
+            "mbo_q": [
+              1000000,
+              1000000,
+              1000000,
+              1000000
+            ],
+            "actual_by_month": {},
+            "remark": ""
+          }
+        },
         "actual_by_month": {}
       },
       "리프팅실": {
-        "by_year": {},
+        "by_year": {
+          "2026": {
+            "contracted": true,
+            "contract_date": "2026-10-01",
+            "end_date": "2026-12-31",
+            "mbo_q": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "actual_by_month": {},
+            "remark": ""
+          }
+        },
         "actual_by_month": {}
       },
       "리알로": {
@@ -92994,7 +94319,7 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2026
     ],
-    "team": "RPM3팀",
+    "team": "담당자 전체",
     "rep": "박천",
     "name": "톡스앤필의원(평택)",
     "biz": 6424900711,
@@ -93036,15 +94361,57 @@ window.BLOCK_DETAIL = [
         }
       },
       "브이올렛": {
-        "by_year": {},
+        "by_year": {
+          "2026": {
+            "contracted": true,
+            "contract_date": "2026-10-01",
+            "end_date": "2026-12-31",
+            "mbo_q": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "actual_by_month": {},
+            "remark": ""
+          }
+        },
         "actual_by_month": {}
       },
       "필러군": {
-        "by_year": {},
+        "by_year": {
+          "2026": {
+            "contracted": true,
+            "contract_date": "2026-10-01",
+            "end_date": "2026-12-31",
+            "mbo_q": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "actual_by_month": {},
+            "remark": ""
+          }
+        },
         "actual_by_month": {}
       },
       "리프팅실": {
-        "by_year": {},
+        "by_year": {
+          "2026": {
+            "contracted": true,
+            "contract_date": "2026-10-01",
+            "end_date": "2026-12-31",
+            "mbo_q": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "actual_by_month": {},
+            "remark": ""
+          }
+        },
         "actual_by_month": {}
       },
       "리알로": {
@@ -93073,7 +94440,7 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2026
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "송진영",
     "name": "페이스성형외과(둔산)",
     "biz": 3142791178,
@@ -93086,7 +94453,21 @@ window.BLOCK_DETAIL = [
     "recalled": false,
     "groups": {
       "나보타": {
-        "by_year": {},
+        "by_year": {
+          "2026": {
+            "contracted": true,
+            "contract_date": "2026-10-01",
+            "end_date": "2026-12-31",
+            "mbo_q": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "actual_by_month": {},
+            "remark": ""
+          }
+        },
         "actual_by_month": {
           "2023-01": 4581819.0,
           "2023-03": 4090909.0,
@@ -93144,7 +94525,21 @@ window.BLOCK_DETAIL = [
         "actual_by_month": {}
       },
       "리프팅실": {
-        "by_year": {},
+        "by_year": {
+          "2026": {
+            "contracted": true,
+            "contract_date": "2026-10-01",
+            "end_date": "2026-12-31",
+            "mbo_q": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "actual_by_month": {},
+            "remark": ""
+          }
+        },
         "actual_by_month": {}
       },
       "리알로": {
@@ -93173,7 +94568,7 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2026
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "송진영",
     "name": "포에버의원(천안)",
     "biz": 3123310001,
@@ -93186,7 +94581,21 @@ window.BLOCK_DETAIL = [
     "recalled": false,
     "groups": {
       "나보타": {
-        "by_year": {},
+        "by_year": {
+          "2026": {
+            "contracted": true,
+            "contract_date": "2026-10-01",
+            "end_date": "2026-12-31",
+            "mbo_q": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "actual_by_month": {},
+            "remark": ""
+          }
+        },
         "actual_by_month": {
           "2023-01": 2272728.0,
           "2023-03": 2272728.0
@@ -93211,11 +94620,39 @@ window.BLOCK_DETAIL = [
         "actual_by_month": {}
       },
       "필러군": {
-        "by_year": {},
+        "by_year": {
+          "2026": {
+            "contracted": true,
+            "contract_date": "2026-10-01",
+            "end_date": "2026-12-31",
+            "mbo_q": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "actual_by_month": {},
+            "remark": ""
+          }
+        },
         "actual_by_month": {}
       },
       "리프팅실": {
-        "by_year": {},
+        "by_year": {
+          "2026": {
+            "contracted": true,
+            "contract_date": "2026-10-01",
+            "end_date": "2026-12-31",
+            "mbo_q": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "actual_by_month": {},
+            "remark": ""
+          }
+        },
         "actual_by_month": {}
       },
       "리알로": {
@@ -93244,7 +94681,7 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2026
     ],
-    "team": "RPM3팀",
+    "team": "담당자 전체",
     "rep": "박천",
     "name": "피어봄의원",
     "biz": 6084900894,
@@ -93257,7 +94694,21 @@ window.BLOCK_DETAIL = [
     "recalled": false,
     "groups": {
       "나보타": {
-        "by_year": {},
+        "by_year": {
+          "2026": {
+            "contracted": true,
+            "contract_date": "2026-10-01",
+            "end_date": "2026-12-31",
+            "mbo_q": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "actual_by_month": {},
+            "remark": ""
+          }
+        },
         "actual_by_month": {}
       },
       "브이올렛": {
@@ -93279,11 +94730,39 @@ window.BLOCK_DETAIL = [
         "actual_by_month": {}
       },
       "필러군": {
-        "by_year": {},
+        "by_year": {
+          "2026": {
+            "contracted": true,
+            "contract_date": "2026-10-01",
+            "end_date": "2026-12-31",
+            "mbo_q": [
+              2000000,
+              2000000,
+              3000000,
+              3500000.0
+            ],
+            "actual_by_month": {},
+            "remark": ""
+          }
+        },
         "actual_by_month": {}
       },
       "리프팅실": {
-        "by_year": {},
+        "by_year": {
+          "2026": {
+            "contracted": true,
+            "contract_date": "2026-10-01",
+            "end_date": "2026-12-31",
+            "mbo_q": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "actual_by_month": {},
+            "remark": ""
+          }
+        },
         "actual_by_month": {}
       },
       "리알로": {
@@ -93312,7 +94791,7 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2026
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "송진영",
     "name": "필보레의원대전유성",
     "biz": 4660202366,
@@ -93325,7 +94804,21 @@ window.BLOCK_DETAIL = [
     "recalled": false,
     "groups": {
       "나보타": {
-        "by_year": {},
+        "by_year": {
+          "2026": {
+            "contracted": true,
+            "contract_date": "2026-10-01",
+            "end_date": "2026-12-31",
+            "mbo_q": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "actual_by_month": {},
+            "remark": ""
+          }
+        },
         "actual_by_month": {}
       },
       "브이올렛": {
@@ -93354,11 +94847,39 @@ window.BLOCK_DETAIL = [
         }
       },
       "필러군": {
-        "by_year": {},
+        "by_year": {
+          "2026": {
+            "contracted": true,
+            "contract_date": "2026-10-01",
+            "end_date": "2026-12-31",
+            "mbo_q": [
+              1500000.0,
+              1500000.0,
+              2000000,
+              2500000.0
+            ],
+            "actual_by_month": {},
+            "remark": ""
+          }
+        },
         "actual_by_month": {}
       },
       "리프팅실": {
-        "by_year": {},
+        "by_year": {
+          "2026": {
+            "contracted": true,
+            "contract_date": "2026-10-01",
+            "end_date": "2026-12-31",
+            "mbo_q": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "actual_by_month": {},
+            "remark": ""
+          }
+        },
         "actual_by_month": {}
       },
       "리알로": {
@@ -93391,7 +94912,7 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2026
     ],
-    "team": "RPM3팀",
+    "team": "담당자 전체",
     "rep": "박천",
     "name": "휴먼피부과(평택)",
     "biz": 1144262912,
@@ -93404,7 +94925,21 @@ window.BLOCK_DETAIL = [
     "recalled": false,
     "groups": {
       "나보타": {
-        "by_year": {},
+        "by_year": {
+          "2026": {
+            "contracted": true,
+            "contract_date": "2026-10-01",
+            "end_date": "2026-12-31",
+            "mbo_q": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "actual_by_month": {},
+            "remark": ""
+          }
+        },
         "actual_by_month": {}
       },
       "브이올렛": {
@@ -93426,11 +94961,39 @@ window.BLOCK_DETAIL = [
         "actual_by_month": {}
       },
       "필러군": {
-        "by_year": {},
+        "by_year": {
+          "2026": {
+            "contracted": true,
+            "contract_date": "2026-10-01",
+            "end_date": "2026-12-31",
+            "mbo_q": [
+              700000.0,
+              800000.0,
+              800000.0,
+              1400000.0
+            ],
+            "actual_by_month": {},
+            "remark": ""
+          }
+        },
         "actual_by_month": {}
       },
       "리프팅실": {
-        "by_year": {},
+        "by_year": {
+          "2026": {
+            "contracted": true,
+            "contract_date": "2026-10-01",
+            "end_date": "2026-12-31",
+            "mbo_q": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "actual_by_month": {},
+            "remark": ""
+          }
+        },
         "actual_by_month": {}
       },
       "리알로": {
@@ -93460,7 +95023,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "송진영",
     "name": "노블레스강영석성형외과의원",
     "biz": 5830601317,
@@ -93571,7 +95134,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "송진영",
     "name": "다미인의원",
     "biz": 6121153572,
@@ -93647,7 +95210,21 @@ window.BLOCK_DETAIL = [
         "actual_by_month": {}
       },
       "리프팅실": {
-        "by_year": {},
+        "by_year": {
+          "2026": {
+            "contracted": true,
+            "contract_date": "2026-10-01",
+            "end_date": "2026-12-31",
+            "mbo_q": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "actual_by_month": {},
+            "remark": ""
+          }
+        },
         "actual_by_month": {}
       },
       "리알로": {
@@ -93677,7 +95254,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "송진영",
     "name": "대연류피부과",
     "biz": 2340201246,
@@ -93744,7 +95321,21 @@ window.BLOCK_DETAIL = [
         "actual_by_month": {}
       },
       "리프팅실": {
-        "by_year": {},
+        "by_year": {
+          "2026": {
+            "contracted": true,
+            "contract_date": "2026-10-01",
+            "end_date": "2026-12-31",
+            "mbo_q": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "actual_by_month": {},
+            "remark": ""
+          }
+        },
         "actual_by_month": {}
       },
       "리알로": {
@@ -93774,7 +95365,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "송진영",
     "name": "리쥬미의원",
     "biz": 7195900418,
@@ -93847,7 +95438,23 @@ window.BLOCK_DETAIL = [
         "actual_by_month": {}
       },
       "리프팅실": {
-        "by_year": {},
+        "by_year": {
+          "2026": {
+            "contracted": true,
+            "contract_date": "2026-10-01",
+            "end_date": "2026-12-31",
+            "mbo_q": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "actual_by_month": {
+              "2026-10": 272727.0
+            },
+            "remark": ""
+          }
+        },
         "actual_by_month": {
           "2026-10": 272727.0
         }
@@ -93879,7 +95486,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "송진영",
     "name": "맑고고운의원(부산)",
     "biz": 1022465590,
@@ -93994,7 +95601,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "송진영",
     "name": "아르의원 마산점",
     "biz": 4350503590,
@@ -94119,7 +95726,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "송진영",
     "name": "지움의원",
     "biz": 1433201156,
@@ -94186,7 +95793,21 @@ window.BLOCK_DETAIL = [
         "actual_by_month": {}
       },
       "리프팅실": {
-        "by_year": {},
+        "by_year": {
+          "2026": {
+            "contracted": true,
+            "contract_date": "2026-10-01",
+            "end_date": "2026-12-31",
+            "mbo_q": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "actual_by_month": {},
+            "remark": ""
+          }
+        },
         "actual_by_month": {}
       },
       "리알로": {
@@ -94216,7 +95837,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "송진영",
     "name": "처음부터댄의원",
     "biz": 6092384636,
@@ -94283,7 +95904,21 @@ window.BLOCK_DETAIL = [
         "actual_by_month": {}
       },
       "리프팅실": {
-        "by_year": {},
+        "by_year": {
+          "2026": {
+            "contracted": true,
+            "contract_date": "2026-10-01",
+            "end_date": "2026-12-31",
+            "mbo_q": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "actual_by_month": {},
+            "remark": ""
+          }
+        },
         "actual_by_month": {}
       },
       "리알로": {
@@ -94313,7 +95948,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "송진영",
     "name": "청담진의원",
     "biz": 7171601302,
@@ -94384,7 +96019,21 @@ window.BLOCK_DETAIL = [
         "actual_by_month": {}
       },
       "리프팅실": {
-        "by_year": {},
+        "by_year": {
+          "2026": {
+            "contracted": true,
+            "contract_date": "2026-10-01",
+            "end_date": "2026-12-31",
+            "mbo_q": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "actual_by_month": {},
+            "remark": ""
+          }
+        },
         "actual_by_month": {}
       },
       "리알로": {
@@ -94413,7 +96062,7 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2026
     ],
-    "team": "RPM3팀",
+    "team": "담당자 전체",
     "rep": "홍원의",
     "name": "청담도아의원",
     "biz": 8092802073,
@@ -94523,7 +96172,7 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2026
     ],
-    "team": "RPM1팀",
+    "team": "담당자 전체",
     "rep": "박기주",
     "name": "메리트성형외과",
     "biz": 2893002030,
@@ -94633,7 +96282,7 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2026
     ],
-    "team": "RPM1팀",
+    "team": "담당자 전체",
     "rep": "박기주",
     "name": "제너리스의원 강남점",
     "biz": 4330703604,
@@ -94687,7 +96336,7 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2026
     ],
-    "team": "RPM2팀",
+    "team": "담당자 전체",
     "rep": "이도현",
     "name": "제너리스의원 광명본점",
     "biz": 1377300188,
@@ -94741,7 +96390,7 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2026
     ],
-    "team": "RPM1팀",
+    "team": "담당자 전체",
     "rep": "이상준",
     "name": "제너리스의원 부천점",
     "biz": 3894500942,
@@ -94767,14 +96416,14 @@ window.BLOCK_DETAIL = [
             ],
             "actual_by_month": {
               "2026-10": 22181819.0,
-              "2026-11": 8363636.0
+              "2026-11": 17909091.0
             },
             "remark": ""
           }
         },
         "actual_by_month": {
           "2026-10": 22181819.0,
-          "2026-11": 8363636.0
+          "2026-11": 17909091.0
         }
       },
       "브이올렛": {
@@ -94801,7 +96450,7 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2026
     ],
-    "team": "RPM2팀",
+    "team": "담당자 전체",
     "rep": "이도현",
     "name": "제너리스의원 여의도점",
     "biz": 4034800929,
@@ -94855,7 +96504,7 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2026
     ],
-    "team": "RPM2팀",
+    "team": "담당자 전체",
     "rep": "장은준",
     "name": "제너리스의원 연신내점",
     "biz": 6040956920,
@@ -94909,7 +96558,7 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2026
     ],
-    "team": "RPM2팀",
+    "team": "담당자 전체",
     "rep": "장은준",
     "name": "제너리스의원 일산점",
     "biz": 6362700413,
@@ -95023,7 +96672,7 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2026
     ],
-    "team": "RPM3팀",
+    "team": "담당자 전체",
     "rep": "홍원의",
     "name": "르셀청담의원",
     "biz": 8701402971,
@@ -95133,7 +96782,7 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2026
     ],
-    "team": "RPM3팀",
+    "team": "담당자 전체",
     "rep": "홍원의",
     "name": "제로의원 신사",
     "biz": 2567200594,
@@ -95164,8 +96813,7 @@ window.BLOCK_DETAIL = [
               "2026-06": 25454546.0,
               "2026-07": 26363636.0,
               "2026-08": 10545454.0,
-              "2026-09": 10545454.0,
-              "2026-11": 26363636.0
+              "2026-09": 10545454.0
             },
             "remark": "회수"
           }
@@ -95177,8 +96825,7 @@ window.BLOCK_DETAIL = [
           "2026-06": 25454546.0,
           "2026-07": 26363636.0,
           "2026-08": 10545454.0,
-          "2026-09": 10545454.0,
-          "2026-11": 26363636.0
+          "2026-09": 10545454.0
         }
       },
       "브이올렛": {
@@ -95270,7 +96917,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM1팀",
+    "team": "담당자 전체",
     "rep": "박기주",
     "name": "올리움의원",
     "biz": 3500703309,
@@ -95312,11 +96959,15 @@ window.BLOCK_DETAIL = [
               4000000,
               4000000
             ],
-            "actual_by_month": {},
+            "actual_by_month": {
+              "2026-11": 2863637.0
+            },
             "remark": ""
           }
         },
-        "actual_by_month": {}
+        "actual_by_month": {
+          "2026-11": 2863637.0
+        }
       },
       "필러군": {
         "by_year": {
@@ -95380,7 +97031,7 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2026
     ],
-    "team": "RPM3팀",
+    "team": "담당자 전체",
     "rep": "박천",
     "name": "강남뷰베스트의원",
     "biz": 1252326588,
@@ -95404,11 +97055,15 @@ window.BLOCK_DETAIL = [
               0,
               0
             ],
-            "actual_by_month": {},
+            "actual_by_month": {
+              "2026-11": 3181819.0
+            },
             "remark": ""
           }
         },
-        "actual_by_month": {}
+        "actual_by_month": {
+          "2026-11": 3181819.0
+        }
       },
       "브이올렛": {
         "by_year": {
@@ -95490,7 +97145,7 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2026
     ],
-    "team": "RPM3팀",
+    "team": "담당자 전체",
     "rep": "박천",
     "name": "강남성형외과의원",
     "biz": 1244938136,
@@ -95530,11 +97185,15 @@ window.BLOCK_DETAIL = [
               1000000,
               1000000
             ],
-            "actual_by_month": {},
+            "actual_by_month": {
+              "2026-11": 3000000.0
+            },
             "remark": ""
           }
         },
-        "actual_by_month": {}
+        "actual_by_month": {
+          "2026-11": 3000000.0
+        }
       }
     }
   },
@@ -95544,7 +97203,7 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2026
     ],
-    "team": "RPM3팀",
+    "team": "담당자 전체",
     "rep": "박천",
     "name": "다시봄날의원",
     "biz": 3651502699,
@@ -95654,7 +97313,7 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2026
     ],
-    "team": "RPM3팀",
+    "team": "담당자 전체",
     "rep": "박천",
     "name": "닥터셀의원",
     "biz": 8941602985,
@@ -95708,7 +97367,7 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2026
     ],
-    "team": "RPM3팀",
+    "team": "담당자 전체",
     "rep": "박천",
     "name": "도도성형외과",
     "biz": 1352907178,
@@ -95818,7 +97477,7 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2026
     ],
-    "team": "RPM3팀",
+    "team": "담당자 전체",
     "rep": "박천",
     "name": "디테일의원",
     "biz": 5533200844,
@@ -95872,7 +97531,7 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2026
     ],
-    "team": "RPM3팀",
+    "team": "담당자 전체",
     "rep": "박천",
     "name": "레벨업의원",
     "biz": 6585600451,
@@ -95982,7 +97641,7 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2026
     ],
-    "team": "RPM3팀",
+    "team": "담당자 전체",
     "rep": "박천",
     "name": "뮤즈의원(화성)",
     "biz": 7654400703,
@@ -96036,7 +97695,7 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2026
     ],
-    "team": "RPM3팀",
+    "team": "담당자 전체",
     "rep": "박천",
     "name": "올림피움채움의원수원점",
     "biz": 5622201789,
@@ -96151,7 +97810,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM2팀",
+    "team": "담당자 전체",
     "rep": "장은준",
     "name": "더히엘의원",
     "biz": 5177300405,
@@ -96175,11 +97834,15 @@ window.BLOCK_DETAIL = [
               10000000,
               10000000
             ],
-            "actual_by_month": {},
+            "actual_by_month": {
+              "2026-11": 16363637.0
+            },
             "remark": ""
           }
         },
-        "actual_by_month": {}
+        "actual_by_month": {
+          "2026-11": 16363637.0
+        }
       },
       "브이올렛": {
         "by_year": {
@@ -96262,7 +97925,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM3팀",
+    "team": "담당자 전체",
     "rep": "홍원의",
     "name": "에이엘의원",
     "biz": 4234300933,
@@ -96372,7 +98035,7 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2026
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "송진영",
     "name": "리즈온의원부산점",
     "biz": 6931801669,
@@ -96396,11 +98059,15 @@ window.BLOCK_DETAIL = [
               7000000,
               11000000
             ],
-            "actual_by_month": {},
+            "actual_by_month": {
+              "2026-11": 3181819.0
+            },
             "remark": ""
           }
         },
-        "actual_by_month": {}
+        "actual_by_month": {
+          "2026-11": 3181819.0
+        }
       },
       "브이올렛": {
         "by_year": {
@@ -96482,7 +98149,7 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2026
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "송진영",
     "name": "메모리성형외과의원",
     "biz": 3596600330,
@@ -96592,7 +98259,7 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2026
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "송진영",
     "name": "메이린의원(청주점)",
     "biz": 4530903034,
@@ -96702,7 +98369,7 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2026
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "송진영",
     "name": "뮤즈의원(둔산)",
     "biz": 4810401337,
@@ -96812,7 +98479,7 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2026
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "송진영",
     "name": "바로그의원유성점",
     "biz": 8112501682,
@@ -96927,7 +98594,7 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2026
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "송진영",
     "name": "바로그의원청주점",
     "biz": 3062162025,
@@ -97052,7 +98719,7 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2026
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "송진영",
     "name": "비에이의원",
     "biz": 7071702238,
@@ -97162,7 +98829,7 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2026
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "송진영",
     "name": "서울뷰의원",
     "biz": 4252800839,
@@ -97276,7 +98943,7 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2026
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "송진영",
     "name": "선사웰니스의원",
     "biz": 3149276554,
@@ -97386,7 +99053,7 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2026
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "송진영",
     "name": "아이엠피부과",
     "biz": 6825000393,
@@ -97496,7 +99163,7 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2026
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "송진영",
     "name": "에스듈의원(청주)",
     "biz": 1142569408,
@@ -97606,7 +99273,7 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2026
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "송진영",
     "name": "유파인의원",
     "biz": 2750901173,
@@ -97660,7 +99327,7 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2026
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "송진영",
     "name": "크리미의원",
     "biz": 7671102392,
@@ -97715,7 +99382,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "송진영",
     "name": "플레르의원",
     "biz": 2142101850,
@@ -97739,11 +99406,15 @@ window.BLOCK_DETAIL = [
               9000000,
               12000000
             ],
-            "actual_by_month": {},
+            "actual_by_month": {
+              "2026-11": 3181819.0
+            },
             "remark": ""
           }
         },
-        "actual_by_month": {}
+        "actual_by_month": {
+          "2026-11": 3181819.0
+        }
       },
       "브이올렛": {
         "by_year": {
@@ -97826,7 +99497,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "손창민",
     "name": "블레스유외과",
     "biz": 5272200695,
@@ -97868,11 +99539,15 @@ window.BLOCK_DETAIL = [
               0,
               1000000
             ],
-            "actual_by_month": {},
+            "actual_by_month": {
+              "2026-11": 0.0
+            },
             "remark": ""
           }
         },
-        "actual_by_month": {}
+        "actual_by_month": {
+          "2026-11": 0.0
+        }
       },
       "필러군": {
         "by_year": {
@@ -97886,11 +99561,15 @@ window.BLOCK_DETAIL = [
               0,
               1000000
             ],
-            "actual_by_month": {},
+            "actual_by_month": {
+              "2026-11": 0.0
+            },
             "remark": ""
           }
         },
-        "actual_by_month": {}
+        "actual_by_month": {
+          "2026-11": 0.0
+        }
       },
       "리프팅실": {
         "by_year": {
@@ -97937,7 +99616,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM2팀",
+    "team": "담당자 전체",
     "rep": "이도현",
     "name": "안산미드림의원",
     "biz": 1343064570,
@@ -97961,11 +99640,15 @@ window.BLOCK_DETAIL = [
               10000000,
               10000000
             ],
-            "actual_by_month": {},
+            "actual_by_month": {
+              "2026-11": 11363636.0
+            },
             "remark": ""
           }
         },
-        "actual_by_month": {}
+        "actual_by_month": {
+          "2026-11": 11363636.0
+        }
       },
       "브이올렛": {
         "by_year": {
@@ -98034,7 +99717,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "이상직",
     "name": "더설레임피부과의원",
     "biz": 4835800278,
@@ -98058,11 +99741,15 @@ window.BLOCK_DETAIL = [
               8000000,
               8000000
             ],
-            "actual_by_month": {},
+            "actual_by_month": {
+              "2026-11": 3181819.0
+            },
             "remark": ""
           }
         },
-        "actual_by_month": {}
+        "actual_by_month": {
+          "2026-11": 3181819.0
+        }
       },
       "브이올렛": {
         "by_year": {
@@ -98144,7 +99831,7 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2026
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "이상직",
     "name": "뷰티민의원",
     "biz": 5242601844,
@@ -98254,7 +99941,7 @@ window.BLOCK_DETAIL = [
     "manager_contract_years": [
       2026
     ],
-    "team": "RPM4팀",
+    "team": "담당자 전체",
     "rep": "이상직",
     "name": "큐비의원",
     "biz": 5820803029,
@@ -98420,7 +100107,7 @@ window.BLOCK_DETAIL = [
       2025,
       2026
     ],
-    "team": "RPM2팀",
+    "team": "담당자 전체",
     "rep": "전우찬",
     "name": "연세뷰티의원",
     "biz": 2110967263,
@@ -98460,11 +100147,15 @@ window.BLOCK_DETAIL = [
               0,
               0
             ],
-            "actual_by_month": {},
+            "actual_by_month": {
+              "2026-11": 9000000.0
+            },
             "remark": ""
           }
         },
-        "actual_by_month": {}
+        "actual_by_month": {
+          "2026-11": 9000000.0
+        }
       }
     }
   }
@@ -98775,14 +100466,15 @@ window.BLOCK_META = {
     "2026-10",
     "2026-11"
   ],
-  "generated_at": "2026-11-26 13:33",
-  "latest_sales_date": "2026-11-25"
+  "generated_at": "2026-11-27 08:32",
+  "latest_sales_date": "2026-11-26"
 };
 window.TEAM_MEMBERS = {
   "RPM1팀": [
     "유재준",
     "박기주",
-    "이상준"
+    "이상준",
+    "전지원"
   ],
   "RPM2팀": [
     "하성환",
@@ -98802,8 +100494,21 @@ window.TEAM_MEMBERS = {
     "손창민",
     "이상직"
   ],
-  "블루오션TF": [
-    "김진희",
-    "전지원"
+  "담당자 전체": [
+    "유재준",
+    "박기주",
+    "이상준",
+    "하성환",
+    "김태훈",
+    "이도현",
+    "전우찬",
+    "박천",
+    "장은준",
+    "정대철",
+    "홍원의",
+    "송진영",
+    "이상직",
+    "전지원",
+    "손창민"
   ]
 };
