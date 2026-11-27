@@ -2162,7 +2162,8 @@ const ITEMS=['톡신','CaHA','HA','브이올렛','케어트로핀','캐뉼라','
 const ITEM_COLORS=['#3266ad','#1D9E75','#BA7517','#534AB7','#D85A30','#0F6E56','#e8a838','#9FE1CB','#73726c','#E24B4A','#b4b2a9'];
 const ITEM_TREND_MIN=2000000000;
 const DEFAULT_EXCLUDED=new Set(['처방']);
-const V1_DEFAULT_EXCLUDED=new Set([...DEFAULT_EXCLUDED,'기타']);   // V1(매출현황) 기본 제외: 처방 + 기타 (V2 등 다른 페이지는 DEFAULT_EXCLUDED 그대로)
+const V1_DEFAULT_EXCLUDED=new Set([...DEFAULT_EXCLUDED,'기타']);
+const V2_DEFAULT_EXCLUDED=new Set([...DEFAULT_EXCLUDED,'기타']);   // V2 기본 제외: 처방 + 기타   // V1(매출현황) 기본 제외: 처방 + 기타 (V2 등 다른 페이지는 DEFAULT_EXCLUDED 그대로)
 
 const D=EMBEDDED_DATA;
 const RAW=D.raw.map(r=>({
@@ -4987,12 +4988,12 @@ function initV2Page(){
     </div>`).join('');
   }
 
-  // 품목 필터 (처방 제외 기본)
-  const allItems = [...ITEMS, '기타']; // 처방은 DEFAULT_EXCLUDED
+  // 품목 필터 (처방·기타 제외 기본)
+  const allItems = [...ITEMS, '기타']; // 처방·기타는 V2_DEFAULT_EXCLUDED
   const v2chkList = document.getElementById('v2ItemCheckList');
   if(v2chkList){
     v2chkList.innerHTML = allItems.map(it=>{
-      const defaultOn = !DEFAULT_EXCLUDED.has(it);
+      const defaultOn = !V2_DEFAULT_EXCLUDED.has(it);
       return `<div class="multi-dropdown-item"><input type="checkbox" class="v2-item-chk" value="${it}" ${defaultOn?'checked':''} onchange="v2UpdateItemBtn(); v2RefreshProdList(); v2Apply()"><label style="cursor:pointer">${it}</label></div>`;
     }).join('');
     const v2all = document.getElementById('v2ChkAll');
@@ -5047,8 +5048,8 @@ function resetV2Filters(){
   }
   const pAll=document.getElementById('v2PersonChkAll'); if(pAll) pAll.checked=true;
   updateDropBtn('v2PersonBtn',[],'전체 담당자');
-  // 품목 (처방 제외가 기본)
-  document.querySelectorAll('.v2-item-chk').forEach(c=>c.checked=!DEFAULT_EXCLUDED.has(c.value));
+  // 품목 (처방·기타 제외가 기본)
+  document.querySelectorAll('.v2-item-chk').forEach(c=>c.checked=!V2_DEFAULT_EXCLUDED.has(c.value));
   const v2iBtn=document.getElementById('v2ItemBtn'); if(v2iBtn) v2iBtn.textContent='전체 품목구분'; // 최초 로딩 표시와 동일
   const v2iAll=document.getElementById('v2ChkAll'); if(v2iAll) v2iAll.checked=false;
   // 유통구분
